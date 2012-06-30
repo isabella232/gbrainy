@@ -12,7 +12,7 @@ Here are the steps to create a new gbrainy release:
 
 See tests/README
 
-* Update the file NEWS with the most rellevant changes
+* Update the file NEWS with the most relevant changes
 
 * Make sure that the configure.ac contains the right version number for the release
 
