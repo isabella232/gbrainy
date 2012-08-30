@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-21 13:38+0200\n"
-"PO-Revision-Date: 2012-05-21 13:40+0200\n"
+"POT-Creation-Date: 2012-08-30 14:31+0200\n"
+"PO-Revision-Date: 2012-08-30 14:31+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician <gnome-l10n-gl@gnome.org>\n"
 "Language: gl\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Launchpad-Export-Date: 2011-03-05 09:44+0000\n"
-"X-Generator: Launchpad (build 12515)\n"
+"X-Generator: Gtranslator 2.91.5\n"
 "X-Poedit-Language: Galician\n"
 
 #: ../data/games.xml.h:1
@@ -1570,7 +1570,7 @@ msgstr "prato / romper | globo"
 
 #: ../data/verbal_analogies.xml.h:239
 msgid "Burst"
-msgstr ""
+msgstr "Ráfaga"
 
 #: ../data/verbal_analogies.xml.h:240
 msgid "Bounce"
