@@ -282,6 +282,59 @@
 		<_answer>Generic</_answer>
 	</analogy>
 
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer correct ="yes">Plate</_answer>
+		<_answer>Bootle</_answer>
+		<_answer>Amphora</_answer>
+		<_answer>Bowl</_answer>
+		<_rationale>It is the only one that is not used to storage liquids.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer correct ="yes">Olive</_answer>
+		<_answer>Walnut</_answer>
+                <!-- Translator: In reference to the nut -->
+		<_answer>Macadamia</_answer>
+		<_answer>Chestnut</_answer>
+		<_rationale>It is the only one that is not a nut.</_rationale>
+	</analogy>
+
+        <analogy>
+		<_question type = "MultipleOptions">Which of the following words is closest to the meaning of 'acclaim'?</_question>
+		<_answer correct ="yes">Applause</_answer>
+		<_answer>Commendation</_answer>
+		<_answer>Citation</_answer>
+		<_answer>Conjure</_answer>
+	</analogy>
+
+        <analogy>
+		<_question type = "MultipleOptions">Which of the following words is closest to the meaning of 'grief'?</_question>
+                <!-- Translator: As a noun -->
+		<_answer correct ="yes">Lament</_answer>
+		<_answer>Fraud</_answer>
+		<_answer>Intolerance</_answer>
+		<_answer>Risk</_answer>
+	</analogy>
+
+        <analogy>
+		<_question type = "MultipleOptions">Which of the following words is closest to the meaning of 'phlegmatic'?</_question>
+		<_answer correct ="yes">Calm</_answer>
+		<_answer>Authentic</_answer>
+		<_answer>Clever</_answer>
+		<_answer>Tense</_answer>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer correct ="yes">Concert</_answer>
+		<_answer>Satire</_answer>
+		<_answer>Proverb</_answer>
+		<_answer>Epigram</_answer>
+		<_rationale>It is the only one that is not related to literature.</_rationale>
+	</analogy>
+   
 	<!--- Pair of words options -->
 
 	<analogy>
