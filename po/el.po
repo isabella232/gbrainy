@@ -9,18 +9,293 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-03 14:09+0300\n"
-"PO-Revision-Date: 2011-12-25 11:36+0200\n"
-"Last-Translator: Efstathios Iosifidis <diamond_gr@freemail.gr>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gbrainy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-05-21 06:55+0000\n"
+"PO-Revision-Date: 2012-09-15 13:49+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/games.xml.h:1
+msgid "Clock Rotation"
+msgstr "Περιστροφή ρολογιού"
+
+#: ../data/games.xml.h:2
+msgid "Every hour rotates 360 degrees."
+msgstr "Κάθε ώρα περιστρέφεται 360 μοίρες."
+
+#: ../data/games.xml.h:3
+msgid "Brothers and sisters"
+msgstr "Αδέρφια κι αδερφές"
+
+#: ../data/games.xml.h:4
+msgid ""
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
+"[both] have both. How many people have neither brothers nor sisters?"
+msgstr ""
+"Εκτός από τα άτομα [people], τα άτομα [brothers] έχουν αδερφούς, τα "
+"[sisters] έχουν αδερφές και τα [both] έχουν και τα δύο. Πόσα άτομα έχουν "
+"είτε αδερφούς είτε αδερφές;"
+
+#: ../data/games.xml.h:5
+msgid ""
+"It is calculated by taking the total number of people minus [brothers_only] "
+"people that have brothers only, minus [sisters_only] that have sisters only "
+"and minus [both] that have sisters and brothers."
+msgstr ""
+"Υπολογίζεται με τη λήψη του συνολικού αριθμού των ανθρώπων μείον "
+"[brothers_only] τους ανθρώπους που έχουν μόνο αδελφούς, μείον [sisters_only] "
+"που έχουν αδελφές μόνο και μείον [both] που έχουν αδελφές και αδελφούς."
+
+#: ../data/games.xml.h:6
+msgid "Age"
+msgstr "Ηλικία"
+
+#: ../data/games.xml.h:7
+msgid ""
+"John's son age is nowadays half of John's age minus [difference], that is, "
+"([father] / 2) - [difference]."
+msgstr ""
+"Ηλικία του γιου του john στις μέρες μας είναι τo μισό της ηλικίας του John "
+"μείον [difference], δηλαδή, ([father] / 2) - [difference]."
+
+#: ../data/games.xml.h:8
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: ../data/games.xml.h:9
+msgid ""
+"Every digit has 10 possibilities. The total number of possibilities is 10 at "
+"the power of [digits]."
+msgstr ""
+"Κάθε ψηφίο έχει 10 πιθανότητες. Ο συνολικός αριθμός πιθανοτήτων είναι 10 στη "
+"δύναμη των [digits]."
+
+#: ../data/games.xml.h:10
+msgid ""
+"Every digit has 8 possibilities. The total number of possibilities is 8 at "
+"the power of [digits]."
+msgstr ""
+"Κάθε ψηφίο έχει 8 πιθανότητες. Ο συνολικός αριθμός πιθανοτήτων είναι 8 στη "
+"δύναμη των [digits]."
+
+#: ../data/games.xml.h:11
+msgid "Tennis game"
+msgstr "Τένις"
+
+#: ../data/games.xml.h:12
+msgid ""
+"Every game is an independent event with 2 possible results. The total number "
+"of possibilities is 2 at the power of [games]."
+msgstr ""
+"Κάθε παιχνίδι έχει ένα ανεξάρτητο συμβάν με 2 πιθανά αποτελέσματα. Ο "
+"συνολικός αριθμός πιθανοτήτων είναι 2 στη δύναμη των [games]."
+
+#: ../data/games.xml.h:13
+msgid ""
+"In every match you eliminate one player. Therefore, the result is the total "
+"number of player minus one."
+msgstr ""
+"Σε κάθε αγώνα αποκλείεται ένας παίκτης. Επομένως, το αποτέλεσμα είναι ο "
+"συνολικός αριθμός παιχνιδιών μείον το 1."
+
+#: ../data/games.xml.h:14
+msgid "Bank interest"
+msgstr "Επιτόκιο τραπέζης"
+
+#: ../data/games.xml.h:15
+msgid ""
+"Compound interest is paid on the principal plus any past interest "
+"accumulated."
+msgstr ""
+"Το επιτόκιο ανατοκισμού καταβάλλεται επί του αρχικού ποσού και των "
+"συσσωρευμένων τόκων του παρελθόντος. "
+
+#: ../data/games.xml.h:16
+msgid "Simple equations"
+msgstr "Απλές εξισώσεις"
+
+#: ../data/games.xml.h:17
+msgid "What number plus [num_a] equals [num_b]?"
+msgstr "Ποιος αριθμός προστίθεται στο [num_a] και ισούται με [num_b];"
+
+#: ../data/games.xml.h:18
+msgid "x + [num_a] = [num_b]"
+msgstr "x + [num_a] = [num_b]"
+
+#: ../data/games.xml.h:19
+msgid "It is the result of the operation [num_b] - [num_a]."
+msgstr "Είναι το αποτέλεσμα της πράξης [num_b] - [num_a]."
+
+#: ../data/games.xml.h:20
+msgid "What number minus [num_a] equals [num_b]?"
+msgstr "Ποιος αριθμός που αφαιρείται με το [num_a] ισούται με [num_b];"
+
+#: ../data/games.xml.h:21
+msgid "x - [num_a] = [num_b]"
+msgstr "x - [num_a] = [num_b]"
+
+#: ../data/games.xml.h:22
+msgid "It is the result of the operation [num_a] + [num_b]."
+msgstr "Είναι το αποτέλεσμα της πράξης [num_b] + [num_a]."
+
+#: ../data/games.xml.h:23
+msgid "What number multiplied by [num_a] equals [num_b]?"
+msgstr "Ποιος αριθμός που πολλαπλασιάζεται με τον [num_a] ισούται με [num_b];"
+
+#: ../data/games.xml.h:24
+msgid "x * [num_a] = [num_b]"
+msgstr "x * [num_a] = [num_b]"
+
+#: ../data/games.xml.h:25
+msgid "It is the result of the operation [num_b] / [num_a]."
+msgstr "Είναι το αποτέλεσμα της πράξης [num_b] / [num_a]."
+
+#: ../data/games.xml.h:26
+msgid "What number divided by [num_a] equals [num_b]?"
+msgstr "Ποιος αριθμός που διαιρείται από τον [num_a] ισούται με [num_b];"
+
+#: ../data/games.xml.h:27
+msgid "x / [num_a] = [num_b]"
+msgstr "x / [num_a] = [num_b]"
+
+#: ../data/games.xml.h:28
+msgid "It is the result of the operation [num_a] * [num_b]."
+msgstr "Είναι το αποτέλεσμα της πράξης [num_b] * [num_a]."
+
+#: ../data/games.xml.h:29
+msgid "Boxes"
+msgstr "Κουτιά"
+
+#: ../data/games.xml.h:30
+msgid "Container"
+msgstr "Δοχείο"
+
+#: ../data/games.xml.h:31
+msgid "Box"
+msgstr "Κουτί"
+
+#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
+#: ../data/games.xml.h:33
+msgid ""
+"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
+"x 5 x [z]?"
+msgstr ""
+"Πόσα κουτιά με διαστάσεις 1 x 1 x 0.5 μπορούν να πακεταριστούν σε ένα δοχείο "
+"με διαστάσεις 6 x 5 x [z]; "
+
+#: ../data/games.xml.h:34
+msgid "You can fit 6 * 5 * [z] * 2 boxes."
+msgstr "Μπορείτε να ταιριάξετε 6 * 5 * [z] * 2 κουτιά."
+
+#: ../data/games.xml.h:35
+msgid "Palindromic years"
+msgstr "Συμμετρικά έτη"
+
+#: ../data/games.xml.h:36
+msgid ""
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
+"are the next two consecutive palindromic years after [year_end] with the "
+"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+msgstr ""
+"Το έτος [year_start] είναι ένα συμμετρικό έτος όπως το έτος [year_end], ένα "
+"κενό 11 ετών. Ποια είναι τα επόμενα δύο συναπτά έτη με παλινδρομικούς μετά "
+"από [year_end] χρόνια με την ίδια διαφορά; Απάντηση με δύο αριθμούς (π.χ.: "
+"[year_start] και [year_end])."
+
+#: ../data/games.xml.h:37
+msgid ""
+"A palindromic number remains the same when its digits are reversed (e.g.: "
+"2112)."
+msgstr ""
+"Ένας συμμετρικός αριθμός παραμένει ίδιος όταν τα ψηφία του αντιστρέφονται (π."
+"χ.: 2112)."
+
+#: ../data/games.xml.h:38
+msgid "[rslt_a] and [rslt_b]"
+msgstr "[rslt_a] και [rslt_b]"
+
+#: ../data/games.xml.h:39
+msgid ""
+"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
+"except for the end of each millennium that occur at a 11 years interval."
+msgstr ""
+"Από το έτος 1000 έως το έτος 10000, παλίνδρομα χρόνια συμβαίνουν σε 110 "
+"χρονικά διαστήματα του έτους εκτός από το τέλος κάθε χιλιετίας που "
+"συμβαίνουν σε ένα διάστημα 11 ετών."
+
+#: ../data/games.xml.h:40
+msgid "Dartboard"
+msgstr "Dartboard"
+
+#: ../data/games.xml.h:41
+msgid ""
+"On the dartboard below, where would you need to throw the darts to add 120 "
+"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+msgstr ""
+"Από τον πίνακα dart παρακάτω, όπου θα πρέπει να ρίξεις τα βέλη για να "
+"προσθέσεις 120 μονάδες σε 5 ρίψεις; Να απαντήσεις χρησιμοποιώντας μια λίστα "
+"αριθμών (π.χ.: 4, 5, 6, 3, 2)"
+
+#: ../data/games.xml.h:42
+msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
+msgstr ""
+"Μόνο 3 από τους 4 αριθμούς στο πίνακα με τα βελάκια χρησιμοποιούνται για την "
+"προσθήκη 120 μονάδων."
+
+#: ../data/games.xml.h:43
+msgid "Horse race"
+msgstr "Αγώνας αλόγων"
+
+#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
+msgid ""
+"In a horse race there are people and horses. You count [eyes] eye and [legs] "
+"leg. How many horses are present?"
+msgid_plural ""
+"In a horse race there are people and horses. You count [eyes] eyes and "
+"[legs] legs. How many horses are present?"
+msgstr[0] ""
+"Σε έναν αγώνα αλόγων υπάρχουν οι άνθρωποι και τα άλογα. Μετράνε [eyes] ματια "
+"και [legs] πόδια. Πόσα άλογα βλέπεις;"
+msgstr[1] ""
+"Σε έναν αγώνα αλόγων υπάρχουν οι άνθρωποι και τα άλογα. Μετράνε [eyes] ματια "
+"και [legs]πόδια. Πόσα άλογα βλέπεις;"
+
+#: ../data/games.xml.h:45
+msgid ""
+"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
+"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
+msgstr ""
+"Κάθε άνθρωπος έχει δύο πόδια και κάθε άλογο τέσσερα (2 * [men] + [horses] * "
+"4). Κάθε άτομο και κάθε άλογο έχει επίσης δύο μάτια (2 * [men] + 2 * "
+"[horses])."
+
+#: ../data/games.xml.h:46
+msgid "Lever"
+msgstr "μοχλός"
+
+#: ../data/games.xml.h:47
+msgid ""
+"How much weight is needed at the point indicated by the question mark to "
+"balance the lever?"
+msgstr ""
+"Πόσο βάρος είναι αναγκαίο στο σημείο που υποδεικνύεται από το ερωτηματικό να "
+"ισορροπήσει το μοχλό;"
+
+#: ../data/games.xml.h:48
+msgid ""
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
+"and a place to stand and I can move the Earth'."
+msgstr ""
+"Εξετάστε την πρόταση που αποδίδεται στον Αρχιμήδη: «Δώστε μου ένα μοχλό για "
+"αρκετά μεγάλο χρονικό διάστημα και ένα μέρος για να σταθώ και να μπορώ να "
+"μετακινήσω τη Γη»."
+
+#: ../data/games.xml.h:49
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
@@ -28,7 +303,19 @@ msgstr ""
 "Ένας μοχλός είναι σε ισορροπία όταν τα αντικείμενα που τοποθετούνται πάνω "
 "του βρίσκονται σε αποστάσεις αμοιβαία με την αναλογία τους."
 
-#: ../data/games.xml.h:2
+#: ../data/games.xml.h:50
+msgid "Multiple number"
+msgstr "Πολλαπλοί αριθμοί"
+
+#: ../data/games.xml.h:51
+msgid ""
+"Which two numbers of the list below are both multiple of [num_x] and "
+"[num_y]? [option_answers]"
+msgstr ""
+"Ποιούς δύο αριθμούς της παρακάτω λίστας είναι και οι δύο πολλαπλάσιο του "
+"[num_x] και [num_y]; [option_answers]"
+
+#: ../data/games.xml.h:52
 msgid ""
 "A multiple is a number that may be divided by another number with no "
 "remainder. For example, 10, 15 and 25 are multiples of 5."
@@ -37,39 +324,7 @@ msgstr ""
 "αριθμό, χωρίς υπόλοιπο. Για παράδειγμα, 10, 15 και 25 είναι πολλαπλάσια του "
 "5."
 
-#: ../data/games.xml.h:3
-msgid ""
-"A palindromic number remains the same when its digits are reversed (e.g.: "
-"2112)."
-msgstr ""
-"Ένας συμμετρικός αριθμός παραμένει ίδιος όταν τα ψηφία του αντιστρέφονται (π."
-"χ.: 2112)."
-
-#: ../data/games.xml.h:4
-msgid "Age"
-msgstr "Ηλικία"
-
-#: ../data/games.xml.h:5
-msgid "Bank interest"
-msgstr "Επιτόκιο τραπέζης"
-
-#: ../data/games.xml.h:6
-msgid "Box"
-msgstr "Κουτί"
-
-#: ../data/games.xml.h:7
-msgid "Boxes"
-msgstr "Κουτιά"
-
-#: ../data/games.xml.h:8
-msgid "Brothers and sisters"
-msgstr "Αδέρφια κι αδερφές"
-
-#: ../data/games.xml.h:9
-msgid "Cars in town"
-msgstr "Αυτοκίνητα στην πόλη"
-
-#: ../data/games.xml.h:10
+#: ../data/games.xml.h:53
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
 #: ../src/Games/Calculation/CalculationAverage.cs:185
@@ -91,168 +346,38 @@ msgstr "Αυτοκίνητα στην πόλη"
 msgid "Choose one of the following:"
 msgstr "Επέλεξε ένα απο τα ακόλουθα"
 
-#: ../data/games.xml.h:11
-msgid "Clock Rotation"
-msgstr "Περιστροφή ρολογιού"
+#: ../data/games.xml.h:54
+msgid "[option_prefix] [option_a] and [option_c]"
+msgstr "[option_prefix] [option_a] και [option_c]"
 
-#: ../data/games.xml.h:12
-msgid "Compare variables"
-msgstr "Σύγκρινε μεταβλητές"
+#: ../data/games.xml.h:55
+msgid "[option_prefix] [option_a] and [option_b]"
+msgstr "[option_prefix] [option_a] και [option_b]"
 
-#: ../data/games.xml.h:13
-msgid ""
-"Compound interest is paid on the principal plus any past interest "
-"accumulated."
+#: ../data/games.xml.h:56
+msgid "[option_prefix] [option_b] and [option_c]"
+msgstr "[option_prefix] [option_b] και [option_c]"
+
+#: ../data/games.xml.h:57
+msgid "[option_prefix] [option_c] and [option_d]"
+msgstr "[option_prefix] [option_c] και [option_d]"
+
+#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
+#: ../data/games.xml.h:59
+msgid "[option_a] and [option_b]"
+msgstr "[option_a] καί [option_b]"
+
+#: ../data/games.xml.h:60
+msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
 msgstr ""
-"Το επιτόκιο ανατοκισμού καταβάλλεται επί του αρχικού ποσού και των "
-"συσσωρευμένων τόκων του παρελθόντος. "
+"[option_a] και [option_b] είναι και τα δύο πολλαπλάσια του [num_x] και "
+"[num_y]."
 
-#: ../data/games.xml.h:14
-msgid ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
-"and a place to stand and I can move the Earth'."
-msgstr ""
-"Εξετάστε την πρόταση που αποδίδεται στον Αρχιμήδη: «Δώστε μου ένα μοχλό για "
-"αρκετά μεγάλο χρονικό διάστημα και ένα μέρος για να σταθώ και να μπορώ να "
-"μετακινήσω τη Γη»."
+#: ../data/games.xml.h:61
+msgid "Cars in town"
+msgstr "Αυτοκίνητα στην πόλη"
 
-#: ../data/games.xml.h:15
-msgid "Container"
-msgstr "Δοχείο"
-
-#: ../data/games.xml.h:16
-msgid "Dartboard"
-msgstr "Dartboard"
-
-#: ../data/games.xml.h:17
-msgid ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at "
-"the power of [digits]."
-msgstr ""
-"Κάθε ψηφίο έχει 10 πιθανότητες. Ο συνολικός αριθμός πιθανοτήτων είναι 10 στη "
-"δύναμη των [digits]."
-
-#: ../data/games.xml.h:18
-msgid ""
-"Every digit has 8 possibilities. The total number of possibilities is 8 at "
-"the power of [digits]."
-msgstr ""
-"Κάθε ψηφίο έχει 8 πιθανότητες. Ο συνολικός αριθμός πιθανοτήτων είναι 8 στη "
-"δύναμη των [digits]."
-
-#: ../data/games.xml.h:19
-msgid ""
-"Every game is an independent event with 2 possible results. The total number "
-"of possibilities is 2 at the power of [games]."
-msgstr ""
-"Κάθε παιχνίδι έχει ένα ανεξάρτητο συμβάν με 2 πιθανά αποτελέσματα. Ο "
-"συνολικός αριθμός πιθανοτήτων είναι 2 στη δύναμη των [games]."
-
-#: ../data/games.xml.h:20
-msgid "Every hour rotates 360 degrees."
-msgstr "Κάθε ώρα περιστρέφεται 360 μοίρες."
-
-#: ../data/games.xml.h:21
-msgid ""
-"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
-"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr ""
-"Κάθε άνθρωπος έχει δύο πόδια και κάθε άλογο τέσσερα (2 * [men] + [horses] * "
-"4). Κάθε άτομο και κάθε άλογο έχει επίσης δύο μάτια (2 * [men] + 2 * "
-"[horses])."
-
-#: ../data/games.xml.h:22
-msgid "Family relations"
-msgstr "Οικογενιακές σχέσεις"
-
-#: ../data/games.xml.h:23
-msgid ""
-"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
-"except for the end of each millennium that occur at a 11 years interval."
-msgstr ""
-"Από το έτος 1000 έως το έτος 10000, παλίνδρομα χρόνια συμβαίνουν σε 110 "
-"χρονικά διαστήματα του έτους εκτός από το τέλος κάθε χιλιετίας που "
-"συμβαίνουν σε ένα διάστημα 11 ετών."
-
-#: ../data/games.xml.h:24
-msgid ""
-"Given two integer numbers x and y, if x is even and y odd, which of the "
-"following expressions gives always an odd result? [option_answers]"
-msgstr ""
-"Δεδομένων δύο ακέραιους αριθμούς x και y, αν το x είναι ζυγός και y περιττό, "
-"ποια από τις παρακάτω εκφράσεις δίνει πάντα περιττό αποτέλεσμα; "
-"[option_answers]"
-
-#: ../data/games.xml.h:25
-msgid "His father"
-msgstr "Ο πατέρας του"
-
-#: ../data/games.xml.h:26
-msgid "His mother"
-msgstr "Η μητέρα του"
-
-#: ../data/games.xml.h:27
-msgid "Horse race"
-msgstr "Αγώνας αλόγων"
-
-#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
-#: ../data/games.xml.h:29
-msgid ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
-"x 5 x [z]?"
-msgstr ""
-"Πόσα κουτιά με διαστάσεις 1 x 1 x 0.5 μπορούν να πακεταριστούν σε ένα δοχείο "
-"με διαστάσεις 6 x 5 x [z]; "
-
-#: ../data/games.xml.h:30
-msgid ""
-"How much weight is needed at the point indicated by the question mark to "
-"balance the lever?"
-msgstr ""
-"Πόσο βάρος είναι αναγκαίο στο σημείο που υποδεικνύεται από το ερωτηματικό να "
-"ισορροπήσει το μοχλό;"
-
-#: ../data/games.xml.h:31
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"Αν p &lt; x &lt; q and r &lt; y &lt; s και ξέρεις οτι x &gt; y είναι "
-"αλήθεια, ποια από τις παρακάτω επιλογές είναι σωστές; [option_answers]"
-
-#: ../data/games.xml.h:32
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"Αν p &lt; x &lt; q and r &lt; y &lt; s και ξέρεις οτι x &lt; y είναι "
-"αλήθεια,  ποια από τις παρακάτω επιλογές είναι σωστές; [option_answers]"
-
-#: ../data/games.xml.h:33
-#, fuzzy
-msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr ""
-"Αν x &gt; y, then x &gt; q &lt; και y &gt; r οπότε r &lt; q είναι σωστό"
-
-#: ../data/games.xml.h:34
-msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr "Αν x &lt; y, then p &lt; x &lt; y &lt; s οπότε s &gt; p είναι σωστό"
-
-#: ../data/games.xml.h:35 ../tools/GameXmlGetString.cs:65
-msgid ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs] "
-"leg. How many horses are present?"
-msgid_plural ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
-msgstr[0] ""
-"Σε έναν αγώνα αλόγων υπάρχουν οι άνθρωποι και τα άλογα. Μετράνε [eyes] ματια "
-"και [legs] πόδια. Πόσα άλογα βλέπεις;"
-msgstr[1] ""
-"Σε έναν αγώνα αλόγων υπάρχουν οι άνθρωποι και τα άλογα. Μετράνε [eyes] ματια "
-"και [legs]πόδια. Πόσα άλογα βλέπεις;"
-
-#: ../data/games.xml.h:37
+#: ../data/games.xml.h:63
 #, no-c-format
 msgid ""
 "In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
@@ -263,213 +388,147 @@ msgstr ""
 "[males_cars]% έχει ένα αυτοκίνητο και είναι άνδρες. Τι ποσοστό του πληθυσμού "
 "είναι γυναίκες και να έχουν ένα αυτοκίνητο; [option_answers]"
 
-#: ../data/games.xml.h:38
-#, fuzzy
+#: ../data/games.xml.h:65
+#, no-c-format
+msgid "[option_prefix] [option_a]%"
+msgstr "[option_prefix] [option_a]%"
+
+#: ../data/games.xml.h:67
+#, no-c-format
+msgid "[option_prefix] [option_b]%"
+msgstr "[option_prefix] [option_b]%"
+
+#: ../data/games.xml.h:69
+#, no-c-format
+msgid "[option_prefix] [option_c]%"
+msgstr "[option_prefix] [option_c]%"
+
+#: ../data/games.xml.h:71
+#, no-c-format
+msgid "[option_prefix] [option_d]%"
+msgstr "[option_prefix] [option_d]%"
+
+#: ../data/games.xml.h:73
+#, no-c-format
 msgid ""
-"In every match you eliminate one player. Therefore, the result is the total "
-"number of player minus one."
+"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
+"have a car."
 msgstr ""
-"Σε κάθε αγώνα αφαιρείται έναν παίκτη, χρειάζεστε το συνολικό αριθμό "
-"παιχνιδιών μείον 1 για να ανακαλύψετε το νικητή."
+"[females_cars]% ([all_cars] - [males_cars]) των κατοίκων είναι γυναίκες και "
+"έχουν ένα αυτοκίνητο."
 
-#: ../data/games.xml.h:39
+#: ../data/games.xml.h:74
+msgid "Compare variables"
+msgstr "Σύγκρινε μεταβλητές"
+
+#: ../data/games.xml.h:75
 msgid ""
-"It is calculated by taking the total number of people minus [brothers_only] "
-"people that have brothers only, minus [sisters_only] that have sisters only "
-"and minus [both] that have sisters and brothers."
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
+"which of the following options is correct? [option_answers]"
 msgstr ""
-"Υπολογίζεται με τη λήψη του συνολικού αριθμού των ανθρώπων μείον "
-"[brothers_only] τους ανθρώπους που έχουν μόνο αδελφούς, μείον [sisters_only] "
-"που έχουν αδελφές μόνο και μείον [both] που έχουν αδελφές και αδελφούς."
+"Αν p &lt; x &lt; q and r &lt; y &lt; s και ξέρεις οτι x &lt; y είναι "
+"αλήθεια,  ποια από τις παρακάτω επιλογές είναι σωστές; [option_answers]"
 
-#: ../data/games.xml.h:40
-msgid "It is the result of the operation [num_a] * [num_b]."
-msgstr "Είναι το αποτέλεσμα της πράξης [num_b] * [num_a]."
+#: ../data/games.xml.h:76
+msgid "[option_prefix] s > p"
+msgstr "[option_prefix] s > p"
 
-#: ../data/games.xml.h:41
-msgid "It is the result of the operation [num_a] + [num_b]."
-msgstr "Είναι το αποτέλεσμα της πράξης [num_b] + [num_a]."
+#: ../data/games.xml.h:77
+msgid "[option_prefix] p < r"
+msgstr "[option_prefix] p < r"
 
-#: ../data/games.xml.h:42
-msgid "It is the result of the operation [num_b] - [num_a]."
-msgstr "Είναι το αποτέλεσμα της πράξης [num_b] - [num_a]."
+#: ../data/games.xml.h:78
+msgid "[option_prefix] p > r"
+msgstr "[option_prefix] p > r"
 
-#: ../data/games.xml.h:43
-msgid "It is the result of the operation [num_b] / [num_a]."
-msgstr "Είναι το αποτέλεσμα της πράξης [num_b] / [num_a]."
+#: ../data/games.xml.h:79
+msgid "[option_prefix] q = s"
+msgstr "[option_prefix] q = s"
 
-#: ../data/games.xml.h:44
-msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
-msgstr "Είναι το αποτέλεσμα της πράξης ([three] * 3) - ([two] * 2)."
+#: ../data/games.xml.h:80
+msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
+msgstr "Αν x &lt; y, then p &lt; x &lt; y &lt; s οπότε s &gt; p είναι σωστό"
 
-#: ../data/games.xml.h:45
-msgctxt "John's father's sister's sister-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Ο ξάδερφός του."
-
-#: ../data/games.xml.h:46
+#: ../data/games.xml.h:81
 msgid ""
-"John's father's sister's sister-in-law is also? Do not assume that John has "
-"any relative that has not been mentioned. [option_answers]"
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
+"which of the following options is correct? [option_answers]"
 msgstr ""
-"Η αδερφη της ετεροθαλής αδερφής του πατέρα του john είναι και;  Μην "
-"υποθέσετε ότι ο John έχει καμία σχέση που δεν έχει αναφερθεί. "
+"Αν p &lt; x &lt; q and r &lt; y &lt; s και ξέρεις οτι x &gt; y είναι "
+"αλήθεια, ποια από τις παρακάτω επιλογές είναι σωστές; [option_answers]"
+
+#: ../data/games.xml.h:82
+msgid "[option_prefix] r < q"
+msgstr "[option_prefix] r < q"
+
+#: ../data/games.xml.h:83
+msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
+msgstr "Αν x &gt; y, τότε r &lt; y &lt; x &lt; q, οπότε r &lt; q είναι σωστό."
+
+#: ../data/games.xml.h:84
+msgid "Odd number"
+msgstr "Μονός αριθμός"
+
+#: ../data/games.xml.h:85
+msgid ""
+"Given two integer numbers x and y, if x is even and y odd, which of the "
+"following expressions gives always an odd result? [option_answers]"
+msgstr ""
+"Δεδομένων δύο ακέραιους αριθμούς x και y, αν το x είναι ζυγός και y περιττό, "
+"ποια από τις παρακάτω εκφράσεις δίνει πάντα περιττό αποτέλεσμα; "
 "[option_answers]"
 
-#: ../data/games.xml.h:47
-msgctxt "John's mother's brother's brother-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Ο ξάδερφός του."
+#: ../data/games.xml.h:86
+msgid "[option_prefix] 2x + y"
+msgstr "[option_prefix] 2x + y"
 
-#: ../data/games.xml.h:48
-msgid ""
-"John's mother's brother's brother-in-law is also? Do not assume that John "
-"has any relative that has not been mentioned. [option_answers]"
-msgstr ""
-"Τι είναι επίσης η κουνιάδα της αδερφής του πατέρα του Γιάννη; Μην θεωρήσετε "
-"ότι ο Γιάννης έχει κάποια άλλη συγγένεια η οποία δεν έχει επισημανθεί. "
-"[option_answers]"
+#: ../data/games.xml.h:87
+msgid "[option_prefix] x * y"
+msgstr "[option_prefix] x * y"
 
-#: ../data/games.xml.h:49
-msgid ""
-"John's son age is nowadays half of John's age minus [difference], that is, "
-"([father] / 2) - [difference]."
-msgstr ""
-"Ηλικία του γιου του john στις μέρες μας είναι τo μισό της ηλικίας του John "
-"μείον [difference], δηλαδή, ([father] / 2) - [difference]."
+#: ../data/games.xml.h:88
+msgid "[option_prefix] x * y * 2"
+msgstr "[option_prefix] x * y * 2"
 
-#: ../data/games.xml.h:50
-msgid "Lever"
-msgstr "μοχλός"
+#: ../data/games.xml.h:89
+msgid "[option_prefix] (x - y) * 2"
+msgstr "[option_prefix] (x - y) * 2"
 
-#: ../data/games.xml.h:51
-msgid "Multiple number"
-msgstr "Πολλαπλοί αριθμοί"
-
-#: ../data/games.xml.h:52
-#, fuzzy
+#: ../data/games.xml.h:90
 msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
 "produces an odd number."
 msgstr ""
 "Δεδομένου ότι x είναι πάντα ζυγός αριθμός, πολλαπλασιάζοντάς το με 2 παράγει "
-"πάντα ένα ζυγό αριθμό. Η προσθήκη ενός ζυγόυ αριθμόυ σε μονό αριθμό (y) "
+"πάντα ένα ζυγό αριθμό. Η προσθήκη ενός ζυγού αριθμού σε μονό αριθμό (y) "
 "παράγει πάντα μονό αριθμό."
 
-#: ../data/games.xml.h:53
-msgid "Odd number"
-msgstr "Μονός αριθμός"
-
-#: ../data/games.xml.h:54
-msgid ""
-"On the dartboard below, where would you need to throw the darts to add 120 "
-"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
-msgstr ""
-"Από τον πίνακα dart παρακάτω, όπου θα πρέπει να ρίξεις τα βέλη για να "
-"προσθέσεις 120 μονάδες σε 5 ρίψεις; Να απαντήσεις χρησιμοποιώντας μια λίστα "
-"αριθμών (π.χ.: 4, 5, 6, 3, 2)"
-
-#: ../data/games.xml.h:55
-msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr ""
-"Μόνο 3 από τους 4 αριθμούς στο πίνακα με τα βελάκια χρησιμοποιούνται για την "
-"προσθήκη 120 μονάδων."
-
-#: ../data/games.xml.h:56
-msgid ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
-"[both] have both. How many people have neither brothers nor sisters?"
-msgstr ""
-"Εκτός από τα άτομα [people], τα άτομα [brothers] έχουν αδερφούς, τα "
-"[sisters] έχουν αδερφές και τα [both] έχουν και τα δύο. Πόσα άτομα έχουν "
-"είτε αδερφούς είτε αδερφές;"
-
-#: ../data/games.xml.h:57
-msgid "Palindromic years"
-msgstr "Συμμετρικά έτη"
-
-#: ../data/games.xml.h:58
-msgid "Password"
-msgstr "Κωδικός πρόσβασης"
-
-#: ../data/games.xml.h:59
-msgid "Simple equations"
-msgstr "Απλές εξισώσεις"
-
-#: ../data/games.xml.h:60
-msgid "Tennis game"
-msgstr "Τένις"
-
-#: ../data/games.xml.h:61
-msgid ""
-"The average of three numbers is [three]. The average of two of these numbers "
-"is [two]. What is the third number? [option_answers]"
-msgstr ""
-"Ο μέσος όρος των τριών αριθμών είναι [three]. Ο μέσος όρος των δύο από "
-"αυτούς τους αριθμούς είναι [two]. Ποιος είναι ο τρίτος αριθμός; "
-"[option_answers]"
-
-#: ../data/games.xml.h:62
-msgid ""
-"The brother's brother-in-law is John's mother's husband, that is, John's "
-"father."
-msgstr ""
-"Ο αδερφός του ετεροθαλή αδερφου είναι ο άνδρας της μητέρας του John όπου "
-"είναι ο πατέρας του John"
-
-#: ../data/games.xml.h:63
-msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr "Τα βαρύτερα βάρη φορτηγών [heavier] και τον αναπτήρα [lighter]."
-
-#: ../data/games.xml.h:64
-msgid ""
-"The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr ""
-"Η αδερφή της ετεροθαλούς αδερφής της γυναίκας του πατέρα του john, είναι η "
-"μητέρα του john"
-
-#: ../data/games.xml.h:65
-msgid "Third number"
-msgstr "Τρίτος αριθμός"
-
-#: ../data/games.xml.h:66
-msgid "Two trucks"
-msgstr "2 φορτηγά"
-
-#: ../data/games.xml.h:67
+#: ../data/games.xml.h:91
 msgid "Warehouse"
 msgstr "Αποθήκη"
 
-#: ../data/games.xml.h:68
-msgid "What number divided by [num_a] equals [num_b]?"
-msgstr "Ποιος αριθμός που διαιρείται από τον [num_a] ισούται με [num_b];"
+#: ../data/games.xml.h:92
+msgid "[option_prefix] [answer_a]"
+msgstr "[option_prefix] [answer_a]"
 
-#: ../data/games.xml.h:69
-msgid "What number minus [num_a] equals [num_b]?"
-msgstr "Ποιος αριθμός που αφαιρείται με το [num_a] ισούται με [num_b];"
+#: ../data/games.xml.h:93
+msgid "[option_prefix] [answer_b]"
+msgstr "[option_prefix] [answer_b]"
 
-#: ../data/games.xml.h:70
-msgid "What number multiplied by [num_a] equals [num_b]?"
-msgstr "Ποιος αριθμός που πολλαπλασιάζεται με τον [num_a] ισούται με [num_b];"
+#: ../data/games.xml.h:94
+msgid "[option_prefix] [answer_c]"
+msgstr "[option_prefix] [answer_c]"
 
-#: ../data/games.xml.h:71
-msgid "What number plus [num_a] equals [num_b]?"
-msgstr "Ποιος αριθμός προστίθεται στο [num_a] και ισούται με [num_b];"
+#: ../data/games.xml.h:95
+msgid "[option_prefix] [answer_d]"
+msgstr "[option_prefix] [answer_d]"
 
-#: ../data/games.xml.h:72
-msgid ""
-"Which two numbers of the list below are both multiple of [num_x] and "
-"[num_y]? [option_answers]"
-msgstr ""
-"Ποιούς δύο αριθμούς της παρακάτω λίστας είναι και οι δύο πολλαπλάσιο του "
-"[num_x] και [num_y]; [option_answers]"
+#: ../data/games.xml.h:96
+msgid "Two trucks"
+msgstr "2 φορτηγά"
 
-#: ../data/games.xml.h:73
-msgid "You can fit 6 * 5 * [z] * 2 boxes."
-msgstr "Μπορείτε να ταιριάξετε 6 * 5 * [z] * 2 κουτιά."
-
-#: ../data/games.xml.h:74 ../tools/GameXmlGetString.cs:81
+#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:81
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -489,176 +548,113 @@ msgstr[1] ""
 "βαρύτερου φορτηγό, ποιο είναι το βάρος του ελαφρύτερου φορτηγόυ; "
 "[option_answers]"
 
-#: ../data/games.xml.h:76
-#, no-c-format
+#: ../data/games.xml.h:98
+msgid "The heavier truck weights [heavier] and the lighter [lighter]."
+msgstr "Τα βαρύτερα βάρη φορτηγών [heavier] και τον αναπτήρα [lighter]."
+
+#: ../data/games.xml.h:99
+msgid "Family relations"
+msgstr "Οικογενιακές σχέσεις"
+
+#: ../data/games.xml.h:100
 msgid ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
-"have a car."
+"John's father's sister's sister-in-law is also? Do not assume that John has "
+"any relative that has not been mentioned. [option_answers]"
 msgstr ""
-"[females_cars]% ([all_cars] - [males_cars]) των κατοίκων είναι γυναίκες και "
-"έχουν ένα αυτοκίνητο."
+"Η αδερφη της ετεροθαλής αδερφής του πατέρα του john είναι και;  Μην "
+"υποθέσετε ότι ο John έχει καμία σχέση που δεν έχει αναφερθεί. "
+"[option_answers]"
 
-#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
-#: ../data/games.xml.h:78
-msgid "[option_a] and [option_b]"
-msgstr "[option_a] καί [option_b]"
-
-#: ../data/games.xml.h:79
-msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr ""
-"[option_a] και [option_b] είναι και τα δύο πολλαπλάσια του [num_x] και "
-"[num_y]."
-
-#: ../data/games.xml.h:80
-msgid "[option_prefix] (x - y) * 2"
-msgstr "[option_prefix] (x - y) * 2"
-
-#: ../data/games.xml.h:81
-msgid "[option_prefix] 2x + y"
-msgstr "[option_prefix] 2x + y"
-
-#: ../data/games.xml.h:82
-msgid "[option_prefix] Has no relation"
-msgstr "[option_prefix] Δεν έχει σχέση"
-
-#: ../data/games.xml.h:83
-msgid "[option_prefix] His father"
-msgstr "[option_prefix] Ο πατέρας του"
-
-#: ../data/games.xml.h:84
+#: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Η μητέρα του"
 
-#: ../data/games.xml.h:85
+#: ../data/games.xml.h:102
+msgid "[option_prefix] Has no relation"
+msgstr "[option_prefix] Δεν έχει σχέση"
+
+#: ../data/games.xml.h:103
+msgctxt "John's father's sister's sister-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] Ο ξάδερφός του."
+
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Ο ετεροθαλής αδερφός του"
 
-#: ../data/games.xml.h:86
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:87
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:88
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:89
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:90
-msgid "[option_prefix] [option_a] and [option_b]"
-msgstr "[option_prefix] [option_a] και [option_b]"
-
-#: ../data/games.xml.h:91
-msgid "[option_prefix] [option_a] and [option_c]"
-msgstr "[option_prefix] [option_a] και [option_c]"
-
-#: ../data/games.xml.h:93
-#, no-c-format
-msgid "[option_prefix] [option_a]%"
-msgstr "[option_prefix] [option_a]%"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [option_b] and [option_c]"
-msgstr "[option_prefix] [option_b] και [option_c]"
-
-#: ../data/games.xml.h:96
-#, no-c-format
-msgid "[option_prefix] [option_b]%"
-msgstr "[option_prefix] [option_b]%"
-
-#: ../data/games.xml.h:97
-msgid "[option_prefix] [option_c] and [option_d]"
-msgstr "[option_prefix] [option_c] και [option_d]"
-
-#: ../data/games.xml.h:99
-#, no-c-format
-msgid "[option_prefix] [option_c]%"
-msgstr "[option_prefix] [option_c]%"
-
-#: ../data/games.xml.h:101
-#, no-c-format
-msgid "[option_prefix] [option_d]%"
-msgstr "[option_prefix] [option_d]%"
-
-#: ../data/games.xml.h:102
-msgid "[option_prefix] p < r"
-msgstr "[option_prefix] p < r"
-
-#: ../data/games.xml.h:103
-msgid "[option_prefix] p > r"
-msgstr "[option_prefix] p > r"
-
-#: ../data/games.xml.h:104
-msgid "[option_prefix] q = s"
-msgstr "[option_prefix] q = s"
-
 #: ../data/games.xml.h:105
-msgid "[option_prefix] r < q"
-msgstr "[option_prefix] r < q"
+msgid "His mother"
+msgstr "Η μητέρα του"
 
 #: ../data/games.xml.h:106
-msgid "[option_prefix] s > p"
-msgstr "[option_prefix] s > p"
+msgid ""
+"The sister's sister-in-law is John's father's wife, that is, John's mother."
+msgstr ""
+"Η αδερφή της ετεροθαλούς αδερφής της γυναίκας του πατέρα του john, είναι η "
+"μητέρα του john"
 
 #: ../data/games.xml.h:107
-msgid "[option_prefix] x * y"
-msgstr "[option_prefix] x * y"
+msgid ""
+"John's mother's brother's brother-in-law is also? Do not assume that John "
+"has any relative that has not been mentioned. [option_answers]"
+msgstr ""
+"Τι είναι επίσης η κουνιάδα της αδερφής του πατέρα του Γιάννη; Μην θεωρήσετε "
+"ότι ο Γιάννης έχει κάποια άλλη συγγένεια η οποία δεν έχει επισημανθεί. "
+"[option_answers]"
 
 #: ../data/games.xml.h:108
-msgid "[option_prefix] x * y * 2"
-msgstr "[option_prefix] x * y * 2"
+msgid "[option_prefix] His father"
+msgstr "[option_prefix] Ο πατέρας του"
 
 #: ../data/games.xml.h:109
-msgid "[rslt_a] and [rslt_b]"
-msgstr "[rslt_a] και [rslt_b]"
+msgctxt "John's mother's brother's brother-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] Ο ξάδερφός του."
 
 #: ../data/games.xml.h:110
-msgid ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
-"are the next two consecutive palindromic years after [year_end] with the "
-"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
-msgstr ""
-"Το έτος [year_start] είναι ένα συμμετρικό έτος όπως το έτος [year_end], ένα "
-"κενό 11 ετών. Ποια είναι τα επόμενα δύο συναπτά έτη με παλινδρομικούς μετά "
-"από [year_end] χρόνια με την ίδια διαφορά; Απάντηση με δύο αριθμούς (π.χ.: "
-"[year_start] και [year_end])."
+msgid "His father"
+msgstr "Ο πατέρας του"
 
 #: ../data/games.xml.h:111
-msgid "x * [num_a] = [num_b]"
-msgstr "x * [num_a] = [num_b]"
+msgid ""
+"The brother's brother-in-law is John's mother's husband, that is, John's "
+"father."
+msgstr ""
+"Ο αδερφός του ετεροθαλή αδερφου είναι ο άνδρας της μητέρας του John όπου "
+"είναι ο πατέρας του John"
 
 #: ../data/games.xml.h:112
-msgid "x + [num_a] = [num_b]"
-msgstr "x + [num_a] = [num_b]"
+msgid "Third number"
+msgstr "Τρίτος αριθμός"
 
 #: ../data/games.xml.h:113
-msgid "x - [num_a] = [num_b]"
-msgstr "x - [num_a] = [num_b]"
+msgid ""
+"The average of three numbers is [three]. The average of two of these numbers "
+"is [two]. What is the third number? [option_answers]"
+msgstr ""
+"Ο μέσος όρος των τριών αριθμών είναι [three]. Ο μέσος όρος των δύο από "
+"αυτούς τους αριθμούς είναι [two]. Ποιος είναι ο τρίτος αριθμός; "
+"[option_answers]"
 
 #: ../data/games.xml.h:114
-msgid "x / [num_a] = [num_b]"
-msgstr "x / [num_a] = [num_b]"
+msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
+msgstr "Είναι το αποτέλεσμα της πράξης ([three] * 3) - ([two] * 2)."
 
-#: ../data/gbrainy.desktop.in.h:1
+#: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
+msgid "gbrainy"
+msgstr "Σπαζοκεφαλιές"
+
+#: ../data/gbrainy.desktop.in.h:2
 msgid "Game"
 msgstr "Παιχνίδι"
 
-#: ../data/gbrainy.desktop.in.h:2
+#: ../data/gbrainy.desktop.in.h:3
 msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr ""
 "Παίξτε παιχνίδια που ακονίζουν τη λογική, το λεξιλόγιο, τη μνήμη και τις "
 "αριθμητικές σας ικανότητες"
-
-#: ../data/gbrainy.desktop.in.h:3 ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "gbrainy"
-msgstr "Σπαζοκεφαλιές"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -668,795 +664,384 @@ msgstr "Κλασσικό"
 msgid "Notebook"
 msgstr "Σημειωματάριο"
 
-#: ../data/verbal_analogies.xml.h:1
-msgid "A car engine that is poorly designed and lacking of sophistication is?"
-msgstr "Μια κακοσχεδιασμένη και πρωτόγονη μηχανή αυτοκινήτου είναι..."
-
-#: ../data/verbal_analogies.xml.h:2
-msgid "A figure of speech that combines contradicting terms."
-msgstr "Ένα σχήμα λόγου που συνδυάζει αντιφατικούς όρους."
-
-#: ../data/verbal_analogies.xml.h:3
-msgid "A fish in an aquarium lives in captivity."
-msgstr "Ένα ψάρι σε ενυδρείο ζει σε αιχμαλωσία."
-
+#.
+#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#.
 #: ../data/verbal_analogies.xml.h:4
-msgid "A pen is used to write and a fork is used to eat."
-msgstr ""
-"Μια πένα χρησιμοποιείται για να γράψουμε και ένα πιρούνι χρησιμοποιείται για "
-"να φάμε."
+msgid "Which of the following sports does not belong in this group?"
+msgstr "Ποιο από τα παρακάτω αθλήματα δεν ανήκει σε αυτή την ομάδα;"
 
 #: ../data/verbal_analogies.xml.h:5
-msgid "A person with excessive preoccupation for his health has?"
-msgstr "Ένα άτομο που ασχολείται υπερβολικά με την υγεία του πάσχει από..."
+msgid "Think of the items used in the game."
+msgstr "Σκεφτείτε ποιος είναι ο εξοπλισμός του αθλήματος."
 
 #: ../data/verbal_analogies.xml.h:6
+msgid "Golf"
+msgstr "Γκολφ"
+
+#: ../data/verbal_analogies.xml.h:7
+msgid "Basketball"
+msgstr "Μπάσκετ"
+
+#: ../data/verbal_analogies.xml.h:8
+msgid "Tennis"
+msgstr "Τένις"
+
+#: ../data/verbal_analogies.xml.h:9
+msgid "Cycling"
+msgstr "Ποδηλασία"
+
+#: ../data/verbal_analogies.xml.h:10
+msgid "It is the only one that does not use a ball in the game."
+msgstr "Το μόνο που δεν χρησιμοποιεί μπάλα."
+
+#: ../data/verbal_analogies.xml.h:11
 msgid "A terrier is to a dog like a?"
 msgstr "Το τεριέ έχει με το σκύλο την ίδια σχέση όπως τα..."
 
-#: ../data/verbal_analogies.xml.h:7
-msgid "A turtle is inside a shell and a letter is inside an envelope."
-msgstr ""
-"Μια χελώνα είναι μέσα σε ένα κέλυφος και ένα γράμμα είναι μέσα σε ένα φάκελο."
+#: ../data/verbal_analogies.xml.h:12
+msgid "Chicken / Parrot"
+msgstr "Κοτόπουλο / Παπαγάλος"
 
-#: ../data/verbal_analogies.xml.h:8
-msgid "Abstinence"
-msgstr "Εγκράτεια"
-
-#: ../data/verbal_analogies.xml.h:9
-msgid "Acclaimed"
-msgstr "Καταξιωμένοι"
-
-#. Translators: Acrophobia is fear of heights
-#: ../data/verbal_analogies.xml.h:11
-msgid "Acrophobia"
-msgstr "Ακροφοβία"
-
-#. Translators: Affluent as antonym of poor, that is, somebody that is rich
 #: ../data/verbal_analogies.xml.h:13
-msgid "Affluent"
-msgstr "Εύπορος"
+msgid "Pony / Horse"
+msgstr "Πόνυ / άλογο"
 
 #: ../data/verbal_analogies.xml.h:14
-msgid "Agoraphobia"
-msgstr "Αγοραφοβία"
+msgid "Ant / Vertebrate"
+msgstr "Μυρμήγκι / Σπονδυλωτό"
 
 #: ../data/verbal_analogies.xml.h:15
-msgid "Air"
-msgstr "Αέρας"
+msgid "Dog / Cat"
+msgstr "Σκύλος / Γάτα "
 
 #: ../data/verbal_analogies.xml.h:16
-msgid "Aircraft"
-msgstr "αεροσκάφος"
+msgid "Dog and horse are species and terrier and pony are breeds."
+msgstr "Σκύλος και άλογο είναι τα είδη και τα Terrier και pony είναι ράτσες."
 
 #: ../data/verbal_analogies.xml.h:17
-msgid "Airline"
-msgstr "Αερογραμμή"
+msgid "The word 'taxidermist' is used to define a person that?"
+msgstr "Η λέξη 'ταριχευτής' χρησιμοποιείται για να ορίσει το άτομο που..."
 
 #: ../data/verbal_analogies.xml.h:18
-msgid "Amphibians"
-msgstr "Αμφίβια"
+msgid "Works with dead animals"
+msgstr "Κατεργάζεται δέρματα"
 
 #: ../data/verbal_analogies.xml.h:19
+msgid "Specializes in skin diseases"
+msgstr "Ειδικεύεται στις παθήσεις του δέρματος"
+
+#: ../data/verbal_analogies.xml.h:20
+msgid "Suffers a skin disease"
+msgstr "Υποφέρει από πάθηση του δέρματος"
+
+#: ../data/verbal_analogies.xml.h:21
+msgid "Works with leather"
+msgstr "Θανατώνει ζώα"
+
+#: ../data/verbal_analogies.xml.h:22
+msgid "A car engine that is poorly designed and lacking of sophistication is?"
+msgstr "Μια κακοσχεδιασμένη και πρωτόγονη μηχανή αυτοκινήτου είναι..."
+
+#: ../data/verbal_analogies.xml.h:23
+msgid "Simplistic"
+msgstr "Απλοϊκή "
+
+#: ../data/verbal_analogies.xml.h:24
+msgid "Erroneous"
+msgstr "Λανθασμένο"
+
+#: ../data/verbal_analogies.xml.h:25
+msgid "Broken"
+msgstr "Χαλασμένο"
+
+#: ../data/verbal_analogies.xml.h:26
+msgid "Unorthodox"
+msgstr "Ανορθόδοξη "
+
+#: ../data/verbal_analogies.xml.h:27
+msgid "Which of the following words is the closest in meaning to 'censure'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με το "
+"'μέμφομαι';"
+
+#: ../data/verbal_analogies.xml.h:28
+msgid "Condemn"
+msgstr "Καταδικάζω"
+
+#: ../data/verbal_analogies.xml.h:29
+msgid "Hide"
+msgstr "Κρύβω "
+
+#: ../data/verbal_analogies.xml.h:30
+msgid "Obscure"
+msgstr "Σκοτεινός"
+
+#: ../data/verbal_analogies.xml.h:31
+msgid "Ignore"
+msgstr "Αγνοώ "
+
+#: ../data/verbal_analogies.xml.h:32
 msgid "An artist whose work has become the defining style of a genre is?"
 msgstr ""
 "Ένας καλλιτέχνης του οποίου η εργασία έχει διαμόρφωση του μοναδικού στυλ τι "
 "είδους είναι;"
 
-#: ../data/verbal_analogies.xml.h:20
-msgid ""
-"An oasis is an isolated area of vegetation in a desert and an island is a "
-"piece of isolated land that is surrounded by water."
-msgstr ""
-"Μια όαση είναι μια απομονωμένη περιοχή της βλάστησης σε μια έρημο και ένα "
-"νησί είναι ένα κομμάτι απομονωμένων γης που περιβάλλεται από νερό."
-
-#: ../data/verbal_analogies.xml.h:21
-msgid "Angle"
-msgstr "Γωνία"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:23
-msgid "Angry"
-msgstr "Θυμωμένος"
-
-#: ../data/verbal_analogies.xml.h:24
-msgid "Ant / Vertebrate"
-msgstr "Μυρμήγκι / Σπονδυλωτό"
-
-#. Translators: Anthophobia is fear of flowers that poses little or no danger
-#: ../data/verbal_analogies.xml.h:26
-msgid "Anthophobia"
-msgstr "Λουλουδοφοβία"
-
-#. Translators: Anthropophobia is fear of people
-#: ../data/verbal_analogies.xml.h:28
-msgid "Anthropophobia"
-msgstr "Ανθρωποφοβία"
-
-#: ../data/verbal_analogies.xml.h:29
-msgid "Apple"
-msgstr "Μήλο"
-
-#: ../data/verbal_analogies.xml.h:30
-msgid "Attic"
-msgstr "Σοφίτα"
-
-#: ../data/verbal_analogies.xml.h:31
-msgid "Authority"
-msgstr "Εξουσία"
-
-#: ../data/verbal_analogies.xml.h:32
-msgid "Azimuth"
-msgstr "Αζιμούθιο"
-
 #: ../data/verbal_analogies.xml.h:33
-msgid "Basketball"
-msgstr "Μπάσκετ"
-
-#: ../data/verbal_analogies.xml.h:34
-msgid "Bassoon"
-msgstr "Φαγκότο"
-
-#: ../data/verbal_analogies.xml.h:35
-msgid "Beach"
-msgstr "Παραλία"
-
-#: ../data/verbal_analogies.xml.h:36
-msgid "Birds"
-msgstr "Πουλιά"
-
-#. Translators: referred to the life style
-#: ../data/verbal_analogies.xml.h:38
-msgid "Bohemian"
-msgstr "Μποέμ"
-
-#: ../data/verbal_analogies.xml.h:39
-msgid "Both relate to an action that breaks the related item."
-msgstr "Και οι δύο αναφέρονται σε μια ενέργεια που σπάει το σχετικό στοιχείο."
-
-#: ../data/verbal_analogies.xml.h:40
-msgid "Bounce"
-msgstr "Αναπήδηση"
-
-#: ../data/verbal_analogies.xml.h:41
-msgid "Broken"
-msgstr "Χαλασμένο"
-
-#: ../data/verbal_analogies.xml.h:42
-msgid "Bunker"
-msgstr "Ανθρακαποθήκη"
-
-#: ../data/verbal_analogies.xml.h:43
-msgid "Bursts"
-msgstr "Εκρήξεις"
-
-#: ../data/verbal_analogies.xml.h:44
-msgid "Cage"
-msgstr "Κλουβί"
-
-#: ../data/verbal_analogies.xml.h:45
-msgid "Camera"
-msgstr "Κάμερα"
-
-#: ../data/verbal_analogies.xml.h:46
-msgid "Carbon"
-msgstr "Άνθρακας"
-
-#: ../data/verbal_analogies.xml.h:47
-msgid "Cardiology"
-msgstr "Καρδιολογία"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:49
-msgid "Careless"
-msgstr "Απρόσεχτος"
-
-#: ../data/verbal_analogies.xml.h:50
-msgid "Celebrated"
-msgstr "Γιορτινό"
-
-#: ../data/verbal_analogies.xml.h:51
-msgid "Cellulose"
-msgstr "Κυτταρίνη"
-
-#: ../data/verbal_analogies.xml.h:52
-msgid "Chicken / Parrot"
-msgstr "Κοτόπουλο / Παπαγάλος"
-
-#: ../data/verbal_analogies.xml.h:53
-msgid "Chord"
-msgstr "Συγχορδία"
-
-#. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:55
-msgid "Close"
-msgstr "Κλείσιμο"
-
-#: ../data/verbal_analogies.xml.h:56
-msgid "Coast"
-msgstr "Ακτή"
-
-#: ../data/verbal_analogies.xml.h:57
-msgid "Collectivism"
-msgstr "Κολεκτιβισμός"
-
-#: ../data/verbal_analogies.xml.h:58
-msgid "Column"
-msgstr "Στήλη"
-
-#: ../data/verbal_analogies.xml.h:59
-msgid "Concert hall"
-msgstr "Αίθουσα συναυλίων"
-
-#: ../data/verbal_analogies.xml.h:60
-msgid "Condemn"
-msgstr "Καταδικάζω"
-
-#. Translator: As synonymous of 'perplexing'
-#: ../data/verbal_analogies.xml.h:62
-msgid "Confusing"
-msgstr "Μπερδεμένο"
-
-#: ../data/verbal_analogies.xml.h:63
-msgid "Connoisseur"
-msgstr "Ειδήμονας"
-
-#: ../data/verbal_analogies.xml.h:64
-msgid "Conspirator"
-msgstr "Συνωμότης"
-
-#: ../data/verbal_analogies.xml.h:65
-msgid "Contradictory"
-msgstr "Αντοφατικός"
-
-#: ../data/verbal_analogies.xml.h:66
-msgid "Corn"
-msgstr "Καλαμπόκι"
-
-#: ../data/verbal_analogies.xml.h:67
-msgid "Crocodile"
-msgstr "Κροκόδειλος"
-
-#: ../data/verbal_analogies.xml.h:68
-msgid "Cycling"
-msgstr "Ποδηλασία"
-
-#: ../data/verbal_analogies.xml.h:69
-msgid "Decagon"
-msgstr "Δεκαγώνο"
-
-#: ../data/verbal_analogies.xml.h:70
-msgid "Decimal"
-msgstr "Δεκαδικός"
-
-#: ../data/verbal_analogies.xml.h:71
-msgid "Deer"
-msgstr "Ελάφι"
-
-#: ../data/verbal_analogies.xml.h:72
-msgid "Democracy"
-msgstr "Δημοκρατία"
-
-#: ../data/verbal_analogies.xml.h:73
-msgid "Disinterest"
-msgstr "Αδιαφορία"
-
-#: ../data/verbal_analogies.xml.h:74
-msgid "Dog / Cat"
-msgstr "Σκύλος / Γάτα "
-
-#: ../data/verbal_analogies.xml.h:75
-msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr "Σκύλος και άλογο είναι τα είδη και τα Terrier και pony είναι ράτσες."
-
-#: ../data/verbal_analogies.xml.h:76
-msgid "Enneagram"
-msgstr "Εννεάγραμμα"
-
-#: ../data/verbal_analogies.xml.h:77
-msgid "Envelope"
-msgstr "Φάκελος"
-
-#: ../data/verbal_analogies.xml.h:78
-msgid "Erroneous"
-msgstr "Λανθασμένο"
-
-#: ../data/verbal_analogies.xml.h:79
-msgid "Exceptional"
-msgstr "Εξερετικός"
-
-#: ../data/verbal_analogies.xml.h:80
-msgid "Famous"
-msgstr "Δίασημος"
-
-#: ../data/verbal_analogies.xml.h:81
-msgid "Fish"
-msgstr "Ψάρι"
-
-#: ../data/verbal_analogies.xml.h:82
-msgid "Fishes"
-msgstr "Ψάρια"
-
-#. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:84
-msgid "Fixation"
-msgstr "Φαντασία"
-
-#: ../data/verbal_analogies.xml.h:85
-msgid "Float"
-msgstr "Επιπλέω"
-
-#: ../data/verbal_analogies.xml.h:86
-msgid "Flower"
-msgstr "Λουλούδι"
-
-#: ../data/verbal_analogies.xml.h:87
-msgid "Flute"
-msgstr "Φλάουτο"
-
-#: ../data/verbal_analogies.xml.h:88
-msgid "Fork"
-msgstr "Πιρούνι"
-
-#: ../data/verbal_analogies.xml.h:89
-msgid "Fossil"
-msgstr "Ορυκτό"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:91
-msgid "Friendly"
-msgstr "Φιλικός"
-
-#: ../data/verbal_analogies.xml.h:92
-msgid "Frog"
-msgstr "Βάτραχος"
-
-#: ../data/verbal_analogies.xml.h:93
-msgid "Gallon"
-msgstr "Γαλόνι"
-
-#: ../data/verbal_analogies.xml.h:94
-msgid "Generic"
-msgstr "Γενικός"
-
-#: ../data/verbal_analogies.xml.h:95
-msgid "Golf"
-msgstr "Γκολφ"
-
-#: ../data/verbal_analogies.xml.h:96
-msgid "Grab and bite are finite actions."
-msgstr "Πιάσε και δάγκωσε είναι πεπερασμένες ενέργειες."
-
-#: ../data/verbal_analogies.xml.h:97
-msgid "Grain"
-msgstr "Σιτηρά"
-
-#: ../data/verbal_analogies.xml.h:98
-msgid "Grape"
-msgstr "Σταφύλι"
-
-#: ../data/verbal_analogies.xml.h:99
-msgid "Gym"
-msgstr "Γυμναστήριο"
-
-#: ../data/verbal_analogies.xml.h:100
-msgid "Hangar"
-msgstr "Υπόστεγο αεροπλάνων"
-
-#: ../data/verbal_analogies.xml.h:101
-msgid "Hectogram"
-msgstr "Εκατόγραμμο"
-
-#: ../data/verbal_analogies.xml.h:102
-msgid "Hematology"
-msgstr "Αιματολογία"
-
-#: ../data/verbal_analogies.xml.h:103
-msgid "Hide"
-msgstr "Κρύβω "
-
-#: ../data/verbal_analogies.xml.h:104
-msgid "Homeless"
-msgstr "Άστεγος"
-
-#: ../data/verbal_analogies.xml.h:105
-msgid "Hyena"
-msgstr "Ύαινα"
-
-#: ../data/verbal_analogies.xml.h:106
-msgid "Hypochondria"
-msgstr "Υποχονδρία"
-
-#: ../data/verbal_analogies.xml.h:107
-msgid "Icosagon"
-msgstr "Icosagon"
-
-#: ../data/verbal_analogies.xml.h:108
-msgid "Ignore"
-msgstr "Αγνοώ "
-
-#: ../data/verbal_analogies.xml.h:109
-msgid "Incredible"
-msgstr "Απίθανος"
-
-#: ../data/verbal_analogies.xml.h:110
-msgid "Indifference"
-msgstr "Αδιαφορία"
-
-#: ../data/verbal_analogies.xml.h:111
-msgid "Ink"
-msgstr "Μελάνι"
-
-#: ../data/verbal_analogies.xml.h:112
-msgid "Insects"
-msgstr "Έντομα"
-
-#: ../data/verbal_analogies.xml.h:113
-msgid "Interesting"
-msgstr "Ενδιαφέρον"
-
-#: ../data/verbal_analogies.xml.h:114
-msgid "Intuition"
-msgstr "Διαίσθηση"
-
-#: ../data/verbal_analogies.xml.h:115
-msgid "Ironic"
-msgstr "Ειρωνικός"
-
-#: ../data/verbal_analogies.xml.h:116
-msgid "Island"
-msgstr "Νησί"
-
-#. Translator: definition of negligent
-#: ../data/verbal_analogies.xml.h:118
-msgid ""
-"It is the failure to take such care as may be rightfully or reasonably "
-"expected."
-msgstr ""
-"Είναι η αποτυχία να λάβει τέτοια φροντίδα που μπορεί να είναι δικαιολογημένη "
-"ή λογικά αναμενόμενη."
-
-#: ../data/verbal_analogies.xml.h:119
-msgid "It is the only one that does not use a ball in the game."
-msgstr "Το μόνο που δεν χρησιμοποιεί μπάλα."
-
-#: ../data/verbal_analogies.xml.h:120
-msgid "It is the only one that is not a carnivore."
-msgstr "Είναι το μόνο που δεν είναι σαρκοφάγο."
-
-#: ../data/verbal_analogies.xml.h:121
-msgid "It is the only one that is not a cereal."
-msgstr "Είναι το μόνο που δεν είναι δημητριακό."
-
-#: ../data/verbal_analogies.xml.h:122
-msgid "It is the only one that is not a fruit."
-msgstr "Είναι το μόνο που δεν είναι φρούτο."
-
-#: ../data/verbal_analogies.xml.h:123
-msgid "It is the only one that is not a medical specialty."
-msgstr "Είναι η μόνη που δεν είναι ιατρική ειδικότητα."
-
-#: ../data/verbal_analogies.xml.h:124
-msgid "It is the only one that is not a metal."
-msgstr "Είναι το μόνο που δεν είνα μέταλο."
-
-#: ../data/verbal_analogies.xml.h:125
-msgid "It is the only one that is not a reptile and also does not have a tail."
-msgstr "Είναι το μόνο που δεν είναι ερπετό και δεν έχει ουρά."
-
-#: ../data/verbal_analogies.xml.h:126
-msgid "It is the only one that is not a woodwind instrument."
-msgstr "Το μόνο μουσικό όργανο που δεν είναι ξύλινο πνευστό."
-
-#: ../data/verbal_analogies.xml.h:127
-msgid "It is the only one that is not related to architecture."
-msgstr "Η μόνη που δεν έχει σχέση με την αρχιτεκτονική."
-
-#: ../data/verbal_analogies.xml.h:128
-msgid "It is the only unit that does not belong to the metric system."
-msgstr "Είναι η μοναδική μονάδα που δεν ανήκει στο σύτημα μονάδων μέτρησης."
-
-#: ../data/verbal_analogies.xml.h:129
-msgid "Kilometer"
-msgstr "Χιλιόμετρο"
-
-#: ../data/verbal_analogies.xml.h:130
-msgid "Latitude"
-msgstr "Γεωγραφικό πλάτος"
-
-#: ../data/verbal_analogies.xml.h:131
-msgid "Lentils"
-msgstr "Φακή"
-
-#: ../data/verbal_analogies.xml.h:132
-msgid "Light"
-msgstr "Φως"
-
-#: ../data/verbal_analogies.xml.h:133
-msgid "Liter"
-msgstr "Λίτρο"
-
-#: ../data/verbal_analogies.xml.h:134
-msgid "Lizard"
-msgstr "Σαύρα"
-
-#. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:136
-msgid "Lock"
-msgstr "Κλειδαρία"
-
-#: ../data/verbal_analogies.xml.h:137
-msgid "Loner"
-msgstr "Μοναχικός"
-
-#: ../data/verbal_analogies.xml.h:138
-msgid "Lychee"
-msgstr "Λυκείο"
-
-#: ../data/verbal_analogies.xml.h:139
-msgid "Mango"
-msgstr "Μάνγκο"
-
-#: ../data/verbal_analogies.xml.h:140
-msgid "Martyr"
-msgstr "Μάρτυρας "
-
-#: ../data/verbal_analogies.xml.h:141
-msgid "Misunderstood"
-msgstr "Παρεξηγημένος"
-
-#: ../data/verbal_analogies.xml.h:142
-msgid "Money"
-msgstr "Λεφτά"
-
-#: ../data/verbal_analogies.xml.h:143
-msgid "Museum"
-msgstr "Μουσείο"
-
-#: ../data/verbal_analogies.xml.h:144
-msgid "Oboe"
-msgstr "Όμποε"
-
-#: ../data/verbal_analogies.xml.h:145
-msgid "Obscure"
-msgstr "Σκοτεινός"
-
-#: ../data/verbal_analogies.xml.h:146
-msgid "Obvious"
-msgstr "Εμφανές"
-
-#: ../data/verbal_analogies.xml.h:147
-msgid "Occasional"
-msgstr "Περιστασιακός"
-
-#: ../data/verbal_analogies.xml.h:148
-msgid "Offensive"
-msgstr "Προσβλητικός"
-
-#: ../data/verbal_analogies.xml.h:149
-msgid "Oligarchy"
-msgstr "Ολιγαρχικός"
-
-#: ../data/verbal_analogies.xml.h:150
-msgid "Olive"
-msgstr "Ελία"
-
-#: ../data/verbal_analogies.xml.h:151
-msgid "Onion"
-msgstr "Κρεμίδι"
-
-#. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:153
-msgid "Open"
-msgstr "Ανοιχτός"
-
-#. Translators: refers to the fruit
-#: ../data/verbal_analogies.xml.h:155
-msgid "Orange"
-msgstr "Πορτοκάλι"
-
-#: ../data/verbal_analogies.xml.h:156
-msgid "Ordinary"
-msgstr "Συνιθησμένος"
-
-#: ../data/verbal_analogies.xml.h:157
-msgid "Ostentation"
-msgstr "Επίδειξη"
-
-#: ../data/verbal_analogies.xml.h:158
-msgid "Pain"
-msgstr "Πόνος"
-
-#: ../data/verbal_analogies.xml.h:159
-msgid "Paleontology"
-msgstr "Παλεοντολογία"
-
-#: ../data/verbal_analogies.xml.h:160
-msgid ""
-"Parallel and longitude traverse from east to west while meridian and "
-"latitude traverse from north to south."
-msgstr ""
-"Παράλληλο και γεωγραφικό μήκος διασχίζουν από την ανατολή προς δύση, ενώ ο "
-"μεσημβρινός και το γεωγραφικό πλάτος διασχίζουν από βορρά προς νότο."
-
-#. Translator: Pertaining to a single or specific person or thing
-#: ../data/verbal_analogies.xml.h:162
-msgid "Particular"
-msgstr "Ιδιαίτερη"
-
-#: ../data/verbal_analogies.xml.h:163
-msgid "Person expelled from society"
-msgstr "Απόβλητος της κοινωνίας"
-
-#: ../data/verbal_analogies.xml.h:164
-msgid "Photography"
-msgstr "Φωτογραφία"
-
-#: ../data/verbal_analogies.xml.h:165
 msgid "Pioneer"
 msgstr "Πρωτοπόρος "
 
-#: ../data/verbal_analogies.xml.h:166
-msgid "Pleasure"
-msgstr "Ευχαρίστηση"
+#. Translators: referred to the life style
+#: ../data/verbal_analogies.xml.h:35
+msgid "Bohemian"
+msgstr "Μποέμ"
 
-#: ../data/verbal_analogies.xml.h:167
-msgid "Pole"
-msgstr "Πόλος"
+#: ../data/verbal_analogies.xml.h:36
+msgid "Misunderstood"
+msgstr "Παρεξηγημένος"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:169
-msgid "Polite"
-msgstr "Ευγενικός"
+#: ../data/verbal_analogies.xml.h:37
+msgid "Martyr"
+msgstr "Μάρτυρας "
 
-#: ../data/verbal_analogies.xml.h:170
-msgid "Pony / Horse"
-msgstr "Πόνυ / άλογο"
+#: ../data/verbal_analogies.xml.h:38
+msgid "Which of the following sentences defines better an 'ostracized' person?"
+msgstr ""
+"Ποια από τις παρακάτω προτάσεις αποδίδει καλύτερα την έννοια του "
+"'εξοστρακισμένου' ατόμου;"
 
-#: ../data/verbal_analogies.xml.h:171
-msgid "Portico"
-msgstr "Προστώο"
+#: ../data/verbal_analogies.xml.h:39
+msgid "Person expelled from society"
+msgstr "Απόβλητος της κοινωνίας"
 
-#: ../data/verbal_analogies.xml.h:172
-msgid "Positivism"
-msgstr "Θετικισμός"
+#: ../data/verbal_analogies.xml.h:40
+msgid "Loner"
+msgstr "Μοναχικός"
 
-#: ../data/verbal_analogies.xml.h:173
-msgid "Potato"
-msgstr "Πατάτα"
+#: ../data/verbal_analogies.xml.h:41
+msgid "Connoisseur"
+msgstr "Ειδήμονας"
 
-#: ../data/verbal_analogies.xml.h:174
-msgid "Printer"
-msgstr "Εκτυπωτης"
+#: ../data/verbal_analogies.xml.h:42
+msgid "Conspirator"
+msgstr "Συνωμότης"
 
-#: ../data/verbal_analogies.xml.h:175
-msgid "Property"
-msgstr "Ιδιοκτησία"
+#: ../data/verbal_analogies.xml.h:43
+msgid "Which of the following words means fear of people?"
+msgstr "Ποια λέξη σημαίνει φόβος των ανθρώπων;"
 
-#: ../data/verbal_analogies.xml.h:176
-msgid "Psychiatry"
-msgstr "Ψυχιατρική"
+#. Translators: Anthropophobia is fear of people
+#: ../data/verbal_analogies.xml.h:45
+msgid "Anthropophobia"
+msgstr "Ανθρωποφοβία"
 
-#: ../data/verbal_analogies.xml.h:177
-msgid "Radius"
-msgstr "Ακτίνα"
+#: ../data/verbal_analogies.xml.h:46
+msgid "Hypochondria"
+msgstr "Υποχονδρία"
 
-#: ../data/verbal_analogies.xml.h:178
-msgid "Rare"
-msgstr "Σπάνιο"
+#. Translators: Anthophobia is fear of flowers that poses little or no danger
+#: ../data/verbal_analogies.xml.h:48
+msgid "Anthophobia"
+msgstr "Λουλουδοφοβία"
 
-#: ../data/verbal_analogies.xml.h:179
-msgid "Regular"
-msgstr "Τακτικές"
+#. Translators: Acrophobia is fear of heights
+#: ../data/verbal_analogies.xml.h:50
+msgid "Acrophobia"
+msgstr "Ακροφοβία"
 
-#: ../data/verbal_analogies.xml.h:180
-msgid "Related"
-msgstr "Σχετικό"
+#: ../data/verbal_analogies.xml.h:51
+msgid "A person with excessive preoccupation for his health has?"
+msgstr "Ένα άτομο που ασχολείται υπερβολικά με την υγεία του πάσχει από..."
 
-#: ../data/verbal_analogies.xml.h:181
-msgid "Repugnance"
-msgstr "Αποστροφή"
+#: ../data/verbal_analogies.xml.h:52
+msgid "Agoraphobia"
+msgstr "Αγοραφοβία"
 
-#: ../data/verbal_analogies.xml.h:182
-msgid "Restaurant"
-msgstr "Εστιατόριο"
+#. Selected to avoid physical characteristics like: has shield, legs or tail
+#: ../data/verbal_analogies.xml.h:54
+msgid "Which of the following words does not belong in this group?"
+msgstr "Ποια από τις παρακάτω λέξεις δεν ανήκει σε αυτή την ομάδα;"
 
-#: ../data/verbal_analogies.xml.h:183
-msgid "Rice"
-msgstr "Ρύζι"
+#: ../data/verbal_analogies.xml.h:55
+msgid "Violin"
+msgstr "Βιολί"
 
-#: ../data/verbal_analogies.xml.h:184
-msgid "River"
-msgstr "Ποτάμι"
+#: ../data/verbal_analogies.xml.h:56
+msgid "Bassoon"
+msgstr "Φαγκότο"
 
-#: ../data/verbal_analogies.xml.h:185
-msgid "Roll"
-msgstr "Κυλώ"
+#: ../data/verbal_analogies.xml.h:57
+msgid "Flute"
+msgstr "Φλάουτο"
 
-#: ../data/verbal_analogies.xml.h:186
-msgid "Sad"
-msgstr "Λυπημένος"
+#: ../data/verbal_analogies.xml.h:58
+msgid "Oboe"
+msgstr "Όμποε"
 
-#: ../data/verbal_analogies.xml.h:187
-msgid "Shame"
-msgstr "Ντροπή"
+#: ../data/verbal_analogies.xml.h:59
+msgid "It is the only one that is not a woodwind instrument."
+msgstr "Το μόνο μουσικό όργανο που δεν είναι ξύλινο πνευστό."
 
-#: ../data/verbal_analogies.xml.h:188
-msgid "Ship"
-msgstr "Πλοίο"
+#: ../data/verbal_analogies.xml.h:60
+msgid "What is a 'halberd'?"
+msgstr "Τι είναι ο 'λογχοπέλεκυς';"
 
-#: ../data/verbal_analogies.xml.h:189
-msgid "Simplistic"
-msgstr "Απλοϊκή "
+#: ../data/verbal_analogies.xml.h:61
+msgid "Weapon"
+msgstr "Όπλο"
 
-#: ../data/verbal_analogies.xml.h:190
-msgid "Sodium"
-msgstr "Νάτριο"
+#: ../data/verbal_analogies.xml.h:62
+msgid "Flower"
+msgstr "Λουλούδι"
 
-#: ../data/verbal_analogies.xml.h:191
-msgid "Solstice"
-msgstr "Ηλιοστάσιο"
+#: ../data/verbal_analogies.xml.h:63
+msgid "Fish"
+msgstr "Ψάρι"
 
-#: ../data/verbal_analogies.xml.h:192
-msgid "Specializes in skin diseases"
-msgstr "Ειδικεύεται στις παθήσεις του δέρματος"
-
-#: ../data/verbal_analogies.xml.h:193
+#: ../data/verbal_analogies.xml.h:64
 msgid "Sport"
 msgstr "Άθλημα"
 
-#: ../data/verbal_analogies.xml.h:194
-msgid "Suffers a skin disease"
-msgstr "Υποφέρει από πάθηση του δέρματος"
+#: ../data/verbal_analogies.xml.h:65
+msgid "Fossil"
+msgstr "Ορυκτό"
 
-#: ../data/verbal_analogies.xml.h:195
-msgid "Sugarcane"
-msgstr "Ζαχαροκάλαμο"
+#: ../data/verbal_analogies.xml.h:66
+msgid "Portico"
+msgstr "Προστώο"
 
-#: ../data/verbal_analogies.xml.h:196
-msgid "Sweet corn"
-msgstr "Γλυκό καλαμπόκι"
+#: ../data/verbal_analogies.xml.h:67
+msgid "Column"
+msgstr "Στήλη"
 
-#: ../data/verbal_analogies.xml.h:197
-msgid "Synonym"
-msgstr "Συνώνυμο"
+#: ../data/verbal_analogies.xml.h:68
+msgid "Attic"
+msgstr "Σοφίτα"
 
-#: ../data/verbal_analogies.xml.h:198
-msgid "Table"
-msgstr "Πίνακας"
+#: ../data/verbal_analogies.xml.h:69
+msgid "It is the only one that is not related to architecture."
+msgstr "Η μόνη που δεν έχει σχέση με την αρχιτεκτονική."
 
-#: ../data/verbal_analogies.xml.h:199
-msgid "Tangent"
-msgstr "Εφαπτομένη"
+#: ../data/verbal_analogies.xml.h:70
+msgid "Kilometer"
+msgstr "Χιλιόμετρο"
 
-#: ../data/verbal_analogies.xml.h:200
-msgid "Tears"
-msgstr "Δάκρια"
+#: ../data/verbal_analogies.xml.h:71
+msgid "Hectogram"
+msgstr "Εκατόγραμμο"
 
-#: ../data/verbal_analogies.xml.h:201
-msgid "Tennis"
-msgstr "Τένις"
+#: ../data/verbal_analogies.xml.h:72
+msgid "Liter"
+msgstr "Λίτρο"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:73
+msgid "Gallon"
+msgstr "Γαλόνι"
+
+#: ../data/verbal_analogies.xml.h:74
+msgid "It is the only unit that does not belong to the metric system."
+msgstr "Είναι η μοναδική μονάδα που δεν ανήκει στο σύτημα μονάδων μέτρησης."
+
+#. Translators: refers to the fruit
+#: ../data/verbal_analogies.xml.h:76
+msgid "Orange"
+msgstr "Πορτοκάλι"
+
+#: ../data/verbal_analogies.xml.h:77
+msgid "Apple"
+msgstr "Μήλο"
+
+#: ../data/verbal_analogies.xml.h:78
+msgid "Grape"
+msgstr "Σταφύλι"
+
+#: ../data/verbal_analogies.xml.h:79
+msgid "Potato"
+msgstr "Πατάτα"
+
+#: ../data/verbal_analogies.xml.h:80
+msgid "It is the only one that is not a fruit."
+msgstr "Είναι το μόνο που δεν είναι φρούτο."
+
+#: ../data/verbal_analogies.xml.h:81
+msgid "Turtle"
+msgstr "Χελώνα"
+
+#: ../data/verbal_analogies.xml.h:82
+msgid "Crocodile"
+msgstr "Κροκόδειλος"
+
+#: ../data/verbal_analogies.xml.h:83
+msgid "Lizard"
+msgstr "Σαύρα"
+
+#: ../data/verbal_analogies.xml.h:84
+msgid "Frog"
+msgstr "Βάτραχος"
+
+#: ../data/verbal_analogies.xml.h:85
+msgid "It is the only one that is not a reptile and also does not have a tail."
+msgstr "Είναι το μόνο που δεν είναι ερπετό και δεν έχει ουρά."
+
+#: ../data/verbal_analogies.xml.h:86
+msgid "Tiger"
+msgstr "Τίγρης"
+
+#: ../data/verbal_analogies.xml.h:87
+msgid "Hyena"
+msgstr "Ύαινα"
+
+#: ../data/verbal_analogies.xml.h:88
+msgid "Wolf"
+msgstr "Λύκος"
+
+#: ../data/verbal_analogies.xml.h:89
+msgid "Deer"
+msgstr "Ελάφι"
+
+#: ../data/verbal_analogies.xml.h:90
+msgid "It is the only one that is not a carnivore."
+msgstr "Είναι το μόνο που δεν είναι σαρκοφάγο."
+
+#: ../data/verbal_analogies.xml.h:91
+msgid "Which of the following words is closest to the meaning of 'hedonism'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'ηδονισμός'; "
+
+#: ../data/verbal_analogies.xml.h:92
+msgid "Pleasure"
+msgstr "Ευχαρίστηση"
+
+#: ../data/verbal_analogies.xml.h:93
+msgid "Pain"
+msgstr "Πόνος"
+
+#: ../data/verbal_analogies.xml.h:94
+msgid "Collectivism"
+msgstr "Κολεκτιβισμός"
+
+#: ../data/verbal_analogies.xml.h:95
+msgid "Abstinence"
+msgstr "Εγκράτεια"
+
+#: ../data/verbal_analogies.xml.h:96
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
 "Το ηθικό δόγμα κρίνοντας μόνο ό,τι είναι ευχάριστο ένα και ουσιαστικά καλό."
 
-#: ../data/verbal_analogies.xml.h:203
-msgid "The first word is the instrument and the second what it measures."
-msgstr "Η πρώτη λέξη είναι το όργανο και η δεύτερη η μονάδα μέτρησης."
+#: ../data/verbal_analogies.xml.h:97
+msgid "Which of the following words is closest to the meaning of 'asceticism'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'ασκητισμός'; "
 
-#: ../data/verbal_analogies.xml.h:204
-msgid "The other words have the connotation of not occurring frequently."
-msgstr "Τα άλλα λόγια έχουν τη χροιά που δεν συμβαίνουν συχνά."
+#: ../data/verbal_analogies.xml.h:98
+msgid "Positivism"
+msgstr "Θετικισμός"
 
-#: ../data/verbal_analogies.xml.h:205
-msgid "The other words have the meaning of distinguished."
-msgstr "Τα άλλα λόγια, έχει την έννοια του διακρίνονται."
-
-#: ../data/verbal_analogies.xml.h:206
+#: ../data/verbal_analogies.xml.h:99
 msgid ""
 "The practice of austere self-discipline in order to achieve a higher or "
 "spiritual idea."
@@ -1464,35 +1049,602 @@ msgstr ""
 "Η πρακτική της αυστηρής αυτοπειθαρχίας με σκοπό να επιτυγχάνεται μία "
 "υψηλότερη ή πνευματική ιδέα."
 
-#: ../data/verbal_analogies.xml.h:207
-msgid "The radius of a circle is half the diameter."
-msgstr "Η ακτίνα του κύκλου είναι το μισό της διαμέτρου."
+#: ../data/verbal_analogies.xml.h:100
+msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'οξύμωρο'; "
 
-#: ../data/verbal_analogies.xml.h:208
-msgid "The relation between the two words is that they are synonymous."
-msgstr "Η σχέση μεταξύ των δύο λέξεων είναι ότι είναι συνώνυμα."
+#: ../data/verbal_analogies.xml.h:101
+msgid "Contradictory"
+msgstr "Αντοφατικός"
 
-#: ../data/verbal_analogies.xml.h:209
-msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "Η λέξη 'ταριχευτής' χρησιμοποιείται για να ορίσει το άτομο που..."
+#: ../data/verbal_analogies.xml.h:102
+msgid "Synonym"
+msgstr "Συνώνυμο"
 
-#: ../data/verbal_analogies.xml.h:210
-msgid "Theater"
-msgstr "θέατρο "
+#: ../data/verbal_analogies.xml.h:103
+msgid "Related"
+msgstr "Σχετικό"
 
-#: ../data/verbal_analogies.xml.h:211
-msgid "Think of the items used in the game."
-msgstr "Σκεφτείτε ποιος είναι ο εξοπλισμός του αθλήματος."
+#: ../data/verbal_analogies.xml.h:104
+msgid "Ironic"
+msgstr "Ειρωνικός"
 
-#: ../data/verbal_analogies.xml.h:212
-msgid "Tiger"
-msgstr "Τίγρης"
+#: ../data/verbal_analogies.xml.h:105
+msgid "A figure of speech that combines contradicting terms."
+msgstr "Ένα σχήμα λόγου που συνδυάζει αντιφατικούς όρους."
 
-#: ../data/verbal_analogies.xml.h:213
+#: ../data/verbal_analogies.xml.h:106
+msgid "Lentils"
+msgstr "Φακή"
+
+#: ../data/verbal_analogies.xml.h:107
+msgid "Wheat"
+msgstr "Σιτάρι"
+
+#: ../data/verbal_analogies.xml.h:108
+msgid "Corn"
+msgstr "Καλαμπόκι"
+
+#: ../data/verbal_analogies.xml.h:109
+msgid "Rice"
+msgstr "Ρύζι"
+
+#: ../data/verbal_analogies.xml.h:110
+msgid "It is the only one that is not a cereal."
+msgstr "Είναι το μόνο που δεν είναι δημητριακό."
+
+#: ../data/verbal_analogies.xml.h:111
+msgid "Onion"
+msgstr "Κρεμίδι"
+
+#: ../data/verbal_analogies.xml.h:112
+msgid "Mango"
+msgstr "Μάνγκο"
+
+#: ../data/verbal_analogies.xml.h:113
+msgid "Lychee"
+msgstr "Λυκείο"
+
+#: ../data/verbal_analogies.xml.h:114
+msgid "Olive"
+msgstr "Ελία"
+
+#: ../data/verbal_analogies.xml.h:115
+msgid "Carbon"
+msgstr "Άνθρακας"
+
+#: ../data/verbal_analogies.xml.h:116
+msgid "Sodium"
+msgstr "Νάτριο"
+
+#: ../data/verbal_analogies.xml.h:117
 msgid "Titanium"
 msgstr "τιτάνιο"
 
+#: ../data/verbal_analogies.xml.h:118
+msgid "Zinc"
+msgstr "Ψευδάργυρος"
+
+#: ../data/verbal_analogies.xml.h:119
+msgid "It is the only one that is not a metal."
+msgstr "Είναι το μόνο που δεν είνα μέταλο."
+
+#: ../data/verbal_analogies.xml.h:120
+msgid "Cardiology"
+msgstr "Καρδιολογία"
+
+#: ../data/verbal_analogies.xml.h:121
+msgid "Hematology"
+msgstr "Αιματολογία"
+
+#: ../data/verbal_analogies.xml.h:122
+msgid "Psychiatry"
+msgstr "Ψυχιατρική"
+
+#: ../data/verbal_analogies.xml.h:123
+msgid "Paleontology"
+msgstr "Παλεοντολογία"
+
+#: ../data/verbal_analogies.xml.h:124
+msgid "It is the only one that is not a medical specialty."
+msgstr "Είναι η μόνη που δεν είναι ιατρική ειδικότητα."
+
+#: ../data/verbal_analogies.xml.h:125
+msgid "Which of the following words is closest to the meaning of 'negligent'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'αμελής';"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:127
+msgid "Careless"
+msgstr "Απρόσεχτος"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:129
+msgid "Friendly"
+msgstr "Φιλικός"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:131
+msgid "Polite"
+msgstr "Ευγενικός"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:133
+msgid "Angry"
+msgstr "Θυμωμένος"
+
+#. Translator: definition of negligent
+#: ../data/verbal_analogies.xml.h:135
+msgid ""
+"It is the failure to take such care as may be rightfully or reasonably "
+"expected."
+msgstr ""
+"Είναι η αποτυχία να λάβει τέτοια φροντίδα που μπορεί να είναι δικαιολογημένη "
+"ή λογικά αναμενόμενη."
+
+#: ../data/verbal_analogies.xml.h:136
+msgid "Regular"
+msgstr "Τακτικές"
+
+#: ../data/verbal_analogies.xml.h:137
+msgid "Occasional"
+msgstr "Περιστασιακός"
+
+#: ../data/verbal_analogies.xml.h:138
+msgid "Exceptional"
+msgstr "Εξερετικός"
+
+#: ../data/verbal_analogies.xml.h:139
+msgid "Rare"
+msgstr "Σπάνιο"
+
+#: ../data/verbal_analogies.xml.h:140
+msgid "The other words have the connotation of not occurring frequently."
+msgstr "Τα άλλα λόγια έχουν τη χροιά που δεν συμβαίνουν συχνά."
+
+#: ../data/verbal_analogies.xml.h:141
+msgid "Which of the following words is closest to the meaning of 'perplexing'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'περίπλοκο';"
+
+#. Translator: As synonymous of 'perplexing'
+#: ../data/verbal_analogies.xml.h:143
+msgid "Confusing"
+msgstr "Μπερδεμένο"
+
+#: ../data/verbal_analogies.xml.h:144
+msgid "Interesting"
+msgstr "Ενδιαφέρον"
+
+#: ../data/verbal_analogies.xml.h:145
+msgid "Ordinary"
+msgstr "Συνιθησμένος"
+
+#: ../data/verbal_analogies.xml.h:146
+msgid "Trivial"
+msgstr "Trivial"
+
+#: ../data/verbal_analogies.xml.h:147
+msgid "Which of the following words is closest to the meaning of 'unhappy'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'δυστυχισμένος';"
+
+#: ../data/verbal_analogies.xml.h:148
+msgid "Sad"
+msgstr "Λυπημένος"
+
+#: ../data/verbal_analogies.xml.h:149
+msgid "Unpleasant"
+msgstr "Δυσάρεστες"
+
+#: ../data/verbal_analogies.xml.h:150
+msgid "Tears"
+msgstr "Δάκρια"
+
+#: ../data/verbal_analogies.xml.h:151
+msgid "Incredible"
+msgstr "Απίθανος"
+
+#: ../data/verbal_analogies.xml.h:152
+msgid "Famous"
+msgstr "Δίασημος"
+
+#: ../data/verbal_analogies.xml.h:153
+msgid "Acclaimed"
+msgstr "Καταξιωμένοι"
+
+#: ../data/verbal_analogies.xml.h:154
+msgid "Celebrated"
+msgstr "Γιορτινό"
+
+#: ../data/verbal_analogies.xml.h:155
+msgid "The other words have the meaning of distinguished."
+msgstr "Τα άλλα λόγια, έχει την έννοια του διακρίνονται."
+
+#: ../data/verbal_analogies.xml.h:156
+msgid "Which of the following words is closest to the meaning of 'specific'?"
+msgstr ""
+"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
+"'συγκεκριμένος';"
+
+#. Translator: Pertaining to a single or specific person or thing
+#: ../data/verbal_analogies.xml.h:158
+msgid "Particular"
+msgstr "Ιδιαίτερη"
+
+#: ../data/verbal_analogies.xml.h:159
+msgid "Obvious"
+msgstr "Εμφανές"
+
+#: ../data/verbal_analogies.xml.h:160
+msgid "Generic"
+msgstr "Γενικός"
+
+#: ../data/verbal_analogies.xml.h:161
+msgid "car / garage | plane"
+msgstr "αυτοκίνητο / γκαράζ | αεροπλάνο"
+
+#: ../data/verbal_analogies.xml.h:162
+msgid "Hangar"
+msgstr "Υπόστεγο αεροπλάνων"
+
+#: ../data/verbal_analogies.xml.h:163
+msgid "Airline"
+msgstr "Αερογραμμή"
+
+#: ../data/verbal_analogies.xml.h:164
+msgid "Aircraft"
+msgstr "αεροσκάφος"
+
+#: ../data/verbal_analogies.xml.h:165
+msgid "Bunker"
+msgstr "Ανθρακαποθήκη"
+
+#: ../data/verbal_analogies.xml.h:166
+msgid "circle / semicircle | diameter"
+msgstr "κύκλος / ημικύκλιο | διάμετρος"
+
+#: ../data/verbal_analogies.xml.h:167
+msgid "Radius"
+msgstr "Ακτίνα"
+
+#: ../data/verbal_analogies.xml.h:168
+msgid "Chord"
+msgstr "Συγχορδία"
+
+#: ../data/verbal_analogies.xml.h:169
+msgid "Tangent"
+msgstr "Εφαπτομένη"
+
+#: ../data/verbal_analogies.xml.h:170
+msgid "Angle"
+msgstr "Γωνία"
+
+#: ../data/verbal_analogies.xml.h:171
+msgid "The radius of a circle is half the diameter."
+msgstr "Η ακτίνα του κύκλου είναι το μισό της διαμέτρου."
+
+#: ../data/verbal_analogies.xml.h:172
+msgid "talk / yell | dislike"
+msgstr "Συζήτηση / φωνάζω | αντιπαθώ"
+
+#: ../data/verbal_analogies.xml.h:173
+msgid "Repugnance"
+msgstr "Αποστροφή"
+
+#: ../data/verbal_analogies.xml.h:174
+msgid "Offensive"
+msgstr "Προσβλητικός"
+
+#: ../data/verbal_analogies.xml.h:175
+msgid "Shame"
+msgstr "Ντροπή"
+
+#: ../data/verbal_analogies.xml.h:176
+msgid "Ostentation"
+msgstr "Επίδειξη"
+
+#: ../data/verbal_analogies.xml.h:177
+msgid "write / pen | eat"
+msgstr "γράφω / στυλό | φάε"
+
+#: ../data/verbal_analogies.xml.h:178
+msgid "Fork"
+msgstr "Πιρούνι"
+
+#: ../data/verbal_analogies.xml.h:179
+msgid "Restaurant"
+msgstr "Εστιατόριο"
+
+#: ../data/verbal_analogies.xml.h:180
+msgid "Winery"
+msgstr "Οινοποιείο"
+
+#: ../data/verbal_analogies.xml.h:181
+msgid "Table"
+msgstr "Πίνακας"
+
+#: ../data/verbal_analogies.xml.h:182
+msgid "A pen is used to write and a fork is used to eat."
+msgstr ""
+"Μια πένα χρησιμοποιείται για να γράψουμε και ένα πιρούνι χρησιμοποιείται για "
+"να φάμε."
+
+#: ../data/verbal_analogies.xml.h:183
+msgid "desert / oasis | sea"
+msgstr "έρημος / όαση | θάλασσα"
+
+#: ../data/verbal_analogies.xml.h:184
+msgid "Island"
+msgstr "Νησί"
+
+#: ../data/verbal_analogies.xml.h:185
+msgid "River"
+msgstr "Ποτάμι"
+
+#: ../data/verbal_analogies.xml.h:186
+msgid "Beach"
+msgstr "Παραλία"
+
+#: ../data/verbal_analogies.xml.h:187
+msgid "Coast"
+msgstr "Ακτή"
+
+#: ../data/verbal_analogies.xml.h:188
+msgid ""
+"An oasis is an isolated area of vegetation in a desert and an island is a "
+"piece of isolated land that is surrounded by water."
+msgstr ""
+"Μια όαση είναι μια απομονωμένη περιοχή της βλάστησης σε μια έρημο και ένα "
+"νησί είναι ένα κομμάτι απομονωμένων γης που περιβάλλεται από νερό."
+
+#. Translators: letter refers to letter (in paper form)
+#: ../data/verbal_analogies.xml.h:190
+msgid "turtle / shell | letter"
+msgstr "χελώνα / κέλυφος | επιστολή"
+
+#: ../data/verbal_analogies.xml.h:191
+msgid "Envelope"
+msgstr "Φάκελος"
+
+#: ../data/verbal_analogies.xml.h:192
+msgid "Ink"
+msgstr "Μελάνι"
+
+#: ../data/verbal_analogies.xml.h:193
+msgid "Printer"
+msgstr "Εκτυπωτης"
+
+#: ../data/verbal_analogies.xml.h:194
+msgid "Cellulose"
+msgstr "Κυτταρίνη"
+
+#: ../data/verbal_analogies.xml.h:195
+msgid "A turtle is inside a shell and a letter is inside an envelope."
+msgstr ""
+"Μια χελώνα είναι μέσα σε ένα κέλυφος και ένα γράμμα είναι μέσα σε ένα φάκελο."
+
+#: ../data/verbal_analogies.xml.h:196
+msgid "wine / grape | rum"
+msgstr "wine / grape | rum"
+
+#: ../data/verbal_analogies.xml.h:197
+msgid "Sugarcane"
+msgstr "Ζαχαροκάλαμο"
+
+#: ../data/verbal_analogies.xml.h:198
+msgid "Grain"
+msgstr "Σιτηρά"
+
+#: ../data/verbal_analogies.xml.h:199
+msgid "Sweet corn"
+msgstr "Γλυκό καλαμπόκι"
+
+#: ../data/verbal_analogies.xml.h:200
+msgid "horticulture / plants | ornithology"
+msgstr "κηπουρική / εγκαταστάσεις | ορνιθολογία"
+
+#: ../data/verbal_analogies.xml.h:201
+msgid "Birds"
+msgstr "Πουλιά"
+
+#: ../data/verbal_analogies.xml.h:202
+msgid "Insects"
+msgstr "Έντομα"
+
+#: ../data/verbal_analogies.xml.h:203
+msgid "Amphibians"
+msgstr "Αμφίβια"
+
+#: ../data/verbal_analogies.xml.h:204
+msgid "Fishes"
+msgstr "Ψάρια"
+
+#: ../data/verbal_analogies.xml.h:205
+msgid "thankful / ingratitude | despotism"
+msgstr "ευγνώμονες / αχαριστία | δεσποτισμός"
+
+#: ../data/verbal_analogies.xml.h:206
+msgid "Democracy"
+msgstr "Δημοκρατία"
+
+#: ../data/verbal_analogies.xml.h:207
+msgid "Totalitarianism"
+msgstr "Ολοκληρωτισμός"
+
+#: ../data/verbal_analogies.xml.h:208
+msgid "Oligarchy"
+msgstr "Ολιγαρχικός"
+
+#: ../data/verbal_analogies.xml.h:209
+msgid "Authority"
+msgstr "Εξουσία"
+
+#: ../data/verbal_analogies.xml.h:210
+msgid "pessimist / optimist | poor"
+msgstr "απαισιόδοξος / αισιόδοξος | φτωχούς"
+
+#. Translators: Affluent as antonym of poor, that is, somebody that is rich
+#: ../data/verbal_analogies.xml.h:212
+msgid "Affluent"
+msgstr "Εύπορος"
+
+#: ../data/verbal_analogies.xml.h:213
+msgid "Homeless"
+msgstr "Άστεγος"
+
 #: ../data/verbal_analogies.xml.h:214
+msgid "Property"
+msgstr "Ιδιοκτησία"
+
+#: ../data/verbal_analogies.xml.h:215
+msgid "Money"
+msgstr "Λεφτά"
+
+#: ../data/verbal_analogies.xml.h:216
+msgid "five / pentagon | ten"
+msgstr "πέντε / πεντάγωνο | δέκα"
+
+#: ../data/verbal_analogies.xml.h:217
+msgid "Decagon"
+msgstr "Δεκαγώνο"
+
+#: ../data/verbal_analogies.xml.h:218
+msgid "Enneagram"
+msgstr "Εννεάγραμμα"
+
+#: ../data/verbal_analogies.xml.h:219
+msgid "Icosagon"
+msgstr "Icosagon"
+
+#: ../data/verbal_analogies.xml.h:220
+msgid "Decimal"
+msgstr "Δεκαδικός"
+
+#: ../data/verbal_analogies.xml.h:221
+msgid "parallel / meridian | longitude"
+msgstr "Παράλληλα / μεσημβρινός | γεωγραφικό μήκος"
+
+#: ../data/verbal_analogies.xml.h:222
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: ../data/verbal_analogies.xml.h:223
+msgid "Solstice"
+msgstr "Ηλιοστάσιο"
+
+#: ../data/verbal_analogies.xml.h:224
+msgid "Pole"
+msgstr "Πόλος"
+
+#: ../data/verbal_analogies.xml.h:225
+msgid "Azimuth"
+msgstr "Αζιμούθιο"
+
+#: ../data/verbal_analogies.xml.h:226
+msgid ""
+"Parallel and longitude traverse from east to west while meridian and "
+"latitude traverse from north to south."
+msgstr ""
+"Παράλληλο και γεωγραφικό μήκος διασχίζουν από την ανατολή προς δύση, ενώ ο "
+"μεσημβρινός και το γεωγραφικό πλάτος διασχίζουν από βορρά προς νότο."
+
+#: ../data/verbal_analogies.xml.h:227
+msgid "art / gallery | drama"
+msgstr "τέχνη / γκαλερί | τραγωδία"
+
+#: ../data/verbal_analogies.xml.h:228
+msgid "Theater"
+msgstr "θέατρο "
+
+#: ../data/verbal_analogies.xml.h:229
+msgid "Museum"
+msgstr "Μουσείο"
+
+#: ../data/verbal_analogies.xml.h:230
+msgid "Concert hall"
+msgstr "Αίθουσα συναυλίων"
+
+#: ../data/verbal_analogies.xml.h:231
+msgid "Gym"
+msgstr "Γυμναστήριο"
+
+#: ../data/verbal_analogies.xml.h:232
+msgid "hunter / rifle | photographer"
+msgstr "κυνηγός / καραμπίνα | φωτογράφος"
+
+#: ../data/verbal_analogies.xml.h:233
+msgid "Camera"
+msgstr "Κάμερα"
+
+#. Translators: tripod as used is photography
+#: ../data/verbal_analogies.xml.h:235
+msgid "Tripod"
+msgstr "Τρίποδο"
+
+#: ../data/verbal_analogies.xml.h:236
+msgid "Photography"
+msgstr "Φωτογραφία"
+
+#: ../data/verbal_analogies.xml.h:237
+msgid "Light"
+msgstr "Φως"
+
+#: ../data/verbal_analogies.xml.h:238
+msgid "dish / break | balloon"
+msgstr "πιάτο / σπάω | μπαλόνι"
+
+#: ../data/verbal_analogies.xml.h:239
+#| msgid "Bursts"
+msgid "Burst"
+msgstr "Εκρήξεις"
+
+#: ../data/verbal_analogies.xml.h:240
+msgid "Bounce"
+msgstr "Αναπήδηση"
+
+#: ../data/verbal_analogies.xml.h:241
+msgid "Float"
+msgstr "Επιπλέω"
+
+#: ../data/verbal_analogies.xml.h:242
+msgid "Roll"
+msgstr "Κυλώ"
+
+#: ../data/verbal_analogies.xml.h:243
+msgid "Both relate to an action that breaks the related item."
+msgstr "Και οι δύο αναφέρονται σε μια ενέργεια που σπάει το σχετικό στοιχείο."
+
+#: ../data/verbal_analogies.xml.h:244
+msgid "button / push | key (used in a lock)"
+msgstr "κουμπί / πατάω | κλειδί (που χρησιμοποιείται για κλειδαριές)"
+
+#: ../data/verbal_analogies.xml.h:245
+msgid "Turn"
+msgstr "Γυρίζω "
+
+#. Translator: 'Open' as verb, like open with a key
+#: ../data/verbal_analogies.xml.h:247
+msgid "Open"
+msgstr "Ανοιχτός"
+
+#. Translator: 'Lock' as verb, like locked with a key
+#: ../data/verbal_analogies.xml.h:249
+msgid "Lock"
+msgstr "Κλειδαρία"
+
+#. Translator: 'Close' as verb, like closed with a key
+#: ../data/verbal_analogies.xml.h:251
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ../data/verbal_analogies.xml.h:252
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1500,520 +1652,365 @@ msgstr ""
 "Για να εργάζονται και τα δύο αντικείμενα, ένα κουμπί θα πρέπει να προωθηθεί "
 "και ένα κλειδί θα πρέπει να ενεργοποιηθεί."
 
-#: ../data/verbal_analogies.xml.h:215
-msgid "Totalitarianism"
-msgstr "Ολοκληρωτισμός"
-
-#. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:217
-msgid "Tripod"
-msgstr "Τρίποδο"
-
-#: ../data/verbal_analogies.xml.h:218
-msgid "Trivial"
-msgstr "Trivial"
-
-#: ../data/verbal_analogies.xml.h:219
-msgid "Turn"
-msgstr "Γυρίζω "
-
-#: ../data/verbal_analogies.xml.h:220
-msgid "Turtle"
-msgstr "Χελώνα"
-
-#: ../data/verbal_analogies.xml.h:221
-msgid "Unorthodox"
-msgstr "Ανορθόδοξη "
-
-#: ../data/verbal_analogies.xml.h:222
-msgid "Unpleasant"
-msgstr "Δυσάρεστες"
-
-#: ../data/verbal_analogies.xml.h:223
-msgid "Violin"
-msgstr "Βιολί"
-
-#: ../data/verbal_analogies.xml.h:224
-msgid "Weapon"
-msgstr "Όπλο"
-
-#: ../data/verbal_analogies.xml.h:225
-msgid "What is a 'halberd'?"
-msgstr "Τι είναι ο 'λογχοπέλεκυς';"
-
-#: ../data/verbal_analogies.xml.h:226
-msgid "Wheat"
-msgstr "Σιτάρι"
-
-#: ../data/verbal_analogies.xml.h:227
-msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr ""
-"Ποια από τις παρακάτω προτάσεις αποδίδει καλύτερα την έννοια του "
-"'εξοστρακισμένου' ατόμου;"
-
-#.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
-#.
-#: ../data/verbal_analogies.xml.h:231
-msgid "Which of the following sports does not belong in this group?"
-msgstr "Ποιο από τα παρακάτω αθλήματα δεν ανήκει σε αυτή την ομάδα;"
-
-#. Selected to avoid physical characteristics like: has shield, legs or tail
-#: ../data/verbal_analogies.xml.h:233
-msgid "Which of the following words does not belong in this group?"
-msgstr "Ποια από τις παρακάτω λέξεις δεν ανήκει σε αυτή την ομάδα;"
-
-#: ../data/verbal_analogies.xml.h:234
-msgid "Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'ασκητισμός'; "
-
-#: ../data/verbal_analogies.xml.h:235
-msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'ηδονισμός'; "
-
-#: ../data/verbal_analogies.xml.h:236
-msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'αμελής';"
-
-#: ../data/verbal_analogies.xml.h:237
-msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'οξύμωρο'; "
-
-#: ../data/verbal_analogies.xml.h:238
-msgid "Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'περίπλοκο';"
-
-#: ../data/verbal_analogies.xml.h:239
-msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'συγκεκριμένος';"
-
-#: ../data/verbal_analogies.xml.h:240
-msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
-"'δυστυχισμένος';"
-
-#: ../data/verbal_analogies.xml.h:241
-msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr ""
-"Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με το "
-"'μέμφομαι';"
-
-#: ../data/verbal_analogies.xml.h:242
-msgid "Which of the following words means fear of people?"
-msgstr "Ποια λέξη σημαίνει φόβος των ανθρώπων;"
-
-#: ../data/verbal_analogies.xml.h:243
-msgid "Winery"
-msgstr "Οινοποιείο"
-
-#: ../data/verbal_analogies.xml.h:244
-msgid "Wings"
-msgstr "Φτερά "
-
-#: ../data/verbal_analogies.xml.h:245
-msgid "Wolf"
-msgstr "Λύκος"
-
-#: ../data/verbal_analogies.xml.h:246
-msgid "Works with dead animals"
-msgstr "Κατεργάζεται δέρματα"
-
-#: ../data/verbal_analogies.xml.h:247
-msgid "Works with leather"
-msgstr "Θανατώνει ζώα"
-
-#: ../data/verbal_analogies.xml.h:248
-msgid "Zinc"
-msgstr "Ψευδάργυρος"
-
-#: ../data/verbal_analogies.xml.h:249
-msgid "airplane | aeroplane | plane"
-msgstr "αεροπλάνο"
-
-#: ../data/verbal_analogies.xml.h:250
-msgid "ankle"
-msgstr "αστράγαλος"
-
-#: ../data/verbal_analogies.xml.h:251
-msgid "art / gallery | drama"
-msgstr "τέχνη / γκαλερί | τραγωδία"
-
-#: ../data/verbal_analogies.xml.h:252
-msgid "atlas"
-msgstr "άτλας"
-
 #: ../data/verbal_analogies.xml.h:253
-msgid "bite"
-msgstr "δαγκώνω"
-
-#: ../data/verbal_analogies.xml.h:254
-msgid "body | skin"
-msgstr "σώμα | δέρμα"
-
-#: ../data/verbal_analogies.xml.h:255
-msgid "book | magazine | document"
-msgstr "βιβλίο | περιοδικό | έγγραφο"
-
-#. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:257
-msgid "box / open | banana"
-msgstr "κουτί / ανοίγω | μπανάνα"
-
-#: ../data/verbal_analogies.xml.h:258
-msgid "bridge / over | tunnel"
-msgstr "γέφυρα / πάνω | τούνελ"
-
-#: ../data/verbal_analogies.xml.h:259
-msgid "button / push | key (used in a lock)"
-msgstr "κουμπί / πατάω | κλειδί (που χρησιμοποιείται για κλειδαριές)"
-
-#: ../data/verbal_analogies.xml.h:260
-msgid "cage | zoo | zoological garden"
-msgstr "κλουβί | ζωολογικός κήπος | ζωολογικός κήπος"
-
-#: ../data/verbal_analogies.xml.h:261
-msgid "car / garage | plane"
-msgstr "αυτοκίνητο / γκαράζ | αεροπλάνο"
-
-#: ../data/verbal_analogies.xml.h:262
-msgid "car / road | train"
-msgstr "τρένο / ράγες | αυτοκίνητο"
-
-#. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:264
-msgid "chop"
-msgstr "κόβω"
-
-#: ../data/verbal_analogies.xml.h:265
-msgid "circle / semicircle | diameter"
-msgstr "κύκλος / ημικύκλιο | διάμετρος"
-
-#: ../data/verbal_analogies.xml.h:266
-msgid "coins"
-msgstr "γραμματόσημα"
-
-#: ../data/verbal_analogies.xml.h:267
-msgid "composer | songwriter | lyricist"
-msgstr "συνθέτης | στιχουργός"
-
-#: ../data/verbal_analogies.xml.h:268
 msgid "concept / idea | obsession"
 msgstr "έννοια / ιδέα | εμμονή"
 
-#: ../data/verbal_analogies.xml.h:269
-msgid "constellation / stars | archipelago"
-msgstr "αστερισμός / αστέρια | αρχιπέλαγος"
+#. As a synonym of obsession
+#: ../data/verbal_analogies.xml.h:255
+msgid "Fixation"
+msgstr "Φαντασία"
 
-#. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:271
-msgid "dance"
-msgstr "χορός"
+#: ../data/verbal_analogies.xml.h:256
+msgid "Indifference"
+msgstr "Αδιαφορία"
 
-#: ../data/verbal_analogies.xml.h:272
-msgid "desert / oasis | sea"
-msgstr "έρημος / όαση | θάλασσα"
+#: ../data/verbal_analogies.xml.h:257
+msgid "Disinterest"
+msgstr "Αδιαφορία"
 
-#: ../data/verbal_analogies.xml.h:273
-msgid "dish / break | balloon"
-msgstr "πιάτο / σπάω | μπαλόνι"
+#: ../data/verbal_analogies.xml.h:258
+msgid "Intuition"
+msgstr "Διαίσθηση"
 
-#: ../data/verbal_analogies.xml.h:274
-msgid "dog / tame | wolf"
-msgstr "σκύλος / ήμερος | λύκος"
+#: ../data/verbal_analogies.xml.h:259
+msgid "The relation between the two words is that they are synonymous."
+msgstr "Η σχέση μεταξύ των δύο λέξεων είναι ότι είναι συνώνυμα."
 
-#: ../data/verbal_analogies.xml.h:275
-msgid "elbow / knee | wrist"
-msgstr "αγκώνας / γόνατο | καρπός"
-
-#. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:277
-msgid "error / (to) correct | damage"
-msgstr "λάθος / (για) σωστή | βλάβη"
-
-#: ../data/verbal_analogies.xml.h:278
-msgid "eyebrow / eye | mustache"
-msgstr "φρύδι / μάτι | μουστάκι"
-
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:280
-msgid "feet / two | toes"
-msgstr "πόδια / δύο | δάχτυλα"
-
-#: ../data/verbal_analogies.xml.h:281
-msgid "fish / aquarium | monkey"
-msgstr "ψάρι / ενυδρείο | μαϊμού"
-
-#. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:283
-msgid "fish / submarine | bird"
-msgstr "ψάρι / υποβρύχιο | πουλί"
-
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:260
 msgid "fish / water | bird"
 msgstr "ψάρι / νερό | πουλί"
 
-#: ../data/verbal_analogies.xml.h:285
-msgid "five / pentagon | ten"
-msgstr "πέντε / πεντάγωνο | δέκα"
+#: ../data/verbal_analogies.xml.h:261
+msgid "Air"
+msgstr "Αέρας"
 
-#: ../data/verbal_analogies.xml.h:286
-msgid "fox / den | bird"
-msgstr "αλεπού / ρύγχος | πουλί"
+#: ../data/verbal_analogies.xml.h:262
+msgid "Wings"
+msgstr "Φτερά "
 
-#. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:288
-msgid "glass / break | paper"
-msgstr "γυαλί / σπάω | χαρτί"
+#: ../data/verbal_analogies.xml.h:263
+msgid "Ship"
+msgstr "Πλοίο"
 
-#: ../data/verbal_analogies.xml.h:289
-msgid "hands / grab | teeth"
-msgstr "χέρια / πιάνω | δόντια"
+#: ../data/verbal_analogies.xml.h:264
+msgid "Cage"
+msgstr "Κλουβί"
 
-#: ../data/verbal_analogies.xml.h:290
-msgid "herbivorous | herbivore"
-msgstr "φυτοφάγος | φυτοφαγο"
-
-#: ../data/verbal_analogies.xml.h:291
-msgid "horticulture / plants | ornithology"
-msgstr "κηπουρική / εγκαταστάσεις | ορνιθολογία"
-
-#: ../data/verbal_analogies.xml.h:292
-msgid "hour / minute | minute"
-msgstr "ώρα / λεπτό | λεπτό"
-
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:265
 msgid "hungry / eat | tired"
 msgstr "πεινασμένος / τρώω | κουρασμένος"
 
-#: ../data/verbal_analogies.xml.h:294
-msgid "hunter / rifle | photographer"
-msgstr "κυνηγός / καραμπίνα | φωτογράφος"
-
-#: ../data/verbal_analogies.xml.h:295
-msgid "ice / slippery | glue"
-msgstr "πάγος / ολισθηρός | κόλλα"
-
-#: ../data/verbal_analogies.xml.h:296
-msgid "in | under | through"
-msgstr "μέσα | κάτω | μέσω | ανάμεσα"
-
-#: ../data/verbal_analogies.xml.h:297
-msgid "islands"
-msgstr "νησιά"
-
-#: ../data/verbal_analogies.xml.h:298
-msgid "leopard / spots | tiger"
-msgstr "λεοπάρδαλη / βούλες | τίγρης"
-
-#: ../data/verbal_analogies.xml.h:299
-msgid "letter / word | page"
-msgstr "γράμμα / λέξη | σελίδα"
-
-#: ../data/verbal_analogies.xml.h:300
-msgid "lip | upper lip | mouth"
-msgstr "χείλος | άνω χείλος | στόμα"
-
-#: ../data/verbal_analogies.xml.h:301
-msgid "nest"
-msgstr "ράμφος"
-
-#: ../data/verbal_analogies.xml.h:302
-msgid "nose"
-msgstr "μύτη"
-
-#: ../data/verbal_analogies.xml.h:303
-msgid "novel / author | song"
-msgstr "μυθιστόρημα / συγγραφέας | τραγούδι"
-
-#: ../data/verbal_analogies.xml.h:304
-msgid "orange / fruit | spinach"
-msgstr "πορτοκάλι / φρούτο | κουνουπίδι"
-
-#: ../data/verbal_analogies.xml.h:305
-msgid "parallel / meridian | longitude"
-msgstr "Παράλληλα / μεσημβρινός | γεωγραφικό μήκος"
-
-#: ../data/verbal_analogies.xml.h:306
-msgid "pediatrics / children | numismatics"
-msgstr "παιδιατρική / παιδιά | φιλοτελισμός"
-
-#: ../data/verbal_analogies.xml.h:307
-msgid "peel"
-msgstr "καθαρίζω | ξεφλουδίζω"
-
-#: ../data/verbal_analogies.xml.h:308
-msgid "pessimist / optimist | poor"
-msgstr "απαισιόδοξος / αισιόδοξος | φτωχούς"
-
-#: ../data/verbal_analogies.xml.h:309
-msgid "poems / anthology | maps"
-msgstr "ποίηματα / ανθολόγιο | χάρτες"
-
-#: ../data/verbal_analogies.xml.h:310
-msgid "puzzle / solve | game"
-msgstr "γρίφος / λύνω | παζλ"
-
-#: ../data/verbal_analogies.xml.h:311
-msgid "repair | fix"
-msgstr "διορθώνω"
-
-#: ../data/verbal_analogies.xml.h:312
-msgid "ring / finger | bracelet"
-msgstr "δαχτυλίδι / δάχτυλο | βραχιόλι"
-
-#: ../data/verbal_analogies.xml.h:313
-msgid "seal / flippers | bird"
-msgstr "φώκια / πτερύγια | πουλί"
-
-#. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:315
-msgid "second"
-msgstr "δευτερόλεπτο"
-
-#. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:317
-msgid "shovel / dig | axe"
-msgstr "φτυάρι / σκάβω | τσεκούρι"
-
-#: ../data/verbal_analogies.xml.h:318
-msgid "sink"
-msgstr "βυθίζομαι"
-
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:266
 msgid "sleep | rest"
 msgstr "κοιμάμαι | ξεκουράζομαι"
 
-#: ../data/verbal_analogies.xml.h:320
-msgid "slurp / tongue | snort"
-msgstr "ρουφηξιά / γλώσσα | ρουθούνισμα"
+#. Translators: 'open' is used as a verb (open a box)
+#: ../data/verbal_analogies.xml.h:268
+msgid "box / open | banana"
+msgstr "κουτί / ανοίγω | μπανάνα"
 
-#: ../data/verbal_analogies.xml.h:321
-msgid "sour"
-msgstr "ξινό | ξυνό"
+#: ../data/verbal_analogies.xml.h:269
+msgid "peel"
+msgstr "καθαρίζω | ξεφλουδίζω"
 
-#. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:323
-msgid "stick / float | stone"
-msgstr "κλαδί / επιπλέω | πέτρα"
+#. Translators: 'dig' is used as a verb (to dig)
+#: ../data/verbal_analogies.xml.h:271
+msgid "shovel / dig | axe"
+msgstr "φτυάρι / σκάβω | τσεκούρι"
 
-#: ../data/verbal_analogies.xml.h:324
-msgid "sticky"
-msgstr "κολλώδης"
+#. Translators: 'chop' is used as a verb (to chop)
+#: ../data/verbal_analogies.xml.h:273
+msgid "chop"
+msgstr "κόβω"
 
-#: ../data/verbal_analogies.xml.h:325
-msgid "stripes"
-msgstr "λωρίδες | λουρίδες"
-
-#: ../data/verbal_analogies.xml.h:326
-msgid "sugar / sweet | vinegar"
-msgstr "ζάχαρη / γλυκιά | ξύδι"
-
-#: ../data/verbal_analogies.xml.h:327
-msgid "talk / yell | dislike"
-msgstr "Συζήτηση / φωνάζω | αντιπαθώ"
+#. Translators: 'break' is used as a verb (to break)
+#: ../data/verbal_analogies.xml.h:275
+msgid "glass / break | paper"
+msgstr "γυαλί / σπάω | χαρτί"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:277
 msgid "tear | rip"
 msgstr "σχίζω | ξηλώνω"
 
-#: ../data/verbal_analogies.xml.h:330
-msgid "tears / eyes | sweat"
-msgstr "δάκρυα / μάτια | ιδρώτας"
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#: ../data/verbal_analogies.xml.h:279
+msgid "feet / two | toes"
+msgstr "πόδια / δύο | δάχτυλα"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:281
 msgid "ten | 10"
 msgstr "δέκα | 10"
 
-#: ../data/verbal_analogies.xml.h:333
-msgid "tennis / sport | ballet"
-msgstr "τένις / άθλημα | μπαλέτο"
+#: ../data/verbal_analogies.xml.h:282
+msgid "fish / aquarium | monkey"
+msgstr "ψάρι / ενυδρείο | μαϊμού"
 
-#: ../data/verbal_analogies.xml.h:334
-msgid "thankful / ingratitude | despotism"
-msgstr "ευγνώμονες / αχαριστία | δεσποτισμός"
+#: ../data/verbal_analogies.xml.h:283
+msgid "cage | zoo | zoological garden"
+msgstr "κλουβί | ζωολογικός κήπος | ζωολογικός κήπος"
 
-#: ../data/verbal_analogies.xml.h:335
-msgid "thermometer / temperature | clock"
-msgstr "θερμόμετρο / θερμοκρασία | ρολόι"
+#: ../data/verbal_analogies.xml.h:284
+msgid "A fish in an aquarium lives in captivity."
+msgstr "Ένα ψάρι σε ενυδρείο ζει σε αιχμαλωσία."
 
-#: ../data/verbal_analogies.xml.h:336
-msgid "tiger / carnivore | cow"
-msgstr "τίγρης / σαρκοφάγο | αγελάδα"
+#: ../data/verbal_analogies.xml.h:285
+msgid "ring / finger | bracelet"
+msgstr "δαχτυλίδι / δάχτυλο | βραχιόλι"
 
-#. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:338
-msgid "time"
-msgstr "χρόνος"
-
-#. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:340
-msgid "toy / play | tool"
-msgstr "παιχνίδι / παίζω | εργαλείο"
-
-#: ../data/verbal_analogies.xml.h:341
-msgid "track | railway | rails | railroad"
-msgstr "δρόμος | σιδηρόδρομος | ράγες "
-
-#. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:343
-msgid "turtle / shell | letter"
-msgstr "χελώνα / κέλυφος | επιστολή"
-
-#: ../data/verbal_analogies.xml.h:344
-msgid "vegetable"
-msgstr "λαχανικό"
-
-#: ../data/verbal_analogies.xml.h:345
-msgid "whirlpool / water | tornado"
-msgstr "ρουφήχτρα / νερό | λαίλαπα"
-
-#: ../data/verbal_analogies.xml.h:346
-msgid "wild | savage"
-msgstr "άγριος | θηριώδης"
-
-#: ../data/verbal_analogies.xml.h:347
-msgid "win | play"
-msgstr "κέρδισε | παίξε"
-
-#: ../data/verbal_analogies.xml.h:348
-msgid "wind | air"
-msgstr "αέρας | άνεμος"
-
-#: ../data/verbal_analogies.xml.h:349
-msgid "wine / grape | rum"
-msgstr "wine / grape | rum"
-
-#: ../data/verbal_analogies.xml.h:350
-msgid "wings"
-msgstr "φτερά"
-
-#. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:352
-msgid "work"
-msgstr "χρησιμοποιώ"
-
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:286
 msgid "wrist | arm"
 msgstr "καρπός | βραχίονας"
 
+#: ../data/verbal_analogies.xml.h:287
+msgid "seal / flippers | bird"
+msgstr "φώκια / πτερύγια | πουλί"
+
+#: ../data/verbal_analogies.xml.h:288
+msgid "wings"
+msgstr "φτερά"
+
+#. Translators: stick refers to a piece of wood
+#: ../data/verbal_analogies.xml.h:290
+msgid "stick / float | stone"
+msgstr "κλαδί / επιπλέω | πέτρα"
+
+#: ../data/verbal_analogies.xml.h:291
+msgid "sink"
+msgstr "βυθίζομαι"
+
+#: ../data/verbal_analogies.xml.h:292
+msgid "leopard / spots | tiger"
+msgstr "λεοπάρδαλη / βούλες | τίγρης"
+
+#: ../data/verbal_analogies.xml.h:293
+msgid "stripes"
+msgstr "λωρίδες | λουρίδες"
+
+#. Translators: 'submarine' is used as a noun
+#: ../data/verbal_analogies.xml.h:295
+msgid "fish / submarine | bird"
+msgstr "ψάρι / υποβρύχιο | πουλί"
+
+#: ../data/verbal_analogies.xml.h:296
+msgid "airplane | aeroplane | plane"
+msgstr "αεροπλάνο"
+
+#: ../data/verbal_analogies.xml.h:297
+msgid "tears / eyes | sweat"
+msgstr "δάκρυα / μάτια | ιδρώτας"
+
+#: ../data/verbal_analogies.xml.h:298
+msgid "body | skin"
+msgstr "σώμα | δέρμα"
+
+#: ../data/verbal_analogies.xml.h:299
+msgid "bridge / over | tunnel"
+msgstr "γέφυρα / πάνω | τούνελ"
+
+#: ../data/verbal_analogies.xml.h:300
+msgid "in | under | through"
+msgstr "μέσα | κάτω | μέσω | ανάμεσα"
+
+#. Translators: 'play' is used as a verb (to play)
+#: ../data/verbal_analogies.xml.h:302
+msgid "toy / play | tool"
+msgstr "παιχνίδι / παίζω | εργαλείο"
+
+#. Translators: 'work' is used as a verb (to work)
+#: ../data/verbal_analogies.xml.h:304
+msgid "work"
+msgstr "χρησιμοποιώ"
+
+#. 'correct' can be used as verb or adjective
+#: ../data/verbal_analogies.xml.h:306
+msgid "error / (to) correct | damage"
+msgstr "λάθος / (για) σωστή | βλάβη"
+
+#: ../data/verbal_analogies.xml.h:307
+msgid "repair | fix"
+msgstr "διορθώνω"
+
+#: ../data/verbal_analogies.xml.h:308
+msgid "orange / fruit | spinach"
+msgstr "πορτοκάλι / φρούτο | κουνουπίδι"
+
+#: ../data/verbal_analogies.xml.h:309
+msgid "vegetable"
+msgstr "λαχανικό"
+
+#: ../data/verbal_analogies.xml.h:310
+msgid "hands / grab | teeth"
+msgstr "χέρια / πιάνω | δόντια"
+
+#: ../data/verbal_analogies.xml.h:311
+msgid "bite"
+msgstr "δαγκώνω"
+
+#: ../data/verbal_analogies.xml.h:312
+msgid "Grab and bite are finite actions."
+msgstr "Πιάσε και δάγκωσε είναι πεπερασμένες ενέργειες."
+
+#: ../data/verbal_analogies.xml.h:313
+msgid "puzzle / solve | game"
+msgstr "γρίφος / λύνω | παζλ"
+
+#: ../data/verbal_analogies.xml.h:314
+msgid "win | play"
+msgstr "κέρδισε | παίξε"
+
+#: ../data/verbal_analogies.xml.h:315
+msgid "eyebrow / eye | mustache"
+msgstr "φρύδι / μάτι | μουστάκι"
+
+#: ../data/verbal_analogies.xml.h:316
+msgid "lip | upper lip | mouth"
+msgstr "χείλος | άνω χείλος | στόμα"
+
+#: ../data/verbal_analogies.xml.h:317
+msgid "ice / slippery | glue"
+msgstr "πάγος / ολισθηρός | κόλλα"
+
+#: ../data/verbal_analogies.xml.h:318
+msgid "sticky"
+msgstr "κολλώδης"
+
+#: ../data/verbal_analogies.xml.h:319
+msgid "whirlpool / water | tornado"
+msgstr "ρουφήχτρα / νερό | λαίλαπα"
+
+#: ../data/verbal_analogies.xml.h:320
+msgid "wind | air"
+msgstr "αέρας | άνεμος"
+
+#: ../data/verbal_analogies.xml.h:321
+msgid "fox / den | bird"
+msgstr "αλεπού / ρύγχος | πουλί"
+
+#: ../data/verbal_analogies.xml.h:322
+msgid "nest"
+msgstr "ράμφος"
+
+#: ../data/verbal_analogies.xml.h:323
+msgid "dog / tame | wolf"
+msgstr "σκύλος / ήμερος | λύκος"
+
+#: ../data/verbal_analogies.xml.h:324
+msgid "wild | savage"
+msgstr "άγριος | θηριώδης"
+
+#: ../data/verbal_analogies.xml.h:325
+msgid "sugar / sweet | vinegar"
+msgstr "ζάχαρη / γλυκιά | ξύδι"
+
+#: ../data/verbal_analogies.xml.h:326
+msgid "sour"
+msgstr "ξινό | ξυνό"
+
+#: ../data/verbal_analogies.xml.h:327
+msgid "tennis / sport | ballet"
+msgstr "τένις / άθλημα | μπαλέτο"
+
+#. Translators: 'dance' is used as a noun
+#: ../data/verbal_analogies.xml.h:329
+msgid "dance"
+msgstr "χορός"
+
+#: ../data/verbal_analogies.xml.h:330
+msgid "slurp / tongue | snort"
+msgstr "ρουφηξιά / γλώσσα | ρουθούνισμα"
+
+#: ../data/verbal_analogies.xml.h:331
+msgid "nose"
+msgstr "μύτη"
+
+#: ../data/verbal_analogies.xml.h:332
+msgid "elbow / knee | wrist"
+msgstr "αγκώνας / γόνατο | καρπός"
+
+#: ../data/verbal_analogies.xml.h:333
+msgid "ankle"
+msgstr "αστράγαλος"
+
+#: ../data/verbal_analogies.xml.h:334
+msgid "novel / author | song"
+msgstr "μυθιστόρημα / συγγραφέας | τραγούδι"
+
+#: ../data/verbal_analogies.xml.h:335
+msgid "composer | songwriter | lyricist"
+msgstr "συνθέτης | στιχουργός"
+
+#: ../data/verbal_analogies.xml.h:336
+msgid "car / road | train"
+msgstr "τρένο / ράγες | αυτοκίνητο"
+
+#: ../data/verbal_analogies.xml.h:337
+msgid "track | railway | rails | railroad"
+msgstr "δρόμος | σιδηρόδρομος | ράγες "
+
+#: ../data/verbal_analogies.xml.h:338
+msgid "pediatrics / children | numismatics"
+msgstr "παιδιατρική / παιδιά | φιλοτελισμός"
+
+#: ../data/verbal_analogies.xml.h:339
+msgid "coins"
+msgstr "γραμματόσημα"
+
+#: ../data/verbal_analogies.xml.h:340
+msgid "thermometer / temperature | clock"
+msgstr "θερμόμετρο / θερμοκρασία | ρολόι"
+
+#. Translators: time as duration of an event. What a clock measures
+#: ../data/verbal_analogies.xml.h:342
+msgid "time"
+msgstr "χρόνος"
+
+#: ../data/verbal_analogies.xml.h:343
+msgid "The first word is the instrument and the second what it measures."
+msgstr "Η πρώτη λέξη είναι το όργανο και η δεύτερη η μονάδα μέτρησης."
+
+#: ../data/verbal_analogies.xml.h:344
+msgid "poems / anthology | maps"
+msgstr "ποίηματα / ανθολόγιο | χάρτες"
+
+#: ../data/verbal_analogies.xml.h:345
+msgid "atlas"
+msgstr "άτλας"
+
+#: ../data/verbal_analogies.xml.h:346
+msgid "letter / word | page"
+msgstr "γράμμα / λέξη | σελίδα"
+
+#: ../data/verbal_analogies.xml.h:347
+msgid "book | magazine | document"
+msgstr "βιβλίο | περιοδικό | έγγραφο"
+
+#: ../data/verbal_analogies.xml.h:348
+msgid "hour / minute | minute"
+msgstr "ώρα / λεπτό | λεπτό"
+
+#. Translators: refers to the unit of time
+#: ../data/verbal_analogies.xml.h:350
+msgid "second"
+msgstr "δευτερόλεπτο"
+
+#: ../data/verbal_analogies.xml.h:351
+msgid "tiger / carnivore | cow"
+msgstr "τίγρης / σαρκοφάγο | αγελάδα"
+
+#: ../data/verbal_analogies.xml.h:352
+msgid "herbivorous | herbivore"
+msgstr "φυτοφάγος | φυτοφαγο"
+
+#: ../data/verbal_analogies.xml.h:353
+msgid "constellation / stars | archipelago"
+msgstr "αστερισμός / αστέρια | αρχιπέλαγος"
+
 #: ../data/verbal_analogies.xml.h:354
-msgid "write / pen | eat"
-msgstr "γράφω / στυλό | φάε"
+msgid "islands"
+msgstr "νησιά"
 
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
@@ -2132,9 +2129,8 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "Παιχνίδι ψυχαγωγίας και εξάσκησης του μυαλού σας."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#, fuzzy
 msgid "gbrainy project web site"
-msgstr "gbrainy ιστοσελίδα του προγράμματος: {0}"
+msgstr "ιστοσελίδα του προγράμματος gbrainy"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2504,13 +2500,13 @@ msgstr "Παίξτε παιχνίδια που εξασκούν τη λογικ�
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
 #: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 msgid "Logic"
 msgstr "Λογική"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:128
 #: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 msgid "Calculation"
 msgstr "Αριθμητική"
 
@@ -2529,7 +2525,7 @@ msgstr "Παίξτε παιχνίδια που εξασκούν τη βραχυ�
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:138
 #: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
 msgid "Verbal"
 msgstr "Λεξιλόγιο"
 
@@ -3170,9 +3166,9 @@ msgstr ""
 "αριθμός διαιρείται δια του 3. Π.χ., 15 = 1 + 5 = 6, που διαιρείται δια του 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "The number {0} is a prime number."
-msgstr "Ο αριθμός {0} είναι ένας βασικός αριθμός (primer number) ."
+msgstr "Ο αριθμός {0} είναι ένας βασικός αριθμός (primer number)."
 
 #: ../src/Games/Calculation/CalculationProportions.cs:36
 msgid "Proportions"
@@ -3682,12 +3678,11 @@ msgid "Figures and text"
 msgstr "Σχήματα και κείμενο"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
-#, fuzzy
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
-"Τα σχήματα και το κείμενο σχετίζονται μεταξύ τους. Τι κείμενο αντιστοιχεί "
+"Τα σχήματα και τα κείμενα σχετίζονται μεταξύ τους. Τι κείμενο αντιστοιχεί "
 "στο τελευταίο σχήμα;"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
@@ -4463,7 +4458,7 @@ msgid "Some cheerful people are not thin"
 msgstr "Μερικοί χαρούμενοι άνθρωποι δεν είναι λεπτοί"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
@@ -4473,17 +4468,14 @@ msgstr ""
 "{0}, {1}, {2} ή {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
-#, fuzzy
 msgid "All animals fed on barley-water are non pigs"
-msgstr "Όλα τα ζώα που τρέφονται με κριθάρι, νερό δεν είναι χοίροι (γουρούνια)"
+msgstr "Όλα τα ζώα που τρέφονται με κριθάρι και νερό δεν είναι χοίροι"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
-#, fuzzy
 msgid "No pigs are fed on barley-water"
 msgstr "Οι χοίροι δεν τρέφονται με κριθάρι και νερό"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:111
-#, fuzzy
 msgid "Pigs are not fed on barley-water"
 msgstr "Οι χοίροι δεν τρέφονται με κριθάρι και νερό"
 
@@ -4965,13 +4957,13 @@ msgid "By how much did company sales fall last December?"
 msgstr "Πόση ήταν η μείωση των πωλήσεων της εταιρείας τον περασμένο Δεκέμβριο;"
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
 msgstr ""
 "Οι πωλήσεις της Αυτοκινέξ μειώθηκαν κατά {0}% τον περασμένο Δεκέμβριο. "
-"Πρόκειται για τη μεγαλύτερη πτώση από το {1}. "
+"Πρόκειται για τη μεγαλύτερη πτώση από πιο έτος;"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
@@ -5489,57 +5481,10 @@ msgid "_Start"
 msgstr "_Εκκίνηση"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Επίπεδο δυσκολίας</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid "<b>Game Types</b>"
-msgstr "<b>Τύποι παιχνιδιών</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>Γενικές ρυθμίσεις</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "<b>Number of games</b>"
-msgstr "<b>Αριθμός παιχνιδιών</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Output File</b>"
-msgstr "<b> αρχείου εξόδου </ b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Easy"
-msgstr "Εύκολο"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "Master"
-msgstr "Δύσκολο"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Medium"
-msgstr "Μεσαίο"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
 msgid "PDF export"
 msgstr "Εξαγωγή σε PDF"
 
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "Pages per side:"
-msgstr "Σελίδες ανά πλευρά:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Skip games that use colors"
-msgstr ""
-"Παράλειψη παιχνιδιών που χρησιμοποιούν χρώματα (χρήστες με αχρωματοψία) "
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:15
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
@@ -5547,16 +5492,63 @@ msgstr ""
 "Η επιλογή αυτή επιτρέπει την εξαγωγή μιας σειράς παιχνιδιών σε ένα αρχείο "
 "PDF. Μπορείτε να ολοκληρώσετε το παζλ χωρίς υπολογιστή."
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>Γενικές ρυθμίσεις</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr ""
+"Παράλειψη παιχνιδιών που χρησιμοποιούν χρώματα (χρήστες με αχρωματοψία) "
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Τύποι παιχνιδιών</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Επίπεδο δυσκολίας</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "Easy"
+msgstr "Εύκολο"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Master"
+msgstr "Δύσκολο"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Αριθμός παιχνιδιών</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
 msgid "Total number of games:"
 msgstr "Συνολικός αριθμός παιχνιδιών:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Σελίδες ανά πλευρά:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b> αρχείου εξόδου </ b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
 msgid "_Save"
 msgstr "_Αποθήκευση"
 
 #: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:12
+#: ../src/Clients/Classical/gbrainy.ui.h:19
 msgid "Player's Game Session History"
 msgstr "Ιστορικό παίκτη"
 
@@ -5564,330 +5556,159 @@ msgstr "Ιστορικό παίκτη"
 msgid "Show:"
 msgstr "Εμφάνιση:"
 
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "<b>Memory Games</b>"
-msgstr "<b>Παιχνίδια μνήμης</b>"
+msgid "Skip games that use colors (for colorblind users)"
+msgstr ""
+"Παράλειψη παιχνιδιών που χρησιμοποιούν χρώματα (χρήστες με αχρωματοψία) "
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Ιστορικό παίκτη</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Delete Player's Game Session History"
-msgstr "Διαγραφή του ιστορικού παίκτη"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
 msgid "Force gbrainy to always use English language (ignore translations)"
 msgstr ""
 "Ανάγκασε το gbrainy να χρησιμοποιεί πάντα την αγγλική γλώσσα (αγνοήστε "
 "μεταφράσεις)"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Maximum number of records in the player's game session history:"
-msgstr "Μέγιστος αριθμός αποθηκευμένων παιχνιδιών στο ιστορικό του παίκτη:"
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr " Αναζήτηση και επέκταση του φορτίου κατά την εκκίνηση"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
+msgid "Theme:"
+msgstr "Θέμα"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "<b>Memory Games</b>"
+msgstr "<b>Παιχνίδια μνήμης</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+msgid "Time in seconds to memorize the challenge:"
+msgstr "Διαθέσιμος χρόνος για την απομνημόνευση, σε δευτερόλεπτα:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Show a countdown message"
+msgstr "Εμφάνιση αντίστροφης μέτρησης "
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Ιστορικό παίκτη</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
 msgid "Minimum number of played games to store the game session:"
 msgstr ""
 "Ελάχιστος αριθμός ολοκληρωμένων παιχνιδιών για αποθήκευση στο ιστορικό "
 "παίκτη:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-#: ../src/Clients/Classical/gbrainy.ui.h:13
-msgid "Preferences"
-msgstr "Προτιμήσεις"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Search and load extensions when starting"
-msgstr " Αναζήτηση και επέκταση του φορτίου κατά την εκκίνηση"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "Show a countdown message"
-msgstr "Εμφάνιση αντίστροφης μέτρησης "
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
-msgid "Skip games that use colors (for colorblind users)"
-msgstr ""
-"Παράλειψη παιχνιδιών που χρησιμοποιούν χρώματα (χρήστες με αχρωματοψία) "
-
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
-msgid "Theme:"
-msgstr "Θέμα"
+msgid "Maximum number of records in the player's game session history:"
+msgstr "Μέγιστος αριθμός αποθηκευμένων παιχνιδιών στο ιστορικό του παίκτη:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
-msgid "Time in seconds to memorize the challenge:"
-msgstr "Διαθέσιμος χρόνος για την απομνημόνευση, σε δευτερόλεπτα:"
+msgid "Delete Player's Game Session History"
+msgstr "Διαγραφή του ιστορικού παίκτη"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "_Παιχνίδι"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "_Νέο παιχνίδι"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
 msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
 msgstr "Όλα τα παιχνίδια (Λογική, Αριθμητική, Μνήμη και Λεξιλόγιο)"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "Answer:"
-msgstr "Απάντηση:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "Custom Game Selection..."
-msgstr "Επιλογή παιχνιδιών..."
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Εξαγωγή Παιχνίδια σε PDF για αναπαραγωγή Off-line ..."
-
 #: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Extensions"
-msgstr "Επεκτάσεις"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Horizontal"
-msgstr "οριζόντιος"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "How to Extend gbrainy's Functionality"
-msgstr "Επεκτείνοντας το gbrainy"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
 msgid "Logic Puzzles Only"
 msgstr "Μόνο γρίφοι λογικής"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Memory Trainers Only"
-msgstr "Μόνο ασκήσεις μνήμης"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
+#: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Mental Calculation Only"
 msgstr "Μόνο ασκήσεις αριθμητικής "
 
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Μόνο ασκήσεις μνήμης"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Μόνο λεκτικές αναλογίες"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Επιλογή παιχνιδιών..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "_Παύση παιχνιδιού"
+
 #: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "Orientation"
-msgstr "προσανατολισμός"
+msgid "_End Game"
+msgstr "_Τερματισμός παιχνιδιού"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Εξαγωγή Παιχνίδια σε PDF για αναπαραγωγή Off-line ..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "Π_ροβολή"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Show"
-msgstr "Εμφάνιση: "
-
-#: ../src/Clients/Classical/gbrainy.ui.h:15
 msgid "Toolbar"
 msgstr "Εργαλειοθήκη"
 
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Εμφάνιση: "
+
 #: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Verbal Analogies Only"
-msgstr "Μόνο λεκτικές αναλογίες"
+msgid "Orientation"
+msgstr "προσανατολισμός"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:17
 msgid "Vertical"
 msgstr "κατακόρυφος"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "_Contents"
-msgstr "Περιε_χόμενα"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "_End Game"
-msgstr "_Τερματισμός παιχνιδιού"
+msgid "Horizontal"
+msgstr "οριζόντιος"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Game"
-msgstr "_Παιχνίδι"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "_Help"
-msgstr "_Βοήθεια"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "_New Game"
-msgstr "_Νέο παιχνίδι"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Next"
-msgstr "_Επόμενο"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Pause Game"
-msgstr "_Παύση παιχνιδιού"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
 msgid "_Settings"
 msgstr "_Ρυθμίσεις"
 
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Επεκτάσεις"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "Περιε_χόμενα"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "Επεκτείνοντας το gbrainy"
+
 #: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Απάντηση:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "_Επόμενο"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
 msgid "_Tip"
 msgstr "_Υπόδειξη"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_View"
-msgstr "Π_ροβολή"
-
 #~ msgid "You can also play on-line at {0}"
 #~ msgstr "Μπορείτε επίσης να αναπαράγετε on-line στο {0}"
-
-#~| msgid ""
-#~| "In what year did Shiny Cars record a sales total lower than that of last "
-#~| "December?"
-#~ msgid ""
-#~ "In what year was Shiny Cars sales total lower than that of last December?"
-#~ msgstr ""
-#~ "Ποιο έτος είχε καταγράψει πωλήσεις χαμηλότερες από αυτές του περασμένου "
-#~ "Δεκεμβρίου η Αυτοκινέξ; "
-
-#~ msgid ""
-#~ "[ago] year ago, John's age minus [ago] was equal to [proportion] times "
-#~ "his son's age minus [ago]."
-#~ msgid_plural ""
-#~ "[ago] years ago, John's age minus [ago] was equal to [proportion] times "
-#~ "his son's age minus [ago]."
-#~ msgstr[0] ""
-#~ "Πριν [ago] έτος, η ηλικία του Γιάννη μείον [ago] ήταν ίση με [proportion] "
-#~ "φορές την ηλικία του γιου του μείον [ago]."
-#~ msgstr[1] ""
-#~ "Πριν [ago] έτη, η ηλικία του Γιάννη μείον [ago] ήταν ίση με [proportion] "
-#~ "φορές την ηλικία του γιου του μείον [ago]."
-
-#~ msgid "Bagpipes"
-#~ msgstr "Γκάιντα"
-
-#~ msgid "Meter"
-#~ msgstr "Μέτρο"
-
-#~ msgid "burst | pop"
-#~ msgstr "σκάω"
-
-#~ msgid "cousin"
-#~ msgstr "ξαδέλφη του"
-
-#~ msgid "horse / pony"
-#~ msgstr "άλογο / πόνι"
-
-#~ msgid "innovator"
-#~ msgstr "καινοτόμος"
-
-#~ msgid "son-in-law"
-#~ msgstr "νύφη του"
-
-#~ msgid "theatre | theater"
-#~ msgstr "θέατρο"
-
-#~ msgid "win"
-#~ msgstr "νίκη"
-
-#~ msgid "Break the mental blocks and look into the boundaries of problems."
-#~ msgstr "Σπάστε τα φράγματα του μυαλού σας και σκεφθείτε εκτός ορίων."
-
-#~ msgid "Possible correct answers are: {0}."
-#~ msgstr "Πιθανές σωστές απαντήσεις: {0}."
-
-#~ msgid "Possible answers are:"
-#~ msgstr "Πιθανές απαντήσεις:"
-
-#~ msgid ""
-#~ "Given the relationship between the words '{0}', which of the possible "
-#~ "answers has the closest in relationship to the given pair? Answer {1}."
-#~ msgstr ""
-#~ "Με δεδομένη τη σχέση μεταξύ των '{0}', ποια από τις πιθανές απαντήσεις "
-#~ "πλησιάζει περισσότερο αυτή τη σχέση; Απαντήστε με {1}."
-
-#~ msgid "Finish"
-#~ msgstr "Τέλος"
-
-#~ msgid "Based on ideas by Terry Stickels, MENSA books and Jordi Mas."
-#~ msgstr ""
-#~ "Βασισμένο σε ιδέες των Terry Stickels, βιβλίων της MENSA και Jordi Mas."
-
-#~ msgid "Every triangle counts as 1, each circle as 2 and each square as 3."
-#~ msgstr "Τα τρίγωνα ζυγίζουν 1, οι κύκλοι 2, και τα τετράγωνα 3."
-
-#~ msgid ""
-#~ "Starting from the first clock sum {0} to the value indicated by the hands."
-#~ msgstr ""
-#~ "Ξεκινάτε από το πρώτο ρολόι και προσθέτετε {0} στον αριθμό που δείχνει ο "
-#~ "δείκτης."
-
-#~ msgid ""
-#~ "Individually, the present costs one euro more to purchase than to wrap."
-#~ msgstr ""
-#~ "Το δώρο κοστίζει ένα ευρώ επιπλέον αν αγοραστεί μαζί με το περιτύλιγμα."
-
-#~ msgid ""
-#~ "What is the next logical sequence of objects in the last column? See "
-#~ "below the convention when giving the answer."
-#~ msgstr ""
-#~ "Ποια λογική ακολουθία αντικειμένων θα πρέπει να προστεθεί στην τελευταία "
-#~ "στήλη; Απαντήστε χρησιμοποιώντας τους κανόνες παρακάτω."
-
-#~ msgid "{0} ->"
-#~ msgstr "{0} ->"
-
-#~ msgid "Convention when giving the answer is:"
-#~ msgstr "Κανόνες για την απάντηση:"
-
-#~ msgid "E.g: {0}{1}{2} (pentagon, triangle, circle)"
-#~ msgstr "Π.χ.: {0}{1}{2} (πεντάγωνο, τρίγωνο, κύκλος)"
-
-#~ msgid "Matrix groups"
-#~ msgstr "Ομάδες πίνακα"
-
-#~ msgid ""
-#~ "What is the letter of the figure that represents the next logical figure "
-#~ "in the sequence? Answer {0}, {1} or {2}."
-#~ msgstr "Ποιο σχήμα έπεται στην ακολουθία; Απαντήστε με {0}, {1} ή {2}."
-
-#~ msgid ""
-#~ "The numbers in the figure reflect the different areas covered by each one "
-#~ "of the sheets."
-#~ msgstr ""
-#~ "Οι αριθμοί στο σχήμα αντιπροσωπεύουν τις διαφορετικές περιοχές που "
-#~ "καλύπτει κάθε φύλλο χαρτιού."
-
-#~ msgid "Pluggin database:"
-#~ msgstr "Βάση δεδομένων πρόσθετων λειτουργιών:"
-
-#~ msgid "John's father's sister's sister-in-law is also?"
-#~ msgstr "Η κουνιάδα της αδελφής του πατέρα του Γιάννη είναι και..."
-
-#~ msgid "Water polo"
-#~ msgstr "Πόλο"
-
-#~ msgid "cage | zoo"
-#~ msgstr "κλουβί | ζωολογικός κήπος"
-
-#~ msgid "emblem"
-#~ msgstr "εμβληματικός"
-
-#~ msgid "wild"
-#~ msgstr "άγριος"
-
-#~ msgid "Verbal analogies"
-#~ msgstr "Λεκτικές αναλογίες"
-
-#~ msgid "Read {0} verbal analogies of type {1}"
-#~ msgstr "Διαβάστηκαν {0} λεκτικές αναλογίες τύπου {1}"
-
-#~ msgid "Read a total of {0} verbal analogies"
-#~ msgstr "Διαβάστηκαν συνολικά {0} λεκτικές αναλογίες"
-
-#~ msgid ""
-#~ "Which element does not belong to the group? Answer {0}, {1}, {2}, {3} or "
-#~ "{4}."
-#~ msgstr ""
-#~ "Τι δεν ταιριάζει με τα υπόλοιπα; Απαντήστε με {0}, {1}, {2}, {3} ή {4}."
-
-#~ msgid "Rectangle"
-#~ msgstr "Ορθογώνιο"
-
-#~ msgid "Diamond"
-#~ msgstr "Ρόμβος"
-
-#~ msgid "number1 + number2 = {0}"
-#~ msgstr "αριθμός1 + αριθμός2 = {0}"
-
-#~ msgid "number1 - number2 = {0}"
-#~ msgstr "αριθμός1 - αριθμός2 = {0}"
-
-#~ msgid "number1 * number2 = {0}"
-#~ msgstr "αριθμός1 * αριθμός2 = {0}"
-
-#~ msgid "zoo"
-#~ msgstr "κλουβί | ζωολογικός κήπος"
-
-#~ msgid "_FullScreen"
-#~ msgstr "_Πλήρης οθόνη"
