@@ -334,6 +334,15 @@
 		<_answer>Epigram</_answer>
 		<_rationale>It is the only one that is not related to literature.</_rationale>
 	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer correct ="yes">Curve</_answer>
+		<_answer>Cathetus</_answer>
+		<_answer>Hypotenuse</_answer>
+		<_answer>Trigonometry</_answer>
+		<_rationale>It is the only one that is not related with triangles.</_rationale>
+	</analogy>
    
 	<!--- Pair of words options -->
 
