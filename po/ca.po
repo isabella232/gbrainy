@@ -1848,7 +1848,7 @@ msgstr "anell / dit | braçalet"
 
 #: ../data/verbal_analogies.xml.h:313
 msgid "seal / flippers | bird"
-msgstr "foca / aletes | ocells"
+msgstr "foca / aletes | ocell"
 
 #. Translators: refers to the unit of time
 #: ../data/verbal_analogies.xml.h:315
