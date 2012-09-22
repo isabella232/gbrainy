@@ -285,7 +285,8 @@
 	<analogy>
 		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
 		<_answer correct ="yes">Plate</_answer>
-		<_answer>Bootle</_answer>
+                <!-- Translator: As a noun -->
+		<_answer>Bottle</_answer>
 		<_answer>Amphora</_answer>
 		<_answer>Bowl</_answer>
 		<_rationale>It is the only one that is not used to storage liquids.</_rationale>
@@ -306,6 +307,7 @@
 		<_answer correct ="yes">Applause</_answer>
 		<_answer>Commendation</_answer>
 		<_answer>Citation</_answer>
+                <!-- Translator: As a noun (call upon a spirit by invocation) -->
 		<_answer>Conjure</_answer>
 	</analogy>
 
