@@ -1848,7 +1848,7 @@ msgstr "anell / dit | braçalet"
 
 #: ../data/verbal_analogies.xml.h:313
 msgid "seal / flippers | bird"
-msgstr "foca / aletes | ocells"
+msgstr "foca / aletes | ocell"
 
 #. Translators: refers to the unit of time
 #: ../data/verbal_analogies.xml.h:315
@@ -2746,7 +2746,7 @@ msgid ""
 "play."
 msgstr ""
 "Utilitzeu la «selecció de la partida personalitzada» per a escollir "
-"exactament quins jocs voleu entrenar."
+"exactament quins jocs voleu jugar."
 
 #
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
