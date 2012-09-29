@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Gheyret Kenji <gheyret@gmail.com>, 2012.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
@@ -27,9 +27,7 @@ msgstr ""
 msgid ""
 "A multiple is a number that may be divided by another number with no "
 "remainder. For example, 10, 15 and 25 are multiples of 5."
-msgstr ""
-"بىرەر سانغا پۈتۈن بولىنىدىغان سانلار. مەسىلەن: 10،15، ۋە 25 لەر 5 كە پۈتۈن "
-"بولىنىدۇ."
+msgstr "بىرەر سانغا پۈتۈن بولىنىدىغان سانلار. مەسىلەن: 10،15، ۋە 25 لەر 5 كە پۈتۈن بولىنىدۇ."
 
 #: ../data/games.xml.h:3
 msgid ""
@@ -47,11 +45,11 @@ msgstr "بانكا ئۆسۈمى"
 
 #: ../data/games.xml.h:6
 msgid "Box"
-msgstr "قاپ"
+msgstr "كۆزنەكچە"
 
 #: ../data/games.xml.h:7
 msgid "Boxes"
-msgstr "قاپلار"
+msgstr "قۇتىلار"
 
 #: ../data/games.xml.h:8
 msgid "Brothers and sisters"
@@ -115,17 +113,13 @@ msgstr "دارت تاختىسى"
 msgid ""
 "Every digit has 10 possibilities. The total number of possibilities is 10 at "
 "the power of [digits]."
-msgstr ""
-"ھەر بىر رەقەم ئۈچۈن 10 خىل ئېھتىماللىق بار. جەمئىي ئېھتىماللىق [digits] "
-"نىڭ10-چى دەرىجىسى بولىدۇ."
+msgstr "ھەر بىر رەقەم ئۈچۈن 10 خىل ئېھتىماللىق بار. جەمئىي ئېھتىماللىق [digits] نىڭ10-چى دەرىجىسى بولىدۇ."
 
 #: ../data/games.xml.h:18
 msgid ""
 "Every digit has 8 possibilities. The total number of possibilities is 8 at "
 "the power of [digits]."
-msgstr ""
-"ھەر بىر رەقەم ئۈچۈن 8 خىل ئېھتىماللىق بار. جەمئىي ئېھتىماللىق [digits] نىڭ8-"
-"چى دەرىجىسى بولىدۇ."
+msgstr "ھەر بىر رەقەم ئۈچۈن 8 خىل ئېھتىماللىق بار. جەمئىي ئېھتىماللىق [digits] نىڭ8-چى دەرىجىسى بولىدۇ."
 
 #: ../data/games.xml.h:19
 msgid ""
@@ -141,9 +135,7 @@ msgstr "ھەر سائەتتە 360 گرادۇس چۆرگىلەيدۇ."
 msgid ""
 "Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
 "Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr ""
-"ئادەمنىڭ ئىككى پۇتى بار،  ئاتنىڭ 4 پۇتى (2 * [men] + [horses] * 4). ئادەمنىڭ "
-"ئىككى كۆزى بار ۋە ئاتنىڭمۇ ئىككى كۆزى بار (2 * [men] + [horses] * 4)."
+msgstr "ئادەمنىڭ ئىككى پۇتى بار،  ئاتنىڭ 4 پۇتى (2 * [men] + [horses] * 4). ئادەمنىڭ ئىككى كۆزى بار ۋە ئاتنىڭمۇ ئىككى كۆزى بار (2 * [men] + [horses] * 4)."
 
 #: ../data/games.xml.h:22
 msgid "Family relations"
@@ -159,9 +151,7 @@ msgstr ""
 msgid ""
 "Given two integer numbers x and y, if x is even and y odd, which of the "
 "following expressions gives always an odd result? [option_answers]"
-msgstr ""
-"ئىككى سان يەنى x ۋە y بار بولۇپ، ئەگەر x جۈپ سان، y تاق سان بولسا، "
-"تۆۋەندىكىلەرنىڭ قايسىنىڭ نەتىجىسى تاق سان بولىدۇ؟ [option_answers]"
+msgstr "ئىككى سان يەنى x ۋە y بار بولۇپ، ئەگەر x جۈپ سان، y تاق سان بولسا، تۆۋەندىكىلەرنىڭ قايسىنىڭ نەتىجىسى تاق سان بولىدۇ؟ [option_answers]"
 
 #: ../data/games.xml.h:25
 msgid "His father"
@@ -180,42 +170,33 @@ msgstr "بەيگە ئېتى"
 msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
 "x 5 x [z]?"
-msgstr ""
-"ئۆلچىمى 1 x 1 x 0.5 بولغان قاپلاردىن قانچىنى ئۆلچىمى 6 x 5 x [z] بولغان "
-"قاپقا سالغىلى بولىدۇ؟"
+msgstr "ئۆلچىمى 1 x 1 x 0.5 بولغان قاپلاردىن قانچىنى ئۆلچىمى 6 x 5 x [z] بولغان قاپقا سالغىلى بولىدۇ؟"
 
 #: ../data/games.xml.h:30
 msgid ""
 "How much weight is needed at the point indicated by the question mark to "
 "balance the lever?"
-msgstr ""
-"سوئال بەلگىسى كۆرسەتكەن ئورۇندا پىشاڭنى تەڭپۇڭلاشتۇرۇش ئۈچۈن قانچىلىك "
-"ئېغىرلىق كېرەك بولىدۇ؟"
+msgstr "سوئال بەلگىسى كۆرسەتكەن ئورۇندا پىشاڭنى تەڭپۇڭلاشتۇرۇش ئۈچۈن قانچىلىك ئېغىرلىق كېرەك بولىدۇ؟"
 
 #: ../data/games.xml.h:31
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
 "which of the following options is correct? [option_answers]"
-msgstr ""
-"ئەگەر p &lt; x &lt; q ۋە r &lt; y &lt; s بولسا، x &gt; y بولىدۇ، ئۇنداقتا "
-"تۆۋەندىكىلەرنىڭ قايسىسى توغرا؟ [option_answers]"
+msgstr "ئەگەر p &lt; x &lt; q ۋە r &lt; y &lt; s بولسا، x &gt; y بولىدۇ، ئۇنداقتا تۆۋەندىكىلەرنىڭ قايسىسى توغرا؟ [option_answers]"
 
 #: ../data/games.xml.h:32
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
 "which of the following options is correct? [option_answers]"
-msgstr ""
-"ئەگەر p &lt; x &lt; q and r &lt; y &lt; s بولسا x &lt; y بولىدۇ، ئۇنداقتا "
-"تۆۋەندىكىلەرنىڭ قايسىسى توغرا؟ [option_answers]"
+msgstr "ئەگەر p &lt; x &lt; q ۋە r &lt; y &lt; s بولسا x &lt; y بولىدۇ، ئۇنداقتا تۆۋەندىكىلەرنىڭ قايسىسى توغرا؟ [option_answers]"
 
 #: ../data/games.xml.h:33
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr ""
+msgstr "ئەگەر x &gt; y بولسا، r &lt; y &lt; x &lt; q بولىدۇ، شۇڭا r &lt; q بولىدۇ."
 
 #: ../data/games.xml.h:34
 msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr ""
-"ئەگەر x &lt; y بولسا، p &lt; x &lt; y &lt; s بولىدۇ، شۇڭا s &gt; p بولىدۇ."
+msgstr "ئەگەر x &gt; y بولسا، r &lt; y &lt; x &lt; q, بولىدۇ، شۇڭا r &lt; q بولىدۇ."
 
 #: ../data/games.xml.h:35 ../tools/GameXmlGetString.cs:65
 msgid ""
@@ -224,9 +205,7 @@ msgid ""
 msgid_plural ""
 "In a horse race there are people and horses. You count [eyes] eyes and "
 "[legs] legs. How many horses are present?"
-msgstr[0] ""
-"ئات بەيگىسىدە نۇرغۇن ئادەملەر ۋە كىشىلەر بار. سىز سانىغان كۆزلەرنىڭ سانى "
-"[eyes] ۋە پۇتلارنىڭ سانى [legs]  بولسا، بۇ يەردە قانچە ئات بار؟"
+msgstr[0] "ئات بەيگىسىدە نۇرغۇن ئادەملەر ۋە كىشىلەر بار. سىز سانىغان كۆزلەرنىڭ سانى [eyes] ۋە پۇتلارنىڭ سانى [legs]  بولسا، بۇ يەردە قانچە ئات بار؟"
 
 #: ../data/games.xml.h:37
 #, no-c-format
@@ -310,7 +289,7 @@ msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
 "produces an odd number."
-msgstr ""
+msgstr "ئىككى جۈپ ساننى كۆپەيتسە نەتىجىسى ھەمىشە جۈپ سان بولىدۇ. x كە 2 نى كۆپەيتسە نەتىجە يەنە جۈپ سان بولىدۇ. بۇ جۈپ سانغا بىر تاق سان (y)  نى قوشسا نەتىجىسى تاق سان بولىدۇ."
 
 #: ../data/games.xml.h:53
 msgid "Odd number"
@@ -352,9 +331,7 @@ msgstr "چويلا توپ ئويۇنى"
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
-msgstr ""
-"ئۈچ ساننىڭ يىغىندىسى [three]. بۇنىڭ ئىچىدىكى ئىككى ساننىڭ يىغىندىسى [two]. "
-"ئۈچىنچى سان قانچە؟[option_answers]"
+msgstr "ئۈچ ساننىڭ يىغىندىسى [three]. بۇنىڭ ئىچىدىكى ئىككى ساننىڭ يىغىندىسى [two]. ئۈچىنچى سان قانچە؟[option_answers]"
 
 #: ../data/games.xml.h:62
 msgid ""
@@ -364,8 +341,7 @@ msgstr ""
 
 #: ../data/games.xml.h:63
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr ""
-"ئېغىرراق يۈك ماشىنىسىنىڭ ئېغىرلىقى [heavier] ۋە يېنىكرەكىنىڭ [lighter]."
+msgstr "ئېغىرراق يۈك ماشىنىسىنىڭ ئېغىرلىقى [heavier] ۋە يېنىكرەكىنىڭ [lighter]."
 
 #: ../data/games.xml.h:64
 msgid ""
@@ -404,9 +380,7 @@ msgstr "قانداق ساننى [num_a] غا قوشسا نەتىجىسى [num_b]
 msgid ""
 "Which two numbers of the list below are both multiple of [num_x] and "
 "[num_y]? [option_answers]"
-msgstr ""
-"تۆۋەندىكى تىزىمدىكى قايسى ئىككى سان [num_x] ۋە [num_y] نىڭ ھەسسىلىك سانى؟ "
-"[option_answers]"
+msgstr "تۆۋەندىكى تىزىمدىكى قايسى ئىككى سان [num_x] ۋە [num_y] نىڭ ھەسسىلىك سانى؟ [option_answers]"
 
 #: ../data/games.xml.h:73
 msgid "You can fit 6 * 5 * [z] * 2 boxes."
@@ -421,19 +395,14 @@ msgid_plural ""
 "You have two trucks that have a total weight of [add] units. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
 "what is the weight of the lighter truck? [option_answers]"
-msgstr[0] ""
-"ئىككى يۈك ماشىنىسىنىڭ جەمئىي ئېغىرلىقى [add] . يېنىكرەك يۈك ماشىنىسىنىڭ "
-"ئېغىرلىقى ئېغىرراق يۈك ماشىنىسىنىڭ ئېغىرلىقىنىڭ يېرىمىدىن 15 ئاز. يېنىكرەك "
-"يۈك ماشىنىسىنىڭ ئېغىرلىقى قانچە؟[option_answers]"
+msgstr[0] "ئىككى يۈك ماشىنىسىنىڭ جەمئىي ئېغىرلىقى [add] . يېنىكرەك يۈك ماشىنىسىنىڭ ئېغىرلىقى ئېغىرراق يۈك ماشىنىسىنىڭ ئېغىرلىقىنىڭ يېرىمىدىن 15 ئاز. يېنىكرەك يۈك ماشىنىسىنىڭ ئېغىرلىقى قانچە؟[option_answers]"
 
 #: ../data/games.xml.h:76
 #, no-c-format
 msgid ""
 "[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
 "have a car."
-msgstr ""
-"بۇ يەردىكى [females_cars]% ([all_cars] - [males_cars])  كىشى ئايال ۋە "
-"ماشىنىسى بار."
+msgstr "بۇ يەردىكى [females_cars]% ([all_cars] - [males_cars])  كىشى ئايال ۋە ماشىنىسى بار."
 
 #. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
 #: ../data/games.xml.h:78
@@ -442,8 +411,7 @@ msgstr "[option_a] ۋە [option_b]"
 
 #: ../data/games.xml.h:79
 msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr ""
-"سان [option_a] ۋە [option_b] بولسا سان [num_x] ۋە [num_y] نىڭ ھەسسىلىك سانى."
+msgstr "سان [option_a] ۋە [option_b] بولسا سان [num_x] ۋە [num_y] نىڭ ھەسسىلىك سانى."
 
 #: ../data/games.xml.h:80
 msgid "[option_prefix] (x - y) * 2"
@@ -584,7 +552,7 @@ msgstr "ئويۇن"
 msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
-msgstr "تەپەككۇر، تىل، ھېسابلاش ۋە ئەستە تۇتۇش قابىلىيىتىڭىزنى سىناپ كۆرۈڭ."
+msgstr "تەپەككۇر، تىل، ھېسابلاش ۋە ئەستە ساقلاش قابىلىيىتىڭىزنى سىناپ كۆرۈڭ."
 
 #: ../data/gbrainy.desktop.in.h:3 ../src/Clients/Classical/gbrainy.ui.h:28
 msgid "gbrainy"
@@ -596,7 +564,7 @@ msgstr "كلاسسىك"
 
 #: ../data/themes/themes.xml.h:2
 msgid "Notebook"
-msgstr "دەپتەر"
+msgstr "خاتىرە دەپتەر"
 
 #: ../data/verbal_analogies.xml.h:1
 msgid "A car engine that is poorly designed and lacking of sophistication is?"
@@ -637,7 +605,7 @@ msgstr "ئالقىشلاندى"
 #. Translators: Acrophobia is fear of heights
 #: ../data/verbal_analogies.xml.h:11
 msgid "Acrophobia"
-msgstr ""
+msgstr "ئېگىزلىكتىن قورقۇش كېسىلى"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
 #: ../data/verbal_analogies.xml.h:13
@@ -646,11 +614,11 @@ msgstr "باي"
 
 #: ../data/verbal_analogies.xml.h:14
 msgid "Agoraphobia"
-msgstr ""
+msgstr "ناتونۇش مۇھىتتىن قورقۇش كېسىلى"
 
 #: ../data/verbal_analogies.xml.h:15
 msgid "Air"
-msgstr ""
+msgstr "ھاۋا"
 
 #: ../data/verbal_analogies.xml.h:16
 msgid "Aircraft"
@@ -672,9 +640,7 @@ msgstr ""
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
-msgstr ""
-"بوستانلىق(يېشىلزارلىق) دېگىنىمىز قۇملۇقتىكى ئۆسۈملۈكلەر بار يالغۇز رايوندۇر. "
-"ئارال بولسا سۇ بىلەن قورشالغان يالغۇز قۇرۇقلۇقتۇر."
+msgstr "بوستانلىق(يېشىلزارلىق) دېگىنىمىز قۇملۇقتىكى ئۆسۈملۈكلەر بار يالغۇز رايوندۇر. ئارال بولسا سۇ بىلەن قورشالغان يالغۇز قۇرۇقلۇقتۇر."
 
 #: ../data/verbal_analogies.xml.h:21
 msgid "Angle"
@@ -697,7 +663,7 @@ msgstr ""
 #. Translators: Anthropophobia is fear of people
 #: ../data/verbal_analogies.xml.h:28
 msgid "Anthropophobia"
-msgstr ""
+msgstr "ئادەمدىن قورقۇش كېسىلى"
 
 #: ../data/verbal_analogies.xml.h:29
 msgid "Apple"
@@ -709,7 +675,7 @@ msgstr "تورۇس"
 
 #: ../data/verbal_analogies.xml.h:31
 msgid "Authority"
-msgstr ""
+msgstr "نوپۇز"
 
 #: ../data/verbal_analogies.xml.h:32
 msgid "Azimuth"
@@ -742,7 +708,7 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:40
 msgid "Bounce"
-msgstr "سەكرەش"
+msgstr "سەكرە"
 
 #: ../data/verbal_analogies.xml.h:41
 msgid "Broken"
@@ -758,7 +724,7 @@ msgstr "يېرىلىش"
 
 #: ../data/verbal_analogies.xml.h:44
 msgid "Cage"
-msgstr ""
+msgstr "قەپەس"
 
 #: ../data/verbal_analogies.xml.h:45
 msgid "Camera"
@@ -779,7 +745,7 @@ msgstr "بىپەرۋا"
 
 #: ../data/verbal_analogies.xml.h:50
 msgid "Celebrated"
-msgstr ""
+msgstr "داڭلىق"
 
 #: ../data/verbal_analogies.xml.h:51
 msgid "Cellulose"
@@ -796,7 +762,7 @@ msgstr "ئاككورد"
 #. Translator: 'Close' as verb, like closed with a key
 #: ../data/verbal_analogies.xml.h:55
 msgid "Close"
-msgstr "ياپ"
+msgstr "يېپىش"
 
 #: ../data/verbal_analogies.xml.h:56
 msgid "Coast"
@@ -947,7 +913,7 @@ msgstr "ئادەتتىكى"
 
 #: ../data/verbal_analogies.xml.h:95
 msgid "Golf"
-msgstr "گولف"
+msgstr "Golf"
 
 #: ../data/verbal_analogies.xml.h:96
 msgid "Grab and bite are finite actions."
@@ -1058,7 +1024,7 @@ msgstr "مېۋىگە تەۋە بولمىغان بىرى."
 
 #: ../data/verbal_analogies.xml.h:123
 msgid "It is the only one that is not a medical specialty."
-msgstr ""
+msgstr "تېببىي كەسىپ ئەھلى بولمىغان بىرى."
 
 #: ../data/verbal_analogies.xml.h:124
 msgid "It is the only one that is not a metal."
@@ -1090,7 +1056,7 @@ msgstr "كەڭلىك"
 
 #: ../data/verbal_analogies.xml.h:131
 msgid "Lentils"
-msgstr ""
+msgstr "كىچىك يېسسىمۇق"
 
 #: ../data/verbal_analogies.xml.h:132
 msgid "Light"
@@ -1199,7 +1165,7 @@ msgstr "قەدىمكى جانلىقلار تەتقىقاتى"
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
-msgstr ""
+msgstr "پاراللېل ۋە ئۇزۇنلۇق دېگىنىمىز شەرقتىن غەربكە بولغان سىزىق، مېرىدىئان ۋە كەڭلىك بولسا شىمالدىن جەنۇبقىچە بولغان سىزىقتۇر."
 
 #. Translator: Pertaining to a single or specific person or thing
 #: ../data/verbal_analogies.xml.h:162
@@ -1305,7 +1271,7 @@ msgstr "نومۇس"
 
 #: ../data/verbal_analogies.xml.h:188
 msgid "Ship"
-msgstr ""
+msgstr "كېمە"
 
 #: ../data/verbal_analogies.xml.h:189
 msgid "Simplistic"
@@ -1317,11 +1283,11 @@ msgstr "ناترىي(ئېلېمېنت)"
 
 #: ../data/verbal_analogies.xml.h:191
 msgid "Solstice"
-msgstr ""
+msgstr "قىش پەسىللىك كۈن تۈن توختاش كۈنى(22  ئىيۇن ياكى 22  دېكابىر)"
 
 #: ../data/verbal_analogies.xml.h:192
 msgid "Specializes in skin diseases"
-msgstr ""
+msgstr "مەخسۇس تېرە كېسىلىنى داۋالاش"
 
 #: ../data/verbal_analogies.xml.h:193
 msgid "Sport"
@@ -1329,7 +1295,7 @@ msgstr "تەنتەربىيە"
 
 #: ../data/verbal_analogies.xml.h:194
 msgid "Suffers a skin disease"
-msgstr ""
+msgstr "تېرە كېسىلىگە گىرىپتار بولغان"
 
 #: ../data/verbal_analogies.xml.h:195
 msgid "Sugarcane"
@@ -1366,7 +1332,7 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:203
 msgid "The first word is the instrument and the second what it measures."
-msgstr ""
+msgstr "بىرىنچى سۆز چالغۇ، ئىككىنچى سۆز بولسا ئۆلچەشكە ئىشلىتىلىدۇ."
 
 #: ../data/verbal_analogies.xml.h:204
 msgid "The other words have the connotation of not occurring frequently."
@@ -1414,9 +1380,7 @@ msgstr "تىتان"
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
-msgstr ""
-"ئىككى جىسىمنى ئىشلەيدىغان قىلىش ئۈچۈن، توپچا بېسىلىشى ۋە ئاچقۇچ تولغىنىشى "
-"كېرەك."
+msgstr "ئىككى جىسىمنى ئىشلەيدىغان قىلىش ئۈچۈن، توپچا بېسىلىشى ۋە ئاچقۇچ تولغىنىشى كېرەك."
 
 #: ../data/verbal_analogies.xml.h:215
 msgid "Totalitarianism"
@@ -1429,7 +1393,7 @@ msgstr "ئۈچ ئاياق"
 
 #: ../data/verbal_analogies.xml.h:218
 msgid "Trivial"
-msgstr "ئۇششاق-چۈشەك"
+msgstr " ئۇششاق-چۈشەك"
 
 #: ../data/verbal_analogies.xml.h:219
 msgid "Turn"
@@ -1465,7 +1429,7 @@ msgstr "بۇغداي"
 
 #: ../data/verbal_analogies.xml.h:227
 msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr ""
+msgstr "تۆۋەندىكى قايسى جۈملە ‹چەتكە قېقىلغان› ئادەم دېگەننى ئەڭ ياخشى ئىپادىلەپ بېرىدۇ؟"
 
 #.
 #. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
@@ -1521,7 +1485,7 @@ msgstr "ھاراق زاۋۇتى"
 
 #: ../data/verbal_analogies.xml.h:244
 msgid "Wings"
-msgstr ""
+msgstr "قاناتلار"
 
 #: ../data/verbal_analogies.xml.h:245
 msgid "Wolf"
@@ -1549,7 +1513,7 @@ msgstr "ئوشۇق"
 
 #: ../data/verbal_analogies.xml.h:251
 msgid "art / gallery | drama"
-msgstr "سەنئەت / gallery |  دراما"
+msgstr "سەنئەت / رەسىم كۆرگەزمىسى |  دراما"
 
 #: ../data/verbal_analogies.xml.h:252
 msgid "atlas"
@@ -1574,7 +1538,7 @@ msgstr "قۇتا / ئاچماق | بانان"
 
 #: ../data/verbal_analogies.xml.h:258
 msgid "bridge / over | tunnel"
-msgstr "كۆۋرۈك / ئۈستىدە | تونېل"
+msgstr "كۆۋرۈك / ئۈستىدە | تونىل"
 
 #: ../data/verbal_analogies.xml.h:259
 msgid "button / push | key (used in a lock)"
@@ -1663,7 +1627,7 @@ msgstr "بېلىق / سۇ ئاستى پاراخوتى | قۇش"
 
 #: ../data/verbal_analogies.xml.h:284
 msgid "fish / water | bird"
-msgstr ""
+msgstr "بېلىق / سۇ | قۇش"
 
 #: ../data/verbal_analogies.xml.h:285
 msgid "five / pentagon | ten"
@@ -1867,7 +1831,7 @@ msgstr "ئويۇنچۇق / ئويۇن | قورال"
 
 #: ../data/verbal_analogies.xml.h:341
 msgid "track | railway | rails | railroad"
-msgstr ""
+msgstr "رېلىس | تۆمۈريول | رېلىس | تۆمۈريول"
 
 #. Translators: letter refers to letter (in paper form)
 #: ../data/verbal_analogies.xml.h:343
@@ -1918,13 +1882,13 @@ msgstr "يېزىش / قەلەم |  يېمەك"
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
 msgid "Unknown command line parameter {0}"
-msgstr ""
+msgstr "بۇيرۇق قۇرىدىكى {0} بولسا ناتونۇش پارامېتىرىدۇر"
 
 #. Translators: {0} is a date
 #: ../src/Clients/Classical/CommandLine.cs:110
 #, csharp-format
 msgid "(built on {0})"
-msgstr "(ۋاقتى {0})"
+msgstr "(ھاسىللانغان ۋاقىت {0})"
 
 #: ../src/Clients/Classical/CommandLine.cs:121
 msgid "List of available games"
@@ -1950,15 +1914,12 @@ msgstr "  --gamelist\t\t\tئوينىغىلى بولىدىغان ئويۇنلار
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
-msgstr ""
-"  --customgame [game1, gameN]\tئىختىيارى ئويۇندا ئوينايدىغان ئويۇنلارنىڭ "
-"تىزىمىنى كۆرسىتىدۇ."
+msgstr "  --customgame [game1, gameN]\tئىختىيارى ئويۇندا ئوينايدىغان ئويۇنلارنىڭ تىزىمىنى كۆرسىتىدۇ."
 
 #: ../src/Clients/Classical/CommandLine.cs:177
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
-msgstr ""
-"  --norandom \t\t\tتەمىنلەنگەن ئىختىيارى ئويۇنلار تىزىمى تەرتىپسىز بولمايدۇ."
+msgstr "  --norandom \t\t\tتەمىنلەنگەن ئىختىيارى ئويۇنلار تىزىمى تەرتىپسىز بولمايدۇ."
 
 #: ../src/Clients/Classical/CommandLine.cs:178
 msgid "  --versions \t\t\tShow dependencies."
@@ -1974,14 +1935,20 @@ msgstr "نىڭ پىكرىگە ئاساسلانغان"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:41
 msgid "MENSA works"
-msgstr "MENSA works"
+msgstr "MENSA خىزمەتلىرى"
 
 #. Translators: Replace by the name of the people that translated the application
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:61
 msgid "translator-credits"
-msgstr ""
-"Gheyret Kenji <gheyret@gmail.com>\n"
-"Sahran<sahran@live.com>"
+msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+"Sahran<sahran@live.com>\n"
+"Muhemmed Erdem <misran_erdem@hotmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Abdumomin.Kadir https://launchpad.net/~abdumomin-kadir\n"
+"  Gheyret T.Kenji https://launchpad.net/~gheyret\n"
+"  Gheyret T.Kenji https://launchpad.net/~gheyretkenji\n"
+"  Sahran https://launchpad.net/~sahran"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
@@ -1990,11 +1957,7 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version.\n"
 "\n"
-msgstr ""
-"بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان "
-"GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى "
-"ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى "
-"نەشرىنى ئىشلەتسىڭىز بولىدۇ.\n"
+msgstr "بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى نەشرىنى ئىشلەتسىڭىز بولىدۇ.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:67
@@ -2004,10 +1967,7 @@ msgid ""
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details.\n"
 "\n"
-msgstr ""
-"بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا "
-"ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU "
-"ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ.\n"
+msgstr "بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
@@ -2015,11 +1975,7 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
-msgstr ""
-"سىز  بۇ پروگراممىنى تاپشۇرۇۋېلىش بىلەن بىللە GNU ئادەتتىكى ئاممىۋى ئىجازەت "
-"كېلىشىمىنىڭ كۆچۈرۈلمىسىدىن بىر نۇسخا تاپشۇرۇۋالىسىز؛ ئەگەر تاپشۇرۇۋالمىغان "
-"بولسىڭىز ئەركىن يۇمشاق دېتال فوندىغا خەت يېزىڭ. مەنزىل:  Free Software "
-"Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA"
+msgstr "سىز  بۇ پروگراممىنى تاپشۇرۇۋېلىش بىلەن بىللە GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنىڭ كۆچۈرۈلمىسىدىن بىر نۇسخا تاپشۇرۇۋالىسىز؛ ئەگەر تاپشۇرۇۋالمىغان بولسىڭىز ئەركىن يۇمشاق دېتال فوندىغا خەت يېزىڭ. مەنزىل:  Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2027,7 +1983,7 @@ msgstr "كۆڭۈل ئېچىش ۋە مېڭىنى مەشىق قىلدۇرۇشنى 
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
 msgid "gbrainy project web site"
-msgstr ""
+msgstr "gbrainy قۇرۇلۇشى تورتۇراسى"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2067,16 +2023,12 @@ msgstr "PDF ھۆججىتى ھاسىل قىلىشتا مەسىلە كۆرۈلدى
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
-msgstr ""
-"تۆۋەندىكى گرافىكتا ئوينىغۇچىنىڭ ئېرىشكەن نومۇرلىرىنىڭ ئىلگىرىلەش جەريانى "
-"كۆرسىتىلگەن."
+msgstr "تۆۋەندىكى گرافىكتا ئوينىغۇچىنىڭ ئېرىشكەن نومۇرلىرىنىڭ ئىلگىرىلەش جەريانى كۆرسىتىلگەن."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
 msgid ""
 "You need more than one game session recorded to see the score evolution."
-msgstr ""
-"ئېرىشكەن نومۇرلارنىڭ ئىلگىرىلەش جەريانىنى كۆرۈش ئۈچۈن بىر قانچە قېتىملىق "
-"ئويناش تارىخى بولۇشى كېرەك."
+msgstr "ئېرىشكەن نومۇرلارنىڭ ئىلگىرىلەش جەريانىنى كۆرۈش ئۈچۈن بىر قانچە قېتىملىق ئويناش تارىخى بولۇشى كېرەك."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
 #, csharp-format
@@ -2110,8 +2062,7 @@ msgstr "ئوينىغۇچىنىڭ ئويۇن تارىخىنى ئۆچۈرمەكچ�
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
-msgstr ""
-"داۋاملاشتۇرسىڭىز، ھازىرغىچە بولغان ئويناش تارىخى يوقىلىدۇ. داۋاملاشتۇرامسىز؟"
+msgstr "داۋاملاشتۇرسىڭىز، ھازىرغىچە بولغان ئويناش تارىخى يوقىلىدۇ. داۋاملاشتۇرامسىز؟"
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "_Delete"
@@ -2142,10 +2093,7 @@ msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
-msgstr ""
-"قىسمەن تەرجىمە قىلىنغان ئويۇنلارنى ئويناشتا ئادەم قايمۇقۇپ قالىدۇ. ئەگەر "
-"ئىنگلىزچە ئوينىماقچى بولسىڭىز، gbrainy نىڭ مايىللىقىدا شۇنداق بىر تاللانما "
-"بار."
+msgstr "قىسمەن تەرجىمە قىلىنغان ئويۇنلارنى ئويناشتا ئادەم قايمۇقۇپ قالىدۇ. ئەگەر ئىنگلىزچە ئوينىماقچى بولسىڭىز، gbrainy نىڭ مايىللىقىدا شۇنداق بىر تاللانما بار."
 
 #: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
@@ -2291,7 +2239,7 @@ msgstr "يەرلىك خەزىنىگە خەتلەت"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:63
 msgid "Url:"
-msgstr "Url:"
+msgstr "تور ئادرېسى(URL):"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:64
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
@@ -2364,7 +2312,7 @@ msgstr[0] "{0}  يېڭىلانما بار"
 
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:84
 msgid "Open Location"
-msgstr "تور ئادرېسىنى ئاچ"
+msgstr "ئورۇننى ئاچ"
 
 #: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
 #: ../src/Core/Main/GameSession.cs:185
@@ -2404,7 +2352,7 @@ msgstr "ئىچىدە ھېسابلاش ئىقتىدارىنى سىناش ئويۇ
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:133
 #: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:123
 msgid "Memory"
-msgstr "ئىچكى ساقلىغۇچ"
+msgstr "ئەسلەك"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:134
 msgid "Play games that challenge your short term memory"
@@ -2435,11 +2383,11 @@ msgstr "تامام"
 
 #: ../src/Clients/WebForms/Game.aspx.cs:172
 msgid "Next Game"
-msgstr ""
+msgstr "كېيىنكى ئويۇن"
 
 #: ../src/Clients/WebForms/Game.aspx.cs:173
 msgid "Answer"
-msgstr ""
+msgstr "جاۋاب"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -2547,7 +2495,7 @@ msgstr "شەكىل {0}"
 #, csharp-format
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
-msgstr[0] ""
+msgstr[0] "مۇمكىنچىلىكى بولغان توغرا جاۋابلار"
 
 #: ../src/Core/Main/GameManager.cs:251
 msgid "Extensions database:"
@@ -2559,9 +2507,7 @@ msgstr "كېڭەيتىلمىلەر ساندىنى:"
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} ئويۇن سىڭدۈرۈۋېتىلگەن: {1} دانە تېپىشماقلىق ئويۇن، {2} ھېساب مەشىق "
-"ئويۇنى، {3} ئەستە تۇتۇش مەشىق ئويۇنى، {4} تىل مەشىقى ئويۇنى"
+msgstr "{0} ئويۇن سىڭدۈرۈۋېتىلگەن: {1} دانە تېپىشماقلىق ئويۇن، {2} ھېساب مەشىق ئويۇنى، {3} ئەستە تۇتۇش مەشىق ئويۇنى، {4} تىل مەشىقى ئويۇنى"
 
 #: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
@@ -2613,7 +2559,7 @@ msgstr "بەكلا ناچار"
 
 #: ../src/Core/Main/GameTips.cs:59
 msgid "Read the instructions carefully and identify the data and given clues."
-msgstr ""
+msgstr "كۆرسەتمىلەرنى تەپسىلىي ئوقۇپ، سانلىق-مەلۇماتلارنى ۋە بېرىلگەن يىپ ئۇچلىرىنى ئېنىق چۈشىنىڭ."
 
 #: ../src/Core/Main/GameTips.cs:61
 msgid ""
@@ -2624,8 +2570,7 @@ msgstr ""
 #: ../src/Core/Main/GameTips.cs:63
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
-msgstr ""
-"لوگىكىلىق ئويۇنلاردا، مۇناسىۋەتسىز دەپ قارالغان ئېلېمېنتلار بەكمۇ مۇھىمدۇر."
+msgstr "لوگىكىلىق ئويۇنلاردا، مۇناسىۋەتسىز دەپ قارالغان ئېلېمېنتلار بەكمۇ مۇھىمدۇر."
 
 #: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
@@ -2640,9 +2585,7 @@ msgstr "خاتالىشىشتىن قورقماڭ، خاتالىشىش بولسا 
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challeging yourself."
-msgstr ""
-"ھەممە مەسىلەرنى ئىشلەپ كۆرۈڭ، قىيىنلىرىنىمۇ. قىيىن مەسىلىلەرنى ئىشلىسىڭىز "
-"ئاندىن ئىلگىرىلەش بولىدۇ."
+msgstr "ھەممە مەسىلەرنى ئىشلەپ كۆرۈڭ، قىيىنلىرىنىمۇ. قىيىن مەسىلىلەرنى ئىشلىسىڭىز ئاندىن ئىلگىرىلەش بولىدۇ."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -2653,9 +2596,7 @@ msgstr "ھەر كۈنى ئىشلەپ بېرىڭ، ئاندىن ئىلگىرىل�
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
-msgstr ""
-"‹ئىختىيارىي ئويۇن تاللاش› نى ئىشلىتىپ، ئۆزىڭىز ئوينىماقچى بولغان ئويۇننى "
-"تاللاڭ."
+msgstr "‹ئىختىيارىي ئويۇن تاللاش› نى ئىشلىتىپ، ئۆزىڭىز ئوينىماقچى بولغان ئويۇننى تاللاڭ."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
 msgid "Use the Settings to adjust the difficulty level of the game."
@@ -2673,14 +2614,12 @@ msgstr "ئېلېمېنتلارنى كاتېگورىيەگە ئايرىش،  ئە
 
 #: ../src/Core/Main/GameTips.cs:81
 msgid "Build acronyms using the first letter of each fact to be remembered."
-msgstr ""
-"ئەستە بار بولغان ھەر بىر پاكىتلارنىڭ باش ھەرپىدىن قىسقارتىلما سوز ياساڭ."
+msgstr "ئەستە بار بولغان ھەر بىر پاكىتلارنىڭ باش ھەرپىدىن قىسقارتىلما سوز ياساڭ."
 
 #: ../src/Core/Main/GameTips.cs:83
 msgid ""
 "The enjoyment obtained from a puzzle is proportional to the time spent on it."
-msgstr ""
-"تېپىشماقتىن ئېرىشكەن خۇشاللىق، ئۇنىغا سەرپ قىلغان ۋاقىت بىلەن تاناسىپ بولىدۇ."
+msgstr "تېپىشماقتىن ئېرىشكەن خۇشاللىق، ئۇنىغا سەرپ قىلغان ۋاقىت بىلەن تاناسىپ بولىدۇ."
 
 #: ../src/Core/Main/GameTips.cs:85
 msgid "Think of breaking down every problem into simpler components."
@@ -2756,9 +2695,7 @@ msgstr "سېلىشتۇرىدىغان سۆزلەر جۈپى #{0}"
 msgid ""
 "Given the relationship between the two words below, which word has the same "
 "relationship to '{0}'?"
-msgstr ""
-"تۆۋەندە مۇناسىۋىتى بار بولغان ئىككى سوز بېرىلگەن، قايسى سۆزنىڭ ‹{0}› مىڭ "
-"بىلەن ئوخشاش مۇناسىۋىتى بار؟"
+msgstr "تۆۋەندە مۇناسىۋىتى بار بولغان ئىككى سوز بېرىلگەن، قايسى سۆزنىڭ ‹{0}› مىڭ بىلەن ئوخشاش مۇناسىۋىتى بار؟"
 
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
@@ -2789,26 +2726,26 @@ msgstr "كېيىنكى شەيئىنى ئەستە تۇتۇشقا تەييار…"
 #: ../src/Core/Views/FinishView.cs:145
 #: ../src/Core/Views/PlayerHistoryView.cs:277
 msgid "Score"
-msgstr "شەرەپ سەھنىسى"
+msgstr "ئېرىشكەن نومۇر"
 
 #. Translator: This will be part of the sentence "Games won: 10 (6 played)"
 #: ../src/Core/Views/FinishView.cs:154
 #, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
-msgstr[0] ""
+msgstr[0] "ئوينالغىنى {0} "
 
 #: ../src/Core/Views/FinishView.cs:158
 #, csharp-format
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
-msgstr[0] ""
+msgstr[0] "يەڭگەن ئويۇن: {0} ({1})"
 
 #: ../src/Core/Views/FinishView.cs:162
 #, csharp-format
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
-msgstr[0] ""
+msgstr[0] "{0}يەڭگەن ئويۇن: {1} ({2})"
 
 #: ../src/Core/Views/FinishView.cs:168
 #, csharp-format
@@ -2818,9 +2755,7 @@ msgstr "ئوينالغان ۋاقتى {0} (ھەر بىر ئويۇن ئۈچۈن �
 #. Translators: translated string should not be longer that the English original (space restriction on the UI)
 #: ../src/Core/Views/FinishView.cs:177
 msgid "For details on how gbrainy's scoring works refer to the help."
-msgstr ""
-"gbrainy نىڭ نومۇر قويۇش ئۇسۇلى ھەققىدە تەپسىلىي بىلمەكچى بولسىڭىز ‹ياردەم› "
-"گە قاراڭ."
+msgstr "gbrainy نىڭ نومۇر قويۇش ئۇسۇلى ھەققىدە تەپسىلىي بىلمەكچى بولسىڭىز ‹ياردەم› گە قاراڭ."
 
 #: ../src/Core/Views/FinishView.cs:189
 msgid "Tips for your next games"
@@ -2835,36 +2770,28 @@ msgstr "مۇبارەك بولسۇن! ئۆزىڭىزنىڭ يېڭى رېكورت�
 msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
 "record. Your previous record was {1}."
-msgstr ""
-"لوگىكىلىق تېپىشماق ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. "
-"بۇرۇنقى رېكورتىڭىز {1}."
+msgstr "لوگىكىلىق تېپىشماق ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
 #: ../src/Core/Views/FinishView.cs:233
 #, csharp-format
 msgid ""
 "By scoring {0} in calculation games you have established a new personal "
 "record. Your previous record was {1}."
-msgstr ""
-"ھېسابلاش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى "
-"رېكورتىڭىز {1}."
+msgstr "ھېسابلاش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
 #: ../src/Core/Views/FinishView.cs:239
 #, csharp-format
 msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
 "Your previous record was {1}."
-msgstr ""
-"ئەستە تۇتۇش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى "
-"رېكورتىڭىز {1}."
+msgstr "ئەستە تۇتۇش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
 #: ../src/Core/Views/FinishView.cs:245
 #, csharp-format
 msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
 "record. Your previous record was {1}."
-msgstr ""
-"تىل مەشىقىنى ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى "
-"رېكورتىڭىز {1}."
+msgstr "تىل مەشىقىنى ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
 #: ../src/Core/Views/PlayerHistoryView.cs:276
 msgid "Time"
@@ -2872,23 +2799,17 @@ msgstr "ۋاقىت"
 
 #: ../src/Core/Views/WelcomeView.cs:64
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
-msgstr ""
-"لوگىكىلىق تېپىشماقلار. خۇلاسە چىقىرىش ۋە تەپەككۇر ئىقتىدارى سىنايدىغان "
-"ئويۇنلارنى ئويناڭ."
+msgstr "لوگىكىلىق تېپىشماقلار. خۇلاسە چىقىرىش ۋە تەپەككۇر ئىقتىدارى سىنايدىغان ئويۇنلارنى ئويناڭ."
 
 #: ../src/Core/Views/WelcomeView.cs:85
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
-msgstr ""
-"ئىچىدە ھېسابلاش. سىزنىڭ ئىچىدە ھېسابلاش ئىقتىدارىڭىزنى سىنايدىغان "
-"ئارىفمېتىكىلىق ئەمەللەر."
+msgstr "ئىچىدە ھېسابلاش. سىزنىڭ ئىچىدە ھېسابلاش ئىقتىدارىڭىزنى سىنايدىغان ئارىفمېتىكىلىق ئەمەللەر."
 
 #: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
-msgstr ""
-"ئەستە تۇتۇش مەشىق ئويۇنلىرى. سىزنىڭ قىسقا ۋاقىتلىق ئەستە تۇتۇش "
-"ئىقتىدارىڭىزنى ئىسپاتلاپ بېرىدۇ."
+msgstr "ئەستە تۇتۇش مەشىق ئويۇنلىرى. سىزنىڭ قىسقا ۋاقىتلىق ئەستە تۇتۇش ئىقتىدارىڭىزنى ئىسپاتلاپ بېرىدۇ."
 
 #: ../src/Core/Views/WelcomeView.cs:127
 msgid "Verbal analogies. Challenge your verbal aptitude."
@@ -2904,7 +2825,7 @@ msgstr "gbrainy {0} غا مەرھابا"
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
-msgstr ""
+msgstr "كۆڭۈل ئېچىش ۋە مېڭىنى مەشىق قىلدۇرۇشنى مەقسەت قىلغان ئويۇن بولۇپ، ئۇنىڭدا تۆۋەندىكى مەزمۇنلار بار:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
 msgid "Arithmetical operations"
@@ -2923,17 +2844,13 @@ msgstr "ئوتتۇرىچە"
 msgid ""
 "Given the numbers: {0}. Which of the following numbers is closest to the "
 "average? Answer {1}, {2}, {3} or {4}."
-msgstr ""
-"بېرىلگەن سانلار: {0}. تۆۋەندىكى سانلارنىڭ ئىچىدە قايسىسى ئوتتۇرىچە قىممەتكە "
-"ئەڭ يېقىن؟ جاۋاب: {1}، {2}، {3} ياكى {4}."
+msgstr "بېرىلگەن سانلار: {0}. تۆۋەندىكى سانلارنىڭ ئىچىدە قايسىسى ئوتتۇرىچە قىممەتكە ئەڭ يېقىن؟ جاۋاب: {1}، {2}، {3} ياكى {4}."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:60
 msgid ""
 "The average of a list of numbers is their sum divided by the number of "
 "numbers in the list."
-msgstr ""
-"تىزىمدىكى سانلارنىڭ ئوتتۇرىچە قىممىتى، ئۇلارنىڭ يىغىندىسىنى ئۇلارنىڭ سانىغا "
-"بۆلگەنگە تەڭ."
+msgstr "تىزىمدىكى سانلارنىڭ ئوتتۇرىچە قىممىتى، ئۇلارنىڭ يىغىندىسىنى ئۇلارنىڭ سانىغا بۆلگەنگە تەڭ."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:65
 #, csharp-format
@@ -2953,7 +2870,7 @@ msgstr "تۆۋەندىكى قايسى سان {0} غا يېقىن؟ جاۋاب: {
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr ""
+msgstr "ئەمەل  {0} / {1} نىڭ نەتىجىسى ‹{2}›"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -2963,8 +2880,7 @@ msgstr "كەسىر"
 msgid ""
 "What is the result of the given operation? Answer using either a fraction or "
 "a number."
-msgstr ""
-"بېرىلگەن ئەمەلنىڭ نەتىجىسى نېمە؟ كەسىر سان ياكى ساننى ئىشلىتىپ جاۋاب بېرىڭ."
+msgstr "بېرىلگەن ئەمەلنىڭ نەتىجىسى نېمە؟ كەسىر سان ياكى ساننى ئىشلىتىپ جاۋاب بېرىڭ."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
 msgid "Greatest divisor"
@@ -2975,7 +2891,7 @@ msgstr "ئەڭ چوڭ بۆلگۈچى"
 msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
 "Answer {0}, {1}, {2} or {3}."
-msgstr ""
+msgstr "ھەممە سانلارنى بۆلەلەيدىغان ئەڭ چوڭ بۆلگۈچى قايسى؟ جاۋاب: {1}، {2}، {3} ياكى {4}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
 msgid "Numbers"
@@ -2983,7 +2899,7 @@ msgstr "سانلار"
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:257
 msgid "Possible divisors"
-msgstr ""
+msgstr "مۇمكىنچىلىكى بولغان بۆلگۈچىلەر"
 
 #: ../src/Games/Calculation/CalculationOperator.cs:34
 msgid "Operators"
@@ -2997,9 +2913,7 @@ msgstr "تۇنجى ئەمەل {0}."
 #: ../src/Games/Calculation/CalculationOperator.cs:46
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
-msgstr ""
-"قايسى ئەمەلدە {0}، {1}، ۋە {2} لار {3} غا تەڭ بولىدۇ؟ جاۋابتا ‹+-/*› نى "
-"ئىشلىتىڭ."
+msgstr "قايسى ئەمەلدە {0}، {1}، ۋە {2} لار {3} غا تەڭ بولىدۇ؟ جاۋابتا ‹+-/*› نى ئىشلىتىڭ."
 
 #: ../src/Games/Calculation/CalculationOperator.cs:109
 #: ../src/Games/Calculation/CalculationRatio.cs:86
@@ -3018,22 +2932,18 @@ msgid ""
 "Which of the following numbers is a prime? A prime number is a positive "
 "integer that has exactly two different positive divisors, 1 and itself. "
 "Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"تۆۋەندىكى سانلارنىڭ قايسىسى تۈپ سان؟ تۈپ سان دېگىنىمىز ئۆزى ۋە 1 گىلا پۈتۈن "
-"بۆلىنىدىغان مۇسبەت ساندۇر. جاۋاب: {0}, {1}, {2} ياكى {3}."
+msgstr "تۆۋەندىكى سانلارنىڭ قايسىسى تۈپ سان؟ تۈپ سان دېگىنىمىز ئۆزى ۋە 1 گىلا پۈتۈن بۆلىنىدىغان مۇسبەت ساندۇر. جاۋاب: {0}, {1}, {2} ياكى {3}."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:81
 msgid ""
 "If the sum of all digits in a given number is divisible by 3, then so is the "
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
-msgstr ""
-"بېرىلگەن ساننىڭ ھەر قايسى خانىسىنىڭ يىغىندىسى ئۈچكە پۈتۈن بۆلۈنسە، بۇ سانمۇ "
-"3 كە پۈتۈن بۆلىنىدۇ. مەسىلەن : 15=1+5=6، 3 كە پۈتۈن بۆلىنىدۇ."
+msgstr "بېرىلگەن ساننىڭ ھەر قايسى خانىسىنىڭ يىغىندىسى ئۈچكە پۈتۈن بۆلۈنسە، بۇ سانمۇ 3 كە پۈتۈن بۆلىنىدۇ. مەسىلەن : 15=1+5=6، 3 كە پۈتۈن بۆلىنىدۇ."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
 msgid "The number {0} is a prime number."
-msgstr ""
+msgstr "سان  {0} تۈپ ساندۇر."
 
 #: ../src/Games/Calculation/CalculationProportions.cs:36
 msgid "Proportions"
@@ -3053,24 +2963,20 @@ msgstr "نىسبەت"
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr ""
+msgstr "قايسى ئىككى ساننىڭ يىغىندىسى {0} ۋە نىسبىتى {1} : {2} بولىدۇ؟  جاۋابقا ئىككى سان ئىشلىتىڭ."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:48
 #, csharp-format
 msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
 "and dividing it by {1}."
-msgstr ""
-"ئىككىنچى ساننى بىرىنچى سانغا {0} نى كۆپەيتىپ ئاندىن ئۇنى {1} غا بولۇپ "
-"ھېسابلىغىلى بولىدۇ."
+msgstr "ئىككىنچى ساننى بىرىنچى سانغا {0} نى كۆپەيتىپ ئاندىن ئۇنى {1} غا بولۇپ ھېسابلىغىلى بولىدۇ."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:54
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
-msgstr ""
-"نىسبەت دېگىنىمىز ئىككى ئارىسىدىكى تاناسىپلىق مۇناسىۋەتتۇر. نىسبەت a:b "
-"دېگىنى، ‹a› بىر پارچىسىغا ‹b› پارچە توغرا كېلىدۇ دېگەنلىكتۇر."
+msgstr "نىسبەت دېگىنىمىز ئىككى ئارىسىدىكى تاناسىپلىق مۇناسىۋەتتۇر. نىسبەت a:b دېگىنى، ‹a› بىر پارچىسىغا ‹b› پارچە توغرا كېلىدۇ دېگەنلىكتۇر."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:98
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
@@ -3092,18 +2998,14 @@ msgstr "ئىككى سان"
 msgid ""
 "Which two numbers when added are {0} and when multiplied are {1}? Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr ""
-"يىغىندىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى "
-"ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
+msgstr "يىغىندىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:53
 #, csharp-format
 msgid ""
 "Which two numbers when subtracted are {0} and when multiplied are {1}? "
 "Answer using two numbers (e.g.: 1 and 2)."
-msgstr ""
-"ئايرىمىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى "
-"ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
+msgstr "ئايرىمىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:117
 #, csharp-format
@@ -3123,9 +3025,7 @@ msgstr "ستېرېئولۇق(3D) كۈپ"
 msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
-msgstr ""
-"تۆۋەندىكى چوڭ كۈپنى ياساش ئۈچۈن قانچە دانە كىچىك كۈپ كېرەك بولىدۇ؟ جاۋابى "
-"سان بولسۇن."
+msgstr "تۆۋەندىكى چوڭ كۈپنى ياساش ئۈچۈن قانچە دانە كىچىك كۈپ كېرەك بولىدۇ؟ جاۋابى سان بولسۇن."
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
@@ -3139,17 +3039,13 @@ msgstr "تەڭپۇڭ"
 msgid ""
 "Using triangles only, how many triangles are needed in the right part of the "
 "last figure to keep it balanced?"
-msgstr ""
-"ئۇچبۇلۇڭلارنىلا ئىشلىتىڭ، ئەڭ ئاخىرقى شەكىلنىڭ تەڭپۇڭلۇقىنى ساقلاش ئۈچۈن ئوڭ "
-"تەرەپكە قانچە ئۈچبۇلۇڭ كېرەك بولىدۇ."
+msgstr "ئۇچبۇلۇڭلارنىلا ئىشلىتىڭ، ئەڭ ئاخىرقى شەكىلنىڭ تەڭپۇڭلۇقىنى ساقلاش ئۈچۈن ئوڭ تەرەپكە قانچە ئۈچبۇلۇڭ كېرەك بولىدۇ."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:58
 msgid ""
 "Every circle is equivalent to two triangles and every square to three "
 "triangles."
-msgstr ""
-"ھەر بىر چەمبەر ئىككى دانە ئۈچبۇلۇڭغا، ھەر بىر كۋادرات ئۈچ دانە ئۈچبۇلۇڭغا "
-"تەڭداشتۇر."
+msgstr "ھەر بىر چەمبەر ئىككى دانە ئۈچبۇلۇڭغا، ھەر بىر كۋادرات ئۈچ دانە ئۈچبۇلۇڭغا تەڭداشتۇر."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:63
 msgid "Every circle is equivalent two triangles."
@@ -3164,9 +3060,7 @@ msgstr "ئۈچبۇلۇڭ ياساش"
 msgid ""
 "Which three pieces can you use together to build a triangle? Answer using "
 "the three figure names, e.g.: {0}{1}{2}."
-msgstr ""
-"بىر دانە ئۇچ بۇلۇڭنى ياساش ئۈچۈن قايسى ئۇچ بۆلەكچە كېرەك بولىدۇ؟ شەكىللەرنىڭ "
-"ئىسمىنى يېزىپ جاۋاب بېرىڭ. مىسال: {0}{1}{2}."
+msgstr "بىر دانە ئۇچ بۇلۇڭنى ياساش ئۈچۈن قايسى ئۇچ بۆلەكچە كېرەك بولىدۇ؟ شەكىللەرنىڭ ئىسمىنى يېزىپ جاۋاب بېرىڭ. مىسال: {0}{1}{2}."
 
 #: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
 msgid "The resulting triangle is isosceles."
@@ -3319,24 +3213,19 @@ msgstr "ساناش مەشىقلىرى"
 #: ../src/Games/Logic/PuzzleCountSeries.cs:62
 msgid ""
 "How many numbers '9' are required to represent the numbers between 10 to 100?"
-msgstr ""
-"10 دىن 100 گىچە بولغان سانلار ئارىسىدا، قانچە دانە ‹9› دېگەن رەقەم بار؟"
+msgstr "10 دىن 100 گىچە بولغان سانلار ئارىسىدا، قانچە دانە ‹9› دېگەن رەقەم بار؟"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:68
 msgid ""
 "How many two digit numbers occur where the first digit is larger than the "
 "second (e.g.: 20 and 21)?"
-msgstr ""
-"ئىككى خانىلىق ساننىڭ ئىچىدە بىرىنچى خانىسى ئىككىنچى خانىسىدىن چوڭ ساندىن "
-"قانچىسى بار؟(مەسىلەن: 20 ۋە 21 دەك ساندىن)"
+msgstr "ئىككى خانىلىق ساننىڭ ئىچىدە بىرىنچى خانىسى ئىككىنچى خانىسىدىن چوڭ ساندىن قانچىسى بار؟(مەسىلەن: 20 ۋە 21 دەك ساندىن)"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:74
 msgid ""
 "How many two digit numbers occur where the first digit is smaller than the "
 "second (e.g.: 12 and 13)?"
-msgstr ""
-"ئىككى خانىلىق ساننىڭ ئىچىدە بىرىنچى خانىسى ئىككىنچى خانىسىدىن كىچىك ساندىن "
-"قانچىسى بار؟(مەسىلەن: 12 ۋە 13 دەك ساندىن)"
+msgstr "ئىككى خانىلىق ساننىڭ ئىچىدە بىرىنچى خانىسى ئىككىنچى خانىسىدىن كىچىك ساندىن قانچىسى بار؟(مەسىلەن: 12 ۋە 13 دەك ساندىن)"
 
 #. Translators: A sequence of numbers 1, 2, 3, etc.
 #: ../src/Games/Logic/PuzzleCountSeries.cs:86
@@ -3363,7 +3252,7 @@ msgstr "شەكىلنىڭ قانچە پىرسەنتى بويالغان؟"
 
 #: ../src/Games/Logic/PuzzleCube.cs:45
 msgid "Cube"
-msgstr "كۈپ"
+msgstr "Cube"
 
 #: ../src/Games/Logic/PuzzleCube.cs:49
 #, csharp-format
@@ -3371,18 +3260,13 @@ msgid ""
 "When you fold the figure below as a cube, which face on the figure is "
 "opposite the face with a {0} drawn on it? Answer the number written on the "
 "face."
-msgstr ""
-"تۆۋەندىكى شەكىلنى قاتلاپ بىر دانە كۈپ ھاسىل قىلغاندا، قايسى يۈزى {0} "
-"يېزىلغان يۈزىنىڭ قارشىسىدا بولىدۇ؟ يۈزىگە يېزىلغان رەقەمنى ئىشلىتىپ جاۋاب "
-"بېرىڭ."
+msgstr "تۆۋەندىكى شەكىلنى قاتلاپ بىر دانە كۈپ ھاسىل قىلغاندا، قايسى يۈزى {0} يېزىلغان يۈزىنىڭ قارشىسىدا بولىدۇ؟ يۈزىگە يېزىلغان رەقەمنى ئىشلىتىپ جاۋاب بېرىڭ."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
 msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
-msgstr ""
-"ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تاشلىسا ‹2› ياكى ‹6› گە ئېرىشىنىڭ "
-"ئېھتىماللىقى قانچە؟"
+msgstr "ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تاشلىسا ‹2› ياكى ‹6› گە ئېرىشىنىڭ ئېھتىماللىقى قانچە؟"
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
 msgid "There are 2 of 6 possibilities."
@@ -3392,9 +3276,7 @@ msgstr "ئېھتىماللىقى 2/6."
 msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
-msgstr ""
-"ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تاشلىسا ‹5› گە ئېرىشمەسلىكنىڭ "
-"ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن جاۋاب بېرىڭ.)"
+msgstr "ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تاشلىسا ‹5› گە ئېرىشمەسلىكنىڭ ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن جاۋاب بېرىڭ.)"
 
 #: ../src/Games/Logic/PuzzleDice.cs:60
 msgid "There are 5 of 6 possibilities."
@@ -3404,10 +3286,7 @@ msgstr "ئېھتىماللىقى 5/6."
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
-msgstr ""
-"ئىككى دانە ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تەڭ تاشلىسا، "
-"ئىككىلىسىنىڭ جۈپ سان بولۇش ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن "
-"جاۋاب بېرىڭ.)"
+msgstr "ئىككى دانە ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تەڭ تاشلىسا، ئىككىلىسىنىڭ جۈپ سان بولۇش ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن جاۋاب بېرىڭ.)"
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid "There are 9 of 36 possibilities of getting two even numbers."
@@ -3417,10 +3296,7 @@ msgstr "ئىككىلىسىنىڭ جۈپ سان بولۇش ئېھتىماللىق
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
-msgstr ""
-"ئىككى دانە ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تەڭ تاشلىسا، "
-"ئىككىلىسىنىڭ ‹6› بولۇش ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن "
-"جاۋاب بېرىڭ.)"
+msgstr "ئىككى دانە ئالتە تەرەپلىك ئۇرۇق(شىشىخال)نى بىر قېتىم تەڭ تاشلىسا، ئىككىلىسىنىڭ ‹6› بولۇش ئېھتىماللىقى قانچە؟(1/2 دېگەندەك كەسىر سان بىلەن جاۋاب بېرىڭ.)"
 
 #: ../src/Games/Logic/PuzzleDice.cs:68
 msgid ""
@@ -3440,9 +3316,7 @@ msgstr "چەمبەرلەرنى بۆلۈش"
 msgid ""
 "In the last figure, in how many regions is the circle divided into when all "
 "dots are connected?"
-msgstr ""
-"ئەڭ ئاخىرقى شەكىلدە، بارلىق نۇقتىلار تۇتاشتۇرۇلسا، چەمبەر قانچە بۆلەككە "
-"بولۇنىدۇ؟"
+msgstr "ئەڭ ئاخىرقى شەكىلدە، بارلىق نۇقتىلار تۇتاشتۇرۇلسا، چەمبەر قانچە بۆلەككە بولۇنىدۇ؟"
 
 #: ../src/Games/Logic/PuzzleDivideCircle.cs:179
 #, csharp-format
@@ -3462,9 +3336,7 @@ msgstr "تۆۋەندىكى تەڭلىمىنىڭ نەتىجىسى نېمە؟"
 msgid ""
 "The order of arithmetical operations is always as follows: exponents and "
 "roots, multiplication and division, addition and subtraction."
-msgstr ""
-"ئارىفمېتىكىلىق ئەمەللەرنىڭ تەرتىپى مۇنداق: كۆرسەتكۈچ ۋە يىلتىز، كۆپەيتىش ۋە "
-"بولۇش، قوشۇش ۋە ئېلىش."
+msgstr "ئارىفمېتىكىلىق ئەمەللەرنىڭ تەرتىپى مۇنداق: كۆرسەتكۈچ ۋە يىلتىز، كۆپەيتىش ۋە بولۇش، قوشۇش ۋە ئېلىش."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:53
 msgid "Extra circle"
@@ -3475,9 +3347,7 @@ msgstr "ئارتۇقچە چەمبەر"
 msgid ""
 "Which circle does not belong to the group? It is not a sequence of elements. "
 "Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"قايسى چەمبەر بۇ گۇرۇپپىغا تەۋە ئەمەس؟ ئېلېمېنتلارنىڭ تەرتىپى ئەمەس. جاۋاب: "
-"{0}، {1}، {2} ياكى {3}."
+msgstr "قايسى چەمبەر بۇ گۇرۇپپىغا تەۋە ئەمەس؟ ئېلېمېنتلارنىڭ تەرتىپى ئەمەس. جاۋاب: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:67
 msgid "All circles share a common property except for one."
@@ -3516,8 +3386,7 @@ msgstr "شەكىل قېلىپى"
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:45
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
-msgstr ""
-"سوراق بەلگىسىنىڭ ئورنىغا قايسى شەكىل كېلىشى كېرەك؟ جاۋاب: {0}, {1} ياكى {2}."
+msgstr "سوراق بەلگىسىنىڭ ئورنىغا قايسى شەكىل كېلىشى كېرەك؟ جاۋاب: {0}, {1} ياكى {2}."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:50
 msgid ""
@@ -3540,9 +3409,7 @@ msgstr "شەكىللەر"
 msgid ""
 "What is the next logical sequence of objects in the last column? Answer {0}, "
 "{1} or {2}."
-msgstr ""
-"ئەڭ ئاخىرقى ئىستوندىكى كېيىنكى لوگىكىلىق تەرتىپ قايسى؟ جاۋاب: {0}، {1} ياكى "
-"{2}"
+msgstr "ئەڭ ئاخىرقى ئىستوندىكى كېيىنكى لوگىكىلىق تەرتىپ قايسى؟ جاۋاب: {0}، {1} ياكى {2}"
 
 #: ../src/Games/Logic/PuzzleFigures.cs:68
 msgid ""
@@ -3560,8 +3427,7 @@ msgstr "تۆۋەندىكى شەكىللەرنىڭ ئىچىدە تۆت تەرەپ
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:40
 msgid "A four sided figure can be embedded inside another figure."
-msgstr ""
-"بىر دانە تۆت تەرەپلىك شەكىلنى باشقا بىر شەكىلنىڭ ئىچىگە قويۇشقا بولىدۇ."
+msgstr "بىر دانە تۆت تەرەپلىك شەكىلنى باشقا بىر شەكىلنىڭ ئىچىگە قويۇشقا بولىدۇ."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:45
 #, csharp-format
@@ -3574,8 +3440,7 @@ msgstr "سېتكا ئىچىدىكى چەمبەرلەر"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:39
 msgid "One of the numbers in the grid must be circled. Which one?"
-msgstr ""
-"سېتكا ئىچىدىكى بىر سان چوقۇم يۇمىلاقنىڭ ئىچىگە يېزىلىشى كېرەك. بۇ قايسى سان؟"
+msgstr "سېتكا ئىچىدىكى بىر سان چوقۇم يۇمىلاقنىڭ ئىچىگە يېزىلىشى كېرەك. بۇ قايسى سان؟"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:43
 msgid "All circled numbers share an arithmetical property."
@@ -3595,8 +3460,7 @@ msgstr "چېكىتلىك كۋادرات"
 #, csharp-format
 msgid ""
 "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
-msgstr ""
-"تەرتىپ ئىچىدىكى كېيىنكى لوگىكىلىق شەكىل قايسى؟ جاۋاب: {0}، {1} ياكى {2}"
+msgstr "تەرتىپ ئىچىدىكى كېيىنكى لوگىكىلىق شەكىل قايسى؟ جاۋاب: {0}، {1} ياكى {2}"
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
@@ -3608,9 +3472,7 @@ msgstr ""
 #: ../src/Games/Logic/PuzzleGridDots.cs:222
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
-msgstr ""
-"ئۈستى-سول تەرەپتىكى شەكىلدە، سېكىل سائەت يۆنىلىشىگە قارشى يۆنىلىشتە 90 "
-"گرادۇس چۆرگىلىگەن."
+msgstr "ئۈستى-سول تەرەپتىكى شەكىلدە، سېكىل سائەت يۆنىلىشىگە قارشى يۆنىلىشتە 90 گرادۇس چۆرگىلىگەن."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:44
 msgid "Numbers in a grid"
@@ -3620,68 +3482,52 @@ msgstr "سېتكا ئىچىدىكى سانلار"
 msgid ""
 "The numbers in the grid below follow a pattern. Which number should replace "
 "the question mark?"
-msgstr ""
-"تۆۋەندىكى سېتكا ئىچىدىكى رەقەملەر مەلۇم قېلىپقا بويسۇنىدۇ. سوئال بەلگىسىنىڭ "
-"ئورنىدىكى سان نېمە؟"
+msgstr "تۆۋەندىكى سېتكا ئىچىدىكى رەقەملەر مەلۇم قېلىپقا بويسۇنىدۇ. سوئال بەلگىسىنىڭ ئورنىدىكى سان نېمە؟"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:54
 msgid "The pattern is arithmetical and works vertically."
-msgstr ""
-"بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، تىك يۆنىلىشتە ئىشلەيدۇ."
+msgstr "بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، تىك يۆنىلىشتە ئىشلەيدۇ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:56
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
 msgid "The pattern is arithmetical and works horizontally."
-msgstr ""
-"بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، توغرا يۆنىلىشتە ئىشلەيدۇ."
+msgstr "بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، توغرا يۆنىلىشتە ئىشلەيدۇ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:65
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and adding "
 "the third."
-msgstr ""
-"تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى كۆپەيتىپ، ئۇنىغا ئۈچىنچى قۇرنى "
-"قوشقانغا تەڭ."
+msgstr "تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى كۆپەيتىپ، ئۇنىغا ئۈچىنچى قۇرنى قوشقانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:67
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "adding the third."
-msgstr ""
-"تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى كۆپەيتىپ، ئۇنىغا ئۈچىنچى "
-"ئىستوننى قوشقانغا تەڭ."
+msgstr "تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى كۆپەيتىپ، ئۇنىغا ئۈچىنچى ئىستوننى قوشقانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:71
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and "
 "subtracting the third."
-msgstr ""
-"تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى كۆپەيتىپ، ئۇنىڭدىن ئۈچىنچى "
-"قۇرنى ئالغانغا تەڭ."
+msgstr "تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى كۆپەيتىپ، ئۇنىڭدىن ئۈچىنچى قۇرنى ئالغانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:73
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "subtracting the third."
-msgstr ""
-"تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى كۆپەيتىپ، ئۇنىڭدىن "
-"ئۈچىنچى ئىستوننى ئالغانغا تەڭ."
+msgstr "تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى كۆپەيتىپ، ئۇنىڭدىن ئۈچىنچى ئىستوننى ئالغانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:77
 msgid ""
 "The fourth row is calculated by adding the first two rows and subtracting "
 "the third."
-msgstr ""
-"تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى قوشۇپ، ئۇنىڭدىن ئۈچىنچى قۇرنى "
-"ئالغانغا تەڭ."
+msgstr "تۆتىنچى قۇرنىڭ قىممىتى، دەسلەپكى ئىككى قۇرنى قوشۇپ، ئۇنىڭدىن ئۈچىنچى قۇرنى ئالغانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:79
 msgid ""
 "The fourth column is calculated by adding the first two columns and "
 "subtracting the third."
-msgstr ""
-"تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى قوشۇپ، ئۇنىڭدىن ئۈچىنچى "
-"ئىستوننى ئالغانغا تەڭ."
+msgstr "تۆتىنچى ئىستوننىڭ قىممىتى، دەسلەپكى ئىككى ئىستوننى قوشۇپ، ئۇنىڭدىن ئۈچىنچى ئىستوننى ئالغانغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:32
 msgid "Handshakes"
@@ -3692,10 +3538,7 @@ msgstr "قول ئېلىشىش"
 msgid ""
 "All attendees to a party are introduced to one another. {0} handshakes are "
 "made in total. How many people are attending the party?"
-msgstr ""
-"ئولتۇرۇشقا كەلگەن بارلىق كىشىلەر بىر-بىرى بىلەن ئۆزئارا تونۇشىدۇ. بۇ يەردە "
-"جەمئىي {0} قېتىم قول ئېلىشىپ كۆرۈشۈش بولغان. ئولتۇرۇشقا جەمئىي قانچە ئادەم "
-"قاتناشقان؟"
+msgstr "ئولتۇرۇشقا كەلگەن بارلىق كىشىلەر بىر-بىرى بىلەن ئۆزئارا تونۇشىدۇ. بۇ يەردە جەمئىي {0} قېتىم قول ئېلىشىپ كۆرۈشۈش بولغان. ئولتۇرۇشقا جەمئىي قانچە ئادەم قاتناشقان؟"
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:42
 msgid ""
@@ -3718,21 +3561,17 @@ msgstr "چوڭراق شەكىللەر"
 msgid ""
 "Which larger shape can you make combining the first two figures? Answer {0}, "
 "{1}, {2} or {3}."
-msgstr ""
-"دەسلەپكى ئىككى شەكىل ئارقىلىق قايسى ئەڭ چوڭ شەكىلنى ھاسىل قىلالايسىز؟ جاۋاب: "
-"{0}، {1}، {2} ياكى {3}."
+msgstr "دەسلەپكى ئىككى شەكىل ئارقىلىق قايسى ئەڭ چوڭ شەكىلنى ھاسىل قىلالايسىز؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
-msgstr "قۇرلار"
+msgstr "سىزىقلار"
 
 #: ../src/Games/Logic/PuzzleLines.cs:38
 msgid ""
 "How many line segments in total are in the figures below? A line segment is "
 "a line between two points with no crossing lines."
-msgstr ""
-"تۆۋەندە كۆرسىتىلگەن شەكىللەر قانچە دانە سىزىق پارچىسى بار؟ سىزىق پارچىسى "
-"دېگىنىمىز كېسىشمىگەن، شۇنداقلا ئىككى نۇقتا ئوتتۇرىسىدىكى سىزىقتۇر."
+msgstr "تۆۋەندە كۆرسىتىلگەن شەكىللەر قانچە دانە سىزىق پارچىسى بار؟ سىزىق پارچىسى دېگىنىمىز كېسىشمىگەن، شۇنداقلا ئىككى نۇقتا ئوتتۇرىسىدىكى سىزىقتۇر."
 
 #: ../src/Games/Logic/PuzzleLines.cs:44
 #, csharp-format
@@ -3777,9 +3616,7 @@ msgstr "يوقالغان تىلىم"
 msgid ""
 "The slices below have some kind of relation. Which is the missing slice in "
 "the circle below? Answer {0}, {1} or {2}."
-msgstr ""
-"تۆۋەندىكى تىلىملار مەلۇم باغلىنىشقا ئىگە. تۆۋەندىكى چەمبەردىكى يوقالغان "
-"تىلىم قايسى؟ جاۋابى: {0}، {1} ياكى {2}."
+msgstr "تۆۋەندىكى تىلىملار مەلۇم باغلىنىشقا ئىگە. تۆۋەندىكى چەمبەردىكى يوقالغان تىلىم قايسى؟ جاۋابى: {0}، {1} ياكى {2}."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:72
 msgid "Each slice is related to the opposite one."
@@ -3810,8 +3647,7 @@ msgstr "بېرىلگەن شەكىللەرنىڭ ئىچىدىكى ئورتاق ب
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:93
 msgid ""
 "It has the same number of elements inside the figure as the given figures."
-msgstr ""
-"بۇ شەكىلنىڭ ئىچىدىكى ئېلېمېنتلارنىڭ سانى بېرىلگەن شەكىللەرنىڭكى بىلەن ئوخشاش."
+msgstr "بۇ شەكىلنىڭ ئىچىدىكى ئېلېمېنتلارنىڭ سانى بېرىلگەن شەكىللەرنىڭكى بىلەن ئوخشاش."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:95
 msgid ""
@@ -3827,26 +3663,19 @@ msgstr "شەكىل يۆتكەش"
 msgid ""
 "What is the minimum number of circles to be moved in order to convert the "
 "left figure into the right figure?"
-msgstr ""
-"سولدىكى شەكىلنى ئوڭدىكى شەكىلگە ئوخشاش قىلىش ئۈچۈن ئەڭ ئاز دېگەندە قانچە "
-"چەمبەرنى يۆتكەش كېرەك؟"
+msgstr "سولدىكى شەكىلنى ئوڭدىكى شەكىلگە ئوخشاش قىلىش ئۈچۈن ئەڭ ئاز دېگەندە قانچە چەمبەرنى يۆتكەش كېرەك؟"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:44
 msgid ""
 "Move the circle from the first line to the second and move two circles from "
 "the fourth line to the second and the fifth lines."
-msgstr ""
-"چەمبەرنى بىرىنچى قۇردىن ئىككىنچى قۇرغا، ئاندىن كېيىن تۆتىنچى قۇردىكى ئىككى "
-"چەمبەرنى ئىككىنچى قۇرغا ۋە بەشىنچى قۇرغا يۆتكەڭ."
+msgstr "چەمبەرنى بىرىنچى قۇردىن ئىككىنچى قۇرغا، ئاندىن كېيىن تۆتىنچى قۇردىكى ئىككى چەمبەرنى ئىككىنچى قۇرغا ۋە بەشىنچى قۇرغا يۆتكەڭ."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:46
 msgid ""
 "Move the first line to the seventh; move the two circles of the second line "
 "to third; and move first and last circles of the fifth line to the sixth."
-msgstr ""
-"بىرىنچى قۇرنى يەتتىنچى قۇرغا يۆتكەڭ. ئىككىنچى قۇردىكى ئىككى چەمبەرنى ئۈچىنچى "
-"قۇرغا يۆتكەڭ؛ بەشىنچى قۇردىكى بىرىنچى ۋە ئەڭ ئاخىرقى چەمبەرنى ئالتىنچى قۇرغا "
-"يۆتكەڭ."
+msgstr "بىرىنچى قۇرنى يەتتىنچى قۇرغا يۆتكەڭ. ئىككىنچى قۇردىكى ئىككى چەمبەرنى ئۈچىنچى قۇرغا يۆتكەڭ؛ بەشىنچى قۇردىكى بىرىنچى ۋە ئەڭ ئاخىرقى چەمبەرنى ئالتىنچى قۇرغا يۆتكەڭ."
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:53
 msgid "Next figure"
@@ -3880,17 +3709,13 @@ msgstr "ھەر بىر گۇرۇپپىدىكى {0}  ساننىڭ يىغىندىس�
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by multiplying by the two previous ones."
-msgstr ""
-"قاتاردىكى سانلارنى 3 تىن گۇرۇپپىغا ئايرىڭ. بۇ ئۈچ ساننىڭ ئىچىدىكى 3-سان "
-"ئالدىنقى ئىككى ساننىڭ كۆپەيتمىسىگە تەڭ بولسۇن."
+msgstr "قاتاردىكى سانلارنى 3 تىن گۇرۇپپىغا ئايرىڭ. بۇ ئۈچ ساننىڭ ئىچىدىكى 3-سان ئالدىنقى ئىككى ساننىڭ كۆپەيتمىسىگە تەڭ بولسۇن."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:66
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by subtracting the second number from the first."
-msgstr ""
-"قاتاردىكى سانلارنى 3 تىن گۇرۇپپىغا ئايرىڭ. بۇ ئۈچ ساننىڭ ئىچىدىكى 3-سان "
-"ئالدىنقى ئىككى ساننىڭ ئايرىمىسىغا تەڭ بولسۇن."
+msgstr "قاتاردىكى سانلارنى 3 تىن گۇرۇپپىغا ئايرىڭ. بۇ ئۈچ ساننىڭ ئىچىدىكى 3-سان ئالدىنقى ئىككى ساننىڭ ئايرىمىسىغا تەڭ بولسۇن."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:42
 msgid "Numeric sequence"
@@ -3900,9 +3725,7 @@ msgstr "رەقەملىك قاتار"
 msgid ""
 "The next sequence follows a logic. What number should replace the question "
 "mark?"
-msgstr ""
-"كېيىنكى قاتار مەلۇم بىر لوگىكىغا بويسۇنىدۇ. سوئال بەلگىسىنىڭ ئورنىغا قانداق "
-"سان كېلىشى كېرەك؟"
+msgstr "كېيىنكى قاتار مەلۇم بىر لوگىكىغا بويسۇنىدۇ. سوئال بەلگىسىنىڭ ئورنىغا قانداق سان كېلىشى كېرەك؟"
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:50
 msgid "Every number in the sequence is related to the previous one."
@@ -3912,22 +3735,19 @@ msgstr "قاتاردىكى ھەر بىر سان ئالدىنقى سانغا مۇ
 msgid ""
 "Every number in the sequence is the result of subtracting 1 from the "
 "previous number and multiplying it by 2."
-msgstr ""
-"قاتاردىكى ھەر بىر سان ئالدىنقى ساندىن 1 نى ئېلىپ ئۇنى 2 گە كۆپەيتكەنگە تەڭ."
+msgstr "قاتاردىكى ھەر بىر سان ئالدىنقى ساندىن 1 نى ئېلىپ ئۇنى 2 گە كۆپەيتكەنگە تەڭ."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:59
 msgid ""
 "Every number in the sequence is the result of adding 1 to the previous "
 "number and multiplying it by 3."
-msgstr ""
-"قاتاردىكى ھەر بىر سان ئالدىنقى سانغا 1 نى قوشۇپ ئۇنى 3 كە كۆپەيتكەنگە تەڭ."
+msgstr "قاتاردىكى ھەر بىر سان ئالدىنقى سانغا 1 نى قوشۇپ ئۇنى 3 كە كۆپەيتكەنگە تەڭ."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:61
 msgid ""
 "Every number in the sequence is the result of subtracting 2 from the "
 "previous number and multiplying it by -2."
-msgstr ""
-"قاتاردىكى ھەر بىر سان ئالدىنقى ساندىن 2 نى ئېلىپ ئۇنى -2 گە كۆپەيتكەنگە تەڭ."
+msgstr "قاتاردىكى ھەر بىر سان ئالدىنقى ساندىن 2 نى ئېلىپ ئۇنى -2 گە كۆپەيتكەنگە تەڭ."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:53
 msgid "Ostracism"
@@ -3938,9 +3758,7 @@ msgstr "چەتكە قېقىش"
 msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
-msgstr ""
-"قايسى ئېلېمېنت مەزكۇر گۇرۇپپىغا تەۋە؟ بۇ ئارىفمېتىكا بىلەن مۇناسىۋەتسىز. "
-"جاۋاب: {0}، {1}، {2}، {3} ياكى {4}."
+msgstr "قايسى ئېلېمېنت مەزكۇر گۇرۇپپىغا تەۋە؟ بۇ ئارىفمېتىكا بىلەن مۇناسىۋەتسىز. جاۋاب: {0}، {1}، {2}، {3} ياكى {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
@@ -3968,16 +3786,14 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePencil.cs:38
 msgid "Pencil"
-msgstr "قېرىنداش"
+msgstr "قەلەم"
 
 #: ../src/Games/Logic/PuzzlePencil.cs:43
 #, csharp-format
 msgid ""
 "Which of the following figures cannot be drawn without crossing any previous "
 "lines nor lifting the pencil? Answer {0}, {1}, {2}, {3} or {4}."
-msgstr ""
-"تۆۋەندىكى قايسى شەكىلنى بۇرۇن سىزىلغان يەرنى كەسىپ ئۆتمەي، ھەم قەلەمنى "
-"كۆتۈرمەي تۇرۇپ سىزىشقا بولىدۇ؟ جاۋاب: {0}، {1}، {2}، {3} ياكى {4}."
+msgstr "تۆۋەندىكى قايسى شەكىلنى بۇرۇن سىزىلغان يەرنى كەسىپ ئۆتمەي، ھەم قەلەمنى كۆتۈرمەي تۇرۇپ سىزىشقا بولىدۇ؟ جاۋاب: {0}، {1}، {2}، {3} ياكى {4}."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:45
 msgid "People at a table"
@@ -3988,9 +3804,7 @@ msgstr "شىرە ئەتراپىدىكى ئادەملەر"
 msgid ""
 "A group of people are sitting at a round table spaced out evenly. How many "
 "people are there if the {0} person is across from the {1}?"
-msgstr ""
-"يۇمىلاق شىرە ئەتراپىدا ئادەملەر تەڭ ئارىلىق قالدۇرۇپ ئولتۇرۇۋاتىدۇ. ئەگەر "
-"{0} ئادەم دەل {1} ئادەمنىڭ قارشىسىدا ئولتۇرغان بولسا، قانچە ئادەم بار؟"
+msgstr "يۇمىلاق شىرە ئەتراپىدا ئادەملەر تەڭ ئارىلىق قالدۇرۇپ ئولتۇرۇۋاتىدۇ. ئەگەر {0} ئادەم دەل {1} ئادەمنىڭ قارشىسىدا ئولتۇرغان بولسا، قانچە ئادەم بار؟"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
@@ -4039,9 +3853,7 @@ msgid ""
 msgid_plural ""
 "After getting {0}% discount you have paid {1} monetary units for a TV set. "
 "What was the original price of the TV set?"
-msgstr[0] ""
-"{0}% ئېتىبار بېرىلگەندىن كېيىن، تېلېۋىزور ئۈچۈن سىز {1} تۆلىدىڭىز. "
-"تېلېۋىزورنىڭ ئەسلى باھاسى قانچە؟"
+msgstr[0] "{0}% ئېتىبار بېرىلگەندىن كېيىن، تېلېۋىزور ئۈچۈن سىز {1} تۆلىدىڭىز. تېلېۋىزورنىڭ ئەسلى باھاسى قانچە؟"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:96
 #, csharp-format
@@ -4069,9 +3881,7 @@ msgstr ""
 msgid ""
 "If all painters are artists and some citizens of Barcelona are artists. "
 "Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"بارسېلونادىكى بارلىق رەسساملار ئارتىس ۋە بىر قىسىم كىشىلەر ئارتىس. تۆۋەندىكى "
-"ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
+msgstr "بارسېلونادىكى بارلىق رەسساملار ئارتىس ۋە بىر قىسىم كىشىلەر ئارتىس. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 msgid "Some citizens of Barcelona are painters"
@@ -4097,9 +3907,7 @@ msgstr "جاۋابلارنىڭ ھېچقايسىسى توغرا ئەمەس"
 msgid ""
 "If no ill artist is happy and some artists are happy. Which of the following "
 "conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"كېسەل ئەمەس ئارتىسلار خۇشال ۋە بەزى ئارتىسلار خۇشال بولسا، تۆۋەندىكى "
-"ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
+msgstr "كېسەل ئەمەس ئارتىسلار خۇشال ۋە بەزى ئارتىسلار خۇشال بولسا، تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
 msgid "Some artist are not ill"
@@ -4118,9 +3926,7 @@ msgstr "بارلىق ئارتىسلار خۇشال"
 msgid ""
 "People that travel always buy a map. You are not going to travel. Which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"كىشىلەر ساياھەت قىلغاندا ھەمىشە خەرىتە سېتىۋالىدۇ. سىز ساياھەتكە چىقمىدىڭىز. "
-"تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
+msgstr "كىشىلەر ساياھەت قىلغاندا ھەمىشە خەرىتە سېتىۋالىدۇ. سىز ساياھەتكە چىقمىدىڭىز. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
 msgid "You do not have any map"
@@ -4139,10 +3945,7 @@ msgstr "ھەممە ئادەمدە خەرىتە بار"
 msgid ""
 "If you whistle if you are happy and you always smile when you whistle, which "
 "of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"سىز ئىسقىرتقان بولسىڭىز، بۇ سىزنىڭ خۇشال بولغانلىقىڭىزنى بىلدۈرىدۇ. سىز "
-"ئىسقىرتقان ۋاقىتتا ھەمىشە كۈلىسىز. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ "
-"جاۋابى: {0}، {1}، {2} ياكى {3}."
+msgstr "سىز ئىسقىرتقان بولسىڭىز، بۇ سىزنىڭ خۇشال بولغانلىقىڭىزنى بىلدۈرىدۇ. سىز ئىسقىرتقان ۋاقىتتا ھەمىشە كۈلىسىز. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 msgid "You smile if you are happy"
@@ -4253,9 +4056,7 @@ msgstr "باشقا ھەممىسى"
 msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"ئەگەر سىز پىيادە ماڭسىڭىز ۋە كەيپىياتىڭىز ياخشى بولسا، تۆۋەندىكى ھۆكۈملەرنىڭ "
-"قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
+msgstr "ئەگەر سىز پىيادە ماڭسىڭىز ۋە كەيپىياتىڭىز ياخشى بولسا، تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "To feel better, you must go out for a walk"
@@ -4271,8 +4072,7 @@ msgstr "سىرتقا چىقىپ ئايلىنىپ كىرگەن كىشىنىڭ ك�
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
 msgid "No one feels better who does not go out for a walk"
-msgstr ""
-"سىرتقا چىقىپ ئايلىنىپ كىرمىگەنلەرنىڭ ھېچ قايسىسىنىڭ كەيپىياتى ياخشى ئەمەس"
+msgstr "سىرتقا چىقىپ ئايلىنىپ كىرمىگەنلەرنىڭ ھېچ قايسىسىنىڭ كەيپىياتى ياخشى ئەمەس"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
 msgid "Predicate Logic"
@@ -4287,9 +4087,7 @@ msgstr "تۆت تەرەپلىكلەر"
 msgid ""
 "Which of the following figures does not belong to the group? Answer {0}, "
 "{1}, {2}, {3}, {4} or {5}."
-msgstr ""
-"تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇ گۇرۇپپىغا تەۋە ئەمەس؟ جاۋاب: {0}، {1}، {2}، "
-"{3}، {4} ياكى {5}."
+msgstr "تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇ گۇرۇپپىغا تەۋە ئەمەس؟ جاۋاب: {0}، {1}، {2}، {3}، {4} ياكى {5}."
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
 msgid "It is the only figure with all lines of equal length."
@@ -4301,31 +4099,25 @@ msgstr "مۇناسىۋەتلىك رەقەملەر"
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:162
 msgid "In the grid below, which number should replace the question mark?"
-msgstr ""
-"تۆۋەندىكى سېتكا ئىچىدىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى سان كېلىشى كېرەك؟"
+msgstr "تۆۋەندىكى سېتكا ئىچىدىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى سان كېلىشى كېرەك؟"
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
 msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
-msgstr ""
-"ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ "
-"يېرىمىغا تەڭ."
+msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ يېرىمىغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
 msgid ""
 "The number in the middle of every row is the sum of the other numbers in the "
 "row."
-msgstr ""
-"ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىغا تەڭ."
+msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىغا تەڭ."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
 msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
-msgstr ""
-"ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ "
-"ھەسسىسىگە تەڭ."
+msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ ھەسسىسىگە تەڭ."
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
 msgid "Squares and letters"
@@ -4335,9 +4127,7 @@ msgstr "كۋادراتلار ۋە ھەرپلەر"
 msgid ""
 "The letters around the squares follow a pattern. Which letter should replace "
 "the question mark in the last square?"
-msgstr ""
-"كۋادراتلارنىڭ ئەتراپىدىكى سانلار مەلۇم بىر قېلىپقا بويسۇنىدۇ. ئەڭ ئاخىرقى "
-"كۋادراتتىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى ھەرپ كېلىشى كېرەك؟"
+msgstr "كۋادراتلارنىڭ ئەتراپىدىكى سانلار مەلۇم بىر قېلىپقا بويسۇنىدۇ. ئەڭ ئاخىرقى كۋادراتتىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى ھەرپ كېلىشى كېرەك؟"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
 #, csharp-format
@@ -4349,37 +4139,29 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleSquares.cs:30
 msgid "Squares"
-msgstr "كۋادراتلار"
+msgstr "كۋادرات"
 
 #: ../src/Games/Logic/PuzzleSquares.cs:34
 msgid "How many squares of any size do you count in the figure below?"
-msgstr ""
-"تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان كۋادراتتىن قانچىسى بار؟"
+msgstr "تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان كۋادراتتىن قانچىسى بار؟"
 
 #: ../src/Games/Logic/PuzzleSquares.cs:38
 msgid ""
 "A square is a rectangle with sides of equal length. A square can also be "
 "built from other squares."
-msgstr ""
-"كۋادرات دېگىنىمىز ھەممە تەرەپلىرى تەڭ بولغان تىك تۆت تەرەپلىكتۇر. كۋادراتنى "
-"باشقا كۋادراتلار ئارقىلىق ياساشقىمۇ بولىدۇ."
+msgstr "كۋادرات دېگىنىمىز ھەممە تەرەپلىرى تەڭ بولغان تىك تۆت تەرەپلىكتۇر. كۋادراتنى باشقا كۋادراتلار ئارقىلىق ياساشقىمۇ بولىدۇ."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:45
 msgid ""
 "There are 16 single squares, 9 squares made by 4 single squares, 4 squares "
 "made by 9 single squares and 1 square made by 16 single squares."
-msgstr ""
-"بۇ يەردە 16 دانە يەككە كۋادرات بار. 9 كۋادرات 4 يەككە كۋادراتتىن ياسالغان، 4 "
-"كۋادرات 9 يەككە كۋادراتتىن ياسالغان ۋە 1 كۋادرات 16 يەككە كۋادراتتىن "
-"ياسالغان."
+msgstr "بۇ يەردە 16 دانە يەككە كۋادرات بار. 9 كۋادرات 4 يەككە كۋادراتتىن ياسالغان، 4 كۋادرات 9 يەككە كۋادراتتىن ياسالغان ۋە 1 كۋادرات 16 يەككە كۋادراتتىن ياسالغان."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:47
 msgid ""
 "There are 9 single squares, 4 squares made by 4 single squares and 1 square "
 "made by 9 single squares."
-msgstr ""
-"بۇ يەردە 9 دانە يەككە كۋادرات بار. 4 كۋادرات 4 يەككە كۋادراتتىن ياسالغان ۋە  "
-"1 كۋادرات 9 يەككە كۋادراتتىن ياسالغان."
+msgstr "بۇ يەردە 9 دانە يەككە كۋادرات بار. 4 كۋادرات 4 يەككە كۋادراتتىن ياسالغان ۋە  1 كۋادرات 9 يەككە كۋادراتتىن ياسالغان."
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:29
 msgid "Square sheets"
@@ -4530,8 +4312,7 @@ msgstr "ئۈچبۇلۇڭلار"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:35
 msgid "How many triangles of any size do you count in the figure below?"
-msgstr ""
-"تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان ئۈچبۇلۇڭدىن قانچىسى بار؟"
+msgstr "تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان ئۈچبۇلۇڭدىن قانچىسى بار؟"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:39
 msgid "A triangle can be embedded inside another triangle."
@@ -4557,8 +4338,7 @@ msgstr "ئارىلىق ئۈچبۇلۇڭلارنىڭ بىر ئورتاق خاسل
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
 #, csharp-format
 msgid "The result of multiplying the two numbers inside every triangle is {0}."
-msgstr ""
-"ھەر بىر ئۈچبۇلۇڭ ئىچىدىكى ئىككى ساننى كۆپەيتسە نەتىجىسى {0} غا تەڭ بولىدۇ."
+msgstr "ھەر بىر ئۈچبۇلۇڭ ئىچىدىكى ئىككى ساننى كۆپەيتسە نەتىجىسى {0} غا تەڭ بولىدۇ."
 
 #: ../src/Games/Memory/MemoryColouredFigures.cs:50
 msgid "Colored figures"
@@ -4568,9 +4348,7 @@ msgstr "بويالغان شەكىللەر"
 #, csharp-format
 msgid ""
 "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇرۇن كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى "
-"{3}."
+msgstr "تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇرۇن كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Memory/MemoryColouredText.cs:35
 msgid "Colored text"
@@ -4590,9 +4368,7 @@ msgstr "چېكىتلەرنى ساناش"
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
-msgstr ""
-"ئالدىنقى رەسىمدە {0} رەڭلىك چېكىتتىن قانچىسى بار؟ نومۇرىنى ئىشلىتىپ جاۋاب "
-"بېرىڭ."
+msgstr "ئالدىنقى رەسىمدە {0} رەڭلىك چېكىتتىن قانچىسى بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -4663,7 +4439,7 @@ msgstr "Shiny نىڭ ماشىنىلىرىنىڭ قانچە پىرسەنتى بې
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:65
 msgid "Triangle"
-msgstr "ئۈچبۇلۇڭ"
+msgstr "ئۈچ بۇلۇڭ"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:67
 msgid "Square"
@@ -4700,9 +4476,7 @@ msgstr "شەكىللەرنى ئەستە تۇتۇش"
 msgid ""
 "In which cell is the other figure like the one shown below? Answer the cell "
 "number."
-msgstr ""
-"قايسى كاتەكچە تۆۋەندە كۆرسىتىلگەن قايسى كاتەكچىگە ئوخشايدۇ؟ كاتەكچە نومۇرى "
-"نى دەڭ."
+msgstr "قايسى كاتەكچە تۆۋەندە كۆرسىتىلگەن قايسى كاتەكچىگە ئوخشايدۇ؟ كاتەكچە نومۇرى نى دەڭ."
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
@@ -4712,8 +4486,7 @@ msgstr "رەقەملىك شەكىللەر"
 #, csharp-format
 msgid ""
 "Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"قايسى كۋادراتلار ئالدىنقى قېتىم كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
+msgstr "قايسى كۋادراتلار ئالدىنقى قېتىم كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
 #: ../src/Games/Memory/MemoryIndications.cs:133
 #, csharp-format
@@ -4754,21 +4527,17 @@ msgstr ""
 
 #: ../src/Games/Memory/MemoryNumbers.cs:65
 msgid "How many odd numbers were in the previous image? Answer using numbers."
-msgstr ""
-"يۇقىرىدىكى رەسىمدە قانچە دانە تاق سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
+msgstr "يۇقىرىدىكى رەسىمدە قانچە دانە تاق سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:90
 msgid "How many even numbers were in the previous image? Answer using numbers."
-msgstr ""
-"يۇقىرىدىكى رەسىمدە قانچە دانە جۈپ سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
+msgstr "يۇقىرىدىكى رەسىمدە قانچە دانە جۈپ سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:115
 msgid ""
 "How many numbers with more than one digit were in the previous image? Answer "
 "using numbers."
-msgstr ""
-"ئالدىنقى سۈرەت ئىچىدە خانە سانى سانى بىردىن كۆپ بولغان ساندىن قانچىسى بار؟ "
-"سان بىلەن جاۋاب بېرىڭ."
+msgstr "ئالدىنقى سۈرەت ئىچىدە خانە سانى سانى بىردىن كۆپ بولغان ساندىن قانچىسى بار؟ سان بىلەن جاۋاب بېرىڭ."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:132
 msgid "Memorize numbers"
@@ -4782,9 +4551,7 @@ msgstr "سۆزلەرنى ئەستە تۇتۇش"
 msgid ""
 "There is a missing word from the previous list. Which one is the missing "
 "word?"
-msgstr ""
-"تۆۋەندىكىلەرنىڭ ئىچىدە ئالدىنقى تىزىمدا يوق سۆزلەر بار. قايسى ئالدىنقى "
-"تىزىمدا يوق سوز؟"
+msgstr "تۆۋەندىكىلەرنىڭ ئىچىدە ئالدىنقى تىزىمدا يوق سۆزلەر بار. قايسى ئالدىنقى تىزىمدا يوق سوز؟"
 
 #. Body parts
 #: ../src/Games/Memory/MemoryWords.cs:49
@@ -4919,7 +4686,7 @@ msgstr "توشقان"
 
 #: ../src/Games/Memory/MemoryWords.cs:92
 msgid "mouse"
-msgstr "چاشقان"
+msgstr "چاشقىنەك"
 
 #: ../src/Games/Memory/MemoryWords.cs:93
 msgid "monkey"
@@ -4938,8 +4705,7 @@ msgid ""
 "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
 msgid_plural ""
 "How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
-msgstr[0] ""
-"سائەتنىڭ مىنۇت ئىسترېلكىسى 2 سائەت [num]  مىنۇتتا  قانچە گرادۇس ئايلىنىدۇ؟"
+msgstr[0] "سائەتنىڭ مىنۇت ئىسترېلكىسى 2 سائەت [num]  مىنۇتتا  قانچە گرادۇس ئايلىنىدۇ؟"
 
 #: ../tools/GameXmlGetString.cs:33
 msgid ""
@@ -4948,9 +4714,7 @@ msgid ""
 msgid_plural ""
 "John is 46 years old. His son is [difference] years younger than half of "
 "John's age. How old is John's son?"
-msgstr[0] ""
-"جون 46 ياش. ئوغلى ئۇنىڭ يېشىنىڭ يېرىمىدىن [difference] ياش كىچىك. جوننىڭ "
-"ئوغلى قانچە ياش؟"
+msgstr[0] "جون 46 ياش. ئوغلى ئۇنىڭ يېشىنىڭ يېرىمىدىن [difference] ياش كىچىك. جوننىڭ ئوغلى قانچە ياش؟"
 
 #: ../tools/GameXmlGetString.cs:37
 msgid ""
@@ -4959,10 +4723,7 @@ msgid ""
 msgid_plural ""
 "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
 "[proportion] times older than his son. How old is John's son nowadays?"
-msgstr[0] ""
-"ھازىر جوننىڭ يېشى ئوغلىنىڭ يېشىنىڭ ئىككى ھەسسىسىگە تەڭ. [ago]  يىل بۇرۇن "
-"جوننىڭ يېشى ئوغلىنىڭ يېشىنىڭ [proportion] ھەسسىسىگە تەڭ ئىدى.  ئۇنداقتا "
-"جوننىڭ ئوغلى ھازىر قانچە ياش؟"
+msgstr[0] "ھازىر جوننىڭ يېشى ئوغلىنىڭ يېشىنىڭ ئىككى ھەسسىسىگە تەڭ. [ago]  يىل بۇرۇن جوننىڭ يېشى ئوغلىنىڭ يېشىنىڭ [proportion] ھەسسىسىگە تەڭ ئىدى.  ئۇنداقتا جوننىڭ ئوغلى ھازىر قانچە ياش؟"
 
 #: ../tools/GameXmlGetString.cs:41
 msgid ""
@@ -5031,9 +4792,7 @@ msgid ""
 msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
-msgstr[0] ""
-"جوننىڭ تازىلاش سۈرئىتى سائىتىگە 1 / [john_time] ، دوستىنىڭ 1 / [friend] "
-"بولىدۇ. بىرلىكتە قىلسا [answer_a]  سائەت كېرەك بولىدۇ."
+msgstr[0] "جوننىڭ تازىلاش سۈرئىتى سائىتىگە 1 / [john_time] ، دوستىنىڭ 1 / [friend] بولىدۇ. بىرلىكتە قىلسا [answer_a]  سائەت كېرەك بولىدۇ."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
@@ -5098,7 +4857,7 @@ msgstr "<b>چىقىرىش ھۆججىتى</b>"
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
 msgid "Easy"
-msgstr "ئاسان"
+msgstr "دەسلەپكى"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
@@ -5108,7 +4867,7 @@ msgstr "باش"
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
 msgid "Medium"
-msgstr "ئوتتۇرا"
+msgstr "ئوتتۇراھال"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
 msgid "PDF export"
@@ -5127,9 +4886,7 @@ msgstr "رەڭ ئىشلەتكەن ئويۇنلارنى ئۆتكۈزۈۋېتىش"
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
-msgstr ""
-"بۇ تاللانما ئارقىلىق بىر يۈرۈش ئويۇنلارنى PDF ھۆججىتىگە چىقىرىشقا بولىدۇ. "
-"بۇنىڭ بىلەن بۇ ئويۇنلارنى كومپيۇتېر يوق مۇھىتتىمۇ ئويناشقا بولىدۇ."
+msgstr "بۇ تاللانما ئارقىلىق بىر يۈرۈش ئويۇنلارنى PDF ھۆججىتىگە چىقىرىشقا بولىدۇ. بۇنىڭ بىلەن بۇ ئويۇنلارنى كومپيۇتېر يوق مۇھىتتىمۇ ئويناشقا بولىدۇ."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
 msgid "Total number of games:"
@@ -5162,8 +4919,7 @@ msgstr "ئوينىغۇچىنىڭ ئويۇن ئويناش تارىخىنى ئۆچ
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
 msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr ""
-"gbrainy دا ھەمىشە ئىنگلىزچە مەجبۇرىي ئىشلىتىلسۇن(تەرجىمىگە پەرۋا قىلمىسۇن)"
+msgstr "gbrainy دا ھەمىشە ئىنگلىزچە مەجبۇرىي ئىشلىتىلسۇن(تەرجىمىگە پەرۋا قىلمىسۇن)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
 msgid "Maximum number of records in the player's game session history:"
@@ -5200,8 +4956,7 @@ msgstr "ئەستە تۇتۇشنى سىناپ كۆرۈش ۋاقتى(سېكۇنت)
 
 #: ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
-msgstr ""
-"بارلىق ئويۇنلار(لوگىكىلىق، ئىچىدە ھېسابلاش، ئەستە تۇتۇش ۋە تىل ئىقتىدارى)"
+msgstr "بارلىق ئويۇنلار(لوگىكىلىق، ئىچىدە ھېسابلاش، ئەستە تۇتۇش ۋە تىل ئىقتىدارى)"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:2
 msgid "Answer:"
@@ -5217,7 +4972,7 @@ msgstr "تور يوق ھالەتتە ئويناش ئۈچۈن ئويۇنلارن�
 
 #: ../src/Clients/Classical/gbrainy.ui.h:5
 msgid "Extensions"
-msgstr "كېڭەيتىلمە"
+msgstr "كېڭەيتمىلەر"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Horizontal"
