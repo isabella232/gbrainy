@@ -81,7 +81,9 @@ namespace gbrainy.Games.Logic
  			// Explanation of the date and time format specifications can be found here:
 			// http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 			// For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
+			// 'tt' is the A.M./P.M. designator 
 			Answer.Correct = String.Format (Translations.GetString ("{0:h tt}"), ans);
+			Console.WriteLine ("{0}", Answer.Correct);
 			Answer.CheckAttributes = GameAnswerCheckAttributes.IgnoreCase | GameAnswerCheckAttributes.IgnoreSpaces;
 		}
 
