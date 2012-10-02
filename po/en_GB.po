@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 12:12+0000\n"
-"PO-Revision-Date: 2012-01-24 12:32+0100\n"
+"POT-Creation-Date: 2012-10-02 22:56+0100\n"
+"PO-Revision-Date: 2012-10-02 22:59+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
@@ -20,54 +20,301 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 
 #: ../data/games.xml.h:1
-msgid ""
-"A lever is in equilibrium when the objects placed on it are at a distances "
-"reciprocally proportional to their weights."
-msgstr ""
-"A lever is in equilibrium when the objects placed on it are at a distances "
-"reciprocally proportional to their weights."
+msgid "Clock Rotation"
+msgstr "Clock Rotation"
 
 #: ../data/games.xml.h:2
-msgid ""
-"A multiple is a number that may be divided by another number with no "
-"remainder. For example, 10, 15 and 25 are multiples of 5."
-msgstr ""
-"A multiple is a number that may be divided by another number with no "
-"remainder. For example, 10, 15 and 25 are multiples of 5."
+msgid "Every hour rotates 360 degrees."
+msgstr "Every hour rotates 360 degrees."
 
 #: ../data/games.xml.h:3
-msgid ""
-"A palindromic number remains the same when its digits are reversed (e.g.: "
-"2112)."
-msgstr ""
-"A palindromic number remains the same when its digits are reversed (e.g.: "
-"2112)."
-
-#: ../data/games.xml.h:4
-msgid "Age"
-msgstr "Age"
-
-#: ../data/games.xml.h:5
-msgid "Bank interest"
-msgstr "Bank interest"
-
-#: ../data/games.xml.h:6
-msgid "Box"
-msgstr "Box"
-
-#: ../data/games.xml.h:7
-msgid "Boxes"
-msgstr "Boxes"
-
-#: ../data/games.xml.h:8
 msgid "Brothers and sisters"
 msgstr "Brothers and sisters"
 
+#: ../data/games.xml.h:4
+msgid ""
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
+"[both] have both. How many people have neither brothers nor sisters?"
+msgstr ""
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
+"[both] have both. How many people have neither brothers nor sisters?"
+
+#: ../data/games.xml.h:5
+msgid ""
+"It is calculated by taking the total number of people minus [brothers_only] "
+"people that have brothers only, minus [sisters_only] that have sisters only "
+"and minus [both] that have sisters and brothers."
+msgstr ""
+"It is calculated by taking the total number of people minus [brothers_only] "
+"people that have brothers only, minus [sisters_only] that have sisters only "
+"and minus [both] that have sisters and brothers."
+
+#: ../data/games.xml.h:6
+msgid "Age"
+msgstr "Age"
+
+#: ../data/games.xml.h:7
+msgid ""
+"John's son age is nowadays half of John's age minus [difference], that is, "
+"([father] / 2) - [difference]."
+msgstr ""
+"John's son age is nowadays half of John's age minus [difference], that is, "
+"([father] / 2) - [difference]."
+
+#: ../data/games.xml.h:8
+msgid "Password"
+msgstr "Password"
+
 #: ../data/games.xml.h:9
-msgid "Cars in town"
-msgstr "Cars in town"
+msgid ""
+"Every digit has 10 possibilities. The total number of possibilities is 10 at "
+"the power of [digits]."
+msgstr ""
+"Every digit has 10 possibilities. The total number of possibilities is 10 at "
+"the power of [digits]."
 
 #: ../data/games.xml.h:10
+msgid ""
+"Every digit has 8 possibilities. The total number of possibilities is 8 at "
+"the power of [digits]."
+msgstr ""
+"Every digit has 8 possibilities. The total number of possibilities is 8 at "
+"the power of [digits]."
+
+#: ../data/games.xml.h:11
+msgid "Tennis game"
+msgstr "Tennis game"
+
+#: ../data/games.xml.h:12
+msgid ""
+"Every game is an independent event with 2 possible results. The total number "
+"of possibilities is 2 at the power of [games]."
+msgstr ""
+"Every game is an independent event with 2 possible results. The total number "
+"of possibilities is 2 at the power of [games]."
+
+#: ../data/games.xml.h:13
+msgid ""
+"In every match you eliminate one player. Therefore, the result is the total "
+"number of player minus one."
+msgstr ""
+"In every match you eliminate one player. Therefore, the result is the total "
+"number of player minus one."
+
+#: ../data/games.xml.h:14
+msgid "Bank interest"
+msgstr "Bank interest"
+
+#: ../data/games.xml.h:15
+msgid ""
+"Compound interest is paid on the principal plus any past interest "
+"accumulated."
+msgstr ""
+"Compound interest is paid on the principal plus any past interest "
+"accumulated."
+
+#: ../data/games.xml.h:16
+msgid "Simple equations"
+msgstr "Simple equations"
+
+#: ../data/games.xml.h:17
+msgid "What number plus [num_a] equals [num_b]?"
+msgstr "What number plus [num_a] equals [num_b]?"
+
+#: ../data/games.xml.h:18
+msgid "x + [num_a] = [num_b]"
+msgstr "x + [num_a] = [num_b]"
+
+#: ../data/games.xml.h:19
+msgid "It is the result of the operation [num_b] - [num_a]."
+msgstr "It is the result of the operation [num_b] - [num_a]."
+
+#: ../data/games.xml.h:20
+msgid "What number minus [num_a] equals [num_b]?"
+msgstr "What number minus [num_a] equals [num_b]?"
+
+#: ../data/games.xml.h:21
+msgid "x - [num_a] = [num_b]"
+msgstr "x - [num_a] = [num_b]"
+
+#: ../data/games.xml.h:22
+msgid "It is the result of the operation [num_a] + [num_b]."
+msgstr "It is the result of the operation [num_a] + [num_b]."
+
+#: ../data/games.xml.h:23
+msgid "What number multiplied by [num_a] equals [num_b]?"
+msgstr "What number multiplied by [num_a] equals [num_b]?"
+
+#: ../data/games.xml.h:24
+msgid "x * [num_a] = [num_b]"
+msgstr "x * [num_a] = [num_b]"
+
+#: ../data/games.xml.h:25
+msgid "It is the result of the operation [num_b] / [num_a]."
+msgstr "It is the result of the operation [num_b] / [num_a]."
+
+#: ../data/games.xml.h:26
+msgid "What number divided by [num_a] equals [num_b]?"
+msgstr "What number divided by [num_a] equals [num_b]?"
+
+#: ../data/games.xml.h:27
+msgid "x / [num_a] = [num_b]"
+msgstr "x / [num_a] = [num_b]"
+
+#: ../data/games.xml.h:28
+msgid "It is the result of the operation [num_a] * [num_b]."
+msgstr "It is the result of the operation [num_a] * [num_b]."
+
+#: ../data/games.xml.h:29
+msgid "Boxes"
+msgstr "Boxes"
+
+#: ../data/games.xml.h:30
+msgid "Container"
+msgstr "Container"
+
+#: ../data/games.xml.h:31
+msgid "Box"
+msgstr "Box"
+
+#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
+#: ../data/games.xml.h:33
+msgid ""
+"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
+"x 5 x [z]?"
+msgstr ""
+"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
+"x 5 x [z]?"
+
+#: ../data/games.xml.h:34
+msgid "You can fit 6 * 5 * [z] * 2 boxes."
+msgstr "You can fit 6 * 5 * [z] * 2 boxes."
+
+#: ../data/games.xml.h:35
+msgid "Palindromic years"
+msgstr "Palindromic years"
+
+#: ../data/games.xml.h:36
+msgid ""
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
+"are the next two consecutive palindromic years after [year_end] with the "
+"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+msgstr ""
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
+"are the next two consecutive palindromic years after [year_end] with the "
+"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+
+#: ../data/games.xml.h:37
+msgid ""
+"A palindromic number remains the same when its digits are reversed (e.g.: "
+"2112)."
+msgstr ""
+"A palindromic number remains the same when its digits are reversed (e.g.: "
+"2112)."
+
+#: ../data/games.xml.h:38
+msgid "[rslt_a] and [rslt_b]"
+msgstr "[rslt_a] and [rslt_b]"
+
+#: ../data/games.xml.h:39
+msgid ""
+"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
+"except for the end of each millennium that occur at a 11 years interval."
+msgstr ""
+"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
+"except for the end of each millennium that occur at a 11 years interval."
+
+#: ../data/games.xml.h:40
+msgid "Dartboard"
+msgstr "Dartboard"
+
+#: ../data/games.xml.h:41
+msgid ""
+"On the dartboard below, where would you need to throw the darts to add 120 "
+"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+msgstr ""
+"On the dartboard below, where would you need to throw the darts to add 120 "
+"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+
+#: ../data/games.xml.h:42
+msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
+msgstr "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
+
+#: ../data/games.xml.h:43
+msgid "Horse race"
+msgstr "Horse race"
+
+#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
+msgid ""
+"In a horse race there are people and horses. You count [eyes] eye and [legs] "
+"leg. How many horses are present?"
+msgid_plural ""
+"In a horse race there are people and horses. You count [eyes] eyes and "
+"[legs] legs. How many horses are present?"
+msgstr[0] ""
+"In a horse race there are people and horses. You count [eyes] eye and [legs] "
+"leg. How many horses are present?"
+msgstr[1] ""
+"In a horse race there are people and horses. You count [eyes] eyes and "
+"[legs] legs. How many horses are present?"
+
+#: ../data/games.xml.h:45
+msgid ""
+"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
+"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
+msgstr ""
+"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
+"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
+
+#: ../data/games.xml.h:46
+msgid "Lever"
+msgstr "Lever"
+
+#: ../data/games.xml.h:47
+msgid ""
+"How much weight is needed at the point indicated by the question mark to "
+"balance the lever?"
+msgstr ""
+"How much weight is needed at the point indicated by the question mark to "
+"balance the lever?"
+
+#: ../data/games.xml.h:48
+msgid ""
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
+"and a place to stand and I can move the Earth'."
+msgstr ""
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
+"and a place to stand and I can move the Earth'."
+
+#: ../data/games.xml.h:49
+msgid ""
+"A lever is in equilibrium when the objects placed on it are at a distances "
+"reciprocally proportional to their weights."
+msgstr ""
+"A lever is in equilibrium when the objects placed on it are at a distances "
+"reciprocally proportional to their weights."
+
+#: ../data/games.xml.h:50
+msgid "Multiple number"
+msgstr "Multiple number"
+
+#: ../data/games.xml.h:51
+msgid ""
+"Which two numbers of the list below are both multiple of [num_x] and "
+"[num_y]? [option_answers]"
+msgstr ""
+"Which two numbers of the list below are both multiple of [num_x] and "
+"[num_y]? [option_answers]"
+
+#: ../data/games.xml.h:52
+msgid ""
+"A multiple is a number that may be divided by another number with no "
+"remainder. For example, 10, 15 and 25 are multiples of 5."
+msgstr ""
+"A multiple is a number that may be divided by another number with no "
+"remainder. For example, 10, 15 and 25 are multiples of 5."
+
+#: ../data/games.xml.h:53
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
 #: ../src/Games/Calculation/CalculationAverage.cs:185
@@ -89,553 +336,306 @@ msgstr "Cars in town"
 msgid "Choose one of the following:"
 msgstr "Choose one of the following:"
 
-#: ../data/games.xml.h:11
-msgid "Clock Rotation"
-msgstr "Clock Rotation"
-
-#: ../data/games.xml.h:12
-msgid "Compare variables"
-msgstr "Compare variables"
-
-#: ../data/games.xml.h:13
-msgid ""
-"Compound interest is paid on the principal plus any past interest "
-"accumulated."
-msgstr ""
-"Compound interest is paid on the principal plus any past interest "
-"accumulated."
-
-#: ../data/games.xml.h:14
-msgid ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
-"and a place to stand and I can move the Earth'."
-msgstr ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
-"and a place to stand and I can move the Earth'."
-
-#: ../data/games.xml.h:15
-msgid "Container"
-msgstr "Container"
-
-#: ../data/games.xml.h:16
-msgid "Dartboard"
-msgstr "Dartboard"
-
-#: ../data/games.xml.h:17
-msgid ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at "
-"the power of [digits]."
-msgstr ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at "
-"the power of [digits]."
-
-#: ../data/games.xml.h:18
-msgid ""
-"Every digit has 8 possibilities. The total number of possibilities is 8 at "
-"the power of [digits]."
-msgstr ""
-"Every digit has 8 possibilities. The total number of possibilities is 8 at "
-"the power of [digits]."
-
-#: ../data/games.xml.h:19
-msgid ""
-"Every game is an independent event with 2 possible results. The total number "
-"of possibilities is 2 at the power of [games]."
-msgstr ""
-"Every game is an independent event with 2 possible results. The total number "
-"of possibilities is 2 at the power of [games]."
-
-#: ../data/games.xml.h:20
-msgid "Every hour rotates 360 degrees."
-msgstr "Every hour rotates 360 degrees."
-
-#: ../data/games.xml.h:21
-msgid ""
-"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
-"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr ""
-"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
-"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-
-#: ../data/games.xml.h:22
-msgid "Family relations"
-msgstr "Family relations"
-
-#: ../data/games.xml.h:23
-msgid ""
-"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
-"except for the end of each millennium that occur at a 11 years interval."
-msgstr ""
-"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
-"except for the end of each millennium that occur at a 11 years interval."
-
-#: ../data/games.xml.h:24
-msgid ""
-"Given two integer numbers x and y, if x is even and y odd, which of the "
-"following expressions gives always an odd result? [option_answers]"
-msgstr ""
-"Given two integer numbers x and y, if x is even and y odd, which of the "
-"following expressions gives always an odd result? [option_answers]"
-
-#: ../data/games.xml.h:25
-msgid "His father"
-msgstr "His father"
-
-#: ../data/games.xml.h:26
-msgid "His mother"
-msgstr "His mother"
-
-#: ../data/games.xml.h:27
-msgid "Horse race"
-msgstr "Horse race"
-
-#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
-#: ../data/games.xml.h:29
-msgid ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
-"x 5 x [z]?"
-msgstr ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
-"x 5 x [z]?"
-
-#: ../data/games.xml.h:30
-msgid ""
-"How much weight is needed at the point indicated by the question mark to "
-"balance the lever?"
-msgstr ""
-"How much weight is needed at the point indicated by the question mark to "
-"balance the lever?"
-
-#: ../data/games.xml.h:31
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
-"which of the following options is correct? [option_answers]"
-
-#: ../data/games.xml.h:32
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
-"which of the following options is correct? [option_answers]"
-
-#: ../data/games.xml.h:33
-msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
-msgstr "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
-
-#: ../data/games.xml.h:34
-msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-
-#: ../data/games.xml.h:35 ../tools/GameXmlGetString.cs:65
-msgid ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs] "
-"leg. How many horses are present?"
-msgid_plural ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
-msgstr[0] ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs] "
-"leg. How many horses are present?"
-msgstr[1] ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
-
-#: ../data/games.xml.h:37
-#, no-c-format
-msgid ""
-"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
-"have a car and are males. What percentage of the population are females and "
-"have a car? [option_answers]"
-msgstr ""
-"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
-"have a car and are males. What percentage of the population are females and "
-"have a car? [option_answers]"
-
-#: ../data/games.xml.h:38
-msgid ""
-"In every match you eliminate one player, you need the total number of games "
-"minus 1 to find out the winner."
-msgstr ""
-"In every match you eliminate one player, you need the total number of games "
-"minus 1 to find out the winner."
-
-#: ../data/games.xml.h:39
-msgid ""
-"It is calculated by taking the total number of people minus [brothers_only] "
-"people that have brothers only, minus [sisters_only] that have sisters only "
-"and minus [both] that have sisters and brothers."
-msgstr ""
-"It is calculated by taking the total number of people minus [brothers_only] "
-"people that have brothers only, minus [sisters_only] that have sisters only "
-"and minus [both] that have sisters and brothers."
-
-#: ../data/games.xml.h:40
-msgid "It is the result of the operation [num_a] * [num_b]."
-msgstr "It is the result of the operation [num_a] * [num_b]."
-
-#: ../data/games.xml.h:41
-msgid "It is the result of the operation [num_a] + [num_b]."
-msgstr "It is the result of the operation [num_a] + [num_b]."
-
-#: ../data/games.xml.h:42
-msgid "It is the result of the operation [num_b] - [num_a]."
-msgstr "It is the result of the operation [num_b] - [num_a]."
-
-#: ../data/games.xml.h:43
-msgid "It is the result of the operation [num_b] / [num_a]."
-msgstr "It is the result of the operation [num_b] / [num_a]."
-
-#: ../data/games.xml.h:44
-msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
-msgstr "It is the result of the operation: ([three] * 3) - ([two] * 2)."
-
-#: ../data/games.xml.h:45
-msgctxt "John's father's sister's sister-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] His cousin"
-
-#: ../data/games.xml.h:46
-msgid ""
-"John's father's sister's sister-in-law is also? Do not assume that John has "
-"any relative that has not been mentioned. [option_answers]"
-msgstr ""
-"John's father's sister's sister-in-law is also? Do not assume that John has "
-"any relative that has not been mentioned. [option_answers]"
-
-#: ../data/games.xml.h:47
-msgctxt "John's mother's brother's brother-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] His cousin"
-
-#: ../data/games.xml.h:48
-msgid ""
-"John's mother's brother's brother-in-law is also? Do not assume that John "
-"has any relative that has not been mentioned. [option_answers]"
-msgstr ""
-"John's mother's brother's brother-in-law is also? Do not assume that John "
-"has any relative that has not been mentioned. [option_answers]"
-
-#: ../data/games.xml.h:49
-msgid ""
-"John's son age is nowadays half of John's age minus [difference], that is, "
-"([father] / 2) - [difference]."
-msgstr ""
-"John's son age is nowadays half of John's age minus [difference], that is, "
-"([father] / 2) - [difference]."
-
-#: ../data/games.xml.h:50
-msgid "Lever"
-msgstr "Lever"
-
-#: ../data/games.xml.h:51
-msgid "Multiple number"
-msgstr "Multiple number"
-
-#: ../data/games.xml.h:52
-msgid "Odd number"
-msgstr "Odd number"
-
-#: ../data/games.xml.h:53
-msgid ""
-"On the dartboard below, where would you need to throw the darts to add 120 "
-"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
-msgstr ""
-"On the dartboard below, where would you need to throw the darts to add 120 "
-"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
-
 #: ../data/games.xml.h:54
-msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-
-#: ../data/games.xml.h:55
-msgid ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
-"[both] have both. How many people have neither brothers nor sisters?"
-msgstr ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
-"[both] have both. How many people have neither brothers nor sisters?"
-
-#: ../data/games.xml.h:56
-msgid "Palindromic years"
-msgstr "Palindromic years"
-
-#: ../data/games.xml.h:57
-msgid "Password"
-msgstr "Password"
-
-#: ../data/games.xml.h:58
-msgid "Simple equations"
-msgstr "Simple equations"
-
-#: ../data/games.xml.h:59
-msgid ""
-"Since x is always an even number, multiplying it by 2 always produces an "
-"even number. Adding an even number to an odd number (y) always produces an "
-"odd number."
-msgstr ""
-"Since x is always an even number, multiplying it by 2 always produces an "
-"even number. Adding an even number to an odd number (y) always produces an "
-"odd number."
-
-#: ../data/games.xml.h:60
-msgid "Tennis game"
-msgstr "Tennis game"
-
-#: ../data/games.xml.h:61
-msgid ""
-"The average of three numbers is [three]. The average of two of these numbers "
-"is [two]. What is the third number? [option_answers]"
-msgstr ""
-"The average of three numbers is [three]. The average of two of these numbers "
-"is [two]. What is the third number? [option_answers]"
-
-#: ../data/games.xml.h:62
-msgid ""
-"The brother's brother-in-law is John's mother's husband, that is, John's "
-"father."
-msgstr ""
-"The brother's brother-in-law is John's mother's husband, that is, John's "
-"father."
-
-#: ../data/games.xml.h:63
-msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr "The heavier truck weights [heavier] and the lighter [lighter]."
-
-#: ../data/games.xml.h:64
-msgid ""
-"The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr ""
-"The sister's sister-in-law is John's father's wife, that is, John's mother."
-
-#: ../data/games.xml.h:65
-msgid "Third number"
-msgstr "Third number"
-
-#: ../data/games.xml.h:66
-msgid "Two trucks"
-msgstr "Two trucks"
-
-#: ../data/games.xml.h:67
-msgid "Warehouse"
-msgstr "Warehouse"
-
-#: ../data/games.xml.h:68
-msgid "What number divided by [num_a] equals [num_b]?"
-msgstr "What number divided by [num_a] equals [num_b]?"
-
-#: ../data/games.xml.h:69
-msgid "What number minus [num_a] equals [num_b]?"
-msgstr "What number minus [num_a] equals [num_b]?"
-
-#: ../data/games.xml.h:70
-msgid "What number multiplied by [num_a] equals [num_b]?"
-msgstr "What number multiplied by [num_a] equals [num_b]?"
-
-#: ../data/games.xml.h:71
-msgid "What number plus [num_a] equals [num_b]?"
-msgstr "What number plus [num_a] equals [num_b]?"
-
-#: ../data/games.xml.h:72
-msgid ""
-"Which two numbers of the list below are both multiple of [num_x] and "
-"[num_y]? [option_answers]"
-msgstr ""
-"Which two numbers of the list below are both multiple of [num_x] and "
-"[num_y]? [option_answers]"
-
-#: ../data/games.xml.h:73
-msgid "You can fit 6 * 5 * [z] * 2 boxes."
-msgstr "You can fit 6 * 5 * [z] * 2 boxes."
-
-#: ../data/games.xml.h:74 ../tools/GameXmlGetString.cs:81
-msgid ""
-"You have two trucks that have a total weight of [add] unit. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
-msgid_plural ""
-"You have two trucks that have a total weight of [add] units. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
-msgstr[0] ""
-"You have two trucks that have a total weight of [add] unit. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
-msgstr[1] ""
-"You have two trucks that have a total weight of [add] units. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
-
-#: ../data/games.xml.h:76
-#, no-c-format
-msgid ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
-"have a car."
-msgstr ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
-"have a car."
-
-#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
-#: ../data/games.xml.h:78
-msgid "[option_a] and [option_b]"
-msgstr "[option_a] and [option_b]"
-
-#: ../data/games.xml.h:79
-msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-
-#: ../data/games.xml.h:80
-msgid "[option_prefix] (x - y) * 2"
-msgstr "[option_prefix] (x - y) * 2"
-
-#: ../data/games.xml.h:81
-msgid "[option_prefix] 2x + y"
-msgstr "[option_prefix] 2x + y"
-
-#: ../data/games.xml.h:82
-msgid "[option_prefix] Has no relation"
-msgstr "[option_prefix] Has no relation"
-
-#: ../data/games.xml.h:83
-msgid "[option_prefix] His father"
-msgstr "[option_prefix] His father"
-
-#: ../data/games.xml.h:84
-msgid "[option_prefix] His mother"
-msgstr "[option_prefix] His mother"
-
-#: ../data/games.xml.h:85
-msgid "[option_prefix] His son-in-law"
-msgstr "[option_prefix] His son-in-law"
-
-#: ../data/games.xml.h:86
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:87
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:88
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:89
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:90
-msgid "[option_prefix] [option_a] and [option_b]"
-msgstr "[option_prefix] [option_a] and [option_b]"
-
-#: ../data/games.xml.h:91
 msgid "[option_prefix] [option_a] and [option_c]"
 msgstr "[option_prefix] [option_a] and [option_c]"
 
-#: ../data/games.xml.h:93
+#: ../data/games.xml.h:55
+msgid "[option_prefix] [option_a] and [option_b]"
+msgstr "[option_prefix] [option_a] and [option_b]"
+
+#: ../data/games.xml.h:56
+msgid "[option_prefix] [option_b] and [option_c]"
+msgstr "[option_prefix] [option_b] and [option_c]"
+
+#: ../data/games.xml.h:57
+msgid "[option_prefix] [option_c] and [option_d]"
+msgstr "[option_prefix] [option_c] and [option_d]"
+
+#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
+#: ../data/games.xml.h:59
+msgid "[option_a] and [option_b]"
+msgstr "[option_a] and [option_b]"
+
+#: ../data/games.xml.h:60
+msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
+msgstr "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
+
+#: ../data/games.xml.h:61
+msgid "Cars in town"
+msgstr "Cars in town"
+
+#: ../data/games.xml.h:63
+#, no-c-format
+msgid ""
+"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
+"have a car and are males. What percentage of the population are females and "
+"have a car? [option_answers]"
+msgstr ""
+"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
+"have a car and are males. What percentage of the population are females and "
+"have a car? [option_answers]"
+
+#: ../data/games.xml.h:65
 #, no-c-format
 msgid "[option_prefix] [option_a]%"
 msgstr "[option_prefix] [option_a]%"
 
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [option_b] and [option_c]"
-msgstr "[option_prefix] [option_b] and [option_c]"
-
-#: ../data/games.xml.h:96
+#: ../data/games.xml.h:67
 #, no-c-format
 msgid "[option_prefix] [option_b]%"
 msgstr "[option_prefix] [option_b]%"
 
-#: ../data/games.xml.h:97
-msgid "[option_prefix] [option_c] and [option_d]"
-msgstr "[option_prefix] [option_c] and [option_d]"
-
-#: ../data/games.xml.h:99
+#: ../data/games.xml.h:69
 #, no-c-format
 msgid "[option_prefix] [option_c]%"
 msgstr "[option_prefix] [option_c]%"
 
-#: ../data/games.xml.h:101
+#: ../data/games.xml.h:71
 #, no-c-format
 msgid "[option_prefix] [option_d]%"
 msgstr "[option_prefix] [option_d]%"
 
-#: ../data/games.xml.h:102
-msgid "[option_prefix] p < r"
-msgstr "[option_prefix] p < r"
+#: ../data/games.xml.h:73
+#, no-c-format
+msgid ""
+"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
+"have a car."
+msgstr ""
+"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
+"have a car."
 
-#: ../data/games.xml.h:103
-msgid "[option_prefix] p > r"
-msgstr "[option_prefix] p > r"
+#: ../data/games.xml.h:74
+msgid "Compare variables"
+msgstr "Compare variables"
 
-#: ../data/games.xml.h:104
-msgid "[option_prefix] q = s"
-msgstr "[option_prefix] q = s"
+#: ../data/games.xml.h:75
+msgid ""
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
+"which of the following options is correct? [option_answers]"
+msgstr ""
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
+"which of the following options is correct? [option_answers]"
 
-#: ../data/games.xml.h:105
-msgid "[option_prefix] r < q"
-msgstr "[option_prefix] r < q"
-
-#: ../data/games.xml.h:106
+#: ../data/games.xml.h:76
 msgid "[option_prefix] s > p"
 msgstr "[option_prefix] s > p"
 
-#: ../data/games.xml.h:107
+#: ../data/games.xml.h:77
+msgid "[option_prefix] p < r"
+msgstr "[option_prefix] p < r"
+
+#: ../data/games.xml.h:78
+msgid "[option_prefix] p > r"
+msgstr "[option_prefix] p > r"
+
+#: ../data/games.xml.h:79
+msgid "[option_prefix] q = s"
+msgstr "[option_prefix] q = s"
+
+#: ../data/games.xml.h:80
+msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
+msgstr "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
+
+#: ../data/games.xml.h:81
+msgid ""
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
+"which of the following options is correct? [option_answers]"
+msgstr ""
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
+"which of the following options is correct? [option_answers]"
+
+#: ../data/games.xml.h:82
+msgid "[option_prefix] r < q"
+msgstr "[option_prefix] r < q"
+
+#: ../data/games.xml.h:83
+msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
+msgstr "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
+
+#: ../data/games.xml.h:84
+msgid "Odd number"
+msgstr "Odd number"
+
+#: ../data/games.xml.h:85
+msgid ""
+"Given two integer numbers x and y, if x is even and y odd, which of the "
+"following expressions gives always an odd result? [option_answers]"
+msgstr ""
+"Given two integer numbers x and y, if x is even and y odd, which of the "
+"following expressions gives always an odd result? [option_answers]"
+
+#: ../data/games.xml.h:86
+msgid "[option_prefix] 2x + y"
+msgstr "[option_prefix] 2x + y"
+
+#: ../data/games.xml.h:87
 msgid "[option_prefix] x * y"
 msgstr "[option_prefix] x * y"
 
-#: ../data/games.xml.h:108
+#: ../data/games.xml.h:88
 msgid "[option_prefix] x * y * 2"
 msgstr "[option_prefix] x * y * 2"
 
+#: ../data/games.xml.h:89
+msgid "[option_prefix] (x - y) * 2"
+msgstr "[option_prefix] (x - y) * 2"
+
+#: ../data/games.xml.h:90
+msgid ""
+"Multiplication of two even numbers always produces an even number, so x "
+"multiplied by 2 is even. Adding an odd number (y) to that even number always "
+"produces an odd number."
+msgstr ""
+"Multiplication of two even numbers always produces an even number, so x "
+"multiplied by 2 is even. Adding an odd number (y) to that even number always "
+"produces an odd number."
+
+#: ../data/games.xml.h:91
+msgid "Warehouse"
+msgstr "Warehouse"
+
+#: ../data/games.xml.h:92
+msgid "[option_prefix] [answer_a]"
+msgstr "[option_prefix] [answer_a]"
+
+#: ../data/games.xml.h:93
+msgid "[option_prefix] [answer_b]"
+msgstr "[option_prefix] [answer_b]"
+
+#: ../data/games.xml.h:94
+msgid "[option_prefix] [answer_c]"
+msgstr "[option_prefix] [answer_c]"
+
+#: ../data/games.xml.h:95
+msgid "[option_prefix] [answer_d]"
+msgstr "[option_prefix] [answer_d]"
+
+#: ../data/games.xml.h:96
+msgid "Two trucks"
+msgstr "Two lorries"
+
+#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:81
+msgid ""
+"You have two trucks that have a total weight of [add] unit. If the lighter "
+"truck weights 15 units less that half of the weight of the heavier truck, "
+"what is the weight of the lighter truck? [option_answers]"
+msgid_plural ""
+"You have two trucks that have a total weight of [add] units. If the lighter "
+"truck weights 15 units less that half of the weight of the heavier truck, "
+"what is the weight of the lighter truck? [option_answers]"
+msgstr[0] ""
+"You have two lorries that have a total weight of [add] unit. If the lighter "
+"lorry weights 15 units less that half of the weight of the heavier lorry, "
+"what is the weight of the lighter lorry? [option_answers]"
+msgstr[1] ""
+"You have two lorries that have a total weight of [add] units. If the lighter "
+"lorry weights 15 units less that half of the weight of the heavier lorry, "
+"what is the weight of the lighter lorry? [option_answers]"
+
+#: ../data/games.xml.h:98
+msgid "The heavier truck weights [heavier] and the lighter [lighter]."
+msgstr "The heavier lorry weights [heavier] and the lighter [lighter]."
+
+#: ../data/games.xml.h:99
+msgid "Family relations"
+msgstr "Family relations"
+
+#: ../data/games.xml.h:100
+msgid ""
+"John's father's sister's sister-in-law is also? Do not assume that John has "
+"any relative that has not been mentioned. [option_answers]"
+msgstr ""
+"John's father's sister's sister-in-law is also? Do not assume that John has "
+"any relative that has not been mentioned. [option_answers]"
+
+#: ../data/games.xml.h:101
+msgid "[option_prefix] His mother"
+msgstr "[option_prefix] His mother"
+
+#: ../data/games.xml.h:102
+msgid "[option_prefix] Has no relation"
+msgstr "[option_prefix] Has no relation"
+
+#: ../data/games.xml.h:103
+msgctxt "John's father's sister's sister-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] His cousin"
+
+#: ../data/games.xml.h:104
+msgid "[option_prefix] His son-in-law"
+msgstr "[option_prefix] His son-in-law"
+
+#: ../data/games.xml.h:105
+msgid "His mother"
+msgstr "His mother"
+
+#: ../data/games.xml.h:106
+msgid ""
+"The sister's sister-in-law is John's father's wife, that is, John's mother."
+msgstr ""
+"The sister's sister-in-law is John's father's wife, that is, John's mother."
+
+#: ../data/games.xml.h:107
+msgid ""
+"John's mother's brother's brother-in-law is also? Do not assume that John "
+"has any relative that has not been mentioned. [option_answers]"
+msgstr ""
+"John's mother's brother's brother-in-law is also? Do not assume that John "
+"has any relative that has not been mentioned. [option_answers]"
+
+#: ../data/games.xml.h:108
+msgid "[option_prefix] His father"
+msgstr "[option_prefix] His father"
+
 #: ../data/games.xml.h:109
-msgid "[rslt_a] and [rslt_b]"
-msgstr "[rslt_a] and [rslt_b]"
+msgctxt "John's mother's brother's brother-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] His cousin"
 
 #: ../data/games.xml.h:110
-msgid ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
-"are the next two consecutive palindromic years after [year_end] with the "
-"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
-msgstr ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
-"are the next two consecutive palindromic years after [year_end] with the "
-"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+msgid "His father"
+msgstr "His father"
 
 #: ../data/games.xml.h:111
-msgid "x * [num_a] = [num_b]"
-msgstr "x * [num_a] = [num_b]"
+msgid ""
+"The brother's brother-in-law is John's mother's husband, that is, John's "
+"father."
+msgstr ""
+"The brother's brother-in-law is John's mother's husband, that is, John's "
+"father."
 
 #: ../data/games.xml.h:112
-msgid "x + [num_a] = [num_b]"
-msgstr "x + [num_a] = [num_b]"
+msgid "Third number"
+msgstr "Third number"
 
 #: ../data/games.xml.h:113
-msgid "x - [num_a] = [num_b]"
-msgstr "x - [num_a] = [num_b]"
+msgid ""
+"The average of three numbers is [three]. The average of two of these numbers "
+"is [two]. What is the third number? [option_answers]"
+msgstr ""
+"The average of three numbers is [three]. The average of two of these numbers "
+"is [two]. What is the third number? [option_answers]"
 
 #: ../data/games.xml.h:114
-msgid "x / [num_a] = [num_b]"
-msgstr "x / [num_a] = [num_b]"
+msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
+msgstr "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 
-#: ../data/gbrainy.desktop.in.h:1
+#: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#: ../data/gbrainy.desktop.in.h:2
 msgid "Game"
 msgstr "Game"
 
-#: ../data/gbrainy.desktop.in.h:2
+#: ../data/gbrainy.desktop.in.h:3
 msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
-
-#: ../data/gbrainy.desktop.in.h:3 ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "gbrainy"
-msgstr "gbrainy"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -645,1330 +645,1334 @@ msgstr "Classic"
 msgid "Notebook"
 msgstr "Notebook"
 
-#: ../data/verbal_analogies.xml.h:1
-msgid "A car engine that is poorly designed and lacking of sophistication is?"
-msgstr "A car engine that is poorly designed and lacking of sophistication is?"
-
-#: ../data/verbal_analogies.xml.h:2
-msgid "A figure of speech that combines contradicting terms."
-msgstr "A figure of speech that combines contradicting terms."
-
-#: ../data/verbal_analogies.xml.h:3
-msgid "A fish in an aquarium lives in captivity."
-msgstr "A fish in an aquarium lives in captivity."
-
+#.
+#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#.
 #: ../data/verbal_analogies.xml.h:4
-msgid "A pen is used to write and a fork is used to eat."
-msgstr "A pen is used to write and a fork is used to eat."
+msgid "Which of the following sports does not belong in this group?"
+msgstr "Which of the following sports does not belong in this group?"
 
 #: ../data/verbal_analogies.xml.h:5
-msgid "A person with excessive preoccupation for his health has?"
-msgstr "A person with excessive preoccupation for his health has?"
+msgid "Think of the items used in the game."
+msgstr "Think of the items used in the game."
 
 #: ../data/verbal_analogies.xml.h:6
-msgid "A terrier is to a dog like a?"
-msgstr "A terrier is to a dog like a?"
-
-#: ../data/verbal_analogies.xml.h:7
-msgid "A turtle is inside a shell and a letter is inside an envelope."
-msgstr "A turtle is inside a shell and a letter is inside an envelope."
-
-#: ../data/verbal_analogies.xml.h:8
-msgid "Abstinence"
-msgstr "Abstinence"
-
-#: ../data/verbal_analogies.xml.h:9
-msgid "Acclaimed"
-msgstr "Acclaimed"
-
-#. Translators: Acrophobia of having a panic attack
-#: ../data/verbal_analogies.xml.h:11
-msgid "Acrophobia"
-msgstr "Acrophobia"
-
-#. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:13
-msgid "Affluent"
-msgstr "Affluent"
-
-#: ../data/verbal_analogies.xml.h:14
-msgid "Agoraphobia"
-msgstr "Agoraphobia"
-
-#: ../data/verbal_analogies.xml.h:15
-msgid "Air"
-msgstr "Air"
-
-#: ../data/verbal_analogies.xml.h:16
-msgid "Aircraft"
-msgstr "Aircraft"
-
-#: ../data/verbal_analogies.xml.h:17
-msgid "Airline"
-msgstr "Airline"
-
-#: ../data/verbal_analogies.xml.h:18
-msgid "Amphibians"
-msgstr "Amphibians"
-
-#: ../data/verbal_analogies.xml.h:19
-msgid "An artist whose work has become the defining style of a genre is?"
-msgstr "An artist whose work has become the defining style of a genre is?"
-
-#: ../data/verbal_analogies.xml.h:20
-msgid ""
-"An oasis is an isolated area of vegetation in a desert and an island is a "
-"piece of isolated land that is surrounded by water."
-msgstr ""
-"An oasis is an isolated area of vegetation in a desert and an island is a "
-"piece of isolated land that is surrounded by water."
-
-#: ../data/verbal_analogies.xml.h:21
-msgid "Angle"
-msgstr "Angle"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:23
-msgid "Angry"
-msgstr "Angry"
-
-#: ../data/verbal_analogies.xml.h:24
-msgid "Ant / Vertebrate"
-msgstr "Ant / Vertebrate"
-
-#. Translators: Anthophobia is fear of flowers that poses little or no danger
-#: ../data/verbal_analogies.xml.h:26
-msgid "Anthophobia"
-msgstr "Anthophobia"
-
-#. Translators: Anthropophobia is fear of people
-#: ../data/verbal_analogies.xml.h:28
-msgid "Anthropophobia"
-msgstr "Anthropophobia"
-
-#: ../data/verbal_analogies.xml.h:29
-msgid "Apple"
-msgstr "Apple"
-
-#: ../data/verbal_analogies.xml.h:30
-msgid "Attic"
-msgstr "Attic"
-
-#: ../data/verbal_analogies.xml.h:31
-msgid "Authority"
-msgstr "Authority"
-
-#: ../data/verbal_analogies.xml.h:32
-msgid "Azimuth"
-msgstr "Azimuth"
-
-#: ../data/verbal_analogies.xml.h:33
-msgid "Basketball"
-msgstr "Basketball"
-
-#: ../data/verbal_analogies.xml.h:34
-msgid "Bassoon"
-msgstr "Bassoon"
-
-#: ../data/verbal_analogies.xml.h:35
-msgid "Beach"
-msgstr "Beach"
-
-#: ../data/verbal_analogies.xml.h:36
-msgid "Birds"
-msgstr "Birds"
-
-#. Translators: referred to the life style
-#: ../data/verbal_analogies.xml.h:38
-msgid "Bohemian"
-msgstr "Bohemian"
-
-#: ../data/verbal_analogies.xml.h:39
-msgid "Both relate to an action that breaks the related item."
-msgstr "Both relate to an action that breaks the related item."
-
-#: ../data/verbal_analogies.xml.h:40
-msgid "Bounce"
-msgstr "Bounce"
-
-#: ../data/verbal_analogies.xml.h:41
-msgid "Broken"
-msgstr "Broken"
-
-#: ../data/verbal_analogies.xml.h:42
-msgid "Bunker"
-msgstr "Bunker"
-
-#: ../data/verbal_analogies.xml.h:43
-msgid "Bursts"
-msgstr "Bursts"
-
-#: ../data/verbal_analogies.xml.h:44
-msgid "Cage"
-msgstr "Cage"
-
-#: ../data/verbal_analogies.xml.h:45
-msgid "Camera"
-msgstr "Camera"
-
-#: ../data/verbal_analogies.xml.h:46
-msgid "Carbon"
-msgstr "Carbon"
-
-#: ../data/verbal_analogies.xml.h:47
-msgid "Cardiology"
-msgstr "Cardiology"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:49
-msgid "Careless"
-msgstr "Careless"
-
-#: ../data/verbal_analogies.xml.h:50
-msgid "Celebrated"
-msgstr "Celebrated"
-
-#: ../data/verbal_analogies.xml.h:51
-msgid "Cellulose"
-msgstr "Cellulose"
-
-#: ../data/verbal_analogies.xml.h:52
-msgid "Chicken / Parrot"
-msgstr "Chicken / Parrot"
-
-#: ../data/verbal_analogies.xml.h:53
-msgid "Chord"
-msgstr "Chord"
-
-#. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:55
-msgid "Close"
-msgstr "Close"
-
-#: ../data/verbal_analogies.xml.h:56
-msgid "Coast"
-msgstr "Coast"
-
-#: ../data/verbal_analogies.xml.h:57
-msgid "Collectivism"
-msgstr "Collectivism"
-
-#: ../data/verbal_analogies.xml.h:58
-msgid "Column"
-msgstr "Column"
-
-#: ../data/verbal_analogies.xml.h:59
-msgid "Concert hall"
-msgstr "Concert hall"
-
-#: ../data/verbal_analogies.xml.h:60
-msgid "Condemn"
-msgstr "Condemn"
-
-#. Translator: As synonymous of 'perplexing'
-#: ../data/verbal_analogies.xml.h:62
-msgid "Confusing"
-msgstr "Confusing"
-
-#: ../data/verbal_analogies.xml.h:63
-msgid "Connoisseur"
-msgstr "Connoisseur"
-
-#: ../data/verbal_analogies.xml.h:64
-msgid "Conspirator"
-msgstr "Conspirator"
-
-#: ../data/verbal_analogies.xml.h:65
-msgid "Contradictory"
-msgstr "Contradictory"
-
-#: ../data/verbal_analogies.xml.h:66
-msgid "Corn"
-msgstr "Corn"
-
-#: ../data/verbal_analogies.xml.h:67
-msgid "Crocodile"
-msgstr "Crocodile"
-
-#: ../data/verbal_analogies.xml.h:68
-msgid "Cycling"
-msgstr "Cycling"
-
-#: ../data/verbal_analogies.xml.h:69
-msgid "Decagon"
-msgstr "Decagon"
-
-#: ../data/verbal_analogies.xml.h:70
-msgid "Decimal"
-msgstr "Decimal"
-
-#: ../data/verbal_analogies.xml.h:71
-msgid "Deer"
-msgstr "Deer"
-
-#: ../data/verbal_analogies.xml.h:72
-msgid "Democracy"
-msgstr "Democracy"
-
-#: ../data/verbal_analogies.xml.h:73
-msgid "Disinterest"
-msgstr "Disinterest"
-
-#: ../data/verbal_analogies.xml.h:74
-msgid "Dog / Cat"
-msgstr "Dog / Cat"
-
-#: ../data/verbal_analogies.xml.h:75
-msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr "Dog and horse are species and terrier and pony are breeds."
-
-#: ../data/verbal_analogies.xml.h:76
-msgid "Enneagram"
-msgstr "Enneagram"
-
-#: ../data/verbal_analogies.xml.h:77
-msgid "Envelope"
-msgstr "Envelope"
-
-#: ../data/verbal_analogies.xml.h:78
-msgid "Erroneous"
-msgstr "Erroneous"
-
-#: ../data/verbal_analogies.xml.h:79
-msgid "Exceptional"
-msgstr "Exceptional"
-
-#: ../data/verbal_analogies.xml.h:80
-msgid "Famous"
-msgstr "Famous"
-
-#: ../data/verbal_analogies.xml.h:81
-msgid "Fish"
-msgstr "Fish"
-
-#: ../data/verbal_analogies.xml.h:82
-msgid "Fishes"
-msgstr "Fishes"
-
-#. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:84
-msgid "Fixation"
-msgstr "Fixation"
-
-#: ../data/verbal_analogies.xml.h:85
-msgid "Float"
-msgstr "Float"
-
-#: ../data/verbal_analogies.xml.h:86
-msgid "Flower"
-msgstr "Flower"
-
-#: ../data/verbal_analogies.xml.h:87
-msgid "Flute"
-msgstr "Flute"
-
-#: ../data/verbal_analogies.xml.h:88
-msgid "Fork"
-msgstr "Fork"
-
-#: ../data/verbal_analogies.xml.h:89
-msgid "Fossil"
-msgstr "Fossil"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:91
-msgid "Friendly"
-msgstr "Friendly"
-
-#: ../data/verbal_analogies.xml.h:92
-msgid "Frog"
-msgstr "Frog"
-
-#: ../data/verbal_analogies.xml.h:93
-msgid "Gallon"
-msgstr "Gallon"
-
-#: ../data/verbal_analogies.xml.h:94
-msgid "Generic"
-msgstr "Generic"
-
-#: ../data/verbal_analogies.xml.h:95
 msgid "Golf"
 msgstr "Golf"
 
-#: ../data/verbal_analogies.xml.h:96
-msgid "Grab and bite are finite actions."
-msgstr "Grab and bite are finite actions."
-
-#: ../data/verbal_analogies.xml.h:97
-msgid "Grain"
-msgstr "Grain"
-
-#: ../data/verbal_analogies.xml.h:98
-msgid "Grape"
-msgstr "Grape"
-
-#: ../data/verbal_analogies.xml.h:99
-msgid "Gym"
-msgstr "Gym"
-
-#: ../data/verbal_analogies.xml.h:100
-msgid "Hangar"
-msgstr "Hangar"
-
-#: ../data/verbal_analogies.xml.h:101
-msgid "Hectogram"
-msgstr "Hectogram"
-
-#: ../data/verbal_analogies.xml.h:102
-msgid "Hematology"
-msgstr "Hematology"
-
-#: ../data/verbal_analogies.xml.h:103
-msgid "Hide"
-msgstr "Hide"
-
-#: ../data/verbal_analogies.xml.h:104
-msgid "Homeless"
-msgstr "Homeless"
-
-#: ../data/verbal_analogies.xml.h:105
-msgid "Hyena"
-msgstr "Hyena"
-
-#: ../data/verbal_analogies.xml.h:106
-msgid "Hypochondria"
-msgstr "Hypochondria"
-
-#: ../data/verbal_analogies.xml.h:107
-msgid "Icosagon"
-msgstr "Icosagon"
-
-#: ../data/verbal_analogies.xml.h:108
-msgid "Ignore"
-msgstr "Ignore"
-
-#: ../data/verbal_analogies.xml.h:109
-msgid "Incredible"
-msgstr "Incredible"
-
-#: ../data/verbal_analogies.xml.h:110
-msgid "Indifference"
-msgstr "Indifference"
-
-#: ../data/verbal_analogies.xml.h:111
-msgid "Ink"
-msgstr "Ink"
-
-#: ../data/verbal_analogies.xml.h:112
-msgid "Insects"
-msgstr "Insects"
-
-#: ../data/verbal_analogies.xml.h:113
-msgid "Interesting"
-msgstr "Interesting"
-
-#: ../data/verbal_analogies.xml.h:114
-msgid "Intuition"
-msgstr "Intuition"
-
-#: ../data/verbal_analogies.xml.h:115
-msgid "Ironic"
-msgstr "Ironic"
-
-#: ../data/verbal_analogies.xml.h:116
-msgid "Island"
-msgstr "Island"
-
-#. Translator: definition of negligent
-#: ../data/verbal_analogies.xml.h:118
-msgid ""
-"It is the failure to take such care as may be rightfully or reasonably "
-"expected."
-msgstr ""
-"It is the failure to take such care as may be rightfully or reasonably "
-"expected."
-
-#: ../data/verbal_analogies.xml.h:119
-msgid "It is the only one that does not use a ball in the game."
-msgstr "It is the only one that does not use a ball in the game."
-
-#: ../data/verbal_analogies.xml.h:120
-msgid "It is the only one that is not a carnivore."
-msgstr "It is the only one that is not a carnivore."
-
-#: ../data/verbal_analogies.xml.h:121
-msgid "It is the only one that is not a cereal."
-msgstr "It is the only one that is not a cereal."
-
-#: ../data/verbal_analogies.xml.h:122
-msgid "It is the only one that is not a fruit."
-msgstr "It is the only one that is not a fruit."
-
-#: ../data/verbal_analogies.xml.h:123
-msgid "It is the only one that is not a medical specialty."
-msgstr "It is the only one that is not a medical specialty."
-
-#: ../data/verbal_analogies.xml.h:124
-msgid "It is the only one that is not a metal."
-msgstr "It is the only one that is not a metal."
-
-#: ../data/verbal_analogies.xml.h:125
-msgid "It is the only one that is not a reptile and also does not have a tail."
-msgstr "It is the only one that is not a reptile and also does not have a tail."
-
-#: ../data/verbal_analogies.xml.h:126
-msgid "It is the only one that is not a woodwind instrument."
-msgstr "It is the only one that is not a woodwind instrument."
-
-#: ../data/verbal_analogies.xml.h:127
-msgid "It is the only one that is not related to architecture."
-msgstr "It is the only one that is not related to architecture."
-
-#: ../data/verbal_analogies.xml.h:128
-msgid "It is the only unit that does not belong to the metric system."
-msgstr "It is the only unit that does not belong to the metric system."
-
-#: ../data/verbal_analogies.xml.h:129
-msgid "Kilometer"
-msgstr "Kilometre"
-
-#: ../data/verbal_analogies.xml.h:130
-msgid "Latitude"
-msgstr "Latitude"
-
-#: ../data/verbal_analogies.xml.h:131
-msgid "Lentils"
-msgstr "Lentils"
-
-#: ../data/verbal_analogies.xml.h:132
-msgid "Light"
-msgstr "Light"
-
-#: ../data/verbal_analogies.xml.h:133
-msgid "Liter"
-msgstr "Litre"
-
-#: ../data/verbal_analogies.xml.h:134
-msgid "Lizard"
-msgstr "Lizard"
-
-#. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:136
-msgid "Lock"
-msgstr "Lock"
-
-#: ../data/verbal_analogies.xml.h:137
-msgid "Loner"
-msgstr "Loner"
-
-#: ../data/verbal_analogies.xml.h:138
-msgid "Lychee"
-msgstr "Lychee"
-
-#: ../data/verbal_analogies.xml.h:139
-msgid "Mango"
-msgstr "Mango"
-
-#: ../data/verbal_analogies.xml.h:140
-msgid "Martyr"
-msgstr "Martyr"
-
-#: ../data/verbal_analogies.xml.h:141
-msgid "Misunderstood"
-msgstr "Misunderstood"
-
-#: ../data/verbal_analogies.xml.h:142
-msgid "Money"
-msgstr "Money"
-
-#: ../data/verbal_analogies.xml.h:143
-msgid "Museum"
-msgstr "Museum"
-
-#: ../data/verbal_analogies.xml.h:144
-msgid "Oboe"
-msgstr "Oboe"
-
-#: ../data/verbal_analogies.xml.h:145
-msgid "Obscure"
-msgstr "Obscure"
-
-#: ../data/verbal_analogies.xml.h:146
-msgid "Obvious"
-msgstr "Obvious"
-
-#: ../data/verbal_analogies.xml.h:147
-msgid "Occasional"
-msgstr "Occasional"
-
-#: ../data/verbal_analogies.xml.h:148
-msgid "Offensive"
-msgstr "Offensive"
-
-#: ../data/verbal_analogies.xml.h:149
-msgid "Oligarchy"
-msgstr "Oligarchy"
-
-#: ../data/verbal_analogies.xml.h:150
-msgid "Olive"
-msgstr "Olive"
-
-#: ../data/verbal_analogies.xml.h:151
-msgid "Onion"
-msgstr "Onion"
-
-#. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:153
-msgid "Open"
-msgstr "Open"
-
-#. Translators: refers to the fruit
-#: ../data/verbal_analogies.xml.h:155
-msgid "Orange"
-msgstr "Orange"
-
-#: ../data/verbal_analogies.xml.h:156
-msgid "Ordinary"
-msgstr "Ordinary"
-
-#: ../data/verbal_analogies.xml.h:157
-msgid "Ostentation"
-msgstr "Ostentation"
-
-#: ../data/verbal_analogies.xml.h:158
-msgid "Pain"
-msgstr "Pain"
-
-#: ../data/verbal_analogies.xml.h:159
-msgid "Paleontology"
-msgstr "Paleontology"
-
-#: ../data/verbal_analogies.xml.h:160
-msgid ""
-"Parallel and longitude traverse from east to west while meridian and "
-"latitude traverse from north to south."
-msgstr ""
-"Parallel and longitude traverse from east to west while meridian and "
-"latitude traverse from north to south."
-
-#. Translator: Pertaining to a single or specific person or thing
-#: ../data/verbal_analogies.xml.h:162
-msgid "Particular"
-msgstr "Particular"
-
-#: ../data/verbal_analogies.xml.h:163
-msgid "Person expelled from society"
-msgstr "Person expelled from society"
-
-#: ../data/verbal_analogies.xml.h:164
-msgid "Photography"
-msgstr "Photography"
-
-#: ../data/verbal_analogies.xml.h:165
-msgid "Pioneer"
-msgstr "Pioneer"
-
-#: ../data/verbal_analogies.xml.h:166
-msgid "Pleasure"
-msgstr "Pleasure"
-
-#: ../data/verbal_analogies.xml.h:167
-msgid "Pole"
-msgstr "Pole"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:169
-msgid "Polite"
-msgstr "Polite"
-
-#: ../data/verbal_analogies.xml.h:170
-msgid "Pony / Horse"
-msgstr "Pony / Horse"
-
-#: ../data/verbal_analogies.xml.h:171
-msgid "Portico"
-msgstr "Portico"
-
-#: ../data/verbal_analogies.xml.h:172
-msgid "Positivism"
-msgstr "Positivism"
-
-#: ../data/verbal_analogies.xml.h:173
-msgid "Potato"
-msgstr "Potato"
-
-#: ../data/verbal_analogies.xml.h:174
-msgid "Printer"
-msgstr "Printer"
-
-#: ../data/verbal_analogies.xml.h:175
-msgid "Property"
-msgstr "Property"
-
-#: ../data/verbal_analogies.xml.h:176
-msgid "Psychiatry"
-msgstr "Psychiatry"
-
-#: ../data/verbal_analogies.xml.h:177
-msgid "Radius"
-msgstr "Radius"
-
-#: ../data/verbal_analogies.xml.h:178
-msgid "Rare"
-msgstr "Rare"
-
-#: ../data/verbal_analogies.xml.h:179
-msgid "Regular"
-msgstr "Regular"
-
-#: ../data/verbal_analogies.xml.h:180
-msgid "Related"
-msgstr "Related"
-
-#: ../data/verbal_analogies.xml.h:181
-msgid "Repugnance"
-msgstr "Repugnance"
-
-#: ../data/verbal_analogies.xml.h:182
-msgid "Restaurant"
-msgstr "Restaurant"
-
-#: ../data/verbal_analogies.xml.h:183
-msgid "Rice"
-msgstr "Rice"
-
-#: ../data/verbal_analogies.xml.h:184
-msgid "River"
-msgstr "River"
-
-#: ../data/verbal_analogies.xml.h:185
-msgid "Roll"
-msgstr "Roll"
-
-#: ../data/verbal_analogies.xml.h:186
-msgid "Sad"
-msgstr "Sad"
-
-#: ../data/verbal_analogies.xml.h:187
-msgid "Shame"
-msgstr "Shame"
-
-#: ../data/verbal_analogies.xml.h:188
-msgid "Ship"
-msgstr "Ship"
-
-#: ../data/verbal_analogies.xml.h:189
-msgid "Simplistic"
-msgstr "Simplistic"
-
-#: ../data/verbal_analogies.xml.h:190
-msgid "Sodium"
-msgstr "Sodium"
-
-#: ../data/verbal_analogies.xml.h:191
-msgid "Solstice"
-msgstr "Solstice"
-
-#: ../data/verbal_analogies.xml.h:192
-msgid "Specializes in skin diseases"
-msgstr "Specialises in skin diseases"
-
-#: ../data/verbal_analogies.xml.h:193
-msgid "Sport"
-msgstr "Sport"
-
-#: ../data/verbal_analogies.xml.h:194
-msgid "Suffers a skin disease"
-msgstr "Suffers a skin disease"
-
-#: ../data/verbal_analogies.xml.h:195
-msgid "Sugarcane"
-msgstr "Sugarcane"
-
-#: ../data/verbal_analogies.xml.h:196
-msgid "Sweet corn"
-msgstr "Sweet corn"
-
-#: ../data/verbal_analogies.xml.h:197
-msgid "Synonym"
-msgstr "Synonym"
-
-#: ../data/verbal_analogies.xml.h:198
-msgid "Table"
-msgstr "Table"
-
-#: ../data/verbal_analogies.xml.h:199
-msgid "Tangent"
-msgstr "Tangent"
-
-#: ../data/verbal_analogies.xml.h:200
-msgid "Tears"
-msgstr "Tears"
-
-#: ../data/verbal_analogies.xml.h:201
+#: ../data/verbal_analogies.xml.h:7
+msgid "Basketball"
+msgstr "Basketball"
+
+#: ../data/verbal_analogies.xml.h:8
 msgid "Tennis"
 msgstr "Tennis"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:9
+msgid "Cycling"
+msgstr "Cycling"
+
+#: ../data/verbal_analogies.xml.h:10
+msgid "It is the only one that does not use a ball in the game."
+msgstr "It is the only one that does not use a ball in the game."
+
+#: ../data/verbal_analogies.xml.h:11
+msgid "A terrier is to a dog like a?"
+msgstr "A terrier is to a dog like a?"
+
+#: ../data/verbal_analogies.xml.h:12
+msgid "Chicken / Parrot"
+msgstr "Chicken / Parrot"
+
+#: ../data/verbal_analogies.xml.h:13
+msgid "Pony / Horse"
+msgstr "Pony / Horse"
+
+#: ../data/verbal_analogies.xml.h:14
+msgid "Ant / Vertebrate"
+msgstr "Ant / Vertebrate"
+
+#: ../data/verbal_analogies.xml.h:15
+msgid "Dog / Cat"
+msgstr "Dog / Cat"
+
+#: ../data/verbal_analogies.xml.h:16
+msgid "Dog and horse are species and terrier and pony are breeds."
+msgstr "Dog and horse are species and terrier and pony are breeds."
+
+#: ../data/verbal_analogies.xml.h:17
+msgid "The word 'taxidermist' is used to define a person that?"
+msgstr "The word 'taxidermist' is used to define a person that?"
+
+#: ../data/verbal_analogies.xml.h:18
+msgid "Works with dead animals"
+msgstr "Works with dead animals"
+
+#: ../data/verbal_analogies.xml.h:19
+msgid "Specializes in skin diseases"
+msgstr "Specialises in skin diseases"
+
+#: ../data/verbal_analogies.xml.h:20
+msgid "Suffers a skin disease"
+msgstr "Suffers a skin disease"
+
+#: ../data/verbal_analogies.xml.h:21
+msgid "Works with leather"
+msgstr "Works with leather"
+
+#: ../data/verbal_analogies.xml.h:22
+msgid "A car engine that is poorly designed and lacking of sophistication is?"
+msgstr "A car engine that is poorly designed and lacking of sophistication is?"
+
+#: ../data/verbal_analogies.xml.h:23
+msgid "Simplistic"
+msgstr "Simplistic"
+
+#: ../data/verbal_analogies.xml.h:24
+msgid "Erroneous"
+msgstr "Erroneous"
+
+#: ../data/verbal_analogies.xml.h:25
+msgid "Broken"
+msgstr "Broken"
+
+#: ../data/verbal_analogies.xml.h:26
+msgid "Unorthodox"
+msgstr "Unorthodox"
+
+#: ../data/verbal_analogies.xml.h:27
+msgid "Which of the following words is the closest in meaning to 'censure'?"
+msgstr "Which of the following words is the closest in meaning to 'censure'?"
+
+#: ../data/verbal_analogies.xml.h:28
+msgid "Condemn"
+msgstr "Condemn"
+
+#: ../data/verbal_analogies.xml.h:29
+msgid "Hide"
+msgstr "Hide"
+
+#: ../data/verbal_analogies.xml.h:30
+msgid "Obscure"
+msgstr "Obscure"
+
+#: ../data/verbal_analogies.xml.h:31
+msgid "Ignore"
+msgstr "Ignore"
+
+#: ../data/verbal_analogies.xml.h:32
+msgid "An artist whose work has become the defining style of a genre is?"
+msgstr "An artist whose work has become the defining style of a genre is?"
+
+#: ../data/verbal_analogies.xml.h:33
+msgid "Pioneer"
+msgstr "Pioneer"
+
+#. Translators: referred to the life style
+#: ../data/verbal_analogies.xml.h:35
+msgid "Bohemian"
+msgstr "Bohemian"
+
+#: ../data/verbal_analogies.xml.h:36
+msgid "Misunderstood"
+msgstr "Misunderstood"
+
+#: ../data/verbal_analogies.xml.h:37
+msgid "Martyr"
+msgstr "Martyr"
+
+#: ../data/verbal_analogies.xml.h:38
+msgid "Which of the following sentences defines better an 'ostracized' person?"
+msgstr ""
+"Which of the following sentences defines better an 'ostracised' person?"
+
+#: ../data/verbal_analogies.xml.h:39
+msgid "Person expelled from society"
+msgstr "Person expelled from society"
+
+#: ../data/verbal_analogies.xml.h:40
+msgid "Loner"
+msgstr "Loner"
+
+#: ../data/verbal_analogies.xml.h:41
+msgid "Connoisseur"
+msgstr "Connoisseur"
+
+#: ../data/verbal_analogies.xml.h:42
+msgid "Conspirator"
+msgstr "Conspirator"
+
+#: ../data/verbal_analogies.xml.h:43
+msgid "Which of the following words means fear of people?"
+msgstr "Which of the following words means fear of people?"
+
+#. Translators: Anthropophobia is fear of people
+#: ../data/verbal_analogies.xml.h:45
+msgid "Anthropophobia"
+msgstr "Anthropophobia"
+
+#: ../data/verbal_analogies.xml.h:46
+msgid "Hypochondria"
+msgstr "Hypochondria"
+
+#. Translators: Anthophobia is fear of flowers that poses little or no danger
+#: ../data/verbal_analogies.xml.h:48
+msgid "Anthophobia"
+msgstr "Anthophobia"
+
+#. Translators: Acrophobia is fear of heights
+#: ../data/verbal_analogies.xml.h:50
+msgid "Acrophobia"
+msgstr "Acrophobia"
+
+#: ../data/verbal_analogies.xml.h:51
+msgid "A person with excessive preoccupation for his health has?"
+msgstr "A person with excessive preoccupation for his health has?"
+
+#: ../data/verbal_analogies.xml.h:52
+msgid "Agoraphobia"
+msgstr "Agoraphobia"
+
+#. Selected to avoid physical characteristics like: has shield, legs or tail
+#: ../data/verbal_analogies.xml.h:54
+msgid "Which of the following words does not belong in this group?"
+msgstr "Which of the following words does not belong in this group?"
+
+#: ../data/verbal_analogies.xml.h:55
+msgid "Violin"
+msgstr "Violin"
+
+#: ../data/verbal_analogies.xml.h:56
+msgid "Bassoon"
+msgstr "Bassoon"
+
+#: ../data/verbal_analogies.xml.h:57
+msgid "Flute"
+msgstr "Flute"
+
+#: ../data/verbal_analogies.xml.h:58
+msgid "Oboe"
+msgstr "Oboe"
+
+#: ../data/verbal_analogies.xml.h:59
+msgid "It is the only one that is not a woodwind instrument."
+msgstr "It is the only one that is not a woodwind instrument."
+
+#: ../data/verbal_analogies.xml.h:60
+msgid "What is a 'halberd'?"
+msgstr "What is a 'halberd'?"
+
+#: ../data/verbal_analogies.xml.h:61
+msgid "Weapon"
+msgstr "Weapon"
+
+#: ../data/verbal_analogies.xml.h:62
+msgid "Flower"
+msgstr "Flower"
+
+#: ../data/verbal_analogies.xml.h:63
+msgid "Fish"
+msgstr "Fish"
+
+#: ../data/verbal_analogies.xml.h:64
+msgid "Sport"
+msgstr "Sport"
+
+#: ../data/verbal_analogies.xml.h:65
+msgid "Fossil"
+msgstr "Fossil"
+
+#: ../data/verbal_analogies.xml.h:66
+msgid "Portico"
+msgstr "Portico"
+
+#: ../data/verbal_analogies.xml.h:67
+msgid "Column"
+msgstr "Column"
+
+#: ../data/verbal_analogies.xml.h:68
+msgid "Attic"
+msgstr "Attic"
+
+#: ../data/verbal_analogies.xml.h:69
+msgid "It is the only one that is not related to architecture."
+msgstr "It is the only one that is not related to architecture."
+
+#: ../data/verbal_analogies.xml.h:70
+msgid "Kilometer"
+msgstr "Kilometre"
+
+#: ../data/verbal_analogies.xml.h:71
+msgid "Hectogram"
+msgstr "Hectogram"
+
+#: ../data/verbal_analogies.xml.h:72
+msgid "Liter"
+msgstr "Litre"
+
+#: ../data/verbal_analogies.xml.h:73
+msgid "Gallon"
+msgstr "Gallon"
+
+#: ../data/verbal_analogies.xml.h:74
+msgid "It is the only unit that does not belong to the metric system."
+msgstr "It is the only unit that does not belong to the metric system."
+
+#. Translators: refers to the fruit
+#: ../data/verbal_analogies.xml.h:76
+msgid "Orange"
+msgstr "Orange"
+
+#: ../data/verbal_analogies.xml.h:77
+msgid "Apple"
+msgstr "Apple"
+
+#: ../data/verbal_analogies.xml.h:78
+msgid "Grape"
+msgstr "Grape"
+
+#: ../data/verbal_analogies.xml.h:79
+msgid "Potato"
+msgstr "Potato"
+
+#: ../data/verbal_analogies.xml.h:80
+msgid "It is the only one that is not a fruit."
+msgstr "It is the only one that is not a fruit."
+
+#: ../data/verbal_analogies.xml.h:81
+msgid "Turtle"
+msgstr "Turtle"
+
+#: ../data/verbal_analogies.xml.h:82
+msgid "Crocodile"
+msgstr "Crocodile"
+
+#: ../data/verbal_analogies.xml.h:83
+msgid "Lizard"
+msgstr "Lizard"
+
+#: ../data/verbal_analogies.xml.h:84
+msgid "Frog"
+msgstr "Frog"
+
+#: ../data/verbal_analogies.xml.h:85
+msgid "It is the only one that is not a reptile and also does not have a tail."
+msgstr ""
+"It is the only one that is not a reptile and also does not have a tail."
+
+#: ../data/verbal_analogies.xml.h:86
+msgid "Tiger"
+msgstr "Tiger"
+
+#: ../data/verbal_analogies.xml.h:87
+msgid "Hyena"
+msgstr "Hyena"
+
+#: ../data/verbal_analogies.xml.h:88
+msgid "Wolf"
+msgstr "Wolf"
+
+#: ../data/verbal_analogies.xml.h:89
+msgid "Deer"
+msgstr "Deer"
+
+#: ../data/verbal_analogies.xml.h:90
+msgid "It is the only one that is not a carnivore."
+msgstr "It is the only one that is not a carnivore."
+
+#: ../data/verbal_analogies.xml.h:91
+msgid "Which of the following words is closest to the meaning of 'hedonism'?"
+msgstr "Which of the following words is closest to the meaning of 'hedonism'?"
+
+#: ../data/verbal_analogies.xml.h:92
+msgid "Pleasure"
+msgstr "Pleasure"
+
+#: ../data/verbal_analogies.xml.h:93
+msgid "Pain"
+msgstr "Pain"
+
+#: ../data/verbal_analogies.xml.h:94
+msgid "Collectivism"
+msgstr "Collectivism"
+
+#: ../data/verbal_analogies.xml.h:95
+msgid "Abstinence"
+msgstr "Abstinence"
+
+#: ../data/verbal_analogies.xml.h:96
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
 "The ethical doctrine holding that only what is pleasant is an intrinsically "
 "good."
 
-#: ../data/verbal_analogies.xml.h:203
-msgid "The first word is the instrument and the second what it measures."
-msgstr "The first word is the instrument and the second what it measures."
-
-#: ../data/verbal_analogies.xml.h:204
-msgid "The other words have the connotation of not occurring frequently."
-msgstr "The other words have the connotation of not occurring frequently."
-
-#: ../data/verbal_analogies.xml.h:205
-msgid "The other words have the meaning of distinguished."
-msgstr "The other words have the meaning of distinguished."
-
-#: ../data/verbal_analogies.xml.h:206
-msgid ""
-"The practice of austere self-discipline in order to achieve a higher or "
-"spiritual idea."
-msgstr ""
-"The practice of austere self-discipline in order to achieve a higher or "
-"spiritual idea."
-
-#: ../data/verbal_analogies.xml.h:207
-msgid "The radius of a circle is half the diameter."
-msgstr "The radius of a circle is half the diameter."
-
-#: ../data/verbal_analogies.xml.h:208
-msgid "The relation between the two words is that they are synonymous."
-msgstr "The relation between the two words is that they are synonymous."
-
-#: ../data/verbal_analogies.xml.h:209
-msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "The word 'taxidermist' is used to define a person that?"
-
-#: ../data/verbal_analogies.xml.h:210
-msgid "Theater"
-msgstr "Theatre"
-
-#: ../data/verbal_analogies.xml.h:211
-msgid "Think of the items used in the game."
-msgstr "Think of the items used in the game."
-
-#: ../data/verbal_analogies.xml.h:212
-msgid "Tiger"
-msgstr "Tiger"
-
-#: ../data/verbal_analogies.xml.h:213
-msgid "Titanium"
-msgstr "Titanium"
-
-#: ../data/verbal_analogies.xml.h:214
-msgid ""
-"To make both objects work, a button needs to be pushed and a key needs to be "
-"turned."
-msgstr ""
-"To make both objects work, a button needs to be pushed and a key needs to be "
-"turned."
-
-#: ../data/verbal_analogies.xml.h:215
-msgid "Totalitarianism"
-msgstr "Totalitarianism"
-
-#. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:217
-msgid "Tripod"
-msgstr "Tripod"
-
-#: ../data/verbal_analogies.xml.h:218
-msgid "Trivial"
-msgstr "Trivial"
-
-#: ../data/verbal_analogies.xml.h:219
-msgid "Turn"
-msgstr "Turn"
-
-#: ../data/verbal_analogies.xml.h:220
-msgid "Turtle"
-msgstr "Turtle"
-
-#: ../data/verbal_analogies.xml.h:221
-msgid "Unorthodox"
-msgstr "Unorthodox"
-
-#: ../data/verbal_analogies.xml.h:222
-msgid "Unpleasant"
-msgstr "Unpleasant"
-
-#: ../data/verbal_analogies.xml.h:223
-msgid "Violin"
-msgstr "Violin"
-
-#: ../data/verbal_analogies.xml.h:224
-msgid "Weapon"
-msgstr "Weapon"
-
-#: ../data/verbal_analogies.xml.h:225
-msgid "What is a 'halberd'?"
-msgstr "What is a 'halberd'?"
-
-#: ../data/verbal_analogies.xml.h:226
-msgid "Wheat"
-msgstr "Wheat"
-
-#: ../data/verbal_analogies.xml.h:227
-msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr ""
-"Which of the following sentences defines better an 'ostracised' person?"
-
-#.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
-#.
-#: ../data/verbal_analogies.xml.h:231
-msgid "Which of the following sports does not belong in this group?"
-msgstr "Which of the following sports does not belong in this group?"
-
-#. Selected to avoid physical characteristics like: has shield, legs or tail
-#: ../data/verbal_analogies.xml.h:233
-msgid "Which of the following words does not belong in this group?"
-msgstr "Which of the following words does not belong in this group?"
-
-#: ../data/verbal_analogies.xml.h:234
+#: ../data/verbal_analogies.xml.h:97
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr "Which of the following words is closest to the meaning of 'asceticism'?"
+msgstr ""
+"Which of the following words is closest to the meaning of 'asceticism'?"
 
-#: ../data/verbal_analogies.xml.h:235
-msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr "Which of the following words is closest to the meaning of 'hedonism'?"
+#: ../data/verbal_analogies.xml.h:98
+msgid "Positivism"
+msgstr "Positivism"
 
-#: ../data/verbal_analogies.xml.h:236
-msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr "Which of the following words is closest to the meaning of 'negligent'?"
+#: ../data/verbal_analogies.xml.h:99
+msgid ""
+"The practice of austere self-discipline in order to achieve a higher or "
+"spiritual idea."
+msgstr ""
+"The practice of austere self-discipline in order to achieve a higher or "
+"spiritual idea."
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:100
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
 msgstr "Which of the following words is closest to the meaning of 'oxymoron'?"
 
-#: ../data/verbal_analogies.xml.h:238
-msgid "Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr "Which of the following words is closest to the meaning of 'perplexing'?"
+#: ../data/verbal_analogies.xml.h:101
+msgid "Contradictory"
+msgstr "Contradictory"
 
-#: ../data/verbal_analogies.xml.h:239
-msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr "Which of the following words is closest to the meaning of 'specific'?"
+#: ../data/verbal_analogies.xml.h:102
+msgid "Synonym"
+msgstr "Synonym"
 
-#: ../data/verbal_analogies.xml.h:240
-msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr "Which of the following words is closest to the meaning of 'unhappy'?"
+#: ../data/verbal_analogies.xml.h:103
+msgid "Related"
+msgstr "Related"
 
-#: ../data/verbal_analogies.xml.h:241
-msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr "Which of the following words is the closest in meaning to 'censure'?"
+#: ../data/verbal_analogies.xml.h:104
+msgid "Ironic"
+msgstr "Ironic"
 
-#: ../data/verbal_analogies.xml.h:242
-msgid "Which of the following words means fear of people?"
-msgstr "Which of the following words means fear of people?"
+#: ../data/verbal_analogies.xml.h:105
+msgid "A figure of speech that combines contradicting terms."
+msgstr "A figure of speech that combines contradicting terms."
 
-#: ../data/verbal_analogies.xml.h:243
-msgid "Winery"
-msgstr "Winery"
+#: ../data/verbal_analogies.xml.h:106
+msgid "Lentils"
+msgstr "Lentils"
 
-#: ../data/verbal_analogies.xml.h:244
-msgid "Wings"
-msgstr "Wings"
+#: ../data/verbal_analogies.xml.h:107
+msgid "Wheat"
+msgstr "Wheat"
 
-#: ../data/verbal_analogies.xml.h:245
-msgid "Wolf"
-msgstr "Wolf"
+#: ../data/verbal_analogies.xml.h:108
+msgid "Corn"
+msgstr "Corn"
 
-#: ../data/verbal_analogies.xml.h:246
-msgid "Works with dead animals"
-msgstr "Works with dead animals"
+#: ../data/verbal_analogies.xml.h:109
+msgid "Rice"
+msgstr "Rice"
 
-#: ../data/verbal_analogies.xml.h:247
-msgid "Works with leather"
-msgstr "Works with leather"
+#: ../data/verbal_analogies.xml.h:110
+msgid "It is the only one that is not a cereal."
+msgstr "It is the only one that is not a cereal."
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:111
+msgid "Onion"
+msgstr "Onion"
+
+#: ../data/verbal_analogies.xml.h:112
+msgid "Mango"
+msgstr "Mango"
+
+#: ../data/verbal_analogies.xml.h:113
+msgid "Lychee"
+msgstr "Lychee"
+
+#: ../data/verbal_analogies.xml.h:114
+msgid "Olive"
+msgstr "Olive"
+
+#: ../data/verbal_analogies.xml.h:115
+msgid "Carbon"
+msgstr "Carbon"
+
+#: ../data/verbal_analogies.xml.h:116
+msgid "Sodium"
+msgstr "Sodium"
+
+#: ../data/verbal_analogies.xml.h:117
+msgid "Titanium"
+msgstr "Titanium"
+
+#: ../data/verbal_analogies.xml.h:118
 msgid "Zinc"
 msgstr "Zinc"
 
-#: ../data/verbal_analogies.xml.h:249
-msgid "airplane | aeroplane | plane"
-msgstr "airplane | aeroplane | plane"
+#: ../data/verbal_analogies.xml.h:119
+msgid "It is the only one that is not a metal."
+msgstr "It is the only one that is not a metal."
 
-#: ../data/verbal_analogies.xml.h:250
-msgid "ankle"
-msgstr "ankle"
+#: ../data/verbal_analogies.xml.h:120
+msgid "Cardiology"
+msgstr "Cardiology"
 
-#: ../data/verbal_analogies.xml.h:251
-msgid "art / gallery | drama"
-msgstr "art / gallery | drama"
+#: ../data/verbal_analogies.xml.h:121
+msgid "Hematology"
+msgstr "Hematology"
 
-#: ../data/verbal_analogies.xml.h:252
-msgid "atlas"
-msgstr "atlas"
+#: ../data/verbal_analogies.xml.h:122
+msgid "Psychiatry"
+msgstr "Psychiatry"
 
-#: ../data/verbal_analogies.xml.h:253
-msgid "bite"
-msgstr "bite"
+#: ../data/verbal_analogies.xml.h:123
+msgid "Paleontology"
+msgstr "Paleontology"
 
-#: ../data/verbal_analogies.xml.h:254
-msgid "body | skin"
-msgstr "body | skin"
+#: ../data/verbal_analogies.xml.h:124
+msgid "It is the only one that is not a medical specialty."
+msgstr "It is the only one that is not a medical specialty."
 
-#: ../data/verbal_analogies.xml.h:255
-msgid "book | magazine | document"
-msgstr "book | magazine | document"
+#: ../data/verbal_analogies.xml.h:125
+msgid "Which of the following words is closest to the meaning of 'negligent'?"
+msgstr "Which of the following words is closest to the meaning of 'negligent'?"
 
-#. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:257
-msgid "box / open | banana"
-msgstr "box / open | banana"
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:127
+msgid "Careless"
+msgstr "Careless"
 
-#: ../data/verbal_analogies.xml.h:258
-msgid "bridge / over | tunnel"
-msgstr "bridge / over | tunnel"
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:129
+msgid "Friendly"
+msgstr "Friendly"
 
-#: ../data/verbal_analogies.xml.h:259
-msgid "button / push | key (used in a lock)"
-msgstr "button / push | key (used in a lock)"
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:131
+msgid "Polite"
+msgstr "Polite"
 
-#: ../data/verbal_analogies.xml.h:260
-msgid "cage | zoo | zoological garden"
-msgstr "cage | zoo | zoological garden"
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:133
+msgid "Angry"
+msgstr "Angry"
 
-#: ../data/verbal_analogies.xml.h:261
+#. Translator: definition of negligent
+#: ../data/verbal_analogies.xml.h:135
+msgid ""
+"It is the failure to take such care as may be rightfully or reasonably "
+"expected."
+msgstr ""
+"It is the failure to take such care as may be rightfully or reasonably "
+"expected."
+
+#: ../data/verbal_analogies.xml.h:136
+msgid "Regular"
+msgstr "Regular"
+
+#: ../data/verbal_analogies.xml.h:137
+msgid "Occasional"
+msgstr "Occasional"
+
+#: ../data/verbal_analogies.xml.h:138
+msgid "Exceptional"
+msgstr "Exceptional"
+
+#: ../data/verbal_analogies.xml.h:139
+msgid "Rare"
+msgstr "Rare"
+
+#: ../data/verbal_analogies.xml.h:140
+msgid "The other words have the connotation of not occurring frequently."
+msgstr "The other words have the connotation of not occurring frequently."
+
+#: ../data/verbal_analogies.xml.h:141
+msgid "Which of the following words is closest to the meaning of 'perplexing'?"
+msgstr ""
+"Which of the following words is closest to the meaning of 'perplexing'?"
+
+#. Translator: As synonymous of 'perplexing'
+#: ../data/verbal_analogies.xml.h:143
+msgid "Confusing"
+msgstr "Confusing"
+
+#: ../data/verbal_analogies.xml.h:144
+msgid "Interesting"
+msgstr "Interesting"
+
+#: ../data/verbal_analogies.xml.h:145
+msgid "Ordinary"
+msgstr "Ordinary"
+
+#: ../data/verbal_analogies.xml.h:146
+msgid "Trivial"
+msgstr "Trivial"
+
+#: ../data/verbal_analogies.xml.h:147
+msgid "Which of the following words is closest to the meaning of 'unhappy'?"
+msgstr "Which of the following words is closest to the meaning of 'unhappy'?"
+
+#: ../data/verbal_analogies.xml.h:148
+msgid "Sad"
+msgstr "Sad"
+
+#: ../data/verbal_analogies.xml.h:149
+msgid "Unpleasant"
+msgstr "Unpleasant"
+
+#: ../data/verbal_analogies.xml.h:150
+msgid "Tears"
+msgstr "Tears"
+
+#: ../data/verbal_analogies.xml.h:151
+msgid "Incredible"
+msgstr "Incredible"
+
+#: ../data/verbal_analogies.xml.h:152
+msgid "Famous"
+msgstr "Famous"
+
+#: ../data/verbal_analogies.xml.h:153
+msgid "Acclaimed"
+msgstr "Acclaimed"
+
+#: ../data/verbal_analogies.xml.h:154
+msgid "Celebrated"
+msgstr "Celebrated"
+
+#: ../data/verbal_analogies.xml.h:155
+msgid "The other words have the meaning of distinguished."
+msgstr "The other words have the meaning of distinguished."
+
+#: ../data/verbal_analogies.xml.h:156
+msgid "Which of the following words is closest to the meaning of 'specific'?"
+msgstr "Which of the following words is closest to the meaning of 'specific'?"
+
+#. Translator: Pertaining to a single or specific person or thing
+#: ../data/verbal_analogies.xml.h:158
+msgid "Particular"
+msgstr "Particular"
+
+#: ../data/verbal_analogies.xml.h:159
+msgid "Obvious"
+msgstr "Obvious"
+
+#: ../data/verbal_analogies.xml.h:160
+msgid "Generic"
+msgstr "Generic"
+
+#: ../data/verbal_analogies.xml.h:161
 msgid "car / garage | plane"
 msgstr "car / garage | plane"
 
-#: ../data/verbal_analogies.xml.h:262
-msgid "car / road | train"
-msgstr "car / road | train"
+#: ../data/verbal_analogies.xml.h:162
+msgid "Hangar"
+msgstr "Hangar"
 
-#. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:264
-msgid "chop"
-msgstr "chop"
+#: ../data/verbal_analogies.xml.h:163
+msgid "Airline"
+msgstr "Airline"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:164
+msgid "Aircraft"
+msgstr "Aircraft"
+
+#: ../data/verbal_analogies.xml.h:165
+msgid "Bunker"
+msgstr "Bunker"
+
+#: ../data/verbal_analogies.xml.h:166
 msgid "circle / semicircle | diameter"
 msgstr "circle / semicircle | diameter"
 
-#: ../data/verbal_analogies.xml.h:266
-msgid "coins"
-msgstr "coins"
+#: ../data/verbal_analogies.xml.h:167
+msgid "Radius"
+msgstr "Radius"
 
-#: ../data/verbal_analogies.xml.h:267
-msgid "composer | songwriter | lyricist"
-msgstr "composer | songwriter | lyricist"
+#: ../data/verbal_analogies.xml.h:168
+msgid "Chord"
+msgstr "Chord"
 
-#: ../data/verbal_analogies.xml.h:268
-msgid "concept / idea | obsession"
-msgstr "concept / idea | obsession"
+#: ../data/verbal_analogies.xml.h:169
+msgid "Tangent"
+msgstr "Tangent"
 
-#: ../data/verbal_analogies.xml.h:269
-msgid "constellation / stars | archipelago"
-msgstr "constellation / stars | archipelago"
+#: ../data/verbal_analogies.xml.h:170
+msgid "Angle"
+msgstr "Angle"
 
-#. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:271
-msgid "dance"
-msgstr "dance"
+#: ../data/verbal_analogies.xml.h:171
+msgid "The radius of a circle is half the diameter."
+msgstr "The radius of a circle is half the diameter."
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:172
+msgid "talk / yell | dislike"
+msgstr "talk / yell | dislike"
+
+#: ../data/verbal_analogies.xml.h:173
+msgid "Repugnance"
+msgstr "Repugnance"
+
+#: ../data/verbal_analogies.xml.h:174
+msgid "Offensive"
+msgstr "Offensive"
+
+#: ../data/verbal_analogies.xml.h:175
+msgid "Shame"
+msgstr "Shame"
+
+#: ../data/verbal_analogies.xml.h:176
+msgid "Ostentation"
+msgstr "Ostentation"
+
+#: ../data/verbal_analogies.xml.h:177
+msgid "write / pen | eat"
+msgstr "write / pen | eat"
+
+#: ../data/verbal_analogies.xml.h:178
+msgid "Fork"
+msgstr "Fork"
+
+#: ../data/verbal_analogies.xml.h:179
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../data/verbal_analogies.xml.h:180
+msgid "Winery"
+msgstr "Winery"
+
+#: ../data/verbal_analogies.xml.h:181
+msgid "Table"
+msgstr "Table"
+
+#: ../data/verbal_analogies.xml.h:182
+msgid "A pen is used to write and a fork is used to eat."
+msgstr "A pen is used to write and a fork is used to eat."
+
+#: ../data/verbal_analogies.xml.h:183
 msgid "desert / oasis | sea"
 msgstr "desert / oasis | sea"
 
-#: ../data/verbal_analogies.xml.h:273
-msgid "dish / break | balloon"
-msgstr "dish / break | balloon"
+#: ../data/verbal_analogies.xml.h:184
+msgid "Island"
+msgstr "Island"
 
-#: ../data/verbal_analogies.xml.h:274
-msgid "dog / tame | wolf"
-msgstr "dog / tame | wolf"
+#: ../data/verbal_analogies.xml.h:185
+msgid "River"
+msgstr "River"
 
-#: ../data/verbal_analogies.xml.h:275
-msgid "elbow / knee | wrist"
-msgstr "elbow / knee | wrist"
+#: ../data/verbal_analogies.xml.h:186
+msgid "Beach"
+msgstr "Beach"
 
-#. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:277
-msgid "error / (to) correct | damage"
-msgstr "error / (to) correct | damage"
+#: ../data/verbal_analogies.xml.h:187
+msgid "Coast"
+msgstr "Coast"
 
-#: ../data/verbal_analogies.xml.h:278
-msgid "eyebrow / eye | mustache"
-msgstr "eyebrow / eye | moustache"
+#: ../data/verbal_analogies.xml.h:188
+msgid ""
+"An oasis is an isolated area of vegetation in a desert and an island is a "
+"piece of isolated land that is surrounded by water."
+msgstr ""
+"An oasis is an isolated area of vegetation in a desert and an island is a "
+"piece of isolated land that is surrounded by water."
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:280
-msgid "feet / two | toes"
-msgstr "feet / two | toes"
+#. Translators: letter refers to letter (in paper form)
+#: ../data/verbal_analogies.xml.h:190
+msgid "turtle / shell | letter"
+msgstr "turtle / shell | letter"
 
-#: ../data/verbal_analogies.xml.h:281
-msgid "fish / aquarium | monkey"
-msgstr "fish / aquarium | monkey"
+#: ../data/verbal_analogies.xml.h:191
+msgid "Envelope"
+msgstr "Envelope"
 
-#: ../data/verbal_analogies.xml.h:282
-msgid "fish / submarine | bird"
-msgstr "fish / submarine | bird"
+#: ../data/verbal_analogies.xml.h:192
+msgid "Ink"
+msgstr "Ink"
 
-#: ../data/verbal_analogies.xml.h:283
-msgid "fish / water | bird"
-msgstr "fish / water | bird"
+#: ../data/verbal_analogies.xml.h:193
+msgid "Printer"
+msgstr "Printer"
 
-#: ../data/verbal_analogies.xml.h:284
-msgid "five / pentagon | ten"
-msgstr "five / pentagon | ten"
+#: ../data/verbal_analogies.xml.h:194
+msgid "Cellulose"
+msgstr "Cellulose"
 
-#: ../data/verbal_analogies.xml.h:285
-msgid "fox / den | bird"
-msgstr "fox / den | bird"
+#: ../data/verbal_analogies.xml.h:195
+msgid "A turtle is inside a shell and a letter is inside an envelope."
+msgstr "A turtle is inside a shell and a letter is inside an envelope."
 
-#. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:287
-msgid "glass / break | paper"
-msgstr "glass / break | paper"
+#: ../data/verbal_analogies.xml.h:196
+msgid "wine / grape | rum"
+msgstr "wine / grape | rum"
 
-#: ../data/verbal_analogies.xml.h:288
-msgid "hands / grab | teeth"
-msgstr "hands / grab | teeth"
+#: ../data/verbal_analogies.xml.h:197
+msgid "Sugarcane"
+msgstr "Sugarcane"
 
-#: ../data/verbal_analogies.xml.h:289
-msgid "herbivorous | herbivore"
-msgstr "herbivorous | herbivore"
+#: ../data/verbal_analogies.xml.h:198
+msgid "Grain"
+msgstr "Grain"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:199
+msgid "Sweet corn"
+msgstr "Sweet corn"
+
+#: ../data/verbal_analogies.xml.h:200
 msgid "horticulture / plants | ornithology"
 msgstr "horticulture / plants | ornithology"
 
-#: ../data/verbal_analogies.xml.h:291
-msgid "hour / minute | minute"
-msgstr "hour / minute | minute"
+#: ../data/verbal_analogies.xml.h:201
+msgid "Birds"
+msgstr "Birds"
 
-#: ../data/verbal_analogies.xml.h:292
-msgid "hungry / eat | tired"
-msgstr "hungry / eat | tired"
+#: ../data/verbal_analogies.xml.h:202
+msgid "Insects"
+msgstr "Insects"
 
-#: ../data/verbal_analogies.xml.h:293
-msgid "hunter / rifle | photographer"
-msgstr "hunter / rifle | photographer"
+#: ../data/verbal_analogies.xml.h:203
+msgid "Amphibians"
+msgstr "Amphibians"
 
-#: ../data/verbal_analogies.xml.h:294
-msgid "ice / slippery | glue"
-msgstr "ice / slippery | glue"
+#: ../data/verbal_analogies.xml.h:204
+msgid "Fishes"
+msgstr "Fishes"
 
-#: ../data/verbal_analogies.xml.h:295
-msgid "in | under | through"
-msgstr "in | under | through"
+#: ../data/verbal_analogies.xml.h:205
+msgid "thankful / ingratitude | despotism"
+msgstr "thankful / ingratitude | despotism"
 
-#: ../data/verbal_analogies.xml.h:296
-msgid "islands"
-msgstr "islands"
+#: ../data/verbal_analogies.xml.h:206
+msgid "Democracy"
+msgstr "Democracy"
 
-#: ../data/verbal_analogies.xml.h:297
-msgid "leopard / spots | tiger"
-msgstr "leopard / spots | tiger"
+#: ../data/verbal_analogies.xml.h:207
+msgid "Totalitarianism"
+msgstr "Totalitarianism"
 
-#: ../data/verbal_analogies.xml.h:298
-msgid "letter / word | page"
-msgstr "letter / word | page"
+#: ../data/verbal_analogies.xml.h:208
+msgid "Oligarchy"
+msgstr "Oligarchy"
 
-#: ../data/verbal_analogies.xml.h:299
-msgid "lip | upper lip | mouth"
-msgstr "lip | upper lip | mouth"
+#: ../data/verbal_analogies.xml.h:209
+msgid "Authority"
+msgstr "Authority"
 
-#: ../data/verbal_analogies.xml.h:300
-msgid "nest"
-msgstr "nest"
-
-#: ../data/verbal_analogies.xml.h:301
-msgid "nose"
-msgstr "nose"
-
-#: ../data/verbal_analogies.xml.h:302
-msgid "novel / author | song"
-msgstr "novel / author | song"
-
-#: ../data/verbal_analogies.xml.h:303
-msgid "orange / fruit | spinach"
-msgstr "orange / fruit | spinach"
-
-#: ../data/verbal_analogies.xml.h:304
-msgid "parallel / meridian | longitude"
-msgstr "parallel / meridian | longitude"
-
-#: ../data/verbal_analogies.xml.h:305
-msgid "pediatrics / children | numismatics"
-msgstr "paediatrics / children | numismatics"
-
-#: ../data/verbal_analogies.xml.h:306
-msgid "peel"
-msgstr "peel"
-
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:210
 msgid "pessimist / optimist | poor"
 msgstr "pessimist / optimist | poor"
 
-#: ../data/verbal_analogies.xml.h:308
-msgid "poems / anthology | maps"
-msgstr "poems / anthology | maps"
+#. Translators: Affluent as antonym of poor, that is, somebody that is rich
+#: ../data/verbal_analogies.xml.h:212
+msgid "Affluent"
+msgstr "Affluent"
 
-#: ../data/verbal_analogies.xml.h:309
-msgid "puzzle / solve | game"
-msgstr "puzzle / solve | game"
+#: ../data/verbal_analogies.xml.h:213
+msgid "Homeless"
+msgstr "Homeless"
 
-#: ../data/verbal_analogies.xml.h:310
-msgid "repair | fix"
-msgstr "repair | fix"
+#: ../data/verbal_analogies.xml.h:214
+msgid "Property"
+msgstr "Property"
 
-#: ../data/verbal_analogies.xml.h:311
-msgid "ring / finger | bracelet"
-msgstr "ring / finger | bracelet"
+#: ../data/verbal_analogies.xml.h:215
+msgid "Money"
+msgstr "Money"
 
-#: ../data/verbal_analogies.xml.h:312
-msgid "seal / flippers | bird"
-msgstr "seal / flippers | bird"
+#: ../data/verbal_analogies.xml.h:216
+msgid "five / pentagon | ten"
+msgstr "five / pentagon | ten"
 
-#. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:314
-msgid "second"
-msgstr "second"
+#: ../data/verbal_analogies.xml.h:217
+msgid "Decagon"
+msgstr "Decagon"
 
-#. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:316
-msgid "shovel / dig | axe"
-msgstr "shovel / dig | axe"
+#: ../data/verbal_analogies.xml.h:218
+msgid "Enneagram"
+msgstr "Enneagram"
 
-#: ../data/verbal_analogies.xml.h:317
-msgid "sink"
-msgstr "sink"
+#: ../data/verbal_analogies.xml.h:219
+msgid "Icosagon"
+msgstr "Icosagon"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:220
+msgid "Decimal"
+msgstr "Decimal"
+
+#: ../data/verbal_analogies.xml.h:221
+msgid "parallel / meridian | longitude"
+msgstr "parallel / meridian | longitude"
+
+#: ../data/verbal_analogies.xml.h:222
+msgid "Latitude"
+msgstr "Latitude"
+
+#: ../data/verbal_analogies.xml.h:223
+msgid "Solstice"
+msgstr "Solstice"
+
+#: ../data/verbal_analogies.xml.h:224
+msgid "Pole"
+msgstr "Pole"
+
+#: ../data/verbal_analogies.xml.h:225
+msgid "Azimuth"
+msgstr "Azimuth"
+
+#: ../data/verbal_analogies.xml.h:226
+msgid ""
+"Parallel and longitude traverse from east to west while meridian and "
+"latitude traverse from north to south."
+msgstr ""
+"Parallel and longitude traverse from east to west while meridian and "
+"latitude traverse from north to south."
+
+#: ../data/verbal_analogies.xml.h:227
+msgid "art / gallery | drama"
+msgstr "art / gallery | drama"
+
+#: ../data/verbal_analogies.xml.h:228
+msgid "Theater"
+msgstr "Theatre"
+
+#: ../data/verbal_analogies.xml.h:229
+msgid "Museum"
+msgstr "Museum"
+
+#: ../data/verbal_analogies.xml.h:230
+msgid "Concert hall"
+msgstr "Concert hall"
+
+#: ../data/verbal_analogies.xml.h:231
+msgid "Gym"
+msgstr "Gym"
+
+#: ../data/verbal_analogies.xml.h:232
+msgid "hunter / rifle | photographer"
+msgstr "hunter / rifle | photographer"
+
+#: ../data/verbal_analogies.xml.h:233
+msgid "Camera"
+msgstr "Camera"
+
+#. Translators: tripod as used is photography
+#: ../data/verbal_analogies.xml.h:235
+msgid "Tripod"
+msgstr "Tripod"
+
+#: ../data/verbal_analogies.xml.h:236
+msgid "Photography"
+msgstr "Photography"
+
+#: ../data/verbal_analogies.xml.h:237
+msgid "Light"
+msgstr "Light"
+
+#: ../data/verbal_analogies.xml.h:238
+msgid "dish / break | balloon"
+msgstr "dish / break | balloon"
+
+#: ../data/verbal_analogies.xml.h:239
+msgid "Burst"
+msgstr "Burst"
+
+#: ../data/verbal_analogies.xml.h:240
+msgid "Bounce"
+msgstr "Bounce"
+
+#: ../data/verbal_analogies.xml.h:241
+msgid "Float"
+msgstr "Float"
+
+#: ../data/verbal_analogies.xml.h:242
+msgid "Roll"
+msgstr "Roll"
+
+#: ../data/verbal_analogies.xml.h:243
+msgid "Both relate to an action that breaks the related item."
+msgstr "Both relate to an action that breaks the related item."
+
+#: ../data/verbal_analogies.xml.h:244
+msgid "button / push | key (used in a lock)"
+msgstr "button / push | key (used in a lock)"
+
+#: ../data/verbal_analogies.xml.h:245
+msgid "Turn"
+msgstr "Turn"
+
+#. Translator: 'Open' as verb, like open with a key
+#: ../data/verbal_analogies.xml.h:247
+msgid "Open"
+msgstr "Open"
+
+#. Translator: 'Lock' as verb, like locked with a key
+#: ../data/verbal_analogies.xml.h:249
+msgid "Lock"
+msgstr "Lock"
+
+#. Translator: 'Close' as verb, like closed with a key
+#: ../data/verbal_analogies.xml.h:251
+msgid "Close"
+msgstr "Close"
+
+#: ../data/verbal_analogies.xml.h:252
+msgid ""
+"To make both objects work, a button needs to be pushed and a key needs to be "
+"turned."
+msgstr ""
+"To make both objects work, a button needs to be pushed and a key needs to be "
+"turned."
+
+#: ../data/verbal_analogies.xml.h:253
+msgid "concept / idea | obsession"
+msgstr "concept / idea | obsession"
+
+#. As a synonym of obsession
+#: ../data/verbal_analogies.xml.h:255
+msgid "Fixation"
+msgstr "Fixation"
+
+#: ../data/verbal_analogies.xml.h:256
+msgid "Indifference"
+msgstr "Indifference"
+
+#: ../data/verbal_analogies.xml.h:257
+msgid "Disinterest"
+msgstr "Disinterest"
+
+#: ../data/verbal_analogies.xml.h:258
+msgid "Intuition"
+msgstr "Intuition"
+
+#: ../data/verbal_analogies.xml.h:259
+msgid "The relation between the two words is that they are synonymous."
+msgstr "The relation between the two words is that they are synonymous."
+
+#: ../data/verbal_analogies.xml.h:260
+msgid "fish / water | bird"
+msgstr "fish / water | bird"
+
+#: ../data/verbal_analogies.xml.h:261
+msgid "Air"
+msgstr "Air"
+
+#: ../data/verbal_analogies.xml.h:262
+msgid "Wings"
+msgstr "Wings"
+
+#: ../data/verbal_analogies.xml.h:263
+msgid "Ship"
+msgstr "Ship"
+
+#: ../data/verbal_analogies.xml.h:264
+msgid "Cage"
+msgstr "Cage"
+
+#: ../data/verbal_analogies.xml.h:265
+msgid "hungry / eat | tired"
+msgstr "hungry / eat | tired"
+
+#: ../data/verbal_analogies.xml.h:266
 msgid "sleep | rest"
 msgstr "sleep | rest"
 
-#: ../data/verbal_analogies.xml.h:319
-msgid "slurp / tongue | snort"
-msgstr "slurp / tongue | snort"
+#. Translators: 'open' is used as a verb (open a box)
+#: ../data/verbal_analogies.xml.h:268
+msgid "box / open | banana"
+msgstr "box / open | banana"
 
-#: ../data/verbal_analogies.xml.h:320
-msgid "sour"
-msgstr "sour"
+#: ../data/verbal_analogies.xml.h:269
+msgid "peel"
+msgstr "peel"
+
+#. Translators: 'dig' is used as a verb (to dig)
+#: ../data/verbal_analogies.xml.h:271
+msgid "shovel / dig | axe"
+msgstr "shovel / dig | axe"
+
+#. Translators: 'chop' is used as a verb (to chop)
+#: ../data/verbal_analogies.xml.h:273
+msgid "chop"
+msgstr "chop"
+
+#. Translators: 'break' is used as a verb (to break)
+#: ../data/verbal_analogies.xml.h:275
+msgid "glass / break | paper"
+msgstr "glass / break | paper"
+
+#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
+#: ../data/verbal_analogies.xml.h:277
+msgid "tear | rip"
+msgstr "tear | rip"
+
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#: ../data/verbal_analogies.xml.h:279
+msgid "feet / two | toes"
+msgstr "feet / two | toes"
+
+#. Translators: referred to 'feet / two | toes'
+#: ../data/verbal_analogies.xml.h:281
+msgid "ten | 10"
+msgstr "ten | 10"
+
+#: ../data/verbal_analogies.xml.h:282
+msgid "fish / aquarium | monkey"
+msgstr "fish / aquarium | monkey"
+
+#: ../data/verbal_analogies.xml.h:283
+msgid "cage | zoo | zoological garden"
+msgstr "cage | zoo | zoological garden"
+
+#: ../data/verbal_analogies.xml.h:284
+msgid "A fish in an aquarium lives in captivity."
+msgstr "A fish in an aquarium lives in captivity."
+
+#: ../data/verbal_analogies.xml.h:285
+msgid "ring / finger | bracelet"
+msgstr "ring / finger | bracelet"
+
+#: ../data/verbal_analogies.xml.h:286
+msgid "wrist | arm"
+msgstr "wrist | arm"
+
+#: ../data/verbal_analogies.xml.h:287
+msgid "seal / flippers | bird"
+msgstr "seal / flippers | bird"
+
+#: ../data/verbal_analogies.xml.h:288
+msgid "wings"
+msgstr "wings"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:290
 msgid "stick / float | stone"
 msgstr "stick / float | stone"
 
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:291
+msgid "sink"
+msgstr "sink"
+
+#: ../data/verbal_analogies.xml.h:292
+msgid "leopard / spots | tiger"
+msgstr "leopard / spots | tiger"
+
+#: ../data/verbal_analogies.xml.h:293
+msgid "stripes"
+msgstr "stripes"
+
+#. Translators: 'submarine' is used as a noun
+#: ../data/verbal_analogies.xml.h:295
+msgid "fish / submarine | bird"
+msgstr "fish / submarine | bird"
+
+#: ../data/verbal_analogies.xml.h:296
+msgid "airplane | aeroplane | plane"
+msgstr "airplane | aeroplane | plane"
+
+#: ../data/verbal_analogies.xml.h:297
+msgid "tears / eyes | sweat"
+msgstr "tears / eyes | sweat"
+
+#: ../data/verbal_analogies.xml.h:298
+msgid "body | skin"
+msgstr "body | skin"
+
+#: ../data/verbal_analogies.xml.h:299
+msgid "bridge / over | tunnel"
+msgstr "bridge / over | tunnel"
+
+#: ../data/verbal_analogies.xml.h:300
+msgid "in | under | through"
+msgstr "in | under | through"
+
+#. Translators: 'play' is used as a verb (to play)
+#: ../data/verbal_analogies.xml.h:302
+msgid "toy / play | tool"
+msgstr "toy / play | tool"
+
+#. Translators: 'work' is used as a verb (to work)
+#: ../data/verbal_analogies.xml.h:304
+msgid "work"
+msgstr "work"
+
+#. 'correct' can be used as verb or adjective
+#: ../data/verbal_analogies.xml.h:306
+msgid "error / (to) correct | damage"
+msgstr "error / (to) correct | damage"
+
+#: ../data/verbal_analogies.xml.h:307
+msgid "repair | fix"
+msgstr "repair | fix"
+
+#: ../data/verbal_analogies.xml.h:308
+msgid "orange / fruit | spinach"
+msgstr "orange / fruit | spinach"
+
+#: ../data/verbal_analogies.xml.h:309
+msgid "vegetable"
+msgstr "vegetable"
+
+#: ../data/verbal_analogies.xml.h:310
+msgid "hands / grab | teeth"
+msgstr "hands / grab | teeth"
+
+#: ../data/verbal_analogies.xml.h:311
+msgid "bite"
+msgstr "bite"
+
+#: ../data/verbal_analogies.xml.h:312
+msgid "Grab and bite are finite actions."
+msgstr "Grab and bite are finite actions."
+
+#: ../data/verbal_analogies.xml.h:313
+msgid "puzzle / solve | game"
+msgstr "puzzle / solve | game"
+
+#: ../data/verbal_analogies.xml.h:314
+msgid "win | play"
+msgstr "win | play"
+
+#: ../data/verbal_analogies.xml.h:315
+msgid "eyebrow / eye | mustache"
+msgstr "eyebrow / eye | moustache"
+
+#: ../data/verbal_analogies.xml.h:316
+msgid "lip | upper lip | mouth"
+msgstr "lip | upper lip | mouth"
+
+#: ../data/verbal_analogies.xml.h:317
+msgid "ice / slippery | glue"
+msgstr "ice / slippery | glue"
+
+#: ../data/verbal_analogies.xml.h:318
 msgid "sticky"
 msgstr "sticky"
 
+#: ../data/verbal_analogies.xml.h:319
+msgid "whirlpool / water | tornado"
+msgstr "whirlpool / water | tornado"
+
+#: ../data/verbal_analogies.xml.h:320
+msgid "wind | air"
+msgstr "wind | air"
+
+#: ../data/verbal_analogies.xml.h:321
+msgid "fox / den | bird"
+msgstr "fox / den | bird"
+
+#: ../data/verbal_analogies.xml.h:322
+msgid "nest"
+msgstr "nest"
+
+#: ../data/verbal_analogies.xml.h:323
+msgid "dog / tame | wolf"
+msgstr "dog / tame | wolf"
+
 #: ../data/verbal_analogies.xml.h:324
-msgid "stripes"
-msgstr "stripes"
+msgid "wild | savage"
+msgstr "wild | savage"
 
 #: ../data/verbal_analogies.xml.h:325
 msgid "sugar / sweet | vinegar"
 msgstr "sugar / sweet | vinegar"
 
 #: ../data/verbal_analogies.xml.h:326
-msgid "talk / yell | dislike"
-msgstr "talk / yell | dislike"
+msgid "sour"
+msgstr "sour"
 
-#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:328
-msgid "tear | rip"
-msgstr "tear | rip"
-
-#: ../data/verbal_analogies.xml.h:329
-msgid "tears / eyes | sweat"
-msgstr "tears / eyes | sweat"
-
-#. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:331
-msgid "ten | 10"
-msgstr "ten | 10"
-
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:327
 msgid "tennis / sport | ballet"
 msgstr "tennis / sport | ballet"
 
+#. Translators: 'dance' is used as a noun
+#: ../data/verbal_analogies.xml.h:329
+msgid "dance"
+msgstr "dance"
+
+#: ../data/verbal_analogies.xml.h:330
+msgid "slurp / tongue | snort"
+msgstr "slurp / tongue | snort"
+
+#: ../data/verbal_analogies.xml.h:331
+msgid "nose"
+msgstr "nose"
+
+#: ../data/verbal_analogies.xml.h:332
+msgid "elbow / knee | wrist"
+msgstr "elbow / knee | wrist"
+
 #: ../data/verbal_analogies.xml.h:333
-msgid "thankful / ingratitude | despotism"
-msgstr "thankful / ingratitude | despotism"
+msgid "ankle"
+msgstr "ankle"
 
 #: ../data/verbal_analogies.xml.h:334
+msgid "novel / author | song"
+msgstr "novel / author | song"
+
+#: ../data/verbal_analogies.xml.h:335
+msgid "composer | songwriter | lyricist"
+msgstr "composer | songwriter | lyricist"
+
+#: ../data/verbal_analogies.xml.h:336
+msgid "car / road | train"
+msgstr "car / road | train"
+
+#: ../data/verbal_analogies.xml.h:337
+msgid "track | railway | rails | railroad"
+msgstr "track | railway | rails | railroad"
+
+#: ../data/verbal_analogies.xml.h:338
+msgid "pediatrics / children | numismatics"
+msgstr "paediatrics / children | numismatics"
+
+#: ../data/verbal_analogies.xml.h:339
+msgid "coins"
+msgstr "coins"
+
+#: ../data/verbal_analogies.xml.h:340
 msgid "thermometer / temperature | clock"
 msgstr "thermometer / temperature | clock"
 
-#: ../data/verbal_analogies.xml.h:335
-msgid "tiger / carnivore | cow"
-msgstr "tiger / carnivore | cow"
-
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:342
 msgid "time"
 msgstr "time"
 
-#. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:339
-msgid "toy / play | tool"
-msgstr "toy / play | tool"
-
-#: ../data/verbal_analogies.xml.h:340
-msgid "track | railway | rails | railroad"
-msgstr "track | railway | rails"
-
-#. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:342
-msgid "turtle / shell | letter"
-msgstr "turtle / shell | letter"
-
 #: ../data/verbal_analogies.xml.h:343
-msgid "vegetable"
-msgstr "vegetable"
+msgid "The first word is the instrument and the second what it measures."
+msgstr "The first word is the instrument and the second what it measures."
 
 #: ../data/verbal_analogies.xml.h:344
-msgid "whirlpool / water | tornado"
-msgstr "whirlpool / water | tornado"
+msgid "poems / anthology | maps"
+msgstr "poems / anthology | maps"
 
 #: ../data/verbal_analogies.xml.h:345
-msgid "wild | savage"
-msgstr "wild | savage"
+msgid "atlas"
+msgstr "atlas"
 
 #: ../data/verbal_analogies.xml.h:346
-msgid "win | play"
-msgstr "win | play"
+msgid "letter / word | page"
+msgstr "letter / word | page"
 
 #: ../data/verbal_analogies.xml.h:347
-msgid "wind | air"
-msgstr "wind | air"
+msgid "book | magazine | document"
+msgstr "book | magazine | document"
 
 #: ../data/verbal_analogies.xml.h:348
-msgid "wine / grape | rum"
-msgstr "wine / grape | rum"
+msgid "hour / minute | minute"
+msgstr "hour / minute | minute"
 
-#: ../data/verbal_analogies.xml.h:349
-msgid "wings"
-msgstr "wings"
+#. Translators: refers to the unit of time
+#: ../data/verbal_analogies.xml.h:350
+msgid "second"
+msgstr "second"
 
-#. Translators: 'work' is used as a verb (to work)
 #: ../data/verbal_analogies.xml.h:351
-msgid "work"
-msgstr "work"
+msgid "tiger / carnivore | cow"
+msgstr "tiger / carnivore | cow"
 
 #: ../data/verbal_analogies.xml.h:352
-msgid "wrist | arm"
-msgstr "wrist | arm"
+msgid "herbivorous | herbivore"
+msgstr "herbivorous | herbivore"
 
 #: ../data/verbal_analogies.xml.h:353
-msgid "write / pen | eat"
-msgstr "write / pen | eat"
+msgid "constellation / stars | archipelago"
+msgstr "constellation / stars | archipelago"
+
+#: ../data/verbal_analogies.xml.h:354
+msgid "islands"
+msgstr "islands"
 
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
@@ -2082,14 +2086,8 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "A brain teaser game for fun and to keep your brain trained."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#, csharp-format
-msgid "gbrainy project web site: {0}"
-msgstr "gbrainy project web site: {0}"
-
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:82
-#, csharp-format
-msgid "You can also play on-line at {0}"
-msgstr "You can also play on-line at {0}"
+msgid "gbrainy project web site"
+msgstr "gbrainy project web site"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2180,17 +2178,17 @@ msgstr ""
 msgid "_Delete"
 msgstr "_Delete"
 
-#: ../src/Clients/Classical/gbrainy.cs:437
+#: ../src/Clients/Classical/gbrainy.cs:428
 #: ../src/Clients/WebForms/Game.aspx.cs:245
 msgid "Congratulations."
 msgstr "Congratulations."
 
-#: ../src/Clients/Classical/gbrainy.cs:439
+#: ../src/Clients/Classical/gbrainy.cs:430
 #: ../src/Clients/WebForms/Game.aspx.cs:249
 msgid "Incorrect answer."
 msgstr "Incorrect answer."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:485
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2198,11 +2196,11 @@ msgstr ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:515
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "The level of translation of gbrainy for your language is low."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:516
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2212,16 +2210,16 @@ msgstr ""
 "play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:612
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pause"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:617
 msgid "Resume"
 msgstr "Resume"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:767
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Startup time {0}"
@@ -2453,13 +2451,13 @@ msgstr "Play games that challenge your reasoning and thinking"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
 #: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 msgid "Logic"
 msgstr "Logic"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:128
 #: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 msgid "Calculation"
 msgstr "Calculation"
 
@@ -2478,7 +2476,7 @@ msgstr "Play games that challenge your short-term memory"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:138
 #: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
 msgid "Verbal"
 msgstr "Verbal"
 
@@ -3105,8 +3103,8 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
-msgid "The number {0} is a primer number."
-msgstr "The number {0} is a primer number."
+msgid "The number {0} is a prime number."
+msgstr "The number {0} is a prime number."
 
 #: ../src/Games/Calculation/CalculationProportions.cs:36
 msgid "Proportions"
@@ -3351,7 +3349,7 @@ msgstr[0] ""
 "A machine takes {0} second to cut 1 metre of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 metre pieces?"
 msgstr[1] ""
-"A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
+"A machine takes {0} seconds to cut 1 metre of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 metre pieces?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
@@ -3373,7 +3371,7 @@ msgstr[0] ""
 "A fence is built to enclose a square shaped region. {0} fence pole is used "
 "in each side of the square. How many fence poles are used in total?"
 msgstr[1] ""
-"A fence is built to enclose a square shaped region. {0} fence poles are used "
+"A fence is built to enclose a square shaped region. {0} fence poles is used "
 "in each side of the square. How many fence poles are used in total?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:92
@@ -3519,8 +3517,7 @@ msgid ""
 "probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
-"probability of getting two even numbers? Answer using a fraction (e.g.: "
-"1/2)."
+"probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid "There are 9 of 36 possibilities of getting two even numbers."
@@ -3610,10 +3607,10 @@ msgstr "Figures and text"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
 msgid ""
-"The figures and the text are related. What text should go under the last "
+"The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
-"The figures and the text are related. What text should go under the last "
+"The figures and the texts are related. What text should go under the last "
 "figure?"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
@@ -4213,10 +4210,10 @@ msgid_plural ""
 "over last month. What were last month sales?"
 msgstr[0] ""
 "John's shop had sales of {0} monetary unit. This was an increase of {1}% "
-"over last month. What were last month's sales?"
+"over last month. What were last month sales?"
 msgstr[1] ""
 "John's shop had sales of {0} monetary units. This was an increase of {1}% "
-"over last month. What were last month's sales?"
+"over last month. What were last month sales?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:114
 #, csharp-format
@@ -4521,7 +4518,7 @@ msgid ""
 msgstr ""
 "Every letter is calculated by taking the alphabetical position of the "
 "previous character and adding {0} to it in order to get the position of the "
-"next letter."
+"new letter."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:30
 msgid "Squares"
@@ -4614,11 +4611,11 @@ msgid_plural ""
 "{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
-"{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
-"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+"{0} hour ago it was as long after {1:%H} as it was before {2:%H} on the same "
+"day. What is the time now? Answer using the hour (e.g.: {3:%H})"
 msgstr[1] ""
-"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
-"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+"{0} hours ago it was as long after {1:%H} as it was before {2:%H} on the "
+"same day. What is the time now? Answer using the hour (e.g.: {3:%H})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:53
 #, csharp-format
@@ -4640,13 +4637,14 @@ msgstr[1] ""
 #. Explanation of the date and time format specifications can be found here:
 #. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 #. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
-#: ../src/Games/Logic/PuzzleTimeNow.cs:84
+#. 'tt' is the A.M./P.M. designator
+#: ../src/Games/Logic/PuzzleTimeNow.cs:85
 #, csharp-format
 msgid "{0:h tt}"
 msgstr "{0:%H tt}"
 
 #. No hands
-#: ../src/Games/Logic/PuzzleTimeNow.cs:94
+#: ../src/Games/Logic/PuzzleTimeNow.cs:95
 msgid "Sample clock"
 msgstr "Sample clock"
 
@@ -4741,7 +4739,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Two trains on straight parallel tracks leave from the same point and time "
 "travelling in opposite directions at {0} and {1} mph respectively. In how "
-"many hours will they be {2} mile apart?"
+"many hours will they be {2} miles apart?"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:31
 msgid "Triangles"
@@ -4798,12 +4796,12 @@ msgstr "Coloured text"
 msgid "What was the color of the text that said '{0}'?"
 msgstr "What was the colour of the text that said '{0}'?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:40
+#: ../src/Games/Memory/MemoryCountDots.cs:41
 msgid "Counting dots"
 msgstr "Counting dots"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:51
+#: ../src/Games/Memory/MemoryCountDots.cs:52
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
@@ -4851,24 +4849,27 @@ msgstr ""
 msgid "By how much did company sales fall last December?"
 msgstr "By how much did company sales fall last December?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:122
+#: ../src/Games/Memory/MemoryFacts.cs:123
+#, csharp-format
 msgid ""
-"In what year was Shiny Cars sales total lower than that of last December?"
+"Shiny Cars sales fell {0}% this past December. This is the worst decline "
+"since which year?"
 msgstr ""
-"In what year was Shiny Cars sales total lower than that of last December?"
+"Shiny Cars sales fell {0}% this past December. This is the worst decline "
+"since which year?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:127
+#: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 
-#: ../src/Games/Memory/MemoryFacts.cs:129
+#: ../src/Games/Memory/MemoryFacts.cs:131
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:135
+#: ../src/Games/Memory/MemoryFacts.cs:137
 #, csharp-format
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
@@ -4877,11 +4878,11 @@ msgstr ""
 "About {0}% of Shiny Cars use diesel, {1}% use petrol and the remainder use "
 "electricity."
 
-#: ../src/Games/Memory/MemoryFacts.cs:137
+#: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use diesel?"
 msgstr "What percentage of Shiny Cars use diesel?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:138
+#: ../src/Games/Memory/MemoryFacts.cs:140
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "What percentage of Shiny Cars use petrol?"
 
@@ -5213,7 +5214,7 @@ msgstr[0] ""
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[1] ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] years ago, John was [proportion] times older than his "
+"is x = 2y, and [ago] year ago, John was [proportion] times older than his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
@@ -5306,7 +5307,7 @@ msgstr[0] ""
 "[friend]. Together they will need [answer_a] hour."
 msgstr[1] ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
-"[friend]. Together they will need [answer_a] hour."
+"[friend]. Together they will need [answer_a] hours."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
@@ -5341,8 +5342,8 @@ msgstr[0] ""
 "worked together? [option_answers]"
 msgstr[1] ""
 "John needs [john_time] hours to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if "
-"they worked together? [option_answers]"
+"as many. How many hours would it take them to clean up the warehouse if they "
+"worked together? [option_answers]"
 
 #: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
 msgid "Custom Game"
@@ -5361,56 +5362,10 @@ msgid "_Start"
 msgstr "_Start"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Difficulty Level</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid "<b>Game Types</b>"
-msgstr "<b>Game Types</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>General Settings</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "<b>Number of games</b>"
-msgstr "<b>Number of games</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Output File</b>"
-msgstr "<b>Output File</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Easy"
-msgstr "Easy"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "Master"
-msgstr "Master"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Medium"
-msgstr "Medium"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
 msgid "PDF export"
 msgstr "PDF export"
 
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "Pages per side:"
-msgstr "Pages per side:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Skip games that use colors"
-msgstr "Skip games that use colours"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:15
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
@@ -5418,16 +5373,62 @@ msgstr ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>General Settings</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr "Skip games that use colours"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Game Types</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Difficulty Level</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "Easy"
+msgstr "Easy"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Medium"
+msgstr "Medium"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Master"
+msgstr "Master"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Number of games</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
 msgid "Total number of games:"
 msgstr "Total number of games:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Pages per side:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b>Output File</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
 msgid "_Save"
 msgstr "_Save"
 
 #: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:12
+#: ../src/Clients/Classical/gbrainy.ui.h:19
 msgid "Player's Game Session History"
 msgstr "Player's Game Session History"
 
@@ -5435,154 +5436,168 @@ msgstr "Player's Game Session History"
 msgid "Show:"
 msgstr "Show:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "<b>Memory Games</b>"
-msgstr "<b>Memory Games</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Player's Game Session History</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Delete Player's Game Session History"
-msgstr "Delete Player's Game Session History"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
-msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr "Force gbrainy to always use English language (ignore translations)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Maximum number of records in the player's game session history:"
-msgstr "Maximum number of records in the player's game session history:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
-msgid "Minimum number of played games to store the game session:"
-msgstr "Minimum number of played games to store the game session:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-#: ../src/Clients/Classical/gbrainy.ui.h:13
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
 msgid "Preferences"
 msgstr "Preferences"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Search and load extensions when starting"
-msgstr "Search and load extensions when starting"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "Show a countdown message"
-msgstr "Show a countdown message"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
 msgid "Skip games that use colors (for colorblind users)"
 msgstr "Skip games that use colours (for colourblind users)"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
+msgid "Force gbrainy to always use English language (ignore translations)"
+msgstr "Force gbrainy to always use English language (ignore translations)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr "Search and load extensions when starting"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
 msgid "Theme:"
 msgstr "Theme:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "<b>Memory Games</b>"
+msgstr "<b>Memory Games</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
 msgid "Time in seconds to memorize the challenge:"
 msgstr "Time in seconds to memorise the challenge:"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:1
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Show a countdown message"
+msgstr "Show a countdown message"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Player's Game Session History</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+msgid "Minimum number of played games to store the game session:"
+msgstr "Minimum number of played games to store the game session:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+msgid "Maximum number of records in the player's game session history:"
+msgstr "Maximum number of records in the player's game session history:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+msgid "Delete Player's Game Session History"
+msgstr "Delete Player's Game Session History"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "_Game"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "_New Game"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
 msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
 msgstr "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "Answer:"
-msgstr "Answer:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "Custom Game Selection..."
-msgstr "Custom Game Selection…"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Export Games to PDF for Off-line Playing…"
-
 #: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Extensions"
-msgstr "Extensions"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Horizontal"
-msgstr "Horizontal"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "How to Extend gbrainy's Functionality"
-msgstr "How to Extend gbrainy's Functionality"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
 msgid "Logic Puzzles Only"
 msgstr "Logic Puzzles Only"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Memory Trainers Only"
-msgstr "Memory Trainers Only"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
+#: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Mental Calculation Only"
 msgstr "Mental Calculation Only"
 
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Memory Trainers Only"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Verbal Analogies Only"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Custom Game Selection…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "_Pause Game"
+
 #: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "Orientation"
-msgstr "Orientation"
+msgid "_End Game"
+msgstr "_End Game"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Export Games to PDF for Off-line Playing…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "_View"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Show"
-msgstr "Show"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:15
 msgid "Toolbar"
 msgstr "Toolbar"
 
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Show"
+
 #: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Verbal Analogies Only"
-msgstr "Verbal Analogies Only"
+msgid "Orientation"
+msgstr "Orientation"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:17
 msgid "Vertical"
 msgstr "Vertical"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "_Contents"
-msgstr "_Contents"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "_End Game"
-msgstr "_End Game"
+msgid "Horizontal"
+msgstr "Horizontal"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Game"
-msgstr "_Game"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "_Help"
-msgstr "_Help"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "_New Game"
-msgstr "_New Game"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Next"
-msgstr "_Next"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Pause Game"
-msgstr "_Pause Game"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
 msgid "_Settings"
 msgstr "_Settings"
 
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Extensions"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "_Help"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "_Contents"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "How to Extend gbrainy's Functionality"
+
 #: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Answer:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "_Next"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
 msgid "_Tip"
 msgstr "_Tip"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_View"
-msgstr "_View"
+#~ msgid "You can also play on-line at {0}"
+#~ msgstr "You can also play on-line at {0}"
+
+#~ msgid "{0}) "
+#~ msgstr "{0}) "
+
+#~ msgid ""
+#~ "In what year was Shiny Cars sales total lower than that of last December?"
+#~ msgstr ""
+#~ "In what year was Shiny Cars sales total lower than that of last December?"
+
+#~ msgid "Mental Calculation Trainers Only"
+#~ msgstr "Mental Calculation Trainers Only"
 
 #~ msgid ""
 #~ "[ago] year ago, John's age minus [ago] was equal to [proportion] times "
@@ -5681,9 +5696,6 @@ msgstr "_View"
 #~ msgid "{0}."
 #~ msgstr "{0}."
 
-#~ msgid "{0}) "
-#~ msgstr "{0}) "
-
 #~ msgid ""
 #~ "Skip games that use colors\n"
 #~ " (friendly to colorblind users)"
@@ -5725,9 +5737,6 @@ msgstr "_View"
 
 #~ msgid "Matrix numbers"
 #~ msgstr "Matrix numbers"
-
-#~ msgid "Mental Calculation Trainers Only"
-#~ msgstr "Mental Calculation Trainers Only"
 
 #~ msgid "Bagpipes"
 #~ msgstr "Bagpipes"
