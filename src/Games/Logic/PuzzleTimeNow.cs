@@ -30,6 +30,7 @@ namespace gbrainy.Games.Logic
 		DateTime position_a, position_b, ans, sample;
 
 		public override string Name {
+			// Translators: this the name of a game
 			get {return Translations.GetString ("Time now");}
 		}
 
