@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-02 22:56+0100\n"
-"PO-Revision-Date: 2012-10-02 22:59+0100\n"
+"PO-Revision-Date: 2012-10-02 23:02+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
@@ -4641,7 +4641,7 @@ msgstr[1] ""
 #: ../src/Games/Logic/PuzzleTimeNow.cs:85
 #, csharp-format
 msgid "{0:h tt}"
-msgstr "{0:%H tt}"
+msgstr "{0:%H}"
 
 #. No hands
 #: ../src/Games/Logic/PuzzleTimeNow.cs:95
