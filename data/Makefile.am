@@ -100,6 +100,7 @@ uninstall-hook:
 	rm -f $(DESTDIR)$(hicolordir)/32x32/apps/gbrainy.png
 	rm -f $(DESTDIR)$(hicolordir)/16x16/apps/gbrainy.png
 	rm -f $(DESTDIR)$(hicolordir)/scalable/apps/gbrainy.svg
+	$(gtk_update_icon_cache);
 
 noinst_DATA = 	
 

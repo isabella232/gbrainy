@@ -69,7 +69,6 @@ namespace gbrainy.Clients.Classical
 
 		GameDrawingArea drawing_area;
 		GameSession session;
-		bool low_res;
 		bool full_screen;
 		GameSession.Types initial_session;
 		static bool pluggins_loaded;
@@ -134,7 +133,7 @@ namespace gbrainy.Clients.Classical
 			GtkBeans.Builder builder = new GtkBeans.Builder ("gbrainy.ui");
 			builder.Autoconnect (this);
 
-			show_toolbar = Preferences.Get <bool> (Preferences.ToolbarShowKey) == true && low_res == false;
+			show_toolbar = Preferences.Get <bool> (Preferences.ToolbarShowKey) == true;
 
 			// Toolbar creation
 			toolbar = new Widgets.Toolbar (main_hbox, framework_vbox);
@@ -151,14 +150,6 @@ namespace gbrainy.Clients.Classical
 			drawing_area.Drawable = session;
 			GameSensitiveUI ();
 
-			// For low resolutions, hide the toolbar and made the drawing area smaller
-			if (drawing_area.Screen.Width> 0 && drawing_area.Screen.Height > 0) {
-				if (drawing_area.Screen.Height < 700) {
-					drawing_vbox.HeightRequest = 350;
-					low_res = true;
-				}
-			}
-
 			EventBox eb = new EventBox (); // Provides a window for drawing area windowless widget
 
 			eb.Events = Gdk.EventMask.PointerMotionMask;
@@ -169,7 +160,7 @@ namespace gbrainy.Clients.Classical
 			eb.MotionNotifyEvent += OnMouseMotionEvent;
 			eb.ButtonPressEvent += OnHandleButtonPress;
 
-			show_toolbar = Preferences.Get <bool> (Preferences.ToolbarShowKey) == true && low_res == false;
+			show_toolbar = Preferences.Get <bool> (Preferences.ToolbarShowKey) == true;
 
 			// We only disable the Arrow if we are going to show the toolbar.
 			// It has an impact on the total window width size even if we do not show it

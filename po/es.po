@@ -13,15 +13,15 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-05-21 06:55+0000\n"
-"PO-Revision-Date: 2012-05-21 10:58+0200\n"
+"POT-Creation-Date: 2012-05-21 11:57+0000\n"
+"PO-Revision-Date: 2012-09-26 10:37+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock Rotation"
@@ -424,7 +424,7 @@ msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
 "which of the following options is correct? [option_answers]"
 msgstr ""
-"Si p &lt; x &lt; q and r &lt; y &lt; s y sabes que x &lt; y es cierto, ¿cuál "
+"Si p &lt; x &lt; q y r &lt; y &lt; s y sabes que x &lt; y es cierto, ¿cuál "
 "de las siguientes opciones es correcta? [option_answers]"
 
 #: ../data/games.xml.h:76
@@ -453,7 +453,7 @@ msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
 "which of the following options is correct? [option_answers]"
 msgstr ""
-"Si p &lt; x &lt; q and r &lt; y &lt; s y sabes que x &gt; y es cierto, ¿cuál "
+"Si p &lt; x &lt; q y r &lt; y &lt; s y sabes que x &gt; y es cierto, ¿cuál "
 "de las siguientes opciones es correcta? [option_answers]"
 
 #: ../data/games.xml.h:82
@@ -767,7 +767,7 @@ msgstr "Ocultar"
 
 #: ../data/verbal_analogies.xml.h:30
 msgid "Obscure"
-msgstr "Oscuro"
+msgstr "Oscurecer"
 
 #: ../data/verbal_analogies.xml.h:31
 msgid "Ignore"
@@ -1173,7 +1173,7 @@ msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
 msgstr ""
-"Es el defecto de no tener el cuidado legítimo o razonabl que se espera."
+"Es el defecto de no tener el cuidado legítimo o razonable que se espera."
 
 #: ../data/verbal_analogies.xml.h:136
 msgid "Regular"
@@ -1588,7 +1588,6 @@ msgid "dish / break | balloon"
 msgstr "plato / romper | globo"
 
 #: ../data/verbal_analogies.xml.h:239
-#| msgid "Bursts"
 msgid "Burst"
 msgstr "Ráfaga"
 
@@ -4058,7 +4057,7 @@ msgstr "¿Qué número ha de reemplazar el interrogante?"
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:54
 msgid "The numbers are related arithmetically."
-msgstr "La relación de números es aritmética."
+msgstr "La relación de los números es aritmética."
 
 #. Translators: {0} is always replaced by the number 3
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:62
