@@ -56,6 +56,7 @@
 		<_question type = "MultipleOptions">Which of the following words is the closest in meaning to 'censure'?</_question>
 		<_answer correct ="yes">Condemn</_answer>
 		<_answer>Hide</_answer>
+		<!-- Translators: 'obscure' is used as a verb -->
 		<_answer>Obscure</_answer>
 		<_answer>Ignore</_answer>
 	</analogy>
@@ -344,6 +345,16 @@
 		<_answer>Hypotenuse</_answer>
 		<_answer>Trigonometry</_answer>
 		<_rationale>It is the only one that is not related with triangles.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+                <!-- Translator: As a noun -->
+		<_answer correct ="yes">Necklace</_answer>
+		<_answer>Candelabra</_answer>
+		<_answer>Lantern</_answer>
+		<_answer>Lamp</_answer>
+		<_rationale>It is the only one that does not produce light.</_rationale>
 	</analogy>
    
 	<!--- Pair of words options -->
