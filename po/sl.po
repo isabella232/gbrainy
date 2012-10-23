@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-10-05 06:15+0000\n"
-"PO-Revision-Date: 2012-10-06 11:58+0100\n"
+"POT-Creation-Date: 2012-10-23 15:40+0000\n"
+"PO-Revision-Date: 2012-10-23 22:13+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -238,6 +238,7 @@ msgstr "Večkratnik je število, ki ga je mogoče deliti z drugim številom brez
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
 #: ../src/Games/Calculation/CalculationPrimes.cs:151
 #: ../src/Games/Calculation/CalculationProportions.cs:130
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:228
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:191
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
@@ -2932,6 +2933,15 @@ msgstr "Katero od naslednjih števil je bližje {0}? Odgovorite {1}, {2}, {3} al
 msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "Rezultat operacije {0} / {1} je '{2}'."
 
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
+msgid "Consecutive Sum"
+msgstr "Vsote zaporednih števil"
+
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
+#, csharp-format
+msgid "In the list of single digit numbers below, there are 5 consecutive numbers that sum {0}. What are these numbers?"
+msgstr "Na seznamu števil spodaj je 5 zaporednih števil, katerih vsota je {0}? Katera števila so to?"
+
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
 msgstr "Ulomki"
@@ -2950,6 +2960,7 @@ msgid "Which of the possible divisors is the greatest that divides all numbers? 
 msgstr "Kateri od mogočih deliteljev je največji, ki deli vsa števila? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:215
 msgid "Numbers"
 msgstr "Števila"
 
@@ -3033,6 +3044,20 @@ msgstr "x + y = {0}"
 #, csharp-format
 msgid "have a ratio of {0}:{1}"
 msgstr "imata razmerje {0}:{1}"
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
+msgid "Selected Numbers"
+msgstr "Izbrana števila"
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
+#, csharp-format
+msgid "In the list of numbers below, what is the sum all the numbers greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr "Kakšna je vsota vseh števil spodnjega seznama, ki so večje od {0}? Odgovorite {1}, {2}, {3} ali {4}."
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
+#, csharp-format
+msgid "In the list of numbers below, what is the product all the numbers greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr "Kakšen je zmnožek vseh števil spodnjega seznama, ki so večje od {0}? Odgovorite {1}, {2}, {3} ali {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
