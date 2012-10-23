@@ -89,6 +89,8 @@ namespace gbrainy.Games
 			typeof (CalculationAverage),
 			typeof (CalculationProportions),
 			typeof (CalculationRatio),
+			typeof (CalculationSelectedNumbers),
+			typeof (CalculationConsecutiveSum),
 		};
 
 		static Type[] MemoryInternal = new Type[] 

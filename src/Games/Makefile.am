@@ -69,7 +69,9 @@ CSDISTFILES =  \
 		$(srcdir)/Calculation/CalculationPrimes.cs		\
 		$(srcdir)/Calculation/CalculationProportions.cs		\
 		$(srcdir)/Calculation/CalculationRatio.cs		\
-		$(srcdir)/Calculation/CalculationTwoNumbers.cs
+		$(srcdir)/Calculation/CalculationTwoNumbers.cs		\
+		$(srcdir)/Calculation/CalculationConsecutiveSum.cs	\
+		$(srcdir)/Calculation/CalculationSelectedNumbers.cs
 
 CSFILES = $(CSDISTFILES)	\
 	AssemblyInfo.cs

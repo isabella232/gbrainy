@@ -43,12 +43,14 @@ src/Core/Views/WelcomeView.cs
 src/Games/Calculation/CalculationArithmetical.cs
 src/Games/Calculation/CalculationAverage.cs
 src/Games/Calculation/CalculationCloserFraction.cs
+src/Games/Calculation/CalculationConsecutiveSum.cs
 src/Games/Calculation/CalculationFractions.cs
 src/Games/Calculation/CalculationGreatestDivisor.cs
 src/Games/Calculation/CalculationOperator.cs
 src/Games/Calculation/CalculationPrimes.cs
 src/Games/Calculation/CalculationProportions.cs
 src/Games/Calculation/CalculationRatio.cs
+src/Games/Calculation/CalculationSeletectedNumbers.cs
 src/Games/Calculation/CalculationTwoNumbers.cs
 src/Games/Logic/Puzzle3DCube.cs
 src/Games/Logic/PuzzleBalance.cs
