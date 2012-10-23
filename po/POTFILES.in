@@ -50,7 +50,7 @@ src/Games/Calculation/CalculationOperator.cs
 src/Games/Calculation/CalculationPrimes.cs
 src/Games/Calculation/CalculationProportions.cs
 src/Games/Calculation/CalculationRatio.cs
-src/Games/Calculation/CalculationSeletectedNumbers.cs
+src/Games/Calculation/CalculationSelectedNumbers.cs
 src/Games/Calculation/CalculationTwoNumbers.cs
 src/Games/Logic/Puzzle3DCube.cs
 src/Games/Logic/PuzzleBalance.cs
