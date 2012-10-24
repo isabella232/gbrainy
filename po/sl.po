@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-10-23 15:40+0000\n"
-"PO-Revision-Date: 2012-10-23 22:13+0100\n"
+"POT-Creation-Date: 2012-10-24 01:57+0000\n"
+"PO-Revision-Date: 2012-10-24 15:27+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -1660,318 +1660,339 @@ msgstr "ladja"
 msgid "Cage"
 msgstr "kletka"
 
-#: ../data/verbal_analogies.xml.h:310
+#. Translator: 'rook' as a piece of chess
+#: ../data/verbal_analogies.xml.h:311
+msgid "rook / chess | soldier"
+msgstr "trdnjava / šah | vojak"
+
+#: ../data/verbal_analogies.xml.h:312
+msgid "Battle"
+msgstr "Borba"
+
+#: ../data/verbal_analogies.xml.h:313
+msgid "Gun"
+msgstr "Puška"
+
+#: ../data/verbal_analogies.xml.h:314
+msgid "Peace"
+msgstr "Mir"
+
+#: ../data/verbal_analogies.xml.h:315
+msgid "Enemy"
+msgstr "Sovražnik"
+
+#: ../data/verbal_analogies.xml.h:316
 msgid "hungry / eat | tired"
 msgstr "lakota / jesti | utrujenost"
 
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:317
 msgid "sleep | rest"
 msgstr "spati | počivati"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:319
 msgid "box / open | banana"
 msgstr "škatla / odpreti | banana"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:320
 msgid "peel"
 msgstr "olupiti"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:322
 msgid "shovel / dig | axe"
 msgstr "lopata / kopati | sekira"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:324
 msgid "chop"
 msgstr "sekati"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:326
 msgid "glass / break | paper"
 msgstr "steklo / zlomiti | papir"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:328
 msgid "tear | rip"
 msgstr "strgati | odtrgati | raztrgati | zmečkati"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:330
 msgid "feet / two | toes"
 msgstr "noga / dve | prsti"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:332
 msgid "ten | 10"
 msgstr "deset | 10"
 
-#: ../data/verbal_analogies.xml.h:327
+#: ../data/verbal_analogies.xml.h:333
 msgid "fish / aquarium | monkey"
 msgstr "riba / akvarij | opica"
 
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:334
 msgid "cage | zoo | zoological garden"
 msgstr "kletka | živalski vrst"
 
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:335
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Riba v akvariju živi v ujetništvu."
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:336
 msgid "ring / finger | bracelet"
 msgstr "prstan / prst | zapestnica"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:337
 msgid "wrist | arm"
 msgstr "zapestje | roka"
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:338
 msgid "seal / flippers | bird"
 msgstr "tjulenj / plavuti | ptica"
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:339
 msgid "wings"
 msgstr "krila"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:341
 msgid "stick / float | stone"
 msgstr "palica / plavati | kamen"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:342
 msgid "sink"
 msgstr "potoniti"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:343
 msgid "leopard / spots | tiger"
 msgstr "leopard / pike | tiger"
 
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:344
 msgid "stripes"
 msgstr "proge | črte"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:346
 msgid "fish / submarine | bird"
 msgstr "riba / podmornica | ptica"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:347
 msgid "airplane | aeroplane | plane"
 msgstr "letalo | avion"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:348
 msgid "tears / eyes | sweat"
 msgstr "solze / oči | znoj"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:349
 msgid "body | skin"
 msgstr "telo | koža"
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:350
 msgid "bridge / over | tunnel"
 msgstr "most / nad | predor"
 
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:351
 msgid "in | under | through"
 msgstr "v | pod | skozi"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:353
 msgid "toy / play | tool"
 msgstr "igrača / igra | orodje"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:355
 msgid "work"
 msgstr "delo"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:357
 msgid "error / (to) correct | damage"
 msgstr "napaka / popraviti | škodo"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:358
 msgid "repair | fix"
 msgstr "popraviti | obnoviti | povrniti"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:359
 msgid "orange / fruit | spinach"
 msgstr "pomaranča / sadje | špinača"
 
-#: ../data/verbal_analogies.xml.h:354
+#: ../data/verbal_analogies.xml.h:360
 msgid "vegetable"
 msgstr "zelenjava"
 
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:361
 msgid "hands / grab | teeth"
 msgstr "roke / zgrabiti | zobje"
 
-#: ../data/verbal_analogies.xml.h:356
+#: ../data/verbal_analogies.xml.h:362
 msgid "bite"
 msgstr "ugrizniti"
 
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:363
 msgid "Grab and bite are finite actions."
 msgstr "Prijem in ugriz sta končni dejanji."
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:364
 msgid "puzzle / solve | game"
 msgstr "uganka / rešitev | igra"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:365
 msgid "win | play"
 msgstr "zmagati | igrati"
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:366
 msgid "eyebrow / eye | mustache"
 msgstr "obrv / oko | brki"
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:367
 msgid "lip | upper lip | mouth"
 msgstr "ustnica | zgornja ustnica | usta"
 
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:368
 msgid "ice / slippery | glue"
 msgstr "led / drseče | lepilo"
 
-#: ../data/verbal_analogies.xml.h:363
+#: ../data/verbal_analogies.xml.h:369
 msgid "sticky"
 msgstr "lepljivo"
 
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:370
 msgid "whirlpool / water | tornado"
 msgstr "vrtinec / voda | tornado"
 
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:371
 msgid "wind | air"
 msgstr "veter | zrak"
 
-#: ../data/verbal_analogies.xml.h:366
+#: ../data/verbal_analogies.xml.h:372
 msgid "fox / den | bird"
 msgstr "lisica / brlog | ptica"
 
-#: ../data/verbal_analogies.xml.h:367
+#: ../data/verbal_analogies.xml.h:373
 msgid "nest"
 msgstr "gnezdo"
 
-#: ../data/verbal_analogies.xml.h:368
+#: ../data/verbal_analogies.xml.h:374
 msgid "dog / tame | wolf"
 msgstr "pes / udomačen | volk"
 
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:375
 msgid "wild | savage"
 msgstr "divji"
 
-#: ../data/verbal_analogies.xml.h:370
+#: ../data/verbal_analogies.xml.h:376
 msgid "sugar / sweet | vinegar"
 msgstr "sladkor / sladko | kis"
 
-#: ../data/verbal_analogies.xml.h:371
+#: ../data/verbal_analogies.xml.h:377
 msgid "sour"
 msgstr "kislo"
 
-#: ../data/verbal_analogies.xml.h:372
+#: ../data/verbal_analogies.xml.h:378
 msgid "tennis / sport | ballet"
 msgstr "tenis / šport | balet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:374
+#: ../data/verbal_analogies.xml.h:380
 msgid "dance"
 msgstr "ples"
 
-#: ../data/verbal_analogies.xml.h:375
+#: ../data/verbal_analogies.xml.h:381
 msgid "slurp / tongue | snort"
 msgstr "srkljaj / jezik | vonjati"
 
-#: ../data/verbal_analogies.xml.h:376
+#: ../data/verbal_analogies.xml.h:382
 msgid "nose"
 msgstr "nos"
 
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:383
 msgid "elbow / knee | wrist"
 msgstr "komolec / koleno | zapestje"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:384
 msgid "ankle"
 msgstr "gleženj"
 
-#: ../data/verbal_analogies.xml.h:379
+#: ../data/verbal_analogies.xml.h:385
 msgid "novel / author | song"
 msgstr "novela / avtor | skladba"
 
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:386
 msgid "composer | songwriter | lyricist"
 msgstr "skladatelj | pisec besedil"
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:387
 msgid "car / road | train"
 msgstr "avto / cesta | vlak"
 
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:388
 msgid "track | railway | rails | railroad"
 msgstr "proga | tramvaj | tiri | vlak"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:389
 msgid "pediatrics / children | numismatics"
 msgstr "pediatrija / otroci | numizmatika"
 
-#: ../data/verbal_analogies.xml.h:384
+#: ../data/verbal_analogies.xml.h:390
 msgid "coins"
 msgstr "kovanci"
 
-#: ../data/verbal_analogies.xml.h:385
+#: ../data/verbal_analogies.xml.h:391
 msgid "thermometer / temperature | clock"
 msgstr "termometer / temperatura | ura"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:393
 msgid "time"
 msgstr "čas"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:394
 msgid "The first word is the instrument and the second what it measures."
 msgstr "Prva beseda je naprava, druga beseda je količina, ki jo z napravo izmerimo."
 
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:395
 msgid "poems / anthology | maps"
 msgstr "pesmi / zbirka | zemljevidi"
 
-#: ../data/verbal_analogies.xml.h:390
+#: ../data/verbal_analogies.xml.h:396
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:397
 msgid "letter / word | page"
 msgstr "črka / beseda | stran"
 
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:398
 msgid "book | magazine | document"
 msgstr "knjiga | revija | dokument"
 
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:399
 msgid "hour / minute | minute"
 msgstr "ura / minuta | minuta"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:401
 msgid "second"
 msgstr "sekunda"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:402
 msgid "tiger / carnivore | cow"
 msgstr "tiger / mesojedec | krava"
 
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:403
 msgid "herbivorous | herbivore"
 msgstr "rastilnojedec | rastilnojed"
 
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:404
 msgid "constellation / stars | archipelago"
 msgstr "ozvezdje / zvezde | otočje"
 
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:405
 msgid "islands"
 msgstr "otoki"
 
