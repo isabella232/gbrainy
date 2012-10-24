@@ -518,6 +518,15 @@
 		<_answer>Cage</_answer>
 	</analogy>
 
+	<analogy>
+		<!-- Translator: 'rook' as a piece of chess -->		
+		<_question type = "PairOfWordsOptions">rook / chess | soldier</_question>
+		<_answer correct ="yes">Battle</_answer>
+		<_answer>Gun</_answer>
+		<_answer>Peace</_answer>
+		<_answer>Enemy</_answer>
+	</analogy>
+
 	<!--- Pair of words compare  -->
 
 	<analogy>
