@@ -89,7 +89,6 @@ namespace gbrainy.Games.Calculation
 				}
 
 				consecutive_pos = MIN_START + random.Next (total_size - MIN_START - CONSECUTIVE_SIZE);
-				Console.WriteLine("Pos " + consecutive_pos);
 				consecutive_sum = 0;
 
 				for (int i = 0; i < CONSECUTIVE_SIZE; i++)
