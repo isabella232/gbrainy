@@ -69,6 +69,7 @@ src/Games/Logic/PuzzleExtraCircle.cs
 src/Games/Logic/PuzzleFigureLetter.cs
 src/Games/Logic/PuzzleFigurePattern.cs
 src/Games/Logic/PuzzleFigures.cs
+src/Games/Logic/PuzzleFindTheNumber.cs
 src/Games/Logic/PuzzleFourSided.cs
 src/Games/Logic/PuzzleGridCircles.cs
 src/Games/Logic/PuzzleGridDots.cs

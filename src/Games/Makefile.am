@@ -50,6 +50,7 @@ CSDISTFILES =  \
 		$(srcdir)/Logic/PuzzleTrianglesWithNumbers.cs		\
 		$(srcdir)/Logic/PuzzlePredicateLogic.cs			\
 		$(srcdir)/Logic/PuzzleRelatedNumbers.cs			\
+		$(srcdir)/Logic/PuzzleFindTheNumber.cs		\
 		$(srcdir)/Memory/MemoryColouredFigures.cs		\
 		$(srcdir)/Memory/MemoryColouredText.cs			\
 		$(srcdir)/Memory/MemoryCountDots.cs			\
