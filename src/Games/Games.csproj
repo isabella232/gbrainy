@@ -110,6 +110,9 @@
     <Compile Include="GameList.cs" />
     <Compile Include="Logic\PuzzleRelatedNumbers.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Logic\PuzzleFindTheNumber.cs" />
+    <Compile Include="Calculation\CalculationConsecutiveSum.cs" />
+    <Compile Include="Calculation\CalculationSelectedNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
@@ -152,7 +155,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="..\..\data\game-graphics\people_table.svg">
       <Link>Resources\people_table.svg</Link>
-      <LogicalName>people_table.svg</LogicalName> 
+      <LogicalName>people_table.svg</LogicalName>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
