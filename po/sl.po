@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-10-24 01:57+0000\n"
-"PO-Revision-Date: 2012-10-24 15:27+0100\n"
+"POT-Creation-Date: 2012-11-04 15:54+0000\n"
+"PO-Revision-Date: 2012-11-04 19:34+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -3450,6 +3450,34 @@ msgstr "Kateri je naslednji logični predmet v zaporedju? Odgovorite {0}, {1} al
 #: ../src/Games/Logic/PuzzleFigures.cs:68
 msgid "It is the only combination that you can build with the given elements without repeating them."
 msgstr "Iščemo edino kombinacijo, ki jo lahko brez ponavljanja sestavite z danimi predmeti."
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:43
+msgid "Find the number"
+msgstr "Najdi število"
+
+# This is double multiple plural!!!
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:51
+#, csharp-format
+msgid "Looking horizontally and vertically to the lines of the grid below, which is the number {0} place away from itself multiplied by 2 and {1} place away from itself plus 2?"
+msgid_plural "Looking horizontally and vertically to the lines of the grid below, which is the number {0} places away from itself multiplied by 2 and {1} places away from itself plus 2?"
+msgstr[0] "Gledano vodoravno in navpično na črte mreže je številka {0} mest stran pomnoženo z 2 in {1} mest stran plus 2?"
+msgstr[1] "Gledano vodoravno in navpično na črte mreže je številka {0} mesto stran pomnoženo z 2 in {1} mesto stran plus 2?"
+msgstr[2] "Gledano vodoravno in navpično na črte mreže je številka {0} mesti stran pomnoženo z 2 in {1} mesti stran plus 2?"
+msgstr[3] "Gledano vodoravno in navpično na črte mreže je številka {0} mesta stran pomnoženo z 2 in {1} mesta stran plus 2?"
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
+#, csharp-format
+msgid "The number is located at row {0}, column {1}."
+msgstr "Številka se nahaja v vrstici {0} in stolpcu {1}."
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:69
+#, csharp-format
+msgid "The number is located within the first {0} row of the grid."
+msgid_plural "The number is located within the first {0} rows of the grid."
+msgstr[0] "Številka se nahaja znotraj prvih {0} vrstic mreže."
+msgstr[1] "Številka se nahaja znotraj prve {0} vrstice mreže."
+msgstr[2] "Številka se nahaja znotraj prvih {0} vrstic mreže."
+msgstr[3] "Številka se nahaja znotraj prvih {0} vrstic mreže."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
