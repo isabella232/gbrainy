@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-04 14:20+0100\n"
-"PO-Revision-Date: 2012-11-04 09:46+0100\n"
+"POT-Creation-Date: 2012-11-04 16:52+0100\n"
+"PO-Revision-Date: 2012-11-04 16:23+0100\n"
 "Last-Translator: Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -23,8 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock Rotation"
@@ -3985,9 +3984,8 @@ msgid ""
 msgstr "Jest to jedyna kombinacja, w której figury się nie powtarzają."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:43
-#, fuzzy
 msgid "Find the number"
-msgstr "Figury z liczbami"
+msgstr "Odszukaj liczbę"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:51
 #, csharp-format
@@ -4000,27 +3998,30 @@ msgid_plural ""
 "the number {0} places away from itself multiplied by 2 and {1} places away "
 "from itself plus 2?"
 msgstr[0] ""
+"Patrząc poziomo i pionowo na linie poniższej tabeli, wskaż liczbę, która "
+"jest oddalona o {0} miejsce od swojej podwojonej wartości i o {1} miejsce od "
+"swojej wartości zwiększonej o 2."
 msgstr[1] ""
+"Patrząc poziomo i pionowo na linie poniższej tabeli, wskaż liczbę, która "
+"jest oddalona o {0} miejsca od swojej podwojonej wartości i o {1} miejsca od "
+"swojej wartości zwiększonej o 2."
 msgstr[2] ""
+"Patrząc poziomo i pionowo na linie poniższej tabeli, wskaż liczbę, która "
+"jest oddalona o {0} miejsc od swojej podwojonej wartości i o {1} miejsc od "
+"swojej wartości zwiększonej o 2."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
-msgstr ""
+msgstr "Liczba znajduje się w {0} wierszu, {1} kolumnie."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:69
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
-msgstr[0] ""
-"Wartość w czwartym wierszu jest obliczona, poprzez pomnożenie wartości z "
-"pierwszych dwóch wierszy i dodaniu wartości z trzeciego."
-msgstr[1] ""
-"Wartość w czwartym wierszu jest obliczona, poprzez pomnożenie wartości z "
-"pierwszych dwóch wierszy i dodaniu wartości z trzeciego."
-msgstr[2] ""
-"Wartość w czwartym wierszu jest obliczona, poprzez pomnożenie wartości z "
-"pierwszych dwóch wierszy i dodaniu wartości z trzeciego."
+msgstr[0] "Liczba znajduje się w zasięgu {0} wiersza tabeli."
+msgstr[1] "Liczba znajduje się w zasięgu pierwszych {0} wierszy tabeli."
+msgstr[2] "Liczba znajduje się w zasięgu pierwszych {0} wierszy tabeli."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
