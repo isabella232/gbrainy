@@ -527,6 +527,26 @@
 		<_answer>Enemy</_answer>
 	</analogy>
 
+	<analogy>
+		<_question type = "PairOfWordsOptions">competitive / cooperative | anxious</_question>
+		<!-- Translator: Used as an adjective in English -->
+		<_answer correct ="yes">Calm</_answer>
+		<!-- Translator: Used as an adjective in English -->
+		<_answer>Flexible</_answer>
+		<_answer>Cautious</_answer>
+		<!-- Translator: Used as an adjective in English -->
+		<_answer>Daring</_answer>
+	</analogy>
+
+	<analogy>
+		<_question type = "PairOfWordsOptions">pessimistic / optimistic | suspicious</_question>
+		<!-- Translator: Used as an adjective in English -->
+		<_answer correct ="yes">Trusting</_answer>
+		<_answer>Flexible</_answer>
+		<_answer>Cautious</_answer>
+		<_answer>Dubious</_answer>
+	</analogy>
+
 	<!--- Pair of words compare  -->
 
 	<analogy>
