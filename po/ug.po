@@ -1,17 +1,17 @@
-# Uighur translation for gbrainy.
-# Copyright (C) 2012 gbrainy's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gbrainy package.
-# Gheyret Kenji <gheyret@yahoo.com>, 2012.
+# Uyghur translation for gbrainy.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gbrainy master\n"
+"Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-29 01:48+0000\n"
-"PO-Revision-Date: 2012-09-29 01:48+0000\n"
+"POT-Creation-Date: 2012-10-02 22:00+0000\n"
+"PO-Revision-Date: 2011-11-09 16:10+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
-"Language-Team: Uighur <ug@li.org>\n"
-"Language: ug\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -80,8 +80,8 @@ msgstr ""
 
 #: ../data/games.xml.h:13
 msgid ""
-"In every match you eliminate one player. Therefore, the result is the total "
-"number of player minus one."
+"In every match you eliminate one player, you need the total number of games "
+"minus 1 to find out the winner."
 msgstr ""
 
 #: ../data/games.xml.h:14
@@ -268,24 +268,23 @@ msgid ""
 msgstr "بىرەر سانغا پۈتۈن بولىنىدىغان سانلار. مەسىلەن: 10،15، ۋە 25 لەر 5 كە پۈتۈن بولىنىدۇ."
 
 #: ../data/games.xml.h:53
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:107
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:122
 #: ../src/Games/Calculation/CalculationAverage.cs:185
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
-#: ../src/Games/Calculation/CalculationPrimes.cs:151
-#: ../src/Games/Calculation/CalculationProportions.cs:130
+#: ../src/Games/Calculation/CalculationPrimes.cs:152
+#: ../src/Games/Calculation/CalculationProportions.cs:131
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:191
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
 #: ../src/Games/Logic/PuzzleLargerShape.cs:303
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:173
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:218
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:313
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:314
 #: ../src/Games/Logic/PuzzleNextFigure.cs:166
 #: ../src/Games/Logic/PuzzleOstracism.cs:176
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:196
-#: ../src/Games/Logic/PuzzleTetris.cs:171
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:219
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:198
+#: ../src/Games/Logic/PuzzleTetris.cs:172
 msgid "Choose one of the following:"
 msgstr "تۆۋەندىكىلەردىن بىرنى تاللاڭ:"
 
@@ -394,8 +393,8 @@ msgid "[option_prefix] r < q"
 msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
-msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr "ئەگەر x &gt; y بولسا، r &lt; y &lt; x &lt; q بولىدۇ، شۇڭا r &lt; q بولىدۇ."
+msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
+msgstr "ئەگەر x &gt; y بولسا، x &gt; q &lt; ۋە y &gt; r بولىدۇ، شۇڭا  r &lt; q بولىدۇ."
 
 #: ../data/games.xml.h:84
 msgid "Odd number"
@@ -425,10 +424,10 @@ msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
 msgid ""
-"Multiplication of two even numbers always produces an even number, so x "
-"multiplied by 2 is even. Adding an odd number (y) to that even number always "
-"produces an odd number."
-msgstr "ئىككى جۈپ ساننى كۆپەيتسە نەتىجىسى ھەمىشە جۈپ سان بولىدۇ. x كە 2 نى كۆپەيتسە نەتىجە يەنە جۈپ سان بولىدۇ. بۇ جۈپ سانغا بىر تاق سان (y)  نى قوشسا نەتىجىسى تاق سان بولىدۇ."
+"Since x is always an even number, multiplying it by 2 always produces an "
+"even number. Adding an even number to an odd number (y) always produces an "
+"odd number."
+msgstr "x جۈپ سان بولغاچقا، ئۇنىغا 2 نى كۆپەيتسە يەنە جۈپ سان بولىدۇ. جۈپ سانغا تاق سان (y) نى قوشسا ھەمىشە تاق سان بولىدۇ."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -740,7 +739,7 @@ msgstr "ئارتۇقچە ئەنسىرەش كېسىلى"
 msgid "Anthophobia"
 msgstr ""
 
-#. Translators: Acrophobia is fear of heights
+#. Translators: Acrophobia of having a panic attack
 #: ../data/verbal_analogies.xml.h:50
 msgid "Acrophobia"
 msgstr "ئېگىزلىكتىن قورقۇش كېسىلى"
@@ -1471,8 +1470,8 @@ msgid "dish / break | balloon"
 msgstr "تەخسە / چاقماق | شار"
 
 #: ../data/verbal_analogies.xml.h:239
-msgid "Burst"
-msgstr "ئارقىمۇ-ئارقا تارتىش"
+msgid "Bursts"
+msgstr "يېرىلىش"
 
 #: ../data/verbal_analogies.xml.h:240
 msgid "Bounce"
@@ -1545,383 +1544,357 @@ msgid "The relation between the two words is that they are synonymous."
 msgstr "ئىككى سوز ئارىسىدىكى مۇناسىۋەت شۇكى، بۇ ئىككى سوز مەنىداش سوزدۇر."
 
 #: ../data/verbal_analogies.xml.h:260
-msgid "fish / water | bird"
-msgstr "بېلىق / سۇ | قۇش"
-
-#: ../data/verbal_analogies.xml.h:261
-msgid "Air"
-msgstr "ھاۋا"
-
-#: ../data/verbal_analogies.xml.h:262
-msgid "Wings"
-msgstr "قاناتلار"
-
-#: ../data/verbal_analogies.xml.h:263
-msgid "Ship"
-msgstr "كېمە"
-
-#: ../data/verbal_analogies.xml.h:264
-msgid "Cage"
-msgstr "قەپەس"
-
-#: ../data/verbal_analogies.xml.h:265
 msgid "hungry / eat | tired"
 msgstr "ئاچ / يېمەك | ھارغان"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:261
 msgid "sleep | rest"
 msgstr "ئۇيقۇ | ئارام"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:263
 msgid "box / open | banana"
 msgstr "قۇتا / ئاچماق | بانان"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:264
 msgid "peel"
 msgstr "سويماق"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:266
 msgid "shovel / dig | axe"
 msgstr "كۈرەك / كولىماق |  پالتا"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:268
 msgid "chop"
 msgstr "توغرىماق"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:270
 msgid "glass / break | paper"
 msgstr "ئەينەك / چاقماق | قەغەز"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:272
 msgid "tear | rip"
 msgstr "يىرتماق | سۆكمەك"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:274
 msgid "feet / two | toes"
 msgstr "پۇت / ئىككى | پۇت بارماقلىرى"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:276
 msgid "ten | 10"
 msgstr "ئون | 10"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:277
 msgid "fish / aquarium | monkey"
 msgstr "بېلىق / سۇ جانلىقلىرى باغچىسى | مايمۇن"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:278
 msgid "cage | zoo | zoological garden"
 msgstr "قەپەس | ھايۋاناتلار باغچىسى| ھايۋاناتلار باغچىسى"
 
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:279
 msgid "A fish in an aquarium lives in captivity."
 msgstr "سۇ جانلىقلىرى باغچىسىدىكى بېلىق ئاسارەت(تۇتقۇنلۇق)تا ياشايدۇ."
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:280
 msgid "ring / finger | bracelet"
 msgstr "ئۈزۈك / بارماق | بىلەزۈك"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:281
 msgid "wrist | arm"
 msgstr "بېغىش | بىلەك"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:282
 msgid "seal / flippers | bird"
 msgstr "تىيۇلىن / قاناتلىرى(سۇ ھايۋانلىرىنىڭ) | قۇش"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:283
 msgid "wings"
 msgstr "قاناتلار"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:285
 msgid "stick / float | stone"
 msgstr "تاياق / لەيلىمەك | تاش"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:286
 msgid "sink"
 msgstr "ئۇمىۋالنىك"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:287
 msgid "leopard / spots | tiger"
 msgstr "يىلپىز / چېكىتلەر | يولۋاس"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:288
 msgid "stripes"
 msgstr "لېنتىلار"
 
-#. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:295
+#: ../data/verbal_analogies.xml.h:289
 msgid "fish / submarine | bird"
 msgstr "بېلىق / سۇ ئاستى پاراخوتى | قۇش"
 
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:290
 msgid "airplane | aeroplane | plane"
 msgstr "ئايروپىلان"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:291
 msgid "tears / eyes | sweat"
 msgstr "كۆز يېشى / كۆزلەر | تەر"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:292
 msgid "body | skin"
 msgstr "بەدەن |  تېرە"
 
-#: ../data/verbal_analogies.xml.h:299
+#: ../data/verbal_analogies.xml.h:293
 msgid "bridge / over | tunnel"
 msgstr "كۆۋرۈك / ئۈستىدە | تونىل"
 
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:294
 msgid "in | under | through"
 msgstr "ئىچىدە | ئاستىدا | تۇتاش"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:296
 msgid "toy / play | tool"
 msgstr "ئويۇنچۇق / ئويۇن | قورال"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:298
 msgid "work"
 msgstr "خىزمەت"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:300
 msgid "error / (to) correct | damage"
 msgstr "خاتالىق / تۈزەتمەك | زەخمەت"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:301
 msgid "repair | fix"
 msgstr "رېمونت قىلماق | تۈزىمەك"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:302
 msgid "orange / fruit | spinach"
 msgstr "ئاپېلسىن / مېۋە | پالەك"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:303
 msgid "vegetable"
 msgstr "كۆكتات"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:304
 msgid "hands / grab | teeth"
 msgstr "قوللار / تۇتماق | چىشلار"
 
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:305
 msgid "bite"
 msgstr "چىشلەش"
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:306
 msgid "Grab and bite are finite actions."
 msgstr ""
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:307
 msgid "puzzle / solve | game"
 msgstr "تېپىشماق / تېپىشماق تېپىش | ئويۇن"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:308
 msgid "win | play"
 msgstr "غەلىبە |  ئويناش"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:309
 msgid "eyebrow / eye | mustache"
 msgstr "قاش / كۆز | بۇرۇت"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:310
 msgid "lip | upper lip | mouth"
 msgstr "لەۋ / ئۈستى لەۋ |  ئېگىز"
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:311
 msgid "ice / slippery | glue"
 msgstr "مۇز  /  تېيىلغاق | ياريېلىم"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:312
 msgid "sticky"
 msgstr "يېپىشقاق"
 
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:313
 msgid "whirlpool / water | tornado"
 msgstr "قاينام  /  سۇ | قۇيۇن"
 
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:314
 msgid "wind | air"
 msgstr "شامال | ھاۋا"
 
-#: ../data/verbal_analogies.xml.h:321
+#: ../data/verbal_analogies.xml.h:315
 msgid "fox / den | bird"
 msgstr "تۈلكە /  غار | قۇش"
 
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:316
 msgid "nest"
 msgstr "ئۇۋا"
 
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:317
 msgid "dog / tame | wolf"
 msgstr "ئىت / كۆندۈرۈش | بۆرە"
 
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:318
 msgid "wild | savage"
 msgstr "ياۋايى | يىرتقۇچ"
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:319
 msgid "sugar / sweet | vinegar"
 msgstr "شېكەر / تاتلىق | سىركە"
 
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:320
 msgid "sour"
 msgstr "چۈچۈك"
 
-#: ../data/verbal_analogies.xml.h:327
+#: ../data/verbal_analogies.xml.h:321
 msgid "tennis / sport | ballet"
 msgstr "چويلا توپ / تەنتەربىيە | بالېت"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:323
 msgid "dance"
 msgstr "ئۇسۇل"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:324
 msgid "slurp / tongue | snort"
 msgstr "چوكۇلداتماق / تىل | مىشقىرماق"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:325
 msgid "nose"
 msgstr "بۇرۇن"
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:326
 msgid "elbow / knee | wrist"
 msgstr "جەينەك / تىز | بېغىش"
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:327
 msgid "ankle"
 msgstr "ئوشۇق"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:328
 msgid "novel / author | song"
 msgstr "رومان / ئاپتور | ناخشا"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:329
 msgid "composer | songwriter | lyricist"
 msgstr "كومپوزىتور | ناخشا يازغۇچى | ناخشا تېكىستى ئىشلىگۈچى"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:330
 msgid "car / road | train"
 msgstr "ماشىنا / يول | پويىز"
 
-#: ../data/verbal_analogies.xml.h:337
-msgid "track | railway | rails | railroad"
-msgstr "رېلىس | تۆمۈريول | رېلىس | تۆمۈريول"
+#: ../data/verbal_analogies.xml.h:331
+msgid "track | railway | rails"
+msgstr "رېلىس | تۆمۈريول | رېلىس"
 
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:332
 msgid "pediatrics / children | numismatics"
 msgstr "بالىلار كېسەللىكلىرى بۆلۈمى / بالىلار |  كونا پۇل يىغىش"
 
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:333
 msgid "coins"
 msgstr "تەڭگە پۇل"
 
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:334
 msgid "thermometer / temperature | clock"
 msgstr "تېرمومېتىر  / تېمپېراتۇرا | سائەت"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:336
 msgid "time"
 msgstr "ۋاقىت"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:337
 msgid "The first word is the instrument and the second what it measures."
 msgstr "بىرىنچى سۆز چالغۇ، ئىككىنچى سۆز بولسا ئۆلچەشكە ئىشلىتىلىدۇ."
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:338
 msgid "poems / anthology | maps"
 msgstr "شېئىر / ئەسەرلەر توپلىمى | خەرىتىلەر"
 
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:339
 msgid "atlas"
 msgstr "ئاتلاس"
 
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:340
 msgid "letter / word | page"
 msgstr "ھەرپ / سۆز | بەت"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:341
 msgid "book | magazine | document"
 msgstr "كىتاب | ژۇرنال | پۈتۈك"
 
-#: ../data/verbal_analogies.xml.h:348
+#: ../data/verbal_analogies.xml.h:342
 msgid "hour / minute | minute"
 msgstr "سائەت / مىنۇت | مىنۇت"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:350
+#: ../data/verbal_analogies.xml.h:344
 msgid "second"
 msgstr "سېكۇنت"
 
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:345
 msgid "tiger / carnivore | cow"
 msgstr "يولۋاس /  گۆشخور ھايۋان |  ئىنەك"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:346
 msgid "herbivorous | herbivore"
 msgstr "ئوتخور | ئوتخور"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:347
 msgid "constellation / stars | archipelago"
 msgstr "يۇلتۇزلار توپى / يۇلتۇزلار | تاقىم ئارال"
 
-#: ../data/verbal_analogies.xml.h:354
+#: ../data/verbal_analogies.xml.h:348
 msgid "islands"
 msgstr "ئارال"
 
-#: ../src/Clients/Classical/CommandLine.cs:100
-#, csharp-format
-msgid "Unknown command line parameter {0}"
-msgstr "بۇيرۇق قۇرىدىكى {0} بولسا ناتونۇش پارامېتىرىدۇر"
-
 #. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:110
+#: ../src/Clients/Classical/CommandLine.cs:106
 #, csharp-format
 msgid "(built on {0})"
 msgstr "(ھاسىللانغان ۋاقىت {0})"
 
-#: ../src/Clients/Classical/CommandLine.cs:121
+#: ../src/Clients/Classical/CommandLine.cs:118
 msgid "List of available games"
 msgstr "ئوينىغىلى بولىدىغان ئويۇنلار"
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:181
 msgid "Usage: gbrainy [options]"
 msgstr "ئىشلىتىش ئۇسۇلى: gbrainy [options]"
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:182
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tنەشر ئۇچۇرىنى كۆرسىتىدۇ."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:183
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tبۇ ئىشلىتىش ئۇچۇرىنى كۆرسىتىدۇ."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:184
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tئوينىغىلى بولىدىغان ئويۇنلار تىزىمىنى كۆرسىتىدۇ."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:185
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
 msgstr "  --customgame [game1, gameN]\tئىختىيارى ئويۇندا ئوينايدىغان ئويۇنلارنىڭ تىزىمىنى كۆرسىتىدۇ."
 
-#: ../src/Clients/Classical/CommandLine.cs:177
+#: ../src/Clients/Classical/CommandLine.cs:186
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tتەمىنلەنگەن ئىختىيارى ئويۇنلار تىزىمى تەرتىپسىز بولمايدۇ."
 
-#: ../src/Clients/Classical/CommandLine.cs:178
+#: ../src/Clients/Classical/CommandLine.cs:187
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tزۆرۈرىيەتلەرنى كۆرسىتىدۇ."
 
@@ -1982,55 +1955,61 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "كۆڭۈل ئېچىش ۋە مېڭىنى مەشىق قىلدۇرۇشنى مەقسەت قىلغان ئويۇن."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-msgid "gbrainy project web site"
-msgstr "gbrainy قۇرۇلۇشى تورتۇراسى"
+#, csharp-format
+msgid "gbrainy project web site: {0}"
+msgstr "gbrainy قۇرۇلۇشى تورتۇراسى: {0}"
+
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:82
+#, csharp-format
+msgid "You can also play on-line at {0}"
+msgstr "بۇ تەردە توردىمۇ ئوينىيالايسىز {0}"
 
 #. Column: Game Name
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:62
 msgid "Game Name"
 msgstr "ئويۇن ئاتى"
 
 #. Column: Type
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:131
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:84
 msgid "Type"
 msgstr "تىپى"
 
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:157
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:106
 msgid "Selected"
 msgstr "تاللانغان"
 
 #. Translators: default file name used when exporting PDF files (keep the pdf extension please)
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:73
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:69
 msgid "games.pdf"
 msgstr "games.pdf"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:80
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:76
 msgid "PDF files"
 msgstr "PDF ھۆججەتلەر"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:84
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:80
 msgid "All files"
 msgstr "ھەممە ھۆججەتلەر"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:172
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:167
 msgid "The PDF file has been exported correctly."
 msgstr "PDF ھۆججىتى توغرا ئېكسپورت قىلىندى."
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:175
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:170
 msgid ""
 "There was a problem generating the PDF file. The file has not been created."
 msgstr "PDF ھۆججىتى ھاسىل قىلىشتا مەسىلە كۆرۈلدى."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:45
 msgid "The graph below shows the player's game score evolution."
 msgstr "تۆۋەندىكى گرافىكتا ئوينىغۇچىنىڭ ئېرىشكەن نومۇرلىرىنىڭ ئىلگىرىلەش جەريانى كۆرسىتىلگەن."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:49
 msgid ""
 "You need more than one game session recorded to see the score evolution."
 msgstr "ئېرىشكەن نومۇرلارنىڭ ئىلگىرىلەش جەريانىنى كۆرۈش ئۈچۈن بىر قانچە قېتىملىق ئويناش تارىخى بولۇشى كېرەك."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:53
 #, csharp-format
 msgid "It is built using the results of {0} recorded game session."
 msgid_plural ""
@@ -2040,71 +2019,67 @@ msgstr[0] "بۇ {0} دانە ئويۇن خاتىرىسىگە ئاساسەن ھا
 #. Translators: "The graph below" +  "It is built using" sentences
 #. Translators: answer + rationale of the answer
 #. Translators: Concatenating two strings (rationale of answer + extra information).
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61
-#: ../src/Core/Main/Game.cs:145
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75
-#: ../src/Games/Logic/PuzzleCountSeries.cs:93
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:60
+#: ../src/Core/Main/Game.cs:135 ../src/Games/Logic/PuzzleCountSeries.cs:93
 #, csharp-format
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67
-#: ../src/Core/Views/FinishView.cs:102
-#: ../src/Core/Views/PlayerHistoryView.cs:85
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:66
+#: ../src/Core/Views/FinishView.cs:97
+#: ../src/Core/Views/PlayerHistoryView.cs:83
 msgid "Total"
 msgstr "جەمئىي"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:118
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:111
 msgid "You are about to delete the player's game session history."
 msgstr "ئوينىغۇچىنىڭ ئويۇن تارىخىنى ئۆچۈرمەكچى بولۇۋاتىسىز."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:119
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:112
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
 msgstr "داۋاملاشتۇرسىڭىز، ھازىرغىچە بولغان ئويناش تارىخى يوقىلىدۇ. داۋاملاشتۇرامسىز؟"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:113
 msgid "_Delete"
 msgstr "ئۆچۈر(_D)"
 
-#: ../src/Clients/Classical/gbrainy.cs:428
-#: ../src/Clients/WebForms/Game.aspx.cs:245
+#: ../src/Clients/Classical/gbrainy.cs:422
 msgid "Congratulations."
 msgstr "مۇبارەك بولسۇن."
 
-#: ../src/Clients/Classical/gbrainy.cs:430
-#: ../src/Clients/WebForms/Game.aspx.cs:249
+#: ../src/Clients/Classical/gbrainy.cs:424
 msgid "Incorrect answer."
 msgstr "جاۋاب خاتا."
 
-#: ../src/Clients/Classical/gbrainy.cs:485
+#: ../src/Clients/Classical/gbrainy.cs:479
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
 msgstr "جاۋابنى «جاۋاب» كىرگۈ كۆزنەكچىسىگە كىرگۈزۈڭ ۋە «OK» توپچىسىنى بېسىڭ."
 
-#: ../src/Clients/Classical/gbrainy.cs:515
+#: ../src/Clients/Classical/gbrainy.cs:509
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "gbrainy نىڭ سىزنىڭ تىلىڭىزدىكى تەرجىمە دەرىجىسى بەك توۋەن."
 
-#: ../src/Clients/Classical/gbrainy.cs:516
+#: ../src/Clients/Classical/gbrainy.cs:510
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
 msgstr "قىسمەن تەرجىمە قىلىنغان ئويۇنلارنى ئويناشتا ئادەم قايمۇقۇپ قالىدۇ. ئەگەر ئىنگلىزچە ئوينىماقچى بولسىڭىز، gbrainy نىڭ مايىللىقىدا شۇنداق بىر تاللانما بار."
 
-#: ../src/Clients/Classical/gbrainy.cs:612
+#: ../src/Clients/Classical/gbrainy.cs:606
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "ۋاقىتلىق توختا"
 
-#: ../src/Clients/Classical/gbrainy.cs:617
+#: ../src/Clients/Classical/gbrainy.cs:611
 msgid "Resume"
 msgstr "داۋاملاشتۇر"
 
-#: ../src/Clients/Classical/gbrainy.cs:767
+#: ../src/Clients/Classical/gbrainy.cs:760
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "باشلانغان ۋاقتى {0}"
@@ -2314,8 +2289,8 @@ msgstr[0] "{0}  يېڭىلانما بار"
 msgid "Open Location"
 msgstr "ئورۇننى ئاچ"
 
-#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
-#: ../src/Core/Main/GameSession.cs:185
+#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:126
+#: ../src/Core/Main/GameSession.cs:280
 msgid "Paused"
 msgstr "ۋاقىتلىق توختىدى"
 
@@ -2323,9 +2298,7 @@ msgstr "ۋاقىتلىق توختىدى"
 msgid "Play all the games"
 msgstr "ھەممە ئويۇنلارنى ئويناش"
 
-#. Toolbar
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:119
-#: ../src/Clients/WebForms/Game.aspx.cs:179
 msgid "All"
 msgstr "ھەممىسى"
 
@@ -2334,13 +2307,13 @@ msgid "Play games that challenge your reasoning and thinking"
 msgstr "خۇلاسە چىقىرىش ۋە تەپەككۇر ئىقتىدارى سىنايدىغان ئويۇنلارنى ئويناش"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:104
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 msgid "Logic"
 msgstr "لوگىكا"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:111
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 msgid "Calculation"
 msgstr "ھېسابلاش"
@@ -2350,7 +2323,7 @@ msgid "Play games that challenge your mental calculation skills"
 msgstr "ئىچىدە ھېسابلاش ئىقتىدارىنى سىناش ئويۇنلىرى"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:133
-#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:123
+#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:118
 msgid "Memory"
 msgstr "ئەسلەك"
 
@@ -2359,7 +2332,7 @@ msgid "Play games that challenge your short term memory"
 msgstr "قىسقا مۇددەتلىك ئەستە تۇتۇش قابىلىيىتىنى سىناش ئويۇنلىرى"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:125
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
 msgid "Verbal"
 msgstr "تىل"
@@ -2377,47 +2350,38 @@ msgid "End the game and show score"
 msgstr "ئويۇننى ئاخىرلاشتۇرۇپ ئېرىشكەن نومۇرىنى كۆرسىتىدۇ"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#: ../src/Clients/WebForms/Game.aspx.cs:180
 msgid "End"
 msgstr "تامام"
 
-#: ../src/Clients/WebForms/Game.aspx.cs:172
-msgid "Next Game"
-msgstr "كېيىنكى ئويۇن"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:173
-msgid "Answer"
-msgstr "جاۋاب"
-
-#: ../src/Core/Main/ColorPalette.cs:72
+#: ../src/Core/Main/ColorPalette.cs:48
 msgid "red"
 msgstr "قىزىل"
 
-#: ../src/Core/Main/ColorPalette.cs:73
+#: ../src/Core/Main/ColorPalette.cs:49
 msgid "green"
 msgstr "يېشىل"
 
-#: ../src/Core/Main/ColorPalette.cs:74
+#: ../src/Core/Main/ColorPalette.cs:50
 msgid "blue"
 msgstr "كۆك"
 
-#: ../src/Core/Main/ColorPalette.cs:75
+#: ../src/Core/Main/ColorPalette.cs:51
 msgid "yellow"
 msgstr "سېرىق"
 
-#: ../src/Core/Main/ColorPalette.cs:76
+#: ../src/Core/Main/ColorPalette.cs:52
 msgid "magenta"
 msgstr "ئاچ قىزىل"
 
-#: ../src/Core/Main/ColorPalette.cs:77
+#: ../src/Core/Main/ColorPalette.cs:53
 msgid "orange"
 msgstr "قىزغۇچ سېرىق"
 
-#: ../src/Core/Main/ColorPalette.cs:78
+#: ../src/Core/Main/ColorPalette.cs:54
 msgid "black"
 msgstr "قارا"
 
-#: ../src/Core/Main/ColorPalette.cs:79
+#: ../src/Core/Main/ColorPalette.cs:55
 msgid "white"
 msgstr "ئاق"
 
@@ -2428,204 +2392,202 @@ msgstr "ئاق"
 #. For languages represented with the Latin alphabet use
 #. the same than English
 #. First possible answer for a series (e.g.: Figure A)
-#: ../src/Core/Main/GameAnswer.cs:116
+#: ../src/Core/Main/GameAnswer.cs:108
 msgid "A"
 msgstr "A"
 
 #. Second possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:118
+#: ../src/Core/Main/GameAnswer.cs:110
 msgid "B"
 msgstr "B"
 
 #. Third possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:120
+#: ../src/Core/Main/GameAnswer.cs:112
 msgid "C"
 msgstr "C"
 
 #. Fourth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:122
+#: ../src/Core/Main/GameAnswer.cs:114
 msgid "D"
 msgstr "D"
 
 #. Fifth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:124
+#: ../src/Core/Main/GameAnswer.cs:116
 msgid "E"
 msgstr "E"
 
 #. Sixth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:126
+#: ../src/Core/Main/GameAnswer.cs:118
 msgid "F"
 msgstr "F"
 
 #. Seventh possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:128
+#: ../src/Core/Main/GameAnswer.cs:120
 msgid "G"
 msgstr "G"
 
 #. Eighth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:130
+#: ../src/Core/Main/GameAnswer.cs:122
 msgid "H"
 msgstr "H"
 
 #. Translators. This is the list of valid answers, like A or B.
-#: ../src/Core/Main/GameAnswer.cs:146
+#: ../src/Core/Main/GameAnswer.cs:137
 #, csharp-format
 msgid "{0} or {1}"
 msgstr "{0} ياكى {1}"
 
 #. Translators. This is the list of valid answers, like A, B or C.
-#: ../src/Core/Main/GameAnswer.cs:150
+#: ../src/Core/Main/GameAnswer.cs:141
 #, csharp-format
 msgid "{0}, {1} or {2}"
 msgstr "{0}، {1} ياكى {2}"
 
 #. Translators. This is the list of valid answers, like A, B, C or D.
-#: ../src/Core/Main/GameAnswer.cs:154
+#: ../src/Core/Main/GameAnswer.cs:145
 #, csharp-format
 msgid "{0}, {1}, {2} or {3}"
 msgstr "{0}، {1}، {2} ياكى {3}"
 
-#: ../src/Core/Main/GameAnswer.cs:163
+#: ../src/Core/Main/GameAnswer.cs:155
 #, csharp-format
 msgid "Figure {0}"
 msgstr "شەكىل {0}"
 
-#: ../src/Core/Main/Game.cs:138
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
+#: ../src/Core/Main/Game.cs:128
 #, csharp-format
 msgid "The correct answer is {0}."
-msgid_plural "The possible correct answers are {0}."
-msgstr[0] "مۇمكىنچىلىكى بولغان توغرا جاۋابلار {0}."
+msgstr "توغرا جاۋاب بولسا {0}."
 
-#: ../src/Core/Main/GameManager.cs:251
+#: ../src/Core/Main/GameManager.cs:336
 msgid "Extensions database:"
 msgstr "كېڭەيتىلمىلەر ساندىنى:"
 
 #. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:257
+#: ../src/Core/Main/GameManager.cs:342
 #, csharp-format
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
 msgstr "{0} ئويۇن سىڭدۈرۈۋېتىلگەن: {1} دانە تېپىشماقلىق ئويۇن، {2} ھېساب مەشىق ئويۇنى، {3} ئەستە تۇتۇش مەشىق ئويۇنى، {4} تىل مەشىقى ئويۇنى"
 
-#: ../src/Core/Main/GameSession.cs:183
+#: ../src/Core/Main/GameSession.cs:176
 #, csharp-format
 msgid "Games played: {0} (Score: {1})"
 msgstr "ئوينالغان ئويۇن: {0} (ئېرىشكەن نومۇرى: {1})"
 
-#: ../src/Core/Main/GameSession.cs:184
+#: ../src/Core/Main/GameSession.cs:177
 #, csharp-format
 msgid "Time: {0}"
 msgstr "ۋاقىت: {0}"
 
 #. Translators: {0} is the name of the game
-#: ../src/Core/Main/GameSession.cs:189
+#: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
 msgid "Game: {0}"
 msgstr "ئويۇن: {0}"
 
 #. Translators: text in the status bar: games played - time - game name
-#: ../src/Core/Main/GameSession.cs:191
+#: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
 msgid "{0} - {1} - {2}"
 msgstr "{0} - {1} - {2}"
 
 #. Translators: text in the status bar: games played - time
-#: ../src/Core/Main/GameSession.cs:194
+#: ../src/Core/Main/GameSession.cs:186
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
-#: ../src/Core/Main/GameSessionHistory.cs:80
+#: ../src/Core/Main/GameSession.cs:199
 msgid "Outstanding results"
 msgstr "بەك قالتىس"
 
-#: ../src/Core/Main/GameSessionHistory.cs:82
+#: ../src/Core/Main/GameSession.cs:201
 msgid "Excellent results"
 msgstr "قالتىس"
 
-#: ../src/Core/Main/GameSessionHistory.cs:84
+#: ../src/Core/Main/GameSession.cs:203
 msgid "Good results"
 msgstr "ياخشى"
 
-#: ../src/Core/Main/GameSessionHistory.cs:86
+#: ../src/Core/Main/GameSession.cs:205
 msgid "Poor results"
 msgstr "ناچار"
 
-#: ../src/Core/Main/GameSessionHistory.cs:87
+#: ../src/Core/Main/GameSession.cs:206
 msgid "Disappointing results"
 msgstr "بەكلا ناچار"
 
-#: ../src/Core/Main/GameTips.cs:59
+#: ../src/Core/Main/GameTips.cs:52
 msgid "Read the instructions carefully and identify the data and given clues."
 msgstr "كۆرسەتمىلەرنى تەپسىلىي ئوقۇپ، سانلىق-مەلۇماتلارنى ۋە بېرىلگەن يىپ ئۇچلىرىنى ئېنىق چۈشىنىڭ."
 
-#: ../src/Core/Main/GameTips.cs:61
+#: ../src/Core/Main/GameTips.cs:54
 msgid ""
 "To score the player gbrainy uses the time and tips needed to complete each "
 "game."
 msgstr ""
 
-#: ../src/Core/Main/GameTips.cs:63
+#: ../src/Core/Main/GameTips.cs:56
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
 msgstr "لوگىكىلىق ئويۇنلاردا، مۇناسىۋەتسىز دەپ قارالغان ئېلېمېنتلار بەكمۇ مۇھىمدۇر."
 
-#: ../src/Core/Main/GameTips.cs:65
+#: ../src/Core/Main/GameTips.cs:58
 msgid "Try to approach a problem from different angles."
 msgstr "بىرەر مەسىلىنى ئوخشىمىغان تەرەپتىن ھەل قىلىشقا تىرىشىڭ."
 
-#: ../src/Core/Main/GameTips.cs:67
+#: ../src/Core/Main/GameTips.cs:60
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
 msgstr "خاتالىشىشتىن قورقماڭ، خاتالىشىش بولسا ئۆگىنىشنىڭ بىر قىسمىدۇر."
 
-#: ../src/Core/Main/GameTips.cs:69
+#: ../src/Core/Main/GameTips.cs:62
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challeging yourself."
 msgstr "ھەممە مەسىلەرنى ئىشلەپ كۆرۈڭ، قىيىنلىرىنىمۇ. قىيىن مەسىلىلەرنى ئىشلىسىڭىز ئاندىن ئىلگىرىلەش بولىدۇ."
 
-#: ../src/Core/Main/GameTips.cs:71
+#: ../src/Core/Main/GameTips.cs:64
 msgid "Play on a daily basis, you will notice progress soon."
 msgstr "ھەر كۈنى ئىشلەپ بېرىڭ، ئاندىن ئىلگىرىلەشنى ھېس قىلىسىز."
 
 #. Translators: Custom Game Selection is a menu option
-#: ../src/Core/Main/GameTips.cs:73
+#: ../src/Core/Main/GameTips.cs:66
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
 msgstr "‹ئىختىيارىي ئويۇن تاللاش› نى ئىشلىتىپ، ئۆزىڭىز ئوينىماقچى بولغان ئويۇننى تاللاڭ."
 
-#: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
+#: ../src/Core/Main/GameTips.cs:68 ../src/Core/Views/WelcomeView.cs:148
 msgid "Use the Settings to adjust the difficulty level of the game."
 msgstr "‹تەڭشەك› تىن ئوينىماقچى بولغان ئويۇننىڭ قىيىنلىق دەرىجىسىنى تاللاڭ."
 
-#: ../src/Core/Main/GameTips.cs:77
+#: ../src/Core/Main/GameTips.cs:70
 msgid "Association of elements is a common technique for remembering things."
 msgstr "ئېلېمېنتلارنى مۇناسىۋەتلەشتۈرۈش، ئەستە تۇتۇشتىكى ئورتاق تېخنىكىدۇر."
 
-#: ../src/Core/Main/GameTips.cs:79
+#: ../src/Core/Main/GameTips.cs:72
 msgid ""
 "Grouping elements into categories is a common technique for remembering "
 "things."
 msgstr "ئېلېمېنتلارنى كاتېگورىيەگە ئايرىش،  ئەستە تۇتۇشتىكى ئورتاق تېخنىكىدۇر."
 
-#: ../src/Core/Main/GameTips.cs:81
+#: ../src/Core/Main/GameTips.cs:74
 msgid "Build acronyms using the first letter of each fact to be remembered."
 msgstr "ئەستە بار بولغان ھەر بىر پاكىتلارنىڭ باش ھەرپىدىن قىسقارتىلما سوز ياساڭ."
 
-#: ../src/Core/Main/GameTips.cs:83
+#: ../src/Core/Main/GameTips.cs:76
 msgid ""
 "The enjoyment obtained from a puzzle is proportional to the time spent on it."
 msgstr "تېپىشماقتىن ئېرىشكەن خۇشاللىق، ئۇنىغا سەرپ قىلغان ۋاقىت بىلەن تاناسىپ بولىدۇ."
 
-#: ../src/Core/Main/GameTips.cs:85
+#: ../src/Core/Main/GameTips.cs:78
 msgid "Think of breaking down every problem into simpler components."
 msgstr "ھەر بىر مەسىلىنى كىچىك بۆلەكچىلەرگە بولۇپ تەپەككۇر قىلىڭ."
 
-#: ../src/Core/Main/GameTips.cs:87
+#: ../src/Core/Main/GameTips.cs:80
 msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "تىلغا مەشىقى ئويۇنلىرىدىكى جاۋابلاردا، پېئىلنىڭ زامانىغا دىققەت قىلىڭ."
 
@@ -2639,189 +2601,184 @@ msgstr "قالغان ۋاقىت"
 
 #. Translators: {0} is the game number and {1} the game question or answer
 #. The number is used as reference when looking for the game solution in the PDF
-#: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
+#: ../src/Core/Main/PdfExporter.cs:104 ../src/Core/Main/PdfExporter.cs:165
 #, csharp-format
 msgid "Game #{0}. {1}"
 msgstr "ئويۇن #{0}. {1}"
 
-#: ../src/Core/Main/PdfExporter.cs:129
+#: ../src/Core/Main/PdfExporter.cs:121
 #, csharp-format
 msgid "Created by gbrainy {0}"
 msgstr "gbrainy تەرىپىدىن قۇرۇلغان {0}"
 
-#: ../src/Core/Main/PdfExporter.cs:164
+#: ../src/Core/Main/PdfExporter.cs:157
 msgid "Solutions"
 msgstr "چارىلەر"
 
 #. Translators: this the separator used when concatenating multiple possible answers for verbal analogies
 #. For example: "Possible correct answers are: sleep, rest."
-#: ../src/Core/Main/Verbal/Analogies.cs:76
+#: ../src/Core/Main/Verbal/Analogies.cs:77
 msgid ", "
 msgstr "، "
 
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:38
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:43
 #, csharp-format
 msgid "Multiple options #{0}"
 msgstr "كۆپ تاللانما #{0}"
 
 #. Translators: {0} is replaced by a question and {1} by the possible valid answers
 #. E.g.: What is the correct option? Answer A, B, C or D.
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:51
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:60
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:56
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:61
 #, csharp-format
 msgid "{0} Answer {1}."
 msgstr "{0} جاۋاب {1}."
 
 #. Translators: this "option) answer" for example "a) "21 x 60 = 1260". This should not be changed for most of the languages
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:87
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:103
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:92
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:104
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:164
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:152
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:153
 #: ../src/Games/Logic/PuzzleOstracism.cs:164
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:183
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:142
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:185
 #, csharp-format
 msgid "{0}) {1}"
 msgstr "{0}) {1}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:39
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:41
 #, csharp-format
 msgid "Pair of words compare #{0}"
 msgstr "سېلىشتۇرىدىغان سۆزلەر جۈپى #{0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:55
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:55
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:57
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:56
 #, csharp-format
 msgid ""
 "Given the relationship between the two words below, which word has the same "
 "relationship to '{0}'?"
 msgstr "تۆۋەندە مۇناسىۋىتى بار بولغان ئىككى سوز بېرىلگەن، قايسى سۆزنىڭ ‹{0}› مىڭ بىلەن ئوخشاش مۇناسىۋىتى بار؟"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:94
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:126
 #, csharp-format
 msgid "Words: {0}"
 msgstr "سۆزلەر: {0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:39
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:40
 #, csharp-format
 msgid "Pair of words #{0}"
 msgstr "سۆزلەر جۈپى #{0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesQuestionAnswer.cs:36
+#: ../src/Core/Main/Verbal/AnalogiesQuestionAnswer.cs:38
 #, csharp-format
 msgid "Question and answer #{0}"
 msgstr "سوئال-جاۋاب #{0}"
 
 #. Translators {0}: list of options (A, B, C)
-#: ../src/Core/Main/Xml/GameXml.cs:216
+#: ../src/Core/Main/Xml/GameXml.cs:219
 #, csharp-format
 msgid "Answer {0}."
 msgstr "جاۋاب {0}."
 
-#: ../src/Core/Views/CountDownView.cs:80
+#: ../src/Core/Main/Xml/GameXml.cs:473
+#, csharp-format
+msgid "{0}) "
+msgstr "{0}) "
+
+#: ../src/Core/Views/CountDownView.cs:77
 msgid "Get ready to memorize the next objects..."
 msgstr "كېيىنكى شەيئىنى ئەستە تۇتۇشقا تەييار…"
 
-#: ../src/Core/Views/FinishView.cs:145
-#: ../src/Core/Views/PlayerHistoryView.cs:277
+#: ../src/Core/Views/FinishView.cs:140
+#: ../src/Core/Views/PlayerHistoryView.cs:275
 msgid "Score"
 msgstr "ئېرىشكەن نومۇر"
 
-#. Translator: This will be part of the sentence "Games won: 10 (6 played)"
+#: ../src/Core/Views/FinishView.cs:148
+#, csharp-format
+msgid "Games won: {0} ({1} played)"
+msgstr "ئۇتقان ئويۇنلار: {0} ({1} ئوينالغان)"
+
+#: ../src/Core/Views/FinishView.cs:150
+#, csharp-format
+msgid "{0}. Games won: {1} ({2} played)"
+msgstr "{0}. ئۇتقان ئويۇنلار: {1} ({2} ئوينالغان)"
+
 #: ../src/Core/Views/FinishView.cs:154
-#, csharp-format
-msgid "{0} played"
-msgid_plural "{0} played"
-msgstr[0] "ئوينالغىنى {0} "
-
-#: ../src/Core/Views/FinishView.cs:158
-#, csharp-format
-msgid "Games won: {0} ({1})"
-msgid_plural "Games won: {0} ({1})"
-msgstr[0] "يەڭگەن ئويۇن: {0} ({1})"
-
-#: ../src/Core/Views/FinishView.cs:162
-#, csharp-format
-msgid "{0}. Games won: {1} ({2})"
-msgid_plural "{0}. Games won: {1} ({2})"
-msgstr[0] "{0}يەڭگەن ئويۇن: {1} ({2})"
-
-#: ../src/Core/Views/FinishView.cs:168
 #, csharp-format
 msgid "Time played {0} (average per game {1})"
 msgstr "ئوينالغان ۋاقتى {0} (ھەر بىر ئويۇن ئۈچۈن كەتكەن ۋاقىت {1})"
 
 #. Translators: translated string should not be longer that the English original (space restriction on the UI)
-#: ../src/Core/Views/FinishView.cs:177
+#: ../src/Core/Views/FinishView.cs:163
 msgid "For details on how gbrainy's scoring works refer to the help."
 msgstr "gbrainy نىڭ نومۇر قويۇش ئۇسۇلى ھەققىدە تەپسىلىي بىلمەكچى بولسىڭىز ‹ياردەم› گە قاراڭ."
 
-#: ../src/Core/Views/FinishView.cs:189
+#: ../src/Core/Views/FinishView.cs:173
 msgid "Tips for your next games"
 msgstr "كېيىنكى ئويۇن ھەققىدىكى كۆرسەتمە"
 
-#: ../src/Core/Views/FinishView.cs:217
+#: ../src/Core/Views/FinishView.cs:201
 msgid "Congratulations! New personal record"
 msgstr "مۇبارەك بولسۇن! ئۆزىڭىزنىڭ يېڭى رېكورتى يارىتىلدى"
 
-#: ../src/Core/Views/FinishView.cs:227
+#: ../src/Core/Views/FinishView.cs:211
 #, csharp-format
 msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
 "record. Your previous record was {1}."
 msgstr "لوگىكىلىق تېپىشماق ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
-#: ../src/Core/Views/FinishView.cs:233
+#: ../src/Core/Views/FinishView.cs:217
 #, csharp-format
 msgid ""
 "By scoring {0} in calculation games you have established a new personal "
 "record. Your previous record was {1}."
 msgstr "ھېسابلاش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
-#: ../src/Core/Views/FinishView.cs:239
+#: ../src/Core/Views/FinishView.cs:223
 #, csharp-format
 msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
 "Your previous record was {1}."
 msgstr "ئەستە تۇتۇش ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
-#: ../src/Core/Views/FinishView.cs:245
+#: ../src/Core/Views/FinishView.cs:229
 #, csharp-format
 msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
 "record. Your previous record was {1}."
 msgstr "تىل مەشىقىنى ئويۇنى {0} دا، ئۆزىڭىزنىڭ يېڭى رېكورتىنى ياراتتىڭىز. بۇرۇنقى رېكورتىڭىز {1}."
 
-#: ../src/Core/Views/PlayerHistoryView.cs:276
+#: ../src/Core/Views/PlayerHistoryView.cs:274
 msgid "Time"
 msgstr "ۋاقىت"
 
-#: ../src/Core/Views/WelcomeView.cs:64
+#: ../src/Core/Views/WelcomeView.cs:61
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
 msgstr "لوگىكىلىق تېپىشماقلار. خۇلاسە چىقىرىش ۋە تەپەككۇر ئىقتىدارى سىنايدىغان ئويۇنلارنى ئويناڭ."
 
-#: ../src/Core/Views/WelcomeView.cs:85
+#: ../src/Core/Views/WelcomeView.cs:82
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
 msgstr "ئىچىدە ھېسابلاش. سىزنىڭ ئىچىدە ھېسابلاش ئىقتىدارىڭىزنى سىنايدىغان ئارىفمېتىكىلىق ئەمەللەر."
 
-#: ../src/Core/Views/WelcomeView.cs:106
+#: ../src/Core/Views/WelcomeView.cs:103
 msgid "Memory trainers. To prove your short term memory."
 msgstr "ئەستە تۇتۇش مەشىق ئويۇنلىرى. سىزنىڭ قىسقا ۋاقىتلىق ئەستە تۇتۇش ئىقتىدارىڭىزنى ئىسپاتلاپ بېرىدۇ."
 
-#: ../src/Core/Views/WelcomeView.cs:127
+#: ../src/Core/Views/WelcomeView.cs:124
 msgid "Verbal analogies. Challenge your verbal aptitude."
 msgstr "تىل مەشىقى ئويۇنلىرى. سىزنىڭ تىل قابىلىيىتىڭىزنى سىنايدۇ."
 
 #. Translators: {0} is the version number of the program
-#: ../src/Core/Views/WelcomeView.cs:143
+#: ../src/Core/Views/WelcomeView.cs:140
 #, csharp-format
 msgid "Welcome to gbrainy {0}"
 msgstr "gbrainy {0} غا مەرھابا"
 
-#: ../src/Core/Views/WelcomeView.cs:147
+#: ../src/Core/Views/WelcomeView.cs:144
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
@@ -2869,64 +2826,64 @@ msgstr "تۆۋەندىكى قايسى سان {0} غا يېقىن؟ جاۋاب: {
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
-msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr "ئەمەل  {0} / {1} نىڭ نەتىجىسى ‹{2}›"
+msgid "The result of the operation {0} / {1} is {2}"
+msgstr "ئەمەل  {0} / {1} نىڭ نەتىجىسى {2}"
 
-#: ../src/Games/Calculation/CalculationFractions.cs:61
+#: ../src/Games/Calculation/CalculationFractions.cs:62
 msgid "Fractions"
 msgstr "كەسىر"
 
-#: ../src/Games/Calculation/CalculationFractions.cs:69
+#: ../src/Games/Calculation/CalculationFractions.cs:70
 msgid ""
 "What is the result of the given operation? Answer using either a fraction or "
 "a number."
 msgstr "بېرىلگەن ئەمەلنىڭ نەتىجىسى نېمە؟ كەسىر سان ياكى ساننى ئىشلىتىپ جاۋاب بېرىڭ."
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:37
 msgid "Greatest divisor"
 msgstr "ئەڭ چوڭ بۆلگۈچى"
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:45
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:46
 #, csharp-format
 msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
 "Answer {0}, {1}, {2} or {3}."
 msgstr "ھەممە سانلارنى بۆلەلەيدىغان ئەڭ چوڭ بۆلگۈچى قايسى؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:244
 msgid "Numbers"
 msgstr "سانلار"
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:257
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:258
 msgid "Possible divisors"
 msgstr "مۇمكىنچىلىكى بولغان بۆلگۈچىلەر"
 
-#: ../src/Games/Calculation/CalculationOperator.cs:34
+#: ../src/Games/Calculation/CalculationOperator.cs:35
 msgid "Operators"
 msgstr "ئەمەللەر"
 
-#: ../src/Games/Calculation/CalculationOperator.cs:38
+#: ../src/Games/Calculation/CalculationOperator.cs:39
 #, csharp-format
 msgid "The first operator is {0}."
 msgstr "تۇنجى ئەمەل {0}."
 
-#: ../src/Games/Calculation/CalculationOperator.cs:46
+#: ../src/Games/Calculation/CalculationOperator.cs:47
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
 msgstr "قايسى ئەمەلدە {0}، {1}، ۋە {2} لار {3} غا تەڭ بولىدۇ؟ جاۋابتا ‹+-/*› نى ئىشلىتىڭ."
 
-#: ../src/Games/Calculation/CalculationOperator.cs:109
-#: ../src/Games/Calculation/CalculationRatio.cs:86
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:100
+#: ../src/Games/Calculation/CalculationOperator.cs:110
+#: ../src/Games/Calculation/CalculationRatio.cs:87
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:101
 #, csharp-format
 msgid "{0} and {1}"
 msgstr "{0} ۋە {1}"
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:67
+#: ../src/Games/Calculation/CalculationPrimes.cs:68
 msgid "Primes"
 msgstr "تۈپ سانلار"
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:76
+#: ../src/Games/Calculation/CalculationPrimes.cs:77
 #, csharp-format
 msgid ""
 "Which of the following numbers is a prime? A prime number is a positive "
@@ -2934,100 +2891,100 @@ msgid ""
 "Answer {0}, {1}, {2} or {3}."
 msgstr "تۆۋەندىكى سانلارنىڭ قايسىسى تۈپ سان؟ تۈپ سان دېگىنىمىز ئۆزى ۋە 1 گىلا پۈتۈن بۆلىنىدىغان مۇسبەت ساندۇر. جاۋاب: {0}, {1}, {2} ياكى {3}."
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:81
+#: ../src/Games/Calculation/CalculationPrimes.cs:82
 msgid ""
 "If the sum of all digits in a given number is divisible by 3, then so is the "
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
 msgstr "بېرىلگەن ساننىڭ ھەر قايسى خانىسىنىڭ يىغىندىسى ئۈچكە پۈتۈن بۆلۈنسە، بۇ سانمۇ 3 كە پۈتۈن بۆلىنىدۇ. مەسىلەن : 15=1+5=6، 3 كە پۈتۈن بۆلىنىدۇ."
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:86
+#: ../src/Games/Calculation/CalculationPrimes.cs:87
 #, csharp-format
-msgid "The number {0} is a prime number."
+msgid "The number {0} is a primer number."
 msgstr "سان  {0} تۈپ ساندۇر."
 
-#: ../src/Games/Calculation/CalculationProportions.cs:36
+#: ../src/Games/Calculation/CalculationProportions.cs:37
 msgid "Proportions"
 msgstr "تاناسىپ"
 
-#: ../src/Games/Calculation/CalculationProportions.cs:46
+#: ../src/Games/Calculation/CalculationProportions.cs:47
 #, csharp-format
 msgid "What is {0}% of {1}/{2}? Answer {3}, {4}, {5} or {6}."
 msgstr "{1} نىڭ {0}%  قانچە؟ جاۋاب: {3}، {4}، {5} ياكى {6}."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:31
+#: ../src/Games/Calculation/CalculationRatio.cs:32
 msgid "Ratio"
 msgstr "نىسبەت"
 
-#: ../src/Games/Calculation/CalculationRatio.cs:41
+#: ../src/Games/Calculation/CalculationRatio.cs:42
 #, csharp-format
 msgid ""
-"Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
+"Which two numbers have a sum of {0} and have a ratio of {1} to {2}. Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr "قايسى ئىككى ساننىڭ يىغىندىسى {0} ۋە نىسبىتى {1} : {2} بولىدۇ؟  جاۋابقا ئىككى سان ئىشلىتىڭ."
+msgstr "قايسى ئىككى ساننىڭ يىغىندىسى {0} ۋە نىسبىتى {1} : {2} بولىدۇ.  جاۋابقا ئىككى سان ئىشلىتىڭ."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:48
+#: ../src/Games/Calculation/CalculationRatio.cs:49
 #, csharp-format
 msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
 "and dividing it by {1}."
 msgstr "ئىككىنچى ساننى بىرىنچى سانغا {0} نى كۆپەيتىپ ئاندىن ئۇنى {1} غا بولۇپ ھېسابلىغىلى بولىدۇ."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:54
+#: ../src/Games/Calculation/CalculationRatio.cs:55
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
 msgstr "نىسبەت دېگىنىمىز ئىككى ئارىسىدىكى تاناسىپلىق مۇناسىۋەتتۇر. نىسبەت a:b دېگىنى، ‹a› بىر پارچىسىغا ‹b› پارچە توغرا كېلىدۇ دېگەنلىكتۇر."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:98
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
+#: ../src/Games/Calculation/CalculationRatio.cs:99
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:115
 #, csharp-format
 msgid "x + y = {0}"
 msgstr "x + y = {0}"
 
-#: ../src/Games/Calculation/CalculationRatio.cs:101
+#: ../src/Games/Calculation/CalculationRatio.cs:102
 #, csharp-format
 msgid "have a ratio of {0}:{1}"
 msgstr "نىسبىتى {0}:{1} بولىدۇ"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:41
 msgid "Two numbers"
 msgstr "ئىككى سان"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:51
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:52
 #, csharp-format
 msgid ""
 "Which two numbers when added are {0} and when multiplied are {1}? Answer "
 "using two numbers (e.g.: 1 and 2)."
 msgstr "يىغىندىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:53
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:54
 #, csharp-format
 msgid ""
 "Which two numbers when subtracted are {0} and when multiplied are {1}? "
 "Answer using two numbers (e.g.: 1 and 2)."
 msgstr "ئايرىمىسى {0} نىڭغا، كۆپەيتمىسى {1} غا تەڭ بولغان ئىككى سان قايسى؟ جاۋابى ئىككى سان بولسۇن (مەسىلەن 1 ۋە 2 دېگەندەك)"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:117
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:118
 #, csharp-format
 msgid "x - y = {0}"
 msgstr "x - y = {0}"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:124
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:125
 #, csharp-format
 msgid "x * y = {0}"
 msgstr "x * y = {0}"
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:31
+#: ../src/Games/Logic/Puzzle3DCube.cs:32
 msgid "3D Cube"
 msgstr "ستېرېئولۇق(3D) كۈپ"
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:35
+#: ../src/Games/Logic/Puzzle3DCube.cs:36
 msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
 msgstr "تۆۋەندىكى چوڭ كۈپنى ياساش ئۈچۈن قانچە دانە كىچىك كۈپ كېرەك بولىدۇ؟ جاۋابى سان بولسۇن."
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:39
+#: ../src/Games/Logic/Puzzle3DCube.cs:40
 msgid "A cube is a regular solid object having six congruent square faces."
 msgstr "كۈپ دېگىنىمىز ئالتە يۈزىنىڭ ھەممىسى كۋادرات بولغان پۈتەي جىسىمدۇر."
 
@@ -3051,70 +3008,70 @@ msgstr "ھەر بىر چەمبەر ئىككى دانە ئۈچبۇلۇڭغا، ھ
 msgid "Every circle is equivalent two triangles."
 msgstr "ھەر بىر چەمبەر ئىككى دانە ئۈچبۇلۇڭغا تەڭداشتۇر."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:50
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:51
 msgid "Build a triangle"
 msgstr "ئۈچبۇلۇڭ ياساش"
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:55
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:56
 #, csharp-format
 msgid ""
 "Which three pieces can you use together to build a triangle? Answer using "
 "the three figure names, e.g.: {0}{1}{2}."
 msgstr "بىر دانە ئۇچ بۇلۇڭنى ياساش ئۈچۈن قايسى ئۇچ بۆلەكچە كېرەك بولىدۇ؟ شەكىللەرنىڭ ئىسمىنى يېزىپ جاۋاب بېرىڭ. مىسال: {0}{1}{2}."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:61
 msgid "The resulting triangle is isosceles."
 msgstr "كېلىپ چىققان ئۈچبۇلۇڭ تەڭ تەرەپلىك ئۇچبۇلۇڭدۇر."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:173
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:174
 msgid "The triangle is:"
 msgstr "بۇ ئۈچبۇلۇڭ:"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:29
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:30
 msgid "Circles in a square"
 msgstr "كۋادرات ئىچىدىكى چەمبەر"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:33
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:34
 msgid ""
 "What is the maximum number of circles (as shown) that fit in the square "
 "below?"
-msgstr "تۆۋەندىكى كۋادرات ئىچىگە ئەڭ كوپ بولغاندا قانچە دانە چەمبەر پاتىدۇ؟"
+msgstr "تۆۋەندىكى كۋادرات ئىچىگە ئەڭ كۆپ بولغاندا قانچە دانە چەمبەر پاتىدۇ؟"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:37
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:38
 msgid "You can fit more than 64 circles."
-msgstr "ئەڭ كوپ بولغاندا 64 چەمبەر پاتىدۇ."
+msgstr "ئەڭ كۆپ بولغاندا 64 چەمبەر پاتىدۇ."
 
 #. Translators: {0} is replaced always by 0.1340
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:43
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:44
 #, csharp-format
 msgid ""
 "Using the above layout {0} units of height are gained per row leaving enough "
 "space for an additional row."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:77
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:96
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:78
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:99
 msgid "8 units"
 msgstr "8 بىرلىك"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:115
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:134
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:118
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:137
 msgid "1 unit"
 msgstr "1 بىرلىك"
 
-#: ../src/Games/Logic/PuzzleClocks.cs:37
+#: ../src/Games/Logic/PuzzleClocks.cs:38
 msgid "Clocks"
 msgstr "سائەتلەر"
 
 #. Translators: {0} is replaced by 'Figure X'
-#: ../src/Games/Logic/PuzzleClocks.cs:43
+#: ../src/Games/Logic/PuzzleClocks.cs:44
 #, csharp-format
 msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
 "using numbers."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleClocks.cs:51
+#: ../src/Games/Logic/PuzzleClocks.cs:52
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
@@ -3122,19 +3079,19 @@ msgid ""
 "for '{0}' are {3} ({2} + {1})."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleClocks.cs:57
+#: ../src/Games/Logic/PuzzleClocks.cs:58
 msgid "The clocks do not follow the time logic."
 msgstr "سائەت ۋاقىتنىڭ لوگىكىسىغا بويسۇنمايدۇ."
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:45
+#: ../src/Games/Logic/PuzzleCountCircles.cs:48
 msgid "Count circles"
 msgstr "چەمبەر ساناش"
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:49
+#: ../src/Games/Logic/PuzzleCountCircles.cs:52
 msgid "How many circles do you count?"
 msgstr "قانچە دانە چەمبەر سانىدىڭىز؟"
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:53
+#: ../src/Games/Logic/PuzzleCountCircles.cs:56
 msgid "It is an easy exercise if you systematically count the circles."
 msgstr "ئەگەر سىستېمىلىق ھېسابلىسىڭىز، بۇ ئاددىي بىر مەشىقتۇر."
 
@@ -3151,20 +3108,20 @@ msgstr[0] "بىزنىڭ {0} مېتىر رەختىمىز بار."
 #: ../src/Games/Logic/PuzzleCounting.cs:68
 #, csharp-format
 msgid ""
-"A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
-"does the machine take to cut the entire piece of fabric into 1 meter pieces?"
+"Machine A takes {0} second to cut 1 meter of this fabric. How many seconds "
+"does Machine A take to cut the entire piece of fabric into 1 meter pieces?"
 msgid_plural ""
-"A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
-"does the machine take to cut the entire piece of fabric into 1 meter pieces?"
+"Machine A takes {0} seconds to cut 1 meter of this fabric. How many seconds "
+"does Machine A take to cut the entire piece of fabric into 1 meter pieces?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleCounting.cs:72
+#. Translators: {0} is always a number greater than 1
+#: ../src/Games/Logic/PuzzleCounting.cs:73
 #, csharp-format
-msgid "With the cut number {0}, the machine creates two 1 meter pieces."
-msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
-msgstr[0] ""
+msgid "With the {0} cut, Machine A creates two 1 meter pieces."
+msgstr ""
 
-#: ../src/Games/Logic/PuzzleCounting.cs:85
+#: ../src/Games/Logic/PuzzleCounting.cs:84
 #, csharp-format
 msgid ""
 "A fence is built to enclose a square shaped region. {0} fence pole is used "
@@ -3174,7 +3131,7 @@ msgid_plural ""
 "in each side of the square. How many fence poles are used in total?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleCounting.cs:92
+#: ../src/Games/Logic/PuzzleCounting.cs:91
 #, csharp-format
 msgid ""
 "There is {0} fence pole since the poles on the corners of the square are "
@@ -3184,7 +3141,7 @@ msgid_plural ""
 "shared."
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleCounting.cs:105
+#: ../src/Games/Logic/PuzzleCounting.cs:104
 #, csharp-format
 msgid ""
 "Wrapping an anniversary present costs one monetary unit. The anniversary "
@@ -3196,7 +3153,7 @@ msgid_plural ""
 "does it cost to both purchase and wrap the present?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleCounting.cs:112
+#: ../src/Games/Logic/PuzzleCounting.cs:111
 #, csharp-format
 msgid ""
 "It is the cost of the present, {0} monetary unit, plus one monetary unit of "
@@ -3364,9 +3321,9 @@ msgstr "شەكىللەر ۋە تېكىست"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
 msgid ""
-"The figures and the texts are related. What text should go under the last "
+"The figures and the text are related. What text should go under the last "
 "figure?"
-msgstr ""
+msgstr "تۆۋەندىكى شەكىللەر بىلەن تېكىستلەر ئۆزئارا مۇناسىۋەتلىك. ئەڭ ئاستىدىكى شەكىلگە ماس كېلىدىغان سوز تېكىست قايسى؟"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
 msgid "Every character of the text represents a property of the figure."
@@ -3489,7 +3446,7 @@ msgid "The pattern is arithmetical and works vertically."
 msgstr "بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، تىك يۆنىلىشتە ئىشلەيدۇ."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:56
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:167
 msgid "The pattern is arithmetical and works horizontally."
 msgstr "بۇ يەردىكى قېلىپ بولسا ئارىفمېتىكىلىق ھېساب بولۇپ، توغرا يۆنىلىشتە ئىشلەيدۇ."
 
@@ -3544,13 +3501,6 @@ msgstr "ئولتۇرۇشقا كەلگەن بارلىق كىشىلەر بىر-ب�
 msgid ""
 "Try to imagine a situation in which you are meeting a small number of people."
 msgstr "ئاۋۋال ئاز ئادەم قاتناشقان ئەھۋالنى ئويلىشىپ تەھلىل قىلىڭ."
-
-#: ../src/Games/Logic/PuzzleHandshakes.cs:46
-msgid ""
-"Using n as the total number of people, the first person handshakes n-1 "
-"people, the second n-2 people, etc. The result is the sum of the first n-1 "
-"consecutive numbers: 1+2+3+...+(n-1)."
-msgstr ""
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -3629,27 +3579,27 @@ msgid ""
 "always {0}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:77
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:76
 msgid "Most in common"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:82
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:81
 #, csharp-format
 msgid ""
 "Which of the possible answers have the most in common with the four given "
 "figures? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:87
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:86
 msgid "Think of the common elements that the given figures have inside them."
 msgstr "بېرىلگەن شەكىللەرنىڭ ئىچىدىكى ئورتاق بولغان ئېلېمېنتلارنى ئويلاڭ."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:93
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:92
 msgid ""
 "It has the same number of elements inside the figure as the given figures."
 msgstr "بۇ شەكىلنىڭ ئىچىدىكى ئېلېمېنتلارنىڭ سانى بېرىلگەن شەكىللەرنىڭكى بىلەن ئوخشاش."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:95
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:94
 msgid ""
 "It is the figure with the most elements in common compared to the given "
 "figures."
@@ -3837,7 +3787,7 @@ msgstr "9-چېسلا"
 msgid "22nd"
 msgstr "22-چېسلا"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:85
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:113
 msgid "Two people in the table sitting across each other"
 msgstr "ئىككى كىشى قارىمۇ-قارشى ئولتۇرغان"
 
@@ -3876,260 +3826,260 @@ msgstr ""
 msgid "The objective is to obtain the same total amount."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:59
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 #, csharp-format
 msgid ""
 "If all painters are artists and some citizens of Barcelona are artists. "
 "Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr "بارسېلونادىكى بارلىق رەسساملار ئارتىس ۋە بىر قىسىم كىشىلەر ئارتىس. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:63
 msgid "Some citizens of Barcelona are painters"
 msgstr "بارسېلونا ئاھالىسىنىڭ بەزىلىرى رەسسام"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:62
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:64
 msgid "All citizens of Barcelona are painters"
 msgstr "بارسېلونا ئاھالىسىنىڭ ھەممىسى رەسسام"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:63
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:65
 msgid "No citizen of Barcelona is a painter"
 msgstr "بارسېلونا ئاھالىسىنىڭ بىرىمۇ رەسسام ئەمەس"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:64
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:72
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:80
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:88
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:66
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:74
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:82
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:90
 msgid "None of the other options"
 msgstr "جاۋابلارنىڭ ھېچقايسىسى توغرا ئەمەس"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
 #, csharp-format
 msgid ""
 "If no ill artist is happy and some artists are happy. Which of the following "
 "conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr "كېسەل ئەمەس ئارتىسلار خۇشال ۋە بەزى ئارتىسلار خۇشال بولسا، تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:71
 msgid "Some artist are not ill"
 msgstr "بەزى ئارتىسلار كېسەل ئەمەس"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:72
 msgid "Some painters are not artists"
 msgstr "بەزى رەسساملار ئارتىس ئەمەس"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:71
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:73
 msgid "All artists are happy"
 msgstr "بارلىق ئارتىسلار خۇشال"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:75
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
 #, csharp-format
 msgid ""
 "People that travel always buy a map. You are not going to travel. Which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr "كىشىلەر ساياھەت قىلغاندا ھەمىشە خەرىتە سېتىۋالىدۇ. سىز ساياھەتكە چىقمىدىڭىز. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:79
 msgid "You do not have any map"
 msgstr "سىزدە ھېچقانداق خەرىتە يوق"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:78
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:80
 msgid "You do not buy a map"
 msgstr "سىز خەرىتە سېتىۋالمىدىڭىز"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:79
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:81
 msgid "All people have a map"
 msgstr "ھەممە ئادەمدە خەرىتە بار"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 #, csharp-format
 msgid ""
 "If you whistle if you are happy and you always smile when you whistle, which "
 "of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr "سىز ئىسقىرتقان بولسىڭىز، بۇ سىزنىڭ خۇشال بولغانلىقىڭىزنى بىلدۈرىدۇ. سىز ئىسقىرتقان ۋاقىتتا ھەمىشە كۈلىسىز. تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:87
 msgid "You smile if you are happy"
 msgstr "خۇشال بولسىڭىز كۇلىسىز"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:86
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:88
 msgid "You are only happy if you whistle"
 msgstr "خۇشال بولسىڭىزلا ئىسقىرتىسىز"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:87
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:89
 msgid "You whistle if you are not happy"
 msgstr "خۇشال بولمىسىڭىز ئىسقىرتىسىز"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 #, csharp-format
 msgid ""
 "If your course is always honest and your course is always the best policy, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:95
 msgid "Honesty is sometimes the best policy"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:96
 msgid "Honesty is always the best policy"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:95
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:97
 msgid "Honesty is not always the best policy"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:96
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:98
 msgid "Some of the best policies are dishonest"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 #, csharp-format
 msgid ""
 "If no old misers are cheerful and some old misers are thin, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:103
 msgid "Some thin people are not cheerful"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:102
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:104
 msgid "Thin people are not cheerful"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:103
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:105
 msgid "Cheerful people are not thin"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:104
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:106
 msgid "Some cheerful people are not thin"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 #, csharp-format
 msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:111
 msgid "All animals fed on barley-water are non pigs"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:112
 msgid "No pigs are fed on barley-water"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:111
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:113
 msgid "Pigs are not fed on barley-water"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:112
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:114
 msgid "All the other options"
 msgstr "باشقا بارلىق تاللانمىلار"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 #, csharp-format
 msgid ""
 "If some pictures are first attempts and no first attempts are really good, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:119
 msgid "Some bad pictures are not first attempts"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:118
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:120
 msgid "Some pictures are not really good"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:119
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:121
 msgid "All bad pictures are first attempts"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:120
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:122
 msgid "All the others"
 msgstr "باشقا ھەممىسى"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 #, csharp-format
 msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr "ئەگەر سىز پىيادە ماڭسىڭىز ۋە كەيپىياتىڭىز ياخشى بولسا، تۆۋەندىكى ھۆكۈملەرنىڭ قايسىسى توغرا؟ جاۋابى: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:127
 msgid "To feel better, you must go out for a walk"
 msgstr "كەيپىياتنى ياخشىلاش ئۈچۈن، چوقۇم سىرتقا چىقىپ ئايلىنىپ كىرىڭ"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
 msgid "If you go out for a walk, you will feel better"
 msgstr "سىرتقا چىقىپ ئايلىنىپ كىرسىڭىز، كەيپىياتىڭىز ياخشى بولۇپ قالىدۇ"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:127
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:129
 msgid "Some who go out for a walk feel better"
 msgstr "سىرتقا چىقىپ ئايلىنىپ كىرگەن كىشىنىڭ كەيپىياتى ياخشى"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:130
 msgid "No one feels better who does not go out for a walk"
 msgstr "سىرتقا چىقىپ ئايلىنىپ كىرمىگەنلەرنىڭ ھېچ قايسىسىنىڭ كەيپىياتى ياخشى ئەمەس"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:136
 msgid "Predicate Logic"
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:44
 msgid "Quadrilaterals"
 msgstr "تۆت تەرەپلىكلەر"
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:48
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:49
 #, csharp-format
 msgid ""
 "Which of the following figures does not belong to the group? Answer {0}, "
 "{1}, {2}, {3}, {4} or {5}."
 msgstr "تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇ گۇرۇپپىغا تەۋە ئەمەس؟ جاۋاب: {0}، {1}، {2}، {3}، {4} ياكى {5}."
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:56
 msgid "It is the only figure with all lines of equal length."
 msgstr "بۇ پەقەت ھەممە تەرەپلىرى تەڭ بولغان شەكىل."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:158
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:159
 msgid "Related numbers"
 msgstr "مۇناسىۋەتلىك رەقەملەر"
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:162
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:163
 msgid "In the grid below, which number should replace the question mark?"
 msgstr "تۆۋەندىكى سېتكا ئىچىدىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى سان كېلىشى كېرەك؟"
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:174
 msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
 msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ يېرىمىغا تەڭ."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:176
 msgid ""
 "The number in the middle of every row is the sum of the other numbers in the "
 "row."
 msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىغا تەڭ."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:178
 msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
 msgstr "ھەر بىر قۇرنىڭ ئوتتۇرىسىدىكى سان، شۇ قۇردىكى باشقا سانلارنىڭ يىغىندىسىنىڭ ھەسسىسىگە تەڭ."
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:35
 msgid "Squares and letters"
 msgstr "كۋادراتلار ۋە ھەرپلەر"
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:38
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:39
 msgid ""
 "The letters around the squares follow a pattern. Which letter should replace "
 "the question mark in the last square?"
 msgstr "كۋادراتلارنىڭ ئەتراپىدىكى سانلار مەلۇم بىر قېلىپقا بويسۇنىدۇ. ئەڭ ئاخىرقى كۋادراتتىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى ھەرپ كېلىشى كېرەك؟"
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:44
 #, csharp-format
 msgid ""
 "Every letter is calculated by taking the alphabetical position of the "
@@ -4137,75 +4087,74 @@ msgid ""
 "next letter."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleSquares.cs:30
+#: ../src/Games/Logic/PuzzleSquares.cs:31
 msgid "Squares"
 msgstr "كۋادرات"
 
-#: ../src/Games/Logic/PuzzleSquares.cs:34
+#: ../src/Games/Logic/PuzzleSquares.cs:35
 msgid "How many squares of any size do you count in the figure below?"
 msgstr "تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان كۋادراتتىن قانچىسى بار؟"
 
-#: ../src/Games/Logic/PuzzleSquares.cs:38
+#: ../src/Games/Logic/PuzzleSquares.cs:39
 msgid ""
 "A square is a rectangle with sides of equal length. A square can also be "
 "built from other squares."
 msgstr "كۋادرات دېگىنىمىز ھەممە تەرەپلىرى تەڭ بولغان تىك تۆت تەرەپلىكتۇر. كۋادراتنى باشقا كۋادراتلار ئارقىلىق ياساشقىمۇ بولىدۇ."
 
-#: ../src/Games/Logic/PuzzleSquares.cs:45
+#: ../src/Games/Logic/PuzzleSquares.cs:46
 msgid ""
 "There are 16 single squares, 9 squares made by 4 single squares, 4 squares "
 "made by 9 single squares and 1 square made by 16 single squares."
 msgstr "بۇ يەردە 16 دانە يەككە كۋادرات بار. 9 كۋادرات 4 يەككە كۋادراتتىن ياسالغان، 4 كۋادرات 9 يەككە كۋادراتتىن ياسالغان ۋە 1 كۋادرات 16 يەككە كۋادراتتىن ياسالغان."
 
-#: ../src/Games/Logic/PuzzleSquares.cs:47
+#: ../src/Games/Logic/PuzzleSquares.cs:48
 msgid ""
 "There are 9 single squares, 4 squares made by 4 single squares and 1 square "
 "made by 9 single squares."
 msgstr "بۇ يەردە 9 دانە يەككە كۋادرات بار. 4 كۋادرات 4 يەككە كۋادراتتىن ياسالغان ۋە  1 كۋادرات 9 يەككە كۋادراتتىن ياسالغان."
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:29
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:28
 msgid "Square sheets"
 msgstr "كۋادرات شەكىلدىكى ۋاراقلار"
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:33
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:32
 msgid ""
 "What is the minimum number of square sheets of paper of any size required to "
 "create the figure? Lines indicate frontiers between different sheets."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:37
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:36
 msgid "The sheets should overlap."
 msgstr ""
 
 #. Translators: the translated version should not take more characters that the English original
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:43
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:42
 msgid ""
-"A full sized square of paper (yellow), a 3/4 of the whole size square of "
-"paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
-"in the top left corner and a 1/4 square of paper (red) in the top left "
-"corner."
+"A full sized square of paper, a 3/4 of the whole size square of paper in the "
+"bottom right corner, another 3/4 square of paper in the top left corner and "
+"a 1/4 square of paper in the top left corner."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleTetris.cs:34
+#: ../src/Games/Logic/PuzzleTetris.cs:35
 msgid "Tetris"
 msgstr "Tetris"
 
-#: ../src/Games/Logic/PuzzleTetris.cs:39
+#: ../src/Games/Logic/PuzzleTetris.cs:40
 #, csharp-format
 msgid "What figure completes the set below? Answer {0}, {1} or {2}."
 msgstr "قايسى شەكىل تۆۋەندىكى توپلامنى تولۇقلايدۇ؟ جاۋاب {0}، {1} ياكى {2}."
 
-#: ../src/Games/Logic/PuzzleTetris.cs:45
+#: ../src/Games/Logic/PuzzleTetris.cs:46
 msgid ""
 "It is the figure that completes all possible combinations with four blocks "
 "without taking into account rotations."
 msgstr ""
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:33
+#: ../src/Games/Logic/PuzzleTimeNow.cs:34
 msgid "Time now"
 msgstr "ھازىرقى ۋاقىت"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:44
+#: ../src/Games/Logic/PuzzleTimeNow.cs:45
 #, csharp-format
 msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
@@ -4215,7 +4164,7 @@ msgid_plural ""
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:53
+#: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
 msgid ""
 "Determine the hour half way between the given times, and then add {0} hour "
@@ -4230,42 +4179,42 @@ msgstr[0] ""
 #. Explanation of the date and time format specifications can be found here:
 #. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 #. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
-#: ../src/Games/Logic/PuzzleTimeNow.cs:84
+#: ../src/Games/Logic/PuzzleTimeNow.cs:85
 #, csharp-format
 msgid "{0:h tt}"
 msgstr "{0:h tt}"
 
 #. No hands
-#: ../src/Games/Logic/PuzzleTimeNow.cs:94
+#: ../src/Games/Logic/PuzzleTimeNow.cs:95
 msgid "Sample clock"
 msgstr "ئۈلگە سائەت"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:40
+#: ../src/Games/Logic/PuzzleTrains.cs:43
 msgid "Trains"
 msgstr "پويىز"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:52
+#: ../src/Games/Logic/PuzzleTrains.cs:55
 msgid "The distance formula is 'distance = rate x time'."
 msgstr "ئارىلىق فورمۇلىسى: ‹ئارىلىق = تېزلىك x ۋاقىت›."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
-#. - The translated string should not use more characters than the original sentence
-#: ../src/Games/Logic/PuzzleTrains.cs:81
+#. / - The translated string should not use more characters than the original sentence
+#: ../src/Games/Logic/PuzzleTrains.cs:85
 #, csharp-format
 msgid ""
 "A train leaves the station traveling at {0} mph. {1} hour later a second "
 "train leaves the station traveling in the same direction at {2} mph. How "
-"many hours does it take the second train, since it starts moving, to "
+"many hours since the first train left does it take the second train to "
 "overtake the first train?"
 msgid_plural ""
 "A train leaves the station traveling at {0} mph. {1} hours later a second "
 "train leaves the station traveling in the same direction at {2} mph. How "
-"many hours does it take the second train, since it starts moving, to "
+"many hours since the first train left does it take the second train to "
 "overtake the first train?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleTrains.cs:85
+#: ../src/Games/Logic/PuzzleTrains.cs:89
 msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
@@ -4273,7 +4222,7 @@ msgstr ""
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
-#: ../src/Games/Logic/PuzzleTrains.cs:101
+#: ../src/Games/Logic/PuzzleTrains.cs:106
 #, csharp-format
 msgid ""
 "Two trains separated by {0} mile are heading towards each other on straight "
@@ -4285,8 +4234,8 @@ msgid_plural ""
 "many hours will they meet?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleTrains.cs:106
-#: ../src/Games/Logic/PuzzleTrains.cs:128
+#: ../src/Games/Logic/PuzzleTrains.cs:111
+#: ../src/Games/Logic/PuzzleTrains.cs:133
 msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
@@ -4294,7 +4243,7 @@ msgstr ""
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
-#: ../src/Games/Logic/PuzzleTrains.cs:123
+#: ../src/Games/Logic/PuzzleTrains.cs:128
 #, csharp-format
 msgid ""
 "Two trains on straight parallel tracks leave from the same point and time "
@@ -4306,55 +4255,55 @@ msgid_plural ""
 "many hours will they be {2} miles apart?"
 msgstr[0] ""
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:31
+#: ../src/Games/Logic/PuzzleTriangles.cs:32
 msgid "Triangles"
 msgstr "ئۈچبۇلۇڭلار"
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:35
+#: ../src/Games/Logic/PuzzleTriangles.cs:36
 msgid "How many triangles of any size do you count in the figure below?"
 msgstr "تۆۋەندىكى شەكىللەرنىڭ ئىچىدە چوڭلۇقى ھەر خىل بولغان ئۈچبۇلۇڭدىن قانچىسى بار؟"
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:39
+#: ../src/Games/Logic/PuzzleTriangles.cs:40
 msgid "A triangle can be embedded inside another triangle."
 msgstr "بىر ئۈچبۇلۇڭنىڭ ئىچىگە باشقا بىر ئۈچبۇلۇڭنى سىڭدۈرۈشكە بولىدۇ."
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:44
+#: ../src/Games/Logic/PuzzleTriangles.cs:45
 #, csharp-format
 msgid "The triangles are made by connecting the following points: {0}"
 msgstr "ئۈچبۇلۇڭلار تۆۋەندىكى نۇقتىلارنىڭ تۇتۇشۇشىدىن ياسالغان: {0}"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:57
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:58
 msgid "Triangles with numbers"
 msgstr "رەقەملەر بار ئۈچبۇلۇڭلار"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:61
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:62
 msgid "Which number should replace the question mark below?"
 msgstr "تۆۋەندىكى سوئال بەلگىسىنىڭ ئورنىغا قايسى سان كېلىشى كېرەك؟"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:66
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:67
 msgid "All the triangles share a property and are independent of the rest."
 msgstr "ئارىلىق ئۈچبۇلۇڭلارنىڭ بىر ئورتاق خاسلىقى بار ۋە ئۆزئارا مۇستەقىل."
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:72
 #, csharp-format
 msgid "The result of multiplying the two numbers inside every triangle is {0}."
 msgstr "ھەر بىر ئۈچبۇلۇڭ ئىچىدىكى ئىككى ساننى كۆپەيتسە نەتىجىسى {0} غا تەڭ بولىدۇ."
 
-#: ../src/Games/Memory/MemoryColouredFigures.cs:50
+#: ../src/Games/Memory/MemoryColouredFigures.cs:51
 msgid "Colored figures"
 msgstr "بويالغان شەكىللەر"
 
-#: ../src/Games/Memory/MemoryColouredFigures.cs:59
+#: ../src/Games/Memory/MemoryColouredFigures.cs:60
 #, csharp-format
 msgid ""
 "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
 msgstr "تۆۋەندىكى شەكىللەرنىڭ قايسىسى بۇرۇن كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Memory/MemoryColouredText.cs:35
+#: ../src/Games/Memory/MemoryColouredText.cs:36
 msgid "Colored text"
 msgstr "رەڭلىك تېكىست"
 
-#: ../src/Games/Memory/MemoryColouredText.cs:44
+#: ../src/Games/Memory/MemoryColouredText.cs:45
 #, csharp-format
 msgid "What was the color of the text that said '{0}'?"
 msgstr "‹{0}› دېگەن تېكىستنىڭ رەڭگى قانداق؟"
@@ -4370,13 +4319,13 @@ msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
 msgstr "ئالدىنقى رەسىمدە {0} رەڭلىك چېكىتتىن قانچىسى بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
-#: ../src/Games/Memory/MemoryFacts.cs:48
+#: ../src/Games/Memory/MemoryFacts.cs:49
 msgid "Memorize facts"
 msgstr "ۋەقەلەرنى ئەستە تۇتۇش"
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #. Day in English does not need to be plural
-#: ../src/Games/Memory/MemoryFacts.cs:106
+#: ../src/Games/Memory/MemoryFacts.cs:107
 #, csharp-format
 msgid ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
@@ -4386,317 +4335,311 @@ msgid_plural ""
 "before then it had not halted production since {1}."
 msgstr[0] ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:110
+#: ../src/Games/Memory/MemoryFacts.cs:111
 msgid "How many days did Shiny Cars halt its production for?"
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:111
+#: ../src/Games/Memory/MemoryFacts.cs:112
 msgid "In what year did Shiny Cars last halt its production?"
 msgstr ""
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
-#: ../src/Games/Memory/MemoryFacts.cs:119
+#: ../src/Games/Memory/MemoryFacts.cs:120
 #, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:121
+#: ../src/Games/Memory/MemoryFacts.cs:122
 msgid "By how much did company sales fall last December?"
 msgstr ""
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
-#, csharp-format
 msgid ""
-"Shiny Cars sales fell {0}% this past December. This is the worst decline "
-"since which year?"
+"In what year was Shiny Cars sales total lower than that of last December?"
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:129
+#: ../src/Games/Memory/MemoryFacts.cs:128
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:131
+#: ../src/Games/Memory/MemoryFacts.cs:130
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:137
+#: ../src/Games/Memory/MemoryFacts.cs:136
 #, csharp-format
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
 "electricity."
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFacts.cs:139
+#: ../src/Games/Memory/MemoryFacts.cs:138
 msgid "What percentage of Shiny Cars use diesel?"
 msgstr "Shiny نىڭ ماشىنىلىرىنىڭ قانچە پىرسەنتى دىزېل ئىشلىتىدۇ؟"
 
-#: ../src/Games/Memory/MemoryFacts.cs:140
+#: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "Shiny نىڭ ماشىنىلىرىنىڭ قانچە پىرسەنتى بېنزىن ئىشلىتىدۇ؟"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:51
 msgid "Triangle"
 msgstr "ئۈچ بۇلۇڭ"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:67
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:53
 msgid "Square"
 msgstr "تۆت چاسا"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:55
 msgid "Pentagon"
 msgstr "بەش تەرەپلىك"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:71
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:57
 msgid "Circle"
 msgstr "چەمبەر"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:79
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
 msgid "Memorize figures and text"
 msgstr "شەكىل ۋە تېكىستلەرنى ئەستە تۇتۇش"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:84
-#, csharp-format
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
 msgid ""
 "The list below enumerates the figures shown in the previous image except for "
-"one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
+"one. Which is the missing figure? Possible answers are triangle, square, "
+"pentagon and circle."
 msgstr ""
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:222
-msgid "List of images shown before"
-msgstr ""
-
-#: ../src/Games/Memory/MemoryFigures.cs:54
+#: ../src/Games/Memory/MemoryFigures.cs:55
 msgid "Memorize figures"
 msgstr "شەكىللەرنى ئەستە تۇتۇش"
 
-#: ../src/Games/Memory/MemoryFigures.cs:59
+#: ../src/Games/Memory/MemoryFigures.cs:60
 msgid ""
 "In which cell is the other figure like the one shown below? Answer the cell "
 "number."
 msgstr "قايسى كاتەكچە تۆۋەندە كۆرسىتىلگەن قايسى كاتەكچىگە ئوخشايدۇ؟ كاتەكچە نومۇرى نى دەڭ."
 
-#: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
+#: ../src/Games/Memory/MemoryFiguresNumbers.cs:39
 msgid "Figures with numbers"
 msgstr "رەقەملىك شەكىللەر"
 
-#: ../src/Games/Memory/MemoryFiguresNumbers.cs:43
+#: ../src/Games/Memory/MemoryFiguresNumbers.cs:44
 #, csharp-format
 msgid ""
 "Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
 msgstr "قايسى كۋادراتلار ئالدىنقى قېتىم كۆرسىتىلگەن؟ جاۋاب: {0}، {1}، {2} ياكى {3}."
 
-#: ../src/Games/Memory/MemoryIndications.cs:133
+#: ../src/Games/Memory/MemoryIndications.cs:130
 #, csharp-format
 msgid "Start at point number {0}"
 msgstr "نومۇرى {0} بولغان نۇقتىدىن باشلا"
 
-#: ../src/Games/Memory/MemoryIndications.cs:137
+#: ../src/Games/Memory/MemoryIndications.cs:134
 msgid "Move right"
 msgstr "ئوڭغا يۆتكە"
 
-#: ../src/Games/Memory/MemoryIndications.cs:139
+#: ../src/Games/Memory/MemoryIndications.cs:136
 msgid "Move left"
 msgstr "سولغا يۆتكە"
 
-#: ../src/Games/Memory/MemoryIndications.cs:141
+#: ../src/Games/Memory/MemoryIndications.cs:138
 msgid "Move up"
 msgstr "يۇقىرىغا"
 
-#: ../src/Games/Memory/MemoryIndications.cs:143
+#: ../src/Games/Memory/MemoryIndications.cs:140
 msgid "Move down"
 msgstr "تۆۋەنگە"
 
-#: ../src/Games/Memory/MemoryIndications.cs:148
+#: ../src/Games/Memory/MemoryIndications.cs:145
 #, csharp-format
 msgid "End at point {0}"
 msgstr "نومۇرى {0} بولغان نۇقتىدا ئاخىرلاشتۇر"
 
-#: ../src/Games/Memory/MemoryIndications.cs:162
+#: ../src/Games/Memory/MemoryIndications.cs:159
 msgid "Memorize indications"
 msgstr "كۆرسەتكۈچلەرنى ئەستە تۇتۇش"
 
-#: ../src/Games/Memory/MemoryIndications.cs:168
+#: ../src/Games/Memory/MemoryIndications.cs:165
 #, csharp-format
 msgid ""
 "Which of the following graphics represents the indications previously given? "
 "Answer {0}, {1}, {2} or {3}."
 msgstr ""
 
-#: ../src/Games/Memory/MemoryNumbers.cs:65
+#: ../src/Games/Memory/MemoryNumbers.cs:56
 msgid "How many odd numbers were in the previous image? Answer using numbers."
 msgstr "يۇقىرىدىكى رەسىمدە قانچە دانە تاق سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:90
+#: ../src/Games/Memory/MemoryNumbers.cs:76
 msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr "يۇقىرىدىكى رەسىمدە قانچە دانە جۈپ سان بار؟ نومۇرىنى ئىشلىتىپ جاۋاب بېرىڭ."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:115
+#: ../src/Games/Memory/MemoryNumbers.cs:96
 msgid ""
 "How many numbers with more than one digit were in the previous image? Answer "
 "using numbers."
 msgstr "ئالدىنقى سۈرەت ئىچىدە خانە سانى سانى بىردىن كۆپ بولغان ساندىن قانچىسى بار؟ سان بىلەن جاۋاب بېرىڭ."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:132
+#: ../src/Games/Memory/MemoryNumbers.cs:113
 msgid "Memorize numbers"
 msgstr "سانالارنى ئەستە تۇتۇش"
 
-#: ../src/Games/Memory/MemoryWords.cs:35
+#: ../src/Games/Memory/MemoryWords.cs:37
 msgid "Memorize words"
 msgstr "سۆزلەرنى ئەستە تۇتۇش"
 
-#: ../src/Games/Memory/MemoryWords.cs:40
+#: ../src/Games/Memory/MemoryWords.cs:42
 msgid ""
 "There is a missing word from the previous list. Which one is the missing "
 "word?"
 msgstr "تۆۋەندىكىلەرنىڭ ئىچىدە ئالدىنقى تىزىمدا يوق سۆزلەر بار. قايسى ئالدىنقى تىزىمدا يوق سوز؟"
 
 #. Body parts
-#: ../src/Games/Memory/MemoryWords.cs:49
+#: ../src/Games/Memory/MemoryWords.cs:51
 msgid "wrist"
 msgstr "بېغىش"
 
-#: ../src/Games/Memory/MemoryWords.cs:50
+#: ../src/Games/Memory/MemoryWords.cs:52
 msgid "elbow"
 msgstr "جەينەك"
 
-#: ../src/Games/Memory/MemoryWords.cs:51
+#: ../src/Games/Memory/MemoryWords.cs:53
 msgid "armpit"
 msgstr "قولتۇق"
 
-#: ../src/Games/Memory/MemoryWords.cs:52
+#: ../src/Games/Memory/MemoryWords.cs:54
 msgid "hand"
 msgstr "قول"
 
-#: ../src/Games/Memory/MemoryWords.cs:53
+#: ../src/Games/Memory/MemoryWords.cs:55
 msgid "chest"
 msgstr "مەيدە"
 
 #. Fishes
-#: ../src/Games/Memory/MemoryWords.cs:56
+#: ../src/Games/Memory/MemoryWords.cs:58
 msgid "sardine"
 msgstr "ساردىن بېلىقى"
 
-#: ../src/Games/Memory/MemoryWords.cs:57
+#: ../src/Games/Memory/MemoryWords.cs:59
 msgid "trout"
 msgstr "تاتلىق سۇ بېلىقى"
 
-#: ../src/Games/Memory/MemoryWords.cs:58
+#: ../src/Games/Memory/MemoryWords.cs:60
 msgid "monkfish"
 msgstr "پاپاز"
 
-#: ../src/Games/Memory/MemoryWords.cs:59
+#: ../src/Games/Memory/MemoryWords.cs:61
 msgid "cod"
 msgstr "تىرىسكا بېلىقى"
 
-#: ../src/Games/Memory/MemoryWords.cs:60
+#: ../src/Games/Memory/MemoryWords.cs:62
 msgid "salmon"
 msgstr "سالمون بېلىقى"
 
 #. Vegetables
-#: ../src/Games/Memory/MemoryWords.cs:63
+#: ../src/Games/Memory/MemoryWords.cs:65
 msgid "potato"
 msgstr "ياڭيۇ"
 
-#: ../src/Games/Memory/MemoryWords.cs:64
+#: ../src/Games/Memory/MemoryWords.cs:66
 msgid "ginger"
 msgstr "زەنجىۋىل"
 
-#: ../src/Games/Memory/MemoryWords.cs:65
+#: ../src/Games/Memory/MemoryWords.cs:67
 msgid "pepper"
 msgstr "قارىمۇچ"
 
-#: ../src/Games/Memory/MemoryWords.cs:66
+#: ../src/Games/Memory/MemoryWords.cs:68
 msgid "garlic"
 msgstr "سامساق"
 
-#: ../src/Games/Memory/MemoryWords.cs:67
+#: ../src/Games/Memory/MemoryWords.cs:69
 msgid "pumpkin"
 msgstr "كاۋا"
 
 #. Bicycle
-#: ../src/Games/Memory/MemoryWords.cs:70
+#: ../src/Games/Memory/MemoryWords.cs:72
 msgid "brake"
 msgstr "تورمۇز"
 
-#: ../src/Games/Memory/MemoryWords.cs:71
+#: ../src/Games/Memory/MemoryWords.cs:73
 msgid "pedal"
 msgstr "تەپكۈچ"
 
-#: ../src/Games/Memory/MemoryWords.cs:72
+#: ../src/Games/Memory/MemoryWords.cs:74
 msgid "chain"
 msgstr "زەنجىر"
 
-#: ../src/Games/Memory/MemoryWords.cs:73
+#: ../src/Games/Memory/MemoryWords.cs:75
 msgid "wheel"
 msgstr "چاقى"
 
-#: ../src/Games/Memory/MemoryWords.cs:74
+#: ../src/Games/Memory/MemoryWords.cs:76
 msgid "handlebar"
 msgstr "رول"
 
 #. Music
-#: ../src/Games/Memory/MemoryWords.cs:77
+#: ../src/Games/Memory/MemoryWords.cs:79
 msgid "drummer"
 msgstr "دۇمباقچى"
 
-#: ../src/Games/Memory/MemoryWords.cs:78
+#: ../src/Games/Memory/MemoryWords.cs:80
 msgid "speaker"
 msgstr "ياڭراتقۇ"
 
-#: ../src/Games/Memory/MemoryWords.cs:79
+#: ../src/Games/Memory/MemoryWords.cs:81
 msgid "lyrics"
 msgstr "ناخشا سۆزى"
 
-#: ../src/Games/Memory/MemoryWords.cs:80
+#: ../src/Games/Memory/MemoryWords.cs:82
 msgid "beat"
 msgstr "سوقما مۇزىكا"
 
-#: ../src/Games/Memory/MemoryWords.cs:81
+#: ../src/Games/Memory/MemoryWords.cs:83
 msgid "song"
 msgstr "ناخشا"
 
 #. Weather
-#: ../src/Games/Memory/MemoryWords.cs:84
+#: ../src/Games/Memory/MemoryWords.cs:86
 msgid "cloud"
 msgstr "بۇلۇتلۇق"
 
-#: ../src/Games/Memory/MemoryWords.cs:85
+#: ../src/Games/Memory/MemoryWords.cs:87
 msgid "rain"
 msgstr "يامغۇر"
 
-#: ../src/Games/Memory/MemoryWords.cs:86
+#: ../src/Games/Memory/MemoryWords.cs:88
 msgid "storm"
 msgstr "جۇدۇن"
 
-#: ../src/Games/Memory/MemoryWords.cs:87
+#: ../src/Games/Memory/MemoryWords.cs:89
 msgid "fog"
 msgstr "تۇمان"
 
-#: ../src/Games/Memory/MemoryWords.cs:88
+#: ../src/Games/Memory/MemoryWords.cs:90
 msgid "rainbow"
 msgstr "ھەسەن-ھۈسەن"
 
 #. Animals
-#: ../src/Games/Memory/MemoryWords.cs:91
+#: ../src/Games/Memory/MemoryWords.cs:93
 msgid "rabbit"
 msgstr "توشقان"
 
-#: ../src/Games/Memory/MemoryWords.cs:92
+#: ../src/Games/Memory/MemoryWords.cs:94
 msgid "mouse"
 msgstr "چاشقىنەك"
 
-#: ../src/Games/Memory/MemoryWords.cs:93
+#: ../src/Games/Memory/MemoryWords.cs:95
 msgid "monkey"
 msgstr "مايمۇن"
 
-#: ../src/Games/Memory/MemoryWords.cs:94
+#: ../src/Games/Memory/MemoryWords.cs:96
 msgid "bear"
 msgstr "ئېيىق"
 
-#: ../src/Games/Memory/MemoryWords.cs:95
+#: ../src/Games/Memory/MemoryWords.cs:97
 msgid "wolf"
 msgstr "بۆرە"
 
@@ -4856,22 +4799,22 @@ msgid "<b>Game Types</b>"
 msgstr "<b>ئويۇن تىپى</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
 msgid "<b>Difficulty Level</b>"
 msgstr "<b>قىيىنلىق دەرىجىسى</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
 msgid "Easy"
 msgstr "دەسلەپكى"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
 msgid "Medium"
 msgstr "ئوتتۇراھال"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
 msgid "Master"
 msgstr "باش"
 
@@ -4919,38 +4862,34 @@ msgid "Force gbrainy to always use English language (ignore translations)"
 msgstr "gbrainy دا ھەمىشە ئىنگلىزچە مەجبۇرىي ئىشلىتىلسۇن(تەرجىمىگە پەرۋا قىلمىسۇن)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Search and load extensions when starting"
-msgstr ""
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
 msgid "Theme:"
 msgstr "ئۆرنەك:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
 msgid "<b>Memory Games</b>"
 msgstr "<b>ئەستە ساقلاش ئويۇنلىرى</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
 msgid "Time in seconds to memorize the challenge:"
 msgstr "ئەستە تۇتۇشنى سىناپ كۆرۈش ۋاقتى(سېكۇنت):"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
 msgid "Show a countdown message"
 msgstr "تەتۈر ساناش ئۇچۇرىنى كۆرسىتىدۇ"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
 msgid "<b>Player's Game Session History</b>"
 msgstr "<b>ئوينىغۇچىنىڭ ئويۇن ئويناش تارىخى</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
 msgid "Minimum number of played games to store the game session:"
 msgstr "ئويۇن ئەڭگىمەسىگە ساقلىنىدىغان ئوينالغان ئويۇنلارنىڭ ئەڭ كىچىك سانى:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
 msgid "Maximum number of records in the player's game session history:"
 msgstr "ئويۇن ئويناش تارىخىدىكى رېكورتلارنىڭ ئەڭ چوڭ سانى:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
 msgid "Delete Player's Game Session History"
 msgstr "ئوينىغۇچىنىڭ ئويۇن ئويناش تارىخىنى ئۆچۈرۈش"
 
@@ -4971,8 +4910,8 @@ msgid "Logic Puzzles Only"
 msgstr "لوگىكىلىق تېپىشماقلارلا"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Mental Calculation Only"
-msgstr ""
+msgid "Mental Calculation Trainers Only"
+msgstr "پەقەت ئىچىدە ھېسابلاش ئۈچۈن"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:7
 msgid "Memory Trainers Only"
