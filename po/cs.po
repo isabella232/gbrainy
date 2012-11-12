@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-11-03 23:45+0000\n"
-"PO-Revision-Date: 2012-11-06 13:10+0100\n"
+"POT-Creation-Date: 2012-11-11 15:02+0000\n"
+"PO-Revision-Date: 2012-11-12 01:27+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -1349,192 +1349,193 @@ msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Které z následujících slov je nejbližší významem ke slovu „flegmatický“?"
 
-#: ../data/verbal_analogies.xml.h:186
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:187
 msgid "Calm"
 msgstr "klidný"
 
-#: ../data/verbal_analogies.xml.h:187
+#: ../data/verbal_analogies.xml.h:188
 msgid "Authentic"
 msgstr "nefalšovaný"
 
-#: ../data/verbal_analogies.xml.h:188
+#: ../data/verbal_analogies.xml.h:189
 msgid "Clever"
 msgstr "chytrý"
 
-#: ../data/verbal_analogies.xml.h:189
+#: ../data/verbal_analogies.xml.h:190
 msgid "Tense"
 msgstr "nervozní"
 
-#: ../data/verbal_analogies.xml.h:190
+#: ../data/verbal_analogies.xml.h:191
 msgid "Concert"
 msgstr "koncert"
 
-#: ../data/verbal_analogies.xml.h:191
+#: ../data/verbal_analogies.xml.h:192
 msgid "Satire"
 msgstr "satira"
 
-#: ../data/verbal_analogies.xml.h:192
+#: ../data/verbal_analogies.xml.h:193
 msgid "Proverb"
 msgstr "citát"
 
-#: ../data/verbal_analogies.xml.h:193
+#: ../data/verbal_analogies.xml.h:194
 msgid "Epigram"
 msgstr "epigram"
 
-#: ../data/verbal_analogies.xml.h:194
+#: ../data/verbal_analogies.xml.h:195
 msgid "It is the only one that is not related to literature."
 msgstr "Toto jediné slovo z uvedených se nevztahuje k literatuře."
 
-#: ../data/verbal_analogies.xml.h:195
+#: ../data/verbal_analogies.xml.h:196
 msgid "Curve"
 msgstr "křivka"
 
-#: ../data/verbal_analogies.xml.h:196
+#: ../data/verbal_analogies.xml.h:197
 msgid "Cathetus"
 msgstr "odvěsna"
 
-#: ../data/verbal_analogies.xml.h:197
+#: ../data/verbal_analogies.xml.h:198
 msgid "Hypotenuse"
 msgstr "přepona"
 
-#: ../data/verbal_analogies.xml.h:198
+#: ../data/verbal_analogies.xml.h:199
 msgid "Trigonometry"
 msgstr "trigonometrie"
 
-#: ../data/verbal_analogies.xml.h:199
+#: ../data/verbal_analogies.xml.h:200
 msgid "It is the only one that is not related with triangles."
 msgstr "Toto jediné slovo z uvedených se nevztahuje k trojúhelníkům."
 
 #. Translator: As a noun
-#: ../data/verbal_analogies.xml.h:201
+#: ../data/verbal_analogies.xml.h:202
 msgid "Necklace"
 msgstr "šperk"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:203
 msgid "Candelabra"
 msgstr "svícen"
 
-#: ../data/verbal_analogies.xml.h:203
+#: ../data/verbal_analogies.xml.h:204
 msgid "Lantern"
 msgstr "lucerna"
 
-#: ../data/verbal_analogies.xml.h:204
+#: ../data/verbal_analogies.xml.h:205
 msgid "Lamp"
 msgstr "louč"
 
-#: ../data/verbal_analogies.xml.h:205
+#: ../data/verbal_analogies.xml.h:206
 msgid "It is the only one that does not produce light."
 msgstr "Tento jediný z uvedených není zdrojem světla."
 
-#: ../data/verbal_analogies.xml.h:206
+#: ../data/verbal_analogies.xml.h:207
 msgid "car / garage | plane"
 msgstr "auto / garáž | letadlo"
 
-#: ../data/verbal_analogies.xml.h:207
+#: ../data/verbal_analogies.xml.h:208
 msgid "Hangar"
 msgstr "hangár"
 
-#: ../data/verbal_analogies.xml.h:208
+#: ../data/verbal_analogies.xml.h:209
 msgid "Airline"
 msgstr "aerolinka"
 
-#: ../data/verbal_analogies.xml.h:209
+#: ../data/verbal_analogies.xml.h:210
 msgid "Aircraft"
 msgstr "letadlová loď"
 
-#: ../data/verbal_analogies.xml.h:210
+#: ../data/verbal_analogies.xml.h:211
 msgid "Bunker"
 msgstr "bunkr"
 
-#: ../data/verbal_analogies.xml.h:211
+#: ../data/verbal_analogies.xml.h:212
 msgid "circle / semicircle | diameter"
 msgstr "půlkruh / kruh | poloměr"
 
-#: ../data/verbal_analogies.xml.h:212
+#: ../data/verbal_analogies.xml.h:213
 msgid "Radius"
 msgstr "průměr"
 
-#: ../data/verbal_analogies.xml.h:213
+#: ../data/verbal_analogies.xml.h:214
 msgid "Chord"
 msgstr "tětiva"
 
-#: ../data/verbal_analogies.xml.h:214
+#: ../data/verbal_analogies.xml.h:215
 msgid "Tangent"
 msgstr "tečna"
 
-#: ../data/verbal_analogies.xml.h:215
+#: ../data/verbal_analogies.xml.h:216
 msgid "Angle"
 msgstr "úhel"
 
-#: ../data/verbal_analogies.xml.h:216
+#: ../data/verbal_analogies.xml.h:217
 msgid "The radius of a circle is half the diameter."
 msgstr "Poloměr kruhu je polovinou jeho průměru."
 
-#: ../data/verbal_analogies.xml.h:217
+#: ../data/verbal_analogies.xml.h:218
 msgid "talk / yell | dislike"
 msgstr "mluvit / křičet | nemít rád"
 
-#: ../data/verbal_analogies.xml.h:218
+#: ../data/verbal_analogies.xml.h:219
 msgid "Repugnance"
 msgstr "nenávidět"
 
-#: ../data/verbal_analogies.xml.h:219
+#: ../data/verbal_analogies.xml.h:220
 msgid "Offensive"
 msgstr "útočit"
 
-#: ../data/verbal_analogies.xml.h:220
+#: ../data/verbal_analogies.xml.h:221
 msgid "Shame"
 msgstr "zahambit"
 
-#: ../data/verbal_analogies.xml.h:221
+#: ../data/verbal_analogies.xml.h:222
 msgid "Ostentation"
 msgstr "ignorovat"
 
-#: ../data/verbal_analogies.xml.h:222
+#: ../data/verbal_analogies.xml.h:223
 msgid "write / pen | eat"
 msgstr "psát / pero | jíst"
 
-#: ../data/verbal_analogies.xml.h:223
+#: ../data/verbal_analogies.xml.h:224
 msgid "Fork"
 msgstr "vidlička"
 
-#: ../data/verbal_analogies.xml.h:224
+#: ../data/verbal_analogies.xml.h:225
 msgid "Restaurant"
 msgstr "restaurace"
 
-#: ../data/verbal_analogies.xml.h:225
+#: ../data/verbal_analogies.xml.h:226
 msgid "Winery"
 msgstr "vinárna"
 
-#: ../data/verbal_analogies.xml.h:226
+#: ../data/verbal_analogies.xml.h:227
 msgid "Table"
 msgstr "stůl"
 
-#: ../data/verbal_analogies.xml.h:227
+#: ../data/verbal_analogies.xml.h:228
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "Pero se používá k psaní a vidlička k jídlu."
 
-#: ../data/verbal_analogies.xml.h:228
+#: ../data/verbal_analogies.xml.h:229
 msgid "desert / oasis | sea"
 msgstr "poušť / oáza | moře"
 
-#: ../data/verbal_analogies.xml.h:229
+#: ../data/verbal_analogies.xml.h:230
 msgid "Island"
 msgstr "ostrov"
 
-#: ../data/verbal_analogies.xml.h:230
+#: ../data/verbal_analogies.xml.h:231
 msgid "River"
 msgstr "řeka"
 
-#: ../data/verbal_analogies.xml.h:231
+#: ../data/verbal_analogies.xml.h:232
 msgid "Beach"
 msgstr "pláž"
 
-#: ../data/verbal_analogies.xml.h:232
+#: ../data/verbal_analogies.xml.h:233
 msgid "Coast"
 msgstr "pobřeží"
 
-#: ../data/verbal_analogies.xml.h:233
+#: ../data/verbal_analogies.xml.h:234
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1543,148 +1544,148 @@ msgstr ""
 "která je obklopená vodou."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:235
+#: ../data/verbal_analogies.xml.h:236
 msgid "turtle / shell | letter"
 msgstr "želva / krunýř | dopis"
 
-#: ../data/verbal_analogies.xml.h:236
+#: ../data/verbal_analogies.xml.h:237
 msgid "Envelope"
 msgstr "obálka"
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:238
 msgid "Ink"
 msgstr "inkoust"
 
-#: ../data/verbal_analogies.xml.h:238
+#: ../data/verbal_analogies.xml.h:239
 msgid "Printer"
 msgstr "tiskárna"
 
-#: ../data/verbal_analogies.xml.h:239
+#: ../data/verbal_analogies.xml.h:240
 msgid "Cellulose"
 msgstr "papír"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:241
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr "Želva je uvnitř krunýře a dopis uvnitř obálky."
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:242
 msgid "wine / grape | rum"
 msgstr "víno / hrozny | rum"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:243
 msgid "Sugarcane"
 msgstr "cukrová třtina"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:244
 msgid "Grain"
 msgstr "obilí"
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:245
 msgid "Sweet corn"
 msgstr "cukrová kukuřice"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:246
 msgid "horticulture / plants | ornithology"
 msgstr "botanika / rostliny | ornitologie"
 
-#: ../data/verbal_analogies.xml.h:246
+#: ../data/verbal_analogies.xml.h:247
 msgid "Birds"
 msgstr "ptáci"
 
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:248
 msgid "Insects"
 msgstr "hmyz"
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:249
 msgid "Amphibians"
 msgstr "obojživelníci"
 
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:250
 msgid "Fishes"
 msgstr "ryby"
 
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:251
 msgid "thankful / ingratitude | despotism"
 msgstr "vděčnost / nevděčnost | despotismus"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:252
 msgid "Democracy"
 msgstr "demokracie"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:253
 msgid "Totalitarianism"
 msgstr "totalitarismus"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:254
 msgid "Oligarchy"
 msgstr "oligarchie"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:255
 msgid "Authority"
 msgstr "autorita"
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:256
 msgid "pessimist / optimist | poor"
 msgstr "pesimismus / optimismus | chudoba"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:258
 msgid "Affluent"
 msgstr "bohatství"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:259
 msgid "Homeless"
 msgstr "bezdomovec"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:260
 msgid "Property"
 msgstr "vlastnictví"
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:261
 msgid "Money"
 msgstr "peníze"
 
-#: ../data/verbal_analogies.xml.h:261
+#: ../data/verbal_analogies.xml.h:262
 msgid "five / pentagon | ten"
 msgstr "pět / pentagon | deset"
 
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:263
 msgid "Decagon"
 msgstr "decagon"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:264
 msgid "Enneagram"
 msgstr "eneagram"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:265
 msgid "Icosagon"
 msgstr "icosagon"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:266
 msgid "Decimal"
 msgstr "decimal"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:267
 msgid "parallel / meridian | longitude"
 msgstr "rovnoběžka / poledník | zeměpisná délka"
 
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:268
 msgid "Latitude"
 msgstr "zeměpisná šířka"
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:269
 msgid "Solstice"
 msgstr "obratník"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:270
 msgid "Pole"
 msgstr "pól"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:271
 msgid "Azimuth"
 msgstr "azimut"
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:272
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1692,95 +1693,95 @@ msgstr ""
 "Rovnoběžky a zeměpisná délka jdou od nultého poledníku směrem východ-západ a "
 "zeměpisná šířka jde od severu k jihu."
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:273
 msgid "art / gallery | drama"
 msgstr "obraz / galerie | drama"
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:274
 msgid "Theater"
 msgstr "divadlo"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:275
 msgid "Museum"
 msgstr "muzeum"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:276
 msgid "Concert hall"
 msgstr "koncertní sál"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:277
 msgid "Gym"
 msgstr "tělocvična"
 
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:278
 msgid "hunter / rifle | photographer"
 msgstr "lovec / puška | fotograf"
 
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:279
 msgid "Camera"
 msgstr "fotoaparát"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:281
 msgid "Tripod"
 msgstr "stativ"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:282
 msgid "Photography"
 msgstr "fotografie"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:283
 msgid "Light"
 msgstr "světlo"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:284
 msgid "dish / break | balloon"
 msgstr "mísa / rozbít | balón"
 
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:285
 msgid "Burst"
 msgstr "prasknout"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:286
 msgid "Bounce"
 msgstr "odrazit"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:287
 msgid "Float"
 msgstr "plavat"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:288
 msgid "Roll"
 msgstr "koulet"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:289
 msgid "Both relate to an action that breaks the related item."
 msgstr "U obojího se jedná o činnost, která danou věc zničí."
 
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:290
 msgid "button / push | key (used in a lock)"
 msgstr "tlačítko / zmáčknout | klíč (používaný v zámku)"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:291
 msgid "Turn"
 msgstr "otočit"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:293
 msgid "Open"
 msgstr "otevřít"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:295
 msgid "Lock"
 msgstr "zamknout"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:297
 msgid "Close"
 msgstr "zavřít"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:298
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1788,384 +1789,415 @@ msgstr ""
 "Tlačítko se musí zmáčknout, aby pracovalo, a klíč se musí ze stejného důvodu "
 "otočit."
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:299
 msgid "concept / idea | obsession"
 msgstr "koncepce / idea | obsese"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:301
 msgid "Fixation"
 msgstr "fixace"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:302
 msgid "Indifference"
 msgstr "apatie"
 
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:303
 msgid "Disinterest"
 msgstr "nezájem"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:304
 msgid "Intuition"
 msgstr "intuice"
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:305
 msgid "The relation between the two words is that they are synonymous."
 msgstr "Vztah mezi dvěma slovy je, že to jsou synonyma."
 
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:306
 msgid "fish / water | bird"
 msgstr "ryba / voda | pták"
 
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:307
 msgid "Air"
 msgstr "vzduch"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:308
 msgid "Wings"
 msgstr "křídla"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:309
 msgid "Ship"
 msgstr "loď"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:310
 msgid "Cage"
 msgstr "klec"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:312
 msgid "rook / chess | soldier"
 msgstr "věž / šachy | voják"
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:313
 msgid "Battle"
 msgstr "bitva"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:314
 msgid "Gun"
 msgstr "zbraň"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:315
 msgid "Peace"
 msgstr "mír"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:316
 msgid "Enemy"
 msgstr "nepřítel"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:317
+msgid "competitive / cooperative | anxious"
+msgstr "konkurenční / spolupracující | agilní"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:319
+msgid "Flexible"
+msgstr "flexibilní"
+
+#: ../data/verbal_analogies.xml.h:320
+msgid "Cautious"
+msgstr "opatrný"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:322
+msgid "Daring"
+msgstr "odvážný"
+
+#: ../data/verbal_analogies.xml.h:323
+msgid "pessimistic / optimistic | suspicious"
+msgstr "pesimistický / optimistický | skeptický"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:325
+msgid "Trusting"
+msgstr "důvěřivý"
+
+#: ../data/verbal_analogies.xml.h:326
+msgid "Dubious"
+msgstr "podezřelý"
+
+#: ../data/verbal_analogies.xml.h:327
 msgid "hungry / eat | tired"
 msgstr "hladový / jíst | unavený"
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:328
 msgid "sleep | rest"
 msgstr "spát | odpočívat"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:330
 msgid "box / open | banana"
 msgstr "krabice / otevřít | banán"
 
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:331
 msgid "peel"
 msgstr "oloupat"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:333
 msgid "shovel / dig | axe"
 msgstr "lopata / díra | pila"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:335
 msgid "chop"
 msgstr "řez | zářez"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:337
 msgid "glass / break | paper"
 msgstr "sklo / rozbít | papír"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:339
 msgid "tear | rip"
 msgstr "trhat | roztrhat | roztrhnout | rozcupovat"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:341
 msgid "feet / two | toes"
 msgstr "chodidlo / dvě | prst"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:343
 msgid "ten | 10"
 msgstr "deset | 10"
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:344
 msgid "fish / aquarium | monkey"
 msgstr "ryba / akvárium | opice"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:345
 msgid "cage | zoo | zoological garden"
 msgstr "klec | zoo | zoologická zahrada"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:346
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Rybičky v akváriu žijí v zajetí."
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:347
 msgid "ring / finger | bracelet"
 msgstr "prsten / prst | náramek"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:348
 msgid "wrist | arm"
 msgstr "zápěstí"
 
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:349
 msgid "seal / flippers | bird"
 msgstr "tuleň / ploutve | pták"
 
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:350
 msgid "wings"
 msgstr "křídla"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:352
 msgid "stick / float | stone"
 msgstr "větev / plavat | kámen"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:353
 msgid "sink"
 msgstr "potopit se"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:354
 msgid "leopard / spots | tiger"
 msgstr "leopard / skvrny | tigr"
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:355
 msgid "stripes"
 msgstr "pruhy"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:357
 msgid "fish / submarine | bird"
 msgstr "ryba / ponorka | pták"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:358
 msgid "airplane | aeroplane | plane"
 msgstr "letadlo | kluzák"
 
-#: ../data/verbal_analogies.xml.h:348
+#: ../data/verbal_analogies.xml.h:359
 msgid "tears / eyes | sweat"
 msgstr "slzy / oči | pot"
 
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:360
 msgid "body | skin"
 msgstr "tělo | kůže"
 
-#: ../data/verbal_analogies.xml.h:350
+#: ../data/verbal_analogies.xml.h:361
 msgid "bridge / over | tunnel"
 msgstr "most / přes | tunel"
 
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:362
 msgid "in | under | through"
 msgstr "v | do | pod | skrz"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:364
 msgid "toy / play | tool"
 msgstr "hračka / hrát si | nástroj"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:366
 msgid "work"
 msgstr "pracovat"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:368
 msgid "error / (to) correct | damage"
 msgstr "rozbitý / opravit | ohnutý"
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:369
 msgid "repair | fix"
 msgstr "narovnat"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:370
 msgid "orange / fruit | spinach"
 msgstr "pomeranč / ovoce | špenát"
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:371
 msgid "vegetable"
 msgstr "zelenina"
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:372
 msgid "hands / grab | teeth"
 msgstr "ruce / chytat | zuby"
 
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:373
 msgid "bite"
 msgstr "kousat"
 
-#: ../data/verbal_analogies.xml.h:363
+#: ../data/verbal_analogies.xml.h:374
 msgid "Grab and bite are finite actions."
 msgstr "Chytání a kousání jsou výsledné akce."
 
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:375
 msgid "puzzle / solve | game"
 msgstr "hlavolam / vyřešit | hra"
 
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:376
 msgid "win | play"
 msgstr "vyhrát"
 
-#: ../data/verbal_analogies.xml.h:366
+#: ../data/verbal_analogies.xml.h:377
 msgid "eyebrow / eye | mustache"
 msgstr "obočí / oko | knír"
 
-#: ../data/verbal_analogies.xml.h:367
+#: ../data/verbal_analogies.xml.h:378
 msgid "lip | upper lip | mouth"
 msgstr "ret | horní ret | rty | pusa | ústa"
 
-#: ../data/verbal_analogies.xml.h:368
+#: ../data/verbal_analogies.xml.h:379
 msgid "ice / slippery | glue"
 msgstr "led / kluzký | med"
 
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:380
 msgid "sticky"
 msgstr "lepivý | lepkavý"
 
-#: ../data/verbal_analogies.xml.h:370
+#: ../data/verbal_analogies.xml.h:381
 msgid "whirlpool / water | tornado"
 msgstr "vlny / voda | vítr"
 
-#: ../data/verbal_analogies.xml.h:371
+#: ../data/verbal_analogies.xml.h:382
 msgid "wind | air"
 msgstr "vítr | vzduch"
 
-#: ../data/verbal_analogies.xml.h:372
+#: ../data/verbal_analogies.xml.h:383
 msgid "fox / den | bird"
 msgstr "liška / doupě | pták"
 
-#: ../data/verbal_analogies.xml.h:373
+#: ../data/verbal_analogies.xml.h:384
 msgid "nest"
 msgstr "hnízdo"
 
-#: ../data/verbal_analogies.xml.h:374
+#: ../data/verbal_analogies.xml.h:385
 msgid "dog / tame | wolf"
 msgstr "pes / ochočený | vlk"
 
-#: ../data/verbal_analogies.xml.h:375
+#: ../data/verbal_analogies.xml.h:386
 msgid "wild | savage"
 msgstr "divoký"
 
-#: ../data/verbal_analogies.xml.h:376
+#: ../data/verbal_analogies.xml.h:387
 msgid "sugar / sweet | vinegar"
 msgstr "cukr / sladký | ocet"
 
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:388
 msgid "sour"
 msgstr "kyselý"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:389
 msgid "tennis / sport | ballet"
 msgstr "tenis / sport | balet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:391
 msgid "dance"
 msgstr "tanec | kultura"
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:392
 msgid "slurp / tongue | snort"
 msgstr "usrkávat / jazyk | frkat"
 
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:393
 msgid "nose"
 msgstr "nos"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:394
 msgid "elbow / knee | wrist"
 msgstr "loket / koleno | zápěstí"
 
-#: ../data/verbal_analogies.xml.h:384
+#: ../data/verbal_analogies.xml.h:395
 msgid "ankle"
 msgstr "kotník"
 
-#: ../data/verbal_analogies.xml.h:385
+#: ../data/verbal_analogies.xml.h:396
 msgid "novel / author | song"
 msgstr "román / spisovatel | píseň"
 
-#: ../data/verbal_analogies.xml.h:386
+#: ../data/verbal_analogies.xml.h:397
 msgid "composer | songwriter | lyricist"
 msgstr "skladatel | textař"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:398
 msgid "car / road | train"
 msgstr "auto / silnice | vlak"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:399
 msgid "track | railway | rails | railroad"
 msgstr "koleje | trať | železniční trať"
 
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:400
 msgid "pediatrics / children | numismatics"
 msgstr "pediatrie / dítě | numismatika"
 
-#: ../data/verbal_analogies.xml.h:390
+#: ../data/verbal_analogies.xml.h:401
 msgid "coins"
 msgstr "mince"
 
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:402
 msgid "thermometer / temperature | clock"
 msgstr "teploměr / teplota | hodiny"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:404
 msgid "time"
 msgstr "čas"
 
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:405
 msgid "The first word is the instrument and the second what it measures."
 msgstr "První slovo představuje měřící přístroj a druhé údaj, který měří."
 
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:406
 msgid "poems / anthology | maps"
 msgstr "básně / sbírka | mapy"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:407
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:408
 msgid "letter / word | page"
 msgstr "písmeno / slovo | stránka"
 
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:409
 msgid "book | magazine | document"
 msgstr "kniha | časopis | dokument | sešit"
 
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:410
 msgid "hour / minute | minute"
 msgstr "hodina / minuta | minuta"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:401
+#: ../data/verbal_analogies.xml.h:412
 msgid "second"
 msgstr "sekunda | vteřina"
 
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:413
 msgid "tiger / carnivore | cow"
 msgstr "tygr / masožravec | kráva"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:414
 msgid "herbivorous | herbivore"
 msgstr "býložravec"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:415
 msgid "constellation / stars | archipelago"
 msgstr "souhvězdí / hvězdy | archipel"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:416
 msgid "islands"
 msgstr "ostrovy"
 
