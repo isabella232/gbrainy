@@ -89,11 +89,12 @@ dnl --- Required libraries
 GTKSHARP_REQUIRED=2.10
 MONO_REQUIRED=1.1.7
 MONO_ADDINS=0.3
+CANBERRA_GTK_REQUIRED=0.26
 
 PKG_CHECK_MODULES(GBRAINY_CORE, mono >= $MONO_REQUIRED)
 
-
 PKG_CHECK_MODULES(GBRAINY, gtk-sharp-2.0 >= $GTKSHARP_REQUIRED)
+PKG_CHECK_MODULES(GBRAINY, libcanberra-gtk  >= $CANBERRA_GTK_REQUIRED)
 AC_SUBST(GBRAINY_LIBS)
 
 AC_ARG_ENABLE(addins, AC_HELP_STRING([--disable-addins], [Disable mono-addins support]), , enable_addins="yes")

@@ -8,7 +8,7 @@ analogiesdir = $(datadir)/games/gbrainy
 themesdir = $(datadir)/games/gbrainy
 
 hicolordir = $(datadir)/icons/hicolor
-images = $(datadir)/games/gbrainy
+datafiles = $(datadir)/games/gbrainy
 
 man_MANS = gbrainy.6
 
@@ -61,6 +61,11 @@ themes_DATA = \
 	themes/classic_background.svg \
 	themes/notebook_background.svg
 
+sounds_files = 			\
+	sounds/right.oga	\
+	sounds/wrong.oga
+
+
 install-data-local:
 	@-$(mkinstalldirs) $(DESTDIR)$(hicolordir)/scalable/apps
 	$(INSTALL_DATA) $(srcdir)/app-graphics/gbrainy.svg $(DESTDIR)$(hicolordir)/scalable/apps/gbrainy.svg
@@ -70,18 +75,21 @@ install-data-local:
 	$(INSTALL_DATA) $(srcdir)/app-graphics/gbrainy.png $(DESTDIR)$(hicolordir)/32x32/apps/gbrainy.png
 	@-$(mkinstalldirs) $(DESTDIR)$(hicolordir)/48x48/apps
 	$(INSTALL_DATA) $(srcdir)/app-graphics/gbrainy48.png $(DESTDIR)$(hicolordir)/48x48/apps/gbrainy.png
-	@-$(mkinstalldirs) $(DESTDIR)$(images)
-	$(INSTALL_DATA) $(srcdir)/verbal_analogies.xml $(DESTDIR)$(images)/verbal_analogies.xml
-	$(INSTALL_DATA) $(srcdir)/games.xml $(DESTDIR)$(images)/games.xml
-	$(INSTALL_DATA) $(srcdir)/game-graphics/clock.svg $(DESTDIR)$(images)/clock.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/family.svg $(DESTDIR)$(images)/family.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/password.svg $(DESTDIR)$(images)/password.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/tennis.svg $(DESTDIR)$(images)/tennis.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/father_son.svg $(DESTDIR)$(images)/father_son.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/money.svg $(DESTDIR)$(images)/money.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/box.svg $(DESTDIR)$(images)/box.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/dartboard.svg $(DESTDIR)$(images)/dartboard.svg
-	$(INSTALL_DATA) $(srcdir)/game-graphics/horses_men.svg $(DESTDIR)$(images)/horses_men.svg
+	@-$(mkinstalldirs) $(DESTDIR)$(datafiles)
+	$(INSTALL_DATA) $(srcdir)/verbal_analogies.xml $(DESTDIR)$(datafiles)/verbal_analogies.xml
+	$(INSTALL_DATA) $(srcdir)/games.xml $(DESTDIR)$(datafiles)/games.xml
+	$(INSTALL_DATA) $(srcdir)/game-graphics/clock.svg $(DESTDIR)$(datafiles)/clock.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/family.svg $(DESTDIR)$(datafiles)/family.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/password.svg $(DESTDIR)$(datafiles)/password.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/tennis.svg $(DESTDIR)$(datafiles)/tennis.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/father_son.svg $(DESTDIR)$(datafiles)/father_son.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/money.svg $(DESTDIR)$(datafiles)/money.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/box.svg $(DESTDIR)$(datafiles)/box.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/dartboard.svg $(DESTDIR)$(datafiles)/dartboard.svg
+	$(INSTALL_DATA) $(srcdir)/game-graphics/horses_men.svg $(DESTDIR)$(datafiles)/horses_men.svg
+	$(INSTALL_DATA) $(srcdir)/sounds/right.oga $(DESTDIR)$(datafiles)/right.oga
+	$(INSTALL_DATA) $(srcdir)/sounds/wrong.oga $(DESTDIR)$(datafiles)/wrong.oga
+
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/icons/hicolor
 
@@ -95,7 +103,7 @@ install-data-hook:
 	fi
 
 uninstall-hook:
-	rm -f $(DESTDIR)$(images)/verbal_analogies.xml
+	rm -f $(DESTDIR)$(datafiles)/verbal_analogies.xml
 	rm -f $(DESTDIR)$(hicolordir)/48x48/apps/gbrainy.png
 	rm -f $(DESTDIR)$(hicolordir)/32x32/apps/gbrainy.png
 	rm -f $(DESTDIR)$(hicolordir)/16x16/apps/gbrainy.png
@@ -106,4 +114,4 @@ noinst_DATA =
 
 DISTCLEANFILES = $(desktop_files)
 
-EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) gbrainy.pc.in
+EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) $(sounds_files) gbrainy.pc.in

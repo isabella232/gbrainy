@@ -42,6 +42,9 @@ namespace gbrainy.Core.Platform
 		[DllImport("libgtk-win32-2.0-0.dll")]
 		static extern unsafe bool gtk_show_uri(IntPtr screen, IntPtr uri, uint timestamp, out IntPtr error);
 
+		[DllImport ("libcanberra-gtk.so")]
+		static extern void ca_gtk_play_for_widget (IntPtr widget, uint id, string name1, string prop1, string name2, string prop2, IntPtr nil);
+
 		/* Taken from locale.h  */
 		[StructLayout (LayoutKind.Sequential,  Pack = 1, Size = 68)]
 		struct lconv
@@ -111,6 +114,17 @@ namespace gbrainy.Core.Platform
 			GLib.Marshaller.Free (native_uri);
 			if (error != IntPtr.Zero) throw new GLib.GException (error);
 			return ret;
+		}
+
+		public static void PlaySound(IntPtr widget, string filename)
+		{
+			try {
+				ca_gtk_play_for_widget (widget, 0, "media.name", filename,
+					"media.filename", filename,  IntPtr.Zero);
+			}
+			catch (Exception e) {
+				Console.WriteLine ("Unix.PlaySound. Error {0}", e);
+			}
 		}
 	}
 }

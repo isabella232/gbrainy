@@ -39,6 +39,7 @@ namespace gbrainy.Clients.Classical.Dialogs
 		[GtkBeans.Builder.Object] Gtk.ComboBox themes_combobox;
 		[GtkBeans.Builder.Object] Gtk.CheckButton englishcheckbutton;
 		[GtkBeans.Builder.Object] Gtk.CheckButton loadextensionscheckbutton;
+		[GtkBeans.Builder.Object] Gtk.CheckButton usesoundscheckbutton;
 
 		const int COLUMN_VALUE = 1;
 		PlayerHistory history;
@@ -53,6 +54,7 @@ namespace gbrainy.Clients.Classical.Dialogs
 			colorblindcheckbutton.Active = Preferences.Get <bool> (Preferences.ColorBlindKey);
 			englishcheckbutton.Active = Preferences.Get <bool> (Preferences.EnglishKey);
 			loadextensionscheckbutton.Active = Preferences.Get <bool> (Preferences.LoadPlugginsKey);
+			usesoundscheckbutton.Active = Preferences.Get <bool> (Preferences.SoundsKey);
 
 			switch ((GameDifficulty) Preferences.Get <int> (Preferences.DifficultyKey)) {
 			case GameDifficulty.Easy:
@@ -133,6 +135,7 @@ namespace gbrainy.Clients.Classical.Dialogs
 			Preferences.Set <bool> (Preferences.ColorBlindKey, colorblindcheckbutton.Active);
 			Preferences.Set <bool> (Preferences.EnglishKey, englishcheckbutton.Active);
 			Preferences.Set <bool> (Preferences.LoadPlugginsKey, loadextensionscheckbutton.Active);
+			Preferences.Set <bool> (Preferences.SoundsKey, usesoundscheckbutton.Active);
 
 			TreeIter iter;
 			themes_combobox.GetActiveIter (out iter);

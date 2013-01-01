@@ -425,9 +425,13 @@ namespace gbrainy.Clients.Classical
 
 			correct = session.ScoreGame (answer_entry.Text);
 			if (correct)
+			{
 				answer = Translations.GetString ("Congratulations.");
+			}
 			else
+			{
 				answer = Translations.GetString ("Incorrect answer.");
+			}			
 
 			session.EnableTimer = false;
 			answer_entry.Text = String.Empty;
@@ -440,6 +444,11 @@ namespace gbrainy.Clients.Classical
 			ActiveInputControls (true);
 			next_button.GrabFocus ();
 			drawing_area.QueueDraw ();
+
+			if (Preferences.Get <bool> (Preferences.SoundsKey))
+			{
+				Unix.PlaySound(app_window.Handle, System.IO.Path.Combine(Defines.DATA_DIR, correct ? "right.oga" : "wrong.oga"));
+			}
 		}
 
 		void OnQuit (object sender, EventArgs args)
