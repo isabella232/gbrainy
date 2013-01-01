@@ -349,14 +349,25 @@
 
 	<analogy>
 		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
-                <!-- Translator: As a noun -->
+		<!-- Translator: As a noun -->
 		<_answer correct ="yes">Necklace</_answer>
 		<_answer>Candelabra</_answer>
 		<_answer>Lantern</_answer>
 		<_answer>Lamp</_answer>
 		<_rationale>It is the only one that does not produce light.</_rationale>
 	</analogy>
-   
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<!-- Translator: As a noun -->
+		<_answer>Shield</_answer>
+		<_answer>Helmet</_answer>
+		<!-- Translator: As a noun -->
+		<_answer>Armor</_answer>
+		<_answer correct = "yes">Crossbow</_answer>
+		<_rationale>It is the only one that is not used for protection.</_rationale>
+	</analogy>
+
 	<!--- Pair of words options -->
 
 	<analogy>
@@ -546,6 +557,17 @@
 		<_answer>Cautious</_answer>
 		<_answer>Dubious</_answer>
 	</analogy>
+
+	<analogy>
+		<!-- Translator: compass as the instrument used for finding direction -->
+		<_question type = "PairOfWordsOptions">thermometer / temperature | compass</_question>
+		<_answer correct ="yes">Direction</_answer>
+		<_answer>Elevation</_answer>
+		<_answer>Position</_answer>
+		<_answer>Area</_answer>
+		<_rationale>The first word is the instrument and the second what it measures.</_rationale>
+	</analogy>
+
 
 	<!--- Pair of words compare  -->
 
