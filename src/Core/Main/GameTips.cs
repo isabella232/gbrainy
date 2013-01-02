@@ -35,7 +35,7 @@ namespace gbrainy.Core.Main
 		}
 	
 		public int Count {
-			get { return 15; }
+			get { return 16; }
 		}
 
 		// Gets a random tip from the list
@@ -85,6 +85,8 @@ namespace gbrainy.Core.Main
 				return Translations.GetString ("Think of breaking down every problem into simpler components.");
 			case 14:
 				return Translations.GetString ("When answering verbal analogies pay attention to the verb tense.");
+			case 15:
+				return Translations.GetString ("When you go to stores, try to perform calculations without the use of calculator.");
 			default:
 				throw new InvalidOperationException ();
 			}
