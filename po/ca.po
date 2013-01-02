@@ -1,5 +1,5 @@
 # This file is distributed under the same license as the PACKAGE package.
-# (c) 2007-2012 Jordi Mas i Hernandez
+# (c) 2007-2013 Jordi Mas i Hernandez
 # Correccions per Gil Forcada, Sílvia Miranda, David Planella, Albert Juhé, Siegfried-Angel Gevatter i Pau Iranzo.
 # N.T.:
 # - Segons el context traduïm "Game" com a joc o partida.
@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-01 23:21+0100\n"
-"PO-Revision-Date: 2012-06-09 20:25+0200\n"
+"POT-Creation-Date: 2013-01-02 23:26+0100\n"
+"PO-Revision-Date: 2013-01-02 23:27+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
 "Language: ca\n"
@@ -3043,11 +3043,18 @@ msgstr "Penseu en com dividir cada problema en parts més simples."
 msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "Quan respongueu a analogies verbals pareu atenció al temps verbal."
 
+#: ../src/Core/Main/GameTips.cs:89
+msgid ""
+"When you go to stores, try to perform calculations without the use of "
+"calculator."
+msgstr ""
+"Quan vagi a botigues, provi de realitzar càlculs sense utilitzar una calculadora."
+
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
 msgstr "Memoritzeu els objectes de sota en el temps donat"
 
-#: ../src/Core/Main/Memory.cs:220
+#: ../src/Core/Main/Memory.cs:225
 msgid "Time left"
 msgstr "Temps restant"
 
@@ -3463,25 +3470,25 @@ msgid "have a ratio of {0}:{1}"
 msgstr "tenen una ràtio de {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-msgid "Selected Numbers"
+msgid "Selected numbers"
 msgstr "Nombres seleccionats"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the sum all the numbers greater than "
+"In the list of numbers below, what is the sum of the numbers greater than "
 "{0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de nombres de sota, quina és la suma de tots els nombres més "
+"A la llista de nombres de sota, quina és la suma dels nombres més "
 "grans que {0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the product all the numbers greater "
+"In the list of numbers below, what is the product of the numbers greater "
 "than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de nombres de sota, quin és el producte de tots els nombres més "
+"A la llista de nombres de sota, quin és el producte dels nombres més "
 "grans que {0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
@@ -5195,6 +5202,18 @@ msgstr ""
 "Quants punts de color {0} hi havia a la imatge prèvia? Responeu utilitzant "
 "números."
 
+#: ../src/Games/Memory/MemoryFaces.cs:52
+msgid "Memorize faces"
+msgstr "Memoritzeu cares"
+
+#: ../src/Games/Memory/MemoryFaces.cs:57
+msgid ""
+"In which cell is the other face like the one shown below? Answer the cell "
+"number."
+msgstr ""
+"En quina cel·la es troba l'altra cara com la mostrada a continuació? "
+"Responeu amb el nombre de la cel·la."
+
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
 msgstr "Memoritzeu fets"
@@ -5308,18 +5327,6 @@ msgstr ""
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
 msgstr "Llista d'imatges mostrades previàment"
-
-#: ../src/Games/Memory/MemoryFigures.cs:54
-msgid "Memorize figures"
-msgstr "Memoritzeu figures"
-
-#: ../src/Games/Memory/MemoryFigures.cs:59
-msgid ""
-"In which cell is the other figure like the one shown below? Answer the cell "
-"number."
-msgstr ""
-"En quina cel·la es troba l'altra figura com la mostrada a continuació? "
-"Responeu amb el nombre de la cel·la."
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
@@ -5988,3 +5995,4 @@ msgstr "_Següent"
 #: ../src/Clients/Classical/gbrainy.ui.h:28
 msgid "_Tip"
 msgstr "P_ista"
+
