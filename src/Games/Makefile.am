@@ -55,7 +55,7 @@ CSDISTFILES =  \
 		$(srcdir)/Memory/MemoryColouredText.cs			\
 		$(srcdir)/Memory/MemoryCountDots.cs			\
 		$(srcdir)/Memory/MemoryFacts.cs				\
-		$(srcdir)/Memory/MemoryFigures.cs				\
+		$(srcdir)/Memory/MemoryFaces.cs				\
 		$(srcdir)/Memory/MemoryFiguresAndText.cs			\
 		$(srcdir)/Memory/MemoryFiguresNumbers.cs			\
 		$(srcdir)/Memory/MemoryIndications.cs			\
@@ -86,7 +86,13 @@ $(top_srcdir)/data/game-graphics/train_left.svg \
 $(top_srcdir)/data/game-graphics/tv_set.svg \
 $(top_srcdir)/data/game-graphics/bucket.svg  \
 $(top_srcdir)/data/game-graphics/people_table.svg \
-$(top_srcdir)/data/game-graphics/shop.svg
+$(top_srcdir)/data/game-graphics/shop.svg \
+$(top_srcdir)/data/game-graphics/faceboy1.svg \
+$(top_srcdir)/data/game-graphics/faceboy2.svg \
+$(top_srcdir)/data/game-graphics/faceboy3.svg \
+$(top_srcdir)/data/game-graphics/facegirl1.svg \
+$(top_srcdir)/data/game-graphics/facegirl2.svg \
+$(top_srcdir)/data/game-graphics/facegirl3.svg
 
 
 REFS =  \

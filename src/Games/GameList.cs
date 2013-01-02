@@ -101,7 +101,7 @@ namespace gbrainy.Games
 			typeof (MemoryColouredText),
 			typeof (MemoryWords),
 			typeof (MemoryCountDots),
-			typeof (MemoryFigures),
+			typeof (MemoryFaces),
 			typeof (MemoryIndications),
 			typeof (MemoryNumbers),
 			typeof (MemoryFacts),

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2007-2008 Jordi Mas i Hernàndez <jmas@softcatala.org>
+ * Copyright (C) 2007-2012 Jordi Mas i Hernàndez <jmas@softcatala.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -25,7 +25,7 @@ using gbrainy.Core.Toolkit;
 
 namespace gbrainy.Games.Memory
 {
-	public class MemoryFigures : Core.Main.Memory
+	public class MemoryFaces : Core.Main.Memory
 	{
 		private ArrayListIndicesRandom figures;
 		private int rows;
@@ -33,30 +33,32 @@ namespace gbrainy.Games.Memory
 		private const double start_x_ques = 0.25;
 		private const double start_x_ans = 0.25;
 		private const double start_y = 0.15;
-		private const double figure_size = 0.08;
+		private const double figure_size = 0.15;
 		private double rect_w, rect_h;
 		private int question_pos, question_answer;
 		private int figures_active;
 
-		public enum FigureType
+		public enum Face
 		{
-			Triangle,
-			Rectangle,
-			Diamond,
-			Cercle,
-			TriangleWithLine,
-			RectangleWithLine,
-			DiamondWithLine,
-			CercleWithLine,
+			FaceBoy1,
+			FaceBoy2,
+			FaceBoy3,
+			FaceGirl1,
+			FaceGirl2,
+			FaceGirl3,
 		}
 
 		public override string Name {
-			get {return Translations.GetString ("Memorize figures");}
+			get {return Translations.GetString ("Memorize faces");}
 		}
 
 		public override string MemoryQuestion {
 			get { 
-				return Translations.GetString ("In which cell is the other figure like the one shown below? Answer the cell number." );}
+				return Translations.GetString ("In which cell is the other face like the one shown below? Answer the cell number." );}
+		}
+
+		protected override bool SupportsShading {
+			get { return false; }
 		}
 
 		protected override void Initialize ()
@@ -65,17 +67,14 @@ namespace gbrainy.Games.Memory
 
 			switch (CurrentDifficulty) {
 			case GameDifficulty.Easy:
+			case GameDifficulty.Medium:
 				figures_active = 4;
 				rows = columns = 3;
 				break;
-			case GameDifficulty.Medium:
+			case GameDifficulty.Master:
 				figures_active = 6;
 				rows = 3;
 				columns = 4;			
-				break;
-			case GameDifficulty.Master:
-				figures_active = 8;
-				columns = rows = 4;
 				break;
 			}
 
@@ -132,7 +131,7 @@ namespace gbrainy.Games.Memory
 					drawable_area.Data = fig;
 					drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
 					{
-						DrawFigure (e.Context, 0, 0, (FigureType) e.Data);
+						DrawFigure (e.Context, 0, 0, (Face) e.Data);
 					};
 
 				} else
@@ -182,7 +181,7 @@ namespace gbrainy.Games.Memory
 				if (fig >= figures_active) 
 					fig -= figures_active;
 
-				DrawFigure (gr, x, y, (FigureType) fig);
+				DrawFigure (gr, x, y, (Face) fig);
 
 				if (col >= columns) {
 					col = 0;
@@ -194,56 +193,37 @@ namespace gbrainy.Games.Memory
 			}
 		}
 
-		private void DrawFigure (CairoContextEx gr, double x, double y, FigureType fig)
+		private void DrawFigure (CairoContextEx gr, double x, double y, Face fig)
 		{
 			double space_x, space_y;
+			string image;
 
 			space_x = (rect_w - figure_size) / 2;
 			space_y = (rect_h - figure_size) / 2;
 
 			switch (fig) {
-			case FigureType.Triangle:
-				gr.DrawEquilateralTriangle (x + space_x, y + space_y, figure_size);
+			case Face.FaceBoy1:
+				image = "faceboy1.svg";
 				break;
-			case FigureType.Rectangle:
-				gr.Rectangle (x + space_x, y + space_y, figure_size, figure_size);
-				gr.Stroke ();
+			case Face.FaceBoy2:
+				image = "faceboy2.svg";
 				break;
-			case FigureType.Diamond:
-				gr.DrawDiamond (x + space_x, y + space_y, figure_size);
+			case Face.FaceBoy3:
+				image = "faceboy3.svg";
 				break;
-			case FigureType.Cercle:
-				gr.Arc (x + space_x + figure_size / 2, y + space_y + figure_size / 2, figure_size / 2, 0, 2 * Math.PI);	
-				gr.Stroke ();
+			case Face.FaceGirl1:
+				image = "facegirl1.svg";
 				break;
-			case FigureType.TriangleWithLine:
-				gr.DrawEquilateralTriangle (x + space_x, y + space_y, figure_size);
-				gr.MoveTo (x + space_x + figure_size / 2, y + space_y);
-				gr.LineTo (x + space_x + figure_size / 2, y + space_y + figure_size);
-				gr.Stroke ();
+			case Face.FaceGirl2:
+				image = "facegirl2.svg";
 				break;
-			case FigureType.RectangleWithLine:
-				gr.Rectangle (x + space_x, y + space_y, figure_size, figure_size);
-				gr.MoveTo (x + space_x, y + space_y);
-				gr.LineTo (x + space_x + figure_size, y + space_y + figure_size);
-				gr.MoveTo (x + space_x + figure_size, y + space_y);
-				gr.LineTo (x + space_x, y + space_y + figure_size);
-				gr.Stroke ();
+			case Face.FaceGirl3:
+				image = "facegirl3.svg";
 				break;
-			case FigureType.DiamondWithLine:
-				gr.DrawDiamond (x + space_x, y + space_y, figure_size);
-				gr.MoveTo (x + space_x + figure_size / 2, y + space_y);
-				gr.LineTo (x + space_x + figure_size / 2, y + space_y + figure_size);
-				gr.Stroke ();
-				break;
-			case FigureType.CercleWithLine:
-				gr.Arc (x + space_x + figure_size / 2, y + space_y + figure_size / 2, figure_size / 2, 0, 2 * Math.PI);
-				gr.Stroke ();
-				gr.MoveTo (x + space_x + figure_size / 2, y + space_y);
-				gr.LineTo (x + space_x + figure_size / 2, y + space_y + figure_size);
-				gr.Stroke ();
-				break;
+			default:
+				throw new InvalidOperationException("Invalid value");
 			}
+			gr.DrawImageFromAssembly (image, x + space_x, y + space_y, figure_size, figure_size);
 		}
 
 		private void DrawGrid (CairoContextEx gr, double x, double y)

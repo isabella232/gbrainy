@@ -53,7 +53,13 @@ analogies_DATA = \
 	game-graphics/dartboard.svg \
 	game-graphics/horses_men.svg \
 	game-graphics/lever.svg \
-	game-graphics/people_table.svg
+	game-graphics/people_table.svg \
+	game-graphics/faceboy1.svg \
+	game-graphics/faceboy2.svg \
+	game-graphics/faceboy3.svg \
+	game-graphics/facegirl1.svg \
+	game-graphics/facegirl2.svg \
+	game-graphics/facegirl3.svg
 
 
 themes_DATA = \

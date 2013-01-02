@@ -66,6 +66,11 @@ namespace gbrainy.Core.Main
 			}
 		}
 
+		// Shading does not work well when we have images
+		protected virtual bool SupportsShading {
+			get { return true; }
+		}
+
 		protected override void Initialize ()
 		{
 			if (Preferences.Get <bool> (Preferences.MemQuestionWarnKey) == false || 
@@ -169,7 +174,7 @@ namespace gbrainy.Core.Main
 			
 			InitDraw (gr, area_width, area_height, rtl);
 
-			if (shade) {
+			if (SupportsShading && shade) {
 				if (alpha > 0)
 					alpha -= (1 / (double) shading_time);
 
