@@ -6,6 +6,7 @@ pixmap_DATA = app-graphics/gbrainy.png \
 
 analogiesdir = $(datadir)/games/gbrainy
 themesdir = $(datadir)/games/gbrainy
+soundsdir = $(datadir)/games/gbrainy
 
 hicolordir = $(datadir)/icons/hicolor
 datafiles = $(datadir)/games/gbrainy
@@ -67,8 +68,8 @@ themes_DATA = \
 	themes/classic_background.svg \
 	themes/notebook_background.svg
 
-sounds_files = 			\
-	sounds/right.oga	\
+sounds_DATA = \
+	sounds/right.oga \
 	sounds/wrong.oga
 
 
@@ -120,4 +121,4 @@ noinst_DATA =
 
 DISTCLEANFILES = $(desktop_files)
 
-EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) $(sounds_files) gbrainy.pc.in
+EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) $(sounds_DATA) gbrainy.pc.in
