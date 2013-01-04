@@ -107,13 +107,24 @@ namespace gbrainy.Core.Platform
 
 		public static unsafe bool ShowUri (Gdk.Screen screen, string uri, uint timestamp)
 		{
-			IntPtr native_uri = GLib.Marshaller.StringToPtrGStrdup (uri);
-			IntPtr error = IntPtr.Zero;
-			bool raw_ret = gtk_show_uri(screen == null ? IntPtr.Zero : screen.Handle, native_uri, timestamp, out error);
-			bool ret = raw_ret;
-			GLib.Marshaller.Free (native_uri);
-			if (error != IntPtr.Zero) throw new GLib.GException (error);
-			return ret;
+
+			bool rslt = false;
+
+			try {
+				IntPtr native_uri = GLib.Marshaller.StringToPtrGStrdup (uri);
+				IntPtr error = IntPtr.Zero;
+				rslt = gtk_show_uri(screen == null ? IntPtr.Zero : screen.Handle, native_uri, timestamp, out error);
+				GLib.Marshaller.Free (native_uri);
+
+				if (error != IntPtr.Zero) 
+					throw new GLib.GException (error);
+			}
+
+			catch (Exception e) {
+				Console.WriteLine ("Unix.ShowUri. Error {0}", e);
+			}
+
+			return rslt;
 		}
 
 		public static void PlaySound(IntPtr widget, string filename)
