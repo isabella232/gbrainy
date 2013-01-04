@@ -21,6 +21,7 @@ using System;
 using Cairo;
 
 using gbrainy.Core.Libraries;
+using gbrainy.Core.Services;
 
 namespace gbrainy.Core.Main
 {
@@ -140,24 +141,16 @@ namespace gbrainy.Core.Main
 			const double radian = Math.PI / 180;
 			double radius = size / 2;
 			double x0, y0;
-			int num, degrees;
+			int degrees;
+			string dir;
+			IConfiguration config;
 
-			Arc (x, y, radius, 0, 2 * Math.PI);
-			Stroke ();
-			for (degrees = 0; degrees < 360; degrees+= 30) {
-				x0 = radius * Math.Cos (degrees * radian);
-				y0 = radius * Math.Sin (degrees * radian);
-				 // Small lines
-				MoveTo (x + 0.9 * x0, y + 0.9 * y0);
-				LineTo (x + x0, y + y0);
-				Stroke ();
-				// Numbers
-				num = (degrees / 30) + 3;
-				if (num > 12) num = num - 12;
+			config = ServiceLocator.Instance.GetService <IConfiguration> ();
+			dir = config.Get <string> (ConfigurationKeys.GamesGraphics);
+			DrawImageFromFile (System.IO.Path.Combine (dir, "clock.svg"), x, y, size, size);
 
-				DrawTextCentered (x + x0 * 0.75,  y + y0 * 0.75, num.ToString ());
-				Stroke ();
-			}
+			x += size / 2;
+			y += size / 2;
 
 			if (hand_large >=1 && hand_large <= 12 ) {
 				// Hand Large
@@ -165,7 +158,7 @@ namespace gbrainy.Core.Main
 				x0 = radius * Math.Cos (degrees * radian);
 				y0 = radius * Math.Sin (degrees * radian);
 				MoveTo (x, y);
-				LineTo (x + x0 * 0.55, y + y0 * 0.55);
+				LineTo (x + x0 * 0.45, y + y0 * 0.45);
 				Stroke ();
 			}
 
@@ -175,7 +168,7 @@ namespace gbrainy.Core.Main
 				x0 = radius * Math.Cos (degrees * radian);
 				y0 = radius * Math.Sin (degrees * radian);
 				MoveTo (x, y);
-				LineTo (x + x0 * 0.4, y + y0 * 0.4);
+				LineTo (x + x0 * 0.30, y + y0 * 0.30);
 				Stroke ();
 			}
 		}

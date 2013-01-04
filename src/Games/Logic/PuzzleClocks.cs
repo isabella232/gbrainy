@@ -100,7 +100,7 @@ namespace gbrainy.Games.Logic
 
 			drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
 			{
-				DrawClock (e.Context, 0.2, 0.16, handles[0], handles[1], true);
+				e.Context.DrawClock (0.05, 0, figure_size, handles[0], handles[1]);
 				e.Context.DrawTextCentered (drawable_area.Width / 2, 0.36, Answer.GetFigureName (0));
 				e.Context.Stroke ();
 			};
@@ -111,7 +111,7 @@ namespace gbrainy.Games.Logic
 
 			drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
 			{
-				DrawClock (e.Context, 0.2, 0.16, handles[2], handles[3], true);
+				e.Context.DrawClock (0.05, 0, figure_size, handles[2], handles[3]);
 				e.Context.MoveTo (0.03, 0.29);
 				e.Context.DrawTextCentered (drawable_area.Width / 2, 0.36, Answer.GetFigureName (1));
 				e.Context.Stroke ();
@@ -127,7 +127,7 @@ namespace gbrainy.Games.Logic
 
 			drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
 			{
-				DrawClock (e.Context, 0.2, 0.16, handles[4], handles[5], true);
+				e.Context.DrawClock (0.05, 0, figure_size, handles[4], handles[5]);
 				e.Context.DrawTextCentered (drawable_area.Width / 2, 0.36, Answer.GetFigureName (2));
 				e.Context.Stroke ();
 			};
@@ -138,7 +138,7 @@ namespace gbrainy.Games.Logic
 
 			drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
 			{
-				DrawClock (e.Context, 0.2, 0.16, handles[6], handles[7], Answer.Draw == true);
+				e.Context.DrawClock (0.05, 0, figure_size, handles[6], Answer.Draw == true ? handles[7] : 0);
 				e.Context.MoveTo (0.03, 0.29);
 				e.Context.DrawTextCentered (drawable_area.Width / 2, 0.36, Answer.GetFigureName (3));
 				e.Context.Stroke ();
@@ -161,48 +161,6 @@ namespace gbrainy.Games.Logic
 			Console.WriteLine ("t1 {0}", dt1);
 			Console.WriteLine ("t2 {0}", dt2);
 			Console.WriteLine ("Time diff {0} from 1st to 2nd", dt2-dt1);*/
-
-		}
-
-		static void DrawClock (CairoContextEx gr, double x, double y, int hand_short, int hand_large, bool draw_large)
-		{
-			const double radius = figure_size / 2;
-			double x0, y0;
-			int num, degrees;
-
-			gr.Arc (x, y, radius, 0, 2 * Math.PI);
-			gr.Stroke ();
-			for (degrees = 0; degrees < 360; degrees+= 30) {
-				x0 = radius * Math.Cos (degrees * radian);
-				y0 = radius * Math.Sin (degrees * radian);
-				 // Small lines
-				gr.MoveTo (x + 0.9 * x0, y + 0.9 * y0);
-				gr.LineTo (x + x0, y + y0);
-				gr.Stroke ();
-				// Numbers
-				num = (degrees / 30) + 3;
-				if (num > 12) num = num - 12;
-
-				gr.DrawTextCentered (x + x0 * 0.75,  y + y0 * 0.75, num.ToString ());
-				gr.Stroke ();
-			}
-
-			if (draw_large) {
-				// Hand Large
-				degrees = (hand_large - 3) * 30;
-				x0 = radius * Math.Cos (degrees * radian);
-				y0 = radius * Math.Sin (degrees * radian);
-				gr.MoveTo (x, y);
-				gr.LineTo (x + x0 * 0.55, y + y0 * 0.55);
-				gr.Stroke ();
-			}
-			// Hand Short
-			degrees = (hand_short - 3) * 30;
-			x0 = radius * Math.Cos (degrees * radian);
-			y0 = radius * Math.Sin (degrees * radian);
-			gr.MoveTo (x, y);
-			gr.LineTo (x + x0 * 0.4, y + y0 * 0.4);
-			gr.Stroke ();
 		}
 	}
 }

@@ -25,7 +25,7 @@ namespace gbrainy.Games.Logic
 {
 	public class PuzzleTimeNow : Game
 	{
-		const double figure_size = 0.3;
+		const double figure_size = 0.5;
 		int after;
 		DateTime position_a, position_b, ans, sample;
 
@@ -90,10 +90,10 @@ namespace gbrainy.Games.Logic
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
 		{
 			base.Draw (gr, area_width, area_height, rtl);
-			gr.DrawClock (DrawAreaX + 0.4, DrawAreaY + 0.4, figure_size,
-				0, 0 /* No hands */);
 
-			gr.DrawTextCentered (0.5, DrawAreaY + 0.3 + figure_size, Translations.GetString ("Sample clock"));
+			gr.DrawClock (DrawAreaX + 0.15, DrawAreaY + 0.1, figure_size,0, 0 /* No hands */);
+			gr.SetPangoLargeFontSize ();
+			gr.DrawTextCentered (0.5, DrawAreaY + 0.2 + figure_size, Translations.GetString ("Sample clock"));
 		}
 	}
 }
