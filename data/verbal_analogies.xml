@@ -406,6 +406,7 @@
 		<_answer>Accordion</_answer>
 		<!-- Translator: As a noun -->
 		<_answer correct = "yes">Violin</_answer>
+		<!-- Translator: 'keys' as the ones found in a keyboard -->
 		<_rationale>It is the only instrument that does not have keys.</_rationale>
 	</analogy>
 
