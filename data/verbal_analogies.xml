@@ -368,6 +368,47 @@
 		<_rationale>It is the only one that is not used for protection.</_rationale>
 	</analogy>
 
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer>Monolith</_answer>
+		<_answer>Granite</_answer>
+		<_answer>Rock</_answer>
+		<!-- Translator: As a noun -->
+		<_answer correct = "yes">Tree</_answer>
+		<_rationale>It is the only one that is not related to rocks.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer>Monolith</_answer>
+		<_answer>Granite</_answer>
+		<_answer>Rock</_answer>
+		<!-- Translator: As a noun -->
+		<_answer correct = "yes">Tree</_answer>
+		<_rationale>It is the only one that is not related to rocks.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<!-- Translator: As a noun -->
+		<_answer>Carrot</_answer>
+		<_answer>Beet</_answer>
+		<_answer>Radish</_answer>
+		<_answer correct = "yes">Tomato</_answer>
+		<_rationale>It is the only one that does not have roots.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<!-- Translator: Organ as a musical instrument  -->
+		<_answer>Organ</_answer>
+		<_answer>Piano</_answer>
+		<_answer>Accordion</_answer>
+		<!-- Translator: As a noun -->
+		<_answer correct = "yes">Violin</_answer>
+		<_rationale>It is the only instrument that does not have keys.</_rationale>
+	</analogy>
+
 	<!--- Pair of words options -->
 
 	<analogy>
