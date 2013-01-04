@@ -33,7 +33,7 @@ namespace gbrainy.Games.Calculation
 		int []numbers;
 
 		public override string Name {
-			get {return Translations.GetString ("Consecutive Sum");}
+			get {return Translations.GetString ("Consecutive sum");}
 		}
 
 		public override GameTypes Type {

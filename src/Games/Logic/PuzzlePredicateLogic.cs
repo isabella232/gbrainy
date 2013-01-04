@@ -131,7 +131,7 @@ namespace gbrainy.Games.Logic
 		}
 
 		public override string Name {
-			get {return Translations.GetString ("Predicate Logic");}
+			get {return Translations.GetString ("Predicate logic");}
 		}
 
 		public override string Question {

@@ -11,7 +11,7 @@
 -->
 <games>
 	<game>
-		<_name>Clock Rotation</_name>
+		<_name>Clock rotation</_name>
 		<type>Logic</type>
 		<difficulty>All</difficulty>
 		<variables>
