@@ -175,12 +175,6 @@ if test "x$enable_debug" != "xno" ; then
 	CSC_DEFINES="$CSC_DEFINES -debug -d:DEBUG"
 fi
 
-dnl -- Enable web client build
-
-AC_ARG_ENABLE(enable_webclient, AC_HELP_STRING([--enable-webclient], [Enable Web client build]),,enable_webclient=yes)
-
-AM_CONDITIONAL(ENABLE_WEBCLIENT, test "x$enable_webclient" != "xno")
-
 dnl --- Assembly information
 
 BUILD_TIME=`date +"%F %T %Z"`
@@ -222,7 +216,6 @@ tools/Makefile
 src/Core/Makefile
 src/Games/Makefile
 src/Clients/Classical/Makefile
-src/Clients/WebForms/Makefile
 tests/Makefile
 data/Makefile
 data/gbrainy.pc
@@ -234,5 +227,5 @@ echo "Mono-addins:		${enable_addins_sharp}"
 echo "NUnit:			${enable_tests}"
 echo "Debug enabled:		${enable_debug}"
 echo "Mono.CSharp static:	${csharp_static}"
-echo "Enable Webclient:	${enable_webclient}"
+
 
