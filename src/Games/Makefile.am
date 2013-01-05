@@ -24,6 +24,7 @@ CSDISTFILES =  \
 		$(srcdir)/Logic/PuzzleFourSided.cs			\
 		$(srcdir)/Logic/PuzzleHandshakes.cs			\
 		$(srcdir)/Logic/PuzzleLargerShape.cs			\
+		$(srcdir)/Logic/PuzzleLargestDiameter.cs		\
 		$(srcdir)/Logic/PuzzleLines.cs				\
 		$(srcdir)/Logic/PuzzleGridCircles.cs			\
 		$(srcdir)/Logic/PuzzleGridNumbers.cs			\

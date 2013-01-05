@@ -76,6 +76,7 @@ namespace gbrainy.Games
 			typeof (PuzzleTrains),
 			typeof (PuzzleRelatedNumbers),
 			typeof (PuzzleFindTheNumber),
+			typeof (PuzzleLargestDiameter)
 		};
 
 		static Type[] CalculationInternal = new Type[] 
