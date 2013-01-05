@@ -97,7 +97,7 @@ PKG_CHECK_MODULES(GBRAINY, gtk-sharp-2.0 >= $GTKSHARP_REQUIRED)
 PKG_CHECK_MODULES(GBRAINY, libcanberra-gtk  >= $CANBERRA_GTK_REQUIRED)
 AC_SUBST(GBRAINY_LIBS)
 
-AC_ARG_ENABLE(addins, AC_HELP_STRING([--disable-addins], [Disable mono-addins support]), , enable_addins="yes")
+AC_ARG_ENABLE(addins, AC_HELP_STRING([--disable-addins], [Disable mono-addins support]), , enable_addins="no")
 
 enable_addins_sharp="${enable_addins}"
 
