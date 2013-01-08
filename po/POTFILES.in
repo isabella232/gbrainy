@@ -76,6 +76,7 @@ src/Games/Logic/PuzzleGridNumbers.cs
 src/Games/Logic/PuzzleHandshakes.cs
 src/Games/Logic/PuzzleLargerShape.cs
 src/Games/Logic/PuzzleLargestDiameter.cs
+src/Games/Logic/PuzzleLargestArea.cs
 src/Games/Logic/PuzzleLines.cs
 src/Games/Logic/PuzzleMissingPiece.cs
 src/Games/Logic/PuzzleMissingSlice.cs
