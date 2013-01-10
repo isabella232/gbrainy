@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-04 13:44+0100\n"
+"POT-Creation-Date: 2013-01-10 20:37+0100\n"
 "PO-Revision-Date: 2013-01-04 13:45+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
-msgid "Clock Rotation"
+msgid "Clock rotation"
 msgstr "Rotació del rellotge"
 
 #: ../data/games.xml.h:2
@@ -2513,13 +2513,174 @@ msgstr ""
 msgid "_Delete"
 msgstr "_Suprimeix"
 
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
+msgid "Custom Game"
+msgstr "Partida personalitzada"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "Select All"
+msgstr "Selecciona-ho tot"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+msgid "Unselect all"
+msgstr "Desselecciona-ho tot"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
+msgid "_Start"
+msgstr "_Inicia"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
+msgid "PDF export"
+msgstr "Exportació PDF"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid ""
+"This option allows to export a set of games in a PDF file. You can complete "
+"the puzzles without a computer."
+msgstr ""
+"Aquesta opció permet exportar un conjunt de jocs a un fitxer PDF per poder-"
+"hi jugar sense un ordinador."
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>Configuració general</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr "Omet jocs que usen colors"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Tipus de de jocs</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+msgid "Logic"
+msgstr "Lògica"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+msgid "Calculation"
+msgstr "Càlcul"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
+#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+msgid "Verbal"
+msgstr "Verbal"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Nivell de dificultat</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Easy"
+msgstr "Fàcil"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Medium"
+msgstr "Mitjà"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "Master"
+msgstr "Mestre"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Nombre de jocs</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+msgid "Total number of games:"
+msgstr "Nombre total de jocs:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Pàgines per cara:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b>Fitxer de sortida</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
+msgid "_Save"
+msgstr "_Desa"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:19
+msgid "Player's Game Session History"
+msgstr "Historial de partides del jugador"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
+msgid "Show:"
+msgstr "Mostra:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
+msgid "Preferences"
+msgstr "Preferències"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
+msgid "Skip games that use colors (for colorblind users)"
+msgstr "Omet jocs que usen colors (per a usuaris daltònics)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
+msgid "Force gbrainy to always use English language (ignore translations)"
+msgstr ""
+"Força al gbrainy a utilitzar sempre llengua anglesa (ignora les traduccions)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr "Cerca i carrega les extensions en iniciar"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
+msgid "Enable sounds"
+msgstr "Habilita el so"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+msgid "<b>Memory Games</b>"
+msgstr "<b>Jocs de memòria</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Time in seconds to memorize the challenge:"
+msgstr "Temps en segons per memoritzar el repte:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "Show a countdown message"
+msgstr "Mostra un missatge de compte enrere"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Historial de partides del jugador</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+msgid "Minimum number of played games to store the game session:"
+msgstr "Nombre mínim de jocs jugats per desar la partida:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+msgid "Maximum number of records in the player's game session history:"
+msgstr "Nombre màxim de jocs desats a l'historial de partides del jugador:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
+msgid "Delete Player's Game Session History"
+msgstr "Suprimeix l'historial de partides del jugador"
+
 #: ../src/Clients/Classical/gbrainy.cs:429
-#: ../src/Clients/WebForms/Game.aspx.cs:245
 msgid "Congratulations."
 msgstr "Enhorabona."
 
 #: ../src/Clients/Classical/gbrainy.cs:433
-#: ../src/Clients/WebForms/Game.aspx.cs:249
 msgid "Incorrect answer."
 msgstr "Resposta incorrecta."
 
@@ -2559,6 +2720,106 @@ msgstr "Reprèn"
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Temps d'iniciació {0}"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "P_artida"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "_Partida nova"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
+msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
+msgstr "Tots els jocs (lògica, càlcul mental, memòria i analogies verbals)"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:5
+msgid "Logic Puzzles Only"
+msgstr "Només trencaclosques lògics"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:6
+msgid "Mental Calculation Only"
+msgstr "Només càlcul mental"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Només entrenadors de memòria"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Només analogies verbals"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Partida personalitzada..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "_Fes una pausa a la partida"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:11
+msgid "_End Game"
+msgstr "_Finalitza la partida"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Exporta jocs a PDF per jugar fora de línia..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "_Visualitza"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:14
+msgid "Toolbar"
+msgstr "Barra d'eines"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Mostra"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:16
+msgid "Orientation"
+msgstr "Orientació"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:17
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:18
+msgid "Horizontal"
+msgstr "Horitzontal"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:20
+msgid "_Settings"
+msgstr "_Paràmetres"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Extensions"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "A_juda"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "_Continguts"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "Com ampliar la funcionalitat del gbrainy"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Resposta:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "_Següent"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
+msgid "_Tip"
+msgstr "P_ista"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:31
 msgid "Add-in Manager"
@@ -2777,9 +3038,7 @@ msgstr "En pausa"
 msgid "Play all the games"
 msgstr "Jugueu a tots els jocs"
 
-#. Toolbar
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:119
-#: ../src/Clients/WebForms/Game.aspx.cs:179
 msgid "All"
 msgstr "Tots"
 
@@ -2787,18 +3046,6 @@ msgstr "Tots"
 msgid "Play games that challenge your reasoning and thinking"
 msgstr ""
 "Jugueu a jocs que desafien les vostres habilitats de raonament i pensament"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
-msgid "Logic"
-msgstr "Lògica"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-msgid "Calculation"
-msgstr "Càlcul"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:129
 msgid "Play games that challenge your mental calculation skills"
@@ -2812,12 +3059,6 @@ msgstr "Memòria"
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:134
 msgid "Play games that challenge your short term memory"
 msgstr "Jugueu a jocs que desafien la vostra memòria a curt termini"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-msgid "Verbal"
-msgstr "Verbal"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:139
 msgid "Play games that challenge your verbal aptitude"
@@ -2833,17 +3074,8 @@ msgid "End the game and show score"
 msgstr "Finalitza la partida i mostra la puntuació"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#: ../src/Clients/WebForms/Game.aspx.cs:180
 msgid "End"
 msgstr "Finalitza"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:172
-msgid "Next Game"
-msgstr "Joc següent"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:173
-msgid "Answer"
-msgstr "Respondre"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -3383,7 +3615,7 @@ msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "El resultat de l'operació {0} / {1} és «{2}»."
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
-msgid "Consecutive Sum"
+msgid "Consecutive sum"
 msgstr "Suma consecutiva"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
@@ -4289,6 +4521,34 @@ msgstr ""
 "Quina forma més gran podeu fer combinant les dues primeres figures? Responeu "
 "{0}, {1}, {2} o {3}."
 
+#: ../src/Games/Logic/PuzzleLargestArea.cs:241
+msgid "Largest area"
+msgstr "L'àrea més gran"
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:246
+#, csharp-format
+msgid ""
+"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
+"{3}."
+msgstr "Quina de les figures té l'àrea més gran? Responeu {0}, {1}, {2} o {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
+msgid "Largest diameter"
+msgstr "El diàmetre més gran"
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
+#, csharp-format
+msgid ""
+"If the circles represented by the arcs below were completed, which circle "
+"would have the largest diameter? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Si els cercles representats pels arcs a sota es completessin, quin cercle "
+"tindria el diàmetre més gran? Responeu {0}, {1}, {2} o {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
+msgid "Less curved is the arc, the larger the circle is."
+msgstr "Menys corbat és l'arc, més gran és el cercle."
+
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
 msgstr "Línies"
@@ -4896,7 +5156,7 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Ningú que no fa un tomb se sent millor"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-msgid "Predicate Logic"
+msgid "Predicate logic"
 msgstr "Lògica de predicats"
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
@@ -5096,7 +5356,6 @@ msgstr[1] ""
 msgid "{0:h tt}"
 msgstr "{0:%H}"
 
-#. No hands
 #: ../src/Games/Logic/PuzzleTimeNow.cs:96
 msgid "Sample clock"
 msgstr "Rellotge d'exemple"
@@ -5813,247 +6072,8 @@ msgstr[1] ""
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
-msgid "Custom Game"
-msgstr "Partida personalitzada"
+#~ msgid "Next Game"
+#~ msgstr "Joc següent"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
-msgid "Select All"
-msgstr "Selecciona-ho tot"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
-msgid "Unselect all"
-msgstr "Desselecciona-ho tot"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Inicia"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-msgid "PDF export"
-msgstr "Exportació PDF"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid ""
-"This option allows to export a set of games in a PDF file. You can complete "
-"the puzzles without a computer."
-msgstr ""
-"Aquesta opció permet exportar un conjunt de jocs a un fitxer PDF per poder-"
-"hi jugar sense un ordinador."
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>Configuració general</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "Skip games that use colors"
-msgstr "Omet jocs que usen colors"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Game Types</b>"
-msgstr "<b>Tipus de de jocs</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Nivell de dificultat</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Easy"
-msgstr "Fàcil"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Medium"
-msgstr "Mitjà"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
-msgid "Master"
-msgstr "Mestre"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "<b>Number of games</b>"
-msgstr "<b>Nombre de jocs</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Total number of games:"
-msgstr "Nombre total de jocs:"
-
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
-msgid "Pages per side:"
-msgstr "Pàgines per cara:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
-msgid "<b>Output File</b>"
-msgstr "<b>Fitxer de sortida</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "_Desa"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "Player's Game Session History"
-msgstr "Historial de partides del jugador"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
-msgid "Show:"
-msgstr "Mostra:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "Preferences"
-msgstr "Preferències"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "Skip games that use colors (for colorblind users)"
-msgstr "Omet jocs que usen colors (per a usuaris daltònics)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr ""
-"Força al gbrainy a utilitzar sempre llengua anglesa (ignora les traduccions)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Search and load extensions when starting"
-msgstr "Cerca i carrega les extensions en iniciar"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Enable sounds"
-msgstr "Habilita el so"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
-msgid "Theme:"
-msgstr "Tema:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-msgid "<b>Memory Games</b>"
-msgstr "<b>Jocs de memòria</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Time in seconds to memorize the challenge:"
-msgstr "Temps en segons per memoritzar el repte:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "Show a countdown message"
-msgstr "Mostra un missatge de compte enrere"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Historial de partides del jugador</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
-msgid "Minimum number of played games to store the game session:"
-msgstr "Nombre mínim de jocs jugats per desar la partida:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
-msgid "Maximum number of records in the player's game session history:"
-msgstr "Nombre màxim de jocs desats a l'historial de partides del jugador:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
-msgid "Delete Player's Game Session History"
-msgstr "Suprimeix l'historial de partides del jugador"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "_Game"
-msgstr "P_artida"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "_New Game"
-msgstr "_Partida nova"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
-msgstr "Tots els jocs (lògica, càlcul mental, memòria i analogies verbals)"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Logic Puzzles Only"
-msgstr "Només trencaclosques lògics"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Mental Calculation Only"
-msgstr "Només càlcul mental"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "Memory Trainers Only"
-msgstr "Només entrenadors de memòria"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
-msgid "Verbal Analogies Only"
-msgstr "Només analogies verbals"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Custom Game Selection..."
-msgstr "Partida personalitzada..."
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
-msgid "_Pause Game"
-msgstr "_Fes una pausa a la partida"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "_End Game"
-msgstr "_Finalitza la partida"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:12
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Exporta jocs a PDF per jugar fora de línia..."
-
-#: ../src/Clients/Classical/gbrainy.ui.h:13
-msgid "_View"
-msgstr "_Visualitza"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Toolbar"
-msgstr "Barra d'eines"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:15
-msgid "Show"
-msgstr "Mostra"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Orientation"
-msgstr "Orientació"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:17
-msgid "Vertical"
-msgstr "Vertical"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "Horizontal"
-msgstr "Horitzontal"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Settings"
-msgstr "_Paràmetres"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "Extensions"
-msgstr "Extensions"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Help"
-msgstr "A_juda"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Contents"
-msgstr "_Continguts"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
-msgid "How to Extend gbrainy's Functionality"
-msgstr "Com ampliar la funcionalitat del gbrainy"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:26
-msgid "Answer:"
-msgstr "Resposta:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_Next"
-msgstr "_Següent"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "_Tip"
-msgstr "P_ista"
+#~ msgid "Answer"
+#~ msgstr "Respondre"
