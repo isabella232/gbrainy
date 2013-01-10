@@ -97,8 +97,8 @@ namespace gbrainy.Games.Logic
 					e.Context.Arc (arc.X, arc.Y, arc.Size, ToRadians (arc.StartAngle), ToRadians (arc.EndAngle));
 					e.Context.Stroke ();
 
-					e.Context.DrawTextCentered (0.2, 0.28, Translations.GetString (String.Format("Arc {0}",  
-						Answer.GetMultiOption(n))));
+					e.Context.DrawTextCentered (0.2, 0.28, 
+						String.Format (Translations.GetString ("Arc {0}"), Answer.GetMultiOption (n)));
 
 					e.Context.Stroke();
 				};
