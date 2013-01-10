@@ -53,7 +53,6 @@ namespace gbrainy.Games.Logic
 					{
 						figure.Initialitze (prevfigures);
 					}
-					tries++;
 				}
 				while (AreValidFigures (prevfigures) == false);
 
@@ -222,7 +221,6 @@ namespace gbrainy.Games.Logic
 			public override void Initialitze (List <Figure> prevfigures)
 			{
 				side = 0.15 + GetRandom (0.10);
-				Console.WriteLine ("Triangle side {0}", side);
 			}
 
 			public override double Area ()
