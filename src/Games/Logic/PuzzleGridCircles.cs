@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2007-2008 Jordi Mas i Hernàndez <jmas@softcatala.org>
+ * Copyright (C) 2007, 2008, 2013 Jordi Mas i Hernàndez <jmas@softcatala.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -21,11 +21,18 @@ using System;
 
 using gbrainy.Core.Main;
 using gbrainy.Core.Services;
+using gbrainy.Core.Toolkit;
 
 namespace gbrainy.Games.Logic
 {
 	public class PuzzleGridCircles : Game
 	{
+		struct Number
+		{
+			public string NumberString { set; get; }
+			public bool Cercled  { set; get; }
+		};
+
 		private int [] numbers;
 		private int good_pos;
 		private const int rows = 4, columns = 4;
@@ -52,10 +59,7 @@ namespace gbrainy.Games.Logic
 		protected override void Initialize ()
 		{
 			numbers = new int [rows * columns];
-			bool completed = false;
-			int count;
-			int good = 1 + random.Next (5);
-
+			
 			switch (random.Next (2)) {
 			case 0:
 				divisor = 2;
@@ -65,6 +69,17 @@ namespace gbrainy.Games.Logic
 				break;
 			}
 		
+			GenerateGridNumbers ();
+			SetDrawingAreas ();
+			Answer.Correct = numbers[good_pos].ToString ();
+		}
+
+		private void GenerateGridNumbers ()
+		{
+			bool completed = false;
+			int count;
+			int good = 1 + random.Next (5);
+			
 			while (completed == false) {
 				count = 0;
 				for (int n = 0; n < rows; n++) {
@@ -82,7 +97,51 @@ namespace gbrainy.Games.Logic
 				if (count > 5 && count < 10)
 					completed = true;
 			}
-			Answer.Correct = numbers[good_pos].ToString ();
+		}
+
+		private void SetDrawingAreas ()
+		{
+			double rect_w = DrawAreaWidth / rows;
+			double rect_h = DrawAreaHeight / columns;
+
+			Container container = new Container (DrawAreaX, DrawAreaY, 0.8, 0.8);
+			AddWidget (container);
+
+			for (int column = 0; column < columns; column++) 
+			{
+				for (int row = 0; row < rows; row++) 
+				{
+					bool cercled;
+					DrawableArea drawable_area = new DrawableArea (rect_w, rect_h);
+					drawable_area.X = DrawAreaX + row * rect_w;
+					drawable_area.Y = DrawAreaY + column * rect_h;
+					container.AddChild (drawable_area);
+
+					cercled = numbers[column + (row * 4)] % divisor == 0 && good_pos != column + (row * 4);
+					Number number = new Number { NumberString = numbers[column + (row * 4)].ToString (), Cercled = cercled };
+					drawable_area.Data = number;
+					drawable_area.DataEx = number.NumberString;
+									
+					drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
+					{
+						Number num = (Number) e.Data;
+
+						e.Context.Color = DefaultDrawingColor;
+						e.Context.Rectangle (0, 0, e.Width, e.Height);
+						e.Context.Stroke ();
+
+						e.Context.DrawTextCentered (e.Width / 2, e.Height / 2, num.NumberString);
+
+						if (num.Cercled)
+						{
+							e.Context.Arc (e.Width / 2, e.Height / 2, 0.05, 0, 2 * Math.PI);
+							e.Context.FillGradient (e.Width / 2, e.Height / 2, 0.05, 0.05);
+						}
+
+						e.Context.Stroke ();
+					};
+				}
+			}
 		}
 
 		private int GetUnique (int max)
@@ -102,35 +161,6 @@ namespace gbrainy.Games.Logic
 					found = true;
 			}
 			return unique;
-		}
-
-		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
-		{
-			double rect_w = DrawAreaWidth / rows;
-			double rect_h = DrawAreaHeight / columns;
-
-			base.Draw (gr, area_width, area_height, rtl);
-
-			for (int column = 0; column < columns; column++) {
-				for (int row = 0; row < rows; row++) {
-				
-					gr.Color = DefaultDrawingColor;
-					gr.Rectangle (DrawAreaX + row * rect_w, DrawAreaY + column * rect_h, rect_w, rect_h);
-					gr.Stroke ();
-
-					gr.DrawTextCentered (DrawAreaX + (rect_w / 2) + column * rect_w, (rect_h / 2) + DrawAreaY + row * rect_h, 
-						(numbers[column + (row * 4)]).ToString() );
-
-					if (numbers[column + (row * 4)] % divisor == 0 && good_pos != column + (row * 4)) {
-						gr.Arc (DrawAreaX + (rect_w / 2) + column * rect_w, (rect_h / 2) + DrawAreaY + row * rect_h,
-							0.05, 0, 2 * Math.PI);
-						gr.FillGradient (DrawAreaX + (rect_w / 2) + column * rect_w, (rect_h / 2) + DrawAreaY + row * rect_h,
-							0.05, 0.05);
-
-					}		
-					gr.Stroke ();
-				}
-			}
 		}
 	}
 }
