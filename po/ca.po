@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-10 20:37+0100\n"
+"POT-Creation-Date: 2013-01-13 15:44+0100\n"
 "PO-Revision-Date: 2013-01-04 13:45+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -4548,6 +4548,11 @@ msgstr ""
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
 msgid "Less curved is the arc, the larger the circle is."
 msgstr "Menys corbat és l'arc, més gran és el cercle."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
+#, csharp-format
+msgid "Arc {0}"
+msgstr "Arc {0}"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
