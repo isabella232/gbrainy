@@ -18,9 +18,11 @@
  */
 
 using System;
+using Cairo;
 
 using gbrainy.Core.Main;
 using gbrainy.Core.Services;
+using gbrainy.Core.Toolkit;
 
 namespace gbrainy.Games.Logic
 {
@@ -35,6 +37,8 @@ namespace gbrainy.Games.Logic
 			RotatedCross,
 			Last
 		};
+
+		const double figure_size = 0.13, space_x = 0.1, space_y = 0.18;
 
 		public override string Name {
 			get {return Translations.GetString ("Figure pattern");}
@@ -69,6 +73,8 @@ namespace gbrainy.Games.Logic
 					break;
 				}
 			}
+
+			SetDrawAnswer();
 		}
 
 		static private void DrawRotatedCross (CairoContextEx gr, double x, double y, double size)
@@ -97,12 +103,52 @@ namespace gbrainy.Games.Logic
 			gr.LineTo (x + size, y + size / 2);
 			gr.Stroke ();
 		}
+
+		private void SetDrawAnswer()
+		{
+			double h = 0.3, sel_marginw = 0.05, sel_marginh = 0.025;
+			double x = DrawAreaX + 0.1, y = DrawAreaY + 0.62;
+			int fig_count = (int) Figures.Last;
+
+			HorizontalContainer container = new HorizontalContainer (x, y,  (1 + fig_count) * (figure_size + space_x), h);
+			DrawableArea drawable_area;
+
+			AddWidget (container);
+
+			for (int i = 0; i < fig_count; i++)
+			{
+				drawable_area = new DrawableArea (figure_size  + space_x, figure_size);
+				drawable_area.SelectedArea = new Rectangle (-sel_marginw, -sel_marginh, figure_size  + sel_marginw * 2, h - sel_marginh * 2);
+				drawable_area.Data = i;
+				drawable_area.DataEx = Answer.GetMultiOption (i);
+				container.AddChild (drawable_area);
+
+				drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
+				{
+					int fig = (int) e.Data;
+
+					switch ((Figures) random_indices[fig]) {
+					case Figures.TwoLines:
+						DrawTwoLines (e.Context, 0, 0, figure_size);
+						break;
+					case Figures.Cross:
+						DrawCross (e.Context, 0, 0, figure_size);
+						break;
+					case Figures.RotatedCross:
+						DrawRotatedCross (e.Context, 0, 0, figure_size);
+						break;
+					}
+
+					e.Context.MoveTo (0, 0.17);
+					e.Context.ShowPangoText (Answer.GetFigureName (fig));
+				};
+			}
+		}
 	
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
 		{
 			double org_x = DrawAreaX + 0.1;
 			double x = org_x, y = 0.08;
-			const double figure_size = 0.13, space_x = 0.1, space_y = 0.18;
 			double x45, y45, x135, y135, offset;
 
 			base.Draw (gr, area_width, area_height, rtl);
@@ -189,30 +235,7 @@ namespace gbrainy.Games.Logic
 	
 			gr.MoveTo (0.05, y - 0.01 + space_y);
 			gr.ShowPangoText (Translations.GetString ("Choose one of the following:"));
-
-			// Answers
-			x = org_x;
-			y += space_y + 0.07;
-
-			for (int i = 0; i < (int) Figures.Last; i++)
-			{
-			 	switch ((Figures) random_indices[i]) {
-				case Figures.TwoLines:
-					DrawTwoLines (gr, x, y, figure_size);
-					break;
-				case Figures.Cross:
-					DrawCross (gr, x, y, figure_size);
-					break;
-				case Figures.RotatedCross:
-					DrawRotatedCross (gr, x, y, figure_size);
-					break;
-				}
-			
-				gr.MoveTo (x, y + 0.18);
-				gr.ShowPangoText (Answer.GetFigureName (i));
-
-				x += figure_size + space_x;			
-			}
+			gr.Stroke ();
 		}
 	}
 }
