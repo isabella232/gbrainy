@@ -534,6 +534,7 @@
 
 	<analogy>
 		<_question type = "PairOfWordsOptions">dish / break | balloon</_question> -->
+		<!-- Translators: like 'he burst the balloon' -->
 		<_answer correct ="yes">Burst</_answer>
 		<_answer>Bounce</_answer>
 		<_answer>Float</_answer>
