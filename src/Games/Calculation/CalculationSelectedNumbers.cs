@@ -71,11 +71,28 @@ namespace gbrainy.Games.Calculation
 			}
 		}
 
+		bool IsValidSequence (int selected, int result)
+		{
+			/* Too complex, too many selected */ 
+			if (selected > total_size / 3) 
+				return false;
+
+			/* Too easy, 3 selected*/
+			if (selected < 3 )
+				return false;
+
+			/* Too large to be fun */
+			if (result > 700)
+				return false;
+
+			return true;
+		}
+
 		void GetPuzzleNumbersAndAnswer ()
 		{
 			operation = (Operation)random.Next((int)Operation.Total);
 			numbers = new int [total_size];
-			greater_than = random.Next (5);
+			greater_than = 2 + random.Next (5);
 
 			int selected;
 			do
@@ -110,7 +127,8 @@ namespace gbrainy.Games.Calculation
 						}
 					}
 				}
-			} while (selected > total_size / 3);
+
+			} while (IsValidSequence (selected, correct) == false);
 		}
 
 		protected override void Initialize ()
@@ -125,10 +143,8 @@ namespace gbrainy.Games.Calculation
 				total_size = 10;
 				break;
 			case GameDifficulty.Medium:
-				total_size = 15;
-				break;
 			case GameDifficulty.Master:
-				total_size = 20;
+				total_size = 15;
 				break;
 			}
 
