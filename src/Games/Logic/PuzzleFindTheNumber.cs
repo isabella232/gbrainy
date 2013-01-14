@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 Jordi Mas i Hernàndez <jmas@softcatala.org>
+ * Copyright (C) 2012-2013 Jordi Mas i Hernàndez <jmas@softcatala.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License as
@@ -20,6 +20,8 @@
 using System;
 
 using gbrainy.Core.Main;
+using gbrainy.Core.Toolkit;
+
 
 namespace gbrainy.Games.Logic
 {
@@ -189,27 +191,42 @@ namespace gbrainy.Games.Logic
 	
 			} while (IsAValidGrid () == false);
 
+			SetDrawingAreas ();
 			Answer.Correct = grid[columns * answer_row + answer_column].ToString ();
 		}
 
-		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
+		private void SetDrawingAreas ()
 		{
-			double rect_w = DrawAreaWidth / columns;
-			double rect_h = DrawAreaHeight / rows;
-	
-			base.Draw (gr, area_width, area_height, rtl);
-			gr.SetPangoLargeFontSize ();
+			double rect_w = DrawAreaWidth / rows;
+			double rect_h = DrawAreaHeight / columns;
 
-			for (int row = 0; row < rows; row++)
+			Container container = new Container (DrawAreaX, DrawAreaY, 0.8, 0.8);
+			AddWidget (container);
+
+			for (int column = 0; column < columns; column++) 
 			{
-				for (int column = 0; column < columns; column++)
+				for (int row = 0; row < rows; row++) 
 				{
-					gr.Rectangle (DrawAreaX + column * rect_w, DrawAreaY + row * rect_h, rect_w, rect_h);
-					gr.Stroke ();
+					DrawableArea drawable_area = new DrawableArea (rect_w, rect_h);
+					drawable_area.X = DrawAreaX + row * rect_w;
+					drawable_area.Y = DrawAreaY + column * rect_h;
+					container.AddChild (drawable_area);
 
-					gr.DrawTextCentered (DrawAreaX + (column * rect_w) + rect_w / 2,
-							DrawAreaY + (row * rect_h) + rect_h / 2,
-							grid[row * columns + column].ToString ());
+					string num = grid[row * columns + column].ToString ();
+					drawable_area.Data = num;
+					drawable_area.DataEx = num;
+									
+					drawable_area.DrawEventHandler += delegate (object sender, DrawEventArgs e)
+					{
+						string number = (string) e.Data;
+
+						e.Context.Rectangle (0, 0, e.Width, e.Height);
+						e.Context.Stroke ();
+
+						e.Context.SetPangoLargeFontSize ();
+						e.Context.DrawTextCentered (e.Width / 2, e.Height / 2, number);
+						e.Context.Stroke ();
+					};
 				}
 			}
 		}
