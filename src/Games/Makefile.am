@@ -94,7 +94,8 @@ $(top_srcdir)/data/game-graphics/faceboy2.svg \
 $(top_srcdir)/data/game-graphics/faceboy3.svg \
 $(top_srcdir)/data/game-graphics/facegirl1.svg \
 $(top_srcdir)/data/game-graphics/facegirl2.svg \
-$(top_srcdir)/data/game-graphics/facegirl3.svg
+$(top_srcdir)/data/game-graphics/facegirl3.svg \
+$(top_srcdir)/data/game-graphics/balance.svg
 
 
 REFS =  \

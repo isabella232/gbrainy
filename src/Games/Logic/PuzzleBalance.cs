@@ -76,15 +76,10 @@ namespace gbrainy.Games.Logic
 
 		public void DrawBalance (CairoContextEx gr, double x, double y, int index, bool full)
 		{
+
 			const double width = 0.5;
-			double fig_x = x + 0.1, fig_y = y - 0.11;
+			double fig_x = x + 0.1, fig_y = y - 0.08;
 			int total = (full == true) ? (elements * 2) : elements;
-
-			gr.Rectangle (x + 0.05, y - 0.12, 0.38, 0.08);
-			gr.Stroke ();
-
-			gr.Rectangle (x + 0.5, y - 0.12, 0.38, 0.08);
-			gr.Stroke ();
 
 			for (int i = 0; i < total; i++) {
 				switch (balances[i + index]) {
@@ -107,19 +102,7 @@ namespace gbrainy.Games.Logic
 					fig_x += 0.07;
 			}
 
-			x += 0.2;
-			y += 0.01;
-			gr.MoveTo (x, y);
-			gr.LineTo (x + width, y);
-			gr.LineTo (x + width, y - 0.05);
-			gr.Stroke ();
-
-			gr.MoveTo (x , y);
-			gr.LineTo (x , y - 0.05);
-			gr.Stroke ();
-
-			gr.DrawEquilateralTriangle (x + (width / 2) - 0.04, y, 0.08);
-			gr.Stroke ();
+			gr.DrawImageFromAssembly ("balance.svg", x + 0.02, y - 0.08, 0.9, 0.25);
 		}
 
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
@@ -137,7 +120,7 @@ namespace gbrainy.Games.Logic
 			DrawBalance (gr, x, y, (group * elements * 6) + 2 * elements * 2, false);
 
 			gr.SetPangoFontSize (0.05);
-			gr.MoveTo (0.74, 0.68);
+			gr.MoveTo (0.74, 0.71);
 			gr.ShowPangoText ("?");
 			gr.Stroke ();
 		}
