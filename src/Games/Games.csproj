@@ -101,7 +101,6 @@
     <Compile Include="Memory\MemoryColouredText.cs" />
     <Compile Include="Memory\MemoryCountDots.cs" />
     <Compile Include="Memory\MemoryFacts.cs" />
-    <Compile Include="Memory\MemoryFigures.cs" />
     <Compile Include="Memory\MemoryFiguresAndText.cs" />
     <Compile Include="Memory\MemoryFiguresNumbers.cs" />
     <Compile Include="Memory\MemoryIndications.cs" />
@@ -113,6 +112,9 @@
     <Compile Include="Logic\PuzzleFindTheNumber.cs" />
     <Compile Include="Calculation\CalculationConsecutiveSum.cs" />
     <Compile Include="Calculation\CalculationSelectedNumbers.cs" />
+    <Compile Include="Logic\PuzzleLargestDiameter.cs" />
+    <Compile Include="Logic\PuzzleLargestArea.cs" />
+    <Compile Include="Memory\MemoryFaces.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
