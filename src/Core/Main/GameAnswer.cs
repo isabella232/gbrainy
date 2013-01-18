@@ -168,6 +168,7 @@ namespace gbrainy.Core.Main
 			Regex regex;
 			Match match;
 			bool ignore_case, ignore_spaces;
+			int matched_all_in_order = 0;
 
 			if (String.IsNullOrEmpty (answer))
 				return false;
@@ -221,14 +222,14 @@ namespace gbrainy.Core.Main
 					}
 					else //MatchAllInOrder
 					{
-						if (String.Compare (match.Value, right_answers[pos++], ignore_case) != 0)
-							return false;
-
+						if (String.Compare (match.Value, right_answers[pos++], ignore_case) == 0)
+							matched_all_in_order++;
 					}
 					match = match.NextMatch ();
 				}
 
-				if ((CheckAttributes & GameAnswerCheckAttributes.MatchAllInOrder) == GameAnswerCheckAttributes.MatchAllInOrder)
+				if ((CheckAttributes & GameAnswerCheckAttributes.MatchAllInOrder) == GameAnswerCheckAttributes.MatchAllInOrder &&
+					matched_all_in_order == right_answers.Length)
 					return true;
 
 				// Have all the expected answers been matched?

@@ -113,6 +113,7 @@ namespace gbrainy.Test.Core
 
 			Assert.AreEqual (true, answer.CheckAnswer ("10 20 30"));
 			Assert.AreEqual (false, answer.CheckAnswer ("30 20 10"));
+			Assert.AreEqual (false, answer.CheckAnswer ("i"));
 		}
 
 		[Test]
