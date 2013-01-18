@@ -86,7 +86,7 @@ namespace gbrainy.Core.Main
 			case 14:
 				return Translations.GetString ("When answering verbal analogies pay attention to the verb tense.");
 			case 15:
-				return Translations.GetString ("When you go to stores, try to perform calculations without the use of calculator.");
+				return Translations.GetString ("When you go shopping, try to perform calculations without the use of a calculator.");
 			default:
 				throw new InvalidOperationException ();
 			}

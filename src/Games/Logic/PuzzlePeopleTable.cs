@@ -46,7 +46,7 @@ namespace gbrainy.Games.Logic
 		}
 
 		public override string Question {
-			get {return String.Format (Translations.GetString ("A group of people are sitting at a round table spaced out evenly. How many people are there if the {0} person is across from the {1}?"), ques1, ques2);} 
+			get {return String.Format (Translations.GetString ("A group of people, spaced out evenly, are sitting at a round table. How many people are there if the {0} person is across from the {1}?"), ques1, ques2);} 
 		}
 
 		public override string Rationale {
@@ -82,7 +82,7 @@ namespace gbrainy.Games.Logic
 			gr.DrawImageFromAssembly ("people_table.svg", 0.2, 0.2, 0.6, 0.6);
 
 			gr.DrawTextCentered (0.5, 0.85,
-				Translations.GetString ("Two people in the table sitting across each other"));
+				Translations.GetString ("Two people in the table sitting across from each other"));
 
 		}
 	}
