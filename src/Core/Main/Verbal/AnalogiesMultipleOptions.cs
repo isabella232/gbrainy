@@ -67,7 +67,7 @@ namespace gbrainy.Core.Main.Verbal
 			Answer.CheckAttributes |= GameAnswerCheckAttributes.MultiOption;
 			Answer.SetMultiOptionAnswer (Current.right, Current.answers[Current.right]);
 
-			Container container = new Container (DrawAreaX + 0.1, 0.50, 0.5, Current.answers.Length * 0.15);
+			Container container = new Container (DrawAreaX, DrawAreaY + 0.2, 0.8, Current.answers.Length * 0.15);
 			AddWidget (container);
 	
 			for (int i = 0; i <  Current.answers.Length; i++)
