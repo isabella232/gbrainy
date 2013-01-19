@@ -291,6 +291,14 @@ namespace gbrainy.Core.Main
 
 			foreach (Toolkit.Container container in containers)
 				container.Draw (gr, width, height, rtl);
+
+#if DESIGN_MODE
+			gr.Save ();
+			gr.Color = new Cairo.Color (0, 1, 0);
+			gr.Rectangle (0, 0, 1, 1);
+			gr.Stroke ();
+			gr.Restore ();
+#endif
 		}
 
 		public virtual void DrawPreview (CairoContextEx gr, int width, int height, bool rtl)

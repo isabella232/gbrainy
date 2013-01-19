@@ -45,6 +45,12 @@ namespace gbrainy.Core.Toolkit
 			if (y < 0 || y > 1)
 				throw new ArgumentOutOfRangeException ("y");
 
+			if (width + x < 0 || width + x > 1)
+				throw new ArgumentOutOfRangeException ("width");
+
+			if (height + y < 0 || height + y > 1)
+				throw new ArgumentOutOfRangeException ("height");
+
 			X = x;
 			Y = y;
 		}

@@ -32,7 +32,23 @@ namespace gbrainy.Core.Toolkit
 		public HorizontalContainer (double x, double y, double width, double height) : base (x, y, width, height)
 		{
 
-		}		
+		}
+
+		void ValidateDimensions ()
+		{
+			double width = 0;
+
+			foreach (Widget child in children)
+			{
+				width += child.Width;
+				
+				if (Height < child.Height)
+					throw new InvalidOperationException (String.Format ("Container height too small {0} < {1}", Height, child.Height));
+			}
+
+			if (Width < width)
+				throw new InvalidOperationException (String.Format ("Container witdh too small {0} < {1}", Width, width));
+		}
 
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
 		{
@@ -47,19 +63,9 @@ namespace gbrainy.Core.Toolkit
 			gr.Stroke ();
 			gr.Restore ();
 
-			double width = 0;
-
-			foreach (Widget child in children)
-			{
-				width += child.Width;
-				
-				if (Height < child.Height)
-					throw new InvalidOperationException (String.Format ("Container height too small {0} < {1}", Height, child.Height));
-			}
-
-			if (Width < width)
-				throw new InvalidOperationException (String.Format ("Container witdh too small {0} < {1}", Width, width));
+			ValidateDimensions ();
 #endif
+
 			//
 			// Coordinates are stored right to left
 			//
