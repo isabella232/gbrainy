@@ -42,7 +42,7 @@ namespace gbrainy.Core.Main
 			List <PlayerPersonalRecord> records = new List <PlayerPersonalRecord> ();
 			GameSessionHistory higher;
 
-			// We can start to talk about personal records after 5 plays
+			// We can start to talk about personal records after MIN_GAMES_RECORD games played
 			if (last_game == -1 || games.Count < MIN_GAMES_RECORD)
 				return records;
 
@@ -65,16 +65,16 @@ namespace gbrainy.Core.Main
 			}
 			
 			// It is a record?
-			if (games[last_game].LogicScore > higher.LogicScore)
+			if (higher.LogicScore > 0 && games[last_game].LogicScore > higher.LogicScore)
 				records.Add (new PlayerPersonalRecord (GameTypes.LogicPuzzle, higher.LogicScore, games[last_game].LogicScore));
 
-			if (games[last_game].MathScore > higher.MathScore)
+			if (higher.MathScore > 0 && games[last_game].MathScore > higher.MathScore)
 				records.Add (new PlayerPersonalRecord (GameTypes.Calculation, higher.MathScore, games[last_game].MathScore));
 
-			if (games[last_game].MemoryScore > higher.MemoryScore)
+			if (higher.MemoryScore > 0 && games[last_game].MemoryScore > higher.MemoryScore)
 				records.Add (new PlayerPersonalRecord (GameTypes.Memory, higher.MemoryScore, games[last_game].MemoryScore));
 
-			if (games[last_game].VerbalScore > higher.VerbalScore)
+			if (higher.VerbalScore > 0  && games[last_game].VerbalScore > higher.VerbalScore)
 				records.Add (new PlayerPersonalRecord (GameTypes.VerbalAnalogy, higher.VerbalScore, games[last_game].VerbalScore));
 
 			return records;

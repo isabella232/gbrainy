@@ -36,17 +36,12 @@ namespace gbrainy.Test.Core
 		}
 
 		[Test]
-		public void MinGamesRecord ()
+		public void MinGamesNotReached ()
 		{
-			PlayerHistory history;
+			PlayerHistory history = new PlayerHistory () { ConfigPath = "." };
+			GameSessionHistory game = new GameSessionHistory () { GamesPlayed = Preferences.Get <int> (Preferences.MinPlayedGamesKey) };
 
-			GameSessionHistory game = new GameSessionHistory ();
-			game.GamesPlayed = Preferences.Get <int> (Preferences.MinPlayedGamesKey);
-
-			history = new PlayerHistory ();
-			history.ConfigPath = ".";
 			history.Clean ();
-
 			for (int i = 0; i < PlayerPersonalRecord.MIN_GAMES_RECORD - 2; i++)
 			{
 				history.SaveGameSession (game);
@@ -55,20 +50,68 @@ namespace gbrainy.Test.Core
 			game.LogicScore = 10;
 			history.SaveGameSession (game);
 
-			Assert.AreEqual (0, history.GetLastGameRecords ().Count,
-				"Did not reach MinPlayedGamesKey, the game should not be a person record yet");
+			Assert.AreEqual (0, history.GetLastGameRecords ().Count, 
+				"Did not reach MinPlayedGamesKey, the game should not be a personal record yet");
+		}
 
-			game.LogicScore = 30;
-			history.SaveGameSession (game);
+		[Test]
+		public void PersonalRecordDone ()
+		{
+			PlayerHistory history = new PlayerHistory () { ConfigPath = "." };
+			GameSessionHistory game = new GameSessionHistory () { GamesPlayed = Preferences.Get <int> (Preferences.MinPlayedGamesKey) };
 
-			Assert.AreEqual (1, history.GetLastGameRecords ().Count,
-				"We have just recorded a personal record");
+			history.Clean ();
+			for (int i = 0; i < PlayerPersonalRecord.MIN_GAMES_RECORD - 1; i++)
+			{
+				history.SaveGameSession (game);
+			}
 
 			game.LogicScore = 20;
 			history.SaveGameSession (game);
 
-			Assert.AreEqual (0, history.GetLastGameRecords ().Count,
-				"Score saved was lower than previous, no record");
+			game.LogicScore = 30;
+			history.SaveGameSession (game);
+
+			Assert.AreEqual (1, history.GetLastGameRecords ().Count, "We have just recorded a personal record");
+		}
+
+		[Test]
+		public void PersonalRecordDoneButPreviousWas0 ()
+		{
+			PlayerHistory history = new PlayerHistory () { ConfigPath = "." };
+			GameSessionHistory game = new GameSessionHistory () { GamesPlayed = Preferences.Get <int> (Preferences.MinPlayedGamesKey) };
+
+			history.Clean ();
+			for (int i = 0; i < PlayerPersonalRecord.MIN_GAMES_RECORD; i++)
+			{
+				history.SaveGameSession (game);
+			}
+
+			game.LogicScore = 30;
+			history.SaveGameSession (game);
+
+			Assert.AreEqual (0, history.GetLastGameRecords ().Count, "No record since previous was 0");
+		}
+
+		[Test]
+		public void ScoreLowerThanPrevious ()
+		{
+			PlayerHistory history = new PlayerHistory () { ConfigPath = "." };
+			GameSessionHistory game = new GameSessionHistory () { GamesPlayed = Preferences.Get <int> (Preferences.MinPlayedGamesKey) };
+
+			history.Clean ();
+			for (int i = 0; i < PlayerPersonalRecord.MIN_GAMES_RECORD - 1; i++)
+			{
+				history.SaveGameSession (game);
+			}
+
+			game.LogicScore = 30;
+			history.SaveGameSession (game);
+
+			game.LogicScore = 20;
+			history.SaveGameSession (game);
+
+			Assert.AreEqual (0, history.GetLastGameRecords ().Count, "Score saved was lower than previous, no record");
 		}
 	}
 }
