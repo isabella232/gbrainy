@@ -106,19 +106,19 @@ namespace gbrainy.Games.Logic
 
 		private void SetDrawAnswer()
 		{
-			double h = 0.3, sel_marginw = 0.05, sel_marginh = 0.025;
+			double h = 0.25, sel_marginw = 0.05, sel_marginh = 0.025;
 			double x = DrawAreaX + 0.1, y = DrawAreaY + 0.62;
 			int fig_count = (int) Figures.Last;
 
-			HorizontalContainer container = new HorizontalContainer (x, y,  (1 + fig_count) * (figure_size + space_x), h);
+			HorizontalContainer container = new HorizontalContainer (x, y, fig_count * (figure_size + space_x), h);
 			DrawableArea drawable_area;
 
 			AddWidget (container);
 
 			for (int i = 0; i < fig_count; i++)
 			{
-				drawable_area = new DrawableArea (figure_size  + space_x, figure_size);
-				drawable_area.SelectedArea = new Rectangle (-sel_marginw, -sel_marginh, figure_size  + sel_marginw * 2, h - sel_marginh * 2);
+				drawable_area = new DrawableArea (figure_size  + space_x, h);
+				drawable_area.SelectedArea = new Rectangle (-sel_marginw, -sel_marginh, figure_size  + sel_marginw * 2, h);
 				drawable_area.Data = i;
 				drawable_area.DataEx = Answer.GetMultiOption (i);
 				container.AddChild (drawable_area);
