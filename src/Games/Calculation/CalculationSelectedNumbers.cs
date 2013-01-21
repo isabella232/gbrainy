@@ -58,12 +58,12 @@ namespace gbrainy.Games.Calculation
 				{
 					case Operation.Addition:
 						return String.Format (Translations.GetString (
-							"In the list of numbers below, what is the sum of the numbers greater than {0}? Answer {1}, {2}, {3} or {4}."), 
+							"In the list of numbers below, what is the sum of all the numbers with a value greater than {0}? Answer {1}, {2}, {3} or {4}."), 
 							greater_than, 
 							Answer.GetMultiOption (0), Answer.GetMultiOption (1), Answer.GetMultiOption (2), Answer.GetMultiOption (3));
 					case Operation.Product:
 						return String.Format (Translations.GetString (
-							"In the list of numbers below, what is the product of the numbers greater than {0}? Answer {1}, {2}, {3} or {4}."), 
+							"In the list of numbers below, what is the product of all the numbers with a value greater than {0}? Answer {1}, {2}, {3} or {4}."),
 							greater_than, 
 							Answer.GetMultiOption (0), Answer.GetMultiOption (1), Answer.GetMultiOption (2), Answer.GetMultiOption (3));
 				}

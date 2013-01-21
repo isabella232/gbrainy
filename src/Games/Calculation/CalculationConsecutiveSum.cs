@@ -42,7 +42,7 @@ namespace gbrainy.Games.Calculation
 
 		public override string Question {
 			get { return String.Format (Translations.GetString (
-				"In the list of single digit numbers below, there are 5 consecutive numbers that sum {0}. What are these numbers?"), 
+				"In the list of single-digit numbers below, there are 5 consecutive numbers whose sum is {0}. Which numbers are these?"), 
 					consecutive_sum);
 			}
 		}
