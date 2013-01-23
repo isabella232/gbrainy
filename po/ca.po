@@ -3626,7 +3626,7 @@ msgid ""
 "whose sum is {0}. Which numbers are these?"
 msgstr ""
 "A la llista de nombres d'un sol digit de sota, hi ha 5 nombres "
-"consecutius que sumen {0}. Quin són aquests nombres?"
+"consecutius que sumen {0}. Quins són aquests nombres?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
