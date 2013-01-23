@@ -133,7 +133,7 @@ msgid ""
 "of possibilities is 2 at the power of [games]."
 msgstr ""
 "Кожна з цифр може приймати одне з 2 значень. Загальна кількість значень "
-"числа буде становити 2 в степені [digits]."
+"числа буде становити 2 в степені [games]."
 
 #: ../data/games.xml.h:20
 msgid "Every hour rotates 360 degrees."
@@ -491,7 +491,7 @@ msgstr "[option_prefix] [option_b]%"
 
 #: ../data/games.xml.h:97
 msgid "[option_prefix] [option_c] and [option_d]"
-msgstr "[option_prefix] [option_c] та [option_d"
+msgstr "[option_prefix] [option_c] та [option_d]"
 
 #: ../data/games.xml.h:99
 #, no-c-format
