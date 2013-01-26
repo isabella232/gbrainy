@@ -202,7 +202,7 @@ msgstr ""
 "Els anys [year_start] i [year_end] són capicua, amb una diferència d'11 "
 "anys. Quins són els propers dos anys capicua consecutius després de "
 "[year_end] amb la mateixa diferència? Responeu usant dos nombres (p. ex.: "
-"[year_start] i [year_end])"
+"[year_start] i [year_end])."
 
 #: ../data/games.xml.h:37
 msgid ""
@@ -1405,7 +1405,7 @@ msgstr "Hipotenusa"
 
 #: ../data/verbal_analogies.xml.h:200
 msgid "Trigonometry"
-msgstr "Trigometria"
+msgstr "Trigonometria"
 
 #: ../data/verbal_analogies.xml.h:201
 msgid "It is the only one that is not related with triangles."
@@ -1845,7 +1845,7 @@ msgstr "Rodar"
 #: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
 msgstr ""
-"Les dues estan relacionades a una acció que trenca l'element al que es "
+"Les dues estan relacionades a una acció que trenca l'element al qual es "
 "refereixen."
 
 #: ../data/verbal_analogies.xml.h:317
@@ -2251,7 +2251,7 @@ msgstr "cotxe / carretera | tren"
 
 #: ../data/verbal_analogies.xml.h:433
 msgid "track | railway | rails | railroad"
-msgstr "via | ferrovia | rail"
+msgstr "via | ferrovia | via fèrria | rail"
 
 #: ../data/verbal_analogies.xml.h:434
 msgid "pediatrics / children | numismatics"
@@ -2553,7 +2553,7 @@ msgstr "Omet jocs que usen colors"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
 msgid "<b>Game Types</b>"
-msgstr "<b>Tipus de de jocs</b>"
+msgstr "<b>Tipus de jocs</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
@@ -3774,7 +3774,7 @@ msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de nombres de sota, quina és la suma dels nombres amb un valor més gran que "
+"A la llista de números de sota, quina és la suma dels nombres amb un valor més gran que "
 "{0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
@@ -3783,7 +3783,7 @@ msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de nombres de sota, quin és el producte dels nombres amb un valor més gran "
+"A la llista de números de sota, quin és el producte dels nombres amb un valor més gran "
 "que {0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
@@ -4608,7 +4608,7 @@ msgid ""
 "lines."
 msgstr ""
 "A cada fila el tercer quadrat es construeix donant la volta al primer "
-"quadrat i sobreimposant-lo al segon, llavors eliminant les línies "
+"quadrat i superposant-lo al segon, llavors eliminant les línies "
 "coincidents."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:62
@@ -4795,8 +4795,8 @@ msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
 msgstr ""
-"Quin és l'element que no pertany al grup? No està relacionat amb la "
-"aritmètica dels nombres. Responeu {0}, {1}, {2}, {3} o {4}."
+"Quin és l'element que no pertany al grup? No està relacionat amb l'aritmètica "
+"dels nombres. Responeu {0}, {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
@@ -5653,7 +5653,7 @@ msgstr ""
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
-msgstr "Llista d'imatges mostrades previàment"
+msgstr "Llista d'imatges mostrades prèviament"
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
