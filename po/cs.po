@@ -2687,7 +2687,7 @@ msgid ""
 "\"OK\" button."
 msgstr ""
 "Pokud znáte odpověď, napište ji do políčka „Odpověď:“ a stiskněte tlačítko "
-"„OK“."
+"„Budiž“."
 
 #: ../src/Clients/Classical/gbrainy.cs:524
 msgid "The level of translation of gbrainy for your language is low."
