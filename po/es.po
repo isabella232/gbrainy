@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-10 19:46+0000\n"
-"PO-Revision-Date: 2013-01-14 13:58+0100\n"
+"POT-Creation-Date: 2013-01-21 19:21+0000\n"
+"PO-Revision-Date: 2013-01-28 11:14+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -332,8 +332,8 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
 #: ../src/Games/Calculation/CalculationPrimes.cs:151
 #: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:228
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:191
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
 #: ../src/Games/Logic/PuzzleLargerShape.cs:303
@@ -1839,50 +1839,51 @@ msgstr "Luz"
 msgid "dish / break | balloon"
 msgstr "plato / romper | globo"
 
-#: ../data/verbal_analogies.xml.h:311
+#. Translators: like 'he burst the balloon'
+#: ../data/verbal_analogies.xml.h:312
 msgid "Burst"
 msgstr "Pinchar"
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:313
 msgid "Bounce"
 msgstr "Botar"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:314
 msgid "Float"
 msgstr "Flotar"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:315
 msgid "Roll"
 msgstr "Enrollar"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
 msgstr "Ambos se refieren a una acción que rompe el elemento relacionado."
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:317
 msgid "button / push | key (used in a lock)"
 msgstr "botón / pulsar | llave (usada en un candado)"
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:318
 msgid "Turn"
 msgstr "Girar"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:320
 msgid "Open"
 msgstr "Abrir"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:321
+#: ../data/verbal_analogies.xml.h:322
 msgid "Lock"
 msgstr "Bloquear"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:324
 msgid "Close"
 msgstr "Cerrar"
 
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:325
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1890,437 +1891,437 @@ msgstr ""
 "Para hacer que ambos objetos funcionen, se necesita pulsar un botón y girar "
 "una tecla."
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
 msgstr "concepto / idea | obsesión"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:327
+#: ../data/verbal_analogies.xml.h:328
 msgid "Fixation"
 msgstr "Fijación"
 
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:329
 msgid "Indifference"
 msgstr "Indiferencia"
 
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:330
 msgid "Disinterest"
 msgstr "Desinterés"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:331
 msgid "Intuition"
 msgstr "Intuición"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:332
 msgid "The relation between the two words is that they are synonymous."
 msgstr "La relación entre las dos palabras es que son sinónimas."
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:333
 msgid "fish / water | bird"
 msgstr "pez / agua | pájaro"
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:334
 msgid "Air"
 msgstr "Aire"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:335
 msgid "Wings"
 msgstr "Alas"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:336
 msgid "Ship"
 msgstr "Barco"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:337
 msgid "Cage"
 msgstr "Jaula"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:339
 msgid "rook / chess | soldier"
 msgstr "torre / ajedrez | soldado"
 
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:340
 msgid "Battle"
 msgstr "Batalla"
 
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:341
 msgid "Gun"
 msgstr "Pistola"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:342
 msgid "Peace"
 msgstr "Paz"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:343
 msgid "Enemy"
 msgstr "Enemigo"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:344
 msgid "competitive / cooperative | anxious"
 msgstr "competitivo / cooperativo | ansioso"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:346
 msgid "Flexible"
 msgstr "Flexible"
 
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:347
 msgid "Cautious"
 msgstr "Cauteloso"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:348
+#: ../data/verbal_analogies.xml.h:349
 msgid "Daring"
 msgstr "Atrevido"
 
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:350
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pesimista / optimista | desconfiado"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:352
 msgid "Trusting"
 msgstr "Confiado"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:353
 msgid "Dubious"
 msgstr "Dudoso"
 
 #. Translator: compass as the instrument used for finding direction
-#: ../data/verbal_analogies.xml.h:354
+#: ../data/verbal_analogies.xml.h:355
 msgid "thermometer / temperature | compass"
 msgstr "termómetro / temperatura | brújula"
 
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:356
 msgid "Direction"
 msgstr "Dirección"
 
-#: ../data/verbal_analogies.xml.h:356
+#: ../data/verbal_analogies.xml.h:357
 msgid "Elevation"
 msgstr "Elevación"
 
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:358
 msgid "Position"
 msgstr "Posición"
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:359
 msgid "Area"
 msgstr "Área"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:360
 msgid "The first word is the instrument and the second what it measures."
 msgstr "La primera palabra es el instrumento y la segunda es lo que mide."
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:361
 msgid "hungry / eat | tired"
 msgstr "hambriento / comer | cansado"
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:362
 msgid "sleep | rest"
 msgstr "dormir | descansar"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:363
+#: ../data/verbal_analogies.xml.h:364
 msgid "box / open | banana"
 msgstr "caja / abrir | plátano"
 
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:365
 msgid "peel"
 msgstr "pelar"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:366
+#: ../data/verbal_analogies.xml.h:367
 msgid "shovel / dig | axe"
 msgstr "pala / cavar | hacha"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:368
+#: ../data/verbal_analogies.xml.h:369
 msgid "chop"
 msgstr "cortar | talar"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:370
+#: ../data/verbal_analogies.xml.h:371
 msgid "glass / break | paper"
 msgstr "cristal / romper | papel"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:372
+#: ../data/verbal_analogies.xml.h:373
 msgid "tear | rip"
 msgstr "desgarrar | romper"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:374
+#: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "pies / dos | dedos"
 
 # N.T.: En inglés hace referencia a 'toes' que son 10 pero en español a dedos que son 20
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:376
+#: ../data/verbal_analogies.xml.h:377
 msgid "ten | 10"
 msgstr "veinte | 20"
 
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:378
 msgid "fish / aquarium | monkey"
 msgstr "pez / acuario | mono"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:379
 msgid "cage | zoo | zoological garden"
 msgstr "jaula | zoo | zoológico"
 
-#: ../data/verbal_analogies.xml.h:379
+#: ../data/verbal_analogies.xml.h:380
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Un pez en un acuario vive en cautividad."
 
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:381
 msgid "ring / finger | bracelet"
 msgstr "anillo / dedo | brazalete"
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:382
 msgid "wrist | arm"
 msgstr "muñeca | brazo"
 
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:383
 msgid "seal / flippers | bird"
 msgstr "foca / aletas | pájaro"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:384
 msgid "wings"
 msgstr "alas"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:385
+#: ../data/verbal_analogies.xml.h:386
 msgid "stick / float | stone"
 msgstr "palo / flotar | piedra"
 
-#: ../data/verbal_analogies.xml.h:386
+#: ../data/verbal_analogies.xml.h:387
 msgid "sink"
 msgstr "hundir"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:388
 msgid "leopard / spots | tiger"
 msgstr "leopardo / manchas | tigre"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:389
 msgid "stripes"
 msgstr "rayas"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:390
+#: ../data/verbal_analogies.xml.h:391
 msgid "fish / submarine | bird"
 msgstr "pez / submarino | pájaro"
 
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:392
 msgid "airplane | aeroplane | plane"
 msgstr "avión | aeroplano | aeronave"
 
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:393
 msgid "tears / eyes | sweat"
 msgstr "lágrimas / ojos | sudor"
 
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:394
 msgid "body | skin"
 msgstr "cuerpo | piel"
 
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:395
 msgid "bridge / over | tunnel"
 msgstr "puente / sobre | túnel"
 
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:396
 msgid "in | under | through"
 msgstr "dentro | debajo | a través de"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:398
 msgid "toy / play | tool"
 msgstr "juguete / jugar | herramienta"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:400
 msgid "work"
 msgstr "trabajar"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:401
+#: ../data/verbal_analogies.xml.h:402
 msgid "error / (to) correct | damage"
 msgstr "error / corregir | daño"
 
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:403
 msgid "repair | fix"
 msgstr "reparar | arreglar"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:404
 msgid "orange / fruit | spinach"
 msgstr "naranja / fruta | espinacas"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:405
 msgid "vegetable"
 msgstr "vegetal | verdura | hortaliza"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:406
 msgid "hands / grab | teeth"
 msgstr "manos / coger | dientes"
 
-#: ../data/verbal_analogies.xml.h:406
+#: ../data/verbal_analogies.xml.h:407
 msgid "bite"
 msgstr "morder"
 
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:408
 msgid "Grab and bite are finite actions."
 msgstr "Agarrar y morder son acciones finitas."
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:409
 msgid "puzzle / solve | game"
 msgstr "puzle / resolver | juego"
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:410
 msgid "win | play"
 msgstr "ganar | jugar"
 
-#: ../data/verbal_analogies.xml.h:410
+#: ../data/verbal_analogies.xml.h:411
 msgid "eyebrow / eye | mustache"
 msgstr "ceja / ojo | bigote"
 
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:412
 msgid "lip | upper lip | mouth"
 msgstr "labio | labio superior | boca"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:413
 msgid "ice / slippery | glue"
 msgstr "hielo / deslizante | pegamento"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:414
 msgid "sticky"
 msgstr "pegajoso"
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:415
 msgid "whirlpool / water | tornado"
 msgstr "remolino / agua | tornado"
 
-#: ../data/verbal_analogies.xml.h:415
+#: ../data/verbal_analogies.xml.h:416
 msgid "wind | air"
 msgstr "viento | aire"
 
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:417
 msgid "fox / den | bird"
 msgstr "zorro / guarida | pájaro"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:418
 msgid "nest"
 msgstr "nido"
 
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:419
 msgid "dog / tame | wolf"
 msgstr "perro / dócil | lobo"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:420
 msgid "wild | savage"
 msgstr "salvaje | feroz"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:421
 msgid "sugar / sweet | vinegar"
 msgstr "azúcar / dulce | vinagre"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:422
 msgid "sour"
 msgstr "agrio"
 
-#: ../data/verbal_analogies.xml.h:422
+#: ../data/verbal_analogies.xml.h:423
 msgid "tennis / sport | ballet"
 msgstr "tenis / deporte | ballet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:424
+#: ../data/verbal_analogies.xml.h:425
 msgid "dance"
 msgstr "baile"
 
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:426
 msgid "slurp / tongue | snort"
 msgstr "sorbo / lengua | bufido"
 
-#: ../data/verbal_analogies.xml.h:426
+#: ../data/verbal_analogies.xml.h:427
 msgid "nose"
 msgstr "nariz"
 
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:428
 msgid "elbow / knee | wrist"
 msgstr "codo / rodilla | muñeca"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:429
 msgid "ankle"
 msgstr "tobillo"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:430
 msgid "novel / author | song"
 msgstr "novela / autor | canción"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:431
 msgid "composer | songwriter | lyricist"
 msgstr "compositor | escritor | letrista"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:432
 msgid "car / road | train"
 msgstr "coche / carretera | tren"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:433
 msgid "track | railway | rails | railroad"
 msgstr "vía | vía férrea | raíles | ferrocarril"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:434
 msgid "pediatrics / children | numismatics"
 msgstr "pediatra / niños | numismática"
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:435
 msgid "coins"
 msgstr "monedas"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
 msgstr "termómetro / temperatura | reloj"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:437
+#: ../data/verbal_analogies.xml.h:438
 msgid "time"
 msgstr "tiempo"
 
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:439
 msgid "poems / anthology | maps"
 msgstr "poemas / antología | mapas"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:440
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:441
 msgid "letter / word | page"
 msgstr "letra / palabra | página"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:442
 msgid "book | magazine | document"
 msgstr "libro | revista | documento"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:443
 msgid "hour / minute | minute"
 msgstr "hora / minuto | minuto"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:444
+#: ../data/verbal_analogies.xml.h:445
 msgid "second"
 msgstr "segundo"
 
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:446
 msgid "tiger / carnivore | cow"
 msgstr "tigre / carnívoro | vaca"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:447
 msgid "herbivorous | herbivore"
 msgstr "herbívoros | herbívoro"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:448
 msgid "constellation / stars | archipelago"
 msgstr "constelación / estrellas | archipiélago"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:449
 msgid "islands"
 msgstr "islas"
 
@@ -3361,12 +3362,14 @@ msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "Al responder analogías verbales pon atención al tiempo del verbo."
 
 #: ../src/Core/Main/GameTips.cs:89
+#| msgid ""
+#| "When you go to stores, try to perform calculations without the use of "
+#| "calculator."
 msgid ""
-"When you go to stores, try to perform calculations without the use of "
+"When you go shopping, try to perform calculations without the use of a "
 "calculator."
 msgstr ""
-"Cuando vayas a las tiendas, intenta realizar cálculos sin usar una "
-"calculadora."
+"Cuando vayas de compras, intenta realizar cálculos sin usar una calculadora."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
@@ -3644,9 +3647,12 @@ msgstr "Suma consecutiva"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
+#| msgid ""
+#| "In the list of single digit numbers below, there are 5 consecutive "
+#| "numbers that sum {0}. What are these numbers?"
 msgid ""
-"In the list of single digit numbers below, there are 5 consecutive numbers "
-"that sum {0}. What are these numbers?"
+"In the list of single-digit numbers below, there are 5 consecutive numbers "
+"whose sum is {0}. Which numbers are these?"
 msgstr ""
 "En la siguiente lista de números, hay 5 números consecutivos que suman {0}. "
 "¿Qué números son?"
@@ -3677,7 +3683,7 @@ msgstr ""
 "Responde {0}, {1}, {2} o {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:215
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
 msgid "Numbers"
 msgstr "Números"
 
@@ -3793,18 +3799,24 @@ msgstr "Números seleccionados"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
+#| msgid ""
+#| "In the list of numbers below, what is the sum of the numbers greater than "
+#| "{0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
-"In the list of numbers below, what is the sum of the numbers greater than "
-"{0}? Answer {1}, {2}, {3} or {4}."
+"In the list of numbers below, what is the sum of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "En la siguiente lista de números, ¿cuál es la suma de todos los números "
 "mayores que {0}? Responde {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
+#| msgid ""
+#| "In the list of numbers below, what is the product of the numbers greater "
+#| "than {0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
-"In the list of numbers below, what is the product of the numbers greater "
-"than {0}? Answer {1}, {2}, {3} or {4}."
+"In the list of numbers below, what is the product of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "En la siguiente lista de números, ¿cuál es el producto de todos los números "
 "mayores que {0}? Responde {1}, {2}, {3} o {4}."
@@ -4278,16 +4290,16 @@ msgstr ""
 "círculos, «D» que las figuras están separadas, «E» que hay tres figuras y «F» "
 "que hay dos figuras."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:40
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
 msgstr "Patrones de figuras"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:45
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:49
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr "¿Qué figura debe reemplazar el interrogante? Responde {0}, {1} o {2}."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:50
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:54
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
@@ -4295,7 +4307,7 @@ msgstr ""
 "La tercera figura de cada fila implica combinar de alguna manera las dos "
 "primeras figuras."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:55
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
@@ -4323,11 +4335,11 @@ msgstr ""
 "Es la única combinación que puedes construir con los elementos dados sin "
 "repetirlos."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:43
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
 msgid "Find the number"
 msgstr "Busca el número"
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:51
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
 msgid ""
 "Looking horizontally and vertically to the lines of the grid below, which is "
@@ -4346,12 +4358,12 @@ msgstr[1] ""
 "es el lugar del número {0} casillas a partir de él mismo multiplicado por 2 "
 "y {1} casillas a partir de él mismo más 2?"
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
 msgstr "El número está en la fila {0}, columna {1}."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:69
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
@@ -4377,19 +4389,19 @@ msgstr ""
 "Las figuras de cuatro caras se construyen conectando los siguientes puntos: "
 "{0}"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:35
+#: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
 msgstr "Círculos en una matriz"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:39
+#: ../src/Games/Logic/PuzzleGridCircles.cs:46
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr "Uno de los números de la matriz se debe rodear. ¿Cuál?"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:43
+#: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
 msgstr "Todos los números rodeados comparten una propiedad aritmética."
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:48
+#: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
 msgstr "Cada numerado rodeado se puede dividir por {0}."
@@ -4537,15 +4549,11 @@ msgstr ""
 "figuras? Responde {0}, {1}, {2} o {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#| msgid "Largest diameter"
 msgid "Largest area"
 msgstr "Área más grande"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
@@ -4572,7 +4580,6 @@ msgstr "Cuanto menos curvado está el arco, más grande es el círculo."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
-#| msgid "Answer {0}."
 msgid "Arc {0}"
 msgstr "Arco {0}."
 
@@ -4864,9 +4871,12 @@ msgstr "Personas en una mesa"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
+#| msgid ""
+#| "A group of people are sitting at a round table spaced out evenly. How "
+#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
-"A group of people are sitting at a round table spaced out evenly. How many "
-"people are there if the {0} person is across from the {1}?"
+"A group of people, spaced out evenly, are sitting at a round table. How many "
+"people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Un grupo de personas está sentada en una mesa redonda y separadas por la "
 "misma distancia. ¿Cuántas personas hay si la persona {0} está en frente de "
@@ -4906,7 +4916,8 @@ msgid "22nd"
 msgstr "22º"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-msgid "Two people in the table sitting across each other"
+#| msgid "Two people in the table sitting across each other"
+msgid "Two people in the table sitting across from each other"
 msgstr "Dos personas en la mesa sentadas a cada lado"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:41
