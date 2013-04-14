@@ -197,8 +197,8 @@ namespace gbrainy.Games.Logic
 
 		private void SetDrawingAreas ()
 		{
-			double rect_w = DrawAreaWidth / rows;
-			double rect_h = DrawAreaHeight / columns;
+			double rect_w = DrawAreaWidth / columns;
+			double rect_h = DrawAreaHeight / rows;
 
 			Container container = new Container (DrawAreaX, DrawAreaY, 0.8, 0.8);
 			AddWidget (container);
@@ -208,8 +208,8 @@ namespace gbrainy.Games.Logic
 				for (int row = 0; row < rows; row++) 
 				{
 					DrawableArea drawable_area = new DrawableArea (rect_w, rect_h);
-					drawable_area.X = DrawAreaX + row * rect_w;
-					drawable_area.Y = DrawAreaY + column * rect_h;
+					drawable_area.X = DrawAreaX + column * rect_w;
+					drawable_area.Y = DrawAreaY + row * rect_h;
 					container.AddChild (drawable_area);
 
 					string num = grid[row * columns + column].ToString ();
