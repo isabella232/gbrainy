@@ -44,10 +44,7 @@ namespace gbrainy.Core.Libraries
 
 		public CSharpCompiler ()
 		{
-			CompilerSettings settings = new CompilerSettings ();
-			Report report = new Report (new NullReportPrinter ());
-
-			evaluator = new Evaluator (settings, report);
+ 			evaluator = new Evaluator (new CompilerContext (new CompilerSettings (), new NullReportPrinter ()));
 		}
 
 		public void EvaluateCode (string code)
