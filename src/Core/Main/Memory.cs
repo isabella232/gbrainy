@@ -121,6 +121,9 @@ namespace gbrainy.Core.Main
 
 		public void StartTimer ()
 		{
+			if (IsPreviewMode == true)
+				return;
+
 			timer.Enabled = true;
 			draw_timer = true;
 		}
@@ -166,7 +169,12 @@ namespace gbrainy.Core.Main
 		}		
 
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
-		{			
+		{
+			if (IsPreviewMode) {
+				DrawPreview (gr, area_width, area_height, rtl);
+				return;
+			}
+
 			if (downview != null) {
 				downview.Draw (gr, area_width, area_height, rtl);
 				return;
