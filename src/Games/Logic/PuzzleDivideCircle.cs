@@ -109,14 +109,13 @@ namespace gbrainy.Games.Logic
 					new Circle (0.14, 0.29),
 				}, true);
 
-			gr.MoveTo (pos_x, pos_y + figure_size * 2 + 0.05);
-			gr.ShowPangoText (HasNRegionString (2));
+			gr.DrawTextCentered (pos_x + figure_size, pos_y + figure_size * 2 + 0.07, HasNRegionString (2));
 			gr.Stroke ();
 
 			// Second circle
 			pos_x += 0.4;
 			gr.Arc (pos_x + figure_size, pos_y + figure_size, figure_size, 0, 2 * Math.PI);
-			gr.Stroke ();		
+			gr.Stroke ();
 			DrawAndConnectPoints (gr, pos_x, pos_y,
 				new Circle [] {
 					new Circle (0.01, 0.06),
@@ -124,8 +123,7 @@ namespace gbrainy.Games.Logic
 					new Circle (0.14, 0.29),
 				}, true);
 
-			gr.MoveTo (pos_x, pos_y + figure_size * 2 + 0.05);
-			gr.ShowPangoText (HasNRegionString (4));
+			gr.DrawTextCentered (pos_x + figure_size, pos_y + figure_size * 2 + 0.07, HasNRegionString (4));
 			gr.Stroke ();
 
 			// Third circle
@@ -141,8 +139,7 @@ namespace gbrainy.Games.Logic
 					new Circle (0.27, 0.21),
 				}, true);
 
-			gr.MoveTo (pos_x, pos_y + figure_size * 2 + 0.05);
-			gr.ShowPangoText (HasNRegionString (8));
+			gr.DrawTextCentered (pos_x + figure_size, pos_y + figure_size * 2 + 0.07, HasNRegionString (8));
 			gr.Stroke ();
 
 			switch (dots) {
