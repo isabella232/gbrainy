@@ -1,5 +1,5 @@
 # Brazilian portuguese translation of gbrainy.
-# Copyright (C) 2009 -2010 the gbrainy'S COPYRIGHT HOLDER
+# Copyright (C) 2009-2013 the gbrainy'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the grainy package.
 # Jonh Wendell <wendell@bani.com.br>, 2009.
 # Enrico Nicoletto <liverig@gmail.com>, 2009, 2010, 2013.
@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: grainy 1.50\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-21 19:38+0000\n"
-"PO-Revision-Date: 2013-01-22 22:06-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"POT-Creation-Date: 2013-06-01 15:37+0000\n"
+"PO-Revision-Date: 2013-06-09 01:49-0300\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -2165,7 +2165,7 @@ msgstr "Agarrar e morder são ações finitas."
 
 #: ../data/verbal_analogies.xml.h:409
 msgid "puzzle / solve | game"
-msgstr "enigma / resolver | jogo"
+msgstr "quebra-cabeça / resolver | jogo"
 
 #: ../data/verbal_analogies.xml.h:410
 msgid "win | play"
@@ -2748,7 +2748,7 @@ msgstr "Todos os jogos (lógica, cálculo mental, memória e analogias verbais)"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:5
 msgid "Logic Puzzles Only"
-msgstr "Somente enigmas lógicos"
+msgstr "Somente quebra-cabeças lógicos"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Mental Calculation Only"
@@ -2780,7 +2780,7 @@ msgstr "Exportar jogos para PDF para jogar off-line..."
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
-msgstr "_Visualizar"
+msgstr "_Ver"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:14
 msgid "Toolbar"
@@ -3206,8 +3206,8 @@ msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
 msgstr ""
-"{0} jogos registrados: {1} enigmas lógicos, {2} treinamentos de cálculos, "
-"{3} treinamentos de memória, {4} analogias verbais"
+"{0} jogos registrados: {1} quebra-cabeças lógicos, {2} treinamentos de "
+"cálculos, {3} treinamentos de memória, {4} analogias verbais"
 
 #: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
@@ -3354,7 +3354,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Memorize os objetos abaixo dentro do tempo estipulado"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Fim do tempo"
 
@@ -3534,7 +3534,8 @@ msgstr "Tempo"
 
 #: ../src/Core/Views/WelcomeView.cs:64
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
-msgstr "Enigmas lógicos. Desafie suas habilidades de raciocínio e pensamento."
+msgstr ""
+"Quebra-cabeças lógicos. Desafie suas habilidades de raciocínio e pensamento."
 
 #: ../src/Core/Views/WelcomeView.cs:85
 msgid ""
@@ -4189,7 +4190,7 @@ msgstr ""
 "Na última figura, em quantas regiões o círculo é dividido enquanto todos os "
 "pontos estão ligados?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
