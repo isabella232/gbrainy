@@ -496,8 +496,8 @@ msgid ""
 "produces an odd number."
 msgstr ""
 "La multiplicació de dos nombres parells és sempre un nombre parell, així que "
-"x multiplicat per 2 és parell. Sumar un nombre parell a un nombre senar "
-"(«y») sempre produeix un nombre senar."
+"«x» multiplicat per 2 és parell. Sumar un nombre senar («y») a un nombre parell "
+"sempre produeix un nombre senar."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
