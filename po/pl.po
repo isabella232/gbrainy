@@ -7,14 +7,14 @@
 # Konrad Boroń <konradmb@o2.pl>, 2010.
 # Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010.
 # Piotr Sokół <psokol@jabster.pl>, 2012.
-# Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012.
-# Aviary.pl <gnomepl@aviary.pl>, 2012.
+# Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013.
+# Aviary.pl <gnomepl@aviary.pl>, 2012-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-04 16:52+0100\n"
-"PO-Revision-Date: 2012-11-04 16:23+0100\n"
+"POT-Creation-Date: 2013-06-11 22:41+0200\n"
+"PO-Revision-Date: 2013-06-11 22:34+0100\n"
 "Last-Translator: Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -23,10 +23,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/games.xml.h:1
-msgid "Clock Rotation"
+msgid "Clock rotation"
 msgstr "Tarcza zegara"
 
 #: ../data/games.xml.h:2
@@ -334,8 +333,8 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
 #: ../src/Games/Calculation/CalculationPrimes.cs:151
 #: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:228
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:191
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
 #: ../src/Games/Logic/PuzzleLargerShape.cs:303
@@ -869,185 +868,186 @@ msgstr "Agorafobia"
 msgid "Which of the following words does not belong in this group?"
 msgstr "Który z poniższych wyrazów nie pasuje do pozostałych?"
 
-#: ../data/verbal_analogies.xml.h:56
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:57
 msgid "Violin"
 msgstr "Skrzypce"
 
-#: ../data/verbal_analogies.xml.h:57
+#: ../data/verbal_analogies.xml.h:58
 msgid "Bassoon"
 msgstr "Fagot"
 
-#: ../data/verbal_analogies.xml.h:58
+#: ../data/verbal_analogies.xml.h:59
 msgid "Flute"
 msgstr "Flet"
 
-#: ../data/verbal_analogies.xml.h:59
+#: ../data/verbal_analogies.xml.h:60
 msgid "Oboe"
 msgstr "Obój"
 
-#: ../data/verbal_analogies.xml.h:60
+#: ../data/verbal_analogies.xml.h:61
 msgid "It is the only one that is not a woodwind instrument."
 msgstr "To jedyny instrument, który nie jest instrumentem dętym drewnianym."
 
-#: ../data/verbal_analogies.xml.h:61
+#: ../data/verbal_analogies.xml.h:62
 msgid "What is a 'halberd'?"
 msgstr "Czym jest „halabarda”?"
 
-#: ../data/verbal_analogies.xml.h:62
+#: ../data/verbal_analogies.xml.h:63
 msgid "Weapon"
 msgstr "Broń"
 
-#: ../data/verbal_analogies.xml.h:63
+#: ../data/verbal_analogies.xml.h:64
 msgid "Flower"
 msgstr "Kwiat"
 
-#: ../data/verbal_analogies.xml.h:64
+#: ../data/verbal_analogies.xml.h:65
 msgid "Fish"
 msgstr "Ryba"
 
-#: ../data/verbal_analogies.xml.h:65
+#: ../data/verbal_analogies.xml.h:66
 msgid "Sport"
 msgstr "Sport"
 
-#: ../data/verbal_analogies.xml.h:66
+#: ../data/verbal_analogies.xml.h:67
 msgid "Fossil"
 msgstr "Skamielina"
 
-#: ../data/verbal_analogies.xml.h:67
+#: ../data/verbal_analogies.xml.h:68
 msgid "Portico"
 msgstr "Portyk"
 
-#: ../data/verbal_analogies.xml.h:68
+#: ../data/verbal_analogies.xml.h:69
 msgid "Column"
 msgstr "Kolumna"
 
-#: ../data/verbal_analogies.xml.h:69
+#: ../data/verbal_analogies.xml.h:70
 msgid "Attic"
 msgstr "Strych"
 
-#: ../data/verbal_analogies.xml.h:70
+#: ../data/verbal_analogies.xml.h:71
 msgid "It is the only one that is not related to architecture."
 msgstr "To jedyny wyraz, który nie jest związany z architekturą."
 
-#: ../data/verbal_analogies.xml.h:71
+#: ../data/verbal_analogies.xml.h:72
 msgid "Kilometer"
 msgstr "Kilometr"
 
-#: ../data/verbal_analogies.xml.h:72
+#: ../data/verbal_analogies.xml.h:73
 msgid "Hectogram"
 msgstr "Hektogram"
 
-#: ../data/verbal_analogies.xml.h:73
+#: ../data/verbal_analogies.xml.h:74
 msgid "Liter"
 msgstr "Litr"
 
-#: ../data/verbal_analogies.xml.h:74
+#: ../data/verbal_analogies.xml.h:75
 msgid "Gallon"
 msgstr "Galon"
 
-#: ../data/verbal_analogies.xml.h:75
+#: ../data/verbal_analogies.xml.h:76
 msgid "It is the only unit that does not belong to the metric system."
 msgstr "To jedyna jednostka, która nie należy do systemu metrycznego."
 
 #. Translators: refers to the fruit
-#: ../data/verbal_analogies.xml.h:77
+#: ../data/verbal_analogies.xml.h:78
 msgid "Orange"
 msgstr "Pomarańcza"
 
-#: ../data/verbal_analogies.xml.h:78
+#: ../data/verbal_analogies.xml.h:79
 msgid "Apple"
 msgstr "Jabłko"
 
-#: ../data/verbal_analogies.xml.h:79
+#: ../data/verbal_analogies.xml.h:80
 msgid "Grape"
 msgstr "Winogrono"
 
-#: ../data/verbal_analogies.xml.h:80
+#: ../data/verbal_analogies.xml.h:81
 msgid "Potato"
 msgstr "Ziemniak"
 
-#: ../data/verbal_analogies.xml.h:81
+#: ../data/verbal_analogies.xml.h:82
 msgid "It is the only one that is not a fruit."
 msgstr "Jest jedynym, który nie jest owocem."
 
-#: ../data/verbal_analogies.xml.h:82
+#: ../data/verbal_analogies.xml.h:83
 msgid "Turtle"
 msgstr "Żółw"
 
-#: ../data/verbal_analogies.xml.h:83
+#: ../data/verbal_analogies.xml.h:84
 msgid "Crocodile"
 msgstr "Krokodyl"
 
-#: ../data/verbal_analogies.xml.h:84
+#: ../data/verbal_analogies.xml.h:85
 msgid "Lizard"
 msgstr "Jaszczurka"
 
-#: ../data/verbal_analogies.xml.h:85
+#: ../data/verbal_analogies.xml.h:86
 msgid "Frog"
 msgstr "Żaba"
 
-#: ../data/verbal_analogies.xml.h:86
+#: ../data/verbal_analogies.xml.h:87
 msgid "It is the only one that is not a reptile and also does not have a tail."
 msgstr "Jest jedynym, który nie jest gadem i nie posiada ogona."
 
-#: ../data/verbal_analogies.xml.h:87
+#: ../data/verbal_analogies.xml.h:88
 msgid "Tiger"
 msgstr "Tygrys"
 
-#: ../data/verbal_analogies.xml.h:88
+#: ../data/verbal_analogies.xml.h:89
 msgid "Hyena"
 msgstr "Hiena"
 
-#: ../data/verbal_analogies.xml.h:89
+#: ../data/verbal_analogies.xml.h:90
 msgid "Wolf"
 msgstr "Wilk"
 
-#: ../data/verbal_analogies.xml.h:90
+#: ../data/verbal_analogies.xml.h:91
 msgid "Deer"
 msgstr "Jeleń"
 
-#: ../data/verbal_analogies.xml.h:91
+#: ../data/verbal_analogies.xml.h:92
 msgid "It is the only one that is not a carnivore."
 msgstr "Jest jedynym, które nie jest mięsożercą."
 
-#: ../data/verbal_analogies.xml.h:92
+#: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „hedonizm”?"
 
-#: ../data/verbal_analogies.xml.h:93
+#: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
 msgstr "Przyjemność"
 
-#: ../data/verbal_analogies.xml.h:94
+#: ../data/verbal_analogies.xml.h:95
 msgid "Pain"
 msgstr "Ból"
 
-#: ../data/verbal_analogies.xml.h:95
+#: ../data/verbal_analogies.xml.h:96
 msgid "Collectivism"
 msgstr "Kolektywizm"
 
-#: ../data/verbal_analogies.xml.h:96
+#: ../data/verbal_analogies.xml.h:97
 msgid "Abstinence"
 msgstr "Abstynencja"
 
-#: ../data/verbal_analogies.xml.h:97
+#: ../data/verbal_analogies.xml.h:98
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
 "Termin oznacza doktrynę etyczną mówiącą, że to co przyjemne jest faktycznie "
 "dobre."
 
-#: ../data/verbal_analogies.xml.h:98
+#: ../data/verbal_analogies.xml.h:99
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „ascetyzm”?"
 
-#: ../data/verbal_analogies.xml.h:99
+#: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
 msgstr "Pozytywizm"
 
-#: ../data/verbal_analogies.xml.h:100
+#: ../data/verbal_analogies.xml.h:101
 msgid ""
 "The practice of austere self-discipline in order to achieve a higher or "
 "spiritual idea."
@@ -1055,136 +1055,136 @@ msgstr ""
 "Termin oznacza poddanie się surowej samodyscyplinie wewnętrznej w celu "
 "osiągnięcia czystości i doskonałości duchowej."
 
-#: ../data/verbal_analogies.xml.h:101
+#: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „oksymoron”?"
 
-#: ../data/verbal_analogies.xml.h:102
+#: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
 msgstr "Sprzeczny"
 
-#: ../data/verbal_analogies.xml.h:103
+#: ../data/verbal_analogies.xml.h:104
 msgid "Synonym"
 msgstr "Synonim"
 
-#: ../data/verbal_analogies.xml.h:104
+#: ../data/verbal_analogies.xml.h:105
 msgid "Related"
 msgstr "Powiązany"
 
-#: ../data/verbal_analogies.xml.h:105
+#: ../data/verbal_analogies.xml.h:106
 msgid "Ironic"
 msgstr "Ironiczny"
 
-#: ../data/verbal_analogies.xml.h:106
+#: ../data/verbal_analogies.xml.h:107
 msgid "A figure of speech that combines contradicting terms."
 msgstr ""
 "Termin oznacza figurę retoryczną, którą tworzy się przez zestawienie wyrazów "
 "o przeciwstawnych znaczeniach."
 
-#: ../data/verbal_analogies.xml.h:107
+#: ../data/verbal_analogies.xml.h:108
 msgid "Lentils"
 msgstr "Soczewica"
 
-#: ../data/verbal_analogies.xml.h:108
+#: ../data/verbal_analogies.xml.h:109
 msgid "Wheat"
 msgstr "Pszenica"
 
-#: ../data/verbal_analogies.xml.h:109
+#: ../data/verbal_analogies.xml.h:110
 msgid "Corn"
 msgstr "Kukurydza"
 
-#: ../data/verbal_analogies.xml.h:110
+#: ../data/verbal_analogies.xml.h:111
 msgid "Rice"
 msgstr "Ryż"
 
-#: ../data/verbal_analogies.xml.h:111
+#: ../data/verbal_analogies.xml.h:112
 msgid "It is the only one that is not a cereal."
 msgstr "To jedyna roślina, która nie jest zbożem."
 
-#: ../data/verbal_analogies.xml.h:112
+#: ../data/verbal_analogies.xml.h:113
 msgid "Onion"
 msgstr "Cebula"
 
-#: ../data/verbal_analogies.xml.h:113
+#: ../data/verbal_analogies.xml.h:114
 msgid "Mango"
 msgstr "Mango"
 
-#: ../data/verbal_analogies.xml.h:114
+#: ../data/verbal_analogies.xml.h:115
 msgid "Lychee"
 msgstr "Liczi"
 
-#: ../data/verbal_analogies.xml.h:115
+#: ../data/verbal_analogies.xml.h:116
 msgid "Olive"
 msgstr "Oliwka"
 
-#: ../data/verbal_analogies.xml.h:116
+#: ../data/verbal_analogies.xml.h:117
 msgid "Carbon"
 msgstr "Węgiel"
 
-#: ../data/verbal_analogies.xml.h:117
+#: ../data/verbal_analogies.xml.h:118
 msgid "Sodium"
 msgstr "Sód"
 
-#: ../data/verbal_analogies.xml.h:118
+#: ../data/verbal_analogies.xml.h:119
 msgid "Titanium"
 msgstr "Tytan"
 
-#: ../data/verbal_analogies.xml.h:119
+#: ../data/verbal_analogies.xml.h:120
 msgid "Zinc"
 msgstr "Cynk"
 
-#: ../data/verbal_analogies.xml.h:120
+#: ../data/verbal_analogies.xml.h:121
 msgid "It is the only one that is not a metal."
 msgstr "To jedyny pierwiastek, który nie jest metalem."
 
-#: ../data/verbal_analogies.xml.h:121
+#: ../data/verbal_analogies.xml.h:122
 msgid "Cardiology"
 msgstr "Kardiologia"
 
-#: ../data/verbal_analogies.xml.h:122
+#: ../data/verbal_analogies.xml.h:123
 msgid "Hematology"
 msgstr "Hematologia"
 
-#: ../data/verbal_analogies.xml.h:123
+#: ../data/verbal_analogies.xml.h:124
 msgid "Psychiatry"
 msgstr "Psychiatria"
 
-#: ../data/verbal_analogies.xml.h:124
+#: ../data/verbal_analogies.xml.h:125
 msgid "Paleontology"
 msgstr "Paleontologia"
 
-#: ../data/verbal_analogies.xml.h:125
+#: ../data/verbal_analogies.xml.h:126
 msgid "It is the only one that is not a medical specialty."
 msgstr "To jedyny wyraz, który nie jest nazwą specjalności medycznej."
 
-#: ../data/verbal_analogies.xml.h:126
+#: ../data/verbal_analogies.xml.h:127
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „niebaczny”?"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:128
+#: ../data/verbal_analogies.xml.h:129
 msgid "Careless"
 msgstr "Nieostrożny"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:130
+#: ../data/verbal_analogies.xml.h:131
 msgid "Friendly"
 msgstr "Przyjazny"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:132
+#: ../data/verbal_analogies.xml.h:133
 msgid "Polite"
 msgstr "Uprzejmy"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:134
+#: ../data/verbal_analogies.xml.h:135
 msgid "Angry"
 msgstr "Rozgniewany"
 
 #. Translator: definition of negligent
-#: ../data/verbal_analogies.xml.h:136
+#: ../data/verbal_analogies.xml.h:137
 msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
@@ -1192,377 +1192,460 @@ msgstr ""
 "Termin oznacza niepodjęcie odpowiednich środków ostrożności, które byłyby "
 "właściwe lub oczekiwane."
 
-#: ../data/verbal_analogies.xml.h:137
+#: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
 msgstr "Zwykły"
 
-#: ../data/verbal_analogies.xml.h:138
+#: ../data/verbal_analogies.xml.h:139
 msgid "Occasional"
 msgstr "Niepowtarzalny"
 
-#: ../data/verbal_analogies.xml.h:139
+#: ../data/verbal_analogies.xml.h:140
 msgid "Exceptional"
 msgstr "Wyjątkowy"
 
-#: ../data/verbal_analogies.xml.h:140
+#: ../data/verbal_analogies.xml.h:141
 msgid "Rare"
 msgstr "Rzadki"
 
-#: ../data/verbal_analogies.xml.h:141
+#: ../data/verbal_analogies.xml.h:142
 msgid "The other words have the connotation of not occurring frequently."
 msgstr "Pozostałe wyrazy opisują zjawisko, które nie występuje często."
 
-#: ../data/verbal_analogies.xml.h:142
+#: ../data/verbal_analogies.xml.h:143
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „kłopoczący”?"
 
 #. Translator: As synonymous of 'perplexing'
-#: ../data/verbal_analogies.xml.h:144
+#: ../data/verbal_analogies.xml.h:145
 msgid "Confusing"
 msgstr "Frasujący"
 
-#: ../data/verbal_analogies.xml.h:145
+#: ../data/verbal_analogies.xml.h:146
 msgid "Interesting"
 msgstr "Interesujący"
 
-#: ../data/verbal_analogies.xml.h:146
+#: ../data/verbal_analogies.xml.h:147
 msgid "Ordinary"
 msgstr "Zwykły"
 
-#: ../data/verbal_analogies.xml.h:147
+#: ../data/verbal_analogies.xml.h:148
 msgid "Trivial"
 msgstr "Trywialny"
 
-#: ../data/verbal_analogies.xml.h:148
+#: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „nieszczęśliwy”?"
 
-#: ../data/verbal_analogies.xml.h:149
+#: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
 msgstr "Smutny"
 
-#: ../data/verbal_analogies.xml.h:150
+#: ../data/verbal_analogies.xml.h:151
 msgid "Unpleasant"
 msgstr "Niemiły"
 
-#: ../data/verbal_analogies.xml.h:151
+#: ../data/verbal_analogies.xml.h:152
 msgid "Tears"
 msgstr "Żałosny"
 
-#: ../data/verbal_analogies.xml.h:152
+#: ../data/verbal_analogies.xml.h:153
 msgid "Incredible"
 msgstr "Nieprawdopodobny"
 
-#: ../data/verbal_analogies.xml.h:153
+#: ../data/verbal_analogies.xml.h:154
 msgid "Famous"
 msgstr "Znany"
 
-#: ../data/verbal_analogies.xml.h:154
+#: ../data/verbal_analogies.xml.h:155
 msgid "Acclaimed"
 msgstr "Uznany"
 
-#: ../data/verbal_analogies.xml.h:155
+#: ../data/verbal_analogies.xml.h:156
 msgid "Celebrated"
 msgstr "Sławny"
 
-#: ../data/verbal_analogies.xml.h:156
+#: ../data/verbal_analogies.xml.h:157
 msgid "The other words have the meaning of distinguished."
 msgstr ""
 "Pozostałe wyrazy opisują osobę, która została wyróżniona przez otoczenie."
 
-#: ../data/verbal_analogies.xml.h:157
+#: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „specyficzny”?"
 
 #. Translator: Pertaining to a single or specific person or thing
-#: ../data/verbal_analogies.xml.h:159
+#: ../data/verbal_analogies.xml.h:160
 msgid "Particular"
 msgstr "Szczególny"
 
-#: ../data/verbal_analogies.xml.h:160
+#: ../data/verbal_analogies.xml.h:161
 msgid "Obvious"
 msgstr "Oczywisty"
 
-#: ../data/verbal_analogies.xml.h:161
+#: ../data/verbal_analogies.xml.h:162
 msgid "Generic"
 msgstr "Ogólny"
 
-#: ../data/verbal_analogies.xml.h:162
+#: ../data/verbal_analogies.xml.h:163
 msgid "Plate"
 msgstr "Talerz"
 
 #. Translator: As a noun
-#: ../data/verbal_analogies.xml.h:164
+#: ../data/verbal_analogies.xml.h:165
 msgid "Bottle"
 msgstr "Butelka"
 
-#: ../data/verbal_analogies.xml.h:165
+#: ../data/verbal_analogies.xml.h:166
 msgid "Amphora"
 msgstr "Amfora"
 
-#: ../data/verbal_analogies.xml.h:166
+#: ../data/verbal_analogies.xml.h:167
 msgid "Bowl"
 msgstr "Miska"
 
-#: ../data/verbal_analogies.xml.h:167
+#: ../data/verbal_analogies.xml.h:168
 msgid "It is the only one that is not used to storage liquids."
 msgstr "To jedyne naczynie, które nie jest używane do przechowywania płynów."
 
-#: ../data/verbal_analogies.xml.h:168
+#: ../data/verbal_analogies.xml.h:169
 msgid "Walnut"
 msgstr "Orzech włoski"
 
 #. Translator: In reference to the nut
-#: ../data/verbal_analogies.xml.h:170
+#: ../data/verbal_analogies.xml.h:171
 msgid "Macadamia"
 msgstr "Makadamia"
 
-#: ../data/verbal_analogies.xml.h:171
+#: ../data/verbal_analogies.xml.h:172
 msgid "Chestnut"
 msgstr "Kasztan"
 
-#: ../data/verbal_analogies.xml.h:172
+#: ../data/verbal_analogies.xml.h:173
 msgid "It is the only one that is not a nut."
 msgstr "Jako jedyny nie jest orzechem."
 
-#: ../data/verbal_analogies.xml.h:173
+#: ../data/verbal_analogies.xml.h:174
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „uznawać”?"
 
-#: ../data/verbal_analogies.xml.h:174
+#: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
 msgstr "Aplauz"
 
-#: ../data/verbal_analogies.xml.h:175
+#: ../data/verbal_analogies.xml.h:176
 msgid "Commendation"
 msgstr "Pochwała"
 
-#: ../data/verbal_analogies.xml.h:176
+#: ../data/verbal_analogies.xml.h:177
 msgid "Citation"
 msgstr "Cytat"
 
 #. Translator: As a noun (call upon a spirit by invocation)
-#: ../data/verbal_analogies.xml.h:178
+#: ../data/verbal_analogies.xml.h:179
 msgid "Conjure"
 msgstr "Przywoływać"
 
-#: ../data/verbal_analogies.xml.h:179
+#: ../data/verbal_analogies.xml.h:180
 msgid "Which of the following words is closest to the meaning of 'grief'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „cierpienie”?"
 
 #. Translator: As a noun
-#: ../data/verbal_analogies.xml.h:181
+#: ../data/verbal_analogies.xml.h:182
 msgid "Lament"
 msgstr "Tren"
 
-#: ../data/verbal_analogies.xml.h:182
+#: ../data/verbal_analogies.xml.h:183
 msgid "Fraud"
 msgstr "Oszustwo"
 
-#: ../data/verbal_analogies.xml.h:183
+#: ../data/verbal_analogies.xml.h:184
 msgid "Intolerance"
 msgstr "Nietolerancja"
 
-#: ../data/verbal_analogies.xml.h:184
+#: ../data/verbal_analogies.xml.h:185
 msgid "Risk"
 msgstr "Ryzyko"
 
-#: ../data/verbal_analogies.xml.h:185
+#: ../data/verbal_analogies.xml.h:186
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Który z poniższych wyrazów jest znaczeniowo najbliższy słowu „flegmatyczny”?"
 
-#: ../data/verbal_analogies.xml.h:186
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:188
 msgid "Calm"
 msgstr "Spokój"
 
-#: ../data/verbal_analogies.xml.h:187
+#: ../data/verbal_analogies.xml.h:189
 msgid "Authentic"
 msgstr "Autentyczny"
 
-#: ../data/verbal_analogies.xml.h:188
+#: ../data/verbal_analogies.xml.h:190
 msgid "Clever"
 msgstr "Sprytny"
 
-#: ../data/verbal_analogies.xml.h:189
+#: ../data/verbal_analogies.xml.h:191
 msgid "Tense"
 msgstr "Czas"
 
-#: ../data/verbal_analogies.xml.h:190
+#: ../data/verbal_analogies.xml.h:192
 msgid "Concert"
 msgstr "Koncert"
 
-#: ../data/verbal_analogies.xml.h:191
+#: ../data/verbal_analogies.xml.h:193
 msgid "Satire"
 msgstr "Satyra"
 
-#: ../data/verbal_analogies.xml.h:192
+#: ../data/verbal_analogies.xml.h:194
 msgid "Proverb"
 msgstr "Przysłowie"
 
-#: ../data/verbal_analogies.xml.h:193
+#: ../data/verbal_analogies.xml.h:195
 msgid "Epigram"
 msgstr "Fraszka"
 
-#: ../data/verbal_analogies.xml.h:194
+#: ../data/verbal_analogies.xml.h:196
 msgid "It is the only one that is not related to literature."
 msgstr "To jedyny wyraz, który nie jest związany z literaturą."
 
-#: ../data/verbal_analogies.xml.h:195
+#: ../data/verbal_analogies.xml.h:197
 msgid "Curve"
 msgstr "Krzywa"
 
-#: ../data/verbal_analogies.xml.h:196
+#: ../data/verbal_analogies.xml.h:198
 msgid "Cathetus"
 msgstr "Przyprostokątna"
 
-#: ../data/verbal_analogies.xml.h:197
+#: ../data/verbal_analogies.xml.h:199
 msgid "Hypotenuse"
 msgstr "Przeciwprostokątna"
 
-#: ../data/verbal_analogies.xml.h:198
+#: ../data/verbal_analogies.xml.h:200
 msgid "Trigonometry"
 msgstr "Trygonometria"
 
-#: ../data/verbal_analogies.xml.h:199
+#: ../data/verbal_analogies.xml.h:201
 msgid "It is the only one that is not related with triangles."
 msgstr "To jedyny wyraz, który nie jest związany z trójkątami."
 
 #. Translator: As a noun
-#: ../data/verbal_analogies.xml.h:201
+#: ../data/verbal_analogies.xml.h:203
 msgid "Necklace"
 msgstr "Naszyjnik"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:204
 msgid "Candelabra"
 msgstr "Świeczniki"
 
-#: ../data/verbal_analogies.xml.h:203
+#: ../data/verbal_analogies.xml.h:205
 msgid "Lantern"
 msgstr "Latarnia"
 
-#: ../data/verbal_analogies.xml.h:204
+#: ../data/verbal_analogies.xml.h:206
 msgid "Lamp"
 msgstr "Lampa"
 
-#: ../data/verbal_analogies.xml.h:205
+#: ../data/verbal_analogies.xml.h:207
 msgid "It is the only one that does not produce light."
 msgstr "Jest jedynym, który nie emituje światła."
 
-#: ../data/verbal_analogies.xml.h:206
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:209
+msgid "Shield"
+msgstr "Tarcza"
+
+#: ../data/verbal_analogies.xml.h:210
+msgid "Helmet"
+msgstr "Hełm"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:212
+msgid "Armor"
+msgstr "Zbroja"
+
+#: ../data/verbal_analogies.xml.h:213
+msgid "Crossbow"
+msgstr "Kusza"
+
+#: ../data/verbal_analogies.xml.h:214
+msgid "It is the only one that is not used for protection."
+msgstr "Jest jedynym, który nie jest używany do ochrony."
+
+#: ../data/verbal_analogies.xml.h:215
+msgid "Monolith"
+msgstr "Monolit"
+
+#: ../data/verbal_analogies.xml.h:216
+msgid "Granite"
+msgstr "Granit"
+
+#: ../data/verbal_analogies.xml.h:217
+msgid "Rock"
+msgstr "Skała"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:219
+msgid "Tree"
+msgstr "Drzewo"
+
+#: ../data/verbal_analogies.xml.h:220
+msgid "It is the only one that is not related to rocks."
+msgstr "To jedyny wyraz, który nie jest związany ze skałami."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:222
+msgid "Carrot"
+msgstr "Marchew"
+
+#: ../data/verbal_analogies.xml.h:223
+msgid "Beet"
+msgstr "Burak"
+
+#: ../data/verbal_analogies.xml.h:224
+msgid "Radish"
+msgstr "Rzodkiew"
+
+#: ../data/verbal_analogies.xml.h:225
+msgid "Tomato"
+msgstr "Pomidor"
+
+#: ../data/verbal_analogies.xml.h:226
+msgid "It is the only one that does not have roots."
+msgstr "Jest jedynym, który nie jest rośliną korzeniową."
+
+#. Translator: Organ as a musical instrument
+#: ../data/verbal_analogies.xml.h:228
+msgid "Organ"
+msgstr "Organy"
+
+#: ../data/verbal_analogies.xml.h:229
+msgid "Piano"
+msgstr "Fortepian"
+
+#: ../data/verbal_analogies.xml.h:230
+msgid "Accordion"
+msgstr "Akordeon"
+
+#. Translator: 'keys' as the ones found in a keyboard
+#: ../data/verbal_analogies.xml.h:232
+msgid "It is the only instrument that does not have keys."
+msgstr "To jedyny instrument, który nie posiada klawiszy."
+
+#: ../data/verbal_analogies.xml.h:233
 msgid "car / garage | plane"
 msgstr "samochód / garaż | samolot"
 
-#: ../data/verbal_analogies.xml.h:207
+#: ../data/verbal_analogies.xml.h:234
 msgid "Hangar"
 msgstr "Hangar"
 
-#: ../data/verbal_analogies.xml.h:208
+#: ../data/verbal_analogies.xml.h:235
 msgid "Airline"
 msgstr "Linia lotnicza"
 
-#: ../data/verbal_analogies.xml.h:209
+#: ../data/verbal_analogies.xml.h:236
 msgid "Aircraft"
 msgstr "Samolot"
 
-#: ../data/verbal_analogies.xml.h:210
+#: ../data/verbal_analogies.xml.h:237
 msgid "Bunker"
 msgstr "Schron"
 
-#: ../data/verbal_analogies.xml.h:211
+#: ../data/verbal_analogies.xml.h:238
 msgid "circle / semicircle | diameter"
 msgstr "okrąg / półokrąg | średnica"
 
-#: ../data/verbal_analogies.xml.h:212
+#: ../data/verbal_analogies.xml.h:239
 msgid "Radius"
 msgstr "Promień"
 
-#: ../data/verbal_analogies.xml.h:213
+#: ../data/verbal_analogies.xml.h:240
 msgid "Chord"
 msgstr "Akord"
 
-#: ../data/verbal_analogies.xml.h:214
+#: ../data/verbal_analogies.xml.h:241
 msgid "Tangent"
 msgstr "Styczna"
 
-#: ../data/verbal_analogies.xml.h:215
+#: ../data/verbal_analogies.xml.h:242
 msgid "Angle"
 msgstr "Kąt"
 
-#: ../data/verbal_analogies.xml.h:216
+#: ../data/verbal_analogies.xml.h:243
 msgid "The radius of a circle is half the diameter."
 msgstr "Promień okręgu wynosi połowę jego średnicy."
 
-#: ../data/verbal_analogies.xml.h:217
+#: ../data/verbal_analogies.xml.h:244
 msgid "talk / yell | dislike"
 msgstr "mówić / wrzeszczeć | niechęć"
 
-#: ../data/verbal_analogies.xml.h:218
+#: ../data/verbal_analogies.xml.h:245
 msgid "Repugnance"
 msgstr "Wstręt"
 
-#: ../data/verbal_analogies.xml.h:219
+#: ../data/verbal_analogies.xml.h:246
 msgid "Offensive"
 msgstr "Obraźliwy"
 
-#: ../data/verbal_analogies.xml.h:220
+#: ../data/verbal_analogies.xml.h:247
 msgid "Shame"
 msgstr "Wstyd"
 
-#: ../data/verbal_analogies.xml.h:221
+#: ../data/verbal_analogies.xml.h:248
 msgid "Ostentation"
 msgstr "Wystawność"
 
-#: ../data/verbal_analogies.xml.h:222
+#: ../data/verbal_analogies.xml.h:249
 msgid "write / pen | eat"
 msgstr "pisać / długopis | jeść"
 
-#: ../data/verbal_analogies.xml.h:223
+#: ../data/verbal_analogies.xml.h:250
 msgid "Fork"
 msgstr "Widelec"
 
-#: ../data/verbal_analogies.xml.h:224
+#: ../data/verbal_analogies.xml.h:251
 msgid "Restaurant"
 msgstr "Restauracja"
 
-#: ../data/verbal_analogies.xml.h:225
+#: ../data/verbal_analogies.xml.h:252
 msgid "Winery"
 msgstr "Winiarnia"
 
-#: ../data/verbal_analogies.xml.h:226
+#: ../data/verbal_analogies.xml.h:253
 msgid "Table"
 msgstr "Stół"
 
-#: ../data/verbal_analogies.xml.h:227
+#: ../data/verbal_analogies.xml.h:254
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "Długopis służy do pisania a widelec do jedzenia."
 
-#: ../data/verbal_analogies.xml.h:228
+#: ../data/verbal_analogies.xml.h:255
 msgid "desert / oasis | sea"
 msgstr "pustynia / oaza | morze"
 
-#: ../data/verbal_analogies.xml.h:229
+#: ../data/verbal_analogies.xml.h:256
 msgid "Island"
 msgstr "Wyspa"
 
-#: ../data/verbal_analogies.xml.h:230
+#: ../data/verbal_analogies.xml.h:257
 msgid "River"
 msgstr "Rzeka"
 
-#: ../data/verbal_analogies.xml.h:231
+#: ../data/verbal_analogies.xml.h:258
 msgid "Beach"
 msgstr "Plaża"
 
-#: ../data/verbal_analogies.xml.h:232
+#: ../data/verbal_analogies.xml.h:259
 msgid "Coast"
 msgstr "Wybrzeże"
 
-#: ../data/verbal_analogies.xml.h:233
+#: ../data/verbal_analogies.xml.h:260
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1571,148 +1654,148 @@ msgstr ""
 "otoczonym wodą."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:235
+#: ../data/verbal_analogies.xml.h:262
 msgid "turtle / shell | letter"
 msgstr "żółw / skorupa | list"
 
-#: ../data/verbal_analogies.xml.h:236
+#: ../data/verbal_analogies.xml.h:263
 msgid "Envelope"
 msgstr "Koperta"
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:264
 msgid "Ink"
 msgstr "Tusz"
 
-#: ../data/verbal_analogies.xml.h:238
+#: ../data/verbal_analogies.xml.h:265
 msgid "Printer"
 msgstr "Drukarka"
 
-#: ../data/verbal_analogies.xml.h:239
+#: ../data/verbal_analogies.xml.h:266
 msgid "Cellulose"
 msgstr "Celuloza"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:267
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr "Żółw znajduje się w skorupie a list w kopercie."
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:268
 msgid "wine / grape | rum"
 msgstr "wino / winogrono | rum"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:269
 msgid "Sugarcane"
 msgstr "Trzcina cukrowa"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:270
 msgid "Grain"
 msgstr "Ziarno"
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:271
 msgid "Sweet corn"
 msgstr "Słodka kukurydza"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:272
 msgid "horticulture / plants | ornithology"
 msgstr "ogrodnictwo / rośliny | ornitologia"
 
-#: ../data/verbal_analogies.xml.h:246
+#: ../data/verbal_analogies.xml.h:273
 msgid "Birds"
 msgstr "Ptaki"
 
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:274
 msgid "Insects"
 msgstr "Owady"
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:275
 msgid "Amphibians"
 msgstr "Płazy"
 
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:276
 msgid "Fishes"
 msgstr "Ryby"
 
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:277
 msgid "thankful / ingratitude | despotism"
 msgstr "wdzięczność / niewdzięczność | despotyzm"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:278
 msgid "Democracy"
 msgstr "Demokracja"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:279
 msgid "Totalitarianism"
 msgstr "Totalitaryzm"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:280
 msgid "Oligarchy"
 msgstr "Oligarchia"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:281
 msgid "Authority"
 msgstr "Uprawnienie"
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:282
 msgid "pessimist / optimist | poor"
 msgstr "pesymista / optymista | biedny"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:284
 msgid "Affluent"
 msgstr "Majętny"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:285
 msgid "Homeless"
 msgstr "Bezdomny"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:286
 msgid "Property"
 msgstr "Własność"
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:287
 msgid "Money"
 msgstr "Pieniądze"
 
-#: ../data/verbal_analogies.xml.h:261
+#: ../data/verbal_analogies.xml.h:288
 msgid "five / pentagon | ten"
 msgstr "pięć / pentagon | dziesięć"
 
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:289
 msgid "Decagon"
 msgstr "Dekagon"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:290
 msgid "Enneagram"
 msgstr "Enneagram"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:291
 msgid "Icosagon"
 msgstr "Dwudziestokąt foremny"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:292
 msgid "Decimal"
 msgstr "Dziesiętny"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:293
 msgid "parallel / meridian | longitude"
 msgstr "równoleżnik / południk | długość geograficzna"
 
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:294
 msgid "Latitude"
 msgstr "szerokość geograficzna"
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:295
 msgid "Solstice"
 msgstr "Przesilenie"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:296
 msgid "Pole"
 msgstr "Słup"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:297
 msgid "Azimuth"
 msgstr "Azymut"
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:298
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1721,482 +1804,538 @@ msgstr ""
 "podczas gdy południki i szerokość geograficzna wskazują kierunek północny i "
 "południowy."
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:299
 msgid "art / gallery | drama"
 msgstr "obraz / galeria | dramat"
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:300
 msgid "Theater"
 msgstr "Teatr"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:301
 msgid "Museum"
 msgstr "Muzeum"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:302
 msgid "Concert hall"
 msgstr "Sala koncertowa"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:303
 msgid "Gym"
 msgstr "Siłownia"
 
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:304
 msgid "hunter / rifle | photographer"
 msgstr "myśliwy / strzelba | fotograf"
 
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:305
 msgid "Camera"
 msgstr "Aparat fotograficzny"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:307
 msgid "Tripod"
 msgstr "Trójnóg"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:308
 msgid "Photography"
 msgstr "Fotografia"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:309
 msgid "Light"
 msgstr "Światło"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:310
 msgid "dish / break | balloon"
 msgstr "naczynie / tłuc | balon"
 
-#: ../data/verbal_analogies.xml.h:284
+#. Translators: like 'he burst the balloon'
+#: ../data/verbal_analogies.xml.h:312
 msgid "Burst"
 msgstr "Pękać"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:313
 msgid "Bounce"
 msgstr "Odbijać się"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:314
 msgid "Float"
 msgstr "Unosić się"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:315
 msgid "Roll"
 msgstr "Toczyć się"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
 msgstr ""
 "Obydwa wyrazy odnoszą się do czynności, które uszkadzają powiązane z nimi "
 "przedmioty."
 
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:317
 msgid "button / push | key (used in a lock)"
 msgstr "przycisk / naciskać | klucz"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:318
 msgid "Turn"
 msgstr "Obracać"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:320
 msgid "Open"
 msgstr "Otwierać"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:322
 msgid "Lock"
 msgstr "Zatrzaskiwać"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:324
 msgid "Close"
 msgstr "Zamykać"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:325
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
 msgstr "Aby przycisk zadziałał, należy go wcisnąć. Klucz należy przekręcić."
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
 msgstr "koncepcja / pomysł | obsesja"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:328
 msgid "Fixation"
 msgstr "Mania"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:329
 msgid "Indifference"
 msgstr "Obojętność"
 
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:330
 msgid "Disinterest"
 msgstr "Bezstronność"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:331
 msgid "Intuition"
 msgstr "Intuicja"
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:332
 msgid "The relation between the two words is that they are synonymous."
 msgstr "Związek pomiędzy dwoma słowami oznaczający, że są one synonimami."
 
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:333
 msgid "fish / water | bird"
 msgstr "ryba / woda | ptak"
 
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:334
 msgid "Air"
 msgstr "Powietrze"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:335
 msgid "Wings"
 msgstr "Skrzydła"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:336
 msgid "Ship"
 msgstr "Statek"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:337
 msgid "Cage"
 msgstr "Klatka"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:339
 msgid "rook / chess | soldier"
 msgstr "wieża / szachy | żołnierz"
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:340
 msgid "Battle"
 msgstr "Bitwa"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:341
 msgid "Gun"
 msgstr "Armata"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:342
 msgid "Peace"
 msgstr "Pokój"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:343
 msgid "Enemy"
 msgstr "Wróg"
 
-#: ../data/verbal_analogies.xml.h:316
-msgid "hungry / eat | tired"
-msgstr "głodny / jeść | zmęczony"
-
-#: ../data/verbal_analogies.xml.h:317
-msgid "sleep | rest"
-msgstr "spać | odpoczywać"
-
-#. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:319
-msgid "box / open | banana"
-msgstr "pudełko / otwierać | banan"
-
-#: ../data/verbal_analogies.xml.h:320
-msgid "peel"
-msgstr "obierać"
-
-#. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:322
-msgid "shovel / dig | axe"
-msgstr "łopata / kopać | siekiera"
-
-#. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:324
-msgid "chop"
-msgstr "rąbać"
-
-#. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:326
-msgid "glass / break | paper"
-msgstr "szkło / rozbić | papier"
-
-#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:328
-msgid "tear | rip"
-msgstr "podrzeć | rozedrzeć"
-
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:330
-msgid "feet / two | toes"
-msgstr "stopy / dwie | palce"
-
-#. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:332
-msgid "ten | 10"
-msgstr "dziesięć | 10"
-
-#: ../data/verbal_analogies.xml.h:333
-msgid "fish / aquarium | monkey"
-msgstr "ryba / akwarium | małpa"
-
-#: ../data/verbal_analogies.xml.h:334
-msgid "cage | zoo | zoological garden"
-msgstr "klatka | zoo | ogród zoologiczny"
-
-#: ../data/verbal_analogies.xml.h:335
-msgid "A fish in an aquarium lives in captivity."
-msgstr "Ryba w akwarium żyje w niewoli."
-
-#: ../data/verbal_analogies.xml.h:336
-msgid "ring / finger | bracelet"
-msgstr "pierścionek / palec | bransoletka"
-
-#: ../data/verbal_analogies.xml.h:337
-msgid "wrist | arm"
-msgstr "nadgarstek | przedramię"
-
-#: ../data/verbal_analogies.xml.h:338
-msgid "seal / flippers | bird"
-msgstr "foka / płetwy | ptak"
-
-#: ../data/verbal_analogies.xml.h:339
-msgid "wings"
-msgstr "skrzydła"
-
-#. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:341
-msgid "stick / float | stone"
-msgstr "patyk / płynąć | kamień"
-
-#: ../data/verbal_analogies.xml.h:342
-msgid "sink"
-msgstr "tonąć"
-
-#: ../data/verbal_analogies.xml.h:343
-msgid "leopard / spots | tiger"
-msgstr "lampart / cętki | tygrys"
-
+# rywalizujący - konkurujący?
 #: ../data/verbal_analogies.xml.h:344
-msgid "stripes"
-msgstr "paski | pasy | pręgi"
+msgid "competitive / cooperative | anxious"
+msgstr "rywalizujący / współpracujący | zaniepokojony"
 
-#. Translators: 'submarine' is used as a noun
+#. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:346
-msgid "fish / submarine | bird"
-msgstr "ryba / okręt podwodny | ptak"
+msgid "Flexible"
+msgstr "Elastyczny"
 
 #: ../data/verbal_analogies.xml.h:347
-msgid "airplane | aeroplane | plane"
-msgstr "samolot"
+msgid "Cautious"
+msgstr "Ostrożny"
 
-#: ../data/verbal_analogies.xml.h:348
-msgid "tears / eyes | sweat"
-msgstr "oczy / łzy | pot"
-
+#. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:349
-msgid "body | skin"
-msgstr "ciało | skóra"
+msgid "Daring"
+msgstr "Śmiały"
 
 #: ../data/verbal_analogies.xml.h:350
-msgid "bridge / over | tunnel"
-msgstr "most / nad | tunel"
+msgid "pessimistic / optimistic | suspicious"
+msgstr "pesymistyczny / optymistyczny | podejrzliwy"
 
-#: ../data/verbal_analogies.xml.h:351
-msgid "in | under | through"
-msgstr "w | pod | przez"
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:352
+msgid "Trusting"
+msgstr "Ufny"
 
-#. Translators: 'play' is used as a verb (to play)
 #: ../data/verbal_analogies.xml.h:353
-msgid "toy / play | tool"
-msgstr "zabawka / bawić się | narzędzie"
+msgid "Dubious"
+msgstr "Niepewny"
 
-#. Translators: 'work' is used as a verb (to work)
+#. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
-msgid "work"
-msgstr "pracować"
+msgid "thermometer / temperature | compass"
+msgstr "termometr / temperatura | kompas"
 
-#. 'correct' can be used as verb or adjective
+#: ../data/verbal_analogies.xml.h:356
+msgid "Direction"
+msgstr "Kierunek"
+
+# mowa o wysokości nad poziomem morza
+# wysokość - wzniesienie?
 #: ../data/verbal_analogies.xml.h:357
-msgid "error / (to) correct | damage"
-msgstr "błąd / poprawiać | uszkodzenie"
+msgid "Elevation"
+msgstr "Wysokość"
 
 #: ../data/verbal_analogies.xml.h:358
-msgid "repair | fix"
-msgstr "naprawiać | reperować"
+msgid "Position"
+msgstr "Położenie"
 
 #: ../data/verbal_analogies.xml.h:359
-msgid "orange / fruit | spinach"
-msgstr "pomarańcza / owoc | szpinak"
+msgid "Area"
+msgstr "Powierzchnia"
 
 #: ../data/verbal_analogies.xml.h:360
-msgid "vegetable"
-msgstr "warzywo"
-
-#: ../data/verbal_analogies.xml.h:361
-msgid "hands / grab | teeth"
-msgstr "ręce / chwycić | zęby"
-
-#: ../data/verbal_analogies.xml.h:362
-msgid "bite"
-msgstr "ugryźć"
-
-#: ../data/verbal_analogies.xml.h:363
-msgid "Grab and bite are finite actions."
-msgstr "Wyrazy „chwycić” i „ugryźć” są nazwami czynności dokonanych"
-
-#: ../data/verbal_analogies.xml.h:364
-msgid "puzzle / solve | game"
-msgstr "puzzle / rozwiązać | gra"
-
-#: ../data/verbal_analogies.xml.h:365
-msgid "win | play"
-msgstr "wygrać | grać"
-
-#: ../data/verbal_analogies.xml.h:366
-msgid "eyebrow / eye | mustache"
-msgstr "brew / oko | wąsy"
-
-#: ../data/verbal_analogies.xml.h:367
-msgid "lip | upper lip | mouth"
-msgstr "warga | usta"
-
-#: ../data/verbal_analogies.xml.h:368
-msgid "ice / slippery | glue"
-msgstr "lód / śliski | klej"
-
-#: ../data/verbal_analogies.xml.h:369
-msgid "sticky"
-msgstr "lepki"
-
-#: ../data/verbal_analogies.xml.h:370
-msgid "whirlpool / water | tornado"
-msgstr "wir / woda | tornado"
-
-#: ../data/verbal_analogies.xml.h:371
-msgid "wind | air"
-msgstr "wiatr | powietrze"
-
-#: ../data/verbal_analogies.xml.h:372
-msgid "fox / den | bird"
-msgstr "lis / nora | ptak"
-
-#: ../data/verbal_analogies.xml.h:373
-msgid "nest"
-msgstr "gniazdo | dziupla"
-
-#: ../data/verbal_analogies.xml.h:374
-msgid "dog / tame | wolf"
-msgstr "pies / oswojony | wilk"
-
-#: ../data/verbal_analogies.xml.h:375
-msgid "wild | savage"
-msgstr "dziki"
-
-#: ../data/verbal_analogies.xml.h:376
-msgid "sugar / sweet | vinegar"
-msgstr "cukier / słodki | ocet"
-
-#: ../data/verbal_analogies.xml.h:377
-msgid "sour"
-msgstr "kwaśny"
-
-#: ../data/verbal_analogies.xml.h:378
-msgid "tennis / sport | ballet"
-msgstr "tenis / sport | balet"
-
-#. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:380
-msgid "dance"
-msgstr "taniec"
-
-#: ../data/verbal_analogies.xml.h:381
-msgid "slurp / tongue | snort"
-msgstr "siorbać / język | kichać"
-
-#: ../data/verbal_analogies.xml.h:382
-msgid "nose"
-msgstr "nos"
-
-#: ../data/verbal_analogies.xml.h:383
-msgid "elbow / knee | wrist"
-msgstr "łokieć / kolano | nadgarstek"
-
-#: ../data/verbal_analogies.xml.h:384
-msgid "ankle"
-msgstr "kostka"
-
-#: ../data/verbal_analogies.xml.h:385
-msgid "novel / author | song"
-msgstr "opowiadanie / autor | piosenka"
-
-#: ../data/verbal_analogies.xml.h:386
-msgid "composer | songwriter | lyricist"
-msgstr "kompozytor"
-
-#: ../data/verbal_analogies.xml.h:387
-msgid "car / road | train"
-msgstr "samochód / droga | pociąg"
-
-#: ../data/verbal_analogies.xml.h:388
-msgid "track | railway | rails | railroad"
-msgstr "szyny | tory"
-
-#: ../data/verbal_analogies.xml.h:389
-msgid "pediatrics / children | numismatics"
-msgstr "pediatra / dzieci | numizmatyk"
-
-#: ../data/verbal_analogies.xml.h:390
-msgid "coins"
-msgstr "monety"
-
-#: ../data/verbal_analogies.xml.h:391
-msgid "thermometer / temperature | clock"
-msgstr "termometr / temperatura | zegar"
-
-#. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:393
-msgid "time"
-msgstr "czas"
-
-#: ../data/verbal_analogies.xml.h:394
 msgid "The first word is the instrument and the second what it measures."
 msgstr ""
 "Pierwszy wyraz jest nazwą narzędzia pomiarowego a drugi nazwą mierzonej "
 "wielkości."
 
+#: ../data/verbal_analogies.xml.h:361
+msgid "hungry / eat | tired"
+msgstr "głodny / jeść | zmęczony"
+
+#: ../data/verbal_analogies.xml.h:362
+msgid "sleep | rest"
+msgstr "spać | odpoczywać"
+
+#. Translators: 'open' is used as a verb (open a box)
+#: ../data/verbal_analogies.xml.h:364
+msgid "box / open | banana"
+msgstr "pudełko / otwierać | banan"
+
+#: ../data/verbal_analogies.xml.h:365
+msgid "peel"
+msgstr "obierać"
+
+#. Translators: 'dig' is used as a verb (to dig)
+#: ../data/verbal_analogies.xml.h:367
+msgid "shovel / dig | axe"
+msgstr "łopata / kopać | siekiera"
+
+#. Translators: 'chop' is used as a verb (to chop)
+#: ../data/verbal_analogies.xml.h:369
+msgid "chop"
+msgstr "rąbać"
+
+#. Translators: 'break' is used as a verb (to break)
+#: ../data/verbal_analogies.xml.h:371
+msgid "glass / break | paper"
+msgstr "szkło / rozbić | papier"
+
+#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
+#: ../data/verbal_analogies.xml.h:373
+msgid "tear | rip"
+msgstr "podrzeć | rozedrzeć"
+
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#: ../data/verbal_analogies.xml.h:375
+msgid "feet / two | toes"
+msgstr "stopy / dwie | palce"
+
+#. Translators: referred to 'feet / two | toes'
+#: ../data/verbal_analogies.xml.h:377
+msgid "ten | 10"
+msgstr "dziesięć | 10"
+
+#: ../data/verbal_analogies.xml.h:378
+msgid "fish / aquarium | monkey"
+msgstr "ryba / akwarium | małpa"
+
+#: ../data/verbal_analogies.xml.h:379
+msgid "cage | zoo | zoological garden"
+msgstr "klatka | zoo | ogród zoologiczny"
+
+#: ../data/verbal_analogies.xml.h:380
+msgid "A fish in an aquarium lives in captivity."
+msgstr "Ryba w akwarium żyje w niewoli."
+
+#: ../data/verbal_analogies.xml.h:381
+msgid "ring / finger | bracelet"
+msgstr "pierścionek / palec | bransoletka"
+
+#: ../data/verbal_analogies.xml.h:382
+msgid "wrist | arm"
+msgstr "nadgarstek | przedramię"
+
+#: ../data/verbal_analogies.xml.h:383
+msgid "seal / flippers | bird"
+msgstr "foka / płetwy | ptak"
+
+#: ../data/verbal_analogies.xml.h:384
+msgid "wings"
+msgstr "skrzydła"
+
+#. Translators: stick refers to a piece of wood
+#: ../data/verbal_analogies.xml.h:386
+msgid "stick / float | stone"
+msgstr "patyk / płynąć | kamień"
+
+#: ../data/verbal_analogies.xml.h:387
+msgid "sink"
+msgstr "tonąć"
+
+#: ../data/verbal_analogies.xml.h:388
+msgid "leopard / spots | tiger"
+msgstr "lampart / cętki | tygrys"
+
+#: ../data/verbal_analogies.xml.h:389
+msgid "stripes"
+msgstr "paski | pasy | pręgi"
+
+#. Translators: 'submarine' is used as a noun
+#: ../data/verbal_analogies.xml.h:391
+msgid "fish / submarine | bird"
+msgstr "ryba / okręt podwodny | ptak"
+
+#: ../data/verbal_analogies.xml.h:392
+msgid "airplane | aeroplane | plane"
+msgstr "samolot"
+
+#: ../data/verbal_analogies.xml.h:393
+msgid "tears / eyes | sweat"
+msgstr "oczy / łzy | pot"
+
+#: ../data/verbal_analogies.xml.h:394
+msgid "body | skin"
+msgstr "ciało | skóra"
+
 #: ../data/verbal_analogies.xml.h:395
+msgid "bridge / over | tunnel"
+msgstr "most / nad | tunel"
+
+#: ../data/verbal_analogies.xml.h:396
+msgid "in | under | through"
+msgstr "w | pod | przez"
+
+#. Translators: 'play' is used as a verb (to play)
+#: ../data/verbal_analogies.xml.h:398
+msgid "toy / play | tool"
+msgstr "zabawka / bawić się | narzędzie"
+
+#. Translators: 'work' is used as a verb (to work)
+#: ../data/verbal_analogies.xml.h:400
+msgid "work"
+msgstr "pracować"
+
+#. 'correct' can be used as verb or adjective
+#: ../data/verbal_analogies.xml.h:402
+msgid "error / (to) correct | damage"
+msgstr "błąd / poprawiać | uszkodzenie"
+
+#: ../data/verbal_analogies.xml.h:403
+msgid "repair | fix"
+msgstr "naprawiać | reperować"
+
+#: ../data/verbal_analogies.xml.h:404
+msgid "orange / fruit | spinach"
+msgstr "pomarańcza / owoc | szpinak"
+
+#: ../data/verbal_analogies.xml.h:405
+msgid "vegetable"
+msgstr "warzywo"
+
+#: ../data/verbal_analogies.xml.h:406
+msgid "hands / grab | teeth"
+msgstr "ręce / chwycić | zęby"
+
+#: ../data/verbal_analogies.xml.h:407
+msgid "bite"
+msgstr "ugryźć"
+
+#: ../data/verbal_analogies.xml.h:408
+msgid "Grab and bite are finite actions."
+msgstr "Wyrazy „chwycić” i „ugryźć” są nazwami czynności dokonanych"
+
+#: ../data/verbal_analogies.xml.h:409
+msgid "puzzle / solve | game"
+msgstr "puzzle / rozwiązać | gra"
+
+#: ../data/verbal_analogies.xml.h:410
+msgid "win | play"
+msgstr "wygrać | grać"
+
+#: ../data/verbal_analogies.xml.h:411
+msgid "eyebrow / eye | mustache"
+msgstr "brew / oko | wąsy"
+
+#: ../data/verbal_analogies.xml.h:412
+msgid "lip | upper lip | mouth"
+msgstr "warga | usta"
+
+#: ../data/verbal_analogies.xml.h:413
+msgid "ice / slippery | glue"
+msgstr "lód / śliski | klej"
+
+#: ../data/verbal_analogies.xml.h:414
+msgid "sticky"
+msgstr "lepki"
+
+#: ../data/verbal_analogies.xml.h:415
+msgid "whirlpool / water | tornado"
+msgstr "wir / woda | tornado"
+
+#: ../data/verbal_analogies.xml.h:416
+msgid "wind | air"
+msgstr "wiatr | powietrze"
+
+#: ../data/verbal_analogies.xml.h:417
+msgid "fox / den | bird"
+msgstr "lis / nora | ptak"
+
+#: ../data/verbal_analogies.xml.h:418
+msgid "nest"
+msgstr "gniazdo | dziupla"
+
+#: ../data/verbal_analogies.xml.h:419
+msgid "dog / tame | wolf"
+msgstr "pies / oswojony | wilk"
+
+#: ../data/verbal_analogies.xml.h:420
+msgid "wild | savage"
+msgstr "dziki"
+
+#: ../data/verbal_analogies.xml.h:421
+msgid "sugar / sweet | vinegar"
+msgstr "cukier / słodki | ocet"
+
+#: ../data/verbal_analogies.xml.h:422
+msgid "sour"
+msgstr "kwaśny"
+
+#: ../data/verbal_analogies.xml.h:423
+msgid "tennis / sport | ballet"
+msgstr "tenis / sport | balet"
+
+#. Translators: 'dance' is used as a noun
+#: ../data/verbal_analogies.xml.h:425
+msgid "dance"
+msgstr "taniec"
+
+#: ../data/verbal_analogies.xml.h:426
+msgid "slurp / tongue | snort"
+msgstr "siorbać / język | kichać"
+
+#: ../data/verbal_analogies.xml.h:427
+msgid "nose"
+msgstr "nos"
+
+#: ../data/verbal_analogies.xml.h:428
+msgid "elbow / knee | wrist"
+msgstr "łokieć / kolano | nadgarstek"
+
+#: ../data/verbal_analogies.xml.h:429
+msgid "ankle"
+msgstr "kostka"
+
+#: ../data/verbal_analogies.xml.h:430
+msgid "novel / author | song"
+msgstr "opowiadanie / autor | piosenka"
+
+#: ../data/verbal_analogies.xml.h:431
+msgid "composer | songwriter | lyricist"
+msgstr "kompozytor"
+
+#: ../data/verbal_analogies.xml.h:432
+msgid "car / road | train"
+msgstr "samochód / droga | pociąg"
+
+#: ../data/verbal_analogies.xml.h:433
+msgid "track | railway | rails | railroad"
+msgstr "szyny | tory"
+
+#: ../data/verbal_analogies.xml.h:434
+msgid "pediatrics / children | numismatics"
+msgstr "pediatra / dzieci | numizmatyk"
+
+#: ../data/verbal_analogies.xml.h:435
+msgid "coins"
+msgstr "monety"
+
+#: ../data/verbal_analogies.xml.h:436
+msgid "thermometer / temperature | clock"
+msgstr "termometr / temperatura | zegar"
+
+#. Translators: time as duration of an event. What a clock measures
+#: ../data/verbal_analogies.xml.h:438
+msgid "time"
+msgstr "czas"
+
+#: ../data/verbal_analogies.xml.h:439
 msgid "poems / anthology | maps"
 msgstr "wiersze / antologia | mapy"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:440
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:441
 msgid "letter / word | page"
 msgstr "litera / słowo | strona"
 
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:442
 msgid "book | magazine | document"
 msgstr "książka | czasopismo | dokument"
 
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:443
 msgid "hour / minute | minute"
 msgstr "godzina / minuta | minuta"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:401
+#: ../data/verbal_analogies.xml.h:445
 msgid "second"
 msgstr "sekunda"
 
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:446
 msgid "tiger / carnivore | cow"
 msgstr "tygrys / mięsożerny | krowa"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:447
 msgid "herbivorous | herbivore"
 msgstr "roślinożerny | roślinożerca"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:448
 msgid "constellation / stars | archipelago"
 msgstr "konstelacja / gwiazdy | archipelag"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:449
 msgid "islands"
 msgstr "wyspy"
 
@@ -2267,8 +2406,8 @@ msgstr ""
 "Konrad Boroń <konradmb@o2.pl>, 2010\n"
 "Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010\n"
 "Piotr Sokół <psokol@jabster.pl>, 2012\n"
-"Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2012"
+"Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2012-2013"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
@@ -2396,31 +2535,191 @@ msgstr "{0} {1}"
 msgid "Total"
 msgstr "Wszystkie"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:118
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "You are about to delete the player's game session history."
 msgstr "Historia rozegranych gier zostanie usunięta."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:119
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:121
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
 msgstr "Zostanie usunięta historia poprzednich sesji gry. Kontynuować?"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
 msgid "_Delete"
 msgstr "_Usuń"
 
-#: ../src/Clients/Classical/gbrainy.cs:428
-#: ../src/Clients/WebForms/Game.aspx.cs:245
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
+msgid "Custom Game"
+msgstr "Wybór zadań"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "Select All"
+msgstr "Zaznacz wszystkie"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+msgid "Unselect all"
+msgstr "Odznacz wszystkie"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
+msgid "_Start"
+msgstr "_Rozpocznij"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
+msgid "PDF export"
+msgstr "Eksportowanie do pliku PDF"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid ""
+"This option allows to export a set of games in a PDF file. You can complete "
+"the puzzles without a computer."
+msgstr ""
+"Umożliwia wyeksportowanie zestawu łamigłówek do pliku w formacie PDF. Dzięki "
+"temu możliwe jest rozwiązywanie łamigłówek bez obecności komputera."
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>Ogólne</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr "Pomijanie gier używających kolory (zalecane dla daltonistów)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Typy zadań</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+msgid "Logic"
+msgstr "Logiczne"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+msgid "Calculation"
+msgstr "Obliczeniowe"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
+#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+msgid "Verbal"
+msgstr "Słowne"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Poziom trudności</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Easy"
+msgstr "Łatwy"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Medium"
+msgstr "Średni"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "Master"
+msgstr "Zaawansowany"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Liczba zadań</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+msgid "Total number of games:"
+msgstr "Łączna liczba:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Zawartość jednej strony:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b>Plik docelowy</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
+msgid "_Save"
+msgstr "_Zapisz"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:19
+msgid "Player's Game Session History"
+msgstr "Historia rozegranych gier"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
+msgid "Show:"
+msgstr "Wyświetlanie:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
+msgid "Skip games that use colors (for colorblind users)"
+msgstr "Pomijanie gier używających kolory (zalecane dla daltonistów)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
+msgid "Force gbrainy to always use English language (ignore translations)"
+msgstr "Używanie języka angielskiego (ignorowanie tłumaczeń)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr "Wyszukiwanie i wczytanie rozszerzeń podczas uruchamiania"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
+msgid "Enable sounds"
+msgstr "Dźwięki"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "Theme:"
+msgstr "Styl:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+msgid "<b>Memory Games</b>"
+msgstr "<b>Zadania pamięciowe</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Time in seconds to memorize the challenge:"
+msgstr "Limit czasu zadań pamięciowych (s):"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "Show a countdown message"
+msgstr "Wyświetlanie odliczanego czasu"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Historia rozegranych gier</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+msgid "Minimum number of played games to store the game session:"
+msgstr "Minimalna liczba podjętych zadań niezbędna do zapisania wyniku:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+msgid "Maximum number of records in the player's game session history:"
+msgstr "Maksymalna liczba przechowywanych wyników rozegranych gier:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
+msgid "Delete Player's Game Session History"
+msgstr "Wyczyść historię"
+
+#: ../src/Clients/Classical/gbrainy.cs:429
 msgid "Congratulations."
 msgstr "Gratulacje."
 
-#: ../src/Clients/Classical/gbrainy.cs:430
-#: ../src/Clients/WebForms/Game.aspx.cs:249
+#: ../src/Clients/Classical/gbrainy.cs:433
 msgid "Incorrect answer."
 msgstr "Nieprawidłowa odpowiedź."
 
-#: ../src/Clients/Classical/gbrainy.cs:485
+#: ../src/Clients/Classical/gbrainy.cs:494
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2428,11 +2727,11 @@ msgstr ""
 "Po znalezieniu odpowiedzi, proszę wpisać ją w pole tekstowe „Odpowiedź” i "
 "kliknąć przycisk „OK”."
 
-#: ../src/Clients/Classical/gbrainy.cs:515
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Tłumaczenie programu gbrainy dla bieżącego języka jest niekompletne."
 
-#: ../src/Clients/Classical/gbrainy.cs:516
+#: ../src/Clients/Classical/gbrainy.cs:525
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2442,19 +2741,119 @@ msgstr ""
 "ich rozwiązywanie. Aby zmienić język na angielski, proszę użyć odpowiedniej "
 "opcji znajdującej się w oknie preferencji programu."
 
-#: ../src/Clients/Classical/gbrainy.cs:612
+#: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Wstrzymaj"
 
-#: ../src/Clients/Classical/gbrainy.cs:617
+#: ../src/Clients/Classical/gbrainy.cs:626
 msgid "Resume"
 msgstr "Wznów"
 
-#: ../src/Clients/Classical/gbrainy.cs:767
+#: ../src/Clients/Classical/gbrainy.cs:776
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Czas rozpoczęcia {0}"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "_Gra"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "_Nowa"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
+msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
+msgstr "Wszystkie zadania (logiczne, obliczeniowe, pamięciowe i słowne)"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:5
+msgid "Logic Puzzles Only"
+msgstr "Zadania logiczne"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:6
+msgid "Mental Calculation Only"
+msgstr "Zadania obliczeniowe"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Zadania pamięciowe"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Zadania słowne"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Własny wybór..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "_Wstrzymaj"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:11
+msgid "_End Game"
+msgstr "_Zakończ grę"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Eksportuj do pliku PDF..."
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "_Widok"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:14
+msgid "Toolbar"
+msgstr "Pasek narzędziowy"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Wyświetlanie"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:16
+msgid "Orientation"
+msgstr "Orientacja"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:17
+msgid "Vertical"
+msgstr "Pionowa"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:18
+msgid "Horizontal"
+msgstr "Pozioma"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:20
+msgid "_Settings"
+msgstr "_Ustawienia"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "Pomo_c"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "_Spis treści"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "Jak rozszerzyć funkcjonalność Łamigłówki"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Odpowiedź:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "_Następna"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
+msgid "_Tip"
+msgstr "_Wskazówka"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:31
 msgid "Add-in Manager"
@@ -2672,9 +3071,7 @@ msgstr "Wstrzymano"
 msgid "Play all the games"
 msgstr "Rozpoczyna grę ze wszystkimi zadaniami"
 
-#. Toolbar
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:119
-#: ../src/Clients/WebForms/Game.aspx.cs:179
 msgid "All"
 msgstr "Wszystkie"
 
@@ -2682,18 +3079,6 @@ msgstr "Wszystkie"
 msgid "Play games that challenge your reasoning and thinking"
 msgstr ""
 "Rozpoczyna grę z zadaniami sprawdzającymi umiejętności dedukcji i myślenia"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
-msgid "Logic"
-msgstr "Logiczne"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-msgid "Calculation"
-msgstr "Obliczeniowe"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:129
 msgid "Play games that challenge your mental calculation skills"
@@ -2708,12 +3093,6 @@ msgstr "Pamięciowe"
 msgid "Play games that challenge your short term memory"
 msgstr "Rozpoczyna grę z zadaniami sprawdzającymi pamięć krótkotrwałą"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-msgid "Verbal"
-msgstr "Słowne"
-
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:139
 msgid "Play games that challenge your verbal aptitude"
 msgstr "Rozpoczyna grę z zadaniami spawdzającymi zasób słownictwa"
@@ -2727,17 +3106,8 @@ msgid "End the game and show score"
 msgstr "Kończy grę i wyświetla wynik"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#: ../src/Clients/WebForms/Game.aspx.cs:180
 msgid "End"
 msgstr "Zakończ"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:172
-msgid "Next Game"
-msgstr "Następne zadanie"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:173
-msgid "Answer"
-msgstr "Odpowiedź"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -2996,11 +3366,19 @@ msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr ""
 "Rozwiązując zadania z analogii słownych, zwróć uwagę na formę czasowników."
 
+#: ../src/Core/Main/GameTips.cs:89
+msgid ""
+"When you go shopping, try to perform calculations without the use of a "
+"calculator."
+msgstr ""
+"Podczas wyjścia na zakupy spróbuj wykonywać obliczenia bez użycia "
+"kalkulatora."
+
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
 msgstr "Zapamiętaj poniższe obiekty w wyznaczonym czasie."
 
-#: ../src/Core/Main/Memory.cs:220
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Pozostały czas"
 
@@ -3266,14 +3644,14 @@ msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "Wynik działania {0} / {1} jest równy {2}."
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
-msgid "Consecutive Sum"
+msgid "Consecutive sum"
 msgstr "Suma ciągu"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
 msgid ""
-"In the list of single digit numbers below, there are 5 consecutive numbers "
-"that sum {0}. What are these numbers?"
+"In the list of single-digit numbers below, there are 5 consecutive numbers "
+"whose sum is {0}. Which numbers are these?"
 msgstr ""
 "Na poniższej liście jest 5 kolejnych jednocyfrowych liczb, które dają w "
 "sumie {0}. Jakie to liczby?"
@@ -3304,7 +3682,7 @@ msgstr ""
 "wszystkie liczby)? Proszę wskazać odpowiedź {0}, {1}, {2} lub {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:215
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
 msgid "Numbers"
 msgstr "Liczby"
 
@@ -3418,14 +3796,14 @@ msgid "have a ratio of {0}:{1}"
 msgstr "Mają stosunek {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-msgid "Selected Numbers"
+msgid "Selected numbers"
 msgstr "Zaznaczone liczby"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the sum all the numbers greater than "
-"{0}? Answer {1}, {2}, {3} or {4}."
+"In the list of numbers below, what is the sum of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Ile wynosi suma wszystkich liczb większych od {0} z listy poniżej? Proszę "
 "wskazać odpowiedź {1}, {2}, {3} lub {4}."
@@ -3433,8 +3811,8 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the product all the numbers greater "
-"than {0}? Answer {1}, {2}, {3} or {4}."
+"In the list of numbers below, what is the product of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Ile wynosi iloczyn wszystkich liczb większych od {0} z listy poniżej? Proszę "
 "wskazać odpowiedź {1}, {2}, {3} lub {4}."
@@ -3863,7 +4241,7 @@ msgstr ""
 "Ile obszarów znajdzie się w okręgu na ostatnim rysunku, kiedy wszystkie "
 "kropki zostaną połączone liniami?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -3938,25 +4316,25 @@ msgstr ""
 "kwadraty, „C” – figurami są okręgi, „D” – figury nie są na siebie nałożone, "
 "„E” – liczba figur wynosi 3 i „F” – liczba figur wynosi 2."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:40
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
 msgstr "Reguły w figurach"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:45
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:49
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr ""
 "Który kształt powinien zastąpić znak zapytania? Proszę wskazać odpowiedź "
 "{0}, {1} lub {2}."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:50
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:54
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
 msgstr ""
 "Trzecia figura każdego rzędu w jakiś sposób łączy dwie wcześniejsze figury."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:55
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
@@ -3983,11 +4361,11 @@ msgid ""
 "without repeating them."
 msgstr "Jest to jedyna kombinacja, w której figury się nie powtarzają."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:43
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
 msgid "Find the number"
 msgstr "Odszukaj liczbę"
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:51
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
 msgid ""
 "Looking horizontally and vertically to the lines of the grid below, which is "
@@ -4010,12 +4388,12 @@ msgstr[2] ""
 "jest oddalona o {0} miejsc od swojej podwojonej wartości i o {1} miejsc od "
 "swojej wartości zwiększonej o 2."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
 msgstr "Liczba znajduje się w {0} wierszu, {1} kolumnie."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:69
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
@@ -4040,20 +4418,20 @@ msgstr "Figura czworoboczna może być umieszczona wewnątrz innej figury."
 msgid "The four sided figures are made by connecting the following points: {0}"
 msgstr "Czworoboki można utworzyć, łącząc następujące punkty: {0}"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:35
+#: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
 msgstr "Okręgi w tabeli"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:39
+#: ../src/Games/Logic/PuzzleGridCircles.cs:46
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr ""
 "Którą z liczb znajdujących się w poniższej tabeli należy zakreślić w kółko?"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:43
+#: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
 msgstr "Każda liczba zakreślona w kółko posiada pewną własność arytmetyczną."
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:48
+#: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
 msgstr "Każda liczba zaznaczona w kółko jest podzielna przez {0}."
@@ -4199,6 +4577,41 @@ msgid ""
 msgstr ""
 "Który z poniższych kształtów można utworzyć składając ze sobą podane dwa "
 "pierwsze kształty? Proszę wskazać odpowiedź {0}, {1}, {2} lub {3}."
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:241
+msgid "Largest area"
+msgstr "Największa powierzchnia"
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:246
+#, csharp-format
+msgid ""
+"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
+"{3}."
+msgstr ""
+"Która z figur ma największą powierzchnię? Proszę wskazać odpowiedź {0}, {1}, "
+"{2} lub {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
+msgid "Largest diameter"
+msgstr "Największa średnica"
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
+#, csharp-format
+msgid ""
+"If the circles represented by the arcs below were completed, which circle "
+"would have the largest diameter? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Jeżeli okręgi zaprezentowane poniżej byłyby dokończone, który z nich miałby "
+"największą średnicę? Proszę wskazać odpowiedź {0}, {1}, {2} lub {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
+msgid "Less curved is the arc, the larger the circle is."
+msgstr "Im łuk jest mniej zakrzywiony, tym okrąg jest większy."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
+#, csharp-format
+msgid "Arc {0}"
+msgstr "Łuk {0}"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
@@ -4496,8 +4909,8 @@ msgstr "Ludzie przy stole"
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
 msgid ""
-"A group of people are sitting at a round table spaced out evenly. How many "
-"people are there if the {0} person is across from the {1}?"
+"A group of people, spaced out evenly, are sitting at a round table. How many "
+"people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Grupa ludzi siedzi przy okrągłym stole, w równych odległościach od siebie. "
 "Ile osób siedzi przy stole, jeżeli osoba {0} i {1} siedzą naprzeciwko siebie?"
@@ -4536,7 +4949,7 @@ msgid "22nd"
 msgstr "dwudziesta druga"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-msgid "Two people in the table sitting across each other"
+msgid "Two people in the table sitting across from each other"
 msgstr "Dwie osoby przy stole siedzą naprzeciwko siebie"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:41
@@ -4821,7 +5234,7 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Kto nie wychodzi na spacer, nie czuje się lepiej"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-msgid "Predicate Logic"
+msgid "Predicate logic"
 msgstr "Logika predykatów"
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
@@ -5033,7 +5446,6 @@ msgstr[2] ""
 msgid "{0:h tt}"
 msgstr "{0:%H}"
 
-#. No hands
 #: ../src/Games/Logic/PuzzleTimeNow.cs:96
 msgid "Sample clock"
 msgstr "Przykładowy zegar"
@@ -5217,6 +5629,18 @@ msgstr ""
 "Ile kropek koloru {0} znajdowało się na poprzednim rysunku? Proszę "
 "odpowiedzieć używając liczb."
 
+#: ../src/Games/Memory/MemoryFaces.cs:52
+msgid "Memorize faces"
+msgstr "Zapamiętywanie kształtów"
+
+#: ../src/Games/Memory/MemoryFaces.cs:57
+msgid ""
+"In which cell is the other face like the one shown below? Answer the cell "
+"number."
+msgstr ""
+"W której komórce pojawił się kształt inny niż pokazany poniżej? Proszę "
+"odpowiedzieć podając numer komórki."
+
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
 msgstr "Zapamiętywanie faktów"
@@ -5344,18 +5768,6 @@ msgstr ""
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
 msgstr "Kształty znajdujące się na poprzednim rysunku:"
-
-#: ../src/Games/Memory/MemoryFigures.cs:54
-msgid "Memorize figures"
-msgstr "Zapamiętywanie kształtów"
-
-#: ../src/Games/Memory/MemoryFigures.cs:59
-msgid ""
-"In which cell is the other figure like the one shown below? Answer the cell "
-"number."
-msgstr ""
-"W której komórce pojawił się kształt inny niż pokazany poniżej? Proszę "
-"odpowiedzieć podając numer komórki."
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
@@ -5821,243 +6233,3 @@ msgstr[2] ""
 "Jan potrzebuje [john_time] godzin, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
 "magazynu gdyby pracowali razem? [option_answers]"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
-msgid "Custom Game"
-msgstr "Wybór zadań"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
-msgid "Select All"
-msgstr "Zaznacz wszystkie"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
-msgid "Unselect all"
-msgstr "Odznacz wszystkie"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Rozpocznij"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-msgid "PDF export"
-msgstr "Eksportowanie do pliku PDF"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid ""
-"This option allows to export a set of games in a PDF file. You can complete "
-"the puzzles without a computer."
-msgstr ""
-"Umożliwia wyeksportowanie zestawu łamigłówek do pliku w formacie PDF. Dzięki "
-"temu możliwe jest rozwiązywanie łamigłówek bez obecności komputera."
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>Ogólne</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "Skip games that use colors"
-msgstr "Pomijanie gier używających kolory (zalecane dla daltonistów)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Game Types</b>"
-msgstr "<b>Typy zadań</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Poziom trudności</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "Easy"
-msgstr "Łatwy"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Medium"
-msgstr "Średni"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Master"
-msgstr "Zaawansowany"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "<b>Number of games</b>"
-msgstr "<b>Liczba zadań</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Total number of games:"
-msgstr "Łączna liczba:"
-
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
-msgid "Pages per side:"
-msgstr "Zawartość jednej strony:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
-msgid "<b>Output File</b>"
-msgstr "<b>Plik docelowy</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "_Zapisz"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "Player's Game Session History"
-msgstr "Historia rozegranych gier"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
-msgid "Show:"
-msgstr "Wyświetlanie:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "Preferences"
-msgstr "Preferencje"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "Skip games that use colors (for colorblind users)"
-msgstr "Pomijanie gier używających kolory (zalecane dla daltonistów)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr "Używanie języka angielskiego (ignorowanie tłumaczeń)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Search and load extensions when starting"
-msgstr "Wyszukiwanie i wczytanie rozszerzeń podczas uruchamiania"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Theme:"
-msgstr "Styl:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
-msgid "<b>Memory Games</b>"
-msgstr "<b>Zadania pamięciowe</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-msgid "Time in seconds to memorize the challenge:"
-msgstr "Limit czasu zadań pamięciowych (s):"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Show a countdown message"
-msgstr "Wyświetlanie odliczanego czasu"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Historia rozegranych gier</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
-msgid "Minimum number of played games to store the game session:"
-msgstr "Minimalna liczba podjętych zadań niezbędna do zapisania wyniku:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
-msgid "Maximum number of records in the player's game session history:"
-msgstr "Maksymalna liczba przechowywanych wyników rozegranych gier:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
-msgid "Delete Player's Game Session History"
-msgstr "Wyczyść historię"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "_Game"
-msgstr "_Gra"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "_New Game"
-msgstr "_Nowa"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
-msgstr "Wszystkie zadania (logiczne, obliczeniowe, pamięciowe i słowne)"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Logic Puzzles Only"
-msgstr "Zadania logiczne"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Mental Calculation Only"
-msgstr "Zadania obliczeniowe"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "Memory Trainers Only"
-msgstr "Zadania pamięciowe"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
-msgid "Verbal Analogies Only"
-msgstr "Zadania słowne"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Custom Game Selection..."
-msgstr "Własny wybór..."
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
-msgid "_Pause Game"
-msgstr "_Wstrzymaj"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "_End Game"
-msgstr "_Zakończ grę"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:12
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Eksportuj do pliku PDF..."
-
-#: ../src/Clients/Classical/gbrainy.ui.h:13
-msgid "_View"
-msgstr "_Widok"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Toolbar"
-msgstr "Pasek narzędziowy"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:15
-msgid "Show"
-msgstr "Wyświetlanie"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Orientation"
-msgstr "Orientacja"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:17
-msgid "Vertical"
-msgstr "Pionowa"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "Horizontal"
-msgstr "Pozioma"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Settings"
-msgstr "_Ustawienia"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "Extensions"
-msgstr "Rozszerzenia"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Help"
-msgstr "Pomo_c"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Contents"
-msgstr "_Spis treści"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
-msgid "How to Extend gbrainy's Functionality"
-msgstr "Jak rozszerzyć funkcjonalność Łamigłówki"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:26
-msgid "Answer:"
-msgstr "Odpowiedź:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_Next"
-msgstr "_Następna"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "_Tip"
-msgstr "_Wskazówka"
