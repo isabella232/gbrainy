@@ -137,7 +137,7 @@
 		<_name>Bank interest</_name>
 		<type>Logic</type>
 		<difficulty>All</difficulty>
-		<svg file = "money.svg" x = "0.25" y = "0.25" width = "0.5" height = "0.5"/>
+		<svg file = "money.svg" x = "0.25" y = "0.15" width = "0.5" height = "0.5"/>
 		<variant>
 			<variables>
 				int years = 2;
