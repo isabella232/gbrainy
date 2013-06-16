@@ -2,25 +2,25 @@
 # Copyright (C) 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-02-18 17:37+0000\n"
-"PO-Revision-Date: 2012-02-18 23:40+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-16 22:55+0200\n"
+"PO-Revision-Date: 2013-06-16 03:15+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/games.xml.h:1
-msgid "Clock Rotation"
+msgid "Clock rotation"
 msgstr "Óraforgás"
 
 #: ../data/games.xml.h:2
@@ -69,7 +69,8 @@ msgstr "Jelszó"
 msgid ""
 "Every digit has 10 possibilities. The total number of possibilities is 10 at "
 "the power of [digits]."
-msgstr "Minden számra tíz lehetőség van. Az összes lehetőség tíz [digits]. hatványa."
+msgstr ""
+"Minden számra tíz lehetőség van. Az összes lehetőség tíz [digits]. hatványa."
 
 #: ../data/games.xml.h:10
 msgid ""
@@ -95,7 +96,9 @@ msgstr ""
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
-msgstr "Minden játszmában kiesik egy játékos, emiatt az eredmény a játékosok száma mínusz egy."
+msgstr ""
+"Minden játszmában kiesik egy játékos, emiatt az eredmény a játékosok száma "
+"mínusz egy."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
@@ -105,7 +108,8 @@ msgstr "Banki kamat"
 msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
-msgstr "A kamatos kamat a tartozásért és annak összegyűlt kamatáért fizetett kamat."
+msgstr ""
+"A kamatos kamat a tartozásért és annak összegyűlt kamatáért fizetett kamat."
 
 #: ../data/games.xml.h:16
 msgid "Simple equations"
@@ -232,7 +236,8 @@ msgstr ""
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr "Csak hármat kell a darttábla négy számából felhasználni 120 pont eléréséhez."
+msgstr ""
+"Csak hármat kell a darttábla négy számából felhasználni 120 pont eléréséhez."
 
 #: ../data/games.xml.h:43
 msgid "Horse race"
@@ -315,7 +320,8 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
 #: ../src/Games/Calculation/CalculationPrimes.cs:151
 #: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:191
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
 #: ../src/Games/Logic/PuzzleLargerShape.cs:303
@@ -395,7 +401,8 @@ msgstr "[option_prefix] [option_d]%"
 msgid ""
 "[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
 "have a car."
-msgstr "A lakók [females_cars]%-a ([all_cars] - [males_cars]) nő és autótulajdonos."
+msgstr ""
+"A lakók [females_cars]%-a ([all_cars] - [males_cars]) nő és autótulajdonos."
 
 #: ../data/games.xml.h:74
 msgid "Compare variables"
@@ -479,8 +486,9 @@ msgid ""
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
 "produces an odd number."
 msgstr ""
-"Két páros szám szorzása mindig páros számot eredményez, így a 2*x is páros lesz. "
-"Egy páratlan szám (y) hozzáadása ehhez a páros számhoz mindig páratlan számot eredményez."
+"Két páros szám szorzása mindig páros számot eredményez, így a 2*x is páros "
+"lesz. Egy páratlan szám (y) hozzáadása ehhez a páros számhoz mindig páratlan "
+"számot eredményez."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -562,7 +570,8 @@ msgid "His mother"
 msgstr "Az ő anyja"
 
 #: ../data/games.xml.h:106
-msgid "The sister's sister-in-law is John's father's wife, that is, John's mother."
+msgid ""
+"The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr "A nővér sógornője János apjának felesége, azaz János anyja."
 
 #: ../data/games.xml.h:107
@@ -739,268 +748,273 @@ msgstr "Elítél"
 msgid "Hide"
 msgstr "Elrejt"
 
-#: ../data/verbal_analogies.xml.h:30
+#. Translators: 'obscure' is used as a verb
+#: ../data/verbal_analogies.xml.h:31
 msgid "Obscure"
 msgstr "Elfed"
 
-#: ../data/verbal_analogies.xml.h:31
+#: ../data/verbal_analogies.xml.h:32
 msgid "Ignore"
 msgstr "Mellőzés"
 
-#: ../data/verbal_analogies.xml.h:32
+#: ../data/verbal_analogies.xml.h:33
 msgid "An artist whose work has become the defining style of a genre is?"
 msgstr "Egy művész, akinek munkája a műfaj meghatározó stílusává vált?"
 
-#: ../data/verbal_analogies.xml.h:33
+#: ../data/verbal_analogies.xml.h:34
 msgid "Pioneer"
 msgstr "Úttörő"
 
 #. Translators: referred to the life style
-#: ../data/verbal_analogies.xml.h:35
+#: ../data/verbal_analogies.xml.h:36
 msgid "Bohemian"
 msgstr "Bohém"
 
-#: ../data/verbal_analogies.xml.h:36
+#: ../data/verbal_analogies.xml.h:37
 msgid "Misunderstood"
 msgstr "Félreértett"
 
-#: ../data/verbal_analogies.xml.h:37
+#: ../data/verbal_analogies.xml.h:38
 msgid "Martyr"
 msgstr "Mártír"
 
-#: ../data/verbal_analogies.xml.h:38
+#: ../data/verbal_analogies.xml.h:39
 msgid "Which of the following sentences defines better an 'ostracized' person?"
 msgstr "Melyik mondat írja körül legjobban a „kiközösített” személyt?"
 
-#: ../data/verbal_analogies.xml.h:39
+#: ../data/verbal_analogies.xml.h:40
 msgid "Person expelled from society"
 msgstr "A társadalomból kirekesztett személy"
 
-#: ../data/verbal_analogies.xml.h:40
+#: ../data/verbal_analogies.xml.h:41
 msgid "Loner"
 msgstr "Magányos"
 
-#: ../data/verbal_analogies.xml.h:41
+#: ../data/verbal_analogies.xml.h:42
 msgid "Connoisseur"
 msgstr "Műértő"
 
-#: ../data/verbal_analogies.xml.h:42
+#: ../data/verbal_analogies.xml.h:43
 msgid "Conspirator"
 msgstr "Összeesküvő"
 
-#: ../data/verbal_analogies.xml.h:43
+#: ../data/verbal_analogies.xml.h:44
 msgid "Which of the following words means fear of people?"
 msgstr "Melyik szó jelenti az emberektől való félelmet?"
 
 #. Translators: Anthropophobia is fear of people
-#: ../data/verbal_analogies.xml.h:45
+#: ../data/verbal_analogies.xml.h:46
 msgid "Anthropophobia"
 msgstr "Antropofóbia"
 
-#: ../data/verbal_analogies.xml.h:46
+#: ../data/verbal_analogies.xml.h:47
 msgid "Hypochondria"
 msgstr "Hipochondria"
 
 # új szót alkottam :D
 #. Translators: Anthophobia is fear of flowers that poses little or no danger
-#: ../data/verbal_analogies.xml.h:48
+#: ../data/verbal_analogies.xml.h:49
 msgid "Anthophobia"
 msgstr "Anthofóbia"
 
 #. Translators: Acrophobia is fear of heights
-#: ../data/verbal_analogies.xml.h:50
+#: ../data/verbal_analogies.xml.h:51
 msgid "Acrophobia"
 msgstr "Magasságiszony"
 
-#: ../data/verbal_analogies.xml.h:51
+#: ../data/verbal_analogies.xml.h:52
 msgid "A person with excessive preoccupation for his health has?"
 msgstr "Hogy mondod azt, ha valakit túlzottan érdekel az egészsége?"
 
-#: ../data/verbal_analogies.xml.h:52
+#: ../data/verbal_analogies.xml.h:53
 msgid "Agoraphobia"
 msgstr "Agorafóbia"
 
 #. Selected to avoid physical characteristics like: has shield, legs or tail
-#: ../data/verbal_analogies.xml.h:54
+#: ../data/verbal_analogies.xml.h:55
 msgid "Which of the following words does not belong in this group?"
 msgstr "Az alábbi szavak közül melyik a kakukktojás?"
 
-#: ../data/verbal_analogies.xml.h:55
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:57
 msgid "Violin"
 msgstr "Hegedű"
 
-#: ../data/verbal_analogies.xml.h:56
+#: ../data/verbal_analogies.xml.h:58
 msgid "Bassoon"
 msgstr "Fagott"
 
-#: ../data/verbal_analogies.xml.h:57
+#: ../data/verbal_analogies.xml.h:59
 msgid "Flute"
 msgstr "Furulya"
 
-#: ../data/verbal_analogies.xml.h:58
+#: ../data/verbal_analogies.xml.h:60
 msgid "Oboe"
 msgstr "Oboa"
 
-#: ../data/verbal_analogies.xml.h:59
+#: ../data/verbal_analogies.xml.h:61
 msgid "It is the only one that is not a woodwind instrument."
 msgstr "Ez az egyetlen, amely nem fafúvós hangszer."
 
-#: ../data/verbal_analogies.xml.h:60
+#: ../data/verbal_analogies.xml.h:62
 msgid "What is a 'halberd'?"
 msgstr "Mi az „alabárd”?"
 
-#: ../data/verbal_analogies.xml.h:61
+#: ../data/verbal_analogies.xml.h:63
 msgid "Weapon"
 msgstr "Fegyver"
 
-#: ../data/verbal_analogies.xml.h:62
+#: ../data/verbal_analogies.xml.h:64
 msgid "Flower"
 msgstr "Virág"
 
-#: ../data/verbal_analogies.xml.h:63
+#: ../data/verbal_analogies.xml.h:65
 msgid "Fish"
 msgstr "Hal"
 
-#: ../data/verbal_analogies.xml.h:64
+#: ../data/verbal_analogies.xml.h:66
 msgid "Sport"
 msgstr "Sport"
 
-#: ../data/verbal_analogies.xml.h:65
+#: ../data/verbal_analogies.xml.h:67
 msgid "Fossil"
 msgstr "Kövület"
 
-#: ../data/verbal_analogies.xml.h:66
+#: ../data/verbal_analogies.xml.h:68
 msgid "Portico"
 msgstr "Csarnok"
 
-#: ../data/verbal_analogies.xml.h:67
+#: ../data/verbal_analogies.xml.h:69
 msgid "Column"
 msgstr "Oszlop"
 
-#: ../data/verbal_analogies.xml.h:68
+#: ../data/verbal_analogies.xml.h:70
 msgid "Attic"
 msgstr "Padlás"
 
-#: ../data/verbal_analogies.xml.h:69
+#: ../data/verbal_analogies.xml.h:71
 msgid "It is the only one that is not related to architecture."
 msgstr "Ez az egyetlen, amely nem kapcsolódik az építészethez."
 
-#: ../data/verbal_analogies.xml.h:70
+#: ../data/verbal_analogies.xml.h:72
 msgid "Kilometer"
 msgstr "Kilométer"
 
-#: ../data/verbal_analogies.xml.h:71
+#: ../data/verbal_analogies.xml.h:73
 msgid "Hectogram"
 msgstr "Hektogramm"
 
-#: ../data/verbal_analogies.xml.h:72
+#: ../data/verbal_analogies.xml.h:74
 msgid "Liter"
 msgstr "Liter"
 
-#: ../data/verbal_analogies.xml.h:73
+#: ../data/verbal_analogies.xml.h:75
 msgid "Gallon"
 msgstr "Gallon"
 
-#: ../data/verbal_analogies.xml.h:74
+#: ../data/verbal_analogies.xml.h:76
 msgid "It is the only unit that does not belong to the metric system."
 msgstr "Ez az egyetlen mértékegység, amely nem tartozik a metrikus rendszerbe."
 
 #. Translators: refers to the fruit
-#: ../data/verbal_analogies.xml.h:76
+#: ../data/verbal_analogies.xml.h:78
 msgid "Orange"
 msgstr "Narancs"
 
-#: ../data/verbal_analogies.xml.h:77
+#: ../data/verbal_analogies.xml.h:79
 msgid "Apple"
 msgstr "Alma"
 
-#: ../data/verbal_analogies.xml.h:78
+#: ../data/verbal_analogies.xml.h:80
 msgid "Grape"
 msgstr "Szőlő"
 
-#: ../data/verbal_analogies.xml.h:79
+#: ../data/verbal_analogies.xml.h:81
 msgid "Potato"
 msgstr "Burgonya"
 
-#: ../data/verbal_analogies.xml.h:80
+#: ../data/verbal_analogies.xml.h:82
 msgid "It is the only one that is not a fruit."
 msgstr "Ez az egyetlen, amely nem gyümölcs."
 
-#: ../data/verbal_analogies.xml.h:81
+#: ../data/verbal_analogies.xml.h:83
 msgid "Turtle"
 msgstr "Teknős"
 
-#: ../data/verbal_analogies.xml.h:82
+#: ../data/verbal_analogies.xml.h:84
 msgid "Crocodile"
 msgstr "Krokodil"
 
-#: ../data/verbal_analogies.xml.h:83
+#: ../data/verbal_analogies.xml.h:85
 msgid "Lizard"
 msgstr "Gyík"
 
-#: ../data/verbal_analogies.xml.h:84
+#: ../data/verbal_analogies.xml.h:86
 msgid "Frog"
 msgstr "Béka"
 
-#: ../data/verbal_analogies.xml.h:85
+#: ../data/verbal_analogies.xml.h:87
 msgid "It is the only one that is not a reptile and also does not have a tail."
 msgstr "Ez az egyetlen, amely nem hüllő és nincs farka."
 
-#: ../data/verbal_analogies.xml.h:86
+#: ../data/verbal_analogies.xml.h:88
 msgid "Tiger"
 msgstr "Tigris"
 
-#: ../data/verbal_analogies.xml.h:87
+#: ../data/verbal_analogies.xml.h:89
 msgid "Hyena"
 msgstr "Hiéna"
 
-#: ../data/verbal_analogies.xml.h:88
+#: ../data/verbal_analogies.xml.h:90
 msgid "Wolf"
 msgstr "Farkas"
 
-#: ../data/verbal_analogies.xml.h:89
+#: ../data/verbal_analogies.xml.h:91
 msgid "Deer"
 msgstr "Szarvas"
 
-#: ../data/verbal_analogies.xml.h:90
+#: ../data/verbal_analogies.xml.h:92
 msgid "It is the only one that is not a carnivore."
 msgstr "Ez az egyetlen, amely nem ragadozó."
 
-#: ../data/verbal_analogies.xml.h:91
+#: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr "A következő szavak közül melyik áll közelebb a „hedonizmus” szó jelentéséhez?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb a „hedonizmus” szó jelentéséhez?"
 
-#: ../data/verbal_analogies.xml.h:92
+#: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
 msgstr "Élvezet"
 
-#: ../data/verbal_analogies.xml.h:93
+#: ../data/verbal_analogies.xml.h:95
 msgid "Pain"
 msgstr "Fájdalom"
 
-#: ../data/verbal_analogies.xml.h:94
+#: ../data/verbal_analogies.xml.h:96
 msgid "Collectivism"
 msgstr "Kollektivizmus"
 
-#: ../data/verbal_analogies.xml.h:95
+#: ../data/verbal_analogies.xml.h:97
 msgid "Abstinence"
 msgstr "Tartózkodás"
 
-#: ../data/verbal_analogies.xml.h:96
-msgid "The ethical doctrine holding that only what is pleasant is an intrinsic good."
-msgstr "Az etikai elv, amely szerint csak a kellemes dolgok jelentik a valódi jót."
+#: ../data/verbal_analogies.xml.h:98
+msgid ""
+"The ethical doctrine holding that only what is pleasant is an intrinsic good."
+msgstr ""
+"Az etikai elv, amely szerint csak a kellemes dolgok jelentik a valódi jót."
 
-#: ../data/verbal_analogies.xml.h:97
+#: ../data/verbal_analogies.xml.h:99
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
 msgstr ""
 "A következő szavak közül melyik áll közelebb az „önsanyargatás” szó "
 "jelentéséhez?"
 
-#: ../data/verbal_analogies.xml.h:98
+#: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
 msgstr "Pozitivizmus"
 
-#: ../data/verbal_analogies.xml.h:99
+#: ../data/verbal_analogies.xml.h:101
 msgid ""
 "The practice of austere self-discipline in order to achieve a higher or "
 "spiritual idea."
@@ -1008,344 +1022,594 @@ msgstr ""
 "A szerzetesi önfegyelem gyakorlata magasabb vagy spirituális eszmények "
 "elérése érdekében."
 
-#: ../data/verbal_analogies.xml.h:100
+#: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr "A következő szavak közül melyik áll közelebb az „oximoron” szó jelentéséhez?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb az „oximoron” szó jelentéséhez?"
 
-#: ../data/verbal_analogies.xml.h:101
+#: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
 msgstr "Ellentmondó"
 
-#: ../data/verbal_analogies.xml.h:102
+#: ../data/verbal_analogies.xml.h:104
 msgid "Synonym"
 msgstr "Szinonima"
 
-#: ../data/verbal_analogies.xml.h:103
+#: ../data/verbal_analogies.xml.h:105
 msgid "Related"
 msgstr "Összefüggő"
 
-#: ../data/verbal_analogies.xml.h:104
+#: ../data/verbal_analogies.xml.h:106
 msgid "Ironic"
 msgstr "Ironikus"
 
-#: ../data/verbal_analogies.xml.h:105
+#: ../data/verbal_analogies.xml.h:107
 msgid "A figure of speech that combines contradicting terms."
 msgstr "Egy szófordulat, amely két ellentmondó kifejezést kombinál."
 
-#: ../data/verbal_analogies.xml.h:106
+#: ../data/verbal_analogies.xml.h:108
 msgid "Lentils"
 msgstr "Lencse"
 
-#: ../data/verbal_analogies.xml.h:107
+#: ../data/verbal_analogies.xml.h:109
 msgid "Wheat"
 msgstr "Búza"
 
-#: ../data/verbal_analogies.xml.h:108
+#: ../data/verbal_analogies.xml.h:110
 msgid "Corn"
 msgstr "Kukorica"
 
-#: ../data/verbal_analogies.xml.h:109
+#: ../data/verbal_analogies.xml.h:111
 msgid "Rice"
 msgstr "Rizs"
 
-#: ../data/verbal_analogies.xml.h:110
+#: ../data/verbal_analogies.xml.h:112
 msgid "It is the only one that is not a cereal."
 msgstr "Ez az egyetlen, amely nem gabona."
 
-#: ../data/verbal_analogies.xml.h:111
+#: ../data/verbal_analogies.xml.h:113
 msgid "Onion"
 msgstr "Hagyma"
 
-#: ../data/verbal_analogies.xml.h:112
+#: ../data/verbal_analogies.xml.h:114
 msgid "Mango"
 msgstr "Mangó"
 
-#: ../data/verbal_analogies.xml.h:113
+#: ../data/verbal_analogies.xml.h:115
 msgid "Lychee"
 msgstr "Licsi"
 
-#: ../data/verbal_analogies.xml.h:114
+#: ../data/verbal_analogies.xml.h:116
 msgid "Olive"
 msgstr "Oliva"
 
-#: ../data/verbal_analogies.xml.h:115
+#: ../data/verbal_analogies.xml.h:117
 msgid "Carbon"
 msgstr "Szén"
 
-#: ../data/verbal_analogies.xml.h:116
+#: ../data/verbal_analogies.xml.h:118
 msgid "Sodium"
 msgstr "Nátrium"
 
-#: ../data/verbal_analogies.xml.h:117
+#: ../data/verbal_analogies.xml.h:119
 msgid "Titanium"
 msgstr "Titán"
 
-#: ../data/verbal_analogies.xml.h:118
+#: ../data/verbal_analogies.xml.h:120
 msgid "Zinc"
 msgstr "Cink"
 
-#: ../data/verbal_analogies.xml.h:119
+#: ../data/verbal_analogies.xml.h:121
 msgid "It is the only one that is not a metal."
 msgstr "Ez az egyetlen, amely nem fém."
 
-#: ../data/verbal_analogies.xml.h:120
+#: ../data/verbal_analogies.xml.h:122
 msgid "Cardiology"
 msgstr "Kardiológia"
 
-#: ../data/verbal_analogies.xml.h:121
+#: ../data/verbal_analogies.xml.h:123
 msgid "Hematology"
 msgstr "Hematológia"
 
-#: ../data/verbal_analogies.xml.h:122
+#: ../data/verbal_analogies.xml.h:124
 msgid "Psychiatry"
 msgstr "Pszichiátria"
 
-#: ../data/verbal_analogies.xml.h:123
+#: ../data/verbal_analogies.xml.h:125
 msgid "Paleontology"
 msgstr "Paleontológia"
 
-#: ../data/verbal_analogies.xml.h:124
+#: ../data/verbal_analogies.xml.h:126
 msgid "It is the only one that is not a medical specialty."
 msgstr "Ez az egyetlen, amely nem orvosi szakterület."
 
-#: ../data/verbal_analogies.xml.h:125
+#: ../data/verbal_analogies.xml.h:127
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr "A következő szavak közül melyik áll közelebb a „nemtörődöm” szó jelentéséhez?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb a „nemtörődöm” szó jelentéséhez?"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:127
+#: ../data/verbal_analogies.xml.h:129
 msgid "Careless"
 msgstr "Óvatlan"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:129
+#: ../data/verbal_analogies.xml.h:131
 msgid "Friendly"
 msgstr "Barátságos"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:131
+#: ../data/verbal_analogies.xml.h:133
 msgid "Polite"
 msgstr "Udvarias"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:133
+#: ../data/verbal_analogies.xml.h:135
 msgid "Angry"
 msgstr "Dühös"
 
 #. Translator: definition of negligent
-#: ../data/verbal_analogies.xml.h:135
+#: ../data/verbal_analogies.xml.h:137
 msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
 msgstr "A jogosan vagy indokoltan elvárható körültekintés elmulasztása. "
 
-#: ../data/verbal_analogies.xml.h:136
+#: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
 msgstr "Megszokott"
 
-#: ../data/verbal_analogies.xml.h:137
+#: ../data/verbal_analogies.xml.h:139
 msgid "Occasional"
 msgstr "Eseti"
 
-#: ../data/verbal_analogies.xml.h:138
+#: ../data/verbal_analogies.xml.h:140
 msgid "Exceptional"
 msgstr "Kivételes"
 
-#: ../data/verbal_analogies.xml.h:139
+#: ../data/verbal_analogies.xml.h:141
 msgid "Rare"
 msgstr "Ritka"
 
-#: ../data/verbal_analogies.xml.h:140
+#: ../data/verbal_analogies.xml.h:142
 msgid "The other words have the connotation of not occurring frequently."
 msgstr "A többi szó a ritka előfordulásra utal."
 
-#: ../data/verbal_analogies.xml.h:141
+#: ../data/verbal_analogies.xml.h:143
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
 msgstr ""
 "A következő szavak közül melyik áll közelebb a „zavarba hozó” szó "
 "jelentéséhez?"
 
 #. Translator: As synonymous of 'perplexing'
-#: ../data/verbal_analogies.xml.h:143
+#: ../data/verbal_analogies.xml.h:145
 msgid "Confusing"
 msgstr "Zavaró"
 
-#: ../data/verbal_analogies.xml.h:144
+#: ../data/verbal_analogies.xml.h:146
 msgid "Interesting"
 msgstr "Érdekes"
 
-#: ../data/verbal_analogies.xml.h:145
+#: ../data/verbal_analogies.xml.h:147
 msgid "Ordinary"
 msgstr "Szokványos"
 
-#: ../data/verbal_analogies.xml.h:146
+#: ../data/verbal_analogies.xml.h:148
 msgid "Trivial"
 msgstr "Kézenfekvő"
 
-#: ../data/verbal_analogies.xml.h:147
+#: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
 msgstr ""
 "A következő szavak közül melyik áll közelebb a „boldogtalan” szó "
 "jelentéséhez?"
 
-#: ../data/verbal_analogies.xml.h:148
+#: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
 msgstr "Szomorú"
 
-#: ../data/verbal_analogies.xml.h:149
+#: ../data/verbal_analogies.xml.h:151
 msgid "Unpleasant"
 msgstr "Kellemetlen"
 
-#: ../data/verbal_analogies.xml.h:150
+#: ../data/verbal_analogies.xml.h:152
 msgid "Tears"
 msgstr "Sír"
 
-#: ../data/verbal_analogies.xml.h:151
+#: ../data/verbal_analogies.xml.h:153
 msgid "Incredible"
 msgstr "Hihetetlen"
 
-#: ../data/verbal_analogies.xml.h:152
+#: ../data/verbal_analogies.xml.h:154
 msgid "Famous"
 msgstr "Híres"
 
-#: ../data/verbal_analogies.xml.h:153
+#: ../data/verbal_analogies.xml.h:155
 msgid "Acclaimed"
 msgstr "Elismert"
 
-#: ../data/verbal_analogies.xml.h:154
+#: ../data/verbal_analogies.xml.h:156
 msgid "Celebrated"
 msgstr "Ünnepelt"
 
-#: ../data/verbal_analogies.xml.h:155
+#: ../data/verbal_analogies.xml.h:157
 msgid "The other words have the meaning of distinguished."
 msgstr "A többi szó jelentése: kitüntetett."
 
-#: ../data/verbal_analogies.xml.h:156
+#: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr "A következő szavak közül melyik áll közelebb a „specifikus” szó jelentéséhez?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb a „specifikus” szó jelentéséhez?"
 
 #. Translator: Pertaining to a single or specific person or thing
-#: ../data/verbal_analogies.xml.h:158
+#: ../data/verbal_analogies.xml.h:160
 msgid "Particular"
 msgstr "Konkrét"
 
-#: ../data/verbal_analogies.xml.h:159
+#: ../data/verbal_analogies.xml.h:161
 msgid "Obvious"
 msgstr "Nyilvánvaló"
 
-#: ../data/verbal_analogies.xml.h:160
+#: ../data/verbal_analogies.xml.h:162
 msgid "Generic"
 msgstr "Általános"
 
-#: ../data/verbal_analogies.xml.h:161
+#: ../data/verbal_analogies.xml.h:163
+msgid "Plate"
+msgstr "Tányér"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:165
+msgid "Bottle"
+msgstr "Palack"
+
+#: ../data/verbal_analogies.xml.h:166
+msgid "Amphora"
+msgstr "Amfóra"
+
+#: ../data/verbal_analogies.xml.h:167
+msgid "Bowl"
+msgstr "Serleg"
+
+#: ../data/verbal_analogies.xml.h:168
+msgid "It is the only one that is not used to storage liquids."
+msgstr "Ez az egyetlen, amit nem folyadékok tárolására használnak."
+
+#: ../data/verbal_analogies.xml.h:169
+msgid "Walnut"
+msgstr "Dió"
+
+#. Translator: In reference to the nut
+#: ../data/verbal_analogies.xml.h:171
+msgid "Macadamia"
+msgstr "Ausztrál mogyoró"
+
+#: ../data/verbal_analogies.xml.h:172
+msgid "Chestnut"
+msgstr "Gesztenye"
+
+#: ../data/verbal_analogies.xml.h:173
+msgid "It is the only one that is not a nut."
+msgstr "Ez az egyetlen, amely nem dióféle."
+
+#: ../data/verbal_analogies.xml.h:174
+msgid "Which of the following words is closest to the meaning of 'acclaim'?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb az „elismerés” szó jelentéséhez?"
+
+#: ../data/verbal_analogies.xml.h:175
+msgid "Applause"
+msgstr "Dicséret"
+
+#: ../data/verbal_analogies.xml.h:176
+msgid "Commendation"
+msgstr "Ajánlás"
+
+#: ../data/verbal_analogies.xml.h:177
+msgid "Citation"
+msgstr "Idézet"
+
+#. Translator: As a noun (call upon a spirit by invocation)
+#: ../data/verbal_analogies.xml.h:179
+msgid "Conjure"
+msgstr "Megidézés"
+
+#: ../data/verbal_analogies.xml.h:180
+msgid "Which of the following words is closest to the meaning of 'grief'?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb a „bánat” szó jelentéséhez?"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:182
+msgid "Lament"
+msgstr "Panasz"
+
+#: ../data/verbal_analogies.xml.h:183
+msgid "Fraud"
+msgstr "Csalás"
+
+#: ../data/verbal_analogies.xml.h:184
+msgid "Intolerance"
+msgstr "Intolerancia"
+
+#: ../data/verbal_analogies.xml.h:185
+msgid "Risk"
+msgstr "Kockázat"
+
+#: ../data/verbal_analogies.xml.h:186
+msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
+msgstr ""
+"A következő szavak közül melyik áll közelebb a „flegma” szó jelentéséhez?"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:188
+msgid "Calm"
+msgstr "Nyugodt"
+
+#: ../data/verbal_analogies.xml.h:189
+msgid "Authentic"
+msgstr "Autentikus"
+
+#: ../data/verbal_analogies.xml.h:190
+msgid "Clever"
+msgstr "Okos"
+
+#: ../data/verbal_analogies.xml.h:191
+msgid "Tense"
+msgstr "Feszült"
+
+#: ../data/verbal_analogies.xml.h:192
+msgid "Concert"
+msgstr "Koncert"
+
+#: ../data/verbal_analogies.xml.h:193
+msgid "Satire"
+msgstr "Szatíra"
+
+#: ../data/verbal_analogies.xml.h:194
+msgid "Proverb"
+msgstr "Szólás"
+
+#: ../data/verbal_analogies.xml.h:195
+msgid "Epigram"
+msgstr "Epigramma"
+
+#: ../data/verbal_analogies.xml.h:196
+msgid "It is the only one that is not related to literature."
+msgstr "Ez az egyetlen, amely nem kapcsolódik az irodalomhoz."
+
+#: ../data/verbal_analogies.xml.h:197
+msgid "Curve"
+msgstr "Görbe"
+
+#: ../data/verbal_analogies.xml.h:198
+msgid "Cathetus"
+msgstr "Befogó"
+
+#: ../data/verbal_analogies.xml.h:199
+msgid "Hypotenuse"
+msgstr "Átfogó"
+
+#: ../data/verbal_analogies.xml.h:200
+msgid "Trigonometry"
+msgstr "Trigonometria"
+
+#: ../data/verbal_analogies.xml.h:201
+msgid "It is the only one that is not related with triangles."
+msgstr "Ez az egyetlen, amely nem kapcsolódik a háromszögekhez."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:203
+msgid "Necklace"
+msgstr "Nyaklánc"
+
+#: ../data/verbal_analogies.xml.h:204
+msgid "Candelabra"
+msgstr "Gyertyatartó"
+
+#: ../data/verbal_analogies.xml.h:205
+msgid "Lantern"
+msgstr "Lámpás"
+
+#: ../data/verbal_analogies.xml.h:206
+msgid "Lamp"
+msgstr "Lámpa"
+
+#: ../data/verbal_analogies.xml.h:207
+msgid "It is the only one that does not produce light."
+msgstr "Ez az egyetlen, amely nem ad fényt."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:209
+msgid "Shield"
+msgstr "Pajzs"
+
+#: ../data/verbal_analogies.xml.h:210
+msgid "Helmet"
+msgstr "Sisak"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:212
+msgid "Armor"
+msgstr "Páncél"
+
+#: ../data/verbal_analogies.xml.h:213
+msgid "Crossbow"
+msgstr "Nyílpuska"
+
+#: ../data/verbal_analogies.xml.h:214
+msgid "It is the only one that is not used for protection."
+msgstr "Ez az egyetlen, amely nem védekezésre használatos."
+
+#: ../data/verbal_analogies.xml.h:215
+msgid "Monolith"
+msgstr "Monolit"
+
+#: ../data/verbal_analogies.xml.h:216
+msgid "Granite"
+msgstr "Gránit"
+
+#: ../data/verbal_analogies.xml.h:217
+msgid "Rock"
+msgstr "Szikla"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:219
+msgid "Tree"
+msgstr "Fa"
+
+#: ../data/verbal_analogies.xml.h:220
+msgid "It is the only one that is not related to rocks."
+msgstr "Ez az egyetlen, amely nem kapcsolódik a kövekhez."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:222
+msgid "Carrot"
+msgstr "Répa"
+
+#: ../data/verbal_analogies.xml.h:223
+msgid "Beet"
+msgstr "Cékla"
+
+#: ../data/verbal_analogies.xml.h:224
+msgid "Radish"
+msgstr "Retek"
+
+#: ../data/verbal_analogies.xml.h:225
+msgid "Tomato"
+msgstr "Paradicsom"
+
+#: ../data/verbal_analogies.xml.h:226
+msgid "It is the only one that does not have roots."
+msgstr "Ez az egyetlen, amelynek nem a gyökere ehető."
+
+#. Translator: Organ as a musical instrument
+#: ../data/verbal_analogies.xml.h:228
+msgid "Organ"
+msgstr "Orgona"
+
+#: ../data/verbal_analogies.xml.h:229
+msgid "Piano"
+msgstr "Zongora"
+
+#: ../data/verbal_analogies.xml.h:230
+msgid "Accordion"
+msgstr "Tangóharmonika"
+
+#. Translator: 'keys' as the ones found in a keyboard
+#: ../data/verbal_analogies.xml.h:232
+msgid "It is the only instrument that does not have keys."
+msgstr "Ez az egyetlen, amelynek nincsenek billentyűi."
+
+#: ../data/verbal_analogies.xml.h:233
 msgid "car / garage | plane"
 msgstr "autó / út | repülő"
 
-#: ../data/verbal_analogies.xml.h:162
+#: ../data/verbal_analogies.xml.h:234
 msgid "Hangar"
 msgstr "Hangár"
 
-#: ../data/verbal_analogies.xml.h:163
+#: ../data/verbal_analogies.xml.h:235
 msgid "Airline"
 msgstr "Légitársaság"
 
-#: ../data/verbal_analogies.xml.h:164
+#: ../data/verbal_analogies.xml.h:236
 msgid "Aircraft"
 msgstr "Repülőgép"
 
-#: ../data/verbal_analogies.xml.h:165
+#: ../data/verbal_analogies.xml.h:237
 msgid "Bunker"
 msgstr "Bunker"
 
-#: ../data/verbal_analogies.xml.h:166
+#: ../data/verbal_analogies.xml.h:238
 msgid "circle / semicircle | diameter"
 msgstr "kör / félkör | átmérő"
 
-#: ../data/verbal_analogies.xml.h:167
+#: ../data/verbal_analogies.xml.h:239
 msgid "Radius"
 msgstr "Sugár"
 
-#: ../data/verbal_analogies.xml.h:168
+#: ../data/verbal_analogies.xml.h:240
 msgid "Chord"
 msgstr "Akkord"
 
-#: ../data/verbal_analogies.xml.h:169
+#: ../data/verbal_analogies.xml.h:241
 msgid "Tangent"
 msgstr "Érintő"
 
-#: ../data/verbal_analogies.xml.h:170
+#: ../data/verbal_analogies.xml.h:242
 msgid "Angle"
 msgstr "Szög"
 
-#: ../data/verbal_analogies.xml.h:171
+#: ../data/verbal_analogies.xml.h:243
 msgid "The radius of a circle is half the diameter."
 msgstr "A kör sugara az átmérő fele."
 
-#: ../data/verbal_analogies.xml.h:172
+#: ../data/verbal_analogies.xml.h:244
 msgid "talk / yell | dislike"
 msgstr "beszéd / kiabálás | ellenszenv"
 
-#: ../data/verbal_analogies.xml.h:173
+#: ../data/verbal_analogies.xml.h:245
 msgid "Repugnance"
 msgstr "Idegenkedés"
 
-#: ../data/verbal_analogies.xml.h:174
+#: ../data/verbal_analogies.xml.h:246
 msgid "Offensive"
 msgstr "Sértő"
 
-#: ../data/verbal_analogies.xml.h:175
+#: ../data/verbal_analogies.xml.h:247
 msgid "Shame"
 msgstr "Szégyen"
 
-#: ../data/verbal_analogies.xml.h:176
+#: ../data/verbal_analogies.xml.h:248
 msgid "Ostentation"
 msgstr "Hivalkodás"
 
-#: ../data/verbal_analogies.xml.h:177
+#: ../data/verbal_analogies.xml.h:249
 msgid "write / pen | eat"
 msgstr "ír / toll | eszik"
 
-#: ../data/verbal_analogies.xml.h:178
+#: ../data/verbal_analogies.xml.h:250
 msgid "Fork"
 msgstr "Villa"
 
-#: ../data/verbal_analogies.xml.h:179
+#: ../data/verbal_analogies.xml.h:251
 msgid "Restaurant"
 msgstr "Étterem"
 
-#: ../data/verbal_analogies.xml.h:180
+#: ../data/verbal_analogies.xml.h:252
 msgid "Winery"
 msgstr "Borászat"
 
-#: ../data/verbal_analogies.xml.h:181
+#: ../data/verbal_analogies.xml.h:253
 msgid "Table"
 msgstr "Asztal"
 
-#: ../data/verbal_analogies.xml.h:182
+#: ../data/verbal_analogies.xml.h:254
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "A tollal írunk, a villával eszünk."
 
-#: ../data/verbal_analogies.xml.h:183
+#: ../data/verbal_analogies.xml.h:255
 msgid "desert / oasis | sea"
 msgstr "sivatag / oázis | tenger"
 
-#: ../data/verbal_analogies.xml.h:184
+#: ../data/verbal_analogies.xml.h:256
 msgid "Island"
 msgstr "Sziget"
 
-#: ../data/verbal_analogies.xml.h:185
+#: ../data/verbal_analogies.xml.h:257
 msgid "River"
 msgstr "Folyó"
 
-#: ../data/verbal_analogies.xml.h:186
+#: ../data/verbal_analogies.xml.h:258
 msgid "Beach"
 msgstr "Tengerpart"
 
-#: ../data/verbal_analogies.xml.h:187
+#: ../data/verbal_analogies.xml.h:259
 msgid "Coast"
 msgstr "Part"
 
-#: ../data/verbal_analogies.xml.h:188
+#: ../data/verbal_analogies.xml.h:260
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1354,148 +1618,148 @@ msgstr ""
 "vízzel körülvett elszigetelt földdarab."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:190
+#: ../data/verbal_analogies.xml.h:262
 msgid "turtle / shell | letter"
 msgstr "teknős / héj | levél"
 
-#: ../data/verbal_analogies.xml.h:191
+#: ../data/verbal_analogies.xml.h:263
 msgid "Envelope"
 msgstr "Boríték"
 
-#: ../data/verbal_analogies.xml.h:192
+#: ../data/verbal_analogies.xml.h:264
 msgid "Ink"
 msgstr "Tinta"
 
-#: ../data/verbal_analogies.xml.h:193
+#: ../data/verbal_analogies.xml.h:265
 msgid "Printer"
 msgstr "Nyomtató"
 
-#: ../data/verbal_analogies.xml.h:194
+#: ../data/verbal_analogies.xml.h:266
 msgid "Cellulose"
 msgstr "Cellulóz"
 
-#: ../data/verbal_analogies.xml.h:195
+#: ../data/verbal_analogies.xml.h:267
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr "A teknős egy héjon belül van, a levél pedig egy borítékon belül."
 
-#: ../data/verbal_analogies.xml.h:196
+#: ../data/verbal_analogies.xml.h:268
 msgid "wine / grape | rum"
 msgstr "bor / szőlő | rum"
 
-#: ../data/verbal_analogies.xml.h:197
+#: ../data/verbal_analogies.xml.h:269
 msgid "Sugarcane"
 msgstr "Cukornád"
 
-#: ../data/verbal_analogies.xml.h:198
+#: ../data/verbal_analogies.xml.h:270
 msgid "Grain"
 msgstr "Gabona"
 
-#: ../data/verbal_analogies.xml.h:199
+#: ../data/verbal_analogies.xml.h:271
 msgid "Sweet corn"
 msgstr "Csemegekukorica"
 
-#: ../data/verbal_analogies.xml.h:200
+#: ../data/verbal_analogies.xml.h:272
 msgid "horticulture / plants | ornithology"
 msgstr "kertészet / növények | ornitológia"
 
-#: ../data/verbal_analogies.xml.h:201
+#: ../data/verbal_analogies.xml.h:273
 msgid "Birds"
 msgstr "Madarak"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:274
 msgid "Insects"
 msgstr "Rovarok"
 
-#: ../data/verbal_analogies.xml.h:203
+#: ../data/verbal_analogies.xml.h:275
 msgid "Amphibians"
 msgstr "Kétéltűek"
 
-#: ../data/verbal_analogies.xml.h:204
+#: ../data/verbal_analogies.xml.h:276
 msgid "Fishes"
 msgstr "Halak"
 
-#: ../data/verbal_analogies.xml.h:205
+#: ../data/verbal_analogies.xml.h:277
 msgid "thankful / ingratitude | despotism"
 msgstr "hálás / hálátlan | zsarnokság"
 
-#: ../data/verbal_analogies.xml.h:206
+#: ../data/verbal_analogies.xml.h:278
 msgid "Democracy"
 msgstr "Demokrácia"
 
-#: ../data/verbal_analogies.xml.h:207
+#: ../data/verbal_analogies.xml.h:279
 msgid "Totalitarianism"
 msgstr "Totalitarizmus"
 
-#: ../data/verbal_analogies.xml.h:208
+#: ../data/verbal_analogies.xml.h:280
 msgid "Oligarchy"
 msgstr "Oligarchia"
 
-#: ../data/verbal_analogies.xml.h:209
+#: ../data/verbal_analogies.xml.h:281
 msgid "Authority"
 msgstr "Önkényuralom"
 
-#: ../data/verbal_analogies.xml.h:210
+#: ../data/verbal_analogies.xml.h:282
 msgid "pessimist / optimist | poor"
 msgstr "pesszimista / optimista | szegény"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:212
+#: ../data/verbal_analogies.xml.h:284
 msgid "Affluent"
 msgstr "Bőséges"
 
-#: ../data/verbal_analogies.xml.h:213
+#: ../data/verbal_analogies.xml.h:285
 msgid "Homeless"
 msgstr "Hajléktalan"
 
-#: ../data/verbal_analogies.xml.h:214
+#: ../data/verbal_analogies.xml.h:286
 msgid "Property"
 msgstr "Tulajdon"
 
-#: ../data/verbal_analogies.xml.h:215
+#: ../data/verbal_analogies.xml.h:287
 msgid "Money"
 msgstr "Pénz"
 
-#: ../data/verbal_analogies.xml.h:216
+#: ../data/verbal_analogies.xml.h:288
 msgid "five / pentagon | ten"
 msgstr "öt / ötszög | tíz"
 
-#: ../data/verbal_analogies.xml.h:217
+#: ../data/verbal_analogies.xml.h:289
 msgid "Decagon"
 msgstr "Tízszög"
 
-#: ../data/verbal_analogies.xml.h:218
+#: ../data/verbal_analogies.xml.h:290
 msgid "Enneagram"
 msgstr "Enneagramma"
 
-#: ../data/verbal_analogies.xml.h:219
+#: ../data/verbal_analogies.xml.h:291
 msgid "Icosagon"
 msgstr "Húszszög"
 
-#: ../data/verbal_analogies.xml.h:220
+#: ../data/verbal_analogies.xml.h:292
 msgid "Decimal"
 msgstr "Decimális"
 
-#: ../data/verbal_analogies.xml.h:221
+#: ../data/verbal_analogies.xml.h:293
 msgid "parallel / meridian | longitude"
 msgstr "szélességi kör / hosszúsági kör | hosszúság"
 
-#: ../data/verbal_analogies.xml.h:222
+#: ../data/verbal_analogies.xml.h:294
 msgid "Latitude"
 msgstr "Szélesség"
 
-#: ../data/verbal_analogies.xml.h:223
+#: ../data/verbal_analogies.xml.h:295
 msgid "Solstice"
 msgstr "Napfogyatkozás"
 
-#: ../data/verbal_analogies.xml.h:224
+#: ../data/verbal_analogies.xml.h:296
 msgid "Pole"
 msgstr "Pólus"
 
-#: ../data/verbal_analogies.xml.h:225
+#: ../data/verbal_analogies.xml.h:297
 msgid "Azimuth"
 msgstr "Azimut"
 
-#: ../data/verbal_analogies.xml.h:226
+#: ../data/verbal_analogies.xml.h:298
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1503,95 +1767,97 @@ msgstr ""
 "A szélességi körök és a hosszúság keletről nyugatra haladnak, míg a "
 "hosszúsági körök és szélesség északról délre."
 
-#: ../data/verbal_analogies.xml.h:227
+#: ../data/verbal_analogies.xml.h:299
 msgid "art / gallery | drama"
 msgstr "művészet / galéria | dráma"
 
-#: ../data/verbal_analogies.xml.h:228
+#: ../data/verbal_analogies.xml.h:300
 msgid "Theater"
 msgstr "Színház"
 
-#: ../data/verbal_analogies.xml.h:229
+#: ../data/verbal_analogies.xml.h:301
 msgid "Museum"
 msgstr "Múzeum"
 
-#: ../data/verbal_analogies.xml.h:230
+#: ../data/verbal_analogies.xml.h:302
 msgid "Concert hall"
 msgstr "Koncertterem"
 
-#: ../data/verbal_analogies.xml.h:231
+#: ../data/verbal_analogies.xml.h:303
 msgid "Gym"
 msgstr "Tornaterem"
 
-#: ../data/verbal_analogies.xml.h:232
+#: ../data/verbal_analogies.xml.h:304
 msgid "hunter / rifle | photographer"
 msgstr "vadász / puska | fényképész"
 
-#: ../data/verbal_analogies.xml.h:233
+#: ../data/verbal_analogies.xml.h:305
 msgid "Camera"
 msgstr "Fényképezőgép"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:235
+#: ../data/verbal_analogies.xml.h:307
 msgid "Tripod"
 msgstr "Statív"
 
-#: ../data/verbal_analogies.xml.h:236
+#: ../data/verbal_analogies.xml.h:308
 msgid "Photography"
 msgstr "Fényképészet"
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:309
 msgid "Light"
 msgstr "Fény"
 
-#: ../data/verbal_analogies.xml.h:238
+#: ../data/verbal_analogies.xml.h:310
 msgid "dish / break | balloon"
 msgstr "edény / eltörik | léggömb"
 
-#: ../data/verbal_analogies.xml.h:239
-msgid "Bursts"
+#. Translators: like 'he burst the balloon'
+#: ../data/verbal_analogies.xml.h:312
+msgid "Burst"
 msgstr "Kipukkad"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:313
 msgid "Bounce"
 msgstr "Pattan"
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:314
 msgid "Float"
 msgstr "Lebeg"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:315
 msgid "Roll"
 msgstr "Gurulás"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
-msgstr "Mindkettő olyan eseményhez kapcsolódik, ami elpusztítja a kapcsolódó elemet."
+msgstr ""
+"Mindkettő olyan eseményhez kapcsolódik, ami elpusztítja a kapcsolódó elemet."
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:317
 msgid "button / push | key (used in a lock)"
 msgstr "gomb / megnyom | kulcs"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:318
 msgid "Turn"
 msgstr "Elfordítás"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:320
 msgid "Open"
 msgstr "Kinyit"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:322
 msgid "Lock"
 msgstr "Bezár"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:324
 msgid "Close"
 msgstr "Bezárt"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:325
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1599,362 +1865,436 @@ msgstr ""
 "A tárgyak használatához meg kell nyomni a gombot, és el kell fordítani a "
 "kulcsot."
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
 msgstr "fogalom / ötlet | szenvedély"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:328
 msgid "Fixation"
 msgstr "Fixáció"
 
-#: ../data/verbal_analogies.xml.h:256
+#: ../data/verbal_analogies.xml.h:329
 msgid "Indifference"
 msgstr "Közöny"
 
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:330
 msgid "Disinterest"
 msgstr "Érdektelenség"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:331
 msgid "Intuition"
 msgstr "Megérzés"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:332
 msgid "The relation between the two words is that they are synonymous."
 msgstr "A két szó szinonima."
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:333
 msgid "fish / water | bird"
 msgstr "hal / víz | madár"
 
-#: ../data/verbal_analogies.xml.h:261
+#: ../data/verbal_analogies.xml.h:334
 msgid "Air"
 msgstr "Levegő"
 
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:335
 msgid "Wings"
 msgstr "Szárnyak"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:336
 msgid "Ship"
 msgstr "Hajó"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:337
 msgid "Cage"
 msgstr "Ketrec"
 
-#: ../data/verbal_analogies.xml.h:265
+#. Translator: 'rook' as a piece of chess
+#: ../data/verbal_analogies.xml.h:339
+msgid "rook / chess | soldier"
+msgstr "bástya / sakk | katona"
+
+#: ../data/verbal_analogies.xml.h:340
+msgid "Battle"
+msgstr "Csata"
+
+#: ../data/verbal_analogies.xml.h:341
+msgid "Gun"
+msgstr "Fegyver"
+
+#: ../data/verbal_analogies.xml.h:342
+msgid "Peace"
+msgstr "Béke"
+
+#: ../data/verbal_analogies.xml.h:343
+msgid "Enemy"
+msgstr "Ellenség"
+
+#: ../data/verbal_analogies.xml.h:344
+msgid "competitive / cooperative | anxious"
+msgstr "versengő / együttműködő | szorongó"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:346
+msgid "Flexible"
+msgstr "Rugalmas"
+
+#: ../data/verbal_analogies.xml.h:347
+msgid "Cautious"
+msgstr "Elővigyázatos"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:349
+msgid "Daring"
+msgstr "Merész"
+
+#: ../data/verbal_analogies.xml.h:350
+msgid "pessimistic / optimistic | suspicious"
+msgstr "pesszimista / optimista | gyanakvó"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:352
+msgid "Trusting"
+msgstr "Bizakodó"
+
+#: ../data/verbal_analogies.xml.h:353
+msgid "Dubious"
+msgstr "Kételkedő"
+
+#. Translator: compass as the instrument used for finding direction
+#: ../data/verbal_analogies.xml.h:355
+msgid "thermometer / temperature | compass"
+msgstr "hőmérő / hőmérséklet | iránytű"
+
+#: ../data/verbal_analogies.xml.h:356
+msgid "Direction"
+msgstr "Irány"
+
+#: ../data/verbal_analogies.xml.h:357
+msgid "Elevation"
+msgstr "Magasság"
+
+#: ../data/verbal_analogies.xml.h:358
+msgid "Position"
+msgstr "Helyzet"
+
+#: ../data/verbal_analogies.xml.h:359
+msgid "Area"
+msgstr "Terület"
+
+#: ../data/verbal_analogies.xml.h:360
+msgid "The first word is the instrument and the second what it measures."
+msgstr "Az első szó a készülék, a második amit mér."
+
+#: ../data/verbal_analogies.xml.h:361
 msgid "hungry / eat | tired"
 msgstr "éhes / evés | fáradt"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:362
 msgid "sleep | rest"
 msgstr "alvás | pihenés"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:364
 msgid "box / open | banana"
 msgstr "doboz / kinyit | banán"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:365
 msgid "peel"
 msgstr "meghámoz | hámoz"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:367
 msgid "shovel / dig | axe"
 msgstr "ásó / föld | balta"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:369
 msgid "chop"
 msgstr "vág"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:371
 msgid "glass / break | paper"
 msgstr "üveg / eltörik | papír"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:373
 msgid "tear | rip"
 msgstr "tép | elszakad"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "láb / kettő | lábujjak"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:377
 msgid "ten | 10"
 msgstr "tíz | 10"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:378
 msgid "fish / aquarium | monkey"
 msgstr "hal / akvárium | majom"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:379
 msgid "cage | zoo | zoological garden"
 msgstr "ketrec | állatkert"
 
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:380
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Az akváriumban a hal fogságban él."
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:381
 msgid "ring / finger | bracelet"
 msgstr "gyűrű / ujj | karkötő"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:382
 msgid "wrist | arm"
 msgstr "csukló | kar"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:383
 msgid "seal / flippers | bird"
 msgstr "fóka / uszonyok | madár"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:384
 msgid "wings"
 msgstr "szárnyak"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:386
 msgid "stick / float | stone"
 msgstr "fadarab / úszik | kő"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:387
 msgid "sink"
 msgstr "elmerül | elsüllyed"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:388
 msgid "leopard / spots | tiger"
 msgstr "leopárd / foltok | tigris"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:389
 msgid "stripes"
 msgstr "csíkok"
 
-#: ../data/verbal_analogies.xml.h:294
+#. Translators: 'submarine' is used as a noun
+#: ../data/verbal_analogies.xml.h:391
 msgid "fish / submarine | bird"
 msgstr "hal / tengeralattjáró | madár"
 
-#: ../data/verbal_analogies.xml.h:295
+#: ../data/verbal_analogies.xml.h:392
 msgid "airplane | aeroplane | plane"
 msgstr "repülő | repülőgép"
 
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:393
 msgid "tears / eyes | sweat"
 msgstr "könny / szem | izzadtság"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:394
 msgid "body | skin"
 msgstr "test | bőr"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:395
 msgid "bridge / over | tunnel"
 msgstr "híd / ráhajt | alagút"
 
-#: ../data/verbal_analogies.xml.h:299
+#: ../data/verbal_analogies.xml.h:396
 msgid "in | under | through"
 msgstr "benne | alatta | át"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:398
 msgid "toy / play | tool"
 msgstr "játék / játszás | szerszám"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:400
 msgid "work"
 msgstr "munka | szerelés"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:402
 msgid "error / (to) correct | damage"
 msgstr "hiba / javítani | kár"
 
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:403
 msgid "repair | fix"
 msgstr "javít | megjavít"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:404
 msgid "orange / fruit | spinach"
 msgstr "narancs / gyümölcs | spenót"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:405
 msgid "vegetable"
 msgstr "zöldség"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:406
 msgid "hands / grab | teeth"
 msgstr "kezek / fogás | fogak"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:407
 msgid "bite"
 msgstr "harapás"
 
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:408
 msgid "Grab and bite are finite actions."
 msgstr "A fogás és a harapás véges tevékenységek."
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:409
 msgid "puzzle / solve | game"
 msgstr "rejtvény / megoldva | játék"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:410
 msgid "win | play"
 msgstr "nyer | játék"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:411
 msgid "eyebrow / eye | mustache"
 msgstr "szemöldök / szem | bajusz"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:412
 msgid "lip | upper lip | mouth"
 msgstr "ajak | felső ajak | száj"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:413
 msgid "ice / slippery | glue"
 msgstr "jég / csúszós | ragasztó"
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:414
 msgid "sticky"
 msgstr "ragadós"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:415
 msgid "whirlpool / water | tornado"
 msgstr "örvény / víz | tornádó"
 
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:416
 msgid "wind | air"
 msgstr "szél | levegő"
 
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:417
 msgid "fox / den | bird"
 msgstr "róka / odú | madár"
 
-#: ../data/verbal_analogies.xml.h:321
+#: ../data/verbal_analogies.xml.h:418
 msgid "nest"
 msgstr "fészek"
 
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:419
 msgid "dog / tame | wolf"
 msgstr "kutya / szelíd | farkas"
 
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:420
 msgid "wild | savage"
 msgstr "vad"
 
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:421
 msgid "sugar / sweet | vinegar"
 msgstr "cukor / édes | ecet"
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:422
 msgid "sour"
 msgstr "savanyú"
 
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:423
 msgid "tennis / sport | ballet"
 msgstr "tenisz / sport | balett"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:425
 msgid "dance"
 msgstr "tánc"
 
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:426
 msgid "slurp / tongue | snort"
 msgstr "szürcsöl / nyelv | horkol"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:427
 msgid "nose"
 msgstr "orr"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:428
 msgid "elbow / knee | wrist"
 msgstr "könyök / térd | csukló"
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:429
 msgid "ankle"
 msgstr "boka"
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:430
 msgid "novel / author | song"
 msgstr "regény / író | dal"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:431
 msgid "composer | songwriter | lyricist"
 msgstr "zeneszerző | szerző | szövegíró"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:432
 msgid "car / road | train"
 msgstr "autó / út | vonat"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:433
 msgid "track | railway | rails | railroad"
 msgstr "sín | vasút"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:434
 msgid "pediatrics / children | numismatics"
 msgstr "gyermekgyógyászat / gyerekek | éremtan"
 
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:435
 msgid "coins"
 msgstr "érmék"
 
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
 msgstr "hőmérő / hőmérséklet | óra"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:438
 msgid "time"
 msgstr "idő"
 
-#: ../data/verbal_analogies.xml.h:342
-msgid "The first word is the instrument and the second what it measures."
-msgstr "Az első szó a készülék, a második amit mér."
-
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:439
 msgid "poems / anthology | maps"
 msgstr "versek / antológia | térképek"
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:440
 msgid "atlas"
 msgstr "atlasz"
 
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:441
 msgid "letter / word | page"
 msgstr "betű / szó | oldal"
 
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:442
 msgid "book | magazine | document"
 msgstr "könyv | magazin | dokumentum"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:443
 msgid "hour / minute | minute"
 msgstr "óra / perc | perc"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:445
 msgid "second"
 msgstr "másodperc"
 
-#: ../data/verbal_analogies.xml.h:350
+#: ../data/verbal_analogies.xml.h:446
 msgid "tiger / carnivore | cow"
 msgstr "tigris / húsevő | tehén"
 
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:447
 msgid "herbivorous | herbivore"
 msgstr "növényevő"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:448
 msgid "constellation / stars | archipelago"
 msgstr "csillagkép / csillag | szigetcsoport"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:449
 msgid "islands"
 msgstr "sziget"
 
@@ -1998,7 +2338,8 @@ msgstr ""
 "játékhoz."
 
 #: ../src/Clients/Classical/CommandLine.cs:177
-msgid "  --norandom \t\t\tThe custom game list provided will not be randomized."
+msgid ""
+"  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr ""
 "  --norandom \t\t\tA megadott egyéni kérdések sorrendje nem lesz "
 "véletlenszerű."
@@ -2068,14 +2409,8 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "Egy szórakoztató agytornáztató, képességfejlesztő játék."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#, csharp-format
-msgid "gbrainy project web site: {0}"
-msgstr "A gbrainy projekt honlapja: {0}"
-
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:82
-#, csharp-format
-msgid "You can also play on-line at {0}"
-msgstr "Online is játszhat itt: {0}"
+msgid "gbrainy project web site"
+msgstr "A gbrainy projekt honlapja"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2109,7 +2444,8 @@ msgid "The PDF file has been exported correctly."
 msgstr "A PDF fájl exportálása sikerült."
 
 #: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:175
-msgid "There was a problem generating the PDF file. The file has not been created."
+msgid ""
+"There was a problem generating the PDF file. The file has not been created."
 msgstr "Hiba történt a PDF fájl előállításakor. A fájl nem jött létre."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
@@ -2117,13 +2453,15 @@ msgid "The graph below shows the player's game score evolution."
 msgstr "Az alábbi ábra a játékos fejlődését mutatja."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
-msgid "You need more than one game session recorded to see the score evolution."
+msgid ""
+"You need more than one game session recorded to see the score evolution."
 msgstr "Egynél több játékra van szükség az eredményfejlődés megjelenítéséhez."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
 #, csharp-format
 msgid "It is built using the results of {0} recorded game session."
-msgid_plural "It is built using the results of the last {0} recorded game sessions."
+msgid_plural ""
+"It is built using the results of the last {0} recorded game sessions."
 msgstr[0] "Az utolsó {0} játék eredményei alapján készült."
 msgstr[1] "Az utolsó {0} játék eredményei alapján készült."
 
@@ -2144,27 +2482,188 @@ msgstr "{0} {1}"
 msgid "Total"
 msgstr "Összes"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:118
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "You are about to delete the player's game session history."
 msgstr "Az eddigi játékelőzmények törlésére készülsz."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:119
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:121
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
-msgstr "Ha folytatod, elvész az eddigi összes játékelőzmény. Biztosan ezt akarod?"
+msgstr ""
+"Ha folytatod, elvész az eddigi összes játékelőzmény. Biztosan ezt akarod?"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
 msgid "_Delete"
 msgstr "_Törlés"
 
-#: ../src/Clients/Classical/gbrainy.cs:437
-#: ../src/Clients/WebForms/Game.aspx.cs:245
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
+msgid "Custom Game"
+msgstr "Egyéni játék"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "Select All"
+msgstr "Összes kijelölése"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+msgid "Unselect all"
+msgstr "Kijelölések törlése"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
+msgid "_Start"
+msgstr "_Kezdés"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
+msgid "PDF export"
+msgstr "PDF exportálás"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid ""
+"This option allows to export a set of games in a PDF file. You can complete "
+"the puzzles without a computer."
+msgstr ""
+"Játékok csoportjának PDF fájlba exportálása. Így a játékokkal számítógép "
+"nélkül is játszhat."
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>Általános beállítások</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr "Színeket használó játékok kihagyása"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Játéktípusok</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+msgid "Logic"
+msgstr "Logika"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+msgid "Calculation"
+msgstr "Számolás"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
+#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+msgid "Verbal"
+msgstr "Verbális"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Nehézségi szint</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Easy"
+msgstr "Könnyű"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Medium"
+msgstr "Közepes"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "Master"
+msgstr "Mester"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Játékok száma</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+msgid "Total number of games:"
+msgstr "Játékok teljes száma:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Oldalak laponként:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b>Kimeneti fájl</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
+msgid "_Save"
+msgstr "M_entés"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:19
+msgid "Player's Game Session History"
+msgstr "Játékos játékelőzményei"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
+msgid "Show:"
+msgstr "Megjelenítés:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
+msgid "Skip games that use colors (for colorblind users)"
+msgstr "Színeket használó játékok kihagyása (színtévesztőknek)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
+msgid "Force gbrainy to always use English language (ignore translations)"
+msgstr "A gbrainy használata angolul (fordítások nélkül)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr "Kiterjesztések keresése és betöltése induláskor"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
+msgid "Enable sounds"
+msgstr "Hangok bekapcsolása"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "Theme:"
+msgstr "Téma:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+msgid "<b>Memory Games</b>"
+msgstr "<b>Memóriajátékok</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Time in seconds to memorize the challenge:"
+msgstr "A feladvány memorizálására adott idő (mp):"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "Show a countdown message"
+msgstr "Visszaszámláló üzenet megjelenítése"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Játékos játékelőzményei</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+msgid "Minimum number of played games to store the game session:"
+msgstr "A játékos megőrzött játékelőzményeinek minimális száma:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+msgid "Maximum number of records in the player's game session history:"
+msgstr "A játékos megőrzött játékelőzményeinek maximális száma:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
+msgid "Delete Player's Game Session History"
+msgstr "Játékos játékelőzményeinek törlése"
+
+#: ../src/Clients/Classical/gbrainy.cs:429
 msgid "Congratulations."
 msgstr "Gratulálunk."
 
-#: ../src/Clients/Classical/gbrainy.cs:439
-#: ../src/Clients/WebForms/Game.aspx.cs:249
+#: ../src/Clients/Classical/gbrainy.cs:433
 msgid "Incorrect answer."
 msgstr "Helytelen válasz."
 
@@ -2203,6 +2702,106 @@ msgstr "Folytatás"
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Indulási idő: {0}"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "_Játék"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "Ú_j játék"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
+msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
+msgstr "Minden kérdés (logikai, fejszámolás, memória és verbális analógiák)"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:5
+msgid "Logic Puzzles Only"
+msgstr "Csak logikai rejtvények"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:6
+msgid "Mental Calculation Only"
+msgstr "Csak fejszámolás"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Csak memóriafejlesztők"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Csak verbális analógiák"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Egyéni kérdések…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "Játék _szüneteltetése"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:11
+msgid "_End Game"
+msgstr "Játék be_fejezése"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Játékok PDF-be exportálása papíron való játékhoz…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "_Nézet"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:14
+msgid "Toolbar"
+msgstr "Eszköztár"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Megjelenítés"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:16
+msgid "Orientation"
+msgstr "Tájolás"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:17
+msgid "Vertical"
+msgstr "Függőleges"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:18
+msgid "Horizontal"
+msgstr "Vízszintes"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:20
+msgid "_Settings"
+msgstr "_Beállítások"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Kiterjesztések"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "_Tartalom"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "Hogyan bővíthető a gbrainy"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Válasz:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "_Következő"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
+msgid "_Tip"
+msgstr "T_ipp"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:31
 msgid "Add-in Manager"
@@ -2421,27 +3020,13 @@ msgstr "Szünet"
 msgid "Play all the games"
 msgstr "Minden játéktípus"
 
-#. Toolbar
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:119
-#: ../src/Clients/WebForms/Game.aspx.cs:179
 msgid "All"
 msgstr "Mindegyik"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:123
 msgid "Play games that challenge your reasoning and thinking"
 msgstr "Ezen játékokban próbára teheted gondolkodási képességeid"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
-msgid "Logic"
-msgstr "Logika"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-msgid "Calculation"
-msgstr "Számolás"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:129
 msgid "Play games that challenge your mental calculation skills"
@@ -2456,12 +3041,6 @@ msgstr "Memória"
 msgid "Play games that challenge your short term memory"
 msgstr "Ezen játékokban próbára teheted rövid távú memóriádat"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-msgid "Verbal"
-msgstr "Verbális"
-
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:139
 msgid "Play games that challenge your verbal aptitude"
 msgstr "Ezen játékokban próbára teheted nyelvi rátermettségedet"
@@ -2475,17 +3054,8 @@ msgid "End the game and show score"
 msgstr "Játék befejezése, és az eredmény megtekintése"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#: ../src/Clients/WebForms/Game.aspx.cs:180
 msgid "End"
 msgstr "Befejezés"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:172
-msgid "Next Game"
-msgstr "Következő játék"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:173
-msgid "Answer"
-msgstr "Válasz"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -2660,7 +3230,8 @@ msgstr "Kiábrándító teljesítmény"
 
 #: ../src/Core/Main/GameTips.cs:59
 msgid "Read the instructions carefully and identify the data and given clues."
-msgstr "Olvasd el alaposan a kérdéseket, próbáld kiszűrni az adatokat és nyomokat."
+msgstr ""
+"Olvasd el alaposan a kérdéseket, próbáld kiszűrni az adatokat és nyomokat."
 
 #: ../src/Core/Main/GameTips.cs:61
 msgid ""
@@ -2671,22 +3242,26 @@ msgstr ""
 "igénybevételén alapszik."
 
 #: ../src/Core/Main/GameTips.cs:63
-msgid "In logic games, elements that may seem irrelevant can be very important."
-msgstr "A logikai játékokban jelentéktelennek tűnő elemek igen jelentősek lehetnek."
+msgid ""
+"In logic games, elements that may seem irrelevant can be very important."
+msgstr ""
+"A logikai játékokban jelentéktelennek tűnő elemek igen jelentősek lehetnek."
 
 #: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
 msgstr "Próbáld megközelíteni a problémát különböző irányokból."
 
 #: ../src/Core/Main/GameTips.cs:67
-msgid "Do not be afraid of making mistakes, they are part of the learning process."
+msgid ""
+"Do not be afraid of making mistakes, they are part of the learning process."
 msgstr "Ne félj hibázni, ez is része a tanulásnak."
 
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challeging yourself."
-msgstr "Oldd meg az összes problémát, a nehezeket is. Gyakorlat teszi a mestert."
+msgstr ""
+"Oldd meg az összes problémát, a nehezeket is. Gyakorlat teszi a mestert."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -2697,7 +3272,8 @@ msgstr "Játssz napi rendszerességgel, hamar észre fogod venni az eredményt."
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
-msgstr "Válaszd az „Egyéni kérdések” menüpontot a kívánt játéktípusok megadására."
+msgstr ""
+"Válaszd az „Egyéni kérdések” menüpontot a kívánt játéktípusok megadására."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
 msgid "Use the Settings to adjust the difficulty level of the game."
@@ -2720,8 +3296,10 @@ msgstr ""
 "megjegyezhetőség érdekében."
 
 #: ../src/Core/Main/GameTips.cs:83
-msgid "The enjoyment obtained from a puzzle is proportional to the time spent on it."
-msgstr "A rejtvényeknél elért sikerélmény egyenesen arányos a ráfordított idővel."
+msgid ""
+"The enjoyment obtained from a puzzle is proportional to the time spent on it."
+msgstr ""
+"A rejtvényeknél elért sikerélmény egyenesen arányos a ráfordított idővel."
 
 #: ../src/Core/Main/GameTips.cs:85
 msgid "Think of breaking down every problem into simpler components."
@@ -2729,13 +3307,20 @@ msgstr "A bonyolultabb feladványokat érdemes egyszerűbb részekre bontani."
 
 #: ../src/Core/Main/GameTips.cs:87
 msgid "When answering verbal analogies pay attention to the verb tense."
-msgstr "A verbális analógiáknál érdemes az igeidőkre nagyobb figyelmet fordítani."
+msgstr ""
+"A verbális analógiáknál érdemes az igeidőkre nagyobb figyelmet fordítani."
+
+#: ../src/Core/Main/GameTips.cs:89
+msgid ""
+"When you go shopping, try to perform calculations without the use of a "
+"calculator."
+msgstr "Vásárlás közben próbálj számológép nélkül számolni."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
 msgstr "Próbáld megjegyezni a lenti objektumokat a megadott időn belül"
 
-#: ../src/Core/Main/Memory.cs:220
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Hátralévő idő"
 
@@ -2920,7 +3505,8 @@ msgstr "Logikai rejtvények - Tedd próbára gondolkodási képességeid."
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
-msgstr "Fejszámolás - Számtani műveletekkel tesztelheted fejszámolási képességeidet."
+msgstr ""
+"Fejszámolás - Számtani műveletekkel tesztelheted fejszámolási képességeidet."
 
 #: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
@@ -2984,7 +3570,8 @@ msgstr "Közelebbi tört"
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:46
 #, csharp-format
-msgid "Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
+msgid ""
+"Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Az alábbi számok közül melyik van közelebb a(z) {0} számhoz? Lehetőségek: "
 "{1}, {2}, {3} vagy {4}."
@@ -2993,6 +3580,19 @@ msgstr ""
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "A(z) {0} / {1} művelet eredménye: „{2}”."
+
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
+msgid "Consecutive sum"
+msgstr "Folyamatos összeg"
+
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
+#, csharp-format
+msgid ""
+"In the list of single-digit numbers below, there are 5 consecutive numbers "
+"whose sum is {0}. Which numbers are these?"
+msgstr ""
+"Az egy számjegyű számok alábbi listájában 5 egymást követő szám összege {0}. "
+"Melyek ezek?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3018,6 +3618,7 @@ msgstr ""
 "{2} vagy {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
 msgid "Numbers"
 msgstr "Számok"
 
@@ -3126,6 +3727,28 @@ msgstr "x + y = {0}"
 msgid "have a ratio of {0}:{1}"
 msgstr "arányuk: {0}:{1}"
 
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
+msgid "Selected numbers"
+msgstr "Kiválasztott számok"
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
+#, csharp-format
+msgid ""
+"In the list of numbers below, what is the sum of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr ""
+"A számok alábbi listájában mennyi az ennél nagyobb számok összege: {0}? "
+"Lehetőségek: {1}, {2}, {3} vagy {4}."
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
+#, csharp-format
+msgid ""
+"In the list of numbers below, what is the product of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr ""
+"A számok alábbi listájában mennyi az ennél nagyobb számok szorzata: {0}? "
+"Lehetőségek: {1}, {2}, {3} vagy {4}."
+
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
 msgstr "Két szám"
@@ -3166,11 +3789,13 @@ msgstr "3D kocka"
 msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
-msgstr "Hány kis kocka kell az alábbi nagy kocka felépítéséhez? Számmal válaszolj."
+msgstr ""
+"Hány kis kocka kell az alábbi nagy kocka felépítéséhez? Számmal válaszolj."
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
-msgstr "A kocka egy olyan alakzat, melynek oldalai hat szabályos négyzetből állnak."
+msgstr ""
+"A kocka egy olyan alakzat, melynek oldalai hat szabályos négyzetből állnak."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:49
 msgid "Balance"
@@ -3188,7 +3813,8 @@ msgstr ""
 msgid ""
 "Every circle is equivalent to two triangles and every square to three "
 "triangles."
-msgstr "Minden kör megfelel két háromszögnek, és minden négyzet három háromszögnek."
+msgstr ""
+"Minden kör megfelel két háromszögnek, és minden négyzet három háromszögnek."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:63
 msgid "Every circle is equivalent two triangles."
@@ -3223,7 +3849,8 @@ msgstr "Körök a négyzetben"
 msgid ""
 "What is the maximum number of circles (as shown) that fit in the square "
 "below?"
-msgstr "A megadott méretű körből legfeljebb hány darab fér el az alábbi négyzetben?"
+msgstr ""
+"A megadott méretű körből legfeljebb hány darab fér el az alábbi négyzetben?"
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:37
 msgid "You can fit more than 64 circles."
@@ -3389,7 +4016,8 @@ msgid "Count series"
 msgstr "Sorozatok számolása"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:62
-msgid "How many numbers '9' are required to represent the numbers between 10 to 100?"
+msgid ""
+"How many numbers '9' are required to represent the numbers between 10 to 100?"
 msgstr ""
 "A 10 és 100 közötti számok leírásához hány darab „9-es” számjegyre van "
 "szükség?"
@@ -3517,7 +4145,7 @@ msgstr ""
 "A legutolsó ábrán az összes pontot összekötve azok hány részre osztanák fel "
 "a kört?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -3558,7 +4186,8 @@ msgid "All circles share a common property except for one."
 msgstr "Minden körnek van közös tulajdonsága, egyet kivéve."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:72
-msgid "In all circles the color slices follow the same order except for this one."
+msgid ""
+"In all circles the color slices follow the same order except for this one."
 msgstr "Minden kör ugyanolyan sorrendben van beszínezve, ezt az egyet kivéve."
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:40
@@ -3587,22 +4216,23 @@ msgstr ""
 "a „C”, hogy vannak körök, a „D”, hogy az alakzatok nem fedik egymást, az "
 "„E”, hogy három alakzat van és az „F”, hogy két alakzat van."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:40
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
 msgstr "Ábraminta"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:45
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:49
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr "Melyik ábra kerül a kérdőjel helyére, {0}, {1} vagy {2}?"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:50
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:54
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
-msgstr "Minden sor harmadik ábrája az első kettő valamilyen kombinációjából születik."
+msgstr ""
+"Minden sor harmadik ábrája az első kettő valamilyen kombinációjából születik."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:55
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
@@ -3627,7 +4257,41 @@ msgstr ""
 msgid ""
 "It is the only combination that you can build with the given elements "
 "without repeating them."
-msgstr "Az adott elemekből ez az egyetlen ismétlődés nélkül felépíthető variáció."
+msgstr ""
+"Az adott elemekből ez az egyetlen ismétlődés nélkül felépíthető variáció."
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
+msgid "Find the number"
+msgstr "Találd meg a számot"
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
+#, csharp-format
+msgid ""
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} place away from itself multiplied by 2 and {1} place away "
+"from itself plus 2?"
+msgid_plural ""
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} places away from itself multiplied by 2 and {1} places away "
+"from itself plus 2?"
+msgstr[0] ""
+"A lenti rács sorait vízszintesen és függőlegesen tekintve, melyik szám van a "
+"kétszeresétől {0} helyre és a tőle kettővel nagyobb számtól {1} helyre?"
+msgstr[1] ""
+"A lenti rács sorait vízszintesen és függőlegesen tekintve, melyik szám van a "
+"kétszeresétől {0} helyre és a tőle kettővel nagyobb számtól {1} helyre?"
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
+#, csharp-format
+msgid "The number is located at row {0}, column {1}."
+msgstr "A szám a(z) {0}. sor {1}. oszlopában van."
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
+#, csharp-format
+msgid "The number is located within the first {0} row of the grid."
+msgid_plural "The number is located within the first {0} rows of the grid."
+msgstr[0] "A szám a rács első {0} során belül van."
+msgstr[1] "A szám a rács első {0} során belül van."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
@@ -3646,19 +4310,19 @@ msgstr "Egy négyszögön belül is lehetnek további négyszögek."
 msgid "The four sided figures are made by connecting the following points: {0}"
 msgstr "A négyszögeket a következő pontok összekötésével kaphatjuk meg: {0}"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:35
+#: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
 msgstr "Körök a rácsban"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:39
+#: ../src/Games/Logic/PuzzleGridCircles.cs:46
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr "Az egyik számot be kell karikázni a rácsban. Melyiket?"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:43
+#: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
 msgstr "Az összes bekarikázott számnak van egy közös számtani tulajdonsága."
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:48
+#: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
 msgstr "Minden bekarikázott szám osztható ezzel: {0}."
@@ -3670,7 +4334,8 @@ msgstr "Négyzetek pontokkal"
 #: ../src/Games/Logic/PuzzleGridDots.cs:210
 #: ../src/Games/Logic/PuzzleNextFigure.cs:58
 #, csharp-format
-msgid "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
+msgid ""
+"Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
 msgstr "Melyik ábra illik a sorba? Lehetőségek: {0}, {1} vagy {2}."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
@@ -3684,8 +4349,10 @@ msgstr ""
 "balra le."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:222
-msgid "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
-msgstr "A bal felső ábrából az alakzat az óra járásával ellentétesen fordul 90 fokot."
+msgid ""
+"From the top-left figure, the figure is rotated counterclockwise 90 degrees."
+msgstr ""
+"A bal felső ábrából az alakzat az óra járásával ellentétesen fordul 90 fokot."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:44
 msgid "Numbers in a grid"
@@ -3744,7 +4411,8 @@ msgstr ""
 msgid ""
 "The fourth row is calculated by adding the first two rows and subtracting "
 "the third."
-msgstr "A negyedik sor az első két sor összegéből a harmadik kivonásával jön létre."
+msgstr ""
+"A negyedik sor az első két sor összegéből a harmadik kivonásával jön létre."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:79
 msgid ""
@@ -3768,7 +4436,8 @@ msgstr ""
 "összesen. Hányan vettek részt a bulin?"
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:42
-msgid "Try to imagine a situation in which you are meeting a small number of people."
+msgid ""
+"Try to imagine a situation in which you are meeting a small number of people."
 msgstr "Képzelj el egy olyan szituációt, ahol néhány emberrel találkozol."
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:46
@@ -3778,8 +4447,8 @@ msgid ""
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
 "Az emberek teljes számát n-nek véve az első ember n-1 emberrel fog kezet, a "
-"második n-2-vel stb. Az eredmény az első n-1 egymást követő szám összege: 1+2"
-"+3+...+(n-1)."
+"második n-2-vel stb. Az eredmény az első n-1 egymást követő szám összege: "
+"1+2+3+...+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -3793,6 +4462,41 @@ msgid ""
 msgstr ""
 "Az első két alakzatot kombinálva melyik nagyobb alakzat rakható ki? "
 "Lehetőségek: {0}, {1}, {2}, és {3}."
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:241
+msgid "Largest area"
+msgstr "Legnagyobb terület"
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:246
+#, csharp-format
+msgid ""
+"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
+"{3}."
+msgstr ""
+"A következő alakzatok közül melyik területe a legnagyobb? Lehetőségek: {0}, "
+"{1}, {2} vagy {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
+msgid "Largest diameter"
+msgstr "Legnagyobb átmérő"
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
+#, csharp-format
+msgid ""
+"If the circles represented by the arcs below were completed, which circle "
+"would have the largest diameter? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Ha a lenti ívek által képviselt körök teljesek lennének, melyik kör átmérője "
+"lenne a legnagyobb? Lehetőségek: {0}, {1}, {2} vagy {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
+msgid "Less curved is the arc, the larger the circle is."
+msgstr "Minél kevésbé görbül az ív, annál nagyobb a kör."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
+#, csharp-format
+msgid "Arc {0}"
+msgstr "{0}. ív"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
@@ -3814,12 +4518,15 @@ msgid ""
 msgid_plural ""
 "There are {0} lines in the figure to the left and {1} in the figure to the "
 "right."
-msgstr[0] "{0} egyenesszakasz található a kép bal oldalán, míg {1} a kép jobb oldalán."
-msgstr[1] "{0} egyenesszakasz található a kép bal oldalán, míg {1} a kép jobb oldalán."
+msgstr[0] ""
+"{0} egyenesszakasz található a kép bal oldalán, míg {1} a kép jobb oldalán."
+msgstr[1] ""
+"{0} egyenesszakasz található a kép bal oldalán, míg {1} a kép jobb oldalán."
 
 #: ../src/Games/Logic/PuzzleLines.cs:52
 msgid "It is an easy exercise if you systematically count the lines."
-msgstr "Ez egy egyszerű feladat, ha szisztematikusan számolod meg az egyeneseket."
+msgstr ""
+"Ez egy egyszerű feladat, ha szisztematikusan számolod meg az egyeneseket."
 
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:35
 msgid "Missing piece"
@@ -3887,7 +4594,8 @@ msgid "Think of the common elements that the given figures have inside them."
 msgstr "Keress a megadott alakzatokban elhelyezkedő közös alakzatokat."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:93
-msgid "It has the same number of elements inside the figure as the given figures."
+msgid ""
+"It has the same number of elements inside the figure as the given figures."
 msgstr "Ugyanannyi elem van az ábrán belül, mint a megadott ábrákon."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:95
@@ -3904,7 +4612,8 @@ msgstr "Ábrák átrendezése"
 msgid ""
 "What is the minimum number of circles to be moved in order to convert the "
 "left figure into the right figure?"
-msgstr "Minimum hány kör áthelyezésével alakítható a bal oldali ábra a jobb oldalivá?"
+msgstr ""
+"Minimum hány kör áthelyezésével alakítható a bal oldali ábra a jobb oldalivá?"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:44
 msgid ""
@@ -4030,7 +4739,8 @@ msgstr "A megoldás eldöntéséhez nem számtani műveletekre van szükség."
 msgid ""
 "Consider that every number that belongs to the group has two parts that are "
 "related."
-msgstr "Minden számot két részre kell osztani, és a részek kapcsolatát megvizsgálni."
+msgstr ""
+"Minden számot két részre kell osztani, és a részek kapcsolatát megvizsgálni."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:79
 msgid ""
@@ -4068,8 +4778,8 @@ msgstr "Emberek egy asztalnál"
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
 msgid ""
-"A group of people are sitting at a round table spaced out evenly. How many "
-"people are there if the {0} person is across from the {1}?"
+"A group of people, spaced out evenly, are sitting at a round table. How many "
+"people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Több ember ül körbe egy asztalt, egyenlő távolságra egymástól. Hány ember "
 "lehet jelen összesen, ha a(z) {0}. személy szemben ül a(z) {1}. személlyel?"
@@ -4108,8 +4818,8 @@ msgid "22nd"
 msgstr "22."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-msgid "Two people in the table sitting across each other"
-msgstr "Két személy egymással szemben ül az asztalnál"
+msgid "Two people in the table sitting across from each other"
+msgstr "Az asztalnál két személy ül egymással szemben"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:41
 msgid "Percentage"
@@ -4380,7 +5090,7 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Senki nem érzi magát jobban, aki nem megy ki sétálni"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-msgid "Predicate Logic"
+msgid "Predicate logic"
 msgstr "Predikátumlogika"
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
@@ -4517,7 +5227,8 @@ msgstr "Tetris"
 #: ../src/Games/Logic/PuzzleTetris.cs:39
 #, csharp-format
 msgid "What figure completes the set below? Answer {0}, {1} or {2}."
-msgstr "Melyik alakzat egészíti ki a lenti csoportot? Lehetőségek: {0}, {1} vagy {2}."
+msgstr ""
+"Melyik alakzat egészíti ki a lenti csoportot? Lehetőségek: {0}, {1} vagy {2}."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:45
 msgid ""
@@ -4527,11 +5238,12 @@ msgstr ""
 "Ez az alakzat egészíti ki a négy négyzet kombinálásával, forgatás figyelembe "
 "vétele nélkül elérhető összes kombináció listáját."
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:33
+#. Translators: this the name of a game
+#: ../src/Games/Logic/PuzzleTimeNow.cs:34
 msgid "Time now"
 msgstr "Pontos idő"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:44
+#: ../src/Games/Logic/PuzzleTimeNow.cs:45
 #, csharp-format
 msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
@@ -4541,14 +5253,14 @@ msgid_plural ""
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
 "{0} órával ezelőtt annyival múlt {1:h tt}, amennyi múlva ugyanazon a napon "
-"{2:h tt} lett. Mennyi az idő most? Válaszolj az óra megadásával (például: {3:"
-"h tt})."
+"{2:h tt} lett. Mennyi az idő most? Válaszolj az óra megadásával (például: "
+"{3:h tt})."
 msgstr[1] ""
 "{0} órával ezelőtt annyival múlt {1:h tt}, amennyi múlva ugyanazon a napon "
-"{2:h tt} lett. Mennyi az idő most? Válaszolj az óra megadásával (például: {3:"
-"h tt})."
+"{2:h tt} lett. Mennyi az idő most? Válaszolj az óra megadásával (például: "
+"{3:h tt})."
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:53
+#: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
 msgid ""
 "Determine the hour half way between the given times, and then add {0} hour "
@@ -4568,13 +5280,13 @@ msgstr[1] ""
 #. Explanation of the date and time format specifications can be found here:
 #. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 #. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
-#: ../src/Games/Logic/PuzzleTimeNow.cs:84
+#. 'tt' is the A.M./P.M. designator
+#: ../src/Games/Logic/PuzzleTimeNow.cs:86
 #, csharp-format
 msgid "{0:h tt}"
 msgstr "{0:h tt}"
 
-#. No hands
-#: ../src/Games/Logic/PuzzleTimeNow.cs:94
+#: ../src/Games/Logic/PuzzleTimeNow.cs:96
 msgid "Sample clock"
 msgstr "Példa óra"
 
@@ -4644,7 +5356,8 @@ msgstr[1] ""
 msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
-msgstr "A válasz kiszámítható, ha elosztod a távolságot a két sebesség összegével."
+msgstr ""
+"A válasz kiszámítható, ha elosztod a távolságot a két sebesség összegével."
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
@@ -4694,7 +5407,8 @@ msgstr "Melyik szám kerül a kérdőjel helyére?"
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:66
 msgid "All the triangles share a property and are independent of the rest."
-msgstr "Minden háromszögnek van közös tulajdonsága, de mégis különbözik a többitől."
+msgstr ""
+"Minden háromszögnek van közös tulajdonsága, de mégis különbözik a többitől."
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
 #, csharp-format
@@ -4707,8 +5421,10 @@ msgstr "Színes ábrák"
 
 #: ../src/Games/Memory/MemoryColouredFigures.cs:59
 #, csharp-format
-msgid "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr "Melyik ábra volt látható az előbb? Lehetőségek: {0}, {1}, {2} vagy {3}."
+msgid ""
+"Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Melyik ábra volt látható az előbb? Lehetőségek: {0}, {1}, {2} vagy {3}."
 
 #: ../src/Games/Memory/MemoryColouredText.cs:35
 msgid "Colored text"
@@ -4719,15 +5435,27 @@ msgstr "Színes szövegek"
 msgid "What was the color of the text that said '{0}'?"
 msgstr "Milyen színe volt a következő szövegnek: „{0}”?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:40
+#: ../src/Games/Memory/MemoryCountDots.cs:41
 msgid "Counting dots"
 msgstr "Pontok összeszámolása"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:51
+#: ../src/Games/Memory/MemoryCountDots.cs:52
 #, csharp-format
-msgid "How many dots of {0} color were in the previous image? Answer using numbers."
+msgid ""
+"How many dots of {0} color were in the previous image? Answer using numbers."
 msgstr "Hány {0} pont volt látható az előző képen? Számmal válaszolj."
+
+#: ../src/Games/Memory/MemoryFaces.cs:52
+msgid "Memorize faces"
+msgstr "Arcok megjegyzése"
+
+#: ../src/Games/Memory/MemoryFaces.cs:57
+msgid ""
+"In which cell is the other face like the one shown below? Answer the cell "
+"number."
+msgstr ""
+"Melyik cellában láttál a lenti archoz hasonlót? Válaszolj a cella számával."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -4761,7 +5489,8 @@ msgstr "Melyik évben állt le utoljára az autógyár a termeléssel?"
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #: ../src/Games/Memory/MemoryFacts.cs:119
 #, csharp-format
-msgid "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
+msgid ""
+"Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
 msgstr ""
 "Az autók eladása decemberben {0}%-kal csökkent, ez a legnagyobb visszaesés "
 "{1} óta."
@@ -4775,7 +5504,9 @@ msgstr "Hány százalékkal csökkent a cég eladása december óta?"
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
-msgstr "Az autók eladása decemberben {0}%-kal csökkent. Ez melyik év óta a legnagyobb visszaesés?"
+msgstr ""
+"Az autók eladása decemberben {0}%-kal csökkent. Ez melyik év óta a "
+"legnagyobb visszaesés?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
@@ -4783,7 +5514,8 @@ msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr "A világon előállított autók körülbelül {0}%-át Európában adják el."
 
 #: ../src/Games/Memory/MemoryFacts.cs:131
-msgid "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
+msgid ""
+"What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr "A világon előállított autók hány százalékát adják el Európában?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:137
@@ -4836,24 +5568,16 @@ msgstr ""
 msgid "List of images shown before"
 msgstr "Korábban látott képek listája"
 
-#: ../src/Games/Memory/MemoryFigures.cs:54
-msgid "Memorize figures"
-msgstr "Ábrák megjegyzése"
-
-#: ../src/Games/Memory/MemoryFigures.cs:59
-msgid ""
-"In which cell is the other figure like the one shown below? Answer the cell "
-"number."
-msgstr "Melyik cellában láttál a lenti elemhez hasonlót? Válaszolj a cella számával."
-
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
 msgstr "Ábrák és számok"
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:43
 #, csharp-format
-msgid "Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr "Melyik négyzet volt látható az előbb? Lehetőségek: {0}, {1}, {2}, vagy {3}."
+msgid ""
+"Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Melyik négyzet volt látható az előbb? Lehetőségek: {0}, {1}, {2}, vagy {3}."
 
 #: ../src/Games/Memory/MemoryIndications.cs:133
 #, csharp-format
@@ -5070,8 +5794,10 @@ msgid "wolf"
 msgstr "farkas"
 
 #: ../tools/GameXmlGetString.cs:29
-msgid "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
-msgid_plural "How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
+msgid ""
+"How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
+msgid_plural ""
+"How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
 msgstr[0] "Hány fokot fordul a percmutató 2 óra és [num] perc alatt?"
 msgstr[1] "Hány fokot fordul a percmutató 2 óra és [num] perc alatt?"
 
@@ -5249,245 +5975,17 @@ msgstr[1] ""
 "idő alatt. Hány óráig tartana kitakarítaniuk az áruházat, ha együtt "
 "dolgoznának? [option_answers]"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
-msgid "Custom Game"
-msgstr "Egyéni játék"
+#~ msgid "You can also play on-line at {0}"
+#~ msgstr "Online is játszhat itt: {0}"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
-msgid "Select All"
-msgstr "Összes kijelölése"
+#~ msgid "Next Game"
+#~ msgstr "Következő játék"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
-msgid "Unselect all"
-msgstr "Kijelölések törlése"
+#~ msgid "Answer"
+#~ msgstr "Válasz"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Kezdés"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-msgid "PDF export"
-msgstr "PDF exportálás"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid ""
-"This option allows to export a set of games in a PDF file. You can complete "
-"the puzzles without a computer."
-msgstr ""
-"Játékok csoportjának PDF fájlba exportálása. Így a játékokkal számítógép "
-"nélkül is játszhat."
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>Általános beállítások</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "Skip games that use colors"
-msgstr "Színeket használó játékok kihagyása"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Game Types</b>"
-msgstr "<b>Játéktípusok</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Nehézségi szint</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "Easy"
-msgstr "Könnyű"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Medium"
-msgstr "Közepes"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Master"
-msgstr "Mester"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "<b>Number of games</b>"
-msgstr "<b>Játékok száma</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Total number of games:"
-msgstr "Játékok teljes száma:"
-
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
-msgid "Pages per side:"
-msgstr "Oldalak laponként:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
-msgid "<b>Output File</b>"
-msgstr "<b>Kimeneti fájl</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "M_entés"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "Player's Game Session History"
-msgstr "Játékos játékelőzményei"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
-msgid "Show:"
-msgstr "Megjelenítés:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "Preferences"
-msgstr "Beállítások"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "Skip games that use colors (for colorblind users)"
-msgstr "Színeket használó játékok kihagyása (színtévesztőknek)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr "A gbrainy használata angolul (fordítások nélkül)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Search and load extensions when starting"
-msgstr "Kiterjesztések keresése és betöltése induláskor"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Theme:"
-msgstr "Téma:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
-msgid "<b>Memory Games</b>"
-msgstr "<b>Memóriajátékok</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-msgid "Time in seconds to memorize the challenge:"
-msgstr "A feladvány memorizálására adott idő (mp):"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Show a countdown message"
-msgstr "Visszaszámláló üzenet megjelenítése"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Játékos játékelőzményei</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
-msgid "Minimum number of played games to store the game session:"
-msgstr "A játékos megőrzött játékelőzményeinek minimális száma:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
-msgid "Maximum number of records in the player's game session history:"
-msgstr "A játékos megőrzött játékelőzményeinek maximális száma:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
-msgid "Delete Player's Game Session History"
-msgstr "Játékos játékelőzményeinek törlése"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "_Game"
-msgstr "_Játék"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "_New Game"
-msgstr "Ú_j játék"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
-msgstr "Minden kérdés (logikai, fejszámolás, memória és verbális analógiák)"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Logic Puzzles Only"
-msgstr "Csak logikai rejtvények"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Mental Calculation Only"
-msgstr "Csak fejszámolás"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "Memory Trainers Only"
-msgstr "Csak memóriafejlesztők"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
-msgid "Verbal Analogies Only"
-msgstr "Csak verbális analógiák"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Custom Game Selection..."
-msgstr "Egyéni kérdések…"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
-msgid "_Pause Game"
-msgstr "Játék _szüneteltetése"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "_End Game"
-msgstr "Játék be_fejezése"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:12
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Játékok PDF-be exportálása papíron való játékhoz…"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:13
-msgid "_View"
-msgstr "_Nézet"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Toolbar"
-msgstr "Eszköztár"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:15
-msgid "Show"
-msgstr "Megjelenítés"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Orientation"
-msgstr "Tájolás"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:17
-msgid "Vertical"
-msgstr "Függőleges"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "Horizontal"
-msgstr "Vízszintes"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Settings"
-msgstr "_Beállítások"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "Extensions"
-msgstr "Kiterjesztések"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Help"
-msgstr "_Súgó"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Contents"
-msgstr "_Tartalom"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
-msgid "How to Extend gbrainy's Functionality"
-msgstr "Hogyan bővíthető a gbrainy"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:26
-msgid "Answer:"
-msgstr "Válasz:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_Next"
-msgstr "_Következő"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "_Tip"
-msgstr "T_ipp"
+#~ msgid "Memorize figures"
+#~ msgstr "Ábrák megjegyzése"
 
 #~ msgid ""
 #~ "In what year was Shiny Cars sales total lower than that of last December?"
@@ -5497,4 +5995,3 @@ msgstr "T_ipp"
 
 #~ msgid "{0}) "
 #~ msgstr "{0}) "
-
