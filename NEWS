@@ -1,6 +1,11 @@
 gbrainy NEWS
 
-Version 2.2
+Version 2.2.1
+* Mono 3.0 compatibility
+* 2 bug fixes
+* Updated translations
+
+Version 2.2.0
 * New games: 3 new logic games, 2 calculation games and 17 new verbal analogies
 * Improved the graphics of 10 puzzles
 * More mouse support in some old puzzles
