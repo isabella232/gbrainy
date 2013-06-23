@@ -22,8 +22,8 @@ See tests/README
 
 * Tag the gbrainy git repository naming the tag label GBRAINY_X_Y_Z, where X and Y are the major versions and Z the revision number.
 
-  git tag -m "gbrainy X.Y.Z tag" -a GBRAINY_X.Y.Z
-  git push origin GBRAINY_X.Y.Z
+  git tag -m "gbrainy X_Y_Z tag" -a GBRAINY_X_Y_Z
+  git push origin GBRAINY_X_Y_Z
 
 * Upload the final tar.gz to a public location
 
