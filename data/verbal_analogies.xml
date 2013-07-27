@@ -776,7 +776,7 @@
 
 	<analogy>
 		<_question type = "PairOfWordsCompare">pediatrics / children | numismatics</_question>
-		<_answer correct ="yes">coins</_answer>
+		<_answer correct ="yes">coins | currency | money</_answer>
 	</analogy>
 
 	<analogy>
