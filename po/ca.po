@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-21 20:38+0100\n"
-"PO-Revision-Date: 2013-01-04 13:45+0200\n"
+"POT-Creation-Date: 2013-07-27 13:36+0200\n"
+"PO-Revision-Date: 2013-07-27 13:45+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
 "Language: ca\n"
@@ -496,8 +496,8 @@ msgid ""
 "produces an odd number."
 msgstr ""
 "La multiplicació de dos nombres parells és sempre un nombre parell, així que "
-"«x» multiplicat per 2 és parell. Sumar un nombre senar («y») a un nombre parell "
-"sempre produeix un nombre senar."
+"«x» multiplicat per 2 és parell. Sumar un nombre senar («y») a un nombre "
+"parell sempre produeix un nombre senar."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -2258,8 +2258,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatria / infants | numismàtica"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "monedes"
+msgid "coins | currency | money"
+msgstr "monedes | moneda | diner"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -3349,7 +3349,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Memoritzeu els objectes de sota en el temps donat"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Temps restant"
 
@@ -3625,8 +3625,8 @@ msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
 msgstr ""
-"A la llista de nombres d'un sol digit de sota, hi ha 5 nombres "
-"consecutius que sumen {0}. Quins són aquests nombres?"
+"A la llista de nombres d'un sol digit de sota, hi ha 5 nombres consecutius "
+"que sumen {0}. Quins són aquests nombres?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3774,8 +3774,8 @@ msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de números de sota, quina és la suma dels nombres amb un valor més gran que "
-"{0}? Responeu {1}, {2}, {3} o {4}."
+"A la llista de números de sota, quina és la suma dels nombres amb un valor "
+"més gran que {0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
@@ -3783,8 +3783,8 @@ msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"A la llista de números de sota, quin és el producte dels nombres amb un valor més gran "
-"que {0}? Responeu {1}, {2}, {3} o {4}."
+"A la llista de números de sota, quin és el producte dels nombres amb un "
+"valor més gran que {0}? Responeu {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -4190,7 +4190,7 @@ msgstr ""
 "A l'última figura, en quantes regions es divideix el cercle quan tots els "
 "punts estan connectats?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -4608,8 +4608,7 @@ msgid ""
 "lines."
 msgstr ""
 "A cada fila el tercer quadrat es construeix donant la volta al primer "
-"quadrat i superposant-lo al segon, llavors eliminant les línies "
-"coincidents."
+"quadrat i superposant-lo al segon, llavors eliminant les línies coincidents."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:62
 msgid "Missing slice"
@@ -4795,8 +4794,8 @@ msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
 msgstr ""
-"Quin és l'element que no pertany al grup? No està relacionat amb l'aritmètica "
-"dels nombres. Responeu {0}, {1}, {2}, {3} o {4}."
+"Quin és l'element que no pertany al grup? No està relacionat amb "
+"l'aritmètica dels nombres. Responeu {0}, {1}, {2}, {3} o {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
@@ -6078,8 +6077,3 @@ msgstr[1] ""
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
 
-#~ msgid "Next Game"
-#~ msgstr "Joc següent"
-
-#~ msgid "Answer"
-#~ msgstr "Respondre"
