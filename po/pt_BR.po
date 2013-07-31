@@ -13,16 +13,16 @@ msgstr ""
 "Project-Id-Version: grainy 1.50\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-01 15:37+0000\n"
-"PO-Revision-Date: 2013-06-09 01:49-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2013-07-28 10:28+0000\n"
+"PO-Revision-Date: 2013-07-29 11:24-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -2266,8 +2266,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatra / criança | numismática"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "moedas"
+msgid "coins | currency | money"
+msgstr "moedas | unidade monetária | dinheiro"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -6077,6 +6077,9 @@ msgstr[1] ""
 "John precisa de [john_time] horas para limpar um armazém e seu amigo precisa "
 "de duas vezes o tempo de John. Quantas horas eles levariam para limpar o "
 "armazém se trabalhassem juntos? [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "moedas"
 
 #~ msgid "Next Game"
 #~ msgstr "Próximo jogo"
