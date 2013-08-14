@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-21 19:21+0000\n"
-"PO-Revision-Date: 2013-01-28 11:14+0100\n"
+"POT-Creation-Date: 2013-07-27 11:28+0000\n"
+"PO-Revision-Date: 2013-08-14 13:33+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -2272,8 +2272,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatra / niños | numismática"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "monedas"
+msgid "coins | currency | money"
+msgstr "monedas | moneda | dinero"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -3362,9 +3362,6 @@ msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "Al responder analogías verbales pon atención al tiempo del verbo."
 
 #: ../src/Core/Main/GameTips.cs:89
-#| msgid ""
-#| "When you go to stores, try to perform calculations without the use of "
-#| "calculator."
 msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
@@ -3375,7 +3372,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Memoriza los siguientes objetos en el tiempo dado"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Tiempo restante"
 
@@ -3647,9 +3644,6 @@ msgstr "Suma consecutiva"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
-#| msgid ""
-#| "In the list of single digit numbers below, there are 5 consecutive "
-#| "numbers that sum {0}. What are these numbers?"
 msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
@@ -3799,9 +3793,6 @@ msgstr "Números seleccionados"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
-#| msgid ""
-#| "In the list of numbers below, what is the sum of the numbers greater than "
-#| "{0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -3811,9 +3802,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
-#| msgid ""
-#| "In the list of numbers below, what is the product of the numbers greater "
-#| "than {0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -4217,7 +4205,7 @@ msgstr ""
 "En la última figura, ¿en cuántas regiones está dividido el círculo cuando "
 "todos los puntos están conectados?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -4871,9 +4859,6 @@ msgstr "Personas en una mesa"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
-#| msgid ""
-#| "A group of people are sitting at a round table spaced out evenly. How "
-#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
@@ -4916,7 +4901,6 @@ msgid "22nd"
 msgstr "22º"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Dos personas en la mesa sentadas a cada lado"
 
@@ -6104,6 +6088,9 @@ msgstr[1] ""
 "Juan necesita [john_time] horas para limpiar un almacén y su amigo tarda el "
 "doble de tiempo. ¿Cuántas horas tardarán en limpiar el almacén si trabajan "
 "juntos? [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "monedas"
 
 #~ msgid "Next Game"
 #~ msgstr "Siguiente partida"
