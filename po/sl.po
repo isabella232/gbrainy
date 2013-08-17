@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-28 10:45+0000\n"
-"PO-Revision-Date: 2013-01-28 13:29+0100\n"
+"POT-Creation-Date: 2013-08-14 12:09+0000\n"
+"PO-Revision-Date: 2013-08-17 15:31+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -2259,8 +2259,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatrija / otroci | numizmatika"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "kovanci"
+msgid "coins | currency | money"
+msgstr "kovanci | denarna enota | denar"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -3339,7 +3339,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Zapomnite si spodnje predmete v danemu času"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Preostali čas"
 
@@ -4185,7 +4185,7 @@ msgid ""
 msgstr ""
 "Na koliko delov je razdeljen krog na zadnji sliki, ko so vse pike povezane?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -6162,6 +6162,9 @@ msgstr[3] ""
 "Janez za čiščenje skladišča potrebuje [john_time] ure, njegov prijatelj pa "
 "porabi dvakrat več časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
 "delala skupaj? [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "kovanci"
 
 #~ msgid "Next Game"
 #~ msgstr "Nova igra"
