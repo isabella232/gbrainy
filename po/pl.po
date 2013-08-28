@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-11 22:41+0200\n"
-"PO-Revision-Date: 2013-06-11 22:34+0100\n"
+"POT-Creation-Date: 2013-08-29 01:13+0200\n"
+"PO-Revision-Date: 2013-08-28 23:26+0100\n"
 "Last-Translator: Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -23,6 +23,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: Poland\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -2286,8 +2288,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatra / dzieci | numizmatyk"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "monety"
+msgid "coins | currency | money"
+msgstr "monety | waluta | pieniądze"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
