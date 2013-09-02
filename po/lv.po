@@ -6,25 +6,24 @@
 # Viesturs Ružāns <viesty@exs.lv>, 2012.
 # Anita Reitere <nitalynx@gmail.com>, 2012.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-21 19:21+0000\n"
-"PO-Revision-Date: 2013-04-22 00:39+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-02 22:59+0300\n"
+"PO-Revision-Date: 2013-09-02 23:01+0300\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../data/games.xml.h:1
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
 msgstr "Pulksteņa rotācija"
 
@@ -1449,7 +1448,6 @@ msgid "Crossbow"
 msgstr "Arbalets"
 
 #: ../data/verbal_analogies.xml.h:214
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used for protection."
 msgstr "Tas ir vienīgais, kas netiek izmantots aizsardzībai."
 
@@ -1471,7 +1469,6 @@ msgid "Tree"
 msgstr "Koks"
 
 #: ../data/verbal_analogies.xml.h:220
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to rocks."
 msgstr "Tas ir vienīgais, kas nav saistīts ar iežiem."
 
@@ -1485,7 +1482,6 @@ msgid "Beet"
 msgstr "Biete"
 
 #: ../data/verbal_analogies.xml.h:224
-#| msgid "Radius"
 msgid "Radish"
 msgstr "Redīss"
 
@@ -1494,7 +1490,6 @@ msgid "Tomato"
 msgstr "Tomāts"
 
 #: ../data/verbal_analogies.xml.h:226
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not have roots."
 msgstr "Tas ir vienīgais, kam nav sakņu."
 
@@ -1513,7 +1508,6 @@ msgstr "Akordeons"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
-#| msgid "It is the only one that is not a metal."
 msgid "It is the only instrument that does not have keys."
 msgstr "Tas ir vienīgais instruments, kam nav taustiņu."
 
@@ -1963,39 +1957,32 @@ msgid "Daring"
 msgstr "Drosmīgs"
 
 #: ../data/verbal_analogies.xml.h:350
-#| msgid "pessimist / optimist | poor"
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pesimistisks / optimistisks | šaubīgs"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:352
-#| msgid "Interesting"
 msgid "Trusting"
 msgstr "Paļāvīgs"
 
 #: ../data/verbal_analogies.xml.h:353
-#| msgid "Obvious"
 msgid "Dubious"
 msgstr "Šaubīgs"
 
 #. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
-#| msgid "thermometer / temperature | clock"
 msgid "thermometer / temperature | compass"
 msgstr "termometrs / temperatūra | kompass"
 
 #: ../data/verbal_analogies.xml.h:356
-#| msgid "Fractions"
 msgid "Direction"
 msgstr "Virziens"
 
 #: ../data/verbal_analogies.xml.h:357
-#| msgid "Equation"
 msgid "Elevation"
 msgstr "Augstums"
 
 #: ../data/verbal_analogies.xml.h:358
-#| msgid "Positivism"
 msgid "Position"
 msgstr "Novietojums"
 
@@ -2265,8 +2252,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "pediatrija / bērni | numismātika"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "monētas"
+msgid "coins | currency | money"
+msgstr "monētas | valūta | nauda"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -2643,7 +2630,6 @@ msgid "Search and load extensions when starting"
 msgstr "Meklēt un ielādēt paplašinājumus, sākot darbu"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-#| msgid "Enable"
 msgid "Enable sounds"
 msgstr "Aktivēt skaņu"
 
@@ -3345,7 +3331,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Iegaumē zemāk esošos objektus dotajā laikā"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Atlikušais laiks"
 
@@ -3608,15 +3594,11 @@ msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "Darbības {0} / {1} rezultāts ir “{2}”."
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
-#| msgid "Consecutive Sum"
 msgid "Consecutive sum"
 msgstr "Secīgo summa"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
-#| msgid ""
-#| "In the list of single digit numbers below, there are 5 consecutive "
-#| "numbers that sum {0}. What are these numbers?"
 msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
@@ -3633,8 +3615,8 @@ msgid ""
 "What is the result of the given operation? Answer using either a fraction or "
 "a number."
 msgstr ""
-"Kāds ir dotās darbības rezultāts? Atbildi, izmantojot daļskaitli vai "
-"veselu skaitli."
+"Kāds ir dotās darbības rezultāts? Atbildi, izmantojot daļskaitli vai veselu "
+"skaitli."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
 msgid "Greatest divisor"
@@ -3759,35 +3741,26 @@ msgid "have a ratio of {0}:{1}"
 msgstr "attiecība ir {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-#| msgid "Selected Numbers"
 msgid "Selected numbers"
 msgstr "Izvēlētie skaitļi"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
-#| msgid ""
-#| "In the list of numbers below, what is the sum all the numbers greater "
-#| "than {0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Skaitļu sarakstā zemāk, kāda ir visu to skaitļu summa, kuru vērtība ir "
-"lielāki kā "
-"{0}? Atbildi {1}, {2}, {3} vai {4}."
+"lielāki kā {0}? Atbildi {1}, {2}, {3} vai {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
-#| msgid ""
-#| "In the list of numbers below, what is the product all the numbers greater "
-#| "than {0}? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Skaitļu sarakstā zemāk, kāds ir visu to skaitļu reizinājums, kuru vērtība ir "
-"lielāki kā "
-"{0}? Atbildi {1}, {2}, {3} vai {4}."
+"lielāki kā {0}? Atbildi {1}, {2}, {3} vai {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -3830,8 +3803,8 @@ msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
 msgstr ""
-"Cik mazo kubu vajadzīgs, lai saliktu lielo kubu, kas redzams attēlā? "
-"Atbildi ar skaitli."
+"Cik mazo kubu vajadzīgs, lai saliktu lielo kubu, kas redzams attēlā? Atbildi "
+"ar skaitli."
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
@@ -4201,7 +4174,7 @@ msgstr ""
 "Pēdējā attēlā, cik apgabalos riņķis tiktu sadalīts, ja visus punktus "
 "savienotu?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -4319,7 +4292,6 @@ msgstr ""
 "neatkārtojot."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
-#| msgid "Figures with numbers"
 msgid "Find the number"
 msgstr "Atrodi skaitli"
 
@@ -4350,9 +4322,6 @@ msgstr "Skaitlis atrodas rindā {0} un kolonnā {1}."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
-#| msgid ""
-#| "The fourth row is calculated by multiplying the first two rows and adding "
-#| "the third."
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
 msgstr[0] "Skaitlis atrodas pirmajā {0} režģa rindā."
@@ -4533,15 +4502,11 @@ msgstr ""
 "Atbildi {0}, {1}, {2} vai {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#| msgid "Larger shape"
 msgid "Largest area"
 msgstr "Lielākais laukums"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
@@ -4567,7 +4532,6 @@ msgstr "Jo mazāk ir izliekts loks, jo lielās ir aplis."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
-#| msgid "Answer {0}."
 msgid "Arc {0}"
 msgstr "Loks {0}"
 
@@ -4850,16 +4814,12 @@ msgstr "Cilvēki pie galda"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
-#| msgid ""
-#| "A group of people are sitting at a round table spaced out evenly. How "
-#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Cilvēku grupa sēž pie apaļa galda, vienādā attāluma viens no otra. Cik "
-"cilvēku ir pie "
-"galda, ja {0} persona sēž tieši pretī {1}?"
+"cilvēku ir pie galda, ja {0} persona sēž tieši pretī {1}?"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
@@ -4895,7 +4855,6 @@ msgid "22nd"
 msgstr "22."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Divi cilvēki pie galda sēž tieši pretī viens otram"
 
@@ -5153,8 +5112,8 @@ msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Ja esi izgājis pastaigā un tagad jūtaties labāk, kurš no šiem "
-"slēdzieniem ir pareizs? Atbildi {0}, {1}, {2} vai {3}."
+"Ja esi izgājis pastaigā un tagad jūtaties labāk, kurš no šiem slēdzieniem ir "
+"pareizs? Atbildi {0}, {1}, {2} vai {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "To feel better, you must go out for a walk"
@@ -5173,7 +5132,6 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Neviens, kurš nav izgājis pastaigā, nejūtas labāk"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-#| msgid "Predicate Logic"
 msgid "Predicate logic"
 msgstr "Predikātu loģika"
 
@@ -5187,8 +5145,8 @@ msgid ""
 "Which of the following figures does not belong to the group? Answer {0}, "
 "{1}, {2}, {3}, {4} or {5}."
 msgstr ""
-"Kura no šīm figūrām nepieder dotajai grupai? Atbildi {0}, {1}, {2}, {3}, "
-"{4} vai {5}."
+"Kura no šīm figūrām nepieder dotajai grupai? Atbildi {0}, {1}, {2}, {3}, {4} "
+"vai {5}."
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
 msgid "It is the only figure with all lines of equal length."
@@ -5341,16 +5299,13 @@ msgid_plural ""
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
 "{0} stundu atpakaļ bija tikpat ilgi pēc {1:%H tt} kā pirms {2:%H tt} tajā "
-"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, "
-"{3:%H tt})"
+"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, {3:%H tt})"
 msgstr[1] ""
 "{0} stundas atpakaļ bija tikpat ilgi pēc {1:%H tt} kā pirms {2:%H tt} tajā "
-"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, "
-"{3:%H tt})"
+"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, {3:%H tt})"
 msgstr[2] ""
 "{0} stundu atpakaļ bija tikpat ilgi pēc {1:%H tt} kā pirms {2:%H tt} tajā "
-"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, "
-"{3:%H tt})"
+"pašā dienā. Cik ir pulkstenis tagad? Atbildi ar stundu (piemēram, {3:%H tt})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
@@ -5555,14 +5510,10 @@ msgid ""
 msgstr "Cik punktu {0} krāsā bija iepriekšējā attēlā? Atbildi ar skaitli."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
-#| msgid "Memorize facts"
 msgid "Memorize faces"
 msgstr "Seju iegaumēšana"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-#| msgid ""
-#| "In which cell is the other figure like the one shown below? Answer the "
-#| "cell number."
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
@@ -5734,8 +5685,8 @@ msgid ""
 "Which of the following graphics represents the indications previously given? "
 "Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Kurš no šiem grafikiem attēlo iepriekš dotās norādes? Atbildi {0}, {1}, "
-"{2} vai {3}."
+"Kurš no šiem grafikiem attēlo iepriekš dotās norādes? Atbildi {0}, {1}, {2} "
+"vai {3}."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:65
 msgid "How many odd numbers were in the previous image? Answer using numbers."
@@ -6143,6 +6094,9 @@ msgstr[2] ""
 "Jānim ir nepieciešams [john_time] stundu, lai satīrītu noliktavu, bet viņa "
 "draugam ir nepieciešams divreiz vairāk laika. Cik ilgu laiku aizņemtu "
 "noliktavas tīrīšana, ja viņi to darītu kopā? [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "monētas"
 
 #~ msgid "Next Game"
 #~ msgstr "Nākamā spēle"
