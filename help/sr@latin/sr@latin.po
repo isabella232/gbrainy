@@ -734,7 +734,7 @@ msgid ""
 "the bottom of the window (next to the <gui style=\"input\">Answer</gui> text "
 "entry)."
 msgstr ""
-"Kada igrate igru, kliknite na dugme „<gui „style=\"button\">Savet</gui>“ u "
+"Kada igrate igru, kliknite na dugme „<gui style=\"button\">Savet</gui>“ u "
 "levom uglu na dnu prozora (između dugmadi <gui style=\"button\">U redu</gui> "
 "i <gui style=\"button\">Dalje</gui>)."
 
