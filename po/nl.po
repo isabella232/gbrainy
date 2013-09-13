@@ -2,32 +2,308 @@
 #
 # This file is distributed under the same license as the gbrainy package.
 #
-# Reinout van Schouwen <reinouts@gnome.org>, 2007-2009.
-# Benno Schulenberg <benno@vertaalt.nl>, 2008.
-# Erwin Poeze <erwin.poeze@gmail.com>, 2009.
-# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010, 2011.
-# Redmar <redmar@ubuntu-nl.org>, 2010, 2011.
 #
 # ##WOORDENLIJST###
 # unit  	  eenheid, bijv monetaire eenheid niet als 'euro' vertalen
 # artist		kunstenaar
+# Reinout van Schouwen <reinouts@gnome.org>, 2007-2009.
+# Benno Schulenberg <benno@vertaalt.nl>, 2008.
+# Erwin Poeze <erwin.poeze@gmail.com>, 2009.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010, 2011, 2013.
+# Redmar <redmar@ubuntu-nl.org>, 2010, 2011, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-04 14:30+0100\n"
-"PO-Revision-Date: 2011-09-22 10:27+0000\n"
-"Last-Translator: Redmar <redmar@ubuntu-nl.org>\n"
-"Language-Team: Dutch <ubuntu-l10n-nl@lists.ubuntu.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gbrainy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-08-28 22:37+0000\n"
+"PO-Revision-Date: 2013-09-13 10:47+0200\n"
+"Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2011-09-24 06:44+0000\n"
-"X-Generator: Launchpad (build 14012)\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: ../data/games.xml.h:1
+#| msgid "Clock Rotation"
+msgid "Clock rotation"
+msgstr "Klokrotatie"
+
+#: ../data/games.xml.h:2
+msgid "Every hour rotates 360 degrees."
+msgstr "Elk uur draait de wijzer 360 graden."
+
+#: ../data/games.xml.h:3
+msgid "Brothers and sisters"
+msgstr "Broers en zussen"
+
+#: ../data/games.xml.h:4
+msgid ""
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
+"[both] have both. How many people have neither brothers nor sisters?"
+msgstr ""
+"Van de [people] mensen hebben [brothers] broers, [sisters] zussen en [both] "
+"hebben beide. Hoeveel mensen hebben broers noch zussen?"
+
+#: ../data/games.xml.h:5
+msgid ""
+"It is calculated by taking the total number of people minus [brothers_only] "
+"people that have brothers only, minus [sisters_only] that have sisters only "
+"and minus [both] that have sisters and brothers."
+msgstr ""
+"Dit kunt u berekenen door het totale aantal mensen te nemen en daar van af "
+"te trekken: de mensen die alleen broers hebben ([brothers_only]), de mensen "
+"die alleen zussen hebben ([sisters_only]) en de mensen die zowel broers als "
+"zussen hebben ([both])."
+
+#: ../data/games.xml.h:6
+msgid "Age"
+msgstr "Leeftijd"
+
+#: ../data/games.xml.h:7
+msgid ""
+"John's son age is nowadays half of John's age minus [difference], that is, "
+"([father] / 2) - [difference]."
+msgstr ""
+"De leeftijd van Johns zoon is de helft van die van John, min [difference], "
+"dus ([father] / 2) - [difference]."
+
+#: ../data/games.xml.h:8
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../data/games.xml.h:9
+msgid ""
+"Every digit has 10 possibilities. The total number of possibilities is 10 at "
+"the power of [digits]."
+msgstr ""
+"Elke positie heeft 10 mogelijkheden. Het totale aantal mogelijkheden is 10 "
+"tot de [digits]e macht."
+
+#: ../data/games.xml.h:10
+msgid ""
+"Every digit has 8 possibilities. The total number of possibilities is 8 at "
+"the power of [digits]."
+msgstr ""
+"Elke positie heeft 8 mogelijkheden. Het totale aantal mogelijkheden is 8 tot "
+"de [digits]e macht."
+
+#: ../data/games.xml.h:11
+msgid "Tennis game"
+msgstr "Tennis"
+
+#: ../data/games.xml.h:12
+msgid ""
+"Every game is an independent event with 2 possible results. The total number "
+"of possibilities is 2 at the power of [games]."
+msgstr ""
+"Elk spel is een onafhankelijke gebeurtenis met 2 mogelijke uitkomsten. Het "
+"totale aantal uitkomsten is 2 tot de [games]e macht."
+
+#: ../data/games.xml.h:13
+#| msgid ""
+#| "In every match you eliminate one player, you need the total number of "
+#| "games minus 1 to find out the winner."
+msgid ""
+"In every match you eliminate one player. Therefore, the result is the total "
+"number of player minus one."
+msgstr ""
+"In elk potje wordt één speler geëlimineerd, dus er zijn het totale aantal "
+"spellen min 1 nodig om de winnaar te vinden."
+
+#: ../data/games.xml.h:14
+msgid "Bank interest"
+msgstr "Rente"
+
+#: ../data/games.xml.h:15
+msgid ""
+"Compound interest is paid on the principal plus any past interest "
+"accumulated."
+msgstr ""
+"Rente wordt uitbetaald over het oorspronkelijke bedrag en de in het verleden "
+"opgebouwde rente."
+
+#: ../data/games.xml.h:16
+msgid "Simple equations"
+msgstr "Eenvoudige vergelijkingen"
+
+#: ../data/games.xml.h:17
+msgid "What number plus [num_a] equals [num_b]?"
+msgstr "Welk getal plus [num_a] geeft [num_b]?"
+
+#: ../data/games.xml.h:18
+msgid "x + [num_a] = [num_b]"
+msgstr "x + [num_a] = [num_b]"
+
+#: ../data/games.xml.h:19
+msgid "It is the result of the operation [num_b] - [num_a]."
+msgstr "Is het resultaat van de berekening [num_b] - [num_a]."
+
+#: ../data/games.xml.h:20
+msgid "What number minus [num_a] equals [num_b]?"
+msgstr "Welk getal min [num_a] geeft [num_b]?"
+
+#: ../data/games.xml.h:21
+msgid "x - [num_a] = [num_b]"
+msgstr "x - [num_a] = [num_b]"
+
+#: ../data/games.xml.h:22
+msgid "It is the result of the operation [num_a] + [num_b]."
+msgstr "Is het resultaat van de berekening [num_a] + [num_b]."
+
+#: ../data/games.xml.h:23
+msgid "What number multiplied by [num_a] equals [num_b]?"
+msgstr "Welk getal vermenigvuldigd met [num_a] geeft [num_b]?"
+
+#: ../data/games.xml.h:24
+msgid "x * [num_a] = [num_b]"
+msgstr "x * [num_a] = [num_b]"
+
+#: ../data/games.xml.h:25
+msgid "It is the result of the operation [num_b] / [num_a]."
+msgstr "Het is het resultaat van [num_a] / [num_b]."
+
+#: ../data/games.xml.h:26
+msgid "What number divided by [num_a] equals [num_b]?"
+msgstr "Welk getal gedeeld door [num_a] geeft [num_b]?"
+
+#: ../data/games.xml.h:27
+msgid "x / [num_a] = [num_b]"
+msgstr "x / [num_a] = [num_b]"
+
+#: ../data/games.xml.h:28
+msgid "It is the result of the operation [num_a] * [num_b]."
+msgstr "Is het resultaat van de berekening [num_a] * [num_b]."
+
+#: ../data/games.xml.h:29
+msgid "Boxes"
+msgstr "Dozen"
+
+#: ../data/games.xml.h:30
+msgid "Container"
+msgstr "Container"
+
+#: ../data/games.xml.h:31
+msgid "Box"
+msgstr "Doos"
+
+#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
+#: ../data/games.xml.h:33
+msgid ""
+"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
+"x 5 x [z]?"
+msgstr "Hoeveel dozen van 1 x 1 x 0,5 passen in een container van 6 x 5 x [z]?"
+
+#: ../data/games.xml.h:34
+msgid "You can fit 6 * 5 * [z] * 2 boxes."
+msgstr "Er passen 6 * 5 * [z] * 2 dozen in."
+
+#: ../data/games.xml.h:35
+msgid "Palindromic years"
+msgstr "Palindroomjaren"
+
+#: ../data/games.xml.h:36
+msgid ""
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
+"are the next two consecutive palindromic years after [year_end] with the "
+"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+msgstr ""
+"[year_start] is een palindroomjaar, net als [year_end], met een verschil van "
+"11 jaar. Wat zijn de volgende twee opeenvolgende palindroomjaren na "
+"[year_end], met hetzelfde verschil er tussen? Antwoord met twee getallen "
+"(bijv.:[year_start] en [year_end])."
+
+#: ../data/games.xml.h:37
+msgid ""
+"A palindromic number remains the same when its digits are reversed (e.g.: "
+"2112)."
+msgstr ""
+"Een palindroomgetal is een getal dat gelijk blijft wanneer de cijfers "
+"omgedraaid worden (bijv: 2112)."
+
+#: ../data/games.xml.h:38
+msgid "[rslt_a] and [rslt_b]"
+msgstr "[rslt_a] en [rslt_b]"
+
+#: ../data/games.xml.h:39
+msgid ""
+"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
+"except for the end of each millennium that occur at a 11 years interval."
+msgstr ""
+"Van het jaar 1000 tot het jaar 10000 komen palindroomjaren om de 110 jaar "
+"voor, behalve aan het eind van elk millennium dat in een 11-jarig interval "
+"valt."
+
+#: ../data/games.xml.h:40
+msgid "Dartboard"
+msgstr "Dartbord"
+
+#: ../data/games.xml.h:41
+msgid ""
+"On the dartboard below, where would you need to throw the darts to add 120 "
+"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+msgstr ""
+"Waar moet u op onderstaand dartbord de pijltjes gooien om in 5 beurten aan "
+"120 punten te komen? Geef het antwoord door de getallen op te sommen (bijv. "
+"4, 5, 6, 3, 2)"
+
+#: ../data/games.xml.h:42
+msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
+msgstr ""
+"Slechts 3 van de 4 nummers op het dartbord worden gebruikt om tot 120 punten "
+"te komen."
+
+#: ../data/games.xml.h:43
+msgid "Horse race"
+msgstr "Paardenrace"
+
+#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
+msgid ""
+"In a horse race there are people and horses. You count [eyes] eye and [legs] "
+"leg. How many horses are present?"
+msgid_plural ""
+"In a horse race there are people and horses. You count [eyes] eyes and "
+"[legs] legs. How many horses are present?"
+msgstr[0] ""
+"Bij een paardenrace zijn er mensen en paarden. U telt [eyes] oog en [legs] "
+"been. Hoeveel paarden zijn er?"
+msgstr[1] ""
+"Bij een paardenrace zijn er mensen en paarden. U telt [eyes] ogen en [legs] "
+"benen. Hoeveel paarden zijn er?"
+
+#: ../data/games.xml.h:45
+msgid ""
+"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
+"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
+msgstr ""
+"Elk persoon heeft twee benen, en elk paard vier (2 * [men] + [horses] * 4). "
+"Elk persoon en elk paard heeft twee ogen (2 * [men] + 2 * [horses])."
+
+#: ../data/games.xml.h:46
+msgid "Lever"
+msgstr "Hefboom"
+
+#: ../data/games.xml.h:47
+msgid ""
+"How much weight is needed at the point indicated by the question mark to "
+"balance the lever?"
+msgstr ""
+"Welk gewicht is er nodig op de plaats van het vraagteken om de hefboom in "
+"evenwicht te brengen?"
+
+#: ../data/games.xml.h:48
+msgid ""
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
+"and a place to stand and I can move the Earth'."
+msgstr ""
+"Denk aan de uitspraak die toegeschreven wordt aan Archimedes: ‘Geef mij een "
+"plaats om te staan, en ik verplaats de aarde met een hefboom’."
+
+#: ../data/games.xml.h:49
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
@@ -35,7 +311,19 @@ msgstr ""
 "Een hefboom is in evenwicht wanneer de afstand tussen de gewichten in "
 "verhouding is met het verschil in de gewichten."
 
-#: ../data/games.xml.h:2
+#: ../data/games.xml.h:50
+msgid "Multiple number"
+msgstr "Veelvoud"
+
+#: ../data/games.xml.h:51
+msgid ""
+"Which two numbers of the list below are both multiple of [num_x] and "
+"[num_y]? [option_answers]"
+msgstr ""
+"Welke twee getallen in de lijst hieronder zijn een veelvoud van zowel "
+"[num_x] als [num_y]? [option_answers]"
+
+#: ../data/games.xml.h:52
 msgid ""
 "A multiple is a number that may be divided by another number with no "
 "remainder. For example, 10, 15 and 25 are multiples of 5."
@@ -44,46 +332,15 @@ msgstr ""
 "zonder dat er een restant overblijft. De getallen 10, 15 en 25 zijn "
 "bijvoorbeeld veelvouden van 5."
 
-#: ../data/games.xml.h:3
-msgid ""
-"A palindromic number remains the same when its digits are reversed (e.g.: "
-"2112)."
-msgstr ""
-"Een palindroomgetal is een getal dat gelijk blijft wanneer de cijfers "
-"omgedraaid worden (bijv: 2112)."
-
-#: ../data/games.xml.h:4
-msgid "Age"
-msgstr "Leeftijd"
-
-#: ../data/games.xml.h:5
-msgid "Bank interest"
-msgstr "Rente"
-
-#: ../data/games.xml.h:6
-msgid "Box"
-msgstr "Doos"
-
-#: ../data/games.xml.h:7
-msgid "Boxes"
-msgstr "Dozen"
-
-#: ../data/games.xml.h:8
-msgid "Brothers and sisters"
-msgstr "Broers en zussen"
-
-#: ../data/games.xml.h:9
-msgid "Cars in town"
-msgstr "Auto's in de stad"
-
-#: ../data/games.xml.h:10
+#: ../data/games.xml.h:53
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
 #: ../src/Games/Calculation/CalculationAverage.cs:185
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
 #: ../src/Games/Calculation/CalculationPrimes.cs:151
 #: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:191
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
 #: ../src/Games/Logic/PuzzleFigures.cs:192
 #: ../src/Games/Logic/PuzzleGridDots.cs:340
 #: ../src/Games/Logic/PuzzleLargerShape.cs:303
@@ -98,162 +355,37 @@ msgstr "Auto's in de stad"
 msgid "Choose one of the following:"
 msgstr "Kies een van de volgende:"
 
-#: ../data/games.xml.h:11
-msgid "Clock Rotation"
-msgstr "Klokrotatie"
+#: ../data/games.xml.h:54
+msgid "[option_prefix] [option_a] and [option_c]"
+msgstr "[option_prefix] [option_a] en [option_c]"
 
-#: ../data/games.xml.h:12
-msgid "Compare variables"
-msgstr "Variabelen vergelijken"
+#: ../data/games.xml.h:55
+msgid "[option_prefix] [option_a] and [option_b]"
+msgstr "[option_prefix] [option_a] en [option_b]"
 
-#: ../data/games.xml.h:13
-msgid ""
-"Compound interest is paid on the principal plus any past interest "
-"accumulated."
+#: ../data/games.xml.h:56
+msgid "[option_prefix] [option_b] and [option_c]"
+msgstr "[option_prefix] [option_b] en [option_c]"
+
+#: ../data/games.xml.h:57
+msgid "[option_prefix] [option_c] and [option_d]"
+msgstr "[option_prefix] [option_c] en [option_d]"
+
+#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
+#: ../data/games.xml.h:59
+msgid "[option_a] and [option_b]"
+msgstr "[option_a] en [option_b]"
+
+#: ../data/games.xml.h:60
+msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
 msgstr ""
-"Rente wordt uitbetaald over het oorspronkelijke bedrag en de in het verleden "
-"opgebouwde rente."
+"[option_a] en [option_b] zijn beide een veelvoud van [num_x] en [num_y]."
 
-#: ../data/games.xml.h:14
-msgid ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
-"and a place to stand and I can move the Earth'."
-msgstr ""
-"Denk aan de uitspraak die toegeschreven wordt aan Archimedes: ‘Geef mij een "
-"plaats om te staan, en ik verplaats de aarde met een hefboom’."
+#: ../data/games.xml.h:61
+msgid "Cars in town"
+msgstr "Auto's in de stad"
 
-#: ../data/games.xml.h:15
-msgid "Container"
-msgstr "Container"
-
-#: ../data/games.xml.h:16
-msgid "Dartboard"
-msgstr "Dartbord"
-
-#: ../data/games.xml.h:17
-msgid ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at "
-"the power of [digits]."
-msgstr ""
-"Elke positie heeft 10 mogelijkheden. Het totale aantal mogelijkheden is 10 "
-"tot de [digits]e macht."
-
-#: ../data/games.xml.h:18
-msgid ""
-"Every digit has 8 possibilities. The total number of possibilities is 8 at "
-"the power of [digits]."
-msgstr ""
-"Elke positie heeft 8 mogelijkheden. Het totale aantal mogelijkheden is 8 tot "
-"de [digits]e macht."
-
-#: ../data/games.xml.h:19
-msgid ""
-"Every game is an independent event with 2 possible results. The total number "
-"of possibilities is 2 at the power of [games]."
-msgstr ""
-"Elk spel is een onafhankelijke gebeurtenis met 2 mogelijke uitkomsten. Het "
-"totale aantal uitkomsten is 2 tot de [games]e macht."
-
-#: ../data/games.xml.h:20
-msgid "Every hour rotates 360 degrees."
-msgstr "Elk uur draait de wijzer 360 graden."
-
-#: ../data/games.xml.h:21
-msgid ""
-"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
-"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr ""
-"Elk persoon heeft twee benen, en elk paard vier (2 * [men] + [horses] * 4). "
-"Elk persoon en elk paard heeft twee ogen (2 * [men] + 2 * [horses])."
-
-#: ../data/games.xml.h:22
-msgid "Family relations"
-msgstr "Familierelaties"
-
-#: ../data/games.xml.h:23
-msgid ""
-"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
-"except for the end of each millennium that occur at a 11 years interval."
-msgstr ""
-"Van het jaar 1000 tot het jaar 10000 komen palindroomjaren om de 110 jaar "
-"voor, behalve aan het eind van elk millennium dat in een 11-jarig interval "
-"valt."
-
-#: ../data/games.xml.h:24
-msgid ""
-"Given two integer numbers x and y, if x is even and y odd, which of the "
-"following expressions gives always an odd result? [option_answers]"
-msgstr ""
-"Gegeven zijn twee hele getallen, x en y. Als x een even getal is en y een "
-"oneven getal, bij welke van de volgende expressies is het resultaat dan "
-"altijd een oneven getal? [option_answers]"
-
-#: ../data/games.xml.h:25
-msgid "His father"
-msgstr "Zijn vader"
-
-#: ../data/games.xml.h:26
-msgid "His mother"
-msgstr "Zijn moeder"
-
-#: ../data/games.xml.h:27
-msgid "Horse race"
-msgstr "Paardenrace"
-
-#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
-#: ../data/games.xml.h:29
-msgid ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
-"x 5 x [z]?"
-msgstr "Hoeveel dozen van 1 x 1 x 0,5 passen in een container van 6 x 5 x [z]?"
-
-#: ../data/games.xml.h:30
-msgid ""
-"How much weight is needed at the point indicated by the question mark to "
-"balance the lever?"
-msgstr ""
-"Welk gewicht is er nodig op de plaats van het vraagteken om de hefboom in "
-"evenwicht te brengen?"
-
-#: ../data/games.xml.h:31
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"Als p &lt; x &lt; q en r &lt; y &lt; s en u weet dat x &gt; y waar is, welke "
-"van de onderstaande opties is dan correct? [option_answers]"
-
-#: ../data/games.xml.h:32
-msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
-"which of the following options is correct? [option_answers]"
-msgstr ""
-"Als p &lt; x &lt; q en r &lt; y &lt; s en u weet dat x &lt; y waar is, welke "
-"van de onderstaande opties is dan correct? [option_answers]"
-
-#: ../data/games.xml.h:33
-msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
-msgstr "Als x &gt; y, dan x &gt; q &lt; en y &gt; r dus r &lt; q is waar."
-
-#: ../data/games.xml.h:34
-msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr "Alsx &lt; y, dan p &lt; x &lt; y &lt; s dus s &gt; p is waar."
-
-#: ../data/games.xml.h:35 ../tools/GameXmlGetString.cs:65
-msgid ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs] "
-"leg. How many horses are present?"
-msgid_plural ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
-msgstr[0] ""
-"Bij een paardenrace zijn er mensen en paarden. U telt [eyes] oog en [legs] "
-"been. Hoeveel paarden zijn er?"
-msgstr[1] ""
-"Bij een paardenrace zijn er mensen en paarden. U telt [eyes] ogen en [legs] "
-"benen. Hoeveel paarden zijn er?"
-
-#: ../data/games.xml.h:37
+#: ../data/games.xml.h:63
 #, no-c-format
 msgid ""
 "In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
@@ -264,206 +396,153 @@ msgstr ""
 "[males_cars]% daarvan zijn mannen. Welk percentage van de totale populatie "
 "zijn dan vrouwen die een auto hebben? [option_answers]"
 
-#: ../data/games.xml.h:38
+#: ../data/games.xml.h:65
+#, no-c-format
+msgid "[option_prefix] [option_a]%"
+msgstr "[option_prefix] [option_a]%"
+
+#: ../data/games.xml.h:67
+#, no-c-format
+msgid "[option_prefix] [option_b]%"
+msgstr "[option_prefix] [option_b]%"
+
+#: ../data/games.xml.h:69
+#, no-c-format
+msgid "[option_prefix] [option_c]%"
+msgstr "[option_prefix] [option_c]%"
+
+#: ../data/games.xml.h:71
+#, no-c-format
+msgid "[option_prefix] [option_d]%"
+msgstr "[option_prefix] [option_d]%"
+
+#: ../data/games.xml.h:73
+#, no-c-format
 msgid ""
-"In every match you eliminate one player, you need the total number of games "
-"minus 1 to find out the winner."
+"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
+"have a car."
 msgstr ""
-"In elk potje wordt een speler geëlimineerd, dus er zijn het totale aantal "
-"spellen min 1 nodig om de winnaar te vinden."
+"[females_cars]% ([all_cars] - [males_cars]) van de inwoners is vrouw en "
+"bezit een auto."
 
-#: ../data/games.xml.h:39
+#: ../data/games.xml.h:74
+msgid "Compare variables"
+msgstr "Variabelen vergelijken"
+
+#: ../data/games.xml.h:75
 msgid ""
-"It is calculated by taking the total number of people minus [brothers_only] "
-"people that have brothers only, minus [sisters_only] that have sisters only "
-"and minus [both] that have sisters and brothers."
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
+"which of the following options is correct? [option_answers]"
 msgstr ""
-"Dit kunt u berekenen door het totale aantal mensen te nemen en daar van af "
-"te trekken: de mensen die alleen broers hebben ([brothers_only]), de mensen "
-"die alleen zussen hebben ([sisters_only]) en de mensen die zowel broers als "
-"zussen hebben ([both])."
+"Als p &lt; x &lt; q en r &lt; y &lt; s en u weet dat x &lt; y waar is, welke "
+"van de onderstaande opties is dan correct? [option_answers]"
 
-#: ../data/games.xml.h:40
-msgid "It is the result of the operation [num_a] * [num_b]."
-msgstr "Is het resultaat van de berekening [num_a] * [num_b]."
+#: ../data/games.xml.h:76
+msgid "[option_prefix] s > p"
+msgstr "[option_prefix] s > p"
 
-#: ../data/games.xml.h:41
-msgid "It is the result of the operation [num_a] + [num_b]."
-msgstr "Is het resultaat van de berekening [num_a] + [num_b]."
+#: ../data/games.xml.h:77
+msgid "[option_prefix] p < r"
+msgstr "[option_prefix] p < r"
 
-#: ../data/games.xml.h:42
-msgid "It is the result of the operation [num_b] - [num_a]."
-msgstr "Is het resultaat van de berekening [num_b] - [num_a]."
+#: ../data/games.xml.h:78
+msgid "[option_prefix] p > r"
+msgstr "[option_prefix] p > r"
 
-#: ../data/games.xml.h:43
-msgid "It is the result of the operation [num_b] / [num_a]."
-msgstr "Het is het resultaat van [num_a] / [num_b]."
+#: ../data/games.xml.h:79
+msgid "[option_prefix] q = s"
+msgstr "[option_prefix] q = s"
 
-#: ../data/games.xml.h:44
-msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
-msgstr "Is het resultaat van de berekening: ([three] * 3) - ([two] * 2)."
+#: ../data/games.xml.h:80
+msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
+msgstr "Alsx &lt; y, dan p &lt; x &lt; y &lt; s dus s &gt; p is waar."
 
-#: ../data/games.xml.h:45
-msgctxt "John's father's sister's sister-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Zijn neef"
-
-#: ../data/games.xml.h:46
+#: ../data/games.xml.h:81
 msgid ""
-"John's father's sister's sister-in-law is also? Do not assume that John has "
-"any relative that has not been mentioned. [option_answers]"
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
+"which of the following options is correct? [option_answers]"
 msgstr ""
-"De schoonzus van de zus van Johns vader is ook? Neem aan dat alle familie "
-"van John genoemd is. [option_answers]"
+"Als p &lt; x &lt; q en r &lt; y &lt; s en u weet dat x &gt; y waar is, welke "
+"van de onderstaande opties is dan correct? [option_answers]"
 
-#: ../data/games.xml.h:47
-msgctxt "John's mother's brother's brother-in-law is also?"
-msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Zijn neef"
+#: ../data/games.xml.h:82
+msgid "[option_prefix] r < q"
+msgstr "[option_prefix] r < q"
 
-#: ../data/games.xml.h:48
-msgid ""
-"John's mother's brother's brother-in-law is also? Do not assume that John "
-"has any relative that has not been mentioned. [option_answers]"
-msgstr ""
-"De zwager van de broer van Johns moeder is ook? Neem aan dat alle familie "
-"van John genoemd is. [option_answers]"
+#: ../data/games.xml.h:83
+#| msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
+msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
+msgstr "Als x &gt; y, dan x &gt; q &lt; en y &gt; r dus r &lt; q is waar."
 
-#: ../data/games.xml.h:49
-msgid ""
-"John's son age is nowadays half of John's age minus [difference], that is, "
-"([father] / 2) - [difference]."
-msgstr ""
-"De leeftijd van Johns zoon is de helft van die van John, min [difference], "
-"dus ([father] / 2) - [difference]."
-
-#: ../data/games.xml.h:50
-msgid "Lever"
-msgstr "Hefboom"
-
-#: ../data/games.xml.h:51
-msgid "Multiple number"
-msgstr "Veelvoud"
-
-#: ../data/games.xml.h:52
+#: ../data/games.xml.h:84
 msgid "Odd number"
 msgstr "Oneven getal"
 
-#: ../data/games.xml.h:53
+#: ../data/games.xml.h:85
 msgid ""
-"On the dartboard below, where would you need to throw the darts to add 120 "
-"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+"Given two integer numbers x and y, if x is even and y odd, which of the "
+"following expressions gives always an odd result? [option_answers]"
 msgstr ""
-"Waar moet u op onderstaand dartbord de pijltjes gooien om in 5 beurten aan "
-"120 punten te komen? Geef het antwoord door de getallen op te sommen (bijv. "
-"4, 5, 6, 3, 2)"
+"Gegeven zijn twee hele getallen, x en y. Als x een even getal is en y een "
+"oneven getal, bij welke van de volgende expressies is het resultaat dan "
+"altijd een oneven getal? [option_answers]"
 
-#: ../data/games.xml.h:54
-msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr ""
-"Slechts 3 van de 4 nummers op het dartbord worden gebruikt om tot 120 punten "
-"te komen."
+#: ../data/games.xml.h:86
+msgid "[option_prefix] 2x + y"
+msgstr "[option_prefix] 2x + y"
 
-#: ../data/games.xml.h:55
+#: ../data/games.xml.h:87
+msgid "[option_prefix] x * y"
+msgstr "[option_prefix] x * y"
+
+#: ../data/games.xml.h:88
+msgid "[option_prefix] x * y * 2"
+msgstr "[option_prefix] x * y * 2"
+
+#: ../data/games.xml.h:89
+msgid "[option_prefix] (x - y) * 2"
+msgstr "[option_prefix] (x - y) * 2"
+
+#: ../data/games.xml.h:90
+#| msgid ""
+#| "Since x is always an even number, multiplying it by 2 always produces an "
+#| "even number. Adding an even number to an odd number (y) always produces "
+#| "an odd number."
 msgid ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
-"[both] have both. How many people have neither brothers nor sisters?"
-msgstr ""
-"Van de [people] mensen hebben [brothers] broers, [sisters] zussen en [both] "
-"hebben beide. Hoeveel mensen hebben broers noch zussen?"
-
-#: ../data/games.xml.h:56
-msgid "Palindromic years"
-msgstr "Palindroomjaren"
-
-#: ../data/games.xml.h:57
-msgid "Password"
-msgstr "Wachtwoord"
-
-#: ../data/games.xml.h:58
-msgid "Simple equations"
-msgstr "Eenvoudige vergelijkingen"
-
-#: ../data/games.xml.h:59
-msgid ""
-"Since x is always an even number, multiplying it by 2 always produces an "
-"even number. Adding an even number to an odd number (y) always produces an "
-"odd number."
+"Multiplication of two even numbers always produces an even number, so x "
+"multiplied by 2 is even. Adding an odd number (y) to that even number always "
+"produces an odd number."
 msgstr ""
 "Omdat x altijd een even getal is, zal de uitkomst wanneer het met 2 "
 "vermenigvuldigd wordt, altijd een even getal zijn . Bij het optellen van een "
 "even getal met een oneven getal (y) zal de uitkomst altijd een oneven getal "
 "zijn."
 
-#: ../data/games.xml.h:60
-msgid "Tennis game"
-msgstr "Tennis"
-
-#: ../data/games.xml.h:61
-msgid ""
-"The average of three numbers is [three]. The average of two of these numbers "
-"is [two]. What is the third number? [option_answers]"
-msgstr ""
-"Het gemiddeld van drie getallen is [three]. Het gemiddelde van twee van deze "
-"getallen is [two]. Wat is het derde getal? [option_answers]"
-
-#: ../data/games.xml.h:62
-msgid ""
-"The brother's brother-in-law is John's mother's husband, that is, John's "
-"father."
-msgstr "De broer van de zwager is de man van Johns moeder, dus Johns vader."
-
-#: ../data/games.xml.h:63
-msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr ""
-"De zware vrachtwagen weegt [heavier] en de lichte vrachtwagen [lighter]."
-
-#: ../data/games.xml.h:64
-msgid ""
-"The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr "De zus van de schoonzus is de vrouw van Johns vader, dus Johns moeder."
-
-#: ../data/games.xml.h:65
-msgid "Third number"
-msgstr "Derde getal"
-
-#: ../data/games.xml.h:66
-msgid "Two trucks"
-msgstr "Twee vrachtwagens"
-
-#: ../data/games.xml.h:67
+#: ../data/games.xml.h:91
 msgid "Warehouse"
 msgstr "Pakhuis"
 
-#: ../data/games.xml.h:68
-msgid "What number divided by [num_a] equals [num_b]?"
-msgstr "Welk getal gedeeld door [num_a] geeft [num_b]?"
+#: ../data/games.xml.h:92
+msgid "[option_prefix] [answer_a]"
+msgstr "[option_prefix] [answer_a]"
 
-#: ../data/games.xml.h:69
-msgid "What number minus [num_a] equals [num_b]?"
-msgstr "Welk getal min [num_a] geeft [num_b]?"
+#: ../data/games.xml.h:93
+msgid "[option_prefix] [answer_b]"
+msgstr "[option_prefix] [answer_b]"
 
-#: ../data/games.xml.h:70
-msgid "What number multiplied by [num_a] equals [num_b]?"
-msgstr "Welk getal vermenigvuldigd met [num_a] geeft [num_b]?"
+#: ../data/games.xml.h:94
+msgid "[option_prefix] [answer_c]"
+msgstr "[option_prefix] [answer_c]"
 
-#: ../data/games.xml.h:71
-msgid "What number plus [num_a] equals [num_b]?"
-msgstr "Welk getal plus [num_a] geeft [num_b]?"
+#: ../data/games.xml.h:95
+msgid "[option_prefix] [answer_d]"
+msgstr "[option_prefix] [answer_d]"
 
-#: ../data/games.xml.h:72
-msgid ""
-"Which two numbers of the list below are both multiple of [num_x] and "
-"[num_y]? [option_answers]"
-msgstr ""
-"Welke twee getallen in de lijst hieronder zijn een veelvoud van zowel "
-"[num_x] als [num_y]? [option_answers]"
+#: ../data/games.xml.h:96
+msgid "Two trucks"
+msgstr "Twee vrachtwagens"
 
-#: ../data/games.xml.h:73
-msgid "You can fit 6 * 5 * [z] * 2 boxes."
-msgstr "Er passen 6 * 5 * [z] * 2 dozen in."
-
-#: ../data/games.xml.h:74 ../tools/GameXmlGetString.cs:81
+#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:81
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -483,175 +562,107 @@ msgstr[1] ""
 "gewicht van de zware vrachtwagen, wat is dan het gewicht van de lichte "
 "vrachtwagen? [option_answers]"
 
-#: ../data/games.xml.h:76
-#, no-c-format
+#: ../data/games.xml.h:98
+msgid "The heavier truck weights [heavier] and the lighter [lighter]."
+msgstr ""
+"De zware vrachtwagen weegt [heavier] en de lichte vrachtwagen [lighter]."
+
+#: ../data/games.xml.h:99
+msgid "Family relations"
+msgstr "Familierelaties"
+
+#: ../data/games.xml.h:100
 msgid ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
-"have a car."
+"John's father's sister's sister-in-law is also? Do not assume that John has "
+"any relative that has not been mentioned. [option_answers]"
 msgstr ""
-"[females_cars]% ([all_cars] - [males_cars]) van de inwoners is vrouw en "
-"bezit een auto."
+"De schoonzus van de zus van Johns vader is ook? Neem aan dat alle familie "
+"van John genoemd is. [option_answers]"
 
-#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
-#: ../data/games.xml.h:78
-msgid "[option_a] and [option_b]"
-msgstr "[option_a] en [option_b]"
-
-#: ../data/games.xml.h:79
-msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr ""
-"[option_a] en [option_b] zijn beide een veelvoud van [num_x] en [num_y]."
-
-#: ../data/games.xml.h:80
-msgid "[option_prefix] (x - y) * 2"
-msgstr "[option_prefix] (x - y) * 2"
-
-#: ../data/games.xml.h:81
-msgid "[option_prefix] 2x + y"
-msgstr "[option_prefix] 2x + y"
-
-#: ../data/games.xml.h:82
-msgid "[option_prefix] Has no relation"
-msgstr "[option_prefix] Heeft geen familie"
-
-#: ../data/games.xml.h:83
-msgid "[option_prefix] His father"
-msgstr "[option_prefix] Zijn vader"
-
-#: ../data/games.xml.h:84
+#: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Zijn moeder"
 
-#: ../data/games.xml.h:85
+#: ../data/games.xml.h:102
+msgid "[option_prefix] Has no relation"
+msgstr "[option_prefix] Heeft geen familie"
+
+#: ../data/games.xml.h:103
+msgctxt "John's father's sister's sister-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] Zijn neef"
+
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Zijn schoonzoon"
 
-#: ../data/games.xml.h:86
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:87
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:88
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:89
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:90
-msgid "[option_prefix] [option_a] and [option_b]"
-msgstr "[option_prefix] [option_a] en [option_b]"
-
-#: ../data/games.xml.h:91
-msgid "[option_prefix] [option_a] and [option_c]"
-msgstr "[option_prefix] [option_a] en [option_c]"
-
-#: ../data/games.xml.h:93
-#, no-c-format
-msgid "[option_prefix] [option_a]%"
-msgstr "[option_prefix] [option_a]%"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [option_b] and [option_c]"
-msgstr "[option_prefix] [option_b] en [option_c]"
-
-#: ../data/games.xml.h:96
-#, no-c-format
-msgid "[option_prefix] [option_b]%"
-msgstr "[option_prefix] [option_b]%"
-
-#: ../data/games.xml.h:97
-msgid "[option_prefix] [option_c] and [option_d]"
-msgstr "[option_prefix] [option_c] en [option_d]"
-
-#: ../data/games.xml.h:99
-#, no-c-format
-msgid "[option_prefix] [option_c]%"
-msgstr "[option_prefix] [option_c]%"
-
-#: ../data/games.xml.h:101
-#, no-c-format
-msgid "[option_prefix] [option_d]%"
-msgstr "[option_prefix] [option_d]%"
-
-#: ../data/games.xml.h:102
-msgid "[option_prefix] p < r"
-msgstr "[option_prefix] p < r"
-
-#: ../data/games.xml.h:103
-msgid "[option_prefix] p > r"
-msgstr "[option_prefix] p > r"
-
-#: ../data/games.xml.h:104
-msgid "[option_prefix] q = s"
-msgstr "[option_prefix] q = s"
-
 #: ../data/games.xml.h:105
-msgid "[option_prefix] r < q"
-msgstr "[option_prefix] r < q"
+msgid "His mother"
+msgstr "Zijn moeder"
 
 #: ../data/games.xml.h:106
-msgid "[option_prefix] s > p"
-msgstr "[option_prefix] s > p"
+msgid ""
+"The sister's sister-in-law is John's father's wife, that is, John's mother."
+msgstr "De zus van de schoonzus is de vrouw van Johns vader, dus Johns moeder."
 
 #: ../data/games.xml.h:107
-msgid "[option_prefix] x * y"
-msgstr "[option_prefix] x * y"
+msgid ""
+"John's mother's brother's brother-in-law is also? Do not assume that John "
+"has any relative that has not been mentioned. [option_answers]"
+msgstr ""
+"De zwager van de broer van Johns moeder is ook? Neem aan dat alle familie "
+"van John genoemd is. [option_answers]"
 
 #: ../data/games.xml.h:108
-msgid "[option_prefix] x * y * 2"
-msgstr "[option_prefix] x * y * 2"
+msgid "[option_prefix] His father"
+msgstr "[option_prefix] Zijn vader"
 
 #: ../data/games.xml.h:109
-msgid "[rslt_a] and [rslt_b]"
-msgstr "[rslt_a] en [rslt_b]"
+msgctxt "John's mother's brother's brother-in-law is also?"
+msgid "[option_prefix] His cousin"
+msgstr "[option_prefix] Zijn neef"
 
 #: ../data/games.xml.h:110
-msgid ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
-"are the next two consecutive palindromic years after [year_end] with the "
-"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
-msgstr ""
-"[year_start] is een palindroomjaar, net als [year_end], met een verschil van "
-"11 jaar. Wat zijn de volgende twee opeenvolgende palindroomjaren na "
-"[year_end], met hetzelfde verschil er tussen? Antwoord met twee getallen "
-"(bijv.:[year_start] en [year_end])."
+msgid "His father"
+msgstr "Zijn vader"
 
 #: ../data/games.xml.h:111
-msgid "x * [num_a] = [num_b]"
-msgstr "x * [num_a] = [num_b]"
+msgid ""
+"The brother's brother-in-law is John's mother's husband, that is, John's "
+"father."
+msgstr "De broer van de zwager is de man van Johns moeder, dus Johns vader."
 
 #: ../data/games.xml.h:112
-msgid "x + [num_a] = [num_b]"
-msgstr "x + [num_a] = [num_b]"
+msgid "Third number"
+msgstr "Derde getal"
 
 #: ../data/games.xml.h:113
-msgid "x - [num_a] = [num_b]"
-msgstr "x - [num_a] = [num_b]"
+msgid ""
+"The average of three numbers is [three]. The average of two of these numbers "
+"is [two]. What is the third number? [option_answers]"
+msgstr ""
+"Het gemiddeld van drie getallen is [three]. Het gemiddelde van twee van deze "
+"getallen is [two]. Wat is het derde getal? [option_answers]"
 
 #: ../data/games.xml.h:114
-msgid "x / [num_a] = [num_b]"
-msgstr "x / [num_a] = [num_b]"
+msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
+msgstr "Is het resultaat van de berekening: ([three] * 3) - ([two] * 2)."
 
-#: ../data/gbrainy.desktop.in.h:1
+#: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#: ../data/gbrainy.desktop.in.h:2
 msgid "Game"
 msgstr "Spel"
 
-#: ../data/gbrainy.desktop.in.h:2
+#: ../data/gbrainy.desktop.in.h:3
 msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr ""
 "Speel spelletjes die uw vaardigheden op het vlak van logisch denken, verbale "
 "vaardigheden, rekenen en geheugen op de proef stellen"
-
-#: ../data/gbrainy.desktop.in.h:3 ../src/Clients/Classical/gbrainy.ui.h:28
-msgid "gbrainy"
-msgstr "gbrainy"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -661,794 +672,384 @@ msgstr "Klassiek"
 msgid "Notebook"
 msgstr "Notebook"
 
-#: ../data/verbal_analogies.xml.h:1
-msgid "A car engine that is poorly designed and lacking of sophistication is?"
-msgstr "Een slecht ontworpen automotor met weinig verfijning is?"
-
-#: ../data/verbal_analogies.xml.h:2
-msgid "A figure of speech that combines contradicting terms."
-msgstr "Een zegswijze die tegengestelde termen gebruikt."
-
-#: ../data/verbal_analogies.xml.h:3
-msgid "A fish in an aquarium lives in captivity."
-msgstr "Een vis in een aquarium leeft in gevangenschap."
-
+#.
+#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#.
 #: ../data/verbal_analogies.xml.h:4
-msgid "A pen is used to write and a fork is used to eat."
-msgstr "Een pen wordt gebruikt om te schrijven en een vork om te eten."
+msgid "Which of the following sports does not belong in this group?"
+msgstr "Welk van de volgende sporten hoort niet in het rijtje thuis?"
 
 #: ../data/verbal_analogies.xml.h:5
-msgid "A person with excessive preoccupation for his health has?"
-msgstr "Iemand die zich te veel bezighoudt met zijn gezondheid heeft?"
+msgid "Think of the items used in the game."
+msgstr "Denk aan de onderdelen die gebruikt worden in het spel."
 
 #: ../data/verbal_analogies.xml.h:6
+msgid "Golf"
+msgstr "Golf"
+
+#: ../data/verbal_analogies.xml.h:7
+msgid "Basketball"
+msgstr "Basketbal"
+
+#: ../data/verbal_analogies.xml.h:8
+msgid "Tennis"
+msgstr "Tennis"
+
+#: ../data/verbal_analogies.xml.h:9
+msgid "Cycling"
+msgstr "Fietsen"
+
+#: ../data/verbal_analogies.xml.h:10
+msgid "It is the only one that does not use a ball in the game."
+msgstr "Het is de enige die geen bal gebruikt in het spel."
+
+#: ../data/verbal_analogies.xml.h:11
 msgid "A terrier is to a dog like a?"
 msgstr "Een terrier staat tot een hond als een?"
 
-#: ../data/verbal_analogies.xml.h:7
-msgid "A turtle is inside a shell and a letter is inside an envelope."
-msgstr "Een schildpad zit in een schild en een brief zit in een envelop."
+#: ../data/verbal_analogies.xml.h:12
+msgid "Chicken / Parrot"
+msgstr "Kip / Papegaai"
 
-#: ../data/verbal_analogies.xml.h:8
-msgid "Abstinence"
-msgstr "Onthouding"
-
-#: ../data/verbal_analogies.xml.h:9
-msgid "Acclaimed"
-msgstr "Geprezen"
-
-#. Translators: Acrophobia of having a panic attack
-#: ../data/verbal_analogies.xml.h:11
-msgid "Acrophobia"
-msgstr "Acrofobie"
-
-#. Translators: Affluent as antonym of poor, that is, somebody that is rich
 #: ../data/verbal_analogies.xml.h:13
-msgid "Affluent"
-msgstr "Welgesteld"
+msgid "Pony / Horse"
+msgstr "Pony / paard"
 
 #: ../data/verbal_analogies.xml.h:14
-msgid "Agoraphobia"
-msgstr "Agorafobie"
+msgid "Ant / Vertebrate"
+msgstr "Mier / Gewervelde"
 
 #: ../data/verbal_analogies.xml.h:15
-#, fuzzy
-msgid "Air"
-msgstr "Luchtvaartmaatschappij"
+msgid "Dog / Cat"
+msgstr "Hond / kat"
 
 #: ../data/verbal_analogies.xml.h:16
-msgid "Aircraft"
-msgstr "Vliegtuig"
+msgid "Dog and horse are species and terrier and pony are breeds."
+msgstr "Hond en paard zijn diersoorten en terriër en pony zijn rassen."
 
 #: ../data/verbal_analogies.xml.h:17
-msgid "Airline"
-msgstr "Luchtvaartmaatschappij"
+msgid "The word 'taxidermist' is used to define a person that?"
+msgstr "Het woord 'taxidermist' duidt een persoon aan die?"
 
 #: ../data/verbal_analogies.xml.h:18
-msgid "Amphibians"
-msgstr "Amfibieën"
+msgid "Works with dead animals"
+msgstr "Werkt met dode dieren"
 
 #: ../data/verbal_analogies.xml.h:19
+msgid "Specializes in skin diseases"
+msgstr "Gespecialiseerd in huidziekten"
+
+#: ../data/verbal_analogies.xml.h:20
+msgid "Suffers a skin disease"
+msgstr "Lijdt aan een huidziekte"
+
+#: ../data/verbal_analogies.xml.h:21
+msgid "Works with leather"
+msgstr "Werkt met leer"
+
+#: ../data/verbal_analogies.xml.h:22
+msgid "A car engine that is poorly designed and lacking of sophistication is?"
+msgstr "Een slecht ontworpen automotor met weinig verfijning is?"
+
+#: ../data/verbal_analogies.xml.h:23
+msgid "Simplistic"
+msgstr "Simplistisch"
+
+#: ../data/verbal_analogies.xml.h:24
+msgid "Erroneous"
+msgstr "Onjuist"
+
+#: ../data/verbal_analogies.xml.h:25
+msgid "Broken"
+msgstr "Stuk"
+
+#: ../data/verbal_analogies.xml.h:26
+msgid "Unorthodox"
+msgstr "Onorthodox"
+
+#: ../data/verbal_analogies.xml.h:27
+msgid "Which of the following words is the closest in meaning to 'censure'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'censureren'?"
+
+#: ../data/verbal_analogies.xml.h:28
+msgid "Condemn"
+msgstr "Veroordelen"
+
+#: ../data/verbal_analogies.xml.h:29
+msgid "Hide"
+msgstr "Verbergen"
+
+#. Translators: 'obscure' is used as a verb
+#: ../data/verbal_analogies.xml.h:31
+msgid "Obscure"
+msgstr "Obscuur"
+
+#: ../data/verbal_analogies.xml.h:32
+msgid "Ignore"
+msgstr "Negeren"
+
+#: ../data/verbal_analogies.xml.h:33
 msgid "An artist whose work has become the defining style of a genre is?"
 msgstr ""
 "Een kunstenaar wiens werk de bepalende stijl van een genre is geworden is?"
 
-#: ../data/verbal_analogies.xml.h:20
-msgid ""
-"An oasis is an isolated area of vegetation in a desert and an island is a "
-"piece of isolated land that is surrounded by water."
-msgstr ""
-"Een oase is een geïsoleerd gebied met vegetatie in een woestijn en een "
-"eiland is een geïsoleerd stuk land omgeven door water."
-
-#: ../data/verbal_analogies.xml.h:21
-msgid "Angle"
-msgstr "Hoek"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:23
-msgid "Angry"
-msgstr "Kwaad"
-
-#: ../data/verbal_analogies.xml.h:24
-msgid "Ant / Vertebrate"
-msgstr "Mier / Gewervelde"
-
-#. Translators: Anthophobia is fear of flowers that poses little or no danger
-#: ../data/verbal_analogies.xml.h:26
-msgid "Anthophobia"
-msgstr "Anthofobie"
-
-#. Translators: Anthropophobia is fear of people
-#: ../data/verbal_analogies.xml.h:28
-msgid "Anthropophobia"
-msgstr "Anthropofobie"
-
-#: ../data/verbal_analogies.xml.h:29
-msgid "Apple"
-msgstr "Appel"
-
-#: ../data/verbal_analogies.xml.h:30
-msgid "Attic"
-msgstr "Zolder"
-
-#: ../data/verbal_analogies.xml.h:31
-msgid "Authority"
-msgstr "Autoriteit"
-
-#: ../data/verbal_analogies.xml.h:32
-msgid "Azimuth"
-msgstr "Azimut"
-
-#: ../data/verbal_analogies.xml.h:33
-msgid "Basketball"
-msgstr "Basketbal"
-
 #: ../data/verbal_analogies.xml.h:34
-msgid "Bassoon"
-msgstr "Fagot"
-
-#: ../data/verbal_analogies.xml.h:35
-msgid "Beach"
-msgstr "Strand"
-
-#: ../data/verbal_analogies.xml.h:36
-msgid "Birds"
-msgstr "Vogels"
-
-#. Translators: referred to the life style
-#: ../data/verbal_analogies.xml.h:38
-msgid "Bohemian"
-msgstr "Bohemien"
-
-#: ../data/verbal_analogies.xml.h:39
-msgid "Both relate to an action that breaks the related item."
-msgstr ""
-"Beide hebben betrekking op een handeling die het bijbehorende object "
-"stukmaakt."
-
-#: ../data/verbal_analogies.xml.h:40
-msgid "Bounce"
-msgstr "Stuiteren"
-
-#: ../data/verbal_analogies.xml.h:41
-msgid "Broken"
-msgstr "Stuk"
-
-#: ../data/verbal_analogies.xml.h:42
-msgid "Bunker"
-msgstr "Bunker"
-
-#: ../data/verbal_analogies.xml.h:43
-msgid "Bursts"
-msgstr "Knallen"
-
-#: ../data/verbal_analogies.xml.h:44
-#, fuzzy
-msgid "Cage"
-msgstr "Camera"
-
-#: ../data/verbal_analogies.xml.h:45
-msgid "Camera"
-msgstr "Camera"
-
-#: ../data/verbal_analogies.xml.h:46
-msgid "Carbon"
-msgstr "Koolstof"
-
-#: ../data/verbal_analogies.xml.h:47
-msgid "Cardiology"
-msgstr "Cardiologie"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:49
-msgid "Careless"
-msgstr "Onzorgvuldig"
-
-#: ../data/verbal_analogies.xml.h:50
-msgid "Celebrated"
-msgstr "Gevierd"
-
-#: ../data/verbal_analogies.xml.h:51
-msgid "Cellulose"
-msgstr "Cellulose"
-
-#: ../data/verbal_analogies.xml.h:52
-msgid "Chicken / Parrot"
-msgstr "Kip / Papegaai"
-
-#: ../data/verbal_analogies.xml.h:53
-msgid "Chord"
-msgstr "Akkoord"
-
-#. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:55
-msgid "Close"
-msgstr "Sluiten"
-
-#: ../data/verbal_analogies.xml.h:56
-msgid "Coast"
-msgstr "Kust"
-
-#: ../data/verbal_analogies.xml.h:57
-msgid "Collectivism"
-msgstr "Collectivisme"
-
-#: ../data/verbal_analogies.xml.h:58
-msgid "Column"
-msgstr "Kolom"
-
-#: ../data/verbal_analogies.xml.h:59
-msgid "Concert hall"
-msgstr "Concertzaal"
-
-#: ../data/verbal_analogies.xml.h:60
-msgid "Condemn"
-msgstr "Veroordelen"
-
-#. Translator: As synonymous of 'perplexing'
-#: ../data/verbal_analogies.xml.h:62
-msgid "Confusing"
-msgstr "Verwarrend"
-
-#: ../data/verbal_analogies.xml.h:63
-msgid "Connoisseur"
-msgstr "Kenner"
-
-#: ../data/verbal_analogies.xml.h:64
-msgid "Conspirator"
-msgstr "Samenzweerder"
-
-#: ../data/verbal_analogies.xml.h:65
-msgid "Contradictory"
-msgstr "Tegenstrijdig"
-
-#: ../data/verbal_analogies.xml.h:66
-msgid "Corn"
-msgstr "Maïs"
-
-#: ../data/verbal_analogies.xml.h:67
-msgid "Crocodile"
-msgstr "Krokodil"
-
-#: ../data/verbal_analogies.xml.h:68
-msgid "Cycling"
-msgstr "Fietsen"
-
-#: ../data/verbal_analogies.xml.h:69
-msgid "Decagon"
-msgstr "Tienhoek"
-
-#: ../data/verbal_analogies.xml.h:70
-msgid "Decimal"
-msgstr "Decimaal"
-
-#: ../data/verbal_analogies.xml.h:71
-msgid "Deer"
-msgstr "Hert"
-
-#: ../data/verbal_analogies.xml.h:72
-msgid "Democracy"
-msgstr "Democratie"
-
-#: ../data/verbal_analogies.xml.h:73
-msgid "Disinterest"
-msgstr "Desinteresse"
-
-#: ../data/verbal_analogies.xml.h:74
-msgid "Dog / Cat"
-msgstr "Hond / kat"
-
-#: ../data/verbal_analogies.xml.h:75
-msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr "Hond en paard zijn diersoorten en terriër en pony zijn rassen."
-
-#: ../data/verbal_analogies.xml.h:76
-msgid "Enneagram"
-msgstr "Negenpuntige ster"
-
-#: ../data/verbal_analogies.xml.h:77
-msgid "Envelope"
-msgstr "Envelop"
-
-#: ../data/verbal_analogies.xml.h:78
-msgid "Erroneous"
-msgstr "Onjuist"
-
-#: ../data/verbal_analogies.xml.h:79
-msgid "Exceptional"
-msgstr "Uitzonderlijk"
-
-#: ../data/verbal_analogies.xml.h:80
-msgid "Famous"
-msgstr "Beroemd"
-
-#: ../data/verbal_analogies.xml.h:81
-msgid "Fish"
-msgstr "Vis"
-
-#: ../data/verbal_analogies.xml.h:82
-msgid "Fishes"
-msgstr "Vissen"
-
-#. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:84
-msgid "Fixation"
-msgstr "Fixatie"
-
-#: ../data/verbal_analogies.xml.h:85
-msgid "Float"
-msgstr "Drijven"
-
-#: ../data/verbal_analogies.xml.h:86
-msgid "Flower"
-msgstr "Bloem"
-
-#: ../data/verbal_analogies.xml.h:87
-msgid "Flute"
-msgstr "Fluit"
-
-#: ../data/verbal_analogies.xml.h:88
-msgid "Fork"
-msgstr "Vork"
-
-#: ../data/verbal_analogies.xml.h:89
-msgid "Fossil"
-msgstr "Fossiel"
-
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:91
-msgid "Friendly"
-msgstr "Vriendelijk"
-
-#: ../data/verbal_analogies.xml.h:92
-msgid "Frog"
-msgstr "Kikker"
-
-#: ../data/verbal_analogies.xml.h:93
-msgid "Gallon"
-msgstr "Gallon"
-
-#: ../data/verbal_analogies.xml.h:94
-msgid "Generic"
-msgstr "Algemeen"
-
-#: ../data/verbal_analogies.xml.h:95
-msgid "Golf"
-msgstr "Golf"
-
-#: ../data/verbal_analogies.xml.h:96
-msgid "Grab and bite are finite actions."
-msgstr "Grijpen en bijten zijn vergelijkbare acties."
-
-#: ../data/verbal_analogies.xml.h:97
-msgid "Grain"
-msgstr "Graan"
-
-#: ../data/verbal_analogies.xml.h:98
-msgid "Grape"
-msgstr "Druif"
-
-#: ../data/verbal_analogies.xml.h:99
-msgid "Gym"
-msgstr "Gym"
-
-#: ../data/verbal_analogies.xml.h:100
-msgid "Hangar"
-msgstr "Hangar"
-
-#: ../data/verbal_analogies.xml.h:101
-msgid "Hectogram"
-msgstr "Hectogram"
-
-#: ../data/verbal_analogies.xml.h:102
-msgid "Hematology"
-msgstr "Hematologie"
-
-#: ../data/verbal_analogies.xml.h:103
-msgid "Hide"
-msgstr "Verbergen"
-
-#: ../data/verbal_analogies.xml.h:104
-msgid "Homeless"
-msgstr "Dakloos"
-
-#: ../data/verbal_analogies.xml.h:105
-msgid "Hyena"
-msgstr "Hyena"
-
-#: ../data/verbal_analogies.xml.h:106
-msgid "Hypochondria"
-msgstr "Hypochondrie"
-
-#: ../data/verbal_analogies.xml.h:107
-msgid "Icosagon"
-msgstr "Twintigzijdige veelhoek"
-
-#: ../data/verbal_analogies.xml.h:108
-msgid "Ignore"
-msgstr "Negeren"
-
-#: ../data/verbal_analogies.xml.h:109
-msgid "Incredible"
-msgstr "Ongelofelijk"
-
-#: ../data/verbal_analogies.xml.h:110
-msgid "Indifference"
-msgstr "Onverschillig"
-
-#: ../data/verbal_analogies.xml.h:111
-msgid "Ink"
-msgstr "Inkt"
-
-#: ../data/verbal_analogies.xml.h:112
-msgid "Insects"
-msgstr "Insecten"
-
-#: ../data/verbal_analogies.xml.h:113
-msgid "Interesting"
-msgstr "Interessant"
-
-#: ../data/verbal_analogies.xml.h:114
-msgid "Intuition"
-msgstr "Intuïtie"
-
-#: ../data/verbal_analogies.xml.h:115
-msgid "Ironic"
-msgstr "Ironisch"
-
-#: ../data/verbal_analogies.xml.h:116
-msgid "Island"
-msgstr "Eiland"
-
-#. Translator: definition of negligent
-#: ../data/verbal_analogies.xml.h:118
-msgid ""
-"It is the failure to take such care as may be rightfully or reasonably "
-"expected."
-msgstr "Het nalaten om met voldoende zorg te werk te gaan."
-
-#: ../data/verbal_analogies.xml.h:119
-msgid "It is the only one that does not use a ball in the game."
-msgstr "Het is de enige die geen bal gebruikt in het spel."
-
-#: ../data/verbal_analogies.xml.h:120
-msgid "It is the only one that is not a carnivore."
-msgstr "Het is de enige die geen carnivoor is."
-
-#: ../data/verbal_analogies.xml.h:121
-msgid "It is the only one that is not a cereal."
-msgstr "Het is de enige die geen graansoort is."
-
-#: ../data/verbal_analogies.xml.h:122
-msgid "It is the only one that is not a fruit."
-msgstr "Het is de enige die geen fruit is."
-
-#: ../data/verbal_analogies.xml.h:123
-msgid "It is the only one that is not a medical specialty."
-msgstr "Het is de enige die geen medisch specialisme is."
-
-#: ../data/verbal_analogies.xml.h:124
-msgid "It is the only one that is not a metal."
-msgstr "Het is de enige die geen metaal is."
-
-#: ../data/verbal_analogies.xml.h:125
-msgid "It is the only one that is not a reptile and also does not have a tail."
-msgstr "Het is de enige die geen reptiel is en ook geen staart heeft."
-
-#: ../data/verbal_analogies.xml.h:126
-msgid "It is the only one that is not a woodwind instrument."
-msgstr "Het is de enige die geen houten blaasinstrument is."
-
-#: ../data/verbal_analogies.xml.h:127
-msgid "It is the only one that is not related to architecture."
-msgstr "Het is de enige die geen relatie heeft met architectuur."
-
-#: ../data/verbal_analogies.xml.h:128
-msgid "It is the only unit that does not belong to the metric system."
-msgstr "Het is de enige die niet tot het metrieke stelsel behoort."
-
-#: ../data/verbal_analogies.xml.h:129
-msgid "Kilometer"
-msgstr "Kilometer"
-
-#: ../data/verbal_analogies.xml.h:130
-msgid "Latitude"
-msgstr "Breedtegraden"
-
-#: ../data/verbal_analogies.xml.h:131
-msgid "Lentils"
-msgstr "Linzen"
-
-#: ../data/verbal_analogies.xml.h:132
-msgid "Light"
-msgstr "Licht"
-
-#: ../data/verbal_analogies.xml.h:133
-msgid "Liter"
-msgstr "Liter"
-
-#: ../data/verbal_analogies.xml.h:134
-msgid "Lizard"
-msgstr "Salamander"
-
-#. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:136
-msgid "Lock"
-msgstr "Slot"
-
-#: ../data/verbal_analogies.xml.h:137
-msgid "Loner"
-msgstr "Eenling"
-
-#: ../data/verbal_analogies.xml.h:138
-msgid "Lychee"
-msgstr "Lychee"
-
-#: ../data/verbal_analogies.xml.h:139
-msgid "Mango"
-msgstr "Mango"
-
-#: ../data/verbal_analogies.xml.h:140
-msgid "Martyr"
-msgstr "Martelaar"
-
-#: ../data/verbal_analogies.xml.h:141
-msgid "Misunderstood"
-msgstr "Verkeerd begrepen"
-
-#: ../data/verbal_analogies.xml.h:142
-msgid "Money"
-msgstr "Geld"
-
-#: ../data/verbal_analogies.xml.h:143
-msgid "Museum"
-msgstr "Museum"
-
-#: ../data/verbal_analogies.xml.h:144
-msgid "Oboe"
-msgstr "Hobo"
-
-#: ../data/verbal_analogies.xml.h:145
-msgid "Obscure"
-msgstr "Obscuur"
-
-#: ../data/verbal_analogies.xml.h:146
-msgid "Obvious"
-msgstr "Duidelijk"
-
-#: ../data/verbal_analogies.xml.h:147
-msgid "Occasional"
-msgstr "Af en toe"
-
-#: ../data/verbal_analogies.xml.h:148
-msgid "Offensive"
-msgstr "Offensief"
-
-#: ../data/verbal_analogies.xml.h:149
-msgid "Oligarchy"
-msgstr "Oligarchie"
-
-#: ../data/verbal_analogies.xml.h:150
-msgid "Olive"
-msgstr "Olijf"
-
-#: ../data/verbal_analogies.xml.h:151
-msgid "Onion"
-msgstr "Ui"
-
-#. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:153
-msgid "Open"
-msgstr "Openen"
-
-#. Translators: refers to the fruit
-#: ../data/verbal_analogies.xml.h:155
-msgid "Orange"
-msgstr "Sinaasappel"
-
-#: ../data/verbal_analogies.xml.h:156
-msgid "Ordinary"
-msgstr "Gewoon"
-
-#: ../data/verbal_analogies.xml.h:157
-msgid "Ostentation"
-msgstr "Praalzucht"
-
-#: ../data/verbal_analogies.xml.h:158
-msgid "Pain"
-msgstr "Pijn"
-
-#: ../data/verbal_analogies.xml.h:159
-msgid "Paleontology"
-msgstr "Paleontologie"
-
-#: ../data/verbal_analogies.xml.h:160
-msgid ""
-"Parallel and longitude traverse from east to west while meridian and "
-"latitude traverse from north to south."
-msgstr ""
-"Parallel en lengtegraden lopen van oost naar west, terwijl meridiaan en "
-"breedtegraden van noord naar zuid lopen."
-
-#. Translator: Pertaining to a single or specific person or thing
-#: ../data/verbal_analogies.xml.h:162
-msgid "Particular"
-msgstr "Specifiek"
-
-#: ../data/verbal_analogies.xml.h:163
-msgid "Person expelled from society"
-msgstr "Persoon verbannen uit de samenleving"
-
-#: ../data/verbal_analogies.xml.h:164
-msgid "Photography"
-msgstr "Fotografie"
-
-#: ../data/verbal_analogies.xml.h:165
 msgid "Pioneer"
 msgstr "Pionier"
 
-#: ../data/verbal_analogies.xml.h:166
-msgid "Pleasure"
-msgstr "Plezier"
+#. Translators: referred to the life style
+#: ../data/verbal_analogies.xml.h:36
+msgid "Bohemian"
+msgstr "Bohemien"
 
-#: ../data/verbal_analogies.xml.h:167
-msgid "Pole"
-msgstr "Pool/paal"
+#: ../data/verbal_analogies.xml.h:37
+msgid "Misunderstood"
+msgstr "Verkeerd begrepen"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
-#: ../data/verbal_analogies.xml.h:169
-msgid "Polite"
-msgstr "Beleefd"
+#: ../data/verbal_analogies.xml.h:38
+msgid "Martyr"
+msgstr "Martelaar"
 
-#: ../data/verbal_analogies.xml.h:170
-msgid "Pony / Horse"
-msgstr "Pony / paard"
+#: ../data/verbal_analogies.xml.h:39
+msgid "Which of the following sentences defines better an 'ostracized' person?"
+msgstr "Welk van de volgende zinnen omschrijft een 'verstoten' persoon beter?"
 
-#: ../data/verbal_analogies.xml.h:171
-msgid "Portico"
-msgstr "Portiek"
+#: ../data/verbal_analogies.xml.h:40
+msgid "Person expelled from society"
+msgstr "Persoon verbannen uit de samenleving"
 
-#: ../data/verbal_analogies.xml.h:172
-msgid "Positivism"
-msgstr "Positivisme"
+#: ../data/verbal_analogies.xml.h:41
+msgid "Loner"
+msgstr "Eenling"
 
-#: ../data/verbal_analogies.xml.h:173
-msgid "Potato"
-msgstr "Aardappel"
+#: ../data/verbal_analogies.xml.h:42
+msgid "Connoisseur"
+msgstr "Kenner"
 
-#: ../data/verbal_analogies.xml.h:174
-msgid "Printer"
-msgstr "Printer"
+#: ../data/verbal_analogies.xml.h:43
+msgid "Conspirator"
+msgstr "Samenzweerder"
 
-#: ../data/verbal_analogies.xml.h:175
-msgid "Property"
-msgstr "Eigendom"
+#: ../data/verbal_analogies.xml.h:44
+msgid "Which of the following words means fear of people?"
+msgstr "Welk van de volgende woorden betekent angst voor mensen?"
 
-#: ../data/verbal_analogies.xml.h:176
-msgid "Psychiatry"
-msgstr "Psychiatrie"
+#. Translators: Anthropophobia is fear of people
+#: ../data/verbal_analogies.xml.h:46
+msgid "Anthropophobia"
+msgstr "Anthropofobie"
 
-#: ../data/verbal_analogies.xml.h:177
-msgid "Radius"
-msgstr "Straal"
+#: ../data/verbal_analogies.xml.h:47
+msgid "Hypochondria"
+msgstr "Hypochondrie"
 
-#: ../data/verbal_analogies.xml.h:178
-msgid "Rare"
-msgstr "Zeldzaam"
+#. Translators: Anthophobia is fear of flowers that poses little or no danger
+#: ../data/verbal_analogies.xml.h:49
+msgid "Anthophobia"
+msgstr "Anthofobie"
 
-#: ../data/verbal_analogies.xml.h:179
-msgid "Regular"
-msgstr "Gewoon"
+#. Translators: Acrophobia is fear of heights
+#: ../data/verbal_analogies.xml.h:51
+msgid "Acrophobia"
+msgstr "Acrofobie"
 
-#: ../data/verbal_analogies.xml.h:180
-msgid "Related"
-msgstr "Vergelijkbaar"
+#: ../data/verbal_analogies.xml.h:52
+msgid "A person with excessive preoccupation for his health has?"
+msgstr "Iemand die zich te veel bezighoudt met zijn gezondheid heeft?"
 
-#: ../data/verbal_analogies.xml.h:181
-msgid "Repugnance"
-msgstr "Walging"
+#: ../data/verbal_analogies.xml.h:53
+msgid "Agoraphobia"
+msgstr "Agorafobie"
 
-#: ../data/verbal_analogies.xml.h:182
-msgid "Restaurant"
-msgstr "Restaurant"
+#. Selected to avoid physical characteristics like: has shield, legs or tail
+#: ../data/verbal_analogies.xml.h:55
+msgid "Which of the following words does not belong in this group?"
+msgstr "Welk van de volgende woorden hoort niet in het rijtje thuis?"
 
-#: ../data/verbal_analogies.xml.h:183
-msgid "Rice"
-msgstr "Rijst"
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:57
+msgid "Violin"
+msgstr "Viool"
 
-#: ../data/verbal_analogies.xml.h:184
-msgid "River"
-msgstr "Rivier"
+#: ../data/verbal_analogies.xml.h:58
+msgid "Bassoon"
+msgstr "Fagot"
 
-#: ../data/verbal_analogies.xml.h:185
-msgid "Roll"
-msgstr "Rollen"
+#: ../data/verbal_analogies.xml.h:59
+msgid "Flute"
+msgstr "Fluit"
 
-#: ../data/verbal_analogies.xml.h:186
-msgid "Sad"
-msgstr "Verdrietig"
+#: ../data/verbal_analogies.xml.h:60
+msgid "Oboe"
+msgstr "Hobo"
 
-#: ../data/verbal_analogies.xml.h:187
-msgid "Shame"
-msgstr "Schaamte"
+#: ../data/verbal_analogies.xml.h:61
+msgid "It is the only one that is not a woodwind instrument."
+msgstr "Het is de enige die geen houten blaasinstrument is."
 
-#: ../data/verbal_analogies.xml.h:188
-msgid "Ship"
-msgstr ""
+#: ../data/verbal_analogies.xml.h:62
+msgid "What is a 'halberd'?"
+msgstr "Wat is een 'hellebaard'?"
 
-#: ../data/verbal_analogies.xml.h:189
-msgid "Simplistic"
-msgstr "Simplistisch"
+#: ../data/verbal_analogies.xml.h:63
+msgid "Weapon"
+msgstr "Wapen"
 
-#: ../data/verbal_analogies.xml.h:190
-msgid "Sodium"
-msgstr "Natrium"
+#: ../data/verbal_analogies.xml.h:64
+msgid "Flower"
+msgstr "Bloem"
 
-#: ../data/verbal_analogies.xml.h:191
-msgid "Solstice"
-msgstr "Zonnewende"
+#: ../data/verbal_analogies.xml.h:65
+msgid "Fish"
+msgstr "Vis"
 
-#: ../data/verbal_analogies.xml.h:192
-msgid "Specializes in skin diseases"
-msgstr "Gespecialiseerd in huidziekten"
-
-#: ../data/verbal_analogies.xml.h:193
+#: ../data/verbal_analogies.xml.h:66
 msgid "Sport"
 msgstr "Sport"
 
-#: ../data/verbal_analogies.xml.h:194
-msgid "Suffers a skin disease"
-msgstr "Lijdt aan een huidziekte"
+#: ../data/verbal_analogies.xml.h:67
+msgid "Fossil"
+msgstr "Fossiel"
 
-#: ../data/verbal_analogies.xml.h:195
-msgid "Sugarcane"
-msgstr "Suikerriet"
+#: ../data/verbal_analogies.xml.h:68
+msgid "Portico"
+msgstr "Portiek"
 
-#: ../data/verbal_analogies.xml.h:196
-msgid "Sweet corn"
-msgstr "Suikermaïs"
+#: ../data/verbal_analogies.xml.h:69
+msgid "Column"
+msgstr "Kolom"
 
-#: ../data/verbal_analogies.xml.h:197
-msgid "Synonym"
-msgstr "Synoniem"
+#: ../data/verbal_analogies.xml.h:70
+msgid "Attic"
+msgstr "Zolder"
 
-#: ../data/verbal_analogies.xml.h:198
-msgid "Table"
-msgstr "Tafel"
+#: ../data/verbal_analogies.xml.h:71
+msgid "It is the only one that is not related to architecture."
+msgstr "Het is de enige die geen relatie heeft met architectuur."
 
-#: ../data/verbal_analogies.xml.h:199
-msgid "Tangent"
-msgstr "Raaklijn"
+#: ../data/verbal_analogies.xml.h:72
+msgid "Kilometer"
+msgstr "Kilometer"
 
-#: ../data/verbal_analogies.xml.h:200
-msgid "Tears"
-msgstr "Tranen"
+#: ../data/verbal_analogies.xml.h:73
+msgid "Hectogram"
+msgstr "Hectogram"
 
-#: ../data/verbal_analogies.xml.h:201
-msgid "Tennis"
-msgstr "Tennis"
+#: ../data/verbal_analogies.xml.h:74
+msgid "Liter"
+msgstr "Liter"
 
-#: ../data/verbal_analogies.xml.h:202
+#: ../data/verbal_analogies.xml.h:75
+msgid "Gallon"
+msgstr "Gallon"
+
+#: ../data/verbal_analogies.xml.h:76
+msgid "It is the only unit that does not belong to the metric system."
+msgstr "Het is de enige die niet tot het metrieke stelsel behoort."
+
+#. Translators: refers to the fruit
+#: ../data/verbal_analogies.xml.h:78
+msgid "Orange"
+msgstr "Sinaasappel"
+
+#: ../data/verbal_analogies.xml.h:79
+msgid "Apple"
+msgstr "Appel"
+
+#: ../data/verbal_analogies.xml.h:80
+msgid "Grape"
+msgstr "Druif"
+
+#: ../data/verbal_analogies.xml.h:81
+msgid "Potato"
+msgstr "Aardappel"
+
+#: ../data/verbal_analogies.xml.h:82
+msgid "It is the only one that is not a fruit."
+msgstr "Het is de enige die geen fruit is."
+
+#: ../data/verbal_analogies.xml.h:83
+msgid "Turtle"
+msgstr "Schildpad"
+
+#: ../data/verbal_analogies.xml.h:84
+msgid "Crocodile"
+msgstr "Krokodil"
+
+#: ../data/verbal_analogies.xml.h:85
+msgid "Lizard"
+msgstr "Salamander"
+
+#: ../data/verbal_analogies.xml.h:86
+msgid "Frog"
+msgstr "Kikker"
+
+#: ../data/verbal_analogies.xml.h:87
+msgid "It is the only one that is not a reptile and also does not have a tail."
+msgstr "Het is de enige die geen reptiel is en ook geen staart heeft."
+
+#: ../data/verbal_analogies.xml.h:88
+msgid "Tiger"
+msgstr "Tijger"
+
+#: ../data/verbal_analogies.xml.h:89
+msgid "Hyena"
+msgstr "Hyena"
+
+#: ../data/verbal_analogies.xml.h:90
+msgid "Wolf"
+msgstr "Wolf"
+
+#: ../data/verbal_analogies.xml.h:91
+msgid "Deer"
+msgstr "Hert"
+
+#: ../data/verbal_analogies.xml.h:92
+msgid "It is the only one that is not a carnivore."
+msgstr "Het is de enige die geen carnivoor is."
+
+#: ../data/verbal_analogies.xml.h:93
+msgid "Which of the following words is closest to the meaning of 'hedonism'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'hedonisme'?"
+
+#: ../data/verbal_analogies.xml.h:94
+msgid "Pleasure"
+msgstr "Plezier"
+
+#: ../data/verbal_analogies.xml.h:95
+msgid "Pain"
+msgstr "Pijn"
+
+#: ../data/verbal_analogies.xml.h:96
+msgid "Collectivism"
+msgstr "Collectivisme"
+
+#: ../data/verbal_analogies.xml.h:97
+msgid "Abstinence"
+msgstr "Onthouding"
+
+#: ../data/verbal_analogies.xml.h:98
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
 "De ethische leer die stelt dat alleen dat wat prettig is daadwerkelijk goed "
 "is."
 
-#: ../data/verbal_analogies.xml.h:203
-msgid "The first word is the instrument and the second what it measures."
-msgstr "Het eerste woord is het instrument en het tweede wat gemeten wordt."
+#: ../data/verbal_analogies.xml.h:99
+msgid "Which of the following words is closest to the meaning of 'asceticism'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'ascetisme'?"
 
-#: ../data/verbal_analogies.xml.h:204
-msgid "The other words have the connotation of not occurring frequently."
-msgstr "De andere woorden impliceren dat het niet vaak voorkomt."
+#: ../data/verbal_analogies.xml.h:100
+msgid "Positivism"
+msgstr "Positivisme"
 
-#: ../data/verbal_analogies.xml.h:205
-msgid "The other words have the meaning of distinguished."
-msgstr "De andere woorden betekenen onderscheiden."
-
-#: ../data/verbal_analogies.xml.h:206
+#: ../data/verbal_analogies.xml.h:101
 msgid ""
 "The practice of austere self-discipline in order to achieve a higher or "
 "spiritual idea."
@@ -1456,35 +1057,875 @@ msgstr ""
 "Door soberheid en zelfdiscipline proberen een hoger spiritueel bewustzijn te "
 "bereiken."
 
-#: ../data/verbal_analogies.xml.h:207
-msgid "The radius of a circle is half the diameter."
-msgstr "De straal van een cirkel is de helft van de diameter."
+#: ../data/verbal_analogies.xml.h:102
+msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'oxymoron'?"
 
-#: ../data/verbal_analogies.xml.h:208
-msgid "The relation between the two words is that they are synonymous."
-msgstr "De relatie tussen de twee woorden is dat het synoniemen zijn."
+#: ../data/verbal_analogies.xml.h:103
+msgid "Contradictory"
+msgstr "Tegenstrijdig"
 
-#: ../data/verbal_analogies.xml.h:209
-msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "Het woord 'taxidermist' duidt een persoon aan die?"
+#: ../data/verbal_analogies.xml.h:104
+msgid "Synonym"
+msgstr "Synoniem"
 
-#: ../data/verbal_analogies.xml.h:210
-msgid "Theater"
-msgstr "Theater"
+#: ../data/verbal_analogies.xml.h:105
+msgid "Related"
+msgstr "Vergelijkbaar"
 
-#: ../data/verbal_analogies.xml.h:211
-msgid "Think of the items used in the game."
-msgstr "Denk aan de onderdelen die gebruikt worden in het spel."
+#: ../data/verbal_analogies.xml.h:106
+msgid "Ironic"
+msgstr "Ironisch"
 
-#: ../data/verbal_analogies.xml.h:212
-msgid "Tiger"
-msgstr "Tijger"
+#: ../data/verbal_analogies.xml.h:107
+msgid "A figure of speech that combines contradicting terms."
+msgstr "Een zegswijze die tegengestelde termen gebruikt."
 
-#: ../data/verbal_analogies.xml.h:213
+#: ../data/verbal_analogies.xml.h:108
+msgid "Lentils"
+msgstr "Linzen"
+
+#: ../data/verbal_analogies.xml.h:109
+msgid "Wheat"
+msgstr "Tarwe"
+
+#: ../data/verbal_analogies.xml.h:110
+msgid "Corn"
+msgstr "Maïs"
+
+#: ../data/verbal_analogies.xml.h:111
+msgid "Rice"
+msgstr "Rijst"
+
+#: ../data/verbal_analogies.xml.h:112
+msgid "It is the only one that is not a cereal."
+msgstr "Het is de enige die geen graansoort is."
+
+#: ../data/verbal_analogies.xml.h:113
+msgid "Onion"
+msgstr "Ui"
+
+#: ../data/verbal_analogies.xml.h:114
+msgid "Mango"
+msgstr "Mango"
+
+#: ../data/verbal_analogies.xml.h:115
+msgid "Lychee"
+msgstr "Lychee"
+
+#: ../data/verbal_analogies.xml.h:116
+msgid "Olive"
+msgstr "Olijf"
+
+#: ../data/verbal_analogies.xml.h:117
+msgid "Carbon"
+msgstr "Koolstof"
+
+#: ../data/verbal_analogies.xml.h:118
+msgid "Sodium"
+msgstr "Natrium"
+
+#: ../data/verbal_analogies.xml.h:119
 msgid "Titanium"
 msgstr "Titanium"
 
+#: ../data/verbal_analogies.xml.h:120
+msgid "Zinc"
+msgstr "Zink"
+
+#: ../data/verbal_analogies.xml.h:121
+msgid "It is the only one that is not a metal."
+msgstr "Het is de enige die geen metaal is."
+
+#: ../data/verbal_analogies.xml.h:122
+msgid "Cardiology"
+msgstr "Cardiologie"
+
+#: ../data/verbal_analogies.xml.h:123
+msgid "Hematology"
+msgstr "Hematologie"
+
+#: ../data/verbal_analogies.xml.h:124
+msgid "Psychiatry"
+msgstr "Psychiatrie"
+
+#: ../data/verbal_analogies.xml.h:125
+msgid "Paleontology"
+msgstr "Paleontologie"
+
+#: ../data/verbal_analogies.xml.h:126
+msgid "It is the only one that is not a medical specialty."
+msgstr "Het is de enige die geen medisch specialisme is."
+
+#: ../data/verbal_analogies.xml.h:127
+msgid "Which of the following words is closest to the meaning of 'negligent'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'nalatig'?"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:129
+msgid "Careless"
+msgstr "Onzorgvuldig"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:131
+msgid "Friendly"
+msgstr "Vriendelijk"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:133
+msgid "Polite"
+msgstr "Beleefd"
+
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
+#: ../data/verbal_analogies.xml.h:135
+msgid "Angry"
+msgstr "Kwaad"
+
+#. Translator: definition of negligent
+#: ../data/verbal_analogies.xml.h:137
+msgid ""
+"It is the failure to take such care as may be rightfully or reasonably "
+"expected."
+msgstr "Het nalaten om met voldoende zorg te werk te gaan."
+
+#: ../data/verbal_analogies.xml.h:138
+msgid "Regular"
+msgstr "Gewoon"
+
+#: ../data/verbal_analogies.xml.h:139
+msgid "Occasional"
+msgstr "Af en toe"
+
+#: ../data/verbal_analogies.xml.h:140
+msgid "Exceptional"
+msgstr "Uitzonderlijk"
+
+#: ../data/verbal_analogies.xml.h:141
+msgid "Rare"
+msgstr "Zeldzaam"
+
+#: ../data/verbal_analogies.xml.h:142
+msgid "The other words have the connotation of not occurring frequently."
+msgstr "De andere woorden impliceren dat het niet vaak voorkomt."
+
+#: ../data/verbal_analogies.xml.h:143
+msgid "Which of the following words is closest to the meaning of 'perplexing'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'verwarrend'?"
+
+#. Translator: As synonymous of 'perplexing'
+#: ../data/verbal_analogies.xml.h:145
+msgid "Confusing"
+msgstr "Verwarrend"
+
+#: ../data/verbal_analogies.xml.h:146
+msgid "Interesting"
+msgstr "Interessant"
+
+#: ../data/verbal_analogies.xml.h:147
+msgid "Ordinary"
+msgstr "Gewoon"
+
+#: ../data/verbal_analogies.xml.h:148
+msgid "Trivial"
+msgstr "Triviaal"
+
+#: ../data/verbal_analogies.xml.h:149
+msgid "Which of the following words is closest to the meaning of 'unhappy'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'ongelukkig'?"
+
+#: ../data/verbal_analogies.xml.h:150
+msgid "Sad"
+msgstr "Verdrietig"
+
+#: ../data/verbal_analogies.xml.h:151
+msgid "Unpleasant"
+msgstr "Onplezierig"
+
+#: ../data/verbal_analogies.xml.h:152
+msgid "Tears"
+msgstr "Tranen"
+
+#: ../data/verbal_analogies.xml.h:153
+msgid "Incredible"
+msgstr "Ongelofelijk"
+
+#: ../data/verbal_analogies.xml.h:154
+msgid "Famous"
+msgstr "Beroemd"
+
+#: ../data/verbal_analogies.xml.h:155
+msgid "Acclaimed"
+msgstr "Geprezen"
+
+#: ../data/verbal_analogies.xml.h:156
+msgid "Celebrated"
+msgstr "Gevierd"
+
+#: ../data/verbal_analogies.xml.h:157
+msgid "The other words have the meaning of distinguished."
+msgstr "De andere woorden betekenen onderscheiden."
+
+#: ../data/verbal_analogies.xml.h:158
+msgid "Which of the following words is closest to the meaning of 'specific'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'specifiek'?"
+
+#. Translator: Pertaining to a single or specific person or thing
+#: ../data/verbal_analogies.xml.h:160
+msgid "Particular"
+msgstr "Specifiek"
+
+#: ../data/verbal_analogies.xml.h:161
+msgid "Obvious"
+msgstr "Duidelijk"
+
+#: ../data/verbal_analogies.xml.h:162
+msgid "Generic"
+msgstr "Algemeen"
+
+#: ../data/verbal_analogies.xml.h:163
+#| msgid "Related"
+msgid "Plate"
+msgstr "Bord"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:165
+msgid "Bottle"
+msgstr "Fles"
+
+#: ../data/verbal_analogies.xml.h:166
+msgid "Amphora"
+msgstr "Amfora"
+
+#: ../data/verbal_analogies.xml.h:167
+msgid "Bowl"
+msgstr "Schaal"
+
+#: ../data/verbal_analogies.xml.h:168
+#| msgid "It is the only one that is not a fruit."
+msgid "It is the only one that is not used to storage liquids."
+msgstr ""
+"Het is de enige die niet wordt gebruikt voor de opslag van vloeistoffen."
+
+#: ../data/verbal_analogies.xml.h:169
+msgid "Walnut"
+msgstr "Walnoot"
+
+#. Translator: In reference to the nut
+#: ../data/verbal_analogies.xml.h:171
+msgid "Macadamia"
+msgstr "Macadamia"
+
+#: ../data/verbal_analogies.xml.h:172
+#| msgid "chest"
+msgid "Chestnut"
+msgstr "Kastanje"
+
+#: ../data/verbal_analogies.xml.h:173
+#| msgid "It is the only one that is not a fruit."
+msgid "It is the only one that is not a nut."
+msgstr "Het is de enige die geen noot is."
+
+#: ../data/verbal_analogies.xml.h:174
+#| msgid ""
+#| "Which of the following words is closest to the meaning of 'asceticism'?"
+msgid "Which of the following words is closest to the meaning of 'acclaim'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'bijval'?"
+
+#: ../data/verbal_analogies.xml.h:175
+#| msgid "Apple"
+msgid "Applause"
+msgstr "Applaus"
+
+#: ../data/verbal_analogies.xml.h:176
+#| msgid "Ostentation"
+msgid "Commendation"
+msgstr "Lof"
+
+#: ../data/verbal_analogies.xml.h:177
+#| msgid "Fixation"
+msgid "Citation"
+msgstr "Citaat"
+
+#. Translator: As a noun (call upon a spirit by invocation)
+#: ../data/verbal_analogies.xml.h:179
+msgid "Conjure"
+msgstr "Bezwering"
+
+#: ../data/verbal_analogies.xml.h:180
+#| msgid ""
+#| "Which of the following words is closest to the meaning of 'negligent'?"
+msgid "Which of the following words is closest to the meaning of 'grief'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'verdriet'?"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:182
+msgid "Lament"
+msgstr "Klaaglied"
+
+#: ../data/verbal_analogies.xml.h:183
+msgid "Fraud"
+msgstr "Bedrog"
+
+#: ../data/verbal_analogies.xml.h:184
+msgid "Intolerance"
+msgstr "Onverdraagzaamheid"
+
+#: ../data/verbal_analogies.xml.h:185
+msgid "Risk"
+msgstr "Risico"
+
+#: ../data/verbal_analogies.xml.h:186
+#| msgid ""
+#| "Which of the following words is closest to the meaning of 'specific'?"
+msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
+msgstr ""
+"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
+"van 'flegmatisch'?"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:188
+msgid "Calm"
+msgstr "Kalm"
+
+#: ../data/verbal_analogies.xml.h:189
+msgid "Authentic"
+msgstr "Authentiek"
+
+#: ../data/verbal_analogies.xml.h:190
+#| msgid "Lever"
+msgid "Clever"
+msgstr "Slim"
+
+#: ../data/verbal_analogies.xml.h:191
+msgid "Tense"
+msgstr "Gespannen"
+
+#: ../data/verbal_analogies.xml.h:192
+#| msgid "Concert hall"
+msgid "Concert"
+msgstr "Concert"
+
+#: ../data/verbal_analogies.xml.h:193
+msgid "Satire"
+msgstr "Satire"
+
+#: ../data/verbal_analogies.xml.h:194
+msgid "Proverb"
+msgstr "Spreekwoord"
+
+#: ../data/verbal_analogies.xml.h:195
+#| msgid "Enneagram"
+msgid "Epigram"
+msgstr "Epigram"
+
+#: ../data/verbal_analogies.xml.h:196
+#| msgid "It is the only one that is not related to architecture."
+msgid "It is the only one that is not related to literature."
+msgstr "Het is de enige die geen relatie heeft met literatuur."
+
+#: ../data/verbal_analogies.xml.h:197
+msgid "Curve"
+msgstr "Curve"
+
+#: ../data/verbal_analogies.xml.h:198
+msgid "Cathetus"
+msgstr "Loodlijn"
+
+#: ../data/verbal_analogies.xml.h:199
+msgid "Hypotenuse"
+msgstr "Hypotenuse"
+
+#: ../data/verbal_analogies.xml.h:200
+msgid "Trigonometry"
+msgstr "Trigonometrie"
+
+#: ../data/verbal_analogies.xml.h:201
+#| msgid "It is the only one that is not related to architecture."
+msgid "It is the only one that is not related with triangles."
+msgstr "Het is de enige die geen relatie heeft met driehoeken."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:203
+msgid "Necklace"
+msgstr "Halsketting"
+
+#: ../data/verbal_analogies.xml.h:204
+msgid "Candelabra"
+msgstr "Kandelaber"
+
+#: ../data/verbal_analogies.xml.h:205
+msgid "Lantern"
+msgstr "Lantaarn"
+
+#: ../data/verbal_analogies.xml.h:206
+msgid "Lamp"
+msgstr "Lamp"
+
+#: ../data/verbal_analogies.xml.h:207
+#| msgid "It is the only one that is not a fruit."
+msgid "It is the only one that does not produce light."
+msgstr "Het is de enige die geen licht produceert."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:209
+msgid "Shield"
+msgstr "Schild"
+
+#: ../data/verbal_analogies.xml.h:210
+msgid "Helmet"
+msgstr "Helm"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:212
+msgid "Armor"
+msgstr "Harnas"
+
+#: ../data/verbal_analogies.xml.h:213
+msgid "Crossbow"
+msgstr "Kruisboog"
+
 #: ../data/verbal_analogies.xml.h:214
+#| msgid "It is the only one that is not a reptile."
+msgid "It is the only one that is not used for protection."
+msgstr "Het is de enige die niet wordt gebruikt voor de verdediging."
+
+#: ../data/verbal_analogies.xml.h:215
+msgid "Monolith"
+msgstr "Monoliet"
+
+#: ../data/verbal_analogies.xml.h:216
+msgid "Granite"
+msgstr "Graniet"
+
+#: ../data/verbal_analogies.xml.h:217
+msgid "Rock"
+msgstr "Rots"
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:219
+msgid "Tree"
+msgstr "Boom"
+
+#: ../data/verbal_analogies.xml.h:220
+#| msgid "It is the only one that is not related to architecture."
+msgid "It is the only one that is not related to rocks."
+msgstr "Het is de enige die geen relatie heeft met stenen."
+
+#. Translator: As a noun
+#: ../data/verbal_analogies.xml.h:222
+msgid "Carrot"
+msgstr "Wortel"
+
+#: ../data/verbal_analogies.xml.h:223
+msgid "Beet"
+msgstr "Biet"
+
+#: ../data/verbal_analogies.xml.h:224
+#| msgid "Radius"
+msgid "Radish"
+msgstr "Radijs"
+
+#: ../data/verbal_analogies.xml.h:225
+msgid "Tomato"
+msgstr "Tomaat"
+
+#: ../data/verbal_analogies.xml.h:226
+#| msgid "It is the only one that is not a fruit."
+msgid "It is the only one that does not have roots."
+msgstr "Het is de enige die geen wortels heeft."
+
+#. Translator: Organ as a musical instrument
+#: ../data/verbal_analogies.xml.h:228
+msgid "Organ"
+msgstr "Orgel"
+
+#: ../data/verbal_analogies.xml.h:229
+msgid "Piano"
+msgstr "Piano"
+
+#: ../data/verbal_analogies.xml.h:230
+msgid "Accordion"
+msgstr "Accordeon"
+
+#. Translator: 'keys' as the ones found in a keyboard
+#: ../data/verbal_analogies.xml.h:232
+#| msgid "It is the only one that is not a metal."
+msgid "It is the only instrument that does not have keys."
+msgstr "Het is het enige instrument dat geen toetsen heeft."
+
+#: ../data/verbal_analogies.xml.h:233
+msgid "car / garage | plane"
+msgstr "auto / garage | vliegtuig"
+
+#: ../data/verbal_analogies.xml.h:234
+msgid "Hangar"
+msgstr "Hangar"
+
+#: ../data/verbal_analogies.xml.h:235
+msgid "Airline"
+msgstr "Luchtvaartmaatschappij"
+
+#: ../data/verbal_analogies.xml.h:236
+msgid "Aircraft"
+msgstr "Vliegtuig"
+
+#: ../data/verbal_analogies.xml.h:237
+msgid "Bunker"
+msgstr "Bunker"
+
+#: ../data/verbal_analogies.xml.h:238
+msgid "circle / semicircle | diameter"
+msgstr "cirkel / halve cirkel | diameter"
+
+#: ../data/verbal_analogies.xml.h:239
+msgid "Radius"
+msgstr "Straal"
+
+#: ../data/verbal_analogies.xml.h:240
+msgid "Chord"
+msgstr "Akkoord"
+
+#: ../data/verbal_analogies.xml.h:241
+msgid "Tangent"
+msgstr "Raaklijn"
+
+#: ../data/verbal_analogies.xml.h:242
+msgid "Angle"
+msgstr "Hoek"
+
+#: ../data/verbal_analogies.xml.h:243
+msgid "The radius of a circle is half the diameter."
+msgstr "De straal van een cirkel is de helft van de diameter."
+
+#: ../data/verbal_analogies.xml.h:244
+msgid "talk / yell | dislike"
+msgstr "praten / gillen | afkeer"
+
+#: ../data/verbal_analogies.xml.h:245
+msgid "Repugnance"
+msgstr "Walging"
+
+#: ../data/verbal_analogies.xml.h:246
+msgid "Offensive"
+msgstr "Offensief"
+
+#: ../data/verbal_analogies.xml.h:247
+msgid "Shame"
+msgstr "Schaamte"
+
+#: ../data/verbal_analogies.xml.h:248
+msgid "Ostentation"
+msgstr "Praalzucht"
+
+#: ../data/verbal_analogies.xml.h:249
+msgid "write / pen | eat"
+msgstr "schrijven / pen | eten"
+
+#: ../data/verbal_analogies.xml.h:250
+msgid "Fork"
+msgstr "Vork"
+
+#: ../data/verbal_analogies.xml.h:251
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../data/verbal_analogies.xml.h:252
+msgid "Winery"
+msgstr "Wijnmakerij"
+
+#: ../data/verbal_analogies.xml.h:253
+msgid "Table"
+msgstr "Tafel"
+
+#: ../data/verbal_analogies.xml.h:254
+msgid "A pen is used to write and a fork is used to eat."
+msgstr "Een pen wordt gebruikt om te schrijven en een vork om te eten."
+
+#: ../data/verbal_analogies.xml.h:255
+msgid "desert / oasis | sea"
+msgstr "woestijn / oase | zee"
+
+#: ../data/verbal_analogies.xml.h:256
+msgid "Island"
+msgstr "Eiland"
+
+#: ../data/verbal_analogies.xml.h:257
+msgid "River"
+msgstr "Rivier"
+
+#: ../data/verbal_analogies.xml.h:258
+msgid "Beach"
+msgstr "Strand"
+
+#: ../data/verbal_analogies.xml.h:259
+msgid "Coast"
+msgstr "Kust"
+
+#: ../data/verbal_analogies.xml.h:260
+msgid ""
+"An oasis is an isolated area of vegetation in a desert and an island is a "
+"piece of isolated land that is surrounded by water."
+msgstr ""
+"Een oase is een geïsoleerd gebied met vegetatie in een woestijn en een "
+"eiland is een geïsoleerd stuk land omgeven door water."
+
+#. Translators: letter refers to letter (in paper form)
+#: ../data/verbal_analogies.xml.h:262
+msgid "turtle / shell | letter"
+msgstr "schildpad / schild | brief"
+
+#: ../data/verbal_analogies.xml.h:263
+msgid "Envelope"
+msgstr "Envelop"
+
+#: ../data/verbal_analogies.xml.h:264
+msgid "Ink"
+msgstr "Inkt"
+
+#: ../data/verbal_analogies.xml.h:265
+msgid "Printer"
+msgstr "Printer"
+
+#: ../data/verbal_analogies.xml.h:266
+msgid "Cellulose"
+msgstr "Cellulose"
+
+#: ../data/verbal_analogies.xml.h:267
+msgid "A turtle is inside a shell and a letter is inside an envelope."
+msgstr "Een schildpad zit in een schild en een brief zit in een envelop."
+
+#: ../data/verbal_analogies.xml.h:268
+msgid "wine / grape | rum"
+msgstr "wijn / druif | rum"
+
+#: ../data/verbal_analogies.xml.h:269
+msgid "Sugarcane"
+msgstr "Suikerriet"
+
+#: ../data/verbal_analogies.xml.h:270
+msgid "Grain"
+msgstr "Graan"
+
+#: ../data/verbal_analogies.xml.h:271
+msgid "Sweet corn"
+msgstr "Suikermaïs"
+
+#: ../data/verbal_analogies.xml.h:272
+msgid "horticulture / plants | ornithology"
+msgstr "tuinbouw / planten | vogelkunde"
+
+#: ../data/verbal_analogies.xml.h:273
+msgid "Birds"
+msgstr "Vogels"
+
+#: ../data/verbal_analogies.xml.h:274
+msgid "Insects"
+msgstr "Insecten"
+
+#: ../data/verbal_analogies.xml.h:275
+msgid "Amphibians"
+msgstr "Amfibieën"
+
+#: ../data/verbal_analogies.xml.h:276
+msgid "Fishes"
+msgstr "Vissen"
+
+#: ../data/verbal_analogies.xml.h:277
+msgid "thankful / ingratitude | despotism"
+msgstr "dankbaar / ondankbaar | despotisme"
+
+#: ../data/verbal_analogies.xml.h:278
+msgid "Democracy"
+msgstr "Democratie"
+
+#: ../data/verbal_analogies.xml.h:279
+msgid "Totalitarianism"
+msgstr "Totalitarisme"
+
+#: ../data/verbal_analogies.xml.h:280
+msgid "Oligarchy"
+msgstr "Oligarchie"
+
+#: ../data/verbal_analogies.xml.h:281
+msgid "Authority"
+msgstr "Autoriteit"
+
+#: ../data/verbal_analogies.xml.h:282
+msgid "pessimist / optimist | poor"
+msgstr "pessimist / optimist | arm"
+
+#. Translators: Affluent as antonym of poor, that is, somebody that is rich
+#: ../data/verbal_analogies.xml.h:284
+msgid "Affluent"
+msgstr "Welgesteld"
+
+#: ../data/verbal_analogies.xml.h:285
+msgid "Homeless"
+msgstr "Dakloos"
+
+#: ../data/verbal_analogies.xml.h:286
+msgid "Property"
+msgstr "Eigendom"
+
+#: ../data/verbal_analogies.xml.h:287
+msgid "Money"
+msgstr "Geld"
+
+#: ../data/verbal_analogies.xml.h:288
+msgid "five / pentagon | ten"
+msgstr "vijf / vijfhoek | tien"
+
+#: ../data/verbal_analogies.xml.h:289
+msgid "Decagon"
+msgstr "Tienhoek"
+
+#: ../data/verbal_analogies.xml.h:290
+msgid "Enneagram"
+msgstr "Negenpuntige ster"
+
+#: ../data/verbal_analogies.xml.h:291
+msgid "Icosagon"
+msgstr "Twintigzijdige veelhoek"
+
+#: ../data/verbal_analogies.xml.h:292
+msgid "Decimal"
+msgstr "Decimaal"
+
+#: ../data/verbal_analogies.xml.h:293
+msgid "parallel / meridian | longitude"
+msgstr "parallel / meridiaan | lengtegraad"
+
+#: ../data/verbal_analogies.xml.h:294
+msgid "Latitude"
+msgstr "Breedtegraden"
+
+#: ../data/verbal_analogies.xml.h:295
+msgid "Solstice"
+msgstr "Zonnewende"
+
+#: ../data/verbal_analogies.xml.h:296
+msgid "Pole"
+msgstr "Pool/paal"
+
+#: ../data/verbal_analogies.xml.h:297
+msgid "Azimuth"
+msgstr "Azimut"
+
+#: ../data/verbal_analogies.xml.h:298
+msgid ""
+"Parallel and longitude traverse from east to west while meridian and "
+"latitude traverse from north to south."
+msgstr ""
+"Parallel en lengtegraden lopen van oost naar west, terwijl meridiaan en "
+"breedtegraden van noord naar zuid lopen."
+
+#: ../data/verbal_analogies.xml.h:299
+msgid "art / gallery | drama"
+msgstr "kunst / gallerij | drama"
+
+#: ../data/verbal_analogies.xml.h:300
+msgid "Theater"
+msgstr "Theater"
+
+#: ../data/verbal_analogies.xml.h:301
+msgid "Museum"
+msgstr "Museum"
+
+#: ../data/verbal_analogies.xml.h:302
+msgid "Concert hall"
+msgstr "Concertzaal"
+
+#: ../data/verbal_analogies.xml.h:303
+msgid "Gym"
+msgstr "Gym"
+
+#: ../data/verbal_analogies.xml.h:304
+msgid "hunter / rifle | photographer"
+msgstr "jager / geweer | fotograaf"
+
+#: ../data/verbal_analogies.xml.h:305
+msgid "Camera"
+msgstr "Camera"
+
+#. Translators: tripod as used is photography
+#: ../data/verbal_analogies.xml.h:307
+msgid "Tripod"
+msgstr "Statief"
+
+#: ../data/verbal_analogies.xml.h:308
+msgid "Photography"
+msgstr "Fotografie"
+
+#: ../data/verbal_analogies.xml.h:309
+msgid "Light"
+msgstr "Licht"
+
+#: ../data/verbal_analogies.xml.h:310
+msgid "dish / break | balloon"
+msgstr "bord / breken | ballon"
+
+#. Translators: like 'he burst the balloon'
+#: ../data/verbal_analogies.xml.h:312
+#| msgid "Bursts"
+msgid "Burst"
+msgstr "Knallen"
+
+#: ../data/verbal_analogies.xml.h:313
+msgid "Bounce"
+msgstr "Stuiteren"
+
+#: ../data/verbal_analogies.xml.h:314
+msgid "Float"
+msgstr "Drijven"
+
+#: ../data/verbal_analogies.xml.h:315
+msgid "Roll"
+msgstr "Rollen"
+
+#: ../data/verbal_analogies.xml.h:316
+msgid "Both relate to an action that breaks the related item."
+msgstr ""
+"Beide hebben betrekking op een handeling die het bijbehorende object "
+"stukmaakt."
+
+#: ../data/verbal_analogies.xml.h:317
+msgid "button / push | key (used in a lock)"
+msgstr "knop / indrukken | sleutel (van een slot)"
+
+#: ../data/verbal_analogies.xml.h:318
+msgid "Turn"
+msgstr "Draaien"
+
+#. Translator: 'Open' as verb, like open with a key
+#: ../data/verbal_analogies.xml.h:320
+msgid "Open"
+msgstr "Openen"
+
+#. Translator: 'Lock' as verb, like locked with a key
+#: ../data/verbal_analogies.xml.h:322
+msgid "Lock"
+msgstr "Slot"
+
+#. Translator: 'Close' as verb, like closed with a key
+#: ../data/verbal_analogies.xml.h:324
+msgid "Close"
+msgstr "Sluiten"
+
+#: ../data/verbal_analogies.xml.h:325
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1492,552 +1933,479 @@ msgstr ""
 "Om beide objecten te laten werken moet een knop ingedrukt en een sleutel "
 "omgedraaid worden."
 
-#: ../data/verbal_analogies.xml.h:215
-msgid "Totalitarianism"
-msgstr "Totalitarisme"
-
-#. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:217
-msgid "Tripod"
-msgstr "Statief"
-
-#: ../data/verbal_analogies.xml.h:218
-msgid "Trivial"
-msgstr "Triviaal"
-
-#: ../data/verbal_analogies.xml.h:219
-msgid "Turn"
-msgstr "Draaien"
-
-#: ../data/verbal_analogies.xml.h:220
-msgid "Turtle"
-msgstr "Schildpad"
-
-#: ../data/verbal_analogies.xml.h:221
-msgid "Unorthodox"
-msgstr "Onorthodox"
-
-#: ../data/verbal_analogies.xml.h:222
-msgid "Unpleasant"
-msgstr "Onplezierig"
-
-#: ../data/verbal_analogies.xml.h:223
-msgid "Violin"
-msgstr "Viool"
-
-#: ../data/verbal_analogies.xml.h:224
-msgid "Weapon"
-msgstr "Wapen"
-
-#: ../data/verbal_analogies.xml.h:225
-msgid "What is a 'halberd'?"
-msgstr "Wat is een 'hellebaard'?"
-
-#: ../data/verbal_analogies.xml.h:226
-msgid "Wheat"
-msgstr "Tarwe"
-
-#: ../data/verbal_analogies.xml.h:227
-msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr "Welk van de volgende zinnen omschrijft een 'verstoten' persoon beter?"
-
-#.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
-#.
-#: ../data/verbal_analogies.xml.h:231
-msgid "Which of the following sports does not belong in this group?"
-msgstr "Welk van de volgende sporten hoort niet in het rijtje thuis?"
-
-#. Selected to avoid physical characteristics like: has shield, legs or tail
-#: ../data/verbal_analogies.xml.h:233
-msgid "Which of the following words does not belong in this group?"
-msgstr "Welk van de volgende woorden hoort niet in het rijtje thuis?"
-
-#: ../data/verbal_analogies.xml.h:234
-msgid "Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'ascetisme'?"
-
-#: ../data/verbal_analogies.xml.h:235
-msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'hedonisme'?"
-
-#: ../data/verbal_analogies.xml.h:236
-msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'nalatig'?"
-
-#: ../data/verbal_analogies.xml.h:237
-msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'oxymoron'?"
-
-#: ../data/verbal_analogies.xml.h:238
-msgid "Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'verwarrend'?"
-
-#: ../data/verbal_analogies.xml.h:239
-msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'specifiek'?"
-
-#: ../data/verbal_analogies.xml.h:240
-msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'ongelukkig'?"
-
-#: ../data/verbal_analogies.xml.h:241
-msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr ""
-"Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
-"van 'censureren'?"
-
-#: ../data/verbal_analogies.xml.h:242
-msgid "Which of the following words means fear of people?"
-msgstr "Welk van de volgende woorden betekent angst voor mensen?"
-
-#: ../data/verbal_analogies.xml.h:243
-msgid "Winery"
-msgstr "Wijnmakerij"
-
-#: ../data/verbal_analogies.xml.h:244
-#, fuzzy
-msgid "Wings"
-msgstr "vleugels"
-
-#: ../data/verbal_analogies.xml.h:245
-msgid "Wolf"
-msgstr "Wolf"
-
-#: ../data/verbal_analogies.xml.h:246
-msgid "Works with dead animals"
-msgstr "Werkt met dode dieren"
-
-#: ../data/verbal_analogies.xml.h:247
-msgid "Works with leather"
-msgstr "Werkt met leer"
-
-#: ../data/verbal_analogies.xml.h:248
-msgid "Zinc"
-msgstr "Zink"
-
-#: ../data/verbal_analogies.xml.h:249
-msgid "airplane | aeroplane | plane"
-msgstr "vliegtuig"
-
-#: ../data/verbal_analogies.xml.h:250
-msgid "ankle"
-msgstr "enkel"
-
-#: ../data/verbal_analogies.xml.h:251
-msgid "art / gallery | drama"
-msgstr "kunst / gallerij | drama"
-
-#: ../data/verbal_analogies.xml.h:252
-msgid "atlas"
-msgstr "atlas"
-
-#: ../data/verbal_analogies.xml.h:253
-msgid "bite"
-msgstr "bijten"
-
-#: ../data/verbal_analogies.xml.h:254
-msgid "body | skin"
-msgstr "lichaam | huid"
-
-#: ../data/verbal_analogies.xml.h:255
-msgid "book | magazine | document"
-msgstr "boek | tijdschrift | document"
-
-#. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:257
-msgid "box / open | banana"
-msgstr "doos / openen | banaan"
-
-#: ../data/verbal_analogies.xml.h:258
-msgid "bridge / over | tunnel"
-msgstr "brug / over | tunnel"
-
-#: ../data/verbal_analogies.xml.h:259
-msgid "button / push | key (used in a lock)"
-msgstr "knop / indrukken | sleutel (van een slot)"
-
-#: ../data/verbal_analogies.xml.h:260
-msgid "cage | zoo | zoological garden"
-msgstr "kooi | dierentuin"
-
-#: ../data/verbal_analogies.xml.h:261
-msgid "car / garage | plane"
-msgstr "auto / garage | vliegtuig"
-
-#: ../data/verbal_analogies.xml.h:262
-msgid "car / road | train"
-msgstr "auto / weg | trein"
-
-#. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:264
-msgid "chop"
-msgstr "hakken"
-
-#: ../data/verbal_analogies.xml.h:265
-msgid "circle / semicircle | diameter"
-msgstr "cirkel / halve cirkel | diameter"
-
-#: ../data/verbal_analogies.xml.h:266
-msgid "coins"
-msgstr "munten"
-
-#: ../data/verbal_analogies.xml.h:267
-msgid "composer | songwriter | lyricist"
-msgstr "componist | songwriter | liedjesschrijver"
-
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
 msgstr "concept / idee | obsessie"
 
-#: ../data/verbal_analogies.xml.h:269
-msgid "constellation / stars | archipelago"
-msgstr "sterrenbeeld / sterren | archipel"
+#. As a synonym of obsession
+#: ../data/verbal_analogies.xml.h:328
+msgid "Fixation"
+msgstr "Fixatie"
 
-#. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:271
-msgid "dance"
-msgstr "dans"
+#: ../data/verbal_analogies.xml.h:329
+msgid "Indifference"
+msgstr "Onverschillig"
 
-#: ../data/verbal_analogies.xml.h:272
-msgid "desert / oasis | sea"
-msgstr "woestijn / oase | zee"
+#: ../data/verbal_analogies.xml.h:330
+msgid "Disinterest"
+msgstr "Desinteresse"
 
-#: ../data/verbal_analogies.xml.h:273
-msgid "dish / break | balloon"
-msgstr "bord / breken | ballon"
+#: ../data/verbal_analogies.xml.h:331
+msgid "Intuition"
+msgstr "Intuïtie"
 
-#: ../data/verbal_analogies.xml.h:274
-msgid "dog / tame | wolf"
-msgstr "hond / tam | wolf"
+#: ../data/verbal_analogies.xml.h:332
+msgid "The relation between the two words is that they are synonymous."
+msgstr "De relatie tussen de twee woorden is dat het synoniemen zijn."
 
-#: ../data/verbal_analogies.xml.h:275
-msgid "elbow / knee | wrist"
-msgstr "elleboog / knie | pols"
-
-#. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:277
-msgid "error / (to) correct | damage"
-msgstr "fout / verbeteren | schade"
-
-#: ../data/verbal_analogies.xml.h:278
-msgid "eyebrow / eye | mustache"
-msgstr "wenkbrauw / oog | snor"
-
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:280
-msgid "feet / two | toes"
-msgstr "voet / twee | tenen"
-
-#: ../data/verbal_analogies.xml.h:281
-msgid "fish / aquarium | monkey"
-msgstr "vis / aquarium | aap"
-
-#: ../data/verbal_analogies.xml.h:282
-msgid "fish / submarine | bird"
-msgstr "vis / onderzeeër | vogel"
-
-#: ../data/verbal_analogies.xml.h:283
-#, fuzzy
+#: ../data/verbal_analogies.xml.h:333
 msgid "fish / water | bird"
-msgstr "vis / onderzeeër | vogel"
+msgstr "vis / water | vogel"
 
-#: ../data/verbal_analogies.xml.h:284
-msgid "five / pentagon | ten"
-msgstr "vijf / vijfhoek | tien"
+#: ../data/verbal_analogies.xml.h:334
+msgid "Air"
+msgstr "Lucht"
 
-#: ../data/verbal_analogies.xml.h:285
-msgid "fox / den | bird"
-msgstr "vos / hol | vogel"
+#: ../data/verbal_analogies.xml.h:335
+msgid "Wings"
+msgstr "vleugels"
 
-#. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:287
-msgid "glass / break | paper"
-msgstr "glas / breken | papier"
+#: ../data/verbal_analogies.xml.h:336
+msgid "Ship"
+msgstr "Schip"
 
-#: ../data/verbal_analogies.xml.h:288
-msgid "hands / grab | teeth"
-msgstr "handen / grijpen | tanden"
+#: ../data/verbal_analogies.xml.h:337
+msgid "Cage"
+msgstr "Kooi"
 
-#: ../data/verbal_analogies.xml.h:289
-msgid "herbivorous | herbivore"
-msgstr "plantenetend | herbivoor"
+#. Translator: 'rook' as a piece of chess
+#: ../data/verbal_analogies.xml.h:339
+msgid "rook / chess | soldier"
+msgstr "toren / schaakspel | soldaat"
 
-#: ../data/verbal_analogies.xml.h:290
-msgid "horticulture / plants | ornithology"
-msgstr "tuinbouw / planten | vogelkunde"
+#: ../data/verbal_analogies.xml.h:340
+msgid "Battle"
+msgstr "Strijd"
 
-#: ../data/verbal_analogies.xml.h:291
-msgid "hour / minute | minute"
-msgstr "uur / minuut | minuut"
+#: ../data/verbal_analogies.xml.h:341
+msgid "Gun"
+msgstr "Geweer"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:342
+msgid "Peace"
+msgstr "Vrede"
+
+#: ../data/verbal_analogies.xml.h:343
+msgid "Enemy"
+msgstr "Vijand"
+
+#: ../data/verbal_analogies.xml.h:344
+msgid "competitive / cooperative | anxious"
+msgstr "concurerend / coöperatief | angstig"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:346
+msgid "Flexible"
+msgstr "Flexibel"
+
+#: ../data/verbal_analogies.xml.h:347
+msgid "Cautious"
+msgstr "Voorzichtig"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:349
+msgid "Daring"
+msgstr "Stoutmoedig"
+
+#: ../data/verbal_analogies.xml.h:350
+#| msgid "pessimist / optimist | poor"
+msgid "pessimistic / optimistic | suspicious"
+msgstr "pessimistisch / optimistisch | achterdochtig"
+
+#. Translator: Used as an adjective in English
+#: ../data/verbal_analogies.xml.h:352
+#| msgid "Interesting"
+msgid "Trusting"
+msgstr "Vertrouwend"
+
+#: ../data/verbal_analogies.xml.h:353
+#| msgid "Obvious"
+msgid "Dubious"
+msgstr "Onzeker"
+
+#. Translator: compass as the instrument used for finding direction
+#: ../data/verbal_analogies.xml.h:355
+#| msgid "thermometer / temperature | clock"
+msgid "thermometer / temperature | compass"
+msgstr "thermometer / temperatuur | kompas"
+
+#: ../data/verbal_analogies.xml.h:356
+#| msgid "Fractions"
+msgid "Direction"
+msgstr "Richting"
+
+#: ../data/verbal_analogies.xml.h:357
+#| msgid "Equation"
+msgid "Elevation"
+msgstr "Elevatie"
+
+#: ../data/verbal_analogies.xml.h:358
+#| msgid "Positivism"
+msgid "Position"
+msgstr "Positie"
+
+#: ../data/verbal_analogies.xml.h:359
+msgid "Area"
+msgstr "Gebied"
+
+#: ../data/verbal_analogies.xml.h:360
+msgid "The first word is the instrument and the second what it measures."
+msgstr "Het eerste woord is het instrument en het tweede wat gemeten wordt."
+
+#: ../data/verbal_analogies.xml.h:361
 msgid "hungry / eat | tired"
 msgstr "honger / eten | moe"
 
-#: ../data/verbal_analogies.xml.h:293
-msgid "hunter / rifle | photographer"
-msgstr "jager / geweer | fotograaf"
-
-#: ../data/verbal_analogies.xml.h:294
-msgid "ice / slippery | glue"
-msgstr "ijs / glad | lijm"
-
-#: ../data/verbal_analogies.xml.h:295
-msgid "in | under | through"
-msgstr "in / onder | door"
-
-#: ../data/verbal_analogies.xml.h:296
-msgid "islands"
-msgstr "eilanden"
-
-#: ../data/verbal_analogies.xml.h:297
-msgid "leopard / spots | tiger"
-msgstr "luipaard / stippen | tijger"
-
-#: ../data/verbal_analogies.xml.h:298
-msgid "letter / word | page"
-msgstr "letter / woord | pagina"
-
-#: ../data/verbal_analogies.xml.h:299
-msgid "lip | upper lip | mouth"
-msgstr "lip | bovenlip | mond"
-
-#: ../data/verbal_analogies.xml.h:300
-msgid "nest"
-msgstr "nest"
-
-#: ../data/verbal_analogies.xml.h:301
-msgid "nose"
-msgstr "neus"
-
-#: ../data/verbal_analogies.xml.h:302
-msgid "novel / author | song"
-msgstr "roman / auteur | lied"
-
-#: ../data/verbal_analogies.xml.h:303
-msgid "orange / fruit | spinach"
-msgstr "sinaasappel / fruit | spinazie"
-
-#: ../data/verbal_analogies.xml.h:304
-msgid "parallel / meridian | longitude"
-msgstr "parallel / meridiaan | lengtegraad"
-
-#: ../data/verbal_analogies.xml.h:305
-msgid "pediatrics / children | numismatics"
-msgstr "pediatrie / kinderen | numismatiek"
-
-#: ../data/verbal_analogies.xml.h:306
-msgid "peel"
-msgstr "pellen"
-
-#: ../data/verbal_analogies.xml.h:307
-msgid "pessimist / optimist | poor"
-msgstr "pessimist / optimist | arm"
-
-#: ../data/verbal_analogies.xml.h:308
-msgid "poems / anthology | maps"
-msgstr "gedichten / bloemlezing | kaarten"
-
-#: ../data/verbal_analogies.xml.h:309
-msgid "puzzle / solve | game"
-msgstr "puzzel / oplossen | spel"
-
-#: ../data/verbal_analogies.xml.h:310
-msgid "repair | fix"
-msgstr "repareren | maken"
-
-#: ../data/verbal_analogies.xml.h:311
-msgid "ring / finger | bracelet"
-msgstr "ring / vinger | armband"
-
-#: ../data/verbal_analogies.xml.h:312
-msgid "seal / flippers | bird"
-msgstr "zeehond / flippers | vogel"
-
-#. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:314
-msgid "second"
-msgstr "seconde"
-
-#. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:316
-msgid "shovel / dig | axe"
-msgstr "schop / graven | bijl"
-
-#: ../data/verbal_analogies.xml.h:317
-msgid "sink"
-msgstr "zinken"
-
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:362
 msgid "sleep | rest"
 msgstr "slapen | rusten | uitrusten"
 
-#: ../data/verbal_analogies.xml.h:319
-msgid "slurp / tongue | snort"
-msgstr "slurpen / tong | snuiven"
+#. Translators: 'open' is used as a verb (open a box)
+#: ../data/verbal_analogies.xml.h:364
+msgid "box / open | banana"
+msgstr "doos / openen | banaan"
 
-#: ../data/verbal_analogies.xml.h:320
-msgid "sour"
-msgstr "zuur"
+#: ../data/verbal_analogies.xml.h:365
+msgid "peel"
+msgstr "pellen"
 
-#. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:322
-msgid "stick / float | stone"
-msgstr "tak / drijven | steen"
+#. Translators: 'dig' is used as a verb (to dig)
+#: ../data/verbal_analogies.xml.h:367
+msgid "shovel / dig | axe"
+msgstr "schop / graven | bijl"
 
-#: ../data/verbal_analogies.xml.h:323
-msgid "sticky"
-msgstr "plakkerig"
+#. Translators: 'chop' is used as a verb (to chop)
+#: ../data/verbal_analogies.xml.h:369
+msgid "chop"
+msgstr "hakken"
 
-#: ../data/verbal_analogies.xml.h:324
-msgid "stripes"
-msgstr "strepen"
-
-#: ../data/verbal_analogies.xml.h:325
-msgid "sugar / sweet | vinegar"
-msgstr "suiker / zoet | azijn"
-
-#: ../data/verbal_analogies.xml.h:326
-msgid "talk / yell | dislike"
-msgstr "praten / gillen | afkeer"
+#. Translators: 'break' is used as a verb (to break)
+#: ../data/verbal_analogies.xml.h:371
+msgid "glass / break | paper"
+msgstr "glas / breken | papier"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:373
 msgid "tear | rip"
 msgstr "scheuren | verscheuren"
 
-#: ../data/verbal_analogies.xml.h:329
-msgid "tears / eyes | sweat"
-msgstr "tranen / ogen | zweet"
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#: ../data/verbal_analogies.xml.h:375
+msgid "feet / two | toes"
+msgstr "voet / twee | tenen"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:377
 msgid "ten | 10"
 msgstr "tien | 10"
 
-#: ../data/verbal_analogies.xml.h:332
-msgid "tennis / sport | ballet"
-msgstr "tennis / sport | ballet"
+#: ../data/verbal_analogies.xml.h:378
+msgid "fish / aquarium | monkey"
+msgstr "vis / aquarium | aap"
 
-#: ../data/verbal_analogies.xml.h:333
-msgid "thankful / ingratitude | despotism"
-msgstr "dankbaar / ondankbaar | despotisme"
+#: ../data/verbal_analogies.xml.h:379
+msgid "cage | zoo | zoological garden"
+msgstr "kooi | dierentuin"
 
-#: ../data/verbal_analogies.xml.h:334
-msgid "thermometer / temperature | clock"
-msgstr "thermometer / temperatuur | klok"
+#: ../data/verbal_analogies.xml.h:380
+msgid "A fish in an aquarium lives in captivity."
+msgstr "Een vis in een aquarium leeft in gevangenschap."
 
-#: ../data/verbal_analogies.xml.h:335
-msgid "tiger / carnivore | cow"
-msgstr "tijger / carnivoor | koe"
+#: ../data/verbal_analogies.xml.h:381
+msgid "ring / finger | bracelet"
+msgstr "ring / vinger | armband"
 
-#. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:337
-msgid "time"
-msgstr "tijd"
-
-#. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:339
-msgid "toy / play | tool"
-msgstr "speelgoed / spelen | gereedschap"
-
-#: ../data/verbal_analogies.xml.h:340
-msgid "track | railway | rails"
-msgstr "spoor | spoorweg | rails"
-
-#. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:342
-msgid "turtle / shell | letter"
-msgstr "schildpad / schild | brief"
-
-#: ../data/verbal_analogies.xml.h:343
-msgid "vegetable"
-msgstr "groente"
-
-#: ../data/verbal_analogies.xml.h:344
-msgid "whirlpool / water | tornado"
-msgstr "draaikolk / water | tornado"
-
-#: ../data/verbal_analogies.xml.h:345
-msgid "wild | savage"
-msgstr "wild | woest"
-
-#: ../data/verbal_analogies.xml.h:346
-msgid "win | play"
-msgstr "winnen | spelen"
-
-#: ../data/verbal_analogies.xml.h:347
-msgid "wind | air"
-msgstr "wind | lucht"
-
-#: ../data/verbal_analogies.xml.h:348
-msgid "wine / grape | rum"
-msgstr "wijn / druif | rum"
-
-#: ../data/verbal_analogies.xml.h:349
-msgid "wings"
-msgstr "vleugels"
-
-#. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:351
-msgid "work"
-msgstr "werken"
-
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:382
 msgid "wrist | arm"
 msgstr "pols | arm"
 
-#: ../data/verbal_analogies.xml.h:353
-msgid "write / pen | eat"
-msgstr "schrijven / pen | eten"
+#: ../data/verbal_analogies.xml.h:383
+msgid "seal / flippers | bird"
+msgstr "zeehond / flippers | vogel"
 
-#: ../src/Clients/Classical/CommandLine.cs:99
+#: ../data/verbal_analogies.xml.h:384
+msgid "wings"
+msgstr "vleugels"
+
+#. Translators: stick refers to a piece of wood
+#: ../data/verbal_analogies.xml.h:386
+msgid "stick / float | stone"
+msgstr "tak / drijven | steen"
+
+#: ../data/verbal_analogies.xml.h:387
+msgid "sink"
+msgstr "zinken"
+
+#: ../data/verbal_analogies.xml.h:388
+msgid "leopard / spots | tiger"
+msgstr "luipaard / stippen | tijger"
+
+#: ../data/verbal_analogies.xml.h:389
+msgid "stripes"
+msgstr "strepen"
+
+#. Translators: 'submarine' is used as a noun
+#: ../data/verbal_analogies.xml.h:391
+msgid "fish / submarine | bird"
+msgstr "vis / onderzeeër | vogel"
+
+#: ../data/verbal_analogies.xml.h:392
+msgid "airplane | aeroplane | plane"
+msgstr "vliegtuig"
+
+#: ../data/verbal_analogies.xml.h:393
+msgid "tears / eyes | sweat"
+msgstr "tranen / ogen | zweet"
+
+#: ../data/verbal_analogies.xml.h:394
+msgid "body | skin"
+msgstr "lichaam | huid"
+
+#: ../data/verbal_analogies.xml.h:395
+msgid "bridge / over | tunnel"
+msgstr "brug / over | tunnel"
+
+#: ../data/verbal_analogies.xml.h:396
+msgid "in | under | through"
+msgstr "in / onder | door"
+
+#. Translators: 'play' is used as a verb (to play)
+#: ../data/verbal_analogies.xml.h:398
+msgid "toy / play | tool"
+msgstr "speelgoed / spelen | gereedschap"
+
+#. Translators: 'work' is used as a verb (to work)
+#: ../data/verbal_analogies.xml.h:400
+msgid "work"
+msgstr "werken"
+
+#. 'correct' can be used as verb or adjective
+#: ../data/verbal_analogies.xml.h:402
+msgid "error / (to) correct | damage"
+msgstr "fout / verbeteren | schade"
+
+#: ../data/verbal_analogies.xml.h:403
+msgid "repair | fix"
+msgstr "repareren | maken"
+
+#: ../data/verbal_analogies.xml.h:404
+msgid "orange / fruit | spinach"
+msgstr "sinaasappel / fruit | spinazie"
+
+#: ../data/verbal_analogies.xml.h:405
+msgid "vegetable"
+msgstr "groente"
+
+#: ../data/verbal_analogies.xml.h:406
+msgid "hands / grab | teeth"
+msgstr "handen / grijpen | tanden"
+
+#: ../data/verbal_analogies.xml.h:407
+msgid "bite"
+msgstr "bijten"
+
+#: ../data/verbal_analogies.xml.h:408
+msgid "Grab and bite are finite actions."
+msgstr "Grijpen en bijten zijn vergelijkbare acties."
+
+#: ../data/verbal_analogies.xml.h:409
+msgid "puzzle / solve | game"
+msgstr "puzzel / oplossen | spel"
+
+#: ../data/verbal_analogies.xml.h:410
+msgid "win | play"
+msgstr "winnen | spelen"
+
+#: ../data/verbal_analogies.xml.h:411
+msgid "eyebrow / eye | mustache"
+msgstr "wenkbrauw / oog | snor"
+
+#: ../data/verbal_analogies.xml.h:412
+msgid "lip | upper lip | mouth"
+msgstr "lip | bovenlip | mond"
+
+#: ../data/verbal_analogies.xml.h:413
+msgid "ice / slippery | glue"
+msgstr "ijs / glad | lijm"
+
+#: ../data/verbal_analogies.xml.h:414
+msgid "sticky"
+msgstr "plakkerig"
+
+#: ../data/verbal_analogies.xml.h:415
+msgid "whirlpool / water | tornado"
+msgstr "draaikolk / water | tornado"
+
+#: ../data/verbal_analogies.xml.h:416
+msgid "wind | air"
+msgstr "wind | lucht"
+
+#: ../data/verbal_analogies.xml.h:417
+msgid "fox / den | bird"
+msgstr "vos / hol | vogel"
+
+#: ../data/verbal_analogies.xml.h:418
+msgid "nest"
+msgstr "nest"
+
+#: ../data/verbal_analogies.xml.h:419
+msgid "dog / tame | wolf"
+msgstr "hond / tam | wolf"
+
+#: ../data/verbal_analogies.xml.h:420
+msgid "wild | savage"
+msgstr "wild | woest"
+
+#: ../data/verbal_analogies.xml.h:421
+msgid "sugar / sweet | vinegar"
+msgstr "suiker / zoet | azijn"
+
+#: ../data/verbal_analogies.xml.h:422
+msgid "sour"
+msgstr "zuur"
+
+#: ../data/verbal_analogies.xml.h:423
+msgid "tennis / sport | ballet"
+msgstr "tennis / sport | ballet"
+
+#. Translators: 'dance' is used as a noun
+#: ../data/verbal_analogies.xml.h:425
+msgid "dance"
+msgstr "dans"
+
+#: ../data/verbal_analogies.xml.h:426
+msgid "slurp / tongue | snort"
+msgstr "slurpen / tong | snuiven"
+
+#: ../data/verbal_analogies.xml.h:427
+msgid "nose"
+msgstr "neus"
+
+#: ../data/verbal_analogies.xml.h:428
+msgid "elbow / knee | wrist"
+msgstr "elleboog / knie | pols"
+
+#: ../data/verbal_analogies.xml.h:429
+msgid "ankle"
+msgstr "enkel"
+
+#: ../data/verbal_analogies.xml.h:430
+msgid "novel / author | song"
+msgstr "roman / auteur | lied"
+
+#: ../data/verbal_analogies.xml.h:431
+msgid "composer | songwriter | lyricist"
+msgstr "componist | songwriter | liedjesschrijver"
+
+#: ../data/verbal_analogies.xml.h:432
+msgid "car / road | train"
+msgstr "auto / weg | trein"
+
+#: ../data/verbal_analogies.xml.h:433
+#| msgid "track | railway | rails"
+msgid "track | railway | rails | railroad"
+msgstr "spoor | spoorweg | rails | spoorbaan"
+
+#: ../data/verbal_analogies.xml.h:434
+msgid "pediatrics / children | numismatics"
+msgstr "pediatrie / kinderen | numismatiek"
+
+#: ../data/verbal_analogies.xml.h:435
+msgid "coins | currency | money"
+msgstr "munten | valuta | geld"
+
+#: ../data/verbal_analogies.xml.h:436
+msgid "thermometer / temperature | clock"
+msgstr "thermometer / temperatuur | klok"
+
+#. Translators: time as duration of an event. What a clock measures
+#: ../data/verbal_analogies.xml.h:438
+msgid "time"
+msgstr "tijd"
+
+#: ../data/verbal_analogies.xml.h:439
+msgid "poems / anthology | maps"
+msgstr "gedichten / bloemlezing | kaarten"
+
+#: ../data/verbal_analogies.xml.h:440
+msgid "atlas"
+msgstr "atlas"
+
+#: ../data/verbal_analogies.xml.h:441
+msgid "letter / word | page"
+msgstr "letter / woord | pagina"
+
+#: ../data/verbal_analogies.xml.h:442
+msgid "book | magazine | document"
+msgstr "boek | tijdschrift | document"
+
+#: ../data/verbal_analogies.xml.h:443
+msgid "hour / minute | minute"
+msgstr "uur / minuut | minuut"
+
+#. Translators: refers to the unit of time
+#: ../data/verbal_analogies.xml.h:445
+msgid "second"
+msgstr "seconde"
+
+#: ../data/verbal_analogies.xml.h:446
+msgid "tiger / carnivore | cow"
+msgstr "tijger / carnivoor | koe"
+
+#: ../data/verbal_analogies.xml.h:447
+msgid "herbivorous | herbivore"
+msgstr "plantenetend | herbivoor"
+
+#: ../data/verbal_analogies.xml.h:448
+msgid "constellation / stars | archipelago"
+msgstr "sterrenbeeld / sterren | archipel"
+
+#: ../data/verbal_analogies.xml.h:449
+msgid "islands"
+msgstr "eilanden"
+
+#: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
 msgid "Unknown command line parameter {0}"
-msgstr ""
+msgstr "Onbekende opdrachtregelparameter {0}"
 
 #. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:109
+#: ../src/Clients/Classical/CommandLine.cs:110
 #, csharp-format
 msgid "(built on {0})"
 msgstr "(gemaakt op {0})"
 
-#: ../src/Clients/Classical/CommandLine.cs:120
+#: ../src/Clients/Classical/CommandLine.cs:121
 msgid "List of available games"
 msgstr "Lijst van beschikbare spellen"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid "Usage: gbrainy [options]"
 msgstr "Gebruik: gbrainy [opties]"
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --versie\t\t\tDruk versie-informatie af."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tDruk deze uitleg af."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:175
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\ttoont de lijst met beschikbare spellen."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:176
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2045,14 +2413,14 @@ msgstr ""
 "  --customgame [game1, gameN]\tSpecificeert een lijst met te spelen spellen "
 "in een aangepast spel."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:177
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr ""
 "  --norandom \t\t\tDe aangepaste spellenlijst zal niet willekeurig worden "
 "gemaakt."
 
-#: ../src/Clients/Classical/CommandLine.cs:177
+#: ../src/Clients/Classical/CommandLine.cs:178
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tToon afhankelijkheden."
 
@@ -2140,14 +2508,9 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "Een hersenkrakerspel voor vermaak en om uw brein fit te houden."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#, csharp-format
-msgid "gbrainy project web site: {0}"
-msgstr "Website van het gbrainy-project: {0}"
-
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:82
-#, csharp-format
-msgid "You can also play on-line at {0}"
-msgstr "U kunt ook online spelen, op {0}"
+#| msgid "gbrainy project web site: {0}"
+msgid "gbrainy project web site"
+msgstr "Website van het gbrainy-project"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2210,23 +2573,25 @@ msgstr[1] "Het is opgebouwd met de resultaten van {0} spelsessies."
 #. Translators: answer + rationale of the answer
 #. Translators: Concatenating two strings (rationale of answer + extra information).
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61
-#: ../src/Core/Main/Game.cs:145 ../src/Games/Logic/PuzzleCountSeries.cs:93
+#: ../src/Core/Main/Game.cs:145
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75
+#: ../src/Games/Logic/PuzzleCountSeries.cs:93
 #, csharp-format
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67
-#: ../src/Core/Views/FinishView.cs:101
+#: ../src/Core/Views/FinishView.cs:102
 #: ../src/Core/Views/PlayerHistoryView.cs:85
 msgid "Total"
 msgstr "Totaal"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:112
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "You are about to delete the player's game session history."
 msgstr ""
 "U staat op het punt om de spelgeschiedenis van deze speler te verwijderen."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:113
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:121
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
@@ -2234,21 +2599,184 @@ msgstr ""
 "Als u verder gaat zult u de geschiedenis van de afgelopen spelsessies "
 "verliezen. Wilt u doorgaan?"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:114
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
 msgid "_Delete"
 msgstr "_Verwijderen"
 
-#: ../src/Clients/Classical/gbrainy.cs:426
-#: ../src/Clients/WebForms/Game.aspx.cs:245
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
+msgid "Custom Game"
+msgstr "Aangepast spel"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "Select All"
+msgstr "Alles selecteren"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+msgid "Unselect all"
+msgstr "Alles deselecteren"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
+msgid "_Start"
+msgstr "_Start"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
+msgid "PDF export"
+msgstr "PDF-export"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid ""
+"This option allows to export a set of games in a PDF file. You can complete "
+"the puzzles without a computer."
+msgstr ""
+"Met deze optie kunt u een serie spelletjes naar een pdf-bestand exporteren. "
+"U kunt de puzzels dan zonder computer maken."
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
+msgid "<b>General Settings</b>"
+msgstr "<b>Algemene instellingen</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+msgid "Skip games that use colors"
+msgstr "Spellen die kleuren gebruiken overslaan"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+msgid "<b>Game Types</b>"
+msgstr "<b>Speltypes</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+msgid "Logic"
+msgstr "Logica"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+msgid "Calculation"
+msgstr "Berekening"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
+#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+msgid "Verbal"
+msgstr "Verbaal"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
+msgid "<b>Difficulty Level</b>"
+msgstr "<b>Moeilijkheidsgraad</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
+msgid "Easy"
+msgstr "Makkelijk"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
+msgid "Master"
+msgstr "Moeilijk"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+msgid "<b>Number of games</b>"
+msgstr "<b>Aantal spellen</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+msgid "Total number of games:"
+msgstr "Totaal aantal spellen:"
+
+#. Translators: this the number of pages that are included by side when exporting a PDF"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+msgid "Pages per side:"
+msgstr "Pagina's per kant:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+msgid "<b>Output File</b>"
+msgstr "<b>Doelbestand</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
+msgid "_Save"
+msgstr "Op_slaan"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:19
+msgid "Player's Game Session History"
+msgstr "Spelgeschiedenis van de speler"
+
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
+msgid "Show:"
+msgstr "Toon:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
+#: ../src/Clients/Classical/gbrainy.ui.h:21
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
+msgid "Skip games that use colors (for colorblind users)"
+msgstr "Sla spellen die kleuren gebruiken over (voor kleurenblinde gebruikers)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
+msgid "Force gbrainy to always use English language (ignore translations)"
+msgstr "Zorg ervoor dat gbrainy altijd Engels gebruikt (negeer vertalingen)"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
+msgid "Search and load extensions when starting"
+msgstr "Zoeken naar en laden van uitbreidingen bij opstarten"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
+#| msgid "Enabled"
+msgid "Enable sounds"
+msgstr "Geluiden inschakelen"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
+msgid "Theme:"
+msgstr "Thema:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
+msgid "<b>Memory Games</b>"
+msgstr "<b>Geheugenspelletjes</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
+msgid "Time in seconds to memorize the challenge:"
+msgstr "Tijd in seconden om objecten uit het hoofd te leren:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
+msgid "Show a countdown message"
+msgstr "Laat het aftellen zien"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
+msgid "<b>Player's Game Session History</b>"
+msgstr "<b>Spelgeschiedenis van de speler</b>"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
+msgid "Minimum number of played games to store the game session:"
+msgstr ""
+"Minimaal aantal spellen dat gespeeld moet worden voordat de spelsessie wordt "
+"opgeslagen:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
+msgid "Maximum number of records in the player's game session history:"
+msgstr "Maximaal aantal spellen in de spelgeschiedenis van de speler:"
+
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
+msgid "Delete Player's Game Session History"
+msgstr "Spelgeschiedenis van speler verwijderen"
+
+#: ../src/Clients/Classical/gbrainy.cs:429
 msgid "Congratulations."
 msgstr "Gefeliciteerd."
 
-#: ../src/Clients/Classical/gbrainy.cs:428
-#: ../src/Clients/WebForms/Game.aspx.cs:249
+#: ../src/Clients/Classical/gbrainy.cs:433
 msgid "Incorrect answer."
 msgstr "Onjuist antwoord."
 
-#: ../src/Clients/Classical/gbrainy.cs:483
+#: ../src/Clients/Classical/gbrainy.cs:494
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2256,11 +2784,11 @@ msgstr ""
 "Zodra u een antwoord weet typt u het in het ‘Antwoord:’-invoerveld en drukt "
 "u op de \"OK\"-knop."
 
-#: ../src/Clients/Classical/gbrainy.cs:513
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Het aantal vertalingen in uw taal voor gbrainy is laag."
 
-#: ../src/Clients/Classical/gbrainy.cs:514
+#: ../src/Clients/Classical/gbrainy.cs:525
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2270,19 +2798,119 @@ msgstr ""
 "moeilijker maakt om te spelen. Als u liever in het Engels speelt kunt u dit "
 "bij Voorkeuren instellen."
 
-#: ../src/Clients/Classical/gbrainy.cs:610
+#: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pauze"
 
-#: ../src/Clients/Classical/gbrainy.cs:615
+#: ../src/Clients/Classical/gbrainy.cs:626
 msgid "Resume"
 msgstr "Hervatten"
 
-#: ../src/Clients/Classical/gbrainy.cs:765
+#: ../src/Clients/Classical/gbrainy.cs:776
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Opstarttijd {0}"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:2
+msgid "_Game"
+msgstr "_Spel"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:3
+msgid "_New Game"
+msgstr "_Nieuw spel"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:4
+msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
+msgstr "Alle spellen (Logica, hoofdrekenen, geheugen en verbale analogieën)"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:5
+msgid "Logic Puzzles Only"
+msgstr "Alleen logicapuzzels"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:6
+msgid "Mental Calculation Only"
+msgstr "Alleen hoofdrekentrainingen"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:7
+msgid "Memory Trainers Only"
+msgstr "Alleen geheugentrainingen"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:8
+msgid "Verbal Analogies Only"
+msgstr "Alleen verbale analogieën"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:9
+msgid "Custom Game Selection..."
+msgstr "Handmatige spelselectie…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:10
+msgid "_Pause Game"
+msgstr "Spel _pauzeren"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:11
+msgid "_End Game"
+msgstr "Spel b_eëindigen"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:12
+msgid "Export Games to PDF for Off-line Playing..."
+msgstr "Spellen naar PDF exporteren om offline te spelen…"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:13
+msgid "_View"
+msgstr "_Weergave"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:14
+msgid "Toolbar"
+msgstr "Werkbalk"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:15
+msgid "Show"
+msgstr "Toon"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:16
+msgid "Orientation"
+msgstr "Oriëntatie"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:17
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:18
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:20
+msgid "_Settings"
+msgstr "_Instellingen"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:22
+msgid "Extensions"
+msgstr "Uitbreidingen"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:23
+msgid "_Help"
+msgstr "_Hulp"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:24
+msgid "_Contents"
+msgstr "_Inhoud"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:25
+msgid "How to Extend gbrainy's Functionality"
+msgstr "Hoe u de functionaliteit van gbrainy uit kunt breiden"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:26
+msgid "Answer:"
+msgstr "Antwoord:"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:27
+msgid "_Next"
+msgstr "V_olgende"
+
+#: ../src/Clients/Classical/gbrainy.ui.h:28
+msgid "_Tip"
+msgstr "_Tip"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:31
 msgid "Add-in Manager"
@@ -2494,7 +3122,7 @@ msgid "Open Location"
 msgstr "Locatie openen"
 
 #: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
-#: ../src/Core/Main/GameSession.cs:184
+#: ../src/Core/Main/GameSession.cs:185
 msgid "Paused"
 msgstr "Gepauzeerd"
 
@@ -2502,9 +3130,7 @@ msgstr "Gepauzeerd"
 msgid "Play all the games"
 msgstr "Alle spellen spelen"
 
-#. Toolbar
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:119
-#: ../src/Clients/WebForms/Game.aspx.cs:179
 msgid "All"
 msgstr "Alles"
 
@@ -2512,36 +3138,18 @@ msgstr "Alles"
 msgid "Play games that challenge your reasoning and thinking"
 msgstr "Speel spellen die uw redeneer- en denkvermogen op de proef stellen"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:108
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-msgid "Logic"
-msgstr "Logica"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:115
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
-msgid "Calculation"
-msgstr "Berekening"
-
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:129
 msgid "Play games that challenge your mental calculation skills"
 msgstr "Speel spellen die uw hoofdrekenvaardigheden op de proef stellen"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:133
-#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:122
+#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:123
 msgid "Memory"
 msgstr "Geheugen"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:134
 msgid "Play games that challenge your short term memory"
 msgstr "Speel spellen die uw kortetermijngeheugen op de proef stellen"
-
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:129
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
-msgid "Verbal"
-msgstr "Verbaal"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:139
 msgid "Play games that challenge your verbal aptitude"
@@ -2556,19 +3164,8 @@ msgid "End the game and show score"
 msgstr "Het spel beëindigen en de score tonen"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#: ../src/Clients/WebForms/Game.aspx.cs:180
 msgid "End"
 msgstr "Einde"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:172
-#, fuzzy
-msgid "Next Game"
-msgstr "_Nieuw spel"
-
-#: ../src/Clients/WebForms/Game.aspx.cs:173
-#, fuzzy
-msgid "Answer"
-msgstr "Antwoord:"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -2672,9 +3269,13 @@ msgid "Figure {0}"
 msgstr "Figuur {0}"
 
 #: ../src/Core/Main/Game.cs:138
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
 #, csharp-format
+#| msgid "The correct answer is {0}."
 msgid "The correct answer is {0}."
-msgstr "Het juiste antwoord is {0}."
+msgid_plural "The possible correct answers are {0}."
+msgstr[0] "Het juiste antwoord is {0}."
+msgstr[1] "De mogelijk juiste antwoorden zijn {0}."
 
 #: ../src/Core/Main/GameManager.cs:251
 msgid "Extensions database:"
@@ -2690,30 +3291,30 @@ msgstr ""
 "{0} geregistreerde spellen: {1} logica-puzzels, {2} hoofdrekensommen, {3} "
 "geheugen-spellen, {4} verbale analogieën"
 
-#: ../src/Core/Main/GameSession.cs:182
+#: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
 msgid "Games played: {0} (Score: {1})"
 msgstr "Gespeelde spellen: {0} (score is {1})"
 
-#: ../src/Core/Main/GameSession.cs:183
+#: ../src/Core/Main/GameSession.cs:184
 #, csharp-format
 msgid "Time: {0}"
 msgstr "Tijd: {0}"
 
 #. Translators: {0} is the name of the game
-#: ../src/Core/Main/GameSession.cs:188
+#: ../src/Core/Main/GameSession.cs:189
 #, csharp-format
 msgid "Game: {0}"
 msgstr "Spel: {0}"
 
 #. Translators: text in the status bar: games played - time - game name
-#: ../src/Core/Main/GameSession.cs:190
+#: ../src/Core/Main/GameSession.cs:191
 #, csharp-format
 msgid "{0} - {1} - {2}"
 msgstr "{0} - {1} - {2}"
 
 #. Translators: text in the status bar: games played - time
-#: ../src/Core/Main/GameSession.cs:193
+#: ../src/Core/Main/GameSession.cs:194
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} — {1}"
@@ -2738,13 +3339,13 @@ msgstr "Matig resultaat"
 msgid "Disappointing results"
 msgstr "Teleurstellend resultaat"
 
-#: ../src/Core/Main/GameTips.cs:58
+#: ../src/Core/Main/GameTips.cs:59
 msgid "Read the instructions carefully and identify the data and given clues."
 msgstr ""
 "Lees de instructies aandachtig en bepaal wat de gegevens en de aanwijzingen "
 "zijn."
 
-#: ../src/Core/Main/GameTips.cs:60
+#: ../src/Core/Main/GameTips.cs:61
 msgid ""
 "To score the player gbrainy uses the time and tips needed to complete each "
 "game."
@@ -2752,24 +3353,24 @@ msgstr ""
 "Om de speler te beoordelen kijkt gbrainy naar de benodigde tijd en de "
 "gebruikte tips."
 
-#: ../src/Core/Main/GameTips.cs:62
+#: ../src/Core/Main/GameTips.cs:63
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
 msgstr ""
 "In logica-spellen kunnen elementen die onbelangrijk lijken erg belangrijk "
 "zijn."
 
-#: ../src/Core/Main/GameTips.cs:64
+#: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
 msgstr "Probeer het probleem op een andere manier te bekijken."
 
-#: ../src/Core/Main/GameTips.cs:66
+#: ../src/Core/Main/GameTips.cs:67
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
 msgstr ""
 "Wees niet bang om fouten te maken, dit is een onderdeel van het leerproces."
 
-#: ../src/Core/Main/GameTips.cs:68
+#: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challeging yourself."
@@ -2777,12 +3378,12 @@ msgstr ""
 "Probeer alle vraagstukken, zelfs de lastige. Als u zichzelf uitdaagt wordt u "
 "vanzelf beter."
 
-#: ../src/Core/Main/GameTips.cs:70
+#: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
 msgstr "Als u dagelijks speelt, zult u snel voortgang boeken."
 
 #. Translators: Custom Game Selection is a menu option
-#: ../src/Core/Main/GameTips.cs:72
+#: ../src/Core/Main/GameTips.cs:73
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
@@ -2790,16 +3391,16 @@ msgstr ""
 "Gebruik de ‘Handmatige spelselectie’ om te bepalen welke spellen u wilt "
 "spelen."
 
-#: ../src/Core/Main/GameTips.cs:74 ../src/Core/Views/WelcomeView.cs:150
+#: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
 msgid "Use the Settings to adjust the difficulty level of the game."
 msgstr ""
 "Gebruik 'Instellingen' om de moeilijkheidsgraad van het spel aan te passen."
 
-#: ../src/Core/Main/GameTips.cs:76
+#: ../src/Core/Main/GameTips.cs:77
 msgid "Association of elements is a common technique for remembering things."
 msgstr "Associatie is een bekende techniek om dingen te onthouden."
 
-#: ../src/Core/Main/GameTips.cs:78
+#: ../src/Core/Main/GameTips.cs:79
 msgid ""
 "Grouping elements into categories is a common technique for remembering "
 "things."
@@ -2807,47 +3408,55 @@ msgstr ""
 "Elementen in categorieën onderbrengen is een bekende techniek om dingen te "
 "onthouden."
 
-#: ../src/Core/Main/GameTips.cs:80
+#: ../src/Core/Main/GameTips.cs:81
 msgid "Build acronyms using the first letter of each fact to be remembered."
 msgstr ""
 "Maak een acroniem van de eerste letter van alle feiten die u moet onthouden."
 
-#: ../src/Core/Main/GameTips.cs:82
+#: ../src/Core/Main/GameTips.cs:83
 msgid ""
 "The enjoyment obtained from a puzzle is proportional to the time spent on it."
 msgstr ""
 "Het plezier dat u aan een puzzel beleefd is evenredig aan de tijd die u er "
 "aan besteedt."
 
-#: ../src/Core/Main/GameTips.cs:84
+#: ../src/Core/Main/GameTips.cs:85
 msgid "Think of breaking down every problem into simpler components."
 msgstr "Probeer elk vraagstuk in eenvoudigere onderdelen op te delen."
 
-#: ../src/Core/Main/GameTips.cs:86
+#: ../src/Core/Main/GameTips.cs:87
 msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "Let op de werkwoordsvorm bij het oplossen van verbale analogieën."
+
+#: ../src/Core/Main/GameTips.cs:89
+msgid ""
+"When you go shopping, try to perform calculations without the use of a "
+"calculator."
+msgstr ""
+"Wanneer u gaat winkelen, probeer de berekeningen uit te voeren "
+"zonder rekenmachine."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
 msgstr "Onthoud de onderstaande objecten in de gegeven tijd"
 
-#: ../src/Core/Main/Memory.cs:220
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Tijd over"
 
 #. Translators: {0} is the game number and {1} the game question or answer
 #. The number is used as reference when looking for the game solution in the PDF
-#: ../src/Core/Main/PdfExporter.cs:105 ../src/Core/Main/PdfExporter.cs:166
+#: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
 #, csharp-format
 msgid "Game #{0}. {1}"
 msgstr "Spel # {0}. {1}"
 
-#: ../src/Core/Main/PdfExporter.cs:122
+#: ../src/Core/Main/PdfExporter.cs:129
 #, csharp-format
 msgid "Created by gbrainy {0}"
 msgstr "Gemaakt door gbrainy {0}"
 
-#: ../src/Core/Main/PdfExporter.cs:158
+#: ../src/Core/Main/PdfExporter.cs:164
 msgid "Solutions"
 msgstr "Oplossingen"
 
@@ -2897,7 +3506,7 @@ msgstr ""
 "De relatie tussen twee woorden is gegeven. Welk woord deelt deze relatie met "
 "'{0}'?"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:92
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
 #, csharp-format
 msgid "Words: {0}"
@@ -2919,56 +3528,57 @@ msgstr "Vraag en antwoord #{0}"
 msgid "Answer {0}."
 msgstr "Antwoord {0}."
 
-#: ../src/Core/Views/CountDownView.cs:79
+#: ../src/Core/Views/CountDownView.cs:80
 msgid "Get ready to memorize the next objects..."
 msgstr "Maak u klaar om de volgende objecten te onthouden…"
 
-#: ../src/Core/Views/FinishView.cs:144
+#: ../src/Core/Views/FinishView.cs:145
 #: ../src/Core/Views/PlayerHistoryView.cs:277
 msgid "Score"
 msgstr "Score"
 
-#: ../src/Core/Views/FinishView.cs:152
+#. Translator: This will be part of the sentence "Games won: 10 (6 played)"
+#: ../src/Core/Views/FinishView.cs:154
 #, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{0} gespeeld"
+msgstr[1] "{0} gespeeld"
 
-#: ../src/Core/Views/FinishView.cs:156
-#, fuzzy, csharp-format
+#: ../src/Core/Views/FinishView.cs:158
+#, csharp-format
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
-msgstr[0] "Spellen gewonnen: {0} ({1} gespeeld)"
-msgstr[1] "Spellen gewonnen: {0} ({1} gespeeld)"
+msgstr[0] "Spellen gewonnen: {0} ({1})"
+msgstr[1] "Spellen gewonnen: {0} ({1})"
 
-#: ../src/Core/Views/FinishView.cs:160
-#, fuzzy, csharp-format
+#: ../src/Core/Views/FinishView.cs:162
+#, csharp-format
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
-msgstr[0] "{0}. Spellen gewonnen: {1} ({2} gespeeld)"
-msgstr[1] "{0}. Spellen gewonnen: {1} ({2} gespeeld)"
+msgstr[0] "{0}. Spellen gewonnen: {1} ({2})"
+msgstr[1] "{0}. Spellen gewonnen: {1} ({2})"
 
-#: ../src/Core/Views/FinishView.cs:166
+#: ../src/Core/Views/FinishView.cs:168
 #, csharp-format
 msgid "Time played {0} (average per game {1})"
 msgstr "Gespeelde tijd is {0} (gemiddeld {1} per spel)"
 
 #. Translators: translated string should not be longer that the English original (space restriction on the UI)
-#: ../src/Core/Views/FinishView.cs:175
+#: ../src/Core/Views/FinishView.cs:177
 msgid "For details on how gbrainy's scoring works refer to the help."
 msgstr ""
 "Raadpleeg Help voor details over hoe de puntentelling van gbrainy werkt."
 
-#: ../src/Core/Views/FinishView.cs:187
+#: ../src/Core/Views/FinishView.cs:189
 msgid "Tips for your next games"
 msgstr "Hints voor uw volgende spellen"
 
-#: ../src/Core/Views/FinishView.cs:215
+#: ../src/Core/Views/FinishView.cs:217
 msgid "Congratulations! New personal record"
 msgstr "Gefeliciteerd! Een nieuw persoonlijk record"
 
-#: ../src/Core/Views/FinishView.cs:225
+#: ../src/Core/Views/FinishView.cs:227
 #, csharp-format
 msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
@@ -2977,7 +3587,7 @@ msgstr ""
 "Door {0} op het onderdeel logica te scoren heeft u een nieuw persoonlijk "
 "record behaald. Uw vorig record was {1}."
 
-#: ../src/Core/Views/FinishView.cs:231
+#: ../src/Core/Views/FinishView.cs:233
 #, csharp-format
 msgid ""
 "By scoring {0} in calculation games you have established a new personal "
@@ -2986,7 +3596,7 @@ msgstr ""
 "Door {0} op het onderdeel rekenen te scoren heeft u een nieuw persoonlijk "
 "record behaald. Uw vorig record was {1}."
 
-#: ../src/Core/Views/FinishView.cs:237
+#: ../src/Core/Views/FinishView.cs:239
 #, csharp-format
 msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
@@ -2995,7 +3605,7 @@ msgstr ""
 "Door {0} op het onderdeel geheugen te scoren heeft u een nieuw persoonlijk "
 "record behaald. Uw vorig record was {1}."
 
-#: ../src/Core/Views/FinishView.cs:243
+#: ../src/Core/Views/FinishView.cs:245
 #, csharp-format
 msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
@@ -3008,31 +3618,31 @@ msgstr ""
 msgid "Time"
 msgstr "Tijd"
 
-#: ../src/Core/Views/WelcomeView.cs:63
+#: ../src/Core/Views/WelcomeView.cs:64
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
 msgstr "Logica-puzzels. Test uw denk- en redeneervaardigheden."
 
-#: ../src/Core/Views/WelcomeView.cs:84
+#: ../src/Core/Views/WelcomeView.cs:85
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
 msgstr "Hoofdrekenen. Sommen waarmee u uw rekenvaardigheid kunt testen."
 
-#: ../src/Core/Views/WelcomeView.cs:105
+#: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
 msgstr "Geheugentraining. Laat zien wat uw kortetermijngeheugen waard is."
 
-#: ../src/Core/Views/WelcomeView.cs:126
+#: ../src/Core/Views/WelcomeView.cs:127
 msgid "Verbal analogies. Challenge your verbal aptitude."
 msgstr "Verbale analogieën. Toon uw kennis van woordbetekenissen."
 
 #. Translators: {0} is the version number of the program
-#: ../src/Core/Views/WelcomeView.cs:142
+#: ../src/Core/Views/WelcomeView.cs:143
 #, csharp-format
 msgid "Welcome to gbrainy {0}"
 msgstr "Welkom bij gbrainy {0}"
 
-#: ../src/Core/Views/WelcomeView.cs:146
+#: ../src/Core/Views/WelcomeView.cs:147
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
@@ -3088,9 +3698,22 @@ msgstr ""
 "of {4}."
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr "Het resultaat van de berekening {0} ÷ {1} is {2}"
+msgstr "Het resultaat van de berekening {0} / {1} is '{2}'."
+
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
+msgid "Consecutive sum"
+msgstr "Opeenvolgende som"
+
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
+#, csharp-format
+msgid ""
+"In the list of single-digit numbers below, there are 5 consecutive numbers "
+"whose sum is {0}. Which numbers are these?"
+msgstr ""
+"In onderstaande lijst met een cijferige getallen zijn er vijf opeenvolgende "
+"getallen waarvan de som {0} is. Welke getallen zijn dat?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3118,6 +3741,7 @@ msgstr ""
 "of {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
 msgid "Numbers"
 msgstr "Getallen"
 
@@ -3174,7 +3798,8 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
-msgid "The number {0} is a primer number."
+#| msgid "The number {0} is a primer number."
+msgid "The number {0} is a prime number."
 msgstr "Het getal {0} is een priemgetal."
 
 #: ../src/Games/Calculation/CalculationProportions.cs:36
@@ -3191,7 +3816,7 @@ msgid "Ratio"
 msgstr "Verhouding"
 
 #: ../src/Games/Calculation/CalculationRatio.cs:41
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
@@ -3226,6 +3851,36 @@ msgstr "x + y = {0}"
 #, csharp-format
 msgid "have a ratio of {0}:{1}"
 msgstr "hebben een verhouding van {0} staat tot {1}"
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
+#| msgid "Related numbers"
+msgid "Selected numbers"
+msgstr "Geselecteerde getallen"
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
+#, csharp-format
+#| msgid ""
+#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
+#| "the average? Answer {1}, {2}, {3} or {4}."
+msgid ""
+"In the list of numbers below, what is the sum of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr ""
+"Wat is uit onderstaande lijst met getallen de som van alle getallen met een "
+"waarde groter dan {0}. Antwoord {1}, {2}, {3} of {4}."
+
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
+#, csharp-format
+#| msgid ""
+#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
+#| "the average? Answer {1}, {2}, {3} or {4}."
+msgid ""
+"In the list of numbers below, what is the product of all the numbers with a "
+"value greater than {0}? Answer {1}, {2}, {3} or {4}."
+msgstr ""
+"Wat is uit onderstaande lijst met getallen het product van alle getallen met "
+"een "
+"waarde groter dan {0}. Antwoord {1}, {2}, {3} of {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -3411,7 +4066,7 @@ msgstr[0] "We hebben {0} meter stof."
 msgstr[1] "We hebben {0} meter stof."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:68
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
@@ -3419,20 +4074,20 @@ msgid_plural ""
 "A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
 msgstr[0] ""
-"Machine A heeft {0} seconde nodig om 1 meter van deze stof te snijden. "
-"Hoeveel seconden heeft machine A dan nodig om het gehele stuk stof in "
+"Een machine heeft {0} seconde nodig om 1 meter van deze stof te snijden. "
+"Hoeveel seconden heeft de machine dan nodig om het gehele stuk stof in "
 "stukken van 1 meter te snijden?"
 msgstr[1] ""
-"Machine A heeft {0} seconden nodig om 1 meter van deze stof te snijden. "
-"Hoeveel seconden heeft machine A dan nodig om het gehele stuk stof in "
+"Een machine heeft {0} seconden nodig om 1 meter van deze stof te snijden. "
+"Hoeveel seconden heeft de machine dan nodig om het gehele stuk stof in "
 "stukken van 1 meter te snijden?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
-msgstr[0] "Met snede {0} maakt machine A twee stukken van 1 meter."
-msgstr[1] "Met snede {0} maakt machine A twee stukken van 1 meter."
+msgstr[0] "Met snede {0} maakt de machine twee stukken van 1 meter."
+msgstr[1] "Met snede {0} maakt de machine twee stukken van 1 meter."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
@@ -3630,7 +4285,7 @@ msgstr ""
 "In hoeveel gebieden is de cirkel in de laatste figuur onderverdeeld wanneer "
 "alle punten met elkaar verbonden zijn?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -3683,8 +4338,11 @@ msgid "Figures and text"
 msgstr "Figuren en tekst"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
+#| msgid ""
+#| "The figures and the text are related. What text should go under the last "
+#| "figure?"
 msgid ""
-"The figures and the text are related. What text should go under the last "
+"The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
 "De figuren en de tekst zijn gerelateerd. Welke tekst hoort onder de laatste "
@@ -3705,18 +4363,18 @@ msgstr ""
 "'C' dat het cirkels zijn, 'D' dat het gescheiden figuren zijn, 'E' dat er "
 "drie figuren zijn en 'F' dat er twee figuren zijn."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:40
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
 msgstr "Figuurpatroon"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:45
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:49
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr ""
 "Welke figuur dient in de plaats van het vraagteken te komen? Antwoord {0}, "
 "{1} of {2}."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:50
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:54
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
@@ -3724,7 +4382,7 @@ msgstr ""
 "De derde figuur van elke rij wordt verkregen door de eerste twee figuren op "
 "de een of andere manier te combineren."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:55
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
@@ -3753,6 +4411,45 @@ msgstr ""
 "Het is de enige combinatie die u kunt bouwen met de gegeven elementen zonder "
 "ze te herhalen."
 
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
+#| msgid "Figures with numbers"
+msgid "Find the number"
+msgstr "Vind het getal"
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
+#, csharp-format
+msgid ""
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} place away from itself multiplied by 2 and {1} place away "
+"from itself plus 2?"
+msgid_plural ""
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} places away from itself multiplied by 2 and {1} places away "
+"from itself plus 2?"
+msgstr[0] ""
+"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat is "
+"het getal {0} plaats verwijderd van zichzelf vermenigvuldigd met 2 en {1} "
+"plaats verwijderd van zichzelf plus 2?"
+msgstr[1] ""
+"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat is "
+"het getal {0} plaatsen verwijderd van zichzelf vermenigvuldigd met 2 en {1} "
+"plaatsen verwijderd van zichzelf plus 2?"
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
+#, csharp-format
+msgid "The number is located at row {0}, column {1}."
+msgstr "Het getal bevindt zich in rij {0}, kolom {1}."
+
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
+#, csharp-format
+#| msgid ""
+#| "The fourth row is calculated by multiplying the first two rows and adding "
+#| "the third."
+msgid "The number is located within the first {0} row of the grid."
+msgid_plural "The number is located within the first {0} rows of the grid."
+msgstr[0] "Het getal bevindt zich in de eerste {0} rij van het raster."
+msgstr[1] "Het getal bevindt zich in de eerste {0} rijen van het raster."
+
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
 msgstr "Vierzijdig"
@@ -3772,19 +4469,19 @@ msgstr ""
 "De vierzijdige figuren kunnen gemaakt worden door de volgende punten te "
 "verbinden: {0}"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:35
+#: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
 msgstr "Rondjes in een matrix"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:39
+#: ../src/Games/Logic/PuzzleGridCircles.cs:46
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr "Eén van de getallen in de matrix hoort omcirkeld te zijn. Welke?"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:43
+#: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
 msgstr "Alle omcirkelde getallen hebben een rekenkundige eigenschap gemeen."
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:48
+#: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
 msgstr "Elk omcirkeld getal is deelbaar door {0}."
@@ -3912,6 +4609,9 @@ msgid ""
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
+"Met n als totaal aantal personen, drukt de eerste persoon n-1 personen "
+"de hand, de tweede n-2 personen, enz. Het resultaat is de som van de "
+"eerste n-1 opeenvolgende nummers: 1+2+3+...+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -3925,6 +4625,46 @@ msgid ""
 msgstr ""
 "Welke grotere vorm kunt u maken door de eerste twee figuren te combineren? "
 "Antwoord {0}, {1}, {2} of {3}."
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:241
+#| msgid "Larger shape"
+msgid "Largest area"
+msgstr "Grootste oppervlakte"
+
+#: ../src/Games/Logic/PuzzleLargestArea.cs:246
+#, csharp-format
+#| msgid ""
+#| "Which of the following figures does not belong to the group? Answer {0}, "
+#| "{1}, {2}, {3}, {4} or {5}."
+msgid ""
+"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
+"{3}."
+msgstr ""
+"Welke van de volgende figuren heeft de grootste oppervlakte? Antwoord {0}, "
+"{1}, {2} of {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
+msgid "Largest diameter"
+msgstr "Grootste diameter"
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
+#, csharp-format
+msgid ""
+"If the circles represented by the arcs below were completed, which circle "
+"would have the largest diameter? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Als van onderstaande bogen cirkels worden gemaakt, welke cirkel "
+"zou dan de grootste diameter hebben? Antwoord {0}, {1}, {2} or {3}."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
+msgid "Less curved is the arc, the larger the circle is."
+msgstr "Hoe minder gebogen, hoe groter de cirkel."
+
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
+#, csharp-format
+#| msgid "Answer {0}"
+msgid "Arc {0}"
+msgstr "Boog {0}"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
@@ -4217,12 +4957,15 @@ msgstr "Mensen rond een tafel"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
+#| msgid ""
+#| "A group of people are sitting at a round table spaced out evenly. How "
+#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
-"A group of people are sitting at a round table spaced out evenly. How many "
-"people are there if the {0} person is across from the {1}?"
+"A group of people, spaced out evenly, are sitting at a round table. How many "
+"people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Een groep mensen zit gelijkmatig verdeeld aan een ronde tafel. Hoeveel "
-"mensen zijn er als de {0} persoon tegenover de {1} zit?"
+"mensen zijn er als de {0} persoon direct tegenover de {1} zit?"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
@@ -4259,8 +5002,9 @@ msgid "22nd"
 msgstr "22e"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-msgid "Two people in the table sitting across each other"
-msgstr "Twee mensen zitten tegenover elkaar aan een tafel"
+#| msgid "Two people in the table sitting across each other"
+msgid "Two people in the table sitting across from each other"
+msgstr "Twee mensen zitten tegenover elkaar aan de tafel"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:41
 msgid "Percentage"
@@ -4533,7 +5277,8 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Wie niet naar buiten gaat om een stukje te lopen voelt zich niet beter"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-msgid "Predicate Logic"
+#| msgid "Predicate Logic"
+msgid "Predicate logic"
 msgstr "Predikatenlogica"
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
@@ -4663,15 +5408,16 @@ msgstr "De vellen horen te overlappen."
 
 #. Translators: the translated version should not take more characters that the English original
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:43
-#, fuzzy
 msgid ""
 "A full sized square of paper (yellow), a 3/4 of the whole size square of "
 "paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
 "in the top left corner and a 1/4 square of paper (red) in the top left "
 "corner."
 msgstr ""
-"Een heel vierkant blad papier, 3/4 van een heel blad in de hoek rechtsonder, "
-"3/4 van een heel blad in de hoek linksboven en 1/4 van een heel blad "
+"Een heel vierkant blad papier (geel), 3/4 van een heel blad (blauw) in de "
+"hoek rechtsonder, "
+"3/4 van een heel blad (groen) in de hoek linksboven en 1/4 van een heel blad "
+"(rood) "
 "linksboven."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:34
@@ -4692,11 +5438,12 @@ msgstr ""
 "Het is de figuur die alle mogelijke combinaties met vier blokken aanvult, "
 "rotaties buiten beschouwing gelaten."
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:33
+#. Translators: this the name of a game
+#: ../src/Games/Logic/PuzzleTimeNow.cs:34
 msgid "Time now"
 msgstr "Hoe laat is het"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:44
+#: ../src/Games/Logic/PuzzleTimeNow.cs:45
 #, csharp-format
 msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
@@ -4711,7 +5458,7 @@ msgstr[1] ""
 "{0} uur geleden was het net zo lang na {1:%H} als het voor {2:%H} op "
 "dezelfde dag was. Hoe laat is het nu? Antwoord met het uur (bijv.:{3:%H})"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:53
+#: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
 msgid ""
 "Determine the hour half way between the given times, and then add {0} hour "
@@ -4731,13 +5478,13 @@ msgstr[1] ""
 #. Explanation of the date and time format specifications can be found here:
 #. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 #. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
-#: ../src/Games/Logic/PuzzleTimeNow.cs:84
+#. 'tt' is the A.M./P.M. designator
+#: ../src/Games/Logic/PuzzleTimeNow.cs:86
 #, csharp-format
 msgid "{0:h tt}"
 msgstr "{0:%H}"
 
-#. No hands
-#: ../src/Games/Logic/PuzzleTimeNow.cs:94
+#: ../src/Games/Logic/PuzzleTimeNow.cs:96
 msgid "Sample clock"
 msgstr "Voorbeeldklok"
 
@@ -4753,7 +5500,7 @@ msgstr "De afstandsformule is 'afstand = snelheid x tijd'."
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
 #. - The translated string should not use more characters than the original sentence
 #: ../src/Games/Logic/PuzzleTrains.cs:81
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "A train leaves the station traveling at {0} mph. {1} hour later a second "
 "train leaves the station traveling in the same direction at {2} mph. How "
@@ -4766,12 +5513,12 @@ msgid_plural ""
 "overtake the first train?"
 msgstr[0] ""
 "Een trein verlaat het station met {0} km/h. {1} uur later verlaat een tweede "
-"trein het station in dezelfde richting met {2} km/h. Hoeveel uur duurt het "
-"totdat de tweede trein de eerste trein inhaalt?"
+"trein het station in dezelfde richting met {2} km/h. Hoeveel uur duurt het, "
+"vanaf zijn vertrek, totdat de tweede trein de eerste trein inhaalt?"
 msgstr[1] ""
 "Een trein verlaat het station met {0} km/h. {1} uur later verlaat een tweede "
-"trein het station in dezelfde richting met {2} km/h. Hoeveel uur duurt het "
-"totdat de tweede trein de eerste trein inhaalt?"
+"trein het station in dezelfde richting met {2} km/h. Hoeveel uur duurt het, "
+"vanaf zijn vertrek, totdat de tweede trein de eerste trein inhaalt?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:85
 msgid ""
@@ -4894,18 +5641,34 @@ msgstr "Gekleurde tekst"
 msgid "What was the color of the text that said '{0}'?"
 msgstr "Wat was de kleur van de tekst '{0}'?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:40
+#: ../src/Games/Memory/MemoryCountDots.cs:41
 msgid "Counting dots"
 msgstr "Puntjes tellen"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:51
+#: ../src/Games/Memory/MemoryCountDots.cs:52
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
 msgstr ""
 "Hoeveel puntjes die {0} waren heeft u in het vorige plaatje gezien? Antwoord "
 "met getallen."
+
+#: ../src/Games/Memory/MemoryFaces.cs:52
+#| msgid "Memorize facts"
+msgid "Memorize faces"
+msgstr "Gezichten onthouden"
+
+#: ../src/Games/Memory/MemoryFaces.cs:57
+#| msgid ""
+#| "In which cell is the other figure like the one shown below? Answer the "
+#| "cell number."
+msgid ""
+"In which cell is the other face like the one shown below? Answer the cell "
+"number."
+msgstr ""
+"In welk vak bevindt zich het andere gezicht zoals die hieronder afgebeeld? "
+"Antwoord met het vaknummer."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -4951,28 +5714,33 @@ msgstr ""
 msgid "By how much did company sales fall last December?"
 msgstr "Met hoeveel daalde de bedrijfsomzet afgelopen december?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:122
+#: ../src/Games/Memory/MemoryFacts.cs:123
+#, csharp-format
+#| msgid ""
+#| "Shiny Cars sales fell {0}% this past December, the worst decline since "
+#| "{1}."
 msgid ""
-"In what year was Shiny Cars sales total lower than that of last December?"
+"Shiny Cars sales fell {0}% this past December. This is the worst decline "
+"since which year?"
 msgstr ""
-"In welke jaar haalde Blinkende Auto's een totale verkoop lager dan die van "
-"afgelopen december?"
+"De verkoop van Blinkende Auto's daalde afgelopen december met {0}%, de "
+"grootste daling sinds welk jaar?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:127
+#: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr ""
 "Ongeveer {0}% van de auto's die Blinkende Auto's produceert worden in Europa "
 "verkocht."
 
-#: ../src/Games/Memory/MemoryFacts.cs:129
+#: ../src/Games/Memory/MemoryFacts.cs:131
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr ""
 "Hoeveel procent van alle Blinkende Auto's die wereldwijd worden geproduceerd "
 "zijn verkocht in Europa?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:135
+#: ../src/Games/Memory/MemoryFacts.cs:137
 #, csharp-format
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
@@ -4981,11 +5749,11 @@ msgstr ""
 "Circa {0}% van Blinkende Auto's rijdt op diesel, {1}% op benzine en de rest "
 "gebruikt elektriciteit."
 
-#: ../src/Games/Memory/MemoryFacts.cs:137
+#: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use diesel?"
 msgstr "Welk percentage van Blinkende Auto's rijdt op diesel?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:138
+#: ../src/Games/Memory/MemoryFacts.cs:140
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "Welk percentage van Blinkende Auto's rijdt op benzine?"
 
@@ -5010,30 +5778,17 @@ msgid "Memorize figures and text"
 msgstr "Onthoud de figuren en tekst"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:84
-#, fuzzy, csharp-format
+#, csharp-format
 msgid ""
 "The list below enumerates the figures shown in the previous image except for "
 "one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
 msgstr ""
 "De lijst hieronder bevat alle afbeeldingen die in het vorige plaatje "
-"voorkwamen, op één na. Welke figuur ontbreekt? Mogelijke antwoorden zijn "
-"driehoek, vierkant, vijfhoek en cirkel."
+"voorkwamen, op één na. Welke figuur ontbreekt? Antwoord {0}, {1}, {2} of {3}."
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
-msgstr ""
-
-#: ../src/Games/Memory/MemoryFigures.cs:54
-msgid "Memorize figures"
-msgstr "Figuren onthouden"
-
-#: ../src/Games/Memory/MemoryFigures.cs:59
-msgid ""
-"In which cell is the other figure like the one shown below? Answer the cell "
-"number."
-msgstr ""
-"In welk vak bevindt zich de andere figuur zoals die hieronder afgebeeld? "
-"Antwoord met het vaknummer."
+msgstr "Lijst met eerder getoonde afbeeldingen"
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
@@ -5047,37 +5802,37 @@ msgstr ""
 "Welk van deze vierkanten werd even hiervoor getoond? Antwoord {0}, {1}, {2} "
 "of {3}."
 
-#: ../src/Games/Memory/MemoryIndications.cs:132
+#: ../src/Games/Memory/MemoryIndications.cs:133
 #, csharp-format
 msgid "Start at point number {0}"
 msgstr "Begin in punt nummer {0}"
 
-#: ../src/Games/Memory/MemoryIndications.cs:136
+#: ../src/Games/Memory/MemoryIndications.cs:137
 msgid "Move right"
 msgstr "Naar rechts"
 
-#: ../src/Games/Memory/MemoryIndications.cs:138
+#: ../src/Games/Memory/MemoryIndications.cs:139
 msgid "Move left"
 msgstr "Naar links"
 
-#: ../src/Games/Memory/MemoryIndications.cs:140
+#: ../src/Games/Memory/MemoryIndications.cs:141
 msgid "Move up"
 msgstr "Naar boven"
 
-#: ../src/Games/Memory/MemoryIndications.cs:142
+#: ../src/Games/Memory/MemoryIndications.cs:143
 msgid "Move down"
 msgstr "Naar onder"
 
-#: ../src/Games/Memory/MemoryIndications.cs:147
+#: ../src/Games/Memory/MemoryIndications.cs:148
 #, csharp-format
 msgid "End at point {0}"
 msgstr "Eindig in punt {0}"
 
-#: ../src/Games/Memory/MemoryIndications.cs:161
+#: ../src/Games/Memory/MemoryIndications.cs:162
 msgid "Memorize indications"
 msgstr "Aanwijzingen onthouden"
 
-#: ../src/Games/Memory/MemoryIndications.cs:167
+#: ../src/Games/Memory/MemoryIndications.cs:168
 #, csharp-format
 msgid ""
 "Which of the following graphics represents the indications previously given? "
@@ -5454,244 +6209,28 @@ msgstr[1] ""
 "vriend twee keer zo lang. Hoeveel uur hebben ze samen nodig om een pakhuis "
 "schoon te maken? [option_answers]"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:1
-msgid "Custom Game"
-msgstr "Aangepast spel"
+#~ msgid "coins"
+#~ msgstr "munten"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
-msgid "Select All"
-msgstr "Alles selecteren"
+#~ msgid "You can also play on-line at {0}"
+#~ msgstr "U kunt ook online spelen, op {0}"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
-msgid "Unselect all"
-msgstr "Alles deselecteren"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Start"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-msgid "<b>Difficulty Level</b>"
-msgstr "<b>Moeilijkheidsgraad</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
-msgid "<b>Game Types</b>"
-msgstr "<b>Speltypes</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
-msgid "<b>General Settings</b>"
-msgstr "<b>Algemene instellingen</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-msgid "<b>Number of games</b>"
-msgstr "<b>Aantal spellen</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
-msgid "<b>Output File</b>"
-msgstr "<b>Doelbestand</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-msgid "Easy"
-msgstr "Makkelijk"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
-msgid "Master"
-msgstr "Moeilijk"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
-msgid "Medium"
-msgstr "Gemiddeld"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
-msgid "PDF export"
-msgstr "PDF-export"
-
-#. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
-msgid "Pages per side:"
-msgstr "Pagina's per kant:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
-msgid "Skip games that use colors"
-msgstr "Spellen die kleuren gebruiken overslaan"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:15
-msgid ""
-"This option allows to export a set of games in a PDF file. You can complete "
-"the puzzles without a computer."
-msgstr ""
-"Met deze optie kunt u een serie spelletjes naar een pdf-bestand exporteren. "
-"U kunt de puzzels dan zonder computer maken."
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
-msgid "Total number of games:"
-msgstr "Totaal aantal spellen:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "Op_slaan"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:12
-msgid "Player's Game Session History"
-msgstr "Spelgeschiedenis van de speler"
-
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:2
-msgid "Show:"
-msgstr "Toon:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-msgid "<b>Memory Games</b>"
-msgstr "<b>Geheugenspelletjes</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
-msgid "<b>Player's Game Session History</b>"
-msgstr "<b>Spelgeschiedenis van de speler</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
-msgid "Delete Player's Game Session History"
-msgstr "Spelgeschiedenis van speler verwijderen"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
-msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr "Zorg ervoor dat gbrainy altijd Engels gebruikt (negeer vertalingen)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
-msgid "Maximum number of records in the player's game session history:"
-msgstr "Maximaal aantal spellen in de spelgeschiedenis van de speler:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
-msgid "Minimum number of played games to store the game session:"
-msgstr ""
-"Minimaal aantal spellen dat gespeeld moet worden voordat de spelsessie wordt "
-"opgeslagen:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:12
-#: ../src/Clients/Classical/gbrainy.ui.h:13
-msgid "Preferences"
-msgstr "Voorkeuren"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
-msgid "Show a countdown message"
-msgstr "Laat het aftellen zien"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-msgid "Skip games that use colors (for colorblind users)"
-msgstr "Sla spellen die kleuren gebruiken over (voor kleurenblinde gebruikers)"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
-msgid "Theme:"
-msgstr "Thema:"
-
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
-msgid "Time in seconds to memorize the challenge:"
-msgstr "Tijd in seconden om objecten uit het hoofd te leren:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:1
-msgid "All Games (Logic, Mental Calculation, Memory and Verbal Analogies)"
-msgstr "Alle spellen (Logica, hoofdrekenen, geheugen en verbale analogieën)"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:2
-msgid "Answer:"
-msgstr "Antwoord:"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:3
-msgid "Custom Game Selection..."
-msgstr "Handmatige spelselectie…"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:4
-msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Spellen naar PDF exporteren om offline te spelen…"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:5
-msgid "Extensions"
-msgstr "Uitbreidingen"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:6
-msgid "Horizontal"
-msgstr "Horizontaal"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:7
-msgid "How to Extend gbrainy's Functionality"
-msgstr "Hoe u de functionaliteit van gbrainy uit kunt breiden"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:8
-msgid "Logic Puzzles Only"
-msgstr "Alleen logicapuzzels"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:9
-msgid "Memory Trainers Only"
-msgstr "Alleen geheugentrainingen"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:10
 #, fuzzy
-msgid "Mental Calculation Only"
-msgstr "Alleen hoofdrekentrainingen"
+#~ msgid "Next Game"
+#~ msgstr "_Nieuw spel"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:11
-msgid "Orientation"
-msgstr "Oriëntatie"
+#, fuzzy
+#~ msgid "Answer"
+#~ msgstr "Antwoord:"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:14
-msgid "Show"
-msgstr "Toon"
+#~ msgid ""
+#~ "In what year was Shiny Cars sales total lower than that of last December?"
+#~ msgstr ""
+#~ "In welke jaar haalde Blinkende Auto's een totale verkoop lager dan die "
+#~ "van afgelopen december?"
 
-#: ../src/Clients/Classical/gbrainy.ui.h:15
-msgid "Toolbar"
-msgstr "Werkbalk"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:16
-msgid "Verbal Analogies Only"
-msgstr "Alleen verbale analogieën"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:17
-msgid "Vertical"
-msgstr "Verticaal"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:18
-msgid "_Contents"
-msgstr "_Inhoud"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:19
-msgid "_End Game"
-msgstr "Spel b_eëindigen"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:20
-msgid "_Game"
-msgstr "_Spel"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:21
-msgid "_Help"
-msgstr "_Hulp"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:22
-msgid "_New Game"
-msgstr "_Nieuw spel"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:23
-msgid "_Next"
-msgstr "V_olgende"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:24
-msgid "_Pause Game"
-msgstr "Spel _pauzeren"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:25
-msgid "_Settings"
-msgstr "_Instellingen"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:26
-msgid "_Tip"
-msgstr "_Tip"
-
-#: ../src/Clients/Classical/gbrainy.ui.h:27
-msgid "_View"
-msgstr "_Weergave"
+#~ msgid "Memorize figures"
+#~ msgstr "Figuren onthouden"
 
 #~ msgid "{0}) "
 #~ msgstr "{0}) "
@@ -5727,9 +6266,6 @@ msgstr "_Weergave"
 #~ msgstr ""
 #~ "Welk van de volgende getallen is dichter bij {0:##0.###}? Antwoord {1}, "
 #~ "{2}, {3} of {4}."
-
-#~ msgid "Enabled"
-#~ msgstr "Ingeschakeld"
 
 #~ msgid "Break the mental blocks and look into the boundaries of problems."
 #~ msgstr "Doorbreek mentale blokkades en verken de grenzen van de problemen."
@@ -5831,14 +6367,6 @@ msgstr "_Weergave"
 #~ msgstr "Mogelijk juiste antwoorden zijn: {0}."
 
 #~ msgid ""
-#~ "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#~ "the average? Answer {1}, {2}, {3} or {4}."
-#~ msgstr ""
-#~ "Gegeven zijn deze getallen: {0}. Welke van de volgende getallen liggen "
-#~ "het dichtst bij het gemiddelde van de gegeven getallen? Antwoord {1}, "
-#~ "{2}, {3} of {4}."
-
-#~ msgid ""
 #~ "The second number is calculated by multiplying the first by {0} and "
 #~ "dividing it by {1}."
 #~ msgstr ""
@@ -5868,9 +6396,6 @@ msgstr "_Weergave"
 #~ msgid "An artist whose work has become the defining style of that genre is?"
 #~ msgstr ""
 #~ "Een kunstenaar wiens werk de bepalende stijl van een genre is geworden is?"
-
-#~ msgid "It is the only one that is not a reptile."
-#~ msgstr "Het is de enige die geen reptiel is."
 
 #~ msgid "Snake"
 #~ msgstr "Slang"
@@ -6152,9 +6677,6 @@ msgstr "_Weergave"
 
 #~ msgid "{0}."
 #~ msgstr "{0}."
-
-#~ msgid "Answer {0}"
-#~ msgstr "Antwoord {0}"
 
 #~ msgid ""
 #~ "On the dartboard below, where you have to hit the darts to add 120 points "
