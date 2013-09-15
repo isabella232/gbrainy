@@ -307,7 +307,7 @@ msgstr "Namigi in triki"
 
 #: C/gameplay.page:7(desc)
 msgid "Introduction to <app>gbrainy</app>."
-msgstr "Uvod v <app>gbrainy</apo>."
+msgstr "Uvod v <app>gbrainy</app>."
 
 #: C/gameplay.page:20(title)
 msgid "Gameplay"
