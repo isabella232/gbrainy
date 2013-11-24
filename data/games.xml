@@ -5,7 +5,7 @@
 		Authors:
 			Jordi Mas <jmas at softcatala dot org>
 
-		See: http://live.gnome.org/gbrainy/Extending for more details about how to use this file and its format.
+		See: https://wiki.gnome.org/Apps/gbrainy/Extending for more details about how to use this file and its format.
 
 		You can also look at GameXmlFactory.cs source code file as reference.
 -->
