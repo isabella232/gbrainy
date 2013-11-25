@@ -3,19 +3,20 @@
 # Copyright (C) 2010 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy.help.master\n"
-"POT-Creation-Date: 2011-06-24 14:52+0000\n"
-"PO-Revision-Date: 2011-06-30 16:37+0200\n"
+"POT-Creation-Date: 2013-11-24 15:47+0000\n"
+"PO-Revision-Date: 2013-11-25 16:23+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: C/export.page:7(desc)
@@ -368,20 +369,27 @@ msgstr ""
 "diferentes capacidades cognitivas."
 
 #: C/gameplay.page:30(p)
+#| msgid ""
+#| "You can choose different difficulty levels making <app>gbrainy</app> "
+#| "enjoyable for kids, adults or senior citizens. It also features a game "
+#| "history, personal records, tips and fullscreen mode support. "
+#| "<app>gbrainy</app> can also be <link href=\"http://live.gnome.org/gbrainy/"
+#| "Extending\">extended</link> easily with new games developed by third "
+#| "parties."
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"http://live.gnome.org/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Puedes elegir entre diferentes niveles de dificultad haciendo que "
 "<app>gbrainy</app> sea divertido para niños, adultos o personas mayores. "
 "También tiene un histórico de las partidas del jugador, los récord "
 "personales del jugador, pistas durante la partida y soporte para jugar a "
-"pantalla completa. <app>gbrainy</app> también se puede <link href=\"http://"
-"live.gnome.org/gbrainy/Extending\">extender</link> de forma fácil con juegos "
-"desarrollados por terceras partes."
+"pantalla completa. <app>gbrainy</app> también se puede <link href=\"https://"
+"wiki.gnome.org/Apps/gbrainy/Extending\">extender</link> de forma fácil con "
+"juegos desarrollados por terceras partes."
 
 #: C/gameplay.page:37(p)
 msgid ""
