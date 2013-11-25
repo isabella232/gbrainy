@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-27 13:36+0200\n"
+"POT-Creation-Date: 2013-11-25 20:11+0100\n"
 "PO-Revision-Date: 2013-08-30 13:45+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -655,7 +655,7 @@ msgid "Notebook"
 msgstr "Llibreta"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -6076,4 +6076,3 @@ msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
-
