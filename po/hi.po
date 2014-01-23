@@ -1042,7 +1042,7 @@ msgid ""
 msgstr "यह खेल वितरित किया जाता है पर ज़मानता के बिना; अव्यक्त व्यापारिकता ज़मानता के बिना भी या किसी विशेष प्रयोजन के लिए उपयुक्तता .जी एन यू जनरल पब्लिक अनुज्ञा अधिक जानकारी के लिए देखें .\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:59
-msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr "आपको जी एन यू जनरल पब्लिक अनुज्ञा की एक प्रतिलिपि इस खेल के साथ प्राप्त करना चाहिए; अगर नहीं तो मुफ़्त सॉफ्टवेयर स्थापना को आप लिक सकते हो, ई एन सी.,59 मंदिर प्लेस - सुइट 330, बोस्टन, एम ए 02111-1307, अमरीका"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
