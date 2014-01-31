@@ -2443,7 +2443,13 @@ msgstr ""
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, see <http://www.gnu.org/licenses/>."
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"Zusammen mit diesem Programm sollten Sie außerdem eine Kopie der »GNU "
+"General Public License« erhalten haben. Wenn dem nicht so ist, so schreiben "
+"Sie bitte an die Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+"Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."

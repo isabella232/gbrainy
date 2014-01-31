@@ -1638,7 +1638,12 @@ msgstr ""
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:59
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, see <http://www.gnu.org/licenses/>."
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"您應該會隨著本程式收到由自由軟體基金會所發之 GNU General Public License 複"
+"本; 若無，煩請來信至, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-"
+"1307, USA."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
 msgid "Based on ideas by Terry Stickels, MENSA books and Jordi Mas."
