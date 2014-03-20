@@ -4,20 +4,22 @@
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
+# Balázs Úr <urbalazs@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-16 22:55+0200\n"
-"PO-Revision-Date: 2013-06-16 03:15+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gbrainy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-01-31 13:59+0000\n"
+"PO-Revision-Date: 2014-03-20 15:04+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -640,7 +642,7 @@ msgid "Notebook"
 msgstr "Notebook"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2245,8 +2247,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "gyermekgyógyászat / gyerekek | éremtan"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "érmék"
+msgid "coins | currency | money"
+msgstr "érmék | pénznem | pénz"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -5823,11 +5825,11 @@ msgid_plural ""
 "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
 "[proportion] times older than his son. How old is John's son nowadays?"
 msgstr[0] ""
-"János életkora kétszer több fiáénál. [ago] évvel ezelőtt, János [proportion]"
-"* volt idősebb, mint fia. Hány éves János fia jelenleg?"
+"János életkora kétszer több fiáénál. [ago] évvel ezelőtt, János "
+"[proportion]* volt idősebb, mint fia. Hány éves János fia jelenleg?"
 msgstr[1] ""
-"János életkora kétszer több fiáénál. [ago] évvel ezelőtt, János [proportion]"
-"* volt idősebb, mint fia. Hány éves János fia jelenleg?"
+"János életkora kétszer több fiáénál. [ago] évvel ezelőtt, János "
+"[proportion]* volt idősebb, mint fia. Hány éves János fia jelenleg?"
 
 #: ../tools/GameXmlGetString.cs:41
 msgid ""
@@ -5974,6 +5976,9 @@ msgstr[1] ""
 "János [john_time] óra alatt takarít ki egy áruházat, a barátja kétszer ennyi "
 "idő alatt. Hány óráig tartana kitakarítaniuk az áruházat, ha együtt "
 "dolgoznának? [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "érmék"
 
 #~ msgid "You can also play on-line at {0}"
 #~ msgstr "Online is játszhat itt: {0}"
