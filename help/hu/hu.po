@@ -2,18 +2,19 @@
 # Copyright (C) 2011. Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2011.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2011, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy_help master\n"
-"POT-Creation-Date: 2011-08-02 12:39+0000\n"
-"PO-Revision-Date: 2011-08-02 14:41+0200\n"
+"POT-Creation-Date: 2013-12-18 18:10+0000\n"
+"PO-Revision-Date: 2014-03-24 12:17+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: C/export.page:7(desc)
@@ -57,7 +58,8 @@ msgstr ""
 "kinyomtatására, hogy a számítógép nélkül is játszhasson."
 
 #: C/export.page:25(p)
-msgid "The games will be saved in a <file>PDF</file> file in the selected folder."
+msgid ""
+"The games will be saved in a <file>PDF</file> file in the selected folder."
 msgstr ""
 "A játékok egy <file>PDF</file> fájlba kerülnek mentésre a kiválasztott "
 "mappába."
@@ -130,26 +132,33 @@ msgstr "@@image: 'figures/all-games.png'; md5=b9b2464dfdb280d8de79b921e03a4705"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/newgame.page:76(None) C/gametypes.page:36(None)
-msgid "@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
-msgstr "@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
+msgid ""
+"@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
+msgstr ""
+"@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/newgame.page:95(None) C/gametypes.page:57(None)
 msgid "@@image: 'figures/math-games.png'; md5=208d189bcd6246b40e3dff184a5d5698"
-msgstr "@@image: 'figures/math-games.png'; md5=208d189bcd6246b40e3dff184a5d5698"
+msgstr ""
+"@@image: 'figures/math-games.png'; md5=208d189bcd6246b40e3dff184a5d5698"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/newgame.page:114(None) C/gametypes.page:78(None)
-msgid "@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
-msgstr "@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
+msgid ""
+"@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
+msgstr ""
+"@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/newgame.page:133(None) C/gametypes.page:98(None)
-msgid "@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
-msgstr "@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
+msgid ""
+"@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
+msgstr ""
+"@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
 
 #: C/newgame.page:6(title)
 msgid "1"
@@ -358,19 +367,26 @@ msgstr ""
 "tesztelésére tervezték."
 
 #: C/gameplay.page:30(p)
+#| msgid ""
+#| "You can choose different difficulty levels making <app>gbrainy</app> "
+#| "enjoyable for kids, adults or senior citizens. It also features a game "
+#| "history, personal records, tips and fullscreen mode support. "
+#| "<app>gbrainy</app> can also be <link href=\"http://live.gnome.org/gbrainy/"
+#| "Extending\">extended</link> easily with new games developed by third "
+#| "parties."
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"http://live.gnome.org/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Több nehézségi szint közül választhat, így a <app>gbrainy</app> egyaránt "
 "élvezhető gyerekek, felnőttek vagy idősek számára is. Tartalmaz "
 "játékelőzményeket, egyéni rekordokat, tippeket és a teljes képernyős mód is "
-"támogatott. A <app>gbrainy</app> egyszerűen <link href=\"http://live.gnome."
-"org/gbrainy/Extending\">kibővíthető</link> harmadik felek által készített új "
-"játékokkal."
+"támogatott. A <app>gbrainy</app> egyszerűen <link "
+"href=\"https://wiki.gnome.org/Apps/gbrainy/Extending\">kibővíthető</link> "
+"harmadik felek által készített új játékokkal."
 
 #: C/gameplay.page:37(p)
 msgid ""
@@ -504,13 +520,15 @@ msgstr ""
 msgid ""
 "If you take less than the time expected to complete the game, you score 10 "
 "points."
-msgstr "Ha az elvártnál kevesebb idő alatt fejezi be a játékot, akkor 10 pontot kap."
+msgstr ""
+"Ha az elvártnál kevesebb idő alatt fejezi be a játékot, akkor 10 pontot kap."
 
 #: C/score.page:74(p)
 msgid ""
 "If you take more than the time expected to complete the game, you score 8 "
 "points."
-msgstr "Ha az elvártnál több idő alatt fejezi be a játékot, akkor 8 pontot kap."
+msgstr ""
+"Ha az elvártnál több idő alatt fejezi be a játékot, akkor 8 pontot kap."
 
 #: C/score.page:79(p)
 msgid ""
@@ -632,7 +650,8 @@ msgid "Change the number of saved games"
 msgstr "Mentett játékok számának módosítása"
 
 #: C/history.page:42(p)
-msgid "<app>gbrainy</app> saves the player's scores so it can track how they evolve."
+msgid ""
+"<app>gbrainy</app> saves the player's scores so it can track how they evolve."
 msgstr ""
 "A <app>gbrainy</app> elmenti a játékosok pontszámait, így követheti "
 "fejlődésüket."
@@ -776,7 +795,8 @@ msgstr "A szüneteltetett játék folytatásához tegye a következők egyikét:
 
 #: C/pause.page:50(p)
 msgid "Click on the <gui style=\"button\">Resume</gui> button in the toolbar."
-msgstr "Kattintson az eszköztár <gui style=\"button\">Folytatás</gui> gombjára."
+msgstr ""
+"Kattintson az eszköztár <gui style=\"button\">Folytatás</gui> gombjára."
 
 #: C/pause.page:58(title)
 msgid "End a game"
@@ -796,7 +816,8 @@ msgstr ""
 
 #: C/pause.page:69(p)
 msgid "Click on the <gui style=\"button\">End</gui> button in the toolbar."
-msgstr "Kattintson az eszköztár <gui style=\"button\">Befejezés</gui> gombjára."
+msgstr ""
+"Kattintson az eszköztár <gui style=\"button\">Befejezés</gui> gombjára."
 
 #: C/license.page:8(desc)
 msgid "Legal information."
