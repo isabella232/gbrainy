@@ -6,9 +6,9 @@
 
   <name xml:lang="en">gbrainy</name>
   <shortdesc xml:lang="en">A brain teaser game for fun and to keep your brain trained</shortdesc>
-  <homepage rdf:resource="http://live.gnome.org/gbrainy/" />
+  <homepage rdf:resource="https://wiki.gnome.org/Apps/gbrainy" />
   <mailing-list rdf:resource="http://groups.google.com/group/gbrainy" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gbrainy" />
 
   <repository>
     <GitRepository>
