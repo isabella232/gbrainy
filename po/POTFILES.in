@@ -1,4 +1,5 @@
 data/games.xml
+data/gbrainy.appdata.xml.in
 data/gbrainy.desktop.in
 data/themes/themes.xml
 data/verbal_analogies.xml

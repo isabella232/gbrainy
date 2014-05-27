@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">gbrainy.desktop</id>
+  <licence>CC0</licence>
+  <description>
+    <_p>
+    gbrainy is a platform to train memory, arithmetical and logical capabilities 
+    with many sorts of different exercises of different difficulty levels. 
+    It should have something for all ages and purposes: kids whose parents want 
+    them to develop their capabilities, adults that want to keep their mind in 
+    form or just try it out for fun, older people that might need to do some 
+    memory exercises, etc.
+    </_p>
+
+    <_p>
+    It provides the following types of games:
+    </_p>
+
+    <_p>
+    <_ul>
+    <_li>Logic Puzzles: games designed to challenge your reasoning and thinking 
+         skills.</_li>
+    <_li>Mental Calculation: games based on arithmetical operations designed to 
+         prove your mental calculation skills.</_li>
+    <_li>Memory Trainers: games designed to challenge your short term 
+         memory.</_li>
+    <_li>Verbal Analogies: games that challenge your verbal aptitude.</_li>
+    </_ul>
+    </_p>
+  </description>
+  <screenshots>
+      <screenshot type="default">http://gent.softcatala.org/jmas/gbrainy/gbrainy-screenshot-appdata.png</screenshot>
+  </screenshots>
+  <url type="homepage">https://wiki.gnome.org/action/show/Apps/gbrainy/</url>
+  <updatecontact>jmas_at_softcatala_dot_org</updatecontact>
+</application>

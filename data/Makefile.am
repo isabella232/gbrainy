@@ -25,6 +25,11 @@ Applications_DATA = $(desktop_files)
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = gbrainy.pc
 
+appdatadir = $(datadir)/appdata
+appdata_in_files = gbrainy.appdata.xml.in
+appdata_DATA = $(appdata_in_files:.xml.in=.xml)
+@INTLTOOL_XML_RULE@
+
 tango_icons = 				\
 	app-graphics/gbrainy.png	\
 	app-graphics/gbrainy.svg	\
@@ -119,6 +124,6 @@ uninstall-hook:
 
 noinst_DATA = 	
 
-DISTCLEANFILES = $(desktop_files)
+DISTCLEANFILES = $(desktop_files) $(appdata_DATA)
 
-EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) $(sounds_DATA) gbrainy.pc.in
+EXTRA_DIST = $(pixmap_DATA) $(tango_icons) $(man_MANS) $(analogies_DATA) $(desktop_in_files) $(themes_DATA) $(sounds_DATA) gbrainy.pc.in $(appdata_in_files)
