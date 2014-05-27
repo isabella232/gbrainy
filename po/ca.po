@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-25 20:11+0100\n"
+"POT-Creation-Date: 2014-05-27 23:47+0200\n"
 "PO-Revision-Date: 2013-08-30 13:45+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -629,6 +629,27 @@ msgstr ""
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "És el resultat de l'operació: ([three] * 3) - ([two] * 2)."
+
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"gbrainy és una joc per exercitar la memòria, i les vostres "
+"habilitats aritmètiques i lògiques amb molts tipus d'exercicis de diferents "
+"nivells de dificultat."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"És útils per a totes les edats i propòsits: nens els quals els seus pares "
+"volen que desenvolupin les seves habilitats, adults que volen mantenir la "
+"seva ment en format, o simplement per passar-ho bé, o gent gran que vulgui "
+"fer exercicis de memòria."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
