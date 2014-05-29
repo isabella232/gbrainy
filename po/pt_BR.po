@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: grainy 1.50\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-28 10:28+0000\n"
-"PO-Revision-Date: 2013-07-29 11:24-0300\n"
+"POT-Creation-Date: 2014-05-27 21:47+0000\n"
+"PO-Revision-Date: 2014-05-29 20:36-0300\n"
 "Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.3\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -630,6 +630,27 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "É o resultado da operação: ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"O gbrainy é um jogo para você treinar suas habilidades de memória, "
+"aritmética e lógica com vários tipos de exercícios de diferentes níveis de "
+"dificuldades."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"E deve ter algo para todas as idades e propósitos: crianças cujos pais "
+"desejam que elas desenvolvam suas habilidades, adultos que querem manter "
+"suas mentes em forma ou apenas tentar por diversão, pessoas mais velhas que "
+"podem precisar fazer exercícios de memória, entre outros."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -655,7 +676,7 @@ msgid "Notebook"
 msgstr "Caderno"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
