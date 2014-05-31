@@ -5,15 +5,15 @@
 # Jaroslav Ryník <jrynik@yahoo.co.uk>, 2009. (original Slovak translation).
 # Lucas Lommer <llommer@svn.gnome.org>, 2009. (based on Mr. Rynik's work).
 # Petr Kovar <pknbe@volny.cz>, 2010.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-27 11:28+0000\n"
-"PO-Revision-Date: 2013-07-28 12:27+0200\n"
+"POT-Creation-Date: 2014-05-27 21:47+0000\n"
+"PO-Revision-Date: 2014-05-31 08:03+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -634,6 +634,26 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Je to výsledek operace  ([three] . 3) - ([two] . 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"gbrainy je hra procvičující vaši paměť, matematické schopnosti a logické "
+"uvažování na řadě různých a různě složitých úkolů."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Měla by zaujmout každého, bez rozdílu věku a zaměření. Děti, které si chtějí "
+"rozvíjet své schopnosti, dospělé, kteří se chtějí udržet ve formě nebo se "
+"jen pobavit, starší lidi, kteří si potřebují procvičit paměť, i kohokoliv "
+"dalšího."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -659,7 +679,7 @@ msgid "Notebook"
 msgstr "Poznámkový blok"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
