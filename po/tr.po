@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-03 04:49+0000\n"
-"PO-Revision-Date: 2014-06-03 19:30+0000\n"
+"POT-Creation-Date: 2014-06-08 04:50+0000\n"
+"PO-Revision-Date: 2014-06-08 11:48+0000\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../data/games.xml.h:1
@@ -40,7 +40,7 @@ msgid ""
 "It is calculated by taking the total number of people minus [brothers_only] "
 "people that have brothers only, minus [sisters_only] that have sisters only "
 "and minus [both] that have sisters and brothers."
-msgstr ""
+msgstr "Toplam kişi sayısından sadece erkek kardeşleri olan [brothers_only] kişiyi, sadece kız kardeşleri olan [sisters_only] kişiyi ve hem kız hem de erkek kardeşleri olan [both] kişiyi çıkararak hesaplanır."
 
 #: ../data/games.xml.h:6
 msgid "Age"
@@ -50,7 +50,7 @@ msgstr "Yaş"
 msgid ""
 "John's son age is nowadays half of John's age minus [difference], that is, "
 "([father] / 2) - [difference]."
-msgstr ""
+msgstr "John'un oğlunun günümüzdeki yaşı John'un yaşının yarısından [difference] eksiktir, yani ([father] / 2) - [difference]."
 
 #: ../data/games.xml.h:8
 msgid "Password"
@@ -82,7 +82,7 @@ msgstr "Her oyun 2 olası sonucu olan bağımsız bir olaydır. Olasılıkların
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
-msgstr ""
+msgstr "Her oyunda bir oyuncu elenir. Yani sonuç, toplam oyuncu sayısının bir eksiğidir."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
@@ -92,7 +92,7 @@ msgstr "Banka faizi"
 msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
-msgstr ""
+msgstr "Bileşik faiz, ana para ve birikmiş olan faizin toplamı üzerinden ödenir."
 
 #: ../data/games.xml.h:16
 msgid "Simple equations"
@@ -164,7 +164,7 @@ msgstr "Kutu"
 msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6"
 " x 5 x [z]?"
-msgstr ""
+msgstr "6 x 5 x [z] ölçülerindeki bir kapsayıcı içerisine 1 x 1 x 0,5 ölçülerindeki kutulardan kaç tane sığdırılabilir?"
 
 #: ../data/games.xml.h:34
 msgid "You can fit 6 * 5 * [z] * 2 boxes."
@@ -368,19 +368,19 @@ msgstr ""
 
 #: ../data/games.xml.h:76
 msgid "[option_prefix] s > p"
-msgstr ""
+msgstr "[option_prefix] s > p"
 
 #: ../data/games.xml.h:77
 msgid "[option_prefix] p < r"
-msgstr ""
+msgstr "[option_prefix] p < r"
 
 #: ../data/games.xml.h:78
 msgid "[option_prefix] p > r"
-msgstr ""
+msgstr "[option_prefix] p > r"
 
 #: ../data/games.xml.h:79
 msgid "[option_prefix] q = s"
-msgstr ""
+msgstr "[option_prefix] q = s"
 
 #: ../data/games.xml.h:80
 msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
@@ -394,7 +394,7 @@ msgstr ""
 
 #: ../data/games.xml.h:82
 msgid "[option_prefix] r < q"
-msgstr ""
+msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
@@ -412,19 +412,19 @@ msgstr ""
 
 #: ../data/games.xml.h:86
 msgid "[option_prefix] 2x + y"
-msgstr ""
+msgstr "[option_prefix] 2x + y"
 
 #: ../data/games.xml.h:87
 msgid "[option_prefix] x * y"
-msgstr ""
+msgstr "[option_prefix] x * y"
 
 #: ../data/games.xml.h:88
 msgid "[option_prefix] x * y * 2"
-msgstr ""
+msgstr "[option_prefix] x * y * 2"
 
 #: ../data/games.xml.h:89
 msgid "[option_prefix] (x - y) * 2"
-msgstr ""
+msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
 msgid ""
@@ -439,19 +439,19 @@ msgstr "Depo"
 
 #: ../data/games.xml.h:92
 msgid "[option_prefix] [answer_a]"
-msgstr ""
+msgstr "[option_prefix] [answer_a]"
 
 #: ../data/games.xml.h:93
 msgid "[option_prefix] [answer_b]"
-msgstr ""
+msgstr "[option_prefix] [answer_b]"
 
 #: ../data/games.xml.h:94
 msgid "[option_prefix] [answer_c]"
-msgstr ""
+msgstr "[option_prefix] [answer_c]"
 
 #: ../data/games.xml.h:95
 msgid "[option_prefix] [answer_d]"
-msgstr ""
+msgstr "[option_prefix] [answer_d]"
 
 #: ../data/games.xml.h:96
 msgid "Two trucks"
@@ -484,20 +484,20 @@ msgstr ""
 
 #: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
-msgstr ""
+msgstr "[option_prefix] Annesi"
 
 #: ../data/games.xml.h:102
 msgid "[option_prefix] Has no relation"
-msgstr ""
+msgstr "[option_prefix] Akrabalığı yoktur"
 
 #: ../data/games.xml.h:103
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
-msgstr ""
+msgstr "[option_prefix] Kuzeni"
 
 #: ../data/games.xml.h:104
 msgid "[option_prefix] His son-in-law"
-msgstr ""
+msgstr "[option_prefix] Damadı"
 
 #: ../data/games.xml.h:105
 msgid "His mother"
@@ -516,12 +516,12 @@ msgstr ""
 
 #: ../data/games.xml.h:108
 msgid "[option_prefix] His father"
-msgstr ""
+msgstr "[option_prefix] Babası"
 
 #: ../data/games.xml.h:109
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
-msgstr ""
+msgstr "[option_prefix] Kuzeni"
 
 #: ../data/games.xml.h:110
 msgid "His father"
@@ -587,7 +587,7 @@ msgstr "Not defteri"
 #. https://wiki.gnome.org/Apps/gbrainy/Localizing
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
-msgstr ""
+msgstr "Aşağıdaki spor dallarından hangisi bu gruba ait değildir?"
 
 #: ../data/verbal_analogies.xml.h:5
 msgid "Think of the items used in the game."
@@ -635,7 +635,7 @@ msgstr "Köpek / Kedi"
 
 #: ../data/verbal_analogies.xml.h:16
 msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr ""
+msgstr "Köpek ve at tür, terriyer ve midilli ise ırktır."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
@@ -700,7 +700,7 @@ msgstr "Yoksay"
 
 #: ../data/verbal_analogies.xml.h:33
 msgid "An artist whose work has become the defining style of a genre is?"
-msgstr ""
+msgstr "İşleri artık türünü tanımlar hale gelmiş sanatçı?"
 
 #: ../data/verbal_analogies.xml.h:34
 msgid "Pioneer"
@@ -774,7 +774,7 @@ msgstr "Agorafobi"
 #. Selected to avoid physical characteristics like: has shield, legs or tail
 #: ../data/verbal_analogies.xml.h:55
 msgid "Which of the following words does not belong in this group?"
-msgstr ""
+msgstr "Aşağıdaki sözcüklerden hangisi bu gruba ait değildir?"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:57
@@ -897,7 +897,7 @@ msgstr "Kurbağa"
 #: ../data/verbal_analogies.xml.h:87
 msgid ""
 "It is the only one that is not a reptile and also does not have a tail."
-msgstr ""
+msgstr "Bir sürüngen olmayan ve ayrıca bir kuyruğu da olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:88
 msgid "Tiger"
@@ -921,7 +921,7 @@ msgstr "Etçil olmayan hangisidir?"
 
 #: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'hazcılık' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
@@ -948,7 +948,7 @@ msgstr "Makbul olanın esasen iyi olduğuna dayanan ahlaki öğreti."
 #: ../data/verbal_analogies.xml.h:99
 msgid ""
 "Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'çilecilik' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
@@ -1002,7 +1002,7 @@ msgstr "Pirinç"
 
 #: ../data/verbal_analogies.xml.h:112
 msgid "It is the only one that is not a cereal."
-msgstr ""
+msgstr "Tahıl olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:113
 msgid "Onion"
@@ -1038,7 +1038,7 @@ msgstr "Çinko"
 
 #: ../data/verbal_analogies.xml.h:121
 msgid "It is the only one that is not a metal."
-msgstr ""
+msgstr "Metal olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:122
 msgid "Cardiology"
@@ -1058,11 +1058,11 @@ msgstr "Paleontoloji"
 
 #: ../data/verbal_analogies.xml.h:126
 msgid "It is the only one that is not a medical specialty."
-msgstr ""
+msgstr "Tıbbi uzmanlık olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:127
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'ihmalkâr' kelimesine anlamca en yakındır?"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of
 #. the following words is closest to the meaning of 'negligent'
@@ -1209,231 +1209,231 @@ msgstr "Kase"
 
 #: ../data/verbal_analogies.xml.h:168
 msgid "It is the only one that is not used to storage liquids."
-msgstr ""
+msgstr "Sıvıları depolamak için kullanılmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:169
 msgid "Walnut"
-msgstr ""
+msgstr "Ceviz"
 
 #. Translator: In reference to the nut
 #: ../data/verbal_analogies.xml.h:171
 msgid "Macadamia"
-msgstr ""
+msgstr "Makadam"
 
 #: ../data/verbal_analogies.xml.h:172
 msgid "Chestnut"
-msgstr ""
+msgstr "Kestane"
 
 #: ../data/verbal_analogies.xml.h:173
 msgid "It is the only one that is not a nut."
-msgstr ""
+msgstr "Kuru meyve olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:174
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'beğeni' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
-msgstr ""
+msgstr "Alkış"
 
 #: ../data/verbal_analogies.xml.h:176
 msgid "Commendation"
-msgstr ""
+msgstr "Takdirname"
 
 #: ../data/verbal_analogies.xml.h:177
 msgid "Citation"
-msgstr ""
+msgstr "Alıntı"
 
 #. Translator: As a noun (call upon a spirit by invocation)
 #: ../data/verbal_analogies.xml.h:179
 msgid "Conjure"
-msgstr ""
+msgstr "Hokkabaz"
 
 #: ../data/verbal_analogies.xml.h:180
 msgid "Which of the following words is closest to the meaning of 'grief'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'keder' kelimesine anlamca en yakındır?"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:182
 msgid "Lament"
-msgstr ""
+msgstr "Ağıt"
 
 #: ../data/verbal_analogies.xml.h:183
 msgid "Fraud"
-msgstr ""
+msgstr "Dolandırıcılık"
 
 #: ../data/verbal_analogies.xml.h:184
 msgid "Intolerance"
-msgstr ""
+msgstr "Hoşgörüsüzlük"
 
 #: ../data/verbal_analogies.xml.h:185
 msgid "Risk"
-msgstr ""
+msgstr "Risk"
 
 #: ../data/verbal_analogies.xml.h:186
 msgid ""
 "Which of the following words is closest to the meaning of 'phlegmatic'?"
-msgstr ""
+msgstr "Aşağıdaki kelimelerden hangisi 'ağırkanlı' kelimesine anlamca en yakındır?"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
 msgid "Calm"
-msgstr ""
+msgstr "Sakin"
 
 #: ../data/verbal_analogies.xml.h:189
 msgid "Authentic"
-msgstr ""
+msgstr "Özgün"
 
 #: ../data/verbal_analogies.xml.h:190
 msgid "Clever"
-msgstr ""
+msgstr "Zeki"
 
 #: ../data/verbal_analogies.xml.h:191
 msgid "Tense"
-msgstr ""
+msgstr "Gergin"
 
 #: ../data/verbal_analogies.xml.h:192
 msgid "Concert"
-msgstr ""
+msgstr "Ahenk"
 
 #: ../data/verbal_analogies.xml.h:193
 msgid "Satire"
-msgstr ""
+msgstr "Hiciv"
 
 #: ../data/verbal_analogies.xml.h:194
 msgid "Proverb"
-msgstr ""
+msgstr "Atasözü"
 
 #: ../data/verbal_analogies.xml.h:195
 msgid "Epigram"
-msgstr ""
+msgstr "Nükte"
 
 #: ../data/verbal_analogies.xml.h:196
 msgid "It is the only one that is not related to literature."
-msgstr ""
+msgstr "Edebiyat ile ilgili olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:197
 msgid "Curve"
-msgstr ""
+msgstr "Eğri"
 
 #: ../data/verbal_analogies.xml.h:198
 msgid "Cathetus"
-msgstr ""
+msgstr "Dik Kenar"
 
 #: ../data/verbal_analogies.xml.h:199
 msgid "Hypotenuse"
-msgstr ""
+msgstr "Hipotenüs"
 
 #: ../data/verbal_analogies.xml.h:200
 msgid "Trigonometry"
-msgstr ""
+msgstr "Trigonometri"
 
 #: ../data/verbal_analogies.xml.h:201
 msgid "It is the only one that is not related with triangles."
-msgstr ""
+msgstr "Üçgenler ile ilgili olmayan tek şey."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:203
 msgid "Necklace"
-msgstr ""
+msgstr "Kolye"
 
 #: ../data/verbal_analogies.xml.h:204
 msgid "Candelabra"
-msgstr ""
+msgstr "Mumluk"
 
 #: ../data/verbal_analogies.xml.h:205
 msgid "Lantern"
-msgstr ""
+msgstr "Fener"
 
 #: ../data/verbal_analogies.xml.h:206
 msgid "Lamp"
-msgstr ""
+msgstr "Lamba"
 
 #: ../data/verbal_analogies.xml.h:207
 msgid "It is the only one that does not produce light."
-msgstr ""
+msgstr "Işık üretmeyen tek şey."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:209
 msgid "Shield"
-msgstr ""
+msgstr "Kalkan"
 
 #: ../data/verbal_analogies.xml.h:210
 msgid "Helmet"
-msgstr ""
+msgstr "Kask"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:212
 msgid "Armor"
-msgstr ""
+msgstr "Zırh"
 
 #: ../data/verbal_analogies.xml.h:213
 msgid "Crossbow"
-msgstr ""
+msgstr "Tatar yayı"
 
 #: ../data/verbal_analogies.xml.h:214
 msgid "It is the only one that is not used for protection."
-msgstr ""
+msgstr "Korunma amaçlı kullanılmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:215
 msgid "Monolith"
-msgstr ""
+msgstr "Yekpare dikme"
 
 #: ../data/verbal_analogies.xml.h:216
 msgid "Granite"
-msgstr ""
+msgstr "Granit"
 
 #: ../data/verbal_analogies.xml.h:217
 msgid "Rock"
-msgstr ""
+msgstr "Kaya"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:219
 msgid "Tree"
-msgstr ""
+msgstr "Ağaç"
 
 #: ../data/verbal_analogies.xml.h:220
 msgid "It is the only one that is not related to rocks."
-msgstr ""
+msgstr "Kayalar ile ilgili olmayan tek şey."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:222
 msgid "Carrot"
-msgstr ""
+msgstr "Havuç"
 
 #: ../data/verbal_analogies.xml.h:223
 msgid "Beet"
-msgstr ""
+msgstr "Pancar"
 
 #: ../data/verbal_analogies.xml.h:224
 msgid "Radish"
-msgstr ""
+msgstr "Turp"
 
 #: ../data/verbal_analogies.xml.h:225
 msgid "Tomato"
-msgstr ""
+msgstr "Domates"
 
 #: ../data/verbal_analogies.xml.h:226
 msgid "It is the only one that does not have roots."
-msgstr ""
+msgstr "Kökleri olmayan tek şey."
 
 #. Translator: Organ as a musical instrument
 #: ../data/verbal_analogies.xml.h:228
 msgid "Organ"
-msgstr ""
+msgstr "Org"
 
 #: ../data/verbal_analogies.xml.h:229
 msgid "Piano"
-msgstr ""
+msgstr "Piyano"
 
 #: ../data/verbal_analogies.xml.h:230
 msgid "Accordion"
-msgstr ""
+msgstr "Akordeon"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
 msgid "It is the only instrument that does not have keys."
-msgstr ""
+msgstr "Tuşları olmayan tek çalgı aleti."
 
 #: ../data/verbal_analogies.xml.h:233
 msgid "car / garage | plane"
@@ -1477,7 +1477,7 @@ msgstr "Açı"
 
 #: ../data/verbal_analogies.xml.h:243
 msgid "The radius of a circle is half the diameter."
-msgstr ""
+msgstr "Bir dairenin yarıçapı, çapının yarısıdır."
 
 #: ../data/verbal_analogies.xml.h:244
 msgid "talk / yell | dislike"
@@ -1485,7 +1485,7 @@ msgstr "konuş / bağır | sevme"
 
 #: ../data/verbal_analogies.xml.h:245
 msgid "Repugnance"
-msgstr ""
+msgstr "İsteksizlik"
 
 #: ../data/verbal_analogies.xml.h:246
 msgid "Offensive"
@@ -1513,7 +1513,7 @@ msgstr "Restoran"
 
 #: ../data/verbal_analogies.xml.h:252
 msgid "Winery"
-msgstr ""
+msgstr "Şaraphane"
 
 #: ../data/verbal_analogies.xml.h:253
 msgid "Table"
@@ -1521,7 +1521,7 @@ msgstr "Masa"
 
 #: ../data/verbal_analogies.xml.h:254
 msgid "A pen is used to write and a fork is used to eat."
-msgstr ""
+msgstr "Kalem yazmak için, çatal yemek için kullanılır."
 
 #: ../data/verbal_analogies.xml.h:255
 msgid "desert / oasis | sea"
@@ -1547,12 +1547,12 @@ msgstr "Sahil"
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
-msgstr ""
+msgstr "Vaha çölde çevresinden yalıtılmış bir bitki örtüsü alanı, ada ise suyla çevrili yalıtılmış bir toprak parçasıdır."
 
 #. Translators: letter refers to letter (in paper form)
 #: ../data/verbal_analogies.xml.h:262
 msgid "turtle / shell | letter"
-msgstr ""
+msgstr "kaplumbağa / kabuk | mektup"
 
 #: ../data/verbal_analogies.xml.h:263
 msgid "Envelope"
@@ -1572,7 +1572,7 @@ msgstr "Selüloz"
 
 #: ../data/verbal_analogies.xml.h:267
 msgid "A turtle is inside a shell and a letter is inside an envelope."
-msgstr ""
+msgstr "Kaplumbağa kabuğunun içinde ve mektup zarfın içindedir."
 
 #: ../data/verbal_analogies.xml.h:268
 msgid "wine / grape | rum"
@@ -1612,7 +1612,7 @@ msgstr "Balıklar"
 
 #: ../data/verbal_analogies.xml.h:277
 msgid "thankful / ingratitude | despotism"
-msgstr ""
+msgstr "müteşekkir / nankörlük | despotizm"
 
 #: ../data/verbal_analogies.xml.h:278
 msgid "Democracy"
@@ -1620,7 +1620,7 @@ msgstr "Demokrasi"
 
 #: ../data/verbal_analogies.xml.h:279
 msgid "Totalitarianism"
-msgstr ""
+msgstr "Totalitarizm"
 
 #: ../data/verbal_analogies.xml.h:280
 msgid "Oligarchy"
@@ -1637,7 +1637,7 @@ msgstr "kötümser / iyimser | fakir"
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
 #: ../data/verbal_analogies.xml.h:284
 msgid "Affluent"
-msgstr ""
+msgstr "Zengin"
 
 #: ../data/verbal_analogies.xml.h:285
 msgid "Homeless"
@@ -1661,7 +1661,7 @@ msgstr "Ongen"
 
 #: ../data/verbal_analogies.xml.h:290
 msgid "Enneagram"
-msgstr ""
+msgstr "Enneagram"
 
 #: ../data/verbal_analogies.xml.h:291
 msgid "Icosagon"
@@ -1695,7 +1695,7 @@ msgstr "Azimut"
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
-msgstr ""
+msgstr "Paralel ve boylam doğudan batıya doğru giderken, meridyen ve enlem kuzeyden güneye doğru gider."
 
 #: ../data/verbal_analogies.xml.h:299
 msgid "art / gallery | drama"
@@ -1715,7 +1715,7 @@ msgstr "Konser salonu"
 
 #: ../data/verbal_analogies.xml.h:303
 msgid "Gym"
-msgstr ""
+msgstr "Spor Salonu"
 
 #: ../data/verbal_analogies.xml.h:304
 msgid "hunter / rifle | photographer"
@@ -1745,15 +1745,15 @@ msgstr "tabak / kırma | balon"
 #. Translators: like 'he burst the balloon'
 #: ../data/verbal_analogies.xml.h:312
 msgid "Burst"
-msgstr ""
+msgstr "Patlamak"
 
 #: ../data/verbal_analogies.xml.h:313
 msgid "Bounce"
-msgstr "Sıçrama"
+msgstr "Sıçramak"
 
 #: ../data/verbal_analogies.xml.h:314
 msgid "Float"
-msgstr ""
+msgstr "Süzülmek"
 
 #: ../data/verbal_analogies.xml.h:315
 msgid "Roll"
@@ -1761,15 +1761,15 @@ msgstr "Yuvarlanmak"
 
 #: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
-msgstr ""
+msgstr "Her ikisi de ilgili ögeyi kıran/bozan bir eylem ile ilgilidir."
 
 #: ../data/verbal_analogies.xml.h:317
 msgid "button / push | key (used in a lock)"
-msgstr "buton / basmak | anahtar"
+msgstr "buton / basmak | anahtar (kilitte kullanılan)"
 
 #: ../data/verbal_analogies.xml.h:318
 msgid "Turn"
-msgstr ""
+msgstr "Döndürmek"
 
 #. Translator: 'Open' as verb, like open with a key
 #: ../data/verbal_analogies.xml.h:320
@@ -1790,125 +1790,125 @@ msgstr "Kapat"
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be"
 " turned."
-msgstr ""
+msgstr "Her iki nesnenin de çalışması için bir düğmeye basılması ve bir anahtarın döndürülmesi gerekir."
 
 #: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
-msgstr ""
+msgstr "Konsept / fikir | takıntı"
 
 #. As a synonym of obsession
 #: ../data/verbal_analogies.xml.h:328
 msgid "Fixation"
-msgstr ""
+msgstr "Saplantı"
 
 #: ../data/verbal_analogies.xml.h:329
 msgid "Indifference"
-msgstr ""
+msgstr "Kayıtsızlık"
 
 #: ../data/verbal_analogies.xml.h:330
 msgid "Disinterest"
-msgstr ""
+msgstr "İlgisizlik"
 
 #: ../data/verbal_analogies.xml.h:331
 msgid "Intuition"
-msgstr ""
+msgstr "Sezgi"
 
 #: ../data/verbal_analogies.xml.h:332
 msgid "The relation between the two words is that they are synonymous."
-msgstr ""
+msgstr "İki sözcük arasındaki ilişki, bunların eş anlamlı olmasıdır."
 
 #: ../data/verbal_analogies.xml.h:333
 msgid "fish / water | bird"
-msgstr ""
+msgstr "Balık / su | kuş"
 
 #: ../data/verbal_analogies.xml.h:334
 msgid "Air"
-msgstr ""
+msgstr "Hava"
 
 #: ../data/verbal_analogies.xml.h:335
 msgid "Wings"
-msgstr ""
+msgstr "Kanatlar"
 
 #: ../data/verbal_analogies.xml.h:336
 msgid "Ship"
-msgstr ""
+msgstr "Gemi"
 
 #: ../data/verbal_analogies.xml.h:337
 msgid "Cage"
-msgstr ""
+msgstr "Kafes"
 
 #. Translator: 'rook' as a piece of chess
 #: ../data/verbal_analogies.xml.h:339
 msgid "rook / chess | soldier"
-msgstr ""
+msgstr "Kale / satranç | asker"
 
 #: ../data/verbal_analogies.xml.h:340
 msgid "Battle"
-msgstr ""
+msgstr "Savaş"
 
 #: ../data/verbal_analogies.xml.h:341
 msgid "Gun"
-msgstr ""
+msgstr "Silah"
 
 #: ../data/verbal_analogies.xml.h:342
 msgid "Peace"
-msgstr ""
+msgstr "Barış"
 
 #: ../data/verbal_analogies.xml.h:343
 msgid "Enemy"
-msgstr ""
+msgstr "Düşman"
 
 #: ../data/verbal_analogies.xml.h:344
 msgid "competitive / cooperative | anxious"
-msgstr ""
+msgstr "rekabetçi / işbirlikçi  | endişeli"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:346
 msgid "Flexible"
-msgstr ""
+msgstr "Esnek"
 
 #: ../data/verbal_analogies.xml.h:347
 msgid "Cautious"
-msgstr ""
+msgstr "Temkinli"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:349
 msgid "Daring"
-msgstr ""
+msgstr "Cesur"
 
 #: ../data/verbal_analogies.xml.h:350
 msgid "pessimistic / optimistic | suspicious"
-msgstr ""
+msgstr "kötümser / iyimser | şüpheli"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:352
 msgid "Trusting"
-msgstr ""
+msgstr "Çabuk İnanan"
 
 #: ../data/verbal_analogies.xml.h:353
 msgid "Dubious"
-msgstr ""
+msgstr "Kuşkulu"
 
 #. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
 msgid "thermometer / temperature | compass"
-msgstr ""
+msgstr "termometre / sıcaklık | pusula"
 
 #: ../data/verbal_analogies.xml.h:356
 msgid "Direction"
-msgstr ""
+msgstr "Yön"
 
 #: ../data/verbal_analogies.xml.h:357
 msgid "Elevation"
-msgstr ""
+msgstr "Yükseklik"
 
 #: ../data/verbal_analogies.xml.h:358
 msgid "Position"
-msgstr ""
+msgstr "Konum"
 
 #: ../data/verbal_analogies.xml.h:359
 msgid "Area"
-msgstr ""
+msgstr "Alan"
 
 #: ../data/verbal_analogies.xml.h:360
 msgid "The first word is the instrument and the second what it measures."
@@ -2047,7 +2047,7 @@ msgstr "iş"
 #. 'correct' can be used as verb or adjective
 #: ../data/verbal_analogies.xml.h:402
 msgid "error / (to) correct | damage"
-msgstr ""
+msgstr "hata / düzelt(mek) | hasar"
 
 #: ../data/verbal_analogies.xml.h:403
 msgid "repair | fix"
@@ -2067,11 +2067,11 @@ msgstr "eller / tutmak | dişler"
 
 #: ../data/verbal_analogies.xml.h:407
 msgid "bite"
-msgstr "ısırık"
+msgstr "ısırmak"
 
 #: ../data/verbal_analogies.xml.h:408
 msgid "Grab and bite are finite actions."
-msgstr ""
+msgstr "Tutmak ve ısırmak, sonlu eylemlerdir."
 
 #: ../data/verbal_analogies.xml.h:409
 msgid "puzzle / solve | game"
@@ -2168,7 +2168,7 @@ msgstr "araba / yol | tren"
 
 #: ../data/verbal_analogies.xml.h:433
 msgid "track | railway | rails | railroad"
-msgstr ""
+msgstr "yol | demir yolu | raylar | tren yolu"
 
 #: ../data/verbal_analogies.xml.h:434
 msgid "pediatrics / children | numismatics"
@@ -2176,7 +2176,7 @@ msgstr "pediyatri / çocuk | nümismatik"
 
 #: ../data/verbal_analogies.xml.h:435
 msgid "coins | currency | money"
-msgstr ""
+msgstr "madeni para | para birimi | para"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -2231,7 +2231,7 @@ msgstr "adalar"
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
 msgid "Unknown command line parameter {0}"
-msgstr ""
+msgstr "Bilinmeyen komut satırı parametresi {0}"
 
 #. Translators: {0} is a date
 #: ../src/Clients/Classical/CommandLine.cs:110
@@ -2279,11 +2279,11 @@ msgstr "Yazılım"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:37
 msgid "Based on ideas by"
-msgstr ""
+msgstr "Fikirleri temel alınmıştır:"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:41
 msgid "MENSA works"
-msgstr ""
+msgstr "MENSA works"
 
 #. Translators: Replace by the name of the people that translated the
 #. application
@@ -2316,7 +2316,7 @@ msgstr "Eğlenmek ve beyninizi formda tutmak için bir zeka oyunu."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
 msgid "gbrainy project web site"
-msgstr ""
+msgstr "gbrainy proje web sitesi"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2357,7 +2357,7 @@ msgstr "PDF dosyası oluşturulurken bir sorunla karşılaşıldı. Doysa oluşt
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
-msgstr ""
+msgstr "Alttaki grafikte oyuncunun oyunda aldığı puanların gelişimi gözlenebilir."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
 msgid ""
@@ -2427,7 +2427,7 @@ msgstr "PDF dışa aktar"
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
-msgstr ""
+msgstr "Bu seçenek, bir grup oyunu PDF dosyası olarak dışa aktarmaya olanak tanır. Bulmacaları bir bilgisayar olmadan tamamlayabilirsiniz."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
@@ -2436,7 +2436,7 @@ msgstr "<b>Genel Ayarlar</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
 msgid "Skip games that use colors"
-msgstr ""
+msgstr "Renkleri kullanan oyunları atla"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
 msgid "<b>Game Types</b>"
@@ -2518,19 +2518,19 @@ msgstr "Yeğlenenler"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
 msgid "Skip games that use colors (for colorblind users)"
-msgstr ""
+msgstr "Renkleri kullanan oyunları atla (renk körü kullanıcılar için)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
 msgid "Force gbrainy to always use English language (ignore translations)"
-msgstr ""
+msgstr "gbrainy'yi her zaman İngilizce kullanmaya zorla (çevirileri yok say)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
 msgid "Search and load extensions when starting"
-msgstr ""
+msgstr "Başlarken uzantıları ara ve yükle"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
 msgid "Enable sounds"
-msgstr ""
+msgstr "Sesleri etkinleştir"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
 msgid "Theme:"
@@ -2546,7 +2546,7 @@ msgstr "Saniye cinsinden ezberlenecek zaman:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
 msgid "Show a countdown message"
-msgstr ""
+msgstr "Geri sayım mesajı göster"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:15
 msgid "<b>Player's Game Session History</b>"
@@ -2587,7 +2587,7 @@ msgid ""
 "You may be exposed to partially translated games making it more difficult to"
 " play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
-msgstr ""
+msgstr "Oynamayı daha zor hale getiren, kısmen çevrilmiş oyunlarla karşılaşabilirsiniz. İngilizce olarak oynamayı tercih ediyorsanız, gbrainy'nin Tercihlerinde bunun için bir seçenek bulunmaktadır."
 
 #: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
@@ -2621,7 +2621,7 @@ msgstr "Yalnızca Mantık Bulmacaları"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Mental Calculation Only"
-msgstr ""
+msgstr "Sadece Zihinsel Hesaplama"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:7
 msgid "Memory Trainers Only"
@@ -2645,7 +2645,7 @@ msgstr "_Oyunu Bitir"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr ""
+msgstr "Oyunları Çevrimdışı Oynamak için PDF Olarak Dışa Aktar..."
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -2847,62 +2847,62 @@ msgstr "Yol:"
 #. Mono Addins 0.6
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:68
 msgid "Installed"
-msgstr ""
+msgstr "Kuruldu"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:69
 msgid "Updates"
-msgstr ""
+msgstr "Güncellemeler"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:70
 msgid "Gallery"
-msgstr ""
+msgstr "Galeri"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:71
 msgid "Repository:"
-msgstr ""
+msgstr "Yazılım Deposu:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:72
 msgid "Install from file..."
-msgstr ""
+msgstr "Dosyadan kur..."
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:73
 msgid "No selection"
-msgstr ""
+msgstr "Seçim yok"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:74
 msgid "No add-ins found"
-msgstr ""
+msgstr "Eklentisi bulunamadı"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:75
 msgid "Refresh"
-msgstr ""
+msgstr "Tazele"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:76
 msgid "Add-in packages"
-msgstr ""
+msgstr "Eklenti paketleri"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:77
 msgid "Install Add-in Package"
-msgstr ""
+msgstr "Eklenti Paketi Yükle"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:78
 msgid "All repositories"
-msgstr ""
+msgstr "Tüm yazılım depoları"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:79
 msgid "Manage Repositories..."
-msgstr ""
+msgstr "Depoları Yönet..."
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:80
 msgid "Add-in Repository Management"
-msgstr ""
+msgstr "Eklenti Deposu Yönetimi"
 
 #. Translators: {0} is a number indicating the Addins available for update
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:87
 #, csharp-format
 msgid "{0} update available"
 msgid_plural "{0} updates available"
-msgstr[0] ""
+msgstr[0] "{0} güncelleme mevcut"
 
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:84
 msgid "Open Location"
@@ -2952,7 +2952,7 @@ msgstr "Oyunu bitir ve skoru göster"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
 msgid "End"
-msgstr ""
+msgstr "Bitir"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -3036,19 +3036,19 @@ msgstr "H"
 #: ../src/Core/Main/GameAnswer.cs:146
 #, csharp-format
 msgid "{0} or {1}"
-msgstr ""
+msgstr "{0} veya {1}"
 
 #. Translators. This is the list of valid answers, like A, B or C.
 #: ../src/Core/Main/GameAnswer.cs:150
 #, csharp-format
 msgid "{0}, {1} or {2}"
-msgstr ""
+msgstr "{0}, {1} veya {2}"
 
 #. Translators. This is the list of valid answers, like A, B, C or D.
 #: ../src/Core/Main/GameAnswer.cs:154
 #, csharp-format
 msgid "{0}, {1}, {2} or {3}"
-msgstr ""
+msgstr "{0}, {1}, {2} veya {3}"
 
 #: ../src/Core/Main/GameAnswer.cs:163
 #, csharp-format
@@ -3060,7 +3060,7 @@ msgstr "Şekil {0}"
 #, csharp-format
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
-msgstr[0] ""
+msgstr[0] "Olası doğru yanıtlar şunlardır: {0}."
 
 #: ../src/Core/Main/GameManager.cs:251
 msgid "Extensions database:"
@@ -3073,7 +3073,7 @@ msgstr "Eklenti veritabanı:"
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
-msgstr ""
+msgstr "{0} oyun kayıtlı: {1} mantık bulmaca, {2} hesaplama eğiticisi, {3} hafıza eğiticisi, {4} sözlü analoji"
 
 #: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
@@ -3140,18 +3140,18 @@ msgstr "Mantık oyunlarında ilgisiz görünebilen unsurlar çok önemli olabili
 
 #: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
-msgstr ""
+msgstr "Bir soruna farklı açılardan yaklaşmaya çalışın."
 
 #: ../src/Core/Main/GameTips.cs:67
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
-msgstr ""
+msgstr "Hata yapmaktan korkmayın. Hatalar öğrenme sürecinin bir parçasıdır."
 
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challeging yourself."
-msgstr ""
+msgstr "Tüm problemleri, zor olanları bile çözün. Gelişme, kendinizi zorlamaktan geçer."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -3200,7 +3200,7 @@ msgstr "Sözlü kıyaslamalara cevap verirken sözün dilbilgisine dikkat edin."
 msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
-msgstr ""
+msgstr "Alışverişe çıktığınız zaman, hesapları bir hesap makinesi kullanmadan yapmaya çalışın."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
@@ -3216,7 +3216,7 @@ msgstr "Kalan süre"
 #: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
 #, csharp-format
 msgid "Game #{0}. {1}"
-msgstr ""
+msgstr "Oyun No {0}. {1}"
 
 #: ../src/Core/Main/PdfExporter.cs:129
 #, csharp-format
@@ -3294,7 +3294,7 @@ msgstr "Soru ve cevap #{0}"
 #: ../src/Core/Main/Xml/GameXml.cs:216
 #, csharp-format
 msgid "Answer {0}."
-msgstr ""
+msgstr "Cevap {0}."
 
 #: ../src/Core/Views/CountDownView.cs:80
 msgid "Get ready to memorize the next objects..."
@@ -3310,19 +3310,19 @@ msgstr "Skor"
 #, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
-msgstr[0] ""
+msgstr[0] "{0} oyun oynandı"
 
 #: ../src/Core/Views/FinishView.cs:158
 #, csharp-format
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
-msgstr[0] ""
+msgstr[0] "Kazanılan oyun: {0} ({1})"
 
 #: ../src/Core/Views/FinishView.cs:162
 #, csharp-format
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
-msgstr[0] ""
+msgstr[0] "{0}. Kazanılan oyun: {1} ({2})"
 
 #: ../src/Core/Views/FinishView.cs:168
 #, csharp-format
@@ -3407,11 +3407,11 @@ msgstr "gbrainy, beyin bulmaca oyunu ve eğitimidir. Beyni eğitir. Şunları i�
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
 msgid "Arithmetical operations"
-msgstr ""
+msgstr "Aritmetik işlemler"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:49
 msgid "What is the result of the following operation?"
-msgstr ""
+msgstr "Aşağıdaki işleminin sonucu nedir?"
 
 #: ../src/Games/Calculation/CalculationAverage.cs:38
 msgid "Average"
@@ -3422,18 +3422,18 @@ msgstr "Ortalama"
 msgid ""
 "Given the numbers: {0}. Which of the following numbers is closest to the "
 "average? Answer {1}, {2}, {3} or {4}."
-msgstr ""
+msgstr "Verilen numaralar: {0}. Ortalamaya en yakın olan numara hangisidir? Cevap {1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:60
 msgid ""
 "The average of a list of numbers is their sum divided by the number of "
 "numbers in the list."
-msgstr ""
+msgstr "Bir grup sayının ortalaması, gruptaki bütün sayıların toplamının gruptaki sayı adedine bölünmesidir."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:65
 #, csharp-format
 msgid "The result of the operation is {0}."
-msgstr ""
+msgstr "İşlem sonucu {0}."
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:37
 msgid "Closer fraction"
@@ -3444,23 +3444,23 @@ msgstr "Daha yakın kesir"
 msgid ""
 "Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or "
 "{4}."
-msgstr ""
+msgstr "Aşağıdaki sayılardan hangisi {0}'a daha yakındır? Cevap {1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr ""
+msgstr "{0} / {1} işleminin sonucu: '{2}'."
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
 msgid "Consecutive sum"
-msgstr ""
+msgstr "Ardışık toplama"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
 msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
-msgstr ""
+msgstr "Aşağıdaki tek basamaklı sayı listesinde toplamları {0} olan 5 ardışık sayı bulunmaktadır. Bunlar hangi sayılardır?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3481,7 +3481,7 @@ msgstr "En büyük bölen"
 msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
 "Answer {0}, {1}, {2} or {3}."
-msgstr ""
+msgstr "Tüm sayıların en büyük ortak böleni hangisidir? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
@@ -3523,7 +3523,7 @@ msgid ""
 "Which of the following numbers is a prime? A prime number is a positive "
 "integer that has exactly two different positive divisors, 1 and itself. "
 "Answer {0}, {1}, {2} or {3}."
-msgstr ""
+msgstr "Aşağıdaki sayılardan hangisi asaldır? 1 ve kendisi olmak üzere tam olarak iki pozitif tam böleni olan pozitif sayılara asal sayı denir. Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:81
 msgid ""
@@ -3534,7 +3534,7 @@ msgstr "Sayının basamaklarını topladığınızda çıkan rakam 3'e bölüneb
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
 msgid "The number {0} is a prime number."
-msgstr ""
+msgstr "{0} sayısı, bir asal sayıdır."
 
 #: ../src/Games/Calculation/CalculationProportions.cs:36
 msgid "Proportions"
@@ -3554,20 +3554,20 @@ msgstr "Oran"
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr ""
+msgstr "Toplamı {0} ve oranı {1} / {2} olan iki sayı hangileridir? İki sayı kullanarak cevaplayın (ör. 1 ve 2)."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:48
 #, csharp-format
 msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
 "and dividing it by {1}."
-msgstr ""
+msgstr "İkinci sayı, ilk sayıyı {0} ile çarpıp {1}'e bölerek hesaplanabilir."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:54
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
-msgstr ""
+msgstr "Oran, iki sayının birbirine bölümünü belirtir. a:b oranı, her bir 'a' parça ile eşleşen 'b' parça olduğu anlamına gelir."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:98
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
@@ -3582,7 +3582,7 @@ msgstr "{0}:{1} oranına sahip"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
 msgid "Selected numbers"
-msgstr ""
+msgstr "Seçilen sayılar"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
@@ -4031,7 +4031,7 @@ msgstr "Bu verilen elemanları tekrar etmeden oluşturulabilecek tek kombinasyon
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
 msgid "Find the number"
-msgstr ""
+msgstr "Sayı bulmaca"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
@@ -4076,7 +4076,7 @@ msgstr "4 kenarlı figürler sıradaki noktaları birleştirerek elde edilmişti
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
-msgstr ""
+msgstr "Tablodaki daireler"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:46
 msgid "One of the numbers in the grid must be circled. Which one?"
@@ -4116,7 +4116,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:44
 msgid "Numbers in a grid"
-msgstr ""
+msgstr "Tablodaki sayılar"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:48
 msgid ""
@@ -4206,7 +4206,7 @@ msgstr "İlk iki figürü birleştirerek hangi büyük figür elde edilebilir? C
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
 msgid "Largest area"
-msgstr ""
+msgstr "En büyük alan"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
@@ -4217,7 +4217,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
 msgid "Largest diameter"
-msgstr ""
+msgstr "En büyük çap"
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
 #, csharp-format
@@ -4233,7 +4233,7 @@ msgstr ""
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
 msgid "Arc {0}"
-msgstr ""
+msgstr "Yay {0}"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
@@ -4698,7 +4698,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:112
 msgid "All the other options"
-msgstr ""
+msgstr "Diğer seçeneklerin tümü"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
 #, csharp-format
@@ -4721,7 +4721,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:120
 msgid "All the others"
-msgstr ""
+msgstr "Diğerlerinin tümü"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
 #, csharp-format
@@ -5159,7 +5159,7 @@ msgstr ""
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
-msgstr ""
+msgstr "Daha önce gösterilen resimlerin listesi"
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
 msgid "Figures with numbers"
