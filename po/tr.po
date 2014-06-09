@@ -1,14 +1,41 @@
 # Turkish translation for gbrainy
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the gbrainy package.
+#
+# Launchpad Contributions, 2010:
+# 	Angel Spy https://launchpad.net/~dilara.ekinci
+#   Arman Armağan KOCA https://launchpad.net/~armagankoca
+#   Ayhan Keser https://launchpad.net/~keser-ayhan
+#   Burak Yucesoy https://launchpad.net/~burakyucesoy
+#   Cihan Ersoy https://launchpad.net/~cihan.ersoy
+#   Emrah Ergin https://launchpad.net/~erginemr-hotmail
+#   Enes Ateş https://launchpad.net/~willywonka
+#   Ersin Akyuz https://launchpad.net/~ersin2k
+#   EsatYuce https://launchpad.net/~esat
+#   Hamuul https://launchpad.net/~hamuul
+#   Hüseyin BURGAZOĞLU https://launchpad.net/~h-burgazoglu
+#   Irmak Bıçakçıgil https://launchpad.net/~irmak
+#   Kılıç Köken https://launchpad.net/~kilickoken
+#   Mesut Akcan https://launchpad.net/~makcan
+#   Mustafa Can Kaya https://launchpad.net/~mrcan
+#   Orhan BALCI https://launchpad.net/~orhanbalci
+#   Robert Ancell https://launchpad.net/~robert-ancell
+#   Yiğit Ateş https://launchpad.net/~yigitates52
+#   bLaCkSouL https://launchpad.net/~ahmett-551
+#   can kaçan https://launchpad.net/~amon-ra
+#   mete13 https://launchpad.net/~muratcakir13
+#   ubuntuki https://launchpad.net/~aleverzurumlu
+#   utdemir https://launchpad.net/~utdemir
+#   İbrahim Altunok https://launchpad.net/~alquirel
+#
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-08 04:50+0000\n"
-"PO-Revision-Date: 2014-06-08 11:48+0000\n"
+"POT-Creation-Date: 2014-06-09 04:51+0000\n"
+"PO-Revision-Date: 2014-06-09 17:17+0000\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -179,7 +206,7 @@ msgid ""
 "[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What"
 " are the next two consecutive palindromic years after [year_end] with the "
 "same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
-msgstr ""
+msgstr "[year_start] yılı, [year_end] gibi palindromik bir yıldır, aralarında 11 yıl fark vardır. [year_end] yılından sonraki, aralarında aynı büyüklükte fark olan, ardışık palindromik yıl çifti nedir? İki sayı girerek cevaplayınız (ör.  [year_start] ve [year_end])"
 
 #: ../data/games.xml.h:37
 msgid ""
@@ -205,11 +232,11 @@ msgstr "Nişan Tahtası"
 msgid ""
 "On the dartboard below, where would you need to throw the darts to add 120 "
 "points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
-msgstr ""
+msgstr "Aşağıdaki dart tahtasında, 5 atışta 120 puan almak için dartları nerelere atmanız gerekir? Sayıların listesini yazarak cevaplayın (ör. 4, 5, 6, 3, 2)"
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr ""
+msgstr "120 puan kazanmak için dart tahtasındaki 4 sayıdan sadece 3'ü kullanılır."
 
 #: ../data/games.xml.h:43
 msgid "Horse race"
@@ -222,13 +249,13 @@ msgid ""
 msgid_plural ""
 "In a horse race there are people and horses. You count [eyes] eyes and "
 "[legs] legs. How many horses are present?"
-msgstr[0] ""
+msgstr[0] "Bir at yarışında hem insanlar hem atlar bulunmaktadır. Burada [eyes] göz ve [legs] bacak olduğuna göre, kaç adet at vardır?"
 
 #: ../data/games.xml.h:45
 msgid ""
 "Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
 "Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr ""
+msgstr "Her insanın iki, her atın ise dört bacağı vardır (2 * [men] + [horses] * 4). Ayrıca her insanın ve her atın iki gözü vardır (2 * [men] + 2 * [horses])."
 
 #: ../data/games.xml.h:46
 msgid "Lever"
@@ -238,19 +265,19 @@ msgstr "Kaldıraç"
 msgid ""
 "How much weight is needed at the point indicated by the question mark to "
 "balance the lever?"
-msgstr ""
+msgstr "Kaldıracı dengelemek için, soru işaretiyle belirtilen noktaya ne kadar ağırlık konmalıdır?"
 
 #: ../data/games.xml.h:48
 msgid ""
 "Consider the sentence attributed to Archimedes: 'Give me a lever long enough"
 " and a place to stand and I can move the Earth'."
-msgstr ""
+msgstr "Arşimet'e atfedilen şu cümle dikkate değerdir: 'Bana yeterince uzun bir kaldıraç ve üzerinde duracağım bir yer verin, ben de Dünyayı yerinden oynatayım'."
 
 #: ../data/games.xml.h:49
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
-msgstr ""
+msgstr "Bir kaldıraç, üzerine yerleştirilen nesneler ağırlıklarıyla ters orantılı uzaklıklarda olduklarında dengededir."
 
 #: ../data/games.xml.h:50
 msgid "Multiple number"
@@ -2289,7 +2316,7 @@ msgstr "MENSA works"
 #. application
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:61
 msgid "translator-credits"
-msgstr "Muhammet Kara <muhammet.k@gmail.com>\nLaunchpad Contributions:\n  Angel Spy https://launchpad.net/~dilara.ekinci\n  Arman Armağan KOCA https://launchpad.net/~armagankoca\n  Ayhan Keser https://launchpad.net/~keser-ayhan\n  Burak Yucesoy https://launchpad.net/~burakyucesoy\n  Cihan Ersoy https://launchpad.net/~cihan.ersoy\n  Emrah Ergin https://launchpad.net/~erginemr-hotmail\n  Enes Ateş https://launchpad.net/~willywonka\n  Ersin Akyuz https://launchpad.net/~ersin2k\n  EsatYuce https://launchpad.net/~esat\n  Hamuul https://launchpad.net/~hamuul\n  Hüseyin BURGAZOĞLU https://launchpad.net/~h-burgazoglu\n  Irmak Bıçakçıgil https://launchpad.net/~irmak\n  Kılıç Köken https://launchpad.net/~kilickoken\n  Mesut Akcan https://launchpad.net/~makcan\n  Mustafa Can Kaya https://launchpad.net/~mrcan\n  Orhan BALCI https://launchpad.net/~orhanbalci\n  Robert Ancell https://launchpad.net/~robert-ancell\n  Yiğit Ateş https://launchpad.net/~yigitates52\n  bLaCkSouL https://launchpad.net/~ahmett-551\n  can kaçan https://launchpad.net/~amon-ra\n  mete13 https://launchpad.net/~muratcakir13\n  ubuntuki https://launchpad.net/~aleverzurumlu\n  utdemir https://launchpad.net/~utdemir\n  İbrahim Altunok https://launchpad.net/~alquirel"
+msgstr "Muhammet Kara <muhammetk@gmail.com>"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
@@ -4640,19 +4667,19 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is sometimes the best policy"
-msgstr ""
+msgstr "Dürüstlük bazen en iyi prensiptir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
 msgid "Honesty is always the best policy"
-msgstr ""
+msgstr "Dürüstlük her zaman en iyi prensiptir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:95
 msgid "Honesty is not always the best policy"
-msgstr ""
+msgstr "Dürüstlük her zaman en iyi prensip değildir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:96
 msgid "Some of the best policies are dishonest"
-msgstr ""
+msgstr "En iyi prensiplerin bazıları dürüst değildir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
 #, csharp-format
@@ -4663,19 +4690,19 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Some thin people are not cheerful"
-msgstr ""
+msgstr "Bazı zayıf insanlar neşeli değildirler"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:102
 msgid "Thin people are not cheerful"
-msgstr ""
+msgstr "Zayıf insanlar neşeli değildirler"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:103
 msgid "Cheerful people are not thin"
-msgstr ""
+msgstr "Neşeli insanlar zayıf değildirler"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:104
 msgid "Some cheerful people are not thin"
-msgstr ""
+msgstr "Bazı neşeli insanlar zayıf değildirler"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
 #, csharp-format
@@ -4686,15 +4713,15 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "All animals fed on barley-water are non pigs"
-msgstr ""
+msgstr "Arpa suyuyla beslenen tüm hayvanlar domuz dışında bir hayvandır"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
 msgid "No pigs are fed on barley-water"
-msgstr ""
+msgstr "Hiçbir domuz arpa suyu ile beslenmez"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:111
 msgid "Pigs are not fed on barley-water"
-msgstr ""
+msgstr "Domuzlar arpa suyuyla beslenmez"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:112
 msgid "All the other options"
@@ -4709,15 +4736,15 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 msgid "Some bad pictures are not first attempts"
-msgstr ""
+msgstr "Bazı kötü resimler ilk deneme değillerdir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:118
 msgid "Some pictures are not really good"
-msgstr ""
+msgstr "Bazı resimler o kadar da iyi değillerdir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:119
 msgid "All bad pictures are first attempts"
-msgstr ""
+msgstr "Tüm kötü resimler ilk denemelerdir"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:120
 msgid "All the others"
@@ -4732,19 +4759,19 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "To feel better, you must go out for a walk"
-msgstr ""
+msgstr "Daha iyi hissetmek için yürüyüşe çıkmalısınız"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
 msgid "If you go out for a walk, you will feel better"
-msgstr ""
+msgstr "Eğer yürüyüşe çıkarsanız daha iyi hissedersiniz"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:127
 msgid "Some who go out for a walk feel better"
-msgstr ""
+msgstr "Yürüyüşe çıkanların bazıları daha iyi hissederler"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
 msgid "No one feels better who does not go out for a walk"
-msgstr ""
+msgstr "Yürüyüşe çıkmayan hiç kimse daha iyi hissetmez"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
 msgid "Predicate logic"
@@ -5061,7 +5088,7 @@ msgstr "Yüzleri aklınızda tutun"
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
-msgstr ""
+msgstr "Hangi hücrede aşağıdakine benzeyen bir yüz bulunmaktadır? Hücre numarasını yazarak cevaplayınız."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -5077,11 +5104,11 @@ msgid ""
 msgid_plural ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
 "before then it had not halted production since {1}."
-msgstr[0] ""
+msgstr[0] "Parlak Arabalar şirketi halihazırda gelecek ay için {0} gün üretimi durdurma kararı vermiştir, ancak bundan önce {1} tarihinden beri üretimi durdurmamıştır."
 
 #: ../src/Games/Memory/MemoryFacts.cs:110
 msgid "How many days did Shiny Cars halt its production for?"
-msgstr ""
+msgstr "Parlak Arabalar şirketi üretimine kaç gün ara vermiştir?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:111
 msgid "In what year did Shiny Cars last halt its production?"
@@ -5092,7 +5119,7 @@ msgstr "Parlak Arabalar şirketi hangi yılda üretime ara vermiştir?"
 #, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
-msgstr ""
+msgstr "Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu, {1} tarihinden beri yaşanan en kötü düşüştür."
 
 #: ../src/Games/Memory/MemoryFacts.cs:121
 msgid "By how much did company sales fall last December?"
@@ -5103,7 +5130,7 @@ msgstr "Geçen aralıkta şirket satışları ne kadar düşmüştür?"
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
-msgstr ""
+msgstr "Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu hangi yıldan sonraki en kötü düşüştür?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
@@ -5120,7 +5147,7 @@ msgstr "Dünyada üretilen Parlak Arabalar ürünlerinin yüzde kaçı Avrupa'da
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use"
 " electricity."
-msgstr ""
+msgstr "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use electricity."
 
 #: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use diesel?"
@@ -5155,7 +5182,7 @@ msgstr "Figürleri ve yazıları aklınızda tutmaya çalışınız."
 msgid ""
 "The list below enumerates the figures shown in the previous image except for"
 " one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
-msgstr ""
+msgstr "Aşağıdaki listede, önceki resimde gösterilen şekiller biri hariç numaralandırılmıştır. Kayıp şekil hangisidir?  Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
@@ -5207,7 +5234,7 @@ msgstr "İpuçlarını aklınızda tutmaya çalışınız"
 msgid ""
 "Which of the following graphics represents the indications previously given?"
 " Answer {0}, {1}, {2} or {3}."
-msgstr ""
+msgstr "Aşağıdaki şekillerden hangisi önceden gösterilmiş ipuçlarını temsil etmektedir? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:65
 msgid "How many odd numbers were in the previous image? Answer using numbers."
@@ -5420,7 +5447,7 @@ msgid_plural ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that"
 " is x = 2y, and [ago] years ago, John was [proportion] times older than his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
-msgstr[0] ""
+msgstr[0] "Bugün Can'ın yaşı (x değişkeni) oğlunun yaşının (y değişkeni) 2 katıdır, yani x = 2y. [ago] yıl önce Can oğlundan [proportion] kat daha yaşlıydı: x - [ago] = (y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
 msgid ""
@@ -5431,7 +5458,7 @@ msgid_plural ""
 "A file is protected by a password formed by a [digits] digits number "
 "represented in base 10 (ranging from 0 to 9). How many different passwords "
 "can you have?"
-msgstr[0] ""
+msgstr[0] "Bir dosya, 10 tabanındaki (0 ile 9 aralığında) [digits] basamaklı bir sayıdan oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
 
 #: ../tools/GameXmlGetString.cs:49
 msgid ""
@@ -5440,7 +5467,7 @@ msgid ""
 msgid_plural ""
 "A file is protected by a password formed by a [digits] digits represented in"
 " base 8 (ranging from 0 to 7). How many different passwords can you have?"
-msgstr[0] ""
+msgstr[0] "Bir dosya 8 tabanındaki (0 ile 7 aralığında) [digits] basamaklı bir sayıdan oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
 
 #: ../tools/GameXmlGetString.cs:53
 msgid ""
@@ -5460,7 +5487,7 @@ msgid_plural ""
 "In a tennis tournament, in every match a player is eliminated after losing "
 "to a single opponent. How many matches does it take to determine the winner "
 "of a tennis tournament that starts with [players] players?"
-msgstr[0] ""
+msgstr[0] "Bir tenis turnuvasında, her maçın ardından rakibine yenilen oyuncu turnuvadan eleniyor. [players] oyuncuyla başlayan bir tenis turnuvasında kazananı belirlemek için kaç maç yapılması gerekir?"
 
 #: ../tools/GameXmlGetString.cs:61
 msgid ""
@@ -5469,7 +5496,7 @@ msgid ""
 msgid_plural ""
 "You have [money] monetary units in your bank account at 10% interest "
 "compounded annually. How much money will you have at the end of 2 years?"
-msgstr[0] ""
+msgstr[0] "Banka hesabınızda [money] liranız var ve yıllık %10 bileşik faiz uygulanıyor. 2 yıl sonunda ne kadar paranız olur?"
 
 #: ../tools/GameXmlGetString.cs:69
 msgid ""
@@ -5489,7 +5516,7 @@ msgid_plural ""
 "John needs [john_time] hours to clean a warehouse and his friend needs half "
 "as many. How many hours would it take them to clean up the warehouse if they"
 " worked together? [option_answers]"
-msgstr[0] ""
+msgstr[0] "Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken arkadaşı bunun yarısı kadar zamana ihtiyaç duyuyor. Birlikte çalışırlarsa ambarı temizlemeleri kaç saat sürer? [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:77
 msgid ""
@@ -5500,4 +5527,4 @@ msgid_plural ""
 "John needs [john_time] hours to clean a warehouse and his friend needs twice"
 " as many. How many hours would it take them to clean up the warehouse if "
 "they worked together? [option_answers]"
-msgstr[0] ""
+msgstr[0] "Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken arkadaşı bunun iki katı zamana ihtiyaç duyuyor. Birlikte çalışırlarsa ambarı temizlemeleri kaç saat sürer? [option_answers]"
