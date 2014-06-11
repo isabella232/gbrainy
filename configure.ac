@@ -180,7 +180,7 @@ dnl --- Assembly information
 BUILD_TIME=`date +"%F %T %Z"`
 AC_SUBST(BUILD_TIME)
 
-COPYRIGHT="(c) 2007-2013 Jordi Mas i Hernandez"
+COPYRIGHT="(c) 2007-2014 Jordi Mas i Hernandez"
 AC_SUBST(COPYRIGHT)
 
 dnl --- Prologue
