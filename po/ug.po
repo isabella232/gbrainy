@@ -3145,11 +3145,6 @@ msgstr "سان  {0} تۈپ ساندۇر."
 msgid "Proportions"
 msgstr "تاناسىپ"
 
-#: ../src/Games/Calculation/CalculationProportions.cs:46
-#, csharp-format
-msgid "What is {0}% of {1}/{2}? Answer {3}, {4}, {5} or {6}."
-msgstr "{1} نىڭ {0}%  قانچە؟ جاۋاب: {3}، {4}، {5} ياكى {6}."
-
 #: ../src/Games/Calculation/CalculationRatio.cs:31
 msgid "Ratio"
 msgstr "نىسبەت"
