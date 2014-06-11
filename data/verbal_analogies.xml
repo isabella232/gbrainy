@@ -640,7 +640,7 @@
 	</analogy>
 
 	<analogy>
-		<!-- Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly -->
+		<!-- Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly -->
 		<_question type = "PairOfWordsCompare">feet / two | toes</_question>
 		<!-- Translators: referred to 'feet / two | toes' -->
 		<_answer correct ="yes">ten | 10</_answer>
