@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-12 10:51+0200\n"
+"POT-Creation-Date: 2014-06-12 11:08+0200\n"
 "PO-Revision-Date: 2011-05-10 12:01+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -2544,7 +2544,7 @@ msgstr ""
 "rezultata."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
-#, csharp-format
+#, fuzzy, csharp-format
 msgid "It is built using the results of {0} recorded game session."
 msgid_plural ""
 "It is built using the results of the last {0} recorded game sessions."
@@ -4038,7 +4038,7 @@ msgid "Counting"
 msgstr "Računanje"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:64
-#, csharp-format
+#, fuzzy, csharp-format
 msgid "We have a {0} meter piece of fabric."
 msgid_plural "We have a {0} meters piece of fabric."
 msgstr[0] "Imamo komad tkanine dužine {0} metar."
@@ -4291,7 +4291,7 @@ msgstr ""
 "povezivanja svih tačaka?"
 
 #: ../src/Games/Logic/PuzzleDivideCircle.cs:176
-#, csharp-format
+#, fuzzy, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
 msgstr[0] "Ima {0} oblast"
@@ -6012,6 +6012,7 @@ msgid "wolf"
 msgstr "vuk"
 
 #: ../tools/GameXmlGetString.cs:29
+#, fuzzy
 msgid ""
 "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
 msgid_plural ""
@@ -6024,6 +6025,7 @@ msgstr[2] ""
 "Koliko stepeni rotira minutna kazaljka časovnika za dva sata [BR] minuta?"
 
 #: ../tools/GameXmlGetString.cs:33
+#, fuzzy
 msgid ""
 "John is 46 years old. His son is [difference] year younger than half of "
 "John's age. How old is John's son?"
@@ -6041,6 +6043,7 @@ msgstr[2] ""
 "Džonove starosti. Koliko je star Džonov sin."
 
 #: ../tools/GameXmlGetString.cs:37
+#, fuzzy
 msgid ""
 "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
 "[proportion] times older than his son. How old is John's son nowadays?"
@@ -6122,6 +6125,7 @@ msgstr[2] ""
 "rasponu od 0 do z). Koliko različitih lozinki možete imati?"
 
 #: ../tools/GameXmlGetString.cs:53
+#, fuzzy
 msgid ""
 "There is [games] tennis game played simultaneously. How many different "
 "forecasts are possible?"
