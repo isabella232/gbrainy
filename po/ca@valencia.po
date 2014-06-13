@@ -3939,7 +3939,7 @@ msgid ""
 msgstr ""
 "Començant des del primer rellotge, sumeu {1} al nombre que s'obté d'afegir "
 "els valors als que apunten les manetes. Per exemple, els valors de les "
-"manetes per «{0}» és {3} ({2} = {1})."
+"manetes per «{0}» és {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:57
 msgid "The clocks do not follow the time logic."
