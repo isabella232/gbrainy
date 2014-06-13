@@ -8,22 +8,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
-"y&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-21 19:21+0000\n"
-"PO-Revision-Date: 2013-07-14 16:01+0300\n"
-"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gbrainy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-06-11 16:48+0000\n"
+"PO-Revision-Date: 2014-06-13 14:03+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
 msgstr "Περιστροφή ρολογιού"
 
@@ -207,8 +206,8 @@ msgid ""
 msgstr ""
 "Το έτος [year_start] είναι ένα παλινδρομικό έτος όπως είναι το [year_end], "
 "ένα κενό 11 ετών. Ποια είναι τα επόμενα δύο διαδοχικά παλινδρομικά έτη μετά "
-"από το [year_end] χρόνια με την ίδια διαφορά; Απάντηση με δύο αριθμούς "
-"(π.χ.: [year_start] και [year_end])."
+"από το [year_end] χρόνια με την ίδια διαφορά; Απάντηση με δύο αριθμούς (π."
+"χ.: [year_start] και [year_end])."
 
 #: ../data/games.xml.h:37
 msgid ""
@@ -641,9 +640,30 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Είναι το αποτέλεσμα της πράξης ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"Το gbrainy είναι ένα παιχνίδι για να εκπαιδεύσει τη μνήμη, αριθμητικές και "
+"λογικές ικανότητες με πολλά είδη ασκήσεων διαφόρων επιπέδων δυσκολίας."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Θα πρέπει να έχει κάτι για όλες τις ηλικίες και σκοπούς: τα παιδιά, των "
+"οποίων οι γονείς τους θέλουν να αναπτύξουν τις ικανότητές τους, τους "
+"ενήλικες που θέλουν να κρατήσουν το μυαλό τους σε φόρμα ή απλά το δοκιμάζουν "
+"για διασκέδαση, οι άνθρωποι μεγαλύτερης ηλικίας που μπορεί να χρειαστεί να "
+"κάνουν κάποιες ασκήσεις μνήμης, κλπ."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
-msgstr "Σπαζοκεφαλιές"
+msgstr "gbrainy"
 
 #: ../data/gbrainy.desktop.in.h:2
 msgid "Game"
@@ -666,7 +686,7 @@ msgid "Notebook"
 msgstr "Σημειωματάριο"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -1032,8 +1052,7 @@ msgstr "Εγκράτεια"
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
-"Το ηθικό δόγμα υποστηρίζει μόνο ό,τι είναι ευχάριστο ένα και ουσιαστικά "
-"καλό."
+"Το ηθικό δόγμα υποστηρίζει μόνο ό,τι είναι ευχάριστο ένα και ουσιαστικά καλό."
 
 #: ../data/verbal_analogies.xml.h:99
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
@@ -1291,7 +1310,6 @@ msgid "Generic"
 msgstr "Γενικός"
 
 #: ../data/verbal_analogies.xml.h:163
-#| msgid "Related"
 msgid "Plate"
 msgstr "Πιάτο"
 
@@ -1309,7 +1327,6 @@ msgid "Bowl"
 msgstr "Γαβάθα"
 
 #: ../data/verbal_analogies.xml.h:168
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used to storage liquids."
 msgstr "Είναι το μόνο που δεν χρησιμοποιείται για αποθήκευση υγρών."
 
@@ -1323,35 +1340,28 @@ msgid "Macadamia"
 msgstr "Μακαντάμια"
 
 #: ../data/verbal_analogies.xml.h:172
-#| msgid "chest"
 msgid "Chestnut"
 msgstr "κάστανο"
 
 #: ../data/verbal_analogies.xml.h:173
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not a nut."
 msgstr "Είναι το μόνο που δεν είναι ξηρός καρπός."
 
 #: ../data/verbal_analogies.xml.h:174
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
 "Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
 "'έπαινος';"
 
 #: ../data/verbal_analogies.xml.h:175
-#| msgid "Apple"
 msgid "Applause"
 msgstr "Επευφημία"
 
 #: ../data/verbal_analogies.xml.h:176
-#| msgid "Ostentation"
 msgid "Commendation"
 msgstr "Επιδοκιμασία"
 
 #: ../data/verbal_analogies.xml.h:177
-#| msgid "Fixation"
 msgid "Citation"
 msgstr "Παραπομπή"
 
@@ -1361,8 +1371,6 @@ msgid "Conjure"
 msgstr "Μαγικά"
 
 #: ../data/verbal_analogies.xml.h:180
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'negligent'?"
 msgid "Which of the following words is closest to the meaning of 'grief'?"
 msgstr ""
 "Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
@@ -1386,8 +1394,6 @@ msgid "Risk"
 msgstr "Κίνδυνος"
 
 #: ../data/verbal_analogies.xml.h:186
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'specific'?"
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Ποια από τις παρακάτω λέξεις συγγενεύει περισσότερο σημασιολογικά με τη λέξη "
@@ -1403,7 +1409,6 @@ msgid "Authentic"
 msgstr "Αυθεντικός"
 
 #: ../data/verbal_analogies.xml.h:190
-#| msgid "Lever"
 msgid "Clever"
 msgstr "Έξυπνος"
 
@@ -1412,7 +1417,6 @@ msgid "Tense"
 msgstr "Αγχωμένος"
 
 #: ../data/verbal_analogies.xml.h:192
-#| msgid "Concert hall"
 msgid "Concert"
 msgstr "Συμφωνία"
 
@@ -1425,12 +1429,10 @@ msgid "Proverb"
 msgstr "Παροιμία"
 
 #: ../data/verbal_analogies.xml.h:195
-#| msgid "Enneagram"
 msgid "Epigram"
 msgstr "Επίγραμμα"
 
 #: ../data/verbal_analogies.xml.h:196
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to literature."
 msgstr "Είναι το μόνο που δεν έχει σχέση με την λογοτεχνία."
 
@@ -1451,7 +1453,6 @@ msgid "Trigonometry"
 msgstr "Τριγωνομετρία"
 
 #: ../data/verbal_analogies.xml.h:201
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related with triangles."
 msgstr "Είναι το μόνο που δεν έχει σχέση με τρίγωνα."
 
@@ -1473,7 +1474,6 @@ msgid "Lamp"
 msgstr "Λάμπα"
 
 #: ../data/verbal_analogies.xml.h:207
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not produce light."
 msgstr "Είναι το μόνο που δεν παράγει φως."
 
@@ -1496,7 +1496,6 @@ msgid "Crossbow"
 msgstr "Βαλλιστρίδα"
 
 #: ../data/verbal_analogies.xml.h:214
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used for protection."
 msgstr "Είναι το μόνο που δεν χρησιμοποιείται για προστασία."
 
@@ -1518,7 +1517,6 @@ msgid "Tree"
 msgstr "Δένδρο"
 
 #: ../data/verbal_analogies.xml.h:220
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to rocks."
 msgstr "Είναι το μόνο που δεν έχει σχέση με βράχους."
 
@@ -1532,7 +1530,6 @@ msgid "Beet"
 msgstr "Παντζάρι"
 
 #: ../data/verbal_analogies.xml.h:224
-#| msgid "Radius"
 msgid "Radish"
 msgstr "Ραπανάκι"
 
@@ -1541,7 +1538,6 @@ msgid "Tomato"
 msgstr "Τομάτα"
 
 #: ../data/verbal_analogies.xml.h:226
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not have roots."
 msgstr "Είναι το μόνο που δεν έχει ρίζες."
 
@@ -1560,7 +1556,6 @@ msgstr "Ακορντεόν"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
-#| msgid "It is the only one that is not a metal."
 msgid "It is the only instrument that does not have keys."
 msgstr "Είναι το μόνο όργανο που δεν έχει πλήκτρα."
 
@@ -2016,39 +2011,32 @@ msgid "Daring"
 msgstr "Τολμηρός"
 
 #: ../data/verbal_analogies.xml.h:350
-#| msgid "pessimist / optimist | poor"
 msgid "pessimistic / optimistic | suspicious"
 msgstr "απαισιόδοξος / αισιόδοξος | ύποπτος"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:352
-#| msgid "Interesting"
 msgid "Trusting"
 msgstr "Εύπιστος"
 
 #: ../data/verbal_analogies.xml.h:353
-#| msgid "Obvious"
 msgid "Dubious"
 msgstr "Αβέβαιος"
 
 #. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
-#| msgid "thermometer / temperature | clock"
 msgid "thermometer / temperature | compass"
 msgstr "θερμόμετρο / θερμοκρασία | πυξίδα"
 
 #: ../data/verbal_analogies.xml.h:356
-#| msgid "Fractions"
 msgid "Direction"
 msgstr "Κατεύθυνση"
 
 #: ../data/verbal_analogies.xml.h:357
-#| msgid "Equation"
 msgid "Elevation"
 msgstr "Ανύψωση"
 
 #: ../data/verbal_analogies.xml.h:358
-#| msgid "Positivism"
 msgid "Position"
 msgstr "Θέση"
 
@@ -2097,7 +2085,7 @@ msgstr "γυαλί / σπάω | χαρτί"
 msgid "tear | rip"
 msgstr "σχίζω | ξηλώνω"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "πόδια / δύο | δάχτυλα"
@@ -2318,8 +2306,8 @@ msgid "pediatrics / children | numismatics"
 msgstr "παιδιατρική / παιδιά | φιλοτελισμός"
 
 #: ../data/verbal_analogies.xml.h:435
-msgid "coins"
-msgstr "γραμματόσημα"
+msgid "coins | currency | money"
+msgstr "κέρματα | νόμισμα | χρήματα"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -2388,7 +2376,7 @@ msgstr "Λίστα διαθέσιμων παιχνιδιών"
 
 #: ../src/Clients/Classical/CommandLine.cs:172
 msgid "Usage: gbrainy [options]"
-msgstr "Χρήσιμο: gbrainy [options]"
+msgstr "Χρήση: gbrainy [options]"
 
 #: ../src/Clients/Classical/CommandLine.cs:173
 msgid "  --version\t\t\tPrint version information."
@@ -2441,7 +2429,7 @@ msgstr ""
 " Τζένη Πετούμενου <epetoumenou@gmail.gr>\n"
 " Γιάννης Κατσαμπίρης <juankatsampirhs@gmail.com>\n"
 " Ευστάθιος Ιωσηφίδης <diamond_gr@freemail.gr>\n"
-"\n"
+" Μαυρίδου Μαρία <mavridou@gmail.com>\n"
 "Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα http://www.gnome.gr/"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
@@ -2489,12 +2477,12 @@ msgstr "Παιχνίδι ψυχαγωγίας και εξάσκησης του �
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
 msgid "gbrainy project web site"
-msgstr "ιστοσελίδα του προγράμματος gbrainy"
+msgstr "Ιστότοπος του έργου gbrainy"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
 msgid "Game Name"
-msgstr "Όνομα Παιχνιδιού"
+msgstr "Όνομα παιχνιδιού"
 
 #. Column: Type
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:131
@@ -2531,7 +2519,7 @@ msgstr ""
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
-msgstr "Το παρακάτω διάγραμμα δείχνει την εξέλιξη της βαθμολογίας του παίκτη."
+msgstr "Το παρακάτω γράφημα δείχνει την εξέλιξη της βαθμολογίας του παίκτη."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
 msgid ""
@@ -2708,15 +2696,14 @@ msgstr ""
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
 msgid "Force gbrainy to always use English language (ignore translations)"
 msgstr ""
-"Ανάγκασε το gbrainy να χρησιμοποιεί πάντα την αγγλική γλώσσα (αγνοήστε "
-"μεταφράσεις)"
+"Εξαναγκασμός του gbrainy να χρησιμοποιεί πάντα την αγγλική γλώσσα (αγνόηση "
+"μεταφράσεων)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
 msgid "Search and load extensions when starting"
 msgstr " Αναζήτηση και επέκταση του φορτίου κατά την εκκίνηση"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-#| msgid "Enable"
 msgid "Enable sounds"
 msgstr "Ενεργοποίηση ήχων"
 
@@ -2748,7 +2735,8 @@ msgstr ""
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
 msgid "Maximum number of records in the player's game session history:"
-msgstr "Μέγιστος αριθμός εγγραφών στο ιστορικό συνεδρίας παιχνιδιών του παίκτη:"
+msgstr ""
+"Μέγιστος αριθμός εγγραφών στο ιστορικό συνεδρίας παιχνιδιών του παίκτη:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:18
 msgid "Delete Player's Game Session History"
@@ -3431,7 +3419,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Απομνημονεύστε τα παρακάτω αντικείμενα μέσα στο διαθέσιμο χρόνο"
 
-#: ../src/Core/Main/Memory.cs:225
+#: ../src/Core/Main/Memory.cs:233
 msgid "Time left"
 msgstr "Υπολειπόμενος χρόνος"
 
@@ -3533,8 +3521,8 @@ msgstr "Βαθμολογία"
 #, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
-msgstr[0] "{0} έπαιξε"
-msgstr[1] "{0} έπαιξε"
+msgstr[0] "{0} παίχτηκε συνολικά"
+msgstr[1] "{0} παίχτηκαν συνολικά"
 
 #: ../src/Core/Views/FinishView.cs:158
 #, csharp-format
@@ -3559,8 +3547,7 @@ msgstr "Χρόνος παιχνιδιού {0} (μέσος όρος ανά παι
 #: ../src/Core/Views/FinishView.cs:177
 msgid "For details on how gbrainy's scoring works refer to the help."
 msgstr ""
-"Για λεπτομέρειες σχετικά με τη βαθμολογία στις Σπαζοκεφαλιές μεταβείτε στη "
-"βοήθεια."
+"Για λεπτομέρειες σχετικά με τη βαθμολογία του gbrainy μεταβείτε στη βοήθεια."
 
 #: ../src/Core/Views/FinishView.cs:189
 msgid "Tips for your next games"
@@ -3641,7 +3628,7 @@ msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
 msgstr ""
-"Οι Σπαζοκεφαλιές είναι ένα παιχνίδι που συνδυάζει ψυχαγωγία και εξάσκηση των "
+"Το gbrainy είναι ένα παιχνίδι που συνδυάζει ψυχαγωγία και εξάσκηση των "
 "νοητικών σας ικανοτήτων. Περιλαμβάνει:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
@@ -3784,8 +3771,7 @@ msgid ""
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
 msgstr ""
 "Αν το άθροισμα όλων των ψηφίων ενός αριθμού διαιρείται δια του 3, τότε και ο "
-"αριθμός διαιρείται δια του 3. Π.χ., 15 = 1 + 5 = 6, που διαιρείται δια του "
-"3."
+"αριθμός διαιρείται δια του 3. Π.χ., 15 = 1 + 5 = 6, που διαιρείται δια του 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
@@ -3843,15 +3829,11 @@ msgid "have a ratio of {0}:{1}"
 msgstr "έχουν λόγο {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-#| msgid "Related numbers"
 msgid "Selected numbers"
 msgstr "Επιλεγμένοι αριθμοί"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is closest to the "
-#| "average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -3861,9 +3843,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is closest to the "
-#| "average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -3918,8 +3897,7 @@ msgstr ""
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
 msgstr ""
-"Ο κύβος είναι ένα κανονικό στερεό αντικείμενο με έξι ίσες τετράγωνες "
-"πλευρές."
+"Ο κύβος είναι ένα κανονικό στερεό αντικείμενο με έξι ίσες τετράγωνες πλευρές."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:49
 msgid "Balance"
@@ -4074,8 +4052,10 @@ msgstr[1] ""
 #, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
-msgstr[0] "Με αριθμό κοψίματος {0}, η μηχανή παράγει δύο κομμάτια του 1 μέτρου."
-msgstr[1] "Με αριθμό κοψίματος {0}, η μηχανή παράγει δύο κομμάτια του 1 μέτρου."
+msgstr[0] ""
+"Με αριθμό κοψίματος {0}, η μηχανή παράγει δύο κομμάτια του 1 μέτρου."
+msgstr[1] ""
+"Με αριθμό κοψίματος {0}, η μηχανή παράγει δύο κομμάτια του 1 μέτρου."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
@@ -4087,8 +4067,8 @@ msgid_plural ""
 "in each side of the square. How many fence poles are used in total?"
 msgstr[0] ""
 "Ένας φράκτης έχει κατασκευαστεί για να περικλείει μια τετράγωνη περιοχή. {0} "
-"πόλος φράχτη χρησιμοποιείται σε κάθε πλευρά της πλατείας. Πόσοι πόλοι "
-"φράχτη χρησιμοποιούνται συνολικά;"
+"πόλος φράχτη χρησιμοποιείται σε κάθε πλευρά της πλατείας. Πόσοι πόλοι φράχτη "
+"χρησιμοποιούνται συνολικά;"
 msgstr[1] ""
 "Ένας φράκτης έχει κατασκευαστεί για να περικλείει μια τετράγωνη περιοχή. {0} "
 "πόλοι φράχτη χρησιμοποιούνται σε κάθε πλευρά της πλατείας. Πόσοι πόλοι "
@@ -4272,7 +4252,7 @@ msgstr ""
 "Στο τελευταίο σχήμα, σε πόσα τμήματα θα διαιρεθεί ο κύκλος, αν ενωθούν όλες "
 "οι κουκκίδες;"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:179
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -4393,7 +4373,6 @@ msgstr ""
 "χωρίς να τα επαναλάβετε."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
-#| msgid "Figures with numbers"
 msgid "Find the number"
 msgstr "Βρείτε τον αριθμό"
 
@@ -4423,9 +4402,6 @@ msgstr "Ο αριθμός βρίσκεται στη γραμμή {0}, στήλη
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
-#| msgid ""
-#| "The fourth row is calculated by multiplying the first two rows and adding "
-#| "the third."
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
 msgstr[0] "Ο αριθμός βρίσκεται στην πρώτη {0} γραμμή του πλέγματος."
@@ -4486,8 +4462,8 @@ msgid ""
 msgstr ""
 "Από το επάνω αριστερό σχήμα, ο πάνω αριστερά κύκλος μετακινείται προς τα "
 "κάτω, ο κάτω αριστερός κύκλος μετακινείται προς τα πάνω, ο κάτω δεξιά "
-"κινείται διαγώνια πάνω-αριστερά και ο πάνω δεξιά κινείται διαγώνια "
-"κάτω-αριστερά."
+"κινείται διαγώνια πάνω-αριστερά και ο πάνω δεξιά κινείται διαγώνια κάτω-"
+"αριστερά."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:222
 msgid ""
@@ -4609,15 +4585,11 @@ msgstr ""
 "σχήματα; Απαντήστε με {0}, {1}, {2} ή {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#| msgid "Larger shape"
 msgid "Largest area"
 msgstr "Μέγιστο εμβαδό"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
@@ -4644,7 +4616,6 @@ msgstr "Όσο πιο καμπύλο είναι το τόξο, τόσο πιο �
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
-#| msgid "Answer {0}."
 msgid "Arc {0}"
 msgstr "Τόξο {0}"
 
@@ -4942,9 +4913,6 @@ msgstr "Άνθρωποι στο τραπέζι"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
-#| msgid ""
-#| "A group of people are sitting at a round table spaced out evenly. How "
-#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
@@ -4988,7 +4956,6 @@ msgid "22nd"
 msgstr "22ο"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Δύο άτομα κάθονται σε απέναντι θέσεις στο τραπέζι"
 
@@ -5265,7 +5232,6 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Κανείς δεν αισθάνεται καλύτερα που δεν βγαίνει έξω για μια βόλτα"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-#| msgid "Predicate Logic"
 msgid "Predicate logic"
 msgstr "Λογική κατηγορήματος"
 
@@ -5413,7 +5379,8 @@ msgstr "Τέτρις"
 #: ../src/Games/Logic/PuzzleTetris.cs:39
 #, csharp-format
 msgid "What figure completes the set below? Answer {0}, {1} or {2}."
-msgstr "Ποιο σχήμα ολοκληρώνει την παρακάτω ομάδα; Απαντήστε με {0}, {1} ή {2}."
+msgstr ""
+"Ποιο σχήμα ολοκληρώνει την παρακάτω ομάδα; Απαντήστε με {0}, {1} ή {2}."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:45
 msgid ""
@@ -5438,8 +5405,8 @@ msgid_plural ""
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
 "Πριν από {0} ώρα, είχαν περάσει τόσες ώρες μετά τις {1:h tt}, όσες ώρες ήταν "
-"πριν τις {2:h tt} της ίδιας μέρας. Τι ώρα είναι τώρα; Απαντήστε δίνοντας "
-"την ώρα (π.χ. {3:h tt}) "
+"πριν τις {2:h tt} της ίδιας μέρας. Τι ώρα είναι τώρα; Απαντήστε δίνοντας την "
+"ώρα (π.χ. {3:h tt}) "
 msgstr[1] ""
 "Πριν από {0} ώρες, είχαν περάσει τόσες ώρες μετά τις {1:h tt}, όσες ώρες "
 "ήταν πριν τις {2:h tt} της ίδιας μέρας. Τι ώρα είναι τώρα; Απαντήστε "
@@ -5513,8 +5480,7 @@ msgid ""
 "the time and dividing it by the difference of speeds."
 msgstr ""
 "Μπορείτε να βρείτε την απάντηση πολλαπλασιάζοντας την ταχύτητα του πρώτου "
-"τρένου με το χρόνο και, διαιρώντας το αποτέλεσμα με τη διαφορά των "
-"ταχυτήτων."
+"τρένου με το χρόνο και, διαιρώντας το αποτέλεσμα με τη διαφορά των ταχυτήτων."
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
@@ -5565,8 +5531,7 @@ msgstr[0] ""
 msgstr[1] ""
 "Δύο τρένα που βρίσκονται σε ίσιες παράλληλες διαδρομές φεύγουν από το ίδιο "
 "σημείο και την ίδια ώρα ταξιδεύοντας σε αντίθετες κατευθύνσεις με {0} και "
-"{1} μίλια ανά ώρα αντίστοιχα. Σε πόσες ώρες θα απέχουν μεταξύ τους {2} "
-"μίλια;"
+"{1} μίλια ανά ώρα αντίστοιχα. Σε πόσες ώρες θα απέχουν μεταξύ τους {2} μίλια;"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:31
 msgid "Triangles"
@@ -5642,14 +5607,10 @@ msgstr ""
 "τον κατάλληλο αριθμό."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
-#| msgid "Memorize facts"
 msgid "Memorize faces"
 msgstr "Απομνημόνευση προσώπων"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-#| msgid ""
-#| "In which cell is the other figure like the one shown below? Answer the "
-#| "cell number."
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
@@ -5834,8 +5795,7 @@ msgstr ""
 #: ../src/Games/Memory/MemoryNumbers.cs:90
 msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr ""
-"Πόσους άρτιους αριθμούς περιείχε η προηγούμενη εικόνα; Απαντήστε με "
-"αριθμούς."
+"Πόσους άρτιους αριθμούς περιείχε η προηγούμενη εικόνα; Απαντήστε με αριθμούς."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:115
 msgid ""
@@ -6158,11 +6118,11 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
-"Ο Γιάννης καθαρίζει με ταχύτητα 1 / [john_time] ανά ώρα και ο φίλος του με 1 "
-"/ [friend]. Μαζί θα χρειαστεί [answer_a] ώρα."
+"Ο Γιάννης καθαρίζει με ταχύτητα 1 / [john_time] ανά ώρα και ο φίλος του με "
+"1 / [friend]. Μαζί θα χρειαστεί [answer_a] ώρα."
 msgstr[1] ""
-"Ο Γιάννης καθαρίζει με ταχύτητα 1 / [john_time] ανά ώρα και ο φίλος του με 1 "
-"/ [friend]. Μαζί θα χρειαστεί [answer_a] ώρες."
+"Ο Γιάννης καθαρίζει με ταχύτητα 1 / [john_time] ανά ώρα και ο φίλος του με "
+"1 / [friend]. Μαζί θα χρειαστεί [answer_a] ώρες."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
@@ -6199,6 +6159,9 @@ msgstr[1] ""
 "Ο Γιάννης χρειάζεται [john_time] ώρες για να καθαρίσει μια αποθήκη και ο "
 "φίλος το διπλάσιο. Πόσες ώρες θα τους έπαιρνε να καθαρίσουν την αποθήκη αν "
 "είχαν δουλέψει μαζί; [option_answers]"
+
+#~ msgid "coins"
+#~ msgstr "γραμματόσημα"
 
 #~ msgid "Next Game"
 #~ msgstr "Επόμενο παιχνίδι"
