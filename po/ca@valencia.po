@@ -37,7 +37,7 @@ msgid ""
 "[both] have both. How many people have neither brothers nor sisters?"
 msgstr ""
 "D'un total de [people] persones, [brothers] tenen germans, [sisters] tenen "
-"germanes i [both] tenen germanes i germanes. Quantes persones no tenen ni "
+"germanes i [both] tenen germans i germanes. Quantes persones no tenen ni "
 "germans ni germanes?"
 
 #: ../data/games.xml.h:5
