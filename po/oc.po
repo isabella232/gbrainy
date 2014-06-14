@@ -4210,7 +4210,7 @@ msgstr[1] ""
 #: ../src/Games/Logic/PuzzleTimeNow.cs:85
 #, csharp-format
 msgid "{0:h tt}"
-msgstr "{0:H}"
+msgstr ""
 
 #. No hands
 #: ../src/Games/Logic/PuzzleTimeNow.cs:95
