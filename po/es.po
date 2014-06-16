@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-27 21:47+0000\n"
-"PO-Revision-Date: 2014-05-30 18:06+0200\n"
+"POT-Creation-Date: 2014-05-30 16:07+0000\n"
+"PO-Revision-Date: 2014-06-16 18:05+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -560,7 +560,7 @@ msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
 msgstr ""
-"¿El cuñado del hermano del padre de Juan también es? No asumas que Juan "
+"¿La cuñada de la hermana del padre de Juan también es? No asumas que Juan "
 "tiene algún pariente que no se ha mencionado. [option_answers]"
 
 #: ../data/games.xml.h:101
@@ -595,7 +595,7 @@ msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
 msgstr ""
-"¿La cuñada del hermano de la madre de Juan también es? No asumas que Juan "
+"¿El cuñado del hermano de la madre de Juan también es? No asumas que Juan "
 "tiene algún pariente que no se ha mencionado. [option_answers]"
 
 #: ../data/games.xml.h:108
@@ -3531,7 +3531,7 @@ msgstr "Consejos para tus siguientes partidas"
 
 #: ../src/Core/Views/FinishView.cs:217
 msgid "Congratulations! New personal record"
-msgstr "¡Enhorabuena! Récord personal nuevo."
+msgstr "¡Enhorabuena! Récord personal nuevo"
 
 #: ../src/Core/Views/FinishView.cs:227
 #, csharp-format
@@ -3949,8 +3949,8 @@ msgid ""
 "Using the above layout {0} units of height are gained per row leaving enough "
 "space for an additional row."
 msgstr ""
-"Usando la distribución anterior, se ganan {0} unidades de altura por fila, "
-"dejando espacio suficiente para una fila adicional."
+"Usando la distribución/disposición anterior, se ganan {0} unidades de altura "
+"por fila, dejando espacio suficiente para una fila adicional."
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:77
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:96
@@ -4362,12 +4362,12 @@ msgid_plural ""
 "from itself plus 2?"
 msgstr[0] ""
 "Mirando horizontal y verticalmente las líneas de la siguiente rejilla, ¿cuál "
-"es el lugar del número {0} casilla a partir de él mismo multiplicado por 2 y "
-"{1} casilla a partir de él mismo más 2?"
+"es el número que se encuentra a {0} casilla a partir de él mismo "
+"multiplicado por 2 y {1} casilla a partir de él mismo más 2?"
 msgstr[1] ""
 "Mirando horizontal y verticalmente las líneas de la siguiente rejilla, ¿cuál "
-"es el lugar del número {0} casillas a partir de él mismo multiplicado por 2 "
-"y {1} casillas a partir de él mismo más 2?"
+"es el número que se encuentra a {0} casillas a partir de él mismo "
+"multiplicado por 2 y {1} casillas a partir de él mismo más 2?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
@@ -4925,7 +4925,7 @@ msgstr "22º"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
 msgid "Two people in the table sitting across from each other"
-msgstr "Dos personas en la mesa sentadas a cada lado"
+msgstr "Dos personas en la mesa sentadas una frente a la otra"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:41
 msgid "Percentage"
@@ -5364,11 +5364,11 @@ msgid_plural ""
 "{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
-"Hace {0} horas faltaba tanto para las {1:h tt} que para las {2:h tt} del "
-"mismo día. ¿Qué hora es ahora? Responde usando la hora (ej.: {3:h tt})"
+"Hace {0} horas faltaba tanto para las {1:%H tt} que para las {2:%H tt} del "
+"mismo día. ¿Qué hora es ahora? Responde usando la hora (ej.: {3:%H tt})"
 msgstr[1] ""
-"Hace {0} horas faltaba tanto para las {1:h tt} que para las {2:h tt} del "
-"mismo día. ¿Qué hora es ahora? Responde usando la hora (ej.: {3:h tt})"
+"Hace {0} horas faltaba tanto para las {1:%H tt} que para las {2:%H tt} del "
+"mismo día. ¿Qué hora es ahora? Responde usando la hora (ej.: {3:%H tt})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
@@ -6023,9 +6023,9 @@ msgid_plural ""
 "There are [games] tennis games played simultaneously. How many different "
 "forecasts are possible?"
 msgstr[0] ""
-"Existe [games] partido de tenis jugandose. ¿Cuántos resultados posibles hay?"
+"Se está jugando [games] partido de tenis. ¿Cuántos resultados posibles hay?"
 msgstr[1] ""
-"Existen [games] partidos de tenis jugandose simultáneamente. ¿Cuántos "
+"Se están jugando [games] partidos de tenis simultáneamente. ¿Cuántos "
 "resultados posibles hay?"
 
 #: ../tools/GameXmlGetString.cs:57
