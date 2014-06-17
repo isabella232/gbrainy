@@ -35,8 +35,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-10 04:51+0000\n"
-"PO-Revision-Date: 2014-06-10 20:22+0000\n"
+"POT-Creation-Date: 2014-06-17 04:48+0000\n"
+"PO-Revision-Date: 2014-06-17 16:13+0000\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -1981,8 +1981,8 @@ msgid "tear | rip"
 msgstr "yırtmak | sökmek"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not
-#. exist in all languages. Feel free to change it to 'fingers' and adapt the
-#. answer accordingly
+#. exist in all languages. It means 'digits of the foot'. Feel free to change
+#. it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "ayak / iki | parmak"
@@ -2542,7 +2542,7 @@ msgstr "Göster:"
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
 #: ../src/Clients/Classical/gbrainy.ui.h:21
 msgid "Preferences"
-msgstr "Yeğlenenler"
+msgstr "Tercihler"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
 msgid "Skip games that use colors (for colorblind users)"
@@ -2713,7 +2713,7 @@ msgstr "_Yardım"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:24
 msgid "_Contents"
-msgstr "_İçerikler"
+msgstr "_İçindekiler"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:25
 msgid "How to Extend gbrainy's Functionality"
@@ -2964,7 +2964,7 @@ msgstr "Bellek"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:134
 msgid "Play games that challenge your short term memory"
-msgstr "Kısa terim hafızanı ispatlayacak oyunlar oyna"
+msgstr "Kısa süreli hafızanızın sınırlarını zorlayan oyunlar oynayın"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:139
 msgid "Play games that challenge your verbal aptitude"
@@ -3415,7 +3415,7 @@ msgstr "Zihinsel hesaplama. Sayısal işlemler zihinsel hesap kabiliyetini sına
 
 #: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
-msgstr "Hafıza eğitimi. Kısa terimli hafızanı ispat için"
+msgstr "Bellek eğiticileri. Kısa süreli hafızanızı sınamak için."
 
 #: ../src/Core/Views/WelcomeView.cs:127
 msgid "Verbal analogies. Challenge your verbal aptitude."
