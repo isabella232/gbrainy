@@ -4575,14 +4575,14 @@ msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgid_plural ""
-"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
-"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+"{0} hours ago it was as long after {1:%H} as it was before {2:%H} on the "
+"same day. What is the time now? Answer using the hour (e.g.: {3:%H})"
 msgstr[0] ""
-"Fai {0} hora faltaba tanto pa les {1:h tt} que pa les {2:h tt} del mesmu "
-"día. ¿Qué hora ye agora? Respuendi usando la hora (ex.: {3:h tt})"
+"Fai {0} hora faltaba tanto pa les {1:%H} que pa les {2:%H} del mesmu "
+"día. ¿Qué hora ye agora? Respuendi usando la hora (ex.: {3:%H})"
 msgstr[1] ""
-"Fai {0} hores faltaba tanto pa les {1:h tt} que pa les {2:h tt} del mesmu "
-"día. ¿Qué hora ye agora? Respuendi usando la hora (ex.: {3:h tt})"
+"Fai {0} hores faltaba tanto pa les {1:%H} que pa les {2:%H} del mesmu "
+"día. ¿Qué hora ye agora? Respuendi usando la hora (ex.: {3:%H})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
@@ -4607,7 +4607,7 @@ msgstr[1] ""
 #: ../src/Games/Logic/PuzzleTimeNow.cs:85
 #, csharp-format
 msgid "{0:h tt}"
-msgstr "{0:H}"
+msgstr "{0:%H}"
 
 #. No hands
 #: ../src/Games/Logic/PuzzleTimeNow.cs:95
