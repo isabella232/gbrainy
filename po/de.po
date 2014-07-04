@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-27 21:47+0000\n"
-"PO-Revision-Date: 2014-05-31 18:46+0100\n"
+"POT-Creation-Date: 2014-06-01 17:26+0000\n"
+"PO-Revision-Date: 2014-07-04 11:40+0100\n"
 "Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -949,7 +949,7 @@ msgstr "Kilometer"
 
 #: ../data/verbal_analogies.xml.h:73
 msgid "Hectogram"
-msgstr "Sechseck"
+msgstr "Hektogramm"
 
 #: ../data/verbal_analogies.xml.h:74
 msgid "Liter"
