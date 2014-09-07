@@ -8,14 +8,15 @@
 # Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010.
 # Piotr Sokół <psokol@jabster.pl>, 2012.
 # Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2012-2013.
+# Piotr Drąg <piotrdrag@gmail.com>, 2014.
+# Aviary.pl <gnomepl@aviary.pl>, 2012-2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 01:13+0200\n"
-"PO-Revision-Date: 2013-08-28 23:26+0100\n"
-"Last-Translator: Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>\n"
+"POT-Creation-Date: 2014-09-07 02:35+0200\n"
+"PO-Revision-Date: 2014-09-07 02:37+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -649,6 +650,26 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Wynik działania jest następujący: ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"gbrainy to gra trenująca pamięć, umiejętności arytmetyczne i logiczne za "
+"pomocą wielu zadań o różnych poziomach trudności."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"gbrainy posiada coś dla osób w każdym wieku i w każdym celu: dzieci, których "
+"rodzice chcą rozwijać ich umiejętności, dorośli chcący zachować swój umysł w "
+"formie lub po prostu się zabawić, osoby starsze, które mogą potrzebować "
+"ćwiczeń umysłowych itd."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "Łamigłówka"
@@ -672,7 +693,7 @@ msgid "Notebook"
 msgstr "Notatnik"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2067,7 +2088,7 @@ msgstr "szkło / rozbić | papier"
 msgid "tear | rip"
 msgstr "podrzeć | rozedrzeć"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "stopy / dwie | palce"
@@ -2409,7 +2430,8 @@ msgstr ""
 "Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010\n"
 "Piotr Sokół <psokol@jabster.pl>, 2012\n"
 "Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2012-2013"
+"Piotr Drąg <piotrdrag@gmail.com>, 2014\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2012-2014"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
