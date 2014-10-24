@@ -1,15 +1,15 @@
 # Serbian translation for gbrainy
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the gbrainy package.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2010, 2011,, 2012, 2013.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2010—2014.
 # Милош Поповић <gpopac@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
-"y&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-28 22:37+0000\n"
-"PO-Revision-Date: 2013-09-08 08:09+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy"
+"&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-05-27 21:47+0000\n"
+"PO-Revision-Date: 2014-10-24 22:03+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -637,6 +637,26 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "То је резултат математичке операције: ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"г-кефало је игра за увежбавање меморијских, аритметичких и логичких "
+"способности помоћу многих врста вежби различитих нивоа тежине."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Треба да има понешто за све узрасте и намене: за децу чији родитељи желе од "
+"њих да развијају њихове способности, за одрасле који желе да одрже свој ум у "
+"форми или само да га испробају забаве ради, за старије који можда желе да "
+"ураде по неку мемориску вежбицу, итд."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "г-кефало"
@@ -662,7 +682,7 @@ msgid "Notebook"
 msgstr "Бележница"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2389,7 +2409,7 @@ msgid ""
 "\n"
 msgstr ""
 "Овај програм је слободан софтвер; можете га прослеђивати и/или мењати под "
-"условима ГНУ Опште Јавне Лиценце коју је објавила Задужбина Слободног "
+"условима Гнуове Опште јавне лиценце коју је објавила Задужбина Слободног "
 "Софтвера; било верзије 2 Лиценце или (по вашем избору) било које новије "
 "верзије.\n"
 "\n"
@@ -6126,17 +6146,17 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
-"1 / [friend], заједно им је потребан [answer_a] сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
+" [friend], заједно им је потребан [answer_a] сат."
 msgstr[1] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
-"1 / [friend], заједно су им потребна [answer_a] сата."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
+" [friend], заједно су им потребна [answer_a] сата."
 msgstr[2] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
-"1 / [friend], заједно им је потребно [answer_a] сати."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
+" [friend], заједно им је потребно [answer_a] сати."
 msgstr[3] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
-"1 / [friend], заједно им је потребан један сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
+" [friend], заједно им је потребан један сат."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
