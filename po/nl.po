@@ -9,17 +9,18 @@
 # Reinout van Schouwen <reinouts@gnome.org>, 2007-2009.
 # Benno Schulenberg <benno@vertaalt.nl>, 2008.
 # Erwin Poeze <erwin.poeze@gmail.com>, 2009.
-# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010, 2011, 2013.
 # Redmar <redmar@ubuntu-nl.org>, 2010, 2011, 2013.
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010, 2011, 2013, 2014.
+
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-28 22:37+0000\n"
-"PO-Revision-Date: 2013-09-13 10:47+0200\n"
+"POT-Creation-Date: 2014-05-27 21:47+0000\n"
+"PO-Revision-Date: 2014-12-12 10:08+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,6 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 
 #: ../data/games.xml.h:1
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
 msgstr "Klokrotatie"
 
@@ -105,9 +105,6 @@ msgstr ""
 "totale aantal uitkomsten is 2 tot de [games]e macht."
 
 #: ../data/games.xml.h:13
-#| msgid ""
-#| "In every match you eliminate one player, you need the total number of "
-#| "games minus 1 to find out the winner."
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
@@ -470,7 +467,6 @@ msgid "[option_prefix] r < q"
 msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
-#| msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
 msgstr "Als x &gt; y, dan x &gt; q &lt; en y &gt; r dus r &lt; q is waar."
 
@@ -504,10 +500,6 @@ msgid "[option_prefix] (x - y) * 2"
 msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
-#| msgid ""
-#| "Since x is always an even number, multiplying it by 2 always produces an "
-#| "even number. Adding an even number to an odd number (y) always produces "
-#| "an odd number."
 msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
@@ -648,6 +640,27 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Is het resultaat van de berekening: ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"gbrainy is een spel om het geheugen, logische en rekenkundige vaardigheden te "
+"trainen door middel van een groot aantal oefeningen met verschillende "
+"moeilijkheidsgraden."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Het heeft iets voor alle leeftijden en doeleinden: kinderen waarvan de ouders "
+"willen dat ze hun vaardigheden ontwikkelen, volwassenen die hun geest in vorm "
+"willen houden, of het gewoon voor hun plezier willen uitproberen, ouderen die "
+"behoefte hebben aan geheugentraining, enz."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -673,7 +686,7 @@ msgid "Notebook"
 msgstr "Notebook"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -1293,7 +1306,6 @@ msgid "Generic"
 msgstr "Algemeen"
 
 #: ../data/verbal_analogies.xml.h:163
-#| msgid "Related"
 msgid "Plate"
 msgstr "Bord"
 
@@ -1311,7 +1323,6 @@ msgid "Bowl"
 msgstr "Schaal"
 
 #: ../data/verbal_analogies.xml.h:168
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used to storage liquids."
 msgstr ""
 "Het is de enige die niet wordt gebruikt voor de opslag van vloeistoffen."
@@ -1326,35 +1337,28 @@ msgid "Macadamia"
 msgstr "Macadamia"
 
 #: ../data/verbal_analogies.xml.h:172
-#| msgid "chest"
 msgid "Chestnut"
 msgstr "Kastanje"
 
 #: ../data/verbal_analogies.xml.h:173
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not a nut."
 msgstr "Het is de enige die geen noot is."
 
 #: ../data/verbal_analogies.xml.h:174
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
 "Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
 "van 'bijval'?"
 
 #: ../data/verbal_analogies.xml.h:175
-#| msgid "Apple"
 msgid "Applause"
 msgstr "Applaus"
 
 #: ../data/verbal_analogies.xml.h:176
-#| msgid "Ostentation"
 msgid "Commendation"
 msgstr "Lof"
 
 #: ../data/verbal_analogies.xml.h:177
-#| msgid "Fixation"
 msgid "Citation"
 msgstr "Citaat"
 
@@ -1364,8 +1368,6 @@ msgid "Conjure"
 msgstr "Bezwering"
 
 #: ../data/verbal_analogies.xml.h:180
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'negligent'?"
 msgid "Which of the following words is closest to the meaning of 'grief'?"
 msgstr ""
 "Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
@@ -1389,8 +1391,6 @@ msgid "Risk"
 msgstr "Risico"
 
 #: ../data/verbal_analogies.xml.h:186
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'specific'?"
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Welk van de volgende woorden komt het dichtst in de buurt van de betekenis "
@@ -1406,7 +1406,6 @@ msgid "Authentic"
 msgstr "Authentiek"
 
 #: ../data/verbal_analogies.xml.h:190
-#| msgid "Lever"
 msgid "Clever"
 msgstr "Slim"
 
@@ -1415,7 +1414,6 @@ msgid "Tense"
 msgstr "Gespannen"
 
 #: ../data/verbal_analogies.xml.h:192
-#| msgid "Concert hall"
 msgid "Concert"
 msgstr "Concert"
 
@@ -1428,12 +1426,10 @@ msgid "Proverb"
 msgstr "Spreekwoord"
 
 #: ../data/verbal_analogies.xml.h:195
-#| msgid "Enneagram"
 msgid "Epigram"
 msgstr "Epigram"
 
 #: ../data/verbal_analogies.xml.h:196
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to literature."
 msgstr "Het is de enige die geen relatie heeft met literatuur."
 
@@ -1454,7 +1450,6 @@ msgid "Trigonometry"
 msgstr "Trigonometrie"
 
 #: ../data/verbal_analogies.xml.h:201
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related with triangles."
 msgstr "Het is de enige die geen relatie heeft met driehoeken."
 
@@ -1476,7 +1471,6 @@ msgid "Lamp"
 msgstr "Lamp"
 
 #: ../data/verbal_analogies.xml.h:207
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not produce light."
 msgstr "Het is de enige die geen licht produceert."
 
@@ -1499,7 +1493,6 @@ msgid "Crossbow"
 msgstr "Kruisboog"
 
 #: ../data/verbal_analogies.xml.h:214
-#| msgid "It is the only one that is not a reptile."
 msgid "It is the only one that is not used for protection."
 msgstr "Het is de enige die niet wordt gebruikt voor de verdediging."
 
@@ -1521,7 +1514,6 @@ msgid "Tree"
 msgstr "Boom"
 
 #: ../data/verbal_analogies.xml.h:220
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to rocks."
 msgstr "Het is de enige die geen relatie heeft met stenen."
 
@@ -1535,7 +1527,6 @@ msgid "Beet"
 msgstr "Biet"
 
 #: ../data/verbal_analogies.xml.h:224
-#| msgid "Radius"
 msgid "Radish"
 msgstr "Radijs"
 
@@ -1544,7 +1535,6 @@ msgid "Tomato"
 msgstr "Tomaat"
 
 #: ../data/verbal_analogies.xml.h:226
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not have roots."
 msgstr "Het is de enige die geen wortels heeft."
 
@@ -1563,7 +1553,6 @@ msgstr "Accordeon"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
-#| msgid "It is the only one that is not a metal."
 msgid "It is the only instrument that does not have keys."
 msgstr "Het is het enige instrument dat geen toetsen heeft."
 
@@ -1880,7 +1869,6 @@ msgstr "bord / breken | ballon"
 
 #. Translators: like 'he burst the balloon'
 #: ../data/verbal_analogies.xml.h:312
-#| msgid "Bursts"
 msgid "Burst"
 msgstr "Knallen"
 
@@ -2018,39 +2006,32 @@ msgid "Daring"
 msgstr "Stoutmoedig"
 
 #: ../data/verbal_analogies.xml.h:350
-#| msgid "pessimist / optimist | poor"
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pessimistisch / optimistisch | achterdochtig"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:352
-#| msgid "Interesting"
 msgid "Trusting"
 msgstr "Vertrouwend"
 
 #: ../data/verbal_analogies.xml.h:353
-#| msgid "Obvious"
 msgid "Dubious"
 msgstr "Onzeker"
 
 #. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
-#| msgid "thermometer / temperature | clock"
 msgid "thermometer / temperature | compass"
 msgstr "thermometer / temperatuur | kompas"
 
 #: ../data/verbal_analogies.xml.h:356
-#| msgid "Fractions"
 msgid "Direction"
 msgstr "Richting"
 
 #: ../data/verbal_analogies.xml.h:357
-#| msgid "Equation"
 msgid "Elevation"
 msgstr "Elevatie"
 
 #: ../data/verbal_analogies.xml.h:358
-#| msgid "Positivism"
 msgid "Position"
 msgstr "Positie"
 
@@ -2312,7 +2293,6 @@ msgid "car / road | train"
 msgstr "auto / weg | trein"
 
 #: ../data/verbal_analogies.xml.h:433
-#| msgid "track | railway | rails"
 msgid "track | railway | rails | railroad"
 msgstr "spoor | spoorweg | rails | spoorbaan"
 
@@ -2508,7 +2488,6 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "Een hersenkrakerspel voor vermaak en om uw brein fit te houden."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#| msgid "gbrainy project web site: {0}"
 msgid "gbrainy project web site"
 msgstr "Website van het gbrainy-project"
 
@@ -2730,7 +2709,6 @@ msgid "Search and load extensions when starting"
 msgstr "Zoeken naar en laden van uitbreidingen bij opstarten"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-#| msgid "Enabled"
 msgid "Enable sounds"
 msgstr "Geluiden inschakelen"
 
@@ -3271,7 +3249,6 @@ msgstr "Figuur {0}"
 #: ../src/Core/Main/Game.cs:138
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
 #, csharp-format
-#| msgid "The correct answer is {0}."
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
 msgstr[0] "Het juiste antwoord is {0}."
@@ -3433,8 +3410,8 @@ msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
 msgstr ""
-"Wanneer u gaat winkelen, probeer de berekeningen uit te voeren "
-"zonder rekenmachine."
+"Wanneer u gaat winkelen, probeer de berekeningen uit te voeren zonder "
+"rekenmachine."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
@@ -3798,7 +3775,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
-#| msgid "The number {0} is a primer number."
 msgid "The number {0} is a prime number."
 msgstr "Het getal {0} is een priemgetal."
 
@@ -3853,15 +3829,11 @@ msgid "have a ratio of {0}:{1}"
 msgstr "hebben een verhouding van {0} staat tot {1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-#| msgid "Related numbers"
 msgid "Selected numbers"
 msgstr "Geselecteerde getallen"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#| "the average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -3871,16 +3843,12 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#| "the average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
 "Wat is uit onderstaande lijst met getallen het product van alle getallen met "
-"een "
-"waarde groter dan {0}. Antwoord {1}, {2}, {3} of {4}."
+"een waarde groter dan {0}. Antwoord {1}, {2}, {3} of {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -4338,9 +4306,6 @@ msgid "Figures and text"
 msgstr "Figuren en tekst"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
-#| msgid ""
-#| "The figures and the text are related. What text should go under the last "
-#| "figure?"
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
@@ -4412,7 +4377,6 @@ msgstr ""
 "ze te herhalen."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
-#| msgid "Figures with numbers"
 msgid "Find the number"
 msgstr "Vind het getal"
 
@@ -4427,13 +4391,13 @@ msgid_plural ""
 "the number {0} places away from itself multiplied by 2 and {1} places away "
 "from itself plus 2?"
 msgstr[0] ""
-"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat is "
-"het getal {0} plaats verwijderd van zichzelf vermenigvuldigd met 2 en {1} "
+"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat "
+"is het getal {0} plaats verwijderd van zichzelf vermenigvuldigd met 2 en {1} "
 "plaats verwijderd van zichzelf plus 2?"
 msgstr[1] ""
-"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat is "
-"het getal {0} plaatsen verwijderd van zichzelf vermenigvuldigd met 2 en {1} "
-"plaatsen verwijderd van zichzelf plus 2?"
+"Kijkend naar de horizontale en verticale lijnen in onderstaand raster, wat "
+"is het getal {0} plaatsen verwijderd van zichzelf vermenigvuldigd met 2 en "
+"{1} plaatsen verwijderd van zichzelf plus 2?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
@@ -4442,9 +4406,6 @@ msgstr "Het getal bevindt zich in rij {0}, kolom {1}."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
-#| msgid ""
-#| "The fourth row is calculated by multiplying the first two rows and adding "
-#| "the third."
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
 msgstr[0] "Het getal bevindt zich in de eerste {0} rij van het raster."
@@ -4609,9 +4570,9 @@ msgid ""
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
-"Met n als totaal aantal personen, drukt de eerste persoon n-1 personen "
-"de hand, de tweede n-2 personen, enz. Het resultaat is de som van de "
-"eerste n-1 opeenvolgende nummers: 1+2+3+...+(n-1)."
+"Met n als totaal aantal personen, drukt de eerste persoon n-1 personen de "
+"hand, de tweede n-2 personen, enz. Het resultaat is de som van de eerste n-1 "
+"opeenvolgende nummers: 1+2+3+...+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -4627,15 +4588,11 @@ msgstr ""
 "Antwoord {0}, {1}, {2} of {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#| msgid "Larger shape"
 msgid "Largest area"
 msgstr "Grootste oppervlakte"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
@@ -4653,8 +4610,8 @@ msgid ""
 "If the circles represented by the arcs below were completed, which circle "
 "would have the largest diameter? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Als van onderstaande bogen cirkels worden gemaakt, welke cirkel "
-"zou dan de grootste diameter hebben? Antwoord {0}, {1}, {2} or {3}."
+"Als van onderstaande bogen cirkels worden gemaakt, welke cirkel zou dan de "
+"grootste diameter hebben? Antwoord {0}, {1}, {2} or {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
 msgid "Less curved is the arc, the larger the circle is."
@@ -4662,7 +4619,6 @@ msgstr "Hoe minder gebogen, hoe groter de cirkel."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
-#| msgid "Answer {0}"
 msgid "Arc {0}"
 msgstr "Boog {0}"
 
@@ -4957,9 +4913,6 @@ msgstr "Mensen rond een tafel"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
-#| msgid ""
-#| "A group of people are sitting at a round table spaced out evenly. How "
-#| "many people are there if the {0} person is across from the {1}?"
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
@@ -5002,7 +4955,6 @@ msgid "22nd"
 msgstr "22e"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Twee mensen zitten tegenover elkaar aan de tafel"
 
@@ -5277,7 +5229,6 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Wie niet naar buiten gaat om een stukje te lopen voelt zich niet beter"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-#| msgid "Predicate Logic"
 msgid "Predicate logic"
 msgstr "Predikatenlogica"
 
@@ -5415,10 +5366,8 @@ msgid ""
 "corner."
 msgstr ""
 "Een heel vierkant blad papier (geel), 3/4 van een heel blad (blauw) in de "
-"hoek rechtsonder, "
-"3/4 van een heel blad (groen) in de hoek linksboven en 1/4 van een heel blad "
-"(rood) "
-"linksboven."
+"hoek rechtsonder, 3/4 van een heel blad (groen) in de hoek linksboven en 1/4 "
+"van een heel blad (rood) linksboven."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:34
 msgid "Tetris"
@@ -5655,14 +5604,10 @@ msgstr ""
 "met getallen."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
-#| msgid "Memorize facts"
 msgid "Memorize faces"
 msgstr "Gezichten onthouden"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-#| msgid ""
-#| "In which cell is the other figure like the one shown below? Answer the "
-#| "cell number."
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
@@ -5716,9 +5661,6 @@ msgstr "Met hoeveel daalde de bedrijfsomzet afgelopen december?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
 #, csharp-format
-#| msgid ""
-#| "Shiny Cars sales fell {0}% this past December, the worst decline since "
-#| "{1}."
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
