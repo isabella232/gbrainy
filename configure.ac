@@ -1,7 +1,7 @@
 # Define gbrainy version
 m4_define([gbrainy_version_major], [2])
 m4_define([gbrainy_version_minor], [2])
-m4_define([gbrainy_version_revision], [3])
+m4_define([gbrainy_version_revision], [4])
 
 m4_define([concat], $1$2$3$4)
 
@@ -180,7 +180,7 @@ dnl --- Assembly information
 BUILD_TIME=`date +"%F %T %Z"`
 AC_SUBST(BUILD_TIME)
 
-COPYRIGHT="(c) 2007-2014 Jordi Mas i Hernandez"
+COPYRIGHT="(c) 2007-2015 Jordi Mas i Hernandez"
 AC_SUBST(COPYRIGHT)
 
 dnl --- Prologue
