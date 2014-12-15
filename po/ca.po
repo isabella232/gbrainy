@@ -635,7 +635,7 @@ msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
-"gbrainy és una joc per exercitar la memòria, i les vostres "
+"gbrainy és un joc per exercitar la memòria, i les vostres "
 "habilitats aritmètiques i lògiques amb molts tipus d'exercicis de diferents "
 "nivells de dificultat."
 
@@ -2335,7 +2335,7 @@ msgstr "illes"
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
 msgid "Unknown command line parameter {0}"
-msgstr "El paràmetre de línia de comandes {0} és desconegut"
+msgstr "El paràmetre de la línia d'ordres {0} és desconegut"
 
 #. Translators: {0} is a date
 #: ../src/Clients/Classical/CommandLine.cs:110
