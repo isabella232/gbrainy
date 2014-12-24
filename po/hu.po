@@ -4,14 +4,14 @@
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
-# Balázs Úr <urbalazs@gmail.com>, 2014.
+# Balázs Úr <urbalazs at gmail dot com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-01-31 13:59+0000\n"
-"PO-Revision-Date: 2014-03-20 15:04+0100\n"
+"POT-Creation-Date: 2014-05-27 21:47+0000\n"
+"PO-Revision-Date: 2014-12-24 10:10+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -618,6 +618,27 @@ msgstr ""
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "A válasz a következő művelet eredménye: ([three] * 3) - ([two] * 2)."
+
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"A gbrainy a memória edzéséhez, aritmetikai és logikai képességek "
+"fejlesztéséhez használható játék különböző nehézségi szinteken lévő sokféle "
+"gyakorlattal."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Minden korosztály és célközönség számára tartogat valamit: gyermekeknek, akik "
+"szülei a képességeiket szeretnék fejleszteni; felnőtteknek, akik formában "
+"szeretnék tartani az elméjüket vagy csak szórakozásból próbálják ki; idősebb "
+"embereknek, akiknek valamilyen memóriafeladatot kell elvégezniük, stb."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
