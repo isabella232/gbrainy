@@ -646,9 +646,9 @@ msgid ""
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
 msgstr ""
-"És útils per a totes les edats i propòsits: nens els quals els seus pares "
+"És útil per a totes les edats i propòsits: nens els quals els seus pares "
 "volen que desenvolupin les seves habilitats, adults que volen mantenir la "
-"seva ment en format, o simplement per passar-ho bé, o gent gran que vulgui "
+"seva ment en forma, o simplement per passar-ho bé, o gent gran que vulgui "
 "fer exercicis de memòria."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
