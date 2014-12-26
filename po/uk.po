@@ -2,22 +2,23 @@
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the gbrainy package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
+# Daniel Korostil <ted.korostiled@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-01-13 21:48+0000\n"
-"PO-Revision-Date: 2012-07-10 08:44+0000\n"
-"Last-Translator: Dima Alexeenko <ubuntu007@droll.mail.ua>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2014-12-26 23:35+0300\n"
+"Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
+"Language-Team: linux.org.ua\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Launchpad-Export-Date: 2012-10-05 05:40+0000\n"
-"X-Generator: Launchpad (build 16061)\n"
 
 #: ../data/games.xml.h:1
 msgid ""
@@ -4877,14 +4878,14 @@ msgid_plural ""
 "John is 46 years old. His son is [difference] years younger than half of "
 "John's age. How old is John's son?"
 msgstr[0] ""
-"Джону 46 років. Різниця між його віком, та віком його сина складає половину "
-"віку Джона. Скільки років Джоновому сину?"
+"Джону 46 років. Його сину на [difference] рік менше за половинку віку Джона. "
+"Скільки років Джоновому сину?"
 msgstr[1] ""
-"Джону 46 років. Різниця між його віком, та віком його сина складає половину "
-"віку Джона. Скільки років Джоновому сину?"
+"Джону 46 років. Його сину на [difference] ріки менше за половинку віку "
+"Джона. Скільки років Джоновому сину?"
 msgstr[2] ""
-"Джону 46 років. Різниця між його віком, та віком його сина складає половину "
-"віку Джона. Скільки років Джоновому сину?"
+"Джону 46 років. Його сину на [difference] років менше за половинку віку "
+"Джона. Скільки років Джоновому сину?"
 
 #: ../tools/GameXmlGetString.cs:37
 msgid ""
