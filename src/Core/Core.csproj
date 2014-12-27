@@ -107,8 +107,6 @@
     <Compile Include="Main\GameAnswer.cs" />
     <Compile Include="Main\GameAnswerEventArgs.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Libraries\CSharpCompilerStaticDomainProxy.cs" />
-    <Compile Include="Libraries\CSharpCompilerStatic.cs" />
     <Compile Include="Libraries\CSharpCompiler.cs" />
     <Compile Include="Services\DefaultServices.cs" />
     <Compile Include="Services\ICSharpCompiler.cs" />
