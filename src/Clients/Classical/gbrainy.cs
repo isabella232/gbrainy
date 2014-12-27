@@ -51,7 +51,6 @@ namespace gbrainy.Clients.Classical
 		[GtkBeans.Builder.Object] Gtk.Button tip_button;
 		[GtkBeans.Builder.Object] Gtk.Button next_button;
 		[GtkBeans.Builder.Object] Gtk.Statusbar statusbar;
-		[GtkBeans.Builder.Object] Gtk.MenuBar menubar;
 		[GtkBeans.Builder.Object] Gtk.MenuItem pause_menuitem;
 		[GtkBeans.Builder.Object] Gtk.MenuItem finish_menuitem;
 		[GtkBeans.Builder.Object] Gtk.MenuItem newgame_menuitem;
