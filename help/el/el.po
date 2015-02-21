@@ -6,14 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"POT-Creation-Date: 2012-01-24 12:34+0000\n"
-"PO-Revision-Date: 2012-09-15 13:41+0200\n"
-"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"POT-Creation-Date: 2013-12-18 18:10+0000\n"
+"PO-Revision-Date: 2014-06-17 15:10+0200\n"
+"Last-Translator: Maria Mavridou <mavridou@gmail.com>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: C/export.page:7(desc)
 msgid "Export the games for playing off-line."
@@ -67,9 +69,6 @@ msgid "To export the games:"
 msgstr "Για να εξάγετε τα παιχνίδια:"
 
 #: C/export.page:33(p)
-#| msgid ""
-#| "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">End "
-#| "Game</gui></guiseq>."
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Export "
 "Games to PDF for Off-Line Playing</gui></guiseq>."
@@ -120,7 +119,6 @@ msgstr ""
 "ορατή η δοκιμασία."
 
 #: C/times.page:35(p)
-#| msgid "The default value is 4 seconds."
 msgid "The default value is 6 seconds."
 msgstr "Η προεπιλεγμένη τιμή είναι 6 δευτερόλεπτα."
 
@@ -371,19 +369,26 @@ msgstr ""
 "δοκιμάζει διάφορες γνωστικές δεξιότητες."
 
 #: C/gameplay.page:30(p)
+#| msgid ""
+#| "You can choose different difficulty levels making <app>gbrainy</app> "
+#| "enjoyable for kids, adults or senior citizens. It also features a game "
+#| "history, personal records, tips and fullscreen mode support. "
+#| "<app>gbrainy</app> can also be <link href=\"http://live.gnome.org/gbrainy/"
+#| "Extending\">extended</link> easily with new games developed by third "
+#| "parties."
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"http://live.gnome.org/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Μπορείτε να επιλέξετε διάφορα επίπεδα δυσκολίας, έτσι ώστε το <app>gbrainy</"
 "app> να είναι ευχάριστο για παιδιά, ενήλικες και μεγαλύτερα άτομα. Διαθέτει "
 "επίσης ιστορικό παιχνιδιών, τήρηση βαθμολογίας, υποδείξεις και υποστήριξη "
 "λειτουργίας πλήρους οθόνης. Το <app>gbrainy</app> μπορεί επίσης να <link "
-"href=\"http://live.gnome.org/gbrainy/Extending\">επεκταθεί</link> εύκολα με "
-"νέα παιχνίδια από τρίτους."
+"href=\"https://wiki.gnome.org/Apps/gbrainy/Extending\">επεκταθεί</link> "
+"εύκολα με νέα παιχνίδια από τρίτους."
 
 #: C/gameplay.page:37(p)
 msgid ""
@@ -573,10 +578,6 @@ msgstr ""
 "του 30 για το δύσκολο επίπεδο."
 
 #: C/score.page:106(p)
-#| msgid ""
-#| "This means that when playing at medium difficult level, to get a score of "
-#| "100 points you need to score 10 points on at least 20 games of every game "
-#| "type played."
 msgid ""
 "This means that when playing at medium difficulty level, to get a score of "
 "100 points you need to score 10 points on at least 20 games of every game "
@@ -769,12 +770,10 @@ msgid "4"
 msgstr "4"
 
 #: C/pause.page:9(desc)
-#| msgid "How to pause or stop a game."
 msgid "How to pause or end a game."
 msgstr "Πώς να κάνετε παύση ή να τερματίσετε το παιχνίδι."
 
 #: C/pause.page:20(title)
-#| msgid "Pause/Stop a game"
 msgid "Pause/End a game"
 msgstr "Παύση/Τερματισμός ενός παιχνιδιού"
 
@@ -817,12 +816,10 @@ msgstr ""
 "εργαλειοθήκη."
 
 #: C/pause.page:58(title)
-#| msgid "Stop a game"
 msgid "End a game"
 msgstr "Τερματισμός ενός παιχνιδιού"
 
 #: C/pause.page:59(p)
-#| msgid "To start a new game, do one of the following:"
 msgid "To end a game, perform one of the following:"
 msgstr "Για να τερματίσετε ένα παιχνίδι, κάντε ένα από τα παρακάτω:"
 
@@ -835,8 +832,6 @@ msgstr ""
 "\">Τερματισμός παιχνιδιού</gui></guiseq>."
 
 #: C/pause.page:69(p)
-#| msgid ""
-#| "Click on the <gui style=\"button\">Finish</gui> button in the toolbar."
 msgid "Click on the <gui style=\"button\">End</gui> button in the toolbar."
 msgstr ""
 "Κάντε κλικ στο κουμπί <gui style=\"button\">Τερματισμός</gui> στην "
@@ -1045,7 +1040,9 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)
 msgid "translator-credits"
-msgstr "Γιάννης Κωνσταντινίδης <gloooabvoe9a@gmail.com>, 2010."
+msgstr ""
+"Γιάννης Κωνσταντινίδης <gloooabvoe9a@gmail.com>, 2010\n"
+"Μαρία Μαυρίδου <mavridou@gmail.com>, 2014"
 
 #~ msgid "To stop a game, in order to end it, perform one of the following:"
 #~ msgstr ""
