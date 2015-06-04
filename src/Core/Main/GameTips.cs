@@ -66,7 +66,7 @@ namespace gbrainy.Core.Main
 			case 4:
 				return Translations.GetString ("Do not be afraid of making mistakes, they are part of the learning process.");
 			case 5:
-				return Translations.GetString ("Do all the problems, even the difficult ones. Improvement comes from challeging yourself.");
+				return Translations.GetString ("Do all the problems, even the difficult ones. Improvement comes from challenging yourself.");
 			case 6:
 				return Translations.GetString ("Play on a daily basis, you will notice progress soon.");
 			case 7: // Translators: Custom Game Selection is a menu option

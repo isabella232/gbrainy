@@ -70,7 +70,7 @@
 	<ul><li>In logic games, elements that may seem irrelevant can be very important.</li></ul>
 	<ul><li>Try to approach a problem from different angles.</li></ul>
 	<ul><li>Do not be afraid of making mistakes, they are part of the learning process.</li></ul>
-	<ul><li>Do all the problems, even the difficult ones. Improvement comes from challeging yourself.</li></ul>
+	<ul><li>Do all the problems, even the difficult ones. Improvement comes from challenging yourself.</li></ul>
 	<ul><li>Play on a daily basis, you will notice progress soon.</li></ul>
 	<ul><li>Association of elements is a common technique for remembering things.</li></ul>
 	<ul><li>Grouping elements into categories is a common technique for remembering things.</li></ul>
