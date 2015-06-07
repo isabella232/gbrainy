@@ -8,14 +8,14 @@
 # Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010.
 # Piotr Sokół <psokol@jabster.pl>, 2012.
 # Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013.
-# Piotr Drąg <piotrdrag@gmail.com>, 2014.
-# Aviary.pl <gnomepl@aviary.pl>, 2012-2014.
+# Piotr Drąg <piotrdrag@gmail.com>, 2014-2015.
+# Aviary.pl <gnomepl@aviary.pl>, 2012-2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 02:35+0200\n"
-"PO-Revision-Date: 2014-09-07 02:37+0200\n"
+"POT-Creation-Date: 2015-06-07 18:50+0200\n"
+"PO-Revision-Date: 2015-06-07 18:51+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -2430,8 +2430,8 @@ msgstr ""
 "Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010\n"
 "Piotr Sokół <psokol@jabster.pl>, 2012\n"
 "Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2014\n"
-"Aviary.pl <gnomepl@aviary.pl>, 2012-2014"
+"Piotr Drąg <piotrdrag@gmail.com>, 2014-2015\n"
+"Aviary.pl <gnomepl@aviary.pl>, 2012-2015"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
@@ -2735,15 +2735,15 @@ msgstr "Maksymalna liczba przechowywanych wyników rozegranych gier:"
 msgid "Delete Player's Game Session History"
 msgstr "Wyczyść historię"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Gratulacje."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Nieprawidłowa odpowiedź."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2751,11 +2751,11 @@ msgstr ""
 "Po znalezieniu odpowiedzi, proszę wpisać ją w pole tekstowe „Odpowiedź” i "
 "kliknąć przycisk „OK”."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Tłumaczenie programu gbrainy dla bieżącego języka jest niekompletne."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2765,16 +2765,16 @@ msgstr ""
 "ich rozwiązywanie. Aby zmienić język na angielski, proszę użyć odpowiedniej "
 "opcji znajdującej się w oknie preferencji programu."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Wstrzymaj"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Wznów"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Czas rozpoczęcia {0}"
@@ -3336,7 +3336,7 @@ msgstr "Nie bój się popełniać błędy. One są także częścią procesu ucz
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
 "Spróbuj rozwiązywać wszystkie zadania, nawet te trudne. Trening czyni "
 "mistrza."
