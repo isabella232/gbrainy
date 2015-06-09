@@ -6,15 +6,15 @@
 # Eduardo Retamales <eretamales@gnome.cl>, 2007, 2008.
 # Joaquín Ignacio Aramendía <samsagax@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013, 2014.
 #
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-30 16:07+0000\n"
-"PO-Revision-Date: 2014-06-16 18:05+0200\n"
+"POT-Creation-Date: 2015-06-04 19:29+0000\n"
+"PO-Revision-Date: 2015-06-09 \n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -777,8 +777,7 @@ msgstr "Poco ortodoxo"
 #: ../data/verbal_analogies.xml.h:27
 msgid "Which of the following words is the closest in meaning to 'censure'?"
 msgstr ""
-"¿Cuál de las siguientes palabras es la más cercana en significado a "
-"«censura»?"
+"¿Cuál de las siguientes palabras es la más cercana en significado a «censura»?"
 
 #: ../data/verbal_analogies.xml.h:28
 msgid "Condemn"
@@ -1247,8 +1246,7 @@ msgstr "Trivial"
 #: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
 msgstr ""
-"¿Cuál de las siguientes palabras es la más cercana en significado a "
-"«infeliz»?"
+"¿Cuál de las siguientes palabras es la más cercana en significado a «infeliz»?"
 
 #: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
@@ -1342,8 +1340,7 @@ msgstr "Es el único que no es una nuez."
 #: ../data/verbal_analogies.xml.h:174
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
-"¿Cuál de las siguientes palabras es la más cercana en significado a "
-"«aclamar»?"
+"¿Cuál de las siguientes palabras es la más cercana en significado a «aclamar»?"
 
 #: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
@@ -2073,7 +2070,7 @@ msgstr "cristal / romper | papel"
 msgid "tear | rip"
 msgstr "desgarrar | romper"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "pies / dos | dedos"
@@ -2730,16 +2727,16 @@ msgstr ""
 msgid "Delete Player's Game Session History"
 msgstr "Eliminar el histórico de sesiones de partidas del jugador"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Enhorabuena."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Respuesta incorrecta."
 
 #
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2747,11 +2744,11 @@ msgstr ""
 "Una vez que tengas la respuesta escríbela en «Respuesta:» y pulsa el botón "
 "«Aceptar»."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "El nivel de traducción de gbrainy en su idioma es bajo."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2761,16 +2758,16 @@ msgstr ""
 "difíciles de jugar. Si prefiere jugar en inglés, hay una opción para hacerlo "
 "en las preferencias de gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pausar"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Reanudar"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Tiempo de inicio {0}"
@@ -3330,9 +3327,12 @@ msgstr ""
 "No tengas miedo de cometer errores, son parte del proceso de aprendizaje."
 
 #: ../src/Core/Main/GameTips.cs:69
+#| msgid ""
+#| "Do all the problems, even the difficult ones. Improvement comes from "
+#| "challeging yourself."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
 "Haz todos los problemas, incluso los difíciles. La mejora llega a través de "
 "ponerte retos a ti mismo."
@@ -4164,8 +4164,8 @@ msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"¿Cuál es la probabilidad de obtener un «2» o un «6» en un solo lanzamiento "
-"de un dado no cargado de 6 caras? Responde usando una fracción (ej.: 1/2)."
+"¿Cuál es la probabilidad de obtener un «2» o un «6» en un solo lanzamiento de "
+"un dado no cargado de 6 caras? Responde usando una fracción (ej.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
 msgid "There are 2 of 6 possibilities."
@@ -4209,8 +4209,8 @@ msgid ""
 "There is 1 of 6 possibilities of getting a '6' on the first die and the same "
 "for the second die."
 msgstr ""
-"Existe 1 de 6 probabilidades de obtener un «6» en el primer dado y las "
-"mismas para el segundo dado."
+"Existe 1 de 6 probabilidades de obtener un «6» en el primer dado y las mismas "
+"para el segundo dado."
 
 #: ../src/Games/Logic/PuzzleDice.cs:73
 msgid "Dice"
@@ -4298,8 +4298,8 @@ msgid ""
 "figures and 'F' that there are two figures."
 msgstr ""
 "«A» indica que las figuras se superponen, «B» que son cuadrados, «C» que son "
-"círculos, «D» que las figuras están separadas, «E» que hay tres figuras y "
-"«F» que hay dos figuras."
+"círculos, «D» que las figuras están separadas, «E» que hay tres figuras y «F» "
+"que hay dos figuras."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
@@ -6149,22 +6149,22 @@ msgstr[1] ""
 #~ "If p &lt; x &lt; q and r &lt; y &lt; s. Which of the following options "
 #~ "makes x &lt; y true? [option_answers]"
 #~ msgstr ""
-#~ "Si «p &lt; x &lt; q» y «r &lt; y &lt; s». ¿Cuál de las siguientes "
-#~ "opciones hace que «x &lt; y» sea cierto? [option_answers]"
+#~ "Si «p &lt; x &lt; q» y «r &lt; y &lt; s». ¿Cuál de las siguientes opciones "
+#~ "hace que «x &lt; y» sea cierto? [option_answers]"
 
 #~ msgid ""
 #~ "If the variable r is smaller than q then the condition x &gt; y is always "
 #~ "true."
 #~ msgstr ""
-#~ "La variable «r» es menor que «q», entonces la condición «x &lt; y» "
-#~ "siempre es cierta."
+#~ "La variable «r» es menor que «q», entonces la condición «x &lt; y» siempre "
+#~ "es cierta."
 
 #~ msgid ""
 #~ "If the variable s is bigger than p then the condition x &lt; y is always "
 #~ "true."
 #~ msgstr ""
-#~ "La variable «r» es mayor que «p», entonces la condición «x &lt; y» "
-#~ "siempre es cierta."
+#~ "La variable «r» es mayor que «p», entonces la condición «x &lt; y» siempre "
+#~ "es cierta."
 
 # Se refiere a un tiro al blanco?
 #~ msgid "Blackboard"
@@ -6193,8 +6193,8 @@ msgstr[1] ""
 #~ "The variable p is smaller than x and s is bigger than y. If p is bigger "
 #~ "than s then the condition x &gt; y is true."
 #~ msgstr ""
-#~ "La variable «p» es menor que «x» y «s» es mayor que «y». Si «p» es mayor "
-#~ "que «s» entonces la condición «x &gt; y» es cierta."
+#~ "La variable «p» es menor que «x» y «s» es mayor que «y». Si «p» es mayor que "
+#~ "«s» entonces la condición «x &gt; y» es cierta."
 
 #~ msgid "[option_prefix] p > s"
 #~ msgstr "[option_prefix] p > s"
