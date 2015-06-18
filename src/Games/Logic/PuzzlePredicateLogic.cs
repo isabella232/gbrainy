@@ -66,7 +66,7 @@ namespace gbrainy.Games.Logic
 
 				new Predicate (String.Format (Translations.GetString ("If no ill artist is happy and some artists are happy. Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."),
 						Answer.GetMultiOption (0), Answer.GetMultiOption (1), Answer.GetMultiOption (2), Answer.GetMultiOption (3)),
-					Translations.GetString ("Some artist are not ill"),
+					Translations.GetString ("Some artists are not ill"),
 					Translations.GetString ("Some painters are not artists"),
 					Translations.GetString ("All artists are happy"),
 					Translations.GetString ("None of the other options"),
