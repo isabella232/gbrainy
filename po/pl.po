@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-07 18:50+0200\n"
-"PO-Revision-Date: 2015-06-07 18:51+0200\n"
+"POT-Creation-Date: 2015-06-19 22:15+0200\n"
+"PO-Revision-Date: 2015-06-19 22:17+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -5072,7 +5072,7 @@ msgstr ""
 "{0}, {1}, {2} lub {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Niektórzy artyści nie są przeziębieni"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
