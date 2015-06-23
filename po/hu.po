@@ -4,16 +4,16 @@
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
-# Balázs Úr <urbalazs at gmail dot com>, 2014.
+# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-27 21:47+0000\n"
-"PO-Revision-Date: 2014-12-24 10:10+0100\n"
+"POT-Creation-Date: 2015-06-18 19:54+0000\n"
+"PO-Revision-Date: 2015-06-23 13:52+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -635,10 +635,11 @@ msgid ""
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
 msgstr ""
-"Minden korosztály és célközönség számára tartogat valamit: gyermekeknek, akik "
-"szülei a képességeiket szeretnék fejleszteni; felnőtteknek, akik formában "
-"szeretnék tartani az elméjüket vagy csak szórakozásból próbálják ki; idősebb "
-"embereknek, akiknek valamilyen memóriafeladatot kell elvégezniük, stb."
+"Minden korosztály és célközönség számára tartogat valamit: gyermekeknek, "
+"akik szülei a képességeiket szeretnék fejleszteni; felnőtteknek, akik "
+"formában szeretnék tartani az elméjüket vagy csak szórakozásból próbálják "
+"ki; idősebb embereknek, akiknek valamilyen memóriafeladatot kell "
+"elvégezniük, stb."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -2047,7 +2048,7 @@ msgstr "üveg / eltörik | papír"
 msgid "tear | rip"
 msgstr "tép | elszakad"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "láb / kettő | lábujjak"
@@ -2682,15 +2683,15 @@ msgstr "A játékos megőrzött játékelőzményeinek maximális száma:"
 msgid "Delete Player's Game Session History"
 msgstr "Játékos játékelőzményeinek törlése"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Gratulálunk."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Helytelen válasz."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2698,11 +2699,11 @@ msgstr ""
 "Ha megvan a válasz, gépeld be a „Válasz:” mezőbe, és nyomd meg az „OK” "
 "gombot."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "A gbrainy fordításának szintje alacsony ezen a nyelven."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2712,16 +2713,16 @@ msgstr ""
 "Ha inkább angolul szeretne játszani, a gbrainy beállításai közt talál erre "
 "vonatkozó beállítást."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Szünet"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Folytatás"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Indulási idő: {0}"
@@ -3280,9 +3281,12 @@ msgid ""
 msgstr "Ne félj hibázni, ez is része a tanulásnak."
 
 #: ../src/Core/Main/GameTips.cs:69
+#| msgid ""
+#| "Do all the problems, even the difficult ones. Improvement comes from "
+#| "challeging yourself."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
 "Oldd meg az összes problémát, a nehezeket is. Gyakorlat teszi a mestert."
 
@@ -4929,7 +4933,8 @@ msgstr ""
 "közül melyik következtetés igaz? Lehetőségek: {0}, {1}, {2} vagy {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+#| msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Néhány művész nem beteg"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
