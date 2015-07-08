@@ -3,25 +3,24 @@
 # This file is distributed under the same license as the gbrainy package.
 #
 # Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2009-2011.
-# Matej Urbančič <mateju@svn.gnome.org>, 2012-2014.
+# Matej Urbančič <mateju@svn.gnome.org>, 2012-2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-06 04:52+0000\n"
-"PO-Revision-Date: 2014-08-06 14:49+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N"
+"+L10N&component=general\n"
+"POT-Creation-Date: 2015-07-08 17:01+0000\n"
+"PO-Revision-Date: 2015-07-08 21:30+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
-"%100==4 ? 3 : 0);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -37,21 +36,19 @@ msgstr "Bratje in sestre"
 
 #: ../data/games.xml.h:4
 msgid ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
-"[both] have both. How many people have neither brothers nor sisters?"
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and [both] have both. How many "
+"people have neither brothers nor sisters?"
 msgstr ""
-"Od [people] ljudi, jih ima [brothers] brate, [sisters] ima sestre in [both] "
-"imajo oboje. Koliko ljudi nima niti bratov niti sester?"
+"Od [people] ljudi, jih ima [brothers] brate, [sisters] ima sestre in [both] imajo oboje. Koliko ljudi nima "
+"niti bratov niti sester?"
 
 #: ../data/games.xml.h:5
 msgid ""
-"It is calculated by taking the total number of people minus [brothers_only] "
-"people that have brothers only, minus [sisters_only] that have sisters only "
-"and minus [both] that have sisters and brothers."
+"It is calculated by taking the total number of people minus [brothers_only] people that have brothers only, "
+"minus [sisters_only] that have sisters only and minus [both] that have sisters and brothers."
 msgstr ""
-"Izračunate ga tako, da od števila vseh ljudi odštejete [brothers_only] "
-"ljudi, ki imajo le brate, [sisters_only], ki imajo le sestre in [both], ki "
-"imajo brate in sestre."
+"Izračunate ga tako, da od števila vseh ljudi odštejete [brothers_only] ljudi, ki imajo le brate, "
+"[sisters_only], ki imajo le sestre in [both], ki imajo brate in sestre."
 
 #: ../data/games.xml.h:6
 msgid "Age"
@@ -59,29 +56,20 @@ msgstr "Starost"
 
 #: ../data/games.xml.h:7
 msgid ""
-"John's son age is nowadays half of John's age minus [difference], that is, "
-"([father] / 2) - [difference]."
-msgstr ""
-"Janezov sin je danes pol mlajši od svojega očeta minus [razlika], to je "
-"([oče] /2 ) - [razlika]."
+"John's son age is nowadays half of John's age minus [difference], that is, ([father] / 2) - [difference]."
+msgstr "Janezov sin je danes pol mlajši od svojega očeta minus [razlika], to je ([oče] /2 ) - [razlika]."
 
 #: ../data/games.xml.h:8
 msgid "Password"
 msgstr "Geslo"
 
 #: ../data/games.xml.h:9
-msgid ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at "
-"the power of [digits]."
-msgstr ""
-"Vsaka številka ima 10 možnosti. Skupno število možnosti je 10 na [digits]."
+msgid "Every digit has 10 possibilities. The total number of possibilities is 10 at the power of [digits]."
+msgstr "Vsaka številka ima 10 možnosti. Skupno število možnosti je 10 na [digits]."
 
 #: ../data/games.xml.h:10
-msgid ""
-"Every digit has 8 possibilities. The total number of possibilities is 8 at "
-"the power of [digits]."
-msgstr ""
-"Vsaka številka ima 8 možnosti. Skupno število možnosti je 8 na [digits]."
+msgid "Every digit has 8 possibilities. The total number of possibilities is 8 at the power of [digits]."
+msgstr "Vsaka številka ima 8 možnosti. Skupno število možnosti je 8 na [digits]."
 
 #: ../data/games.xml.h:11
 msgid "Tennis game"
@@ -89,31 +77,23 @@ msgstr "Igra tenisa"
 
 #: ../data/games.xml.h:12
 msgid ""
-"Every game is an independent event with 2 possible results. The total number "
-"of possibilities is 2 at the power of [games]."
-msgstr ""
-"Vsaka igra je neodvisna od druge z 2 mogočima rezultatoma. Skupno število "
-"možnosti je 2 na [games]."
+"Every game is an independent event with 2 possible results. The total number of possibilities is 2 at the "
+"power of [games]."
+msgstr "Vsaka igra je neodvisna od druge z 2 mogočima rezultatoma. Skupno število možnosti je 2 na [games]."
 
 #: ../data/games.xml.h:13
 msgid ""
-"In every match you eliminate one player. Therefore, the result is the total "
-"number of player minus one."
+"In every match you eliminate one player. Therefore, the result is the total number of player minus one."
 msgstr ""
-"V vsaki tekmi je izločen en igralec. Za določitev zmagovalca potrebujete "
-"celotno število igralcev minus ena."
+"V vsaki tekmi je izločen en igralec. Za določitev zmagovalca potrebujete celotno število igralcev minus ena."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
 msgstr "Bančne obresti"
 
 #: ../data/games.xml.h:15
-msgid ""
-"Compound interest is paid on the principal plus any past interest "
-"accumulated."
-msgstr ""
-"Obresti so pri obrestno obrestnemu računu izplačane na glavnico in na "
-"pretekle obresti."
+msgid "Compound interest is paid on the principal plus any past interest accumulated."
+msgstr "Obresti so pri obrestno obrestnemu računu izplačane na glavnico in na pretekle obresti."
 
 #: ../data/games.xml.h:16
 msgid "Simple equations"
@@ -181,12 +161,8 @@ msgstr "Škatla"
 
 #. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
 #: ../data/games.xml.h:33
-msgid ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
-"x 5 x [z]?"
-msgstr ""
-"Koliko škatel z merami 1 x 1 x 0,5 je mogoče spraviti v zabojnik z merami 6 "
-"x 5 x [z]?"
+msgid "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 x 5 x [z]?"
+msgstr "Koliko škatel z merami 1 x 1 x 0,5 je mogoče spraviti v zabojnik z merami 6 x 5 x [z]?"
 
 #: ../data/games.xml.h:34
 msgid "You can fit 6 * 5 * [z] * 2 boxes."
@@ -198,22 +174,17 @@ msgstr "Palindromska leta"
 
 #: ../data/games.xml.h:36
 msgid ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
-"are the next two consecutive palindromic years after [year_end] with the "
-"same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What are the next two consecutive "
+"palindromic years after [year_end] with the same gap? Answer using two numbers (e.g.: [year_start] and "
+"[year_end])."
 msgstr ""
-"[year_start] je bilo palindromsko leto, tako kot je bilo [year_end] 11 let "
-"kasneje. Kateri dve leti sta naslednji zaporedni palindromski leti po letu "
-"[year_end] z enako razliko med njima kot prejšnji dve leti? Odgovorite z "
-"dvema številoma (na primer: [year_start] in [year_end])."
+"[year_start] je bilo palindromsko leto, tako kot je bilo [year_end] 11 let kasneje. Kateri dve leti sta "
+"naslednji zaporedni palindromski leti po letu [year_end] z enako razliko med njima kot prejšnji dve leti? "
+"Odgovorite z dvema številoma (na primer: [year_start] in [year_end])."
 
 #: ../data/games.xml.h:37
-msgid ""
-"A palindromic number remains the same when its digits are reversed (e.g.: "
-"2112)."
-msgstr ""
-"Palindromsko število je število, ki se ob obračanju številk ne spremeni (na "
-"primer: 2112)."
+msgid "A palindromic number remains the same when its digits are reversed (e.g.: 2112)."
+msgstr "Palindromsko število je število, ki se ob obračanju številk ne spremeni (na primer: 2112)."
 
 #: ../data/games.xml.h:38
 msgid "[rslt_a] and [rslt_b]"
@@ -221,11 +192,11 @@ msgstr "[rslt_a] in [rslt_b]"
 
 #: ../data/games.xml.h:39
 msgid ""
-"From year 1000 to year 10000, palindrome years occur at 110 year intervals "
-"except for the end of each millennium that occur at a 11 years interval."
+"From year 1000 to year 10000, palindrome years occur at 110 year intervals except for the end of each "
+"millennium that occur at a 11 years interval."
 msgstr ""
-"Palindromska leta se med letom 1000 in 10000 pojavijo vsakih 110 let razen "
-"na koncu vsakega tisočletja, ko se pojavijo vsakih 11 let."
+"Palindromska leta se med letom 1000 in 10000 pojavijo vsakih 110 let razen na koncu vsakega tisočletja, ko "
+"se pojavijo vsakih 11 let."
 
 #: ../data/games.xml.h:40
 msgid "Dartboard"
@@ -233,11 +204,11 @@ msgstr "Tarča za pikado"
 
 #: ../data/games.xml.h:41
 msgid ""
-"On the dartboard below, where would you need to throw the darts to add 120 "
-"points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
+"On the dartboard below, where would you need to throw the darts to add 120 points in 5 throws? Answer using "
+"a list of numbers (e.g.: 4, 5, 6, 3, 2)"
 msgstr ""
-"Kam morate zadeti tarčo za pikado spodaj, da v 5 metih dobite 120 točk? "
-"Odgovorite z uporabo seznama številk (na primer: 4, 5, 6, 3, 2)."
+"Kam morate zadeti tarčo za pikado spodaj, da v 5 metih dobite 120 točk? Odgovorite z uporabo seznama "
+"številk (na primer: 4, 5, 6, 3, 2)."
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
@@ -249,100 +220,76 @@ msgstr "Konjska dirka"
 
 #: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
 msgid ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs] "
-"leg. How many horses are present?"
+"In a horse race there are people and horses. You count [eyes] eye and [legs] leg. How many horses are "
+"present?"
 msgid_plural ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
+"In a horse race there are people and horses. You count [eyes] eyes and [legs] legs. How many horses are "
+"present?"
 msgstr[0] ""
-"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] "
-"nog. Koliko je konj na dirki?"
+"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] nog. Koliko je konj na dirki?"
 msgstr[1] ""
-"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] "
-"nogo. Koliko je konj na dirki?"
+"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] nogo. Koliko je konj na dirki?"
 msgstr[2] ""
-"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] "
-"nogi. Koliko je konj na dirki?"
+"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] nogi. Koliko je konj na dirki?"
 msgstr[3] ""
-"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] "
-"noge. Koliko je konj na dirki?"
+"Na konjski dirki so ljudje in konji. Našteti je mogoče [eyes] oči in [legs] noge. Koliko je konj na dirki?"
 
 #: ../data/games.xml.h:45
 msgid ""
-"Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
-"Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
+"Every person has two legs and every horse four (2 * [men] + [horses] * 4). Every person and every horse "
+"have also two eyes (2 * [men] + 2 * [horses])."
 msgstr ""
-"Vsaka oseba in dve nogi in vsak konj ima štiri. Skupno število nog je zato "
-"(2 * [men] + [horses] * 4). Vsaka oseba in vsak konj ima dve očesi. Skupno "
-"število oči je (2 * [men] + 2 * [horses])."
+"Vsaka oseba in dve nogi in vsak konj ima štiri. Skupno število nog je zato (2 * [men] + [horses] * 4). "
+"Vsaka oseba in vsak konj ima dve očesi. Skupno število oči je (2 * [men] + 2 * [horses])."
 
 #: ../data/games.xml.h:46
 msgid "Lever"
 msgstr "Ročica"
 
 #: ../data/games.xml.h:47
-msgid ""
-"How much weight is needed at the point indicated by the question mark to "
-"balance the lever?"
-msgstr ""
-"Kakšna teža mora biti na točki, ki jo nakazuje vprašaj, za uravnoteženje "
-"ročice? "
+msgid "How much weight is needed at the point indicated by the question mark to balance the lever?"
+msgstr "Kakšna teža mora biti na točki, ki jo nakazuje vprašaj, za uravnoteženje ročice? "
 
 #: ../data/games.xml.h:48
 msgid ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
-"and a place to stand and I can move the Earth'."
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough and a place to stand and I can "
+"move the Earth'."
 msgstr ""
-"Razmislite o stavku, ki ga pripisujejo Arhimedu: 'Dajte mi vzvod in oporno "
-"točko, in premaknil bom Zemljo'."
+"Razmislite o stavku, ki ga pripisujejo Arhimedu: 'Dajte mi vzvod in oporno točko, in premaknil bom Zemljo'."
 
 #: ../data/games.xml.h:49
 msgid ""
-"A lever is in equilibrium when the objects placed on it are at a distances "
-"reciprocally proportional to their weights."
-msgstr ""
-"Vzvod je v ravnotežju takrat, ko so razdalji predmetov na njem medsebojno "
-"sorazmerni z njihovo težo."
+"A lever is in equilibrium when the objects placed on it are at a distances reciprocally proportional to "
+"their weights."
+msgstr "Vzvod je v ravnotežju takrat, ko so razdalji predmetov na njem medsebojno sorazmerni z njihovo težo."
 
 #: ../data/games.xml.h:50
 msgid "Multiple number"
 msgstr "Večkratna števila"
 
 #: ../data/games.xml.h:51
-msgid ""
-"Which two numbers of the list below are both multiple of [num_x] and "
-"[num_y]? [option_answers]"
-msgstr ""
-"Kateri par števil na seznamu spodaj je večkratnik tako [num_x] in [num_y]? "
-"[option_answers]"
+msgid "Which two numbers of the list below are both multiple of [num_x] and [num_y]? [option_answers]"
+msgstr "Kateri par števil na seznamu spodaj je večkratnik tako [num_x] in [num_y]? [option_answers]"
 
 #: ../data/games.xml.h:52
 msgid ""
-"A multiple is a number that may be divided by another number with no "
-"remainder. For example, 10, 15 and 25 are multiples of 5."
+"A multiple is a number that may be divided by another number with no remainder. For example, 10, 15 and 25 "
+"are multiples of 5."
 msgstr ""
-"Večkratnik je število, ki ga je mogoče deliti z drugim številom brez "
-"ostanka. Na primer, 10, 15 in 25 so večkratniki števila 5."
+"Večkratnik je število, ki ga je mogoče deliti z drugim številom brez ostanka. Na primer, 10, 15 in 25 so "
+"večkratniki števila 5."
 
-#: ../data/games.xml.h:53
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
+#: ../data/games.xml.h:53 ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
 #: ../src/Games/Calculation/CalculationAverage.cs:185
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:177
-#: ../src/Games/Calculation/CalculationPrimes.cs:151
-#: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
-#: ../src/Games/Logic/PuzzleFigures.cs:192
-#: ../src/Games/Logic/PuzzleGridDots.cs:340
-#: ../src/Games/Logic/PuzzleLargerShape.cs:303
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:173
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:218
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:313
-#: ../src/Games/Logic/PuzzleNextFigure.cs:166
-#: ../src/Games/Logic/PuzzleOstracism.cs:176
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:196
-#: ../src/Games/Logic/PuzzleTetris.cs:171
+#: ../src/Games/Calculation/CalculationPrimes.cs:151 ../src/Games/Calculation/CalculationProportions.cs:130
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244 ../src/Games/Logic/PuzzleFigurePattern.cs:237
+#: ../src/Games/Logic/PuzzleFigures.cs:192 ../src/Games/Logic/PuzzleGridDots.cs:340
+#: ../src/Games/Logic/PuzzleLargerShape.cs:303 ../src/Games/Logic/PuzzleMissingPiece.cs:173
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:218 ../src/Games/Logic/PuzzleMostInCommon.cs:313
+#: ../src/Games/Logic/PuzzleNextFigure.cs:166 ../src/Games/Logic/PuzzleOstracism.cs:176
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:196 ../src/Games/Logic/PuzzleTetris.cs:171
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:219
 msgid "Choose one of the following:"
 msgstr "Izberite eno od naslednjega:"
@@ -379,13 +326,11 @@ msgstr "Avtomobili v mestu"
 #: ../data/games.xml.h:63
 #, no-c-format
 msgid ""
-"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
-"have a car and are males. What percentage of the population are females and "
-"have a car? [option_answers]"
+"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% have a car and are males. What "
+"percentage of the population are females and have a car? [option_answers]"
 msgstr ""
-"V majhnem mestu ima [all_cars]% prebivalcev avto od tega je [males_cars]% "
-"moških. Kolikšen odstotek od skupnih prebivalcev so ženske z avtomobili? "
-"[option_answers]"
+"V majhnem mestu ima [all_cars]% prebivalcev avto od tega je [males_cars]% moških. Kolikšen odstotek od "
+"skupnih prebivalcev so ženske z avtomobili? [option_answers]"
 
 #: ../data/games.xml.h:65
 #, no-c-format
@@ -409,12 +354,8 @@ msgstr "[option_prefix] [option_d]%"
 
 #: ../data/games.xml.h:73
 #, no-c-format
-msgid ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
-"have a car."
-msgstr ""
-"[females_cars]% ([all_cars] - [males_cars]) prebivalcev so ženske, ki imajo "
-"avtomobile."
+msgid "[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and have a car."
+msgstr "[females_cars]% ([all_cars] - [males_cars]) prebivalcev so ženske, ki imajo avtomobile."
 
 #: ../data/games.xml.h:74
 msgid "Compare variables"
@@ -422,11 +363,11 @@ msgstr "Primerjaj spremnljivke"
 
 #: ../data/games.xml.h:75
 msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
-"which of the following options is correct? [option_answers]"
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, which of the following options "
+"is correct? [option_answers]"
 msgstr ""
-"p &lt; x &lt; q in r &lt; y &lt; s. Veste, da je x &gt; y prav. Katera od "
-"naslednjih možnosti je pravilna? [option_answers]"
+"p &lt; x &lt; q in r &lt; y &lt; s. Veste, da je x &gt; y prav. Katera od naslednjih možnosti je pravilna? "
+"[option_answers]"
 
 #: ../data/games.xml.h:76
 msgid "[option_prefix] s > p"
@@ -446,17 +387,15 @@ msgstr "[option_prefix] q = s"
 
 #: ../data/games.xml.h:80
 msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr ""
-"Če je x &lt; y, potem je p &lt; x &lt; y &lt; s. Zato je s &gt; p pravilna "
-"izjava."
+msgstr "Če je x &lt; y, potem je p &lt; x &lt; y &lt; s. Zato je s &gt; p pravilna izjava."
 
 #: ../data/games.xml.h:81
 msgid ""
-"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
-"which of the following options is correct? [option_answers]"
+"If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, which of the following options "
+"is correct? [option_answers]"
 msgstr ""
-"p &lt; x &lt; q in r &lt; y &lt; s. Veste, da je x &gt; y res. Katera od "
-"naslednjih možnosti je pravilna? [option_answers]"
+"p &lt; x &lt; q in r &lt; y &lt; s. Veste, da je x &gt; y res. Katera od naslednjih možnosti je pravilna? "
+"[option_answers]"
 
 #: ../data/games.xml.h:82
 msgid "[option_prefix] r < q"
@@ -464,9 +403,7 @@ msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr ""
-"Če je x &gt; y, potem je r &lt; y &lt; x &lt; 1. Zato je r &lt; q pravilna "
-"izjava."
+msgstr "Če je x &gt; y, potem je r &lt; y &lt; x &lt; 1. Zato je r &lt; q pravilna izjava."
 
 #: ../data/games.xml.h:84
 msgid "Odd number"
@@ -474,11 +411,11 @@ msgstr "Liho število"
 
 #: ../data/games.xml.h:85
 msgid ""
-"Given two integer numbers x and y, if x is even and y odd, which of the "
-"following expressions gives always an odd result? [option_answers]"
+"Given two integer numbers x and y, if x is even and y odd, which of the following expressions gives always "
+"an odd result? [option_answers]"
 msgstr ""
-"Imate števili x in y in x je vedno sod in y je vedno lih. Kateri od "
-"naslednjih izrazov vam bo vedno dal lih rezultat? [option_answers]"
+"Imate števili x in y in x je vedno sod in y je vedno lih. Kateri od naslednjih izrazov vam bo vedno dal lih "
+"rezultat? [option_answers]"
 
 #: ../data/games.xml.h:86
 msgid "[option_prefix] 2x + y"
@@ -498,12 +435,11 @@ msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
 msgid ""
-"Multiplication of two even numbers always produces an even number, so x "
-"multiplied by 2 is even. Adding an odd number (y) to that even number always "
-"produces an odd number."
+"Multiplication of two even numbers always produces an even number, so x multiplied by 2 is even. Adding an "
+"odd number (y) to that even number always produces an odd number."
 msgstr ""
-"Ker je s sodimi števili vedno da sodo število, zato je x pomnožen z 2 sod. "
-"Dodajanje lihega števila (y) sodemu vedno da liho število."
+"Ker je s sodimi števili vedno da sodo število, zato je x pomnožen z 2 sod. Dodajanje lihega števila (y) "
+"sodemu vedno da liho število."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -531,29 +467,23 @@ msgstr "Dva tovornjaka"
 
 #: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:81
 msgid ""
-"You have two trucks that have a total weight of [add] unit. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
+"You have two trucks that have a total weight of [add] unit. If the lighter truck weights 15 units less that "
+"half of the weight of the heavier truck, what is the weight of the lighter truck? [option_answers]"
 msgid_plural ""
-"You have two trucks that have a total weight of [add] units. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
+"You have two trucks that have a total weight of [add] units. If the lighter truck weights 15 units less "
+"that half of the weight of the heavier truck, what is the weight of the lighter truck? [option_answers]"
 msgstr[0] ""
-"Imate dva tovornjaka, ki imata skupno maso [add] enot. Koliko tehta lažji "
-"tovornjak, če tehta 15 enot manj kot polovica težjega tovornjaka? "
-"[option_answers]"
+"Imate dva tovornjaka, ki imata skupno maso [add] enot. Koliko tehta lažji tovornjak, če tehta 15 enot manj "
+"kot polovica težjega tovornjaka? [option_answers]"
 msgstr[1] ""
-"Imate dva tovornjaka, ki imata skupno maso [add] enoto. Koliko tehta lažji "
-"tovornjak, če tehta 15 enot manj kot polovica težjega tovornjaka? "
-"[option_answers]"
+"Imate dva tovornjaka, ki imata skupno maso [add] enoto. Koliko tehta lažji tovornjak, če tehta 15 enot manj "
+"kot polovica težjega tovornjaka? [option_answers]"
 msgstr[2] ""
-"Imate dva tovornjaka, ki imata skupno maso [add] enoti. Koliko tehta lažji "
-"tovornjak, če tehta 15 enot manj kot polovica težjega tovornjaka? "
-"[option_answers]"
+"Imate dva tovornjaka, ki imata skupno maso [add] enoti. Koliko tehta lažji tovornjak, če tehta 15 enot manj "
+"kot polovica težjega tovornjaka? [option_answers]"
 msgstr[3] ""
-"Imate dva tovornjaka, ki imata skupno maso [add] enote. Koliko tehta lažji "
-"tovornjak, če tehta 15 enot manj kot polovica težjega tovornjaka? "
-"[option_answers]"
+"Imate dva tovornjaka, ki imata skupno maso [add] enote. Koliko tehta lažji tovornjak, če tehta 15 enot manj "
+"kot polovica težjega tovornjaka? [option_answers]"
 
 #: ../data/games.xml.h:98
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
@@ -565,11 +495,11 @@ msgstr "Družinske povezave"
 
 #: ../data/games.xml.h:100
 msgid ""
-"John's father's sister's sister-in-law is also? Do not assume that John has "
-"any relative that has not been mentioned. [option_answers]"
+"John's father's sister's sister-in-law is also? Do not assume that John has any relative that has not been "
+"mentioned. [option_answers]"
 msgstr ""
-"Svakinja sestre Janezovega očeta je tudi? Predpostavljajte da ima Janez samo "
-"omenjene sorodnike. [option_answers]"
+"Svakinja sestre Janezovega očeta je tudi? Predpostavljajte da ima Janez samo omenjene sorodnike. "
+"[option_answers]"
 
 #: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
@@ -593,17 +523,15 @@ msgid "His mother"
 msgstr "Njegova mati"
 
 #: ../data/games.xml.h:106
-msgid ""
-"The sister's sister-in-law is John's father's wife, that is, John's mother."
+msgid "The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr "Sestrina svakinja je mati Janezovega očeta, torej Janezova mati."
 
 #: ../data/games.xml.h:107
 msgid ""
-"John's mother's brother's brother-in-law is also? Do not assume that John "
-"has any relative that has not been mentioned. [option_answers]"
+"John's mother's brother's brother-in-law is also? Do not assume that John has any relative that has not "
+"been mentioned. [option_answers]"
 msgstr ""
-"Zet brata Janezove matere je tudi? Predpostavljajte, da ima Janez samo "
-"omenjene sorodnike. [option_answers]"
+"Zet brata Janezove matere je tudi? Predpostavljajte, da ima Janez samo omenjene sorodnike. [option_answers]"
 
 #: ../data/games.xml.h:108
 msgid "[option_prefix] His father"
@@ -619,9 +547,7 @@ msgid "His father"
 msgstr "Njegov oče"
 
 #: ../data/games.xml.h:111
-msgid ""
-"The brother's brother-in-law is John's mother's husband, that is, John's "
-"father."
+msgid "The brother's brother-in-law is John's mother's husband, that is, John's father."
 msgstr "Bratov svak je mož Janezove matere, to je Janezov oče."
 
 #: ../data/games.xml.h:112
@@ -630,11 +556,11 @@ msgstr "Tretje število"
 
 #: ../data/games.xml.h:113
 msgid ""
-"The average of three numbers is [three]. The average of two of these numbers "
-"is [two]. What is the third number? [option_answers]"
+"The average of three numbers is [three]. The average of two of these numbers is [two]. What is the third "
+"number? [option_answers]"
 msgstr ""
-"Povprečje treh števil je [three]. Povprečje dveh od teh števil je [two]. "
-"Katero je tretje število? [option_answers]"
+"Povprečje treh števil je [three]. Povprečje dveh od teh števil je [two]. Katero je tretje število? "
+"[option_answers]"
 
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
@@ -642,21 +568,20 @@ msgstr "Je rezultat izračuna ([three] * 3) - ([two] * 2)."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
-"gbrainy is a game to train memory, arithmetical and logical capabilities "
-"with many sorts of exercises of different difficulty levels."
+"gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of "
+"different difficulty levels."
 msgstr ""
-"Gbrainy je igra za urjenje spomina, logike, aritmetike in drugega z "
-"različnimi vajami različnih zahtevnostnih ravni."
+"Gbrainy je igra za urjenje spomina, logike, aritmetike in drugega z različnimi vajami različnih "
+"zahtevnostnih ravni."
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
-"It should have something for all ages and purposes: kids whose parents want "
-"them to develop their capabilities, adults that want to keep their mind in "
-"form or just try it out for fun, older people that might need to do some "
-"memory exercises, etc."
+"It should have something for all ages and purposes: kids whose parents want them to develop their "
+"capabilities, adults that want to keep their mind in form or just try it out for fun, older people that "
+"might need to do some memory exercises, etc."
 msgstr ""
-"Namenjen je različnim uporabnikom. Z igro se lahko učijo otroci, starši in "
-"starejši, da ostanejo zbrani in ostri v razmišljanju."
+"Namenjen je različnim uporabnikom. Z igro se lahko učijo otroci, starši in starejši, da ostanejo zbrani in "
+"ostri v razmišljanju."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -667,12 +592,9 @@ msgid "Game"
 msgstr "Igra"
 
 #: ../data/gbrainy.desktop.in.h:3
-msgid ""
-"Play games that challenge your logic, verbal, calculation and memory "
-"abilities"
+msgid "Play games that challenge your logic, verbal, calculation and memory abilities"
 msgstr ""
-"Igrajte igre ki izzivajo vaše besedne sposobnosti, sposobnosti miselnega "
-"računanja, logike in pomnjenja"
+"Igrajte igre ki izzivajo vaše besedne sposobnosti, sposobnosti miselnega računanja, logike in pomnjenja"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -1044,8 +966,7 @@ msgid "Abstinence"
 msgstr "Abstinenca"
 
 #: ../data/verbal_analogies.xml.h:98
-msgid ""
-"The ethical doctrine holding that only what is pleasant is an intrinsic good."
+msgid "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr "Etična doktrina, ki trdi da je dobro le tisto, kar je prijetno."
 
 #: ../data/verbal_analogies.xml.h:99
@@ -1057,16 +978,12 @@ msgid "Positivism"
 msgstr "Pozitivizem"
 
 #: ../data/verbal_analogies.xml.h:101
-msgid ""
-"The practice of austere self-discipline in order to achieve a higher or "
-"spiritual idea."
+msgid "The practice of austere self-discipline in order to achieve a higher or spiritual idea."
 msgstr "Izvajanje trde samodiscipline za doseganje višjih ali duhovnih ciljev."
 
 #: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr ""
-"Katera od naslednjih besed je pomensko najbližje pojmu 'bistroumni nesmisel "
-"(oksimoron)'?"
+msgstr "Katera od naslednjih besed je pomensko najbližje pojmu 'bistroumni nesmisel (oksimoron)'?"
 
 #: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
@@ -1190,9 +1107,7 @@ msgstr "Jezen"
 
 #. Translator: definition of negligent
 #: ../data/verbal_analogies.xml.h:137
-msgid ""
-"It is the failure to take such care as may be rightfully or reasonably "
-"expected."
+msgid "It is the failure to take such care as may be rightfully or reasonably expected."
 msgstr "Pomanjkanje previdnosti kot bi bilo prav ali razumno pričakovati."
 
 #: ../data/verbal_analogies.xml.h:138
@@ -1371,8 +1286,7 @@ msgstr "Tveganje"
 
 #: ../data/verbal_analogies.xml.h:186
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
-msgstr ""
-"Katera od naslednjih besed je pomensko najbližje pojmu 'flegmatičnost'?"
+msgstr "Katera od naslednjih besed je pomensko najbližje pojmu 'flegmatičnost'?"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
@@ -1644,11 +1558,9 @@ msgstr "Obala"
 
 #: ../data/verbal_analogies.xml.h:260
 msgid ""
-"An oasis is an isolated area of vegetation in a desert and an island is a "
-"piece of isolated land that is surrounded by water."
-msgstr ""
-"Oaza je izolirano področje rastlinstva v puščavi in otok je kos izolirane "
-"zemlje, ki jo obkroža voda."
+"An oasis is an isolated area of vegetation in a desert and an island is a piece of isolated land that is "
+"surrounded by water."
+msgstr "Oaza je izolirano področje rastlinstva v puščavi in otok je kos izolirane zemlje, ki jo obkroža voda."
 
 #. Translators: letter refers to letter (in paper form)
 #: ../data/verbal_analogies.xml.h:262
@@ -1794,11 +1706,10 @@ msgstr "Azimut"
 
 #: ../data/verbal_analogies.xml.h:298
 msgid ""
-"Parallel and longitude traverse from east to west while meridian and "
-"latitude traverse from north to south."
+"Parallel and longitude traverse from east to west while meridian and latitude traverse from north to south."
 msgstr ""
-"Vzporednice in zemljepisna dolžina gresta od vhoda proti zahodu, meridian in "
-"zemljepisna širina gresta od severa proti jugu."
+"Vzporednice in zemljepisna dolžina gresta od vhoda proti zahodu, meridian in zemljepisna širina gresta od "
+"severa proti jugu."
 
 #: ../data/verbal_analogies.xml.h:299
 msgid "art / gallery | drama"
@@ -1890,11 +1801,8 @@ msgid "Close"
 msgstr "Zapri"
 
 #: ../data/verbal_analogies.xml.h:325
-msgid ""
-"To make both objects work, a button needs to be pushed and a key needs to be "
-"turned."
-msgstr ""
-"Da bosta oba predmeta delovala, morate pritisniti gumb in obrniti ključ."
+msgid "To make both objects work, a button needs to be pushed and a key needs to be turned."
+msgstr "Da bosta oba predmeta delovala, morate pritisniti gumb in obrniti ključ."
 
 #: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
@@ -2016,8 +1924,7 @@ msgstr "Območje"
 
 #: ../data/verbal_analogies.xml.h:360
 msgid "The first word is the instrument and the second what it measures."
-msgstr ""
-"Prva beseda je naprava, druga beseda je količina, ki jo z napravo izmerimo."
+msgstr "Prva beseda je naprava, druga beseda je količina, ki jo z napravo izmerimo."
 
 #: ../data/verbal_analogies.xml.h:361
 msgid "hungry / eat | tired"
@@ -2362,15 +2269,11 @@ msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr " --gamelist\t\t\tPokaže seznam razpoložljivih iger."
 
 #: ../src/Clients/Classical/CommandLine.cs:176
-msgid ""
-"  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
-"custom game."
-msgstr ""
-" --customgame [game1, gameN]\tDoloči seznam iger za igranje med igro po meri."
+msgid "  --customgame [game1, gameN]\tSpecifies a list of games to play during a custom game."
+msgstr " --customgame [game1, gameN]\tDoloči seznam iger za igranje med igro po meri."
 
 #: ../src/Clients/Classical/CommandLine.cs:177
-msgid ""
-"  --norandom \t\t\tThe custom game list provided will not be randomized."
+msgid "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr " --norandom \t\t\tSeznam iger po meri ne bo naključen."
 
 #: ../src/Clients/Classical/CommandLine.cs:178
@@ -2396,41 +2299,36 @@ msgstr "Andrej Žnidaršič <andrej.znidarsic@gmail.com>"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as  published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.\n"
+"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as  published by the Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 "\n"
 msgstr ""
-"Program je prosta programska oprema; lahko ga širite in/ali spreminjate pod "
-"pogoji Splošnega dovoljenja GNU (GNU General Public License), kot ga je "
-"objavila ustanova Free Software Foundation; ali različice 2 ali (po vaši "
-"izbiri) katerekoli poznejše različice.\n"
+"Program je prosta programska oprema; lahko ga širite in/ali spreminjate pod pogoji Splošnega dovoljenja GNU "
+"(GNU General Public License), kot ga je objavila ustanova Free Software Foundation; ali različice 2 ali (po "
+"vaši izbiri) katerekoli poznejše različice.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:67
 msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the "
+"implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public "
+"License for more details.\n"
 "\n"
 msgstr ""
-"Ta program se razširja v upanju, da bo uporaben, vendar BREZ VSAKRŠNEGA "
-"JAMSTVA; tudi brez posredne zagotovitve CENOVNE VREDNOSTI ali PRIMERNOSTI ZA "
-"DOLOČEN NAMEN.  Za podrobnosti glejte besedilo GNU General Public License.\n"
+"Ta program se razširja v upanju, da bo uporaben, vendar BREZ VSAKRŠNEGA JAMSTVA; tudi brez posredne "
+"zagotovitve CENOVNE VREDNOSTI ali PRIMERNOSTI ZA DOLOČEN NAMEN.  Za podrobnosti glejte besedilo GNU General "
+"Public License.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
-"Place - Suite 330, Boston, MA 02111-1307, USA."
+"You should have received a copy of the GNU General Public License along with this program; if not, write to "
+"the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
-"S tem programom bi morali dobiti tudi kopijo Splošnega Javnega dovoljenja "
-"(GNU General Public License); v primeru, da je niste, stopite v stik s Free "
-"Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
-"02111-1307, USA."
+"S tem programom bi morali dobiti tudi kopijo Splošnega Javnega dovoljenja (GNU General Public License); v "
+"primeru, da je niste, stopite v stik s Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, "
+"MA 02111-1307, USA."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2472,11 +2370,8 @@ msgid "The PDF file has been exported correctly."
 msgstr "Datoteka PDF ni bila uspešno izvožena."
 
 #: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:175
-msgid ""
-"There was a problem generating the PDF file. The file has not been created."
-msgstr ""
-"Prišlo je do težave med ustvarjanjem datoteke PDF. Datoteka ni bila "
-"ustvarjena."
+msgid "There was a problem generating the PDF file. The file has not been created."
+msgstr "Prišlo je do težave med ustvarjanjem datoteke PDF. Datoteka ni bila ustvarjena."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
@@ -2484,15 +2379,13 @@ msgstr "Graf spodaj prikazuje spremembo rezultatov igralca."
 
 # This multiply plural does not work correctly
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
-msgid ""
-"You need more than one game session recorded to see the score evolution."
+msgid "You need more than one game session recorded to see the score evolution."
 msgstr "Za oceno rezultata morate shraniti več kot eno sejo iger."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
 #, csharp-format
 msgid "It is built using the results of {0} recorded game session."
-msgid_plural ""
-"It is built using the results of the last {0} recorded game sessions."
+msgid_plural "It is built using the results of the last {0} recorded game sessions."
 msgstr[0] "Prikazuje rezultate zadnjih {0} shranjenih sej iger."
 msgstr[1] "Prikazuje rezultate zadnje {0} shranjene seje iger."
 msgstr[2] "Prikazuje rezultate zadnjih {0} shranjenih sej iger."
@@ -2501,16 +2394,13 @@ msgstr[3] "Prikazuje rezultate zadnjih {0} shranjenih sej iger."
 #. Translators: "The graph below" +  "It is built using" sentences
 #. Translators: answer + rationale of the answer
 #. Translators: Concatenating two strings (rationale of answer + extra information).
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61
-#: ../src/Core/Main/Game.cs:145
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75
-#: ../src/Games/Logic/PuzzleCountSeries.cs:93
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61 ../src/Core/Main/Game.cs:145
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75 ../src/Games/Logic/PuzzleCountSeries.cs:93
 #, csharp-format
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67
-#: ../src/Core/Views/FinishView.cs:102
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67 ../src/Core/Views/FinishView.cs:102
 #: ../src/Core/Views/PlayerHistoryView.cs:85
 msgid "Total"
 msgstr "Skupaj"
@@ -2520,12 +2410,8 @@ msgid "You are about to delete the player's game session history."
 msgstr "Ste pred izbrisom igralčeve zgodovine iger."
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:121
-msgid ""
-"If you proceed, you will lose the history of the previous game sessions. Do "
-"you want to continue?"
-msgstr ""
-"V kolikor nadaljujete, boste izgubili zgodovino prejšnjih sej iger. Ali "
-"želite nadaljevati?"
+msgid "If you proceed, you will lose the history of the previous game sessions. Do you want to continue?"
+msgstr "V kolikor nadaljujete, boste izgubili zgodovino prejšnjih sej iger. Ali želite nadaljevati?"
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
 msgid "_Delete"
@@ -2553,11 +2439,8 @@ msgstr "Izvoz v PDF"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
 msgid ""
-"This option allows to export a set of games in a PDF file. You can complete "
-"the puzzles without a computer."
-msgstr ""
-"Ta možnost vam omogoča izvoz niza iger v datoteko PDF. Uganke lahko "
-"dopolnite brez računalnika."
+"This option allows to export a set of games in a PDF file. You can complete the puzzles without a computer."
+msgstr "Ta možnost vam omogoča izvoz niza iger v datoteko PDF. Uganke lahko dopolnite brez računalnika."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
@@ -2572,20 +2455,17 @@ msgstr "Preskoči igre, ki uporabljajo barve"
 msgid "<b>Game Types</b>"
 msgstr "<b>Vrste iger</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6 ../src/Clients/Classical/Widgets/Toolbar.cs:124
 #: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
 msgid "Logic"
 msgstr "Logika"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7 ../src/Clients/Classical/Widgets/Toolbar.cs:128
 #: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
 msgid "Calculation"
 msgstr "Računanje"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8 ../src/Clients/Classical/Widgets/Toolbar.cs:138
 #: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
 msgid "Verbal"
 msgstr "Besede"
@@ -2631,8 +2511,7 @@ msgstr "<b>Izhodna datoteka</b>"
 msgid "_Save"
 msgstr "_Shrani"
 
-#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:19
+#: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1 ../src/Clients/Classical/gbrainy.ui.h:19
 msgid "Player's Game Session History"
 msgstr "Igralčeva zgodovina iger"
 
@@ -2640,15 +2519,13 @@ msgstr "Igralčeva zgodovina iger"
 msgid "Show:"
 msgstr "Pokaži:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1
-#: ../src/Clients/Classical/gbrainy.ui.h:21
+#: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:1 ../src/Clients/Classical/gbrainy.ui.h:21
 msgid "Preferences"
 msgstr "Možnosti"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
 msgid "Skip games that use colors (for colorblind users)"
-msgstr ""
-"Preskoči igre, ki uporabljajo barve (prijazno do barvno slepih uporabnikov)"
+msgstr "Preskoči igre, ki uporabljajo barve (prijazno do barvno slepih uporabnikov)"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:4
 msgid "Force gbrainy to always use English language (ignore translations)"
@@ -2694,46 +2571,39 @@ msgstr "Največje število shranjenih iger v igralčevi zgodovini iger:"
 msgid "Delete Player's Game Session History"
 msgstr "Počisti igralčevo zgodovino iger"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Čestitke."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Napačen odgovor."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
-msgid ""
-"Once you have an answer type it in the \"Answer:\" entry box and press the "
-"\"OK\" button."
-msgstr ""
-"Ko ste prepričani v odgovor, ga vnesite v vnosno polje \"Odgovor:\" in "
-"pritisnite gumb \"V redu\"."
+#: ../src/Clients/Classical/gbrainy.cs:493
+msgid "Once you have an answer type it in the \"Answer:\" entry box and press the \"OK\" button."
+msgstr "Ko ste prepričani v odgovor, ga vnesite v vnosno polje \"Odgovor:\" in pritisnite gumb \"V redu\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Raven prevodov gbrainy za vaš jezik je nizka."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
-"You may be exposed to partially translated games making it more difficult to "
-"play. If you prefer to play in English, there is an option for doing so in "
-"gbrainy's Preferences."
+"You may be exposed to partially translated games making it more difficult to play. If you prefer to play in "
+"English, there is an option for doing so in gbrainy's Preferences."
 msgstr ""
-"Morda boste videli delno prevedene igre, kar jih lahko naredi težje za "
-"igranje. Če želite igrati v angleščini, je ta možnost na voljo v možnostih "
-"gbrainy."
+"Morda boste videli delno prevedene igre, kar jih lahko naredi težje za igranje. Če želite igrati v "
+"angleščini, je ta možnost na voljo v možnostih gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:143
+#: ../src/Clients/Classical/gbrainy.cs:620 ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Premor"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Nadaljuj"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Čas zaganjanja {0}"
@@ -2970,8 +2840,7 @@ msgstr "Vpis krajevnega skladišča"
 msgid "Url:"
 msgstr "Url:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:64
-#: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:64 ../src/Clients/Classical/Widgets/BrowseFile.cs:43
 msgid "Browse..."
 msgstr "Prebrskaj ..."
 
@@ -3046,8 +2915,7 @@ msgstr[3] "{0} posodobitve so na voljo"
 msgid "Open Location"
 msgstr "Odpri mesto"
 
-#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
-#: ../src/Core/Main/GameSession.cs:185
+#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127 ../src/Core/Main/GameSession.cs:185
 msgid "Paused"
 msgstr "V premoru"
 
@@ -3067,8 +2935,8 @@ msgstr "Igrajte igre, ki so izziv vašemu sklepanju in razmišljanju."
 msgid "Play games that challenge your mental calculation skills"
 msgstr "Igrajte igre, ki so izziv vašim sposobnostim računanja."
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:133
-#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:123
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:133 ../src/Core/Main/GameTypes.cs:47
+#: ../src/Core/Views/FinishView.cs:123
 msgid "Memory"
 msgstr "Pomnjenje"
 
@@ -3193,8 +3061,7 @@ msgstr "{0}, {1}, {2} ali {3}"
 msgid "Figure {0}"
 msgstr "Slika {0}"
 
-#: ../src/Core/Main/Game.cs:138
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
+#: ../src/Core/Main/Game.cs:138 ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
 #, csharp-format
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
@@ -3211,11 +3078,8 @@ msgstr "Podatkovna zbirka razširitev:"
 #: ../src/Core/Main/GameManager.cs:257
 #, csharp-format
 msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"Število iger: {0}: {1} logičnih iger, {2} računskih nalog, {3} urjenj "
-"spomina, {4} besednih analogij"
+"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} memory trainers, {4} verbal analogies"
+msgstr "Število iger: {0}: {1} logičnih iger, {2} računskih nalog, {3} urjenj spomina, {4} besednih analogij"
 
 #: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
@@ -3270,32 +3134,24 @@ msgid "Read the instructions carefully and identify the data and given clues."
 msgstr "Natančno preberite navodila in določite podatke in dane namige."
 
 #: ../src/Core/Main/GameTips.cs:61
-msgid ""
-"To score the player gbrainy uses the time and tips needed to complete each "
-"game."
-msgstr ""
-"Rezultat vključuje čas in število namigov s katerimi reševalec konča nalogo."
+msgid "To score the player gbrainy uses the time and tips needed to complete each game."
+msgstr "Rezultat vključuje čas in število namigov s katerimi reševalec konča nalogo."
 
 #: ../src/Core/Main/GameTips.cs:63
-msgid ""
-"In logic games, elements that may seem irrelevant can be very important."
-msgstr ""
-"V logičnih igrah so lahko deli, ki se morda zdijo nepomembni, zelo pomembni."
+msgid "In logic games, elements that may seem irrelevant can be very important."
+msgstr "V logičnih igrah so lahko deli, ki se morda zdijo nepomembni, zelo pomembni."
 
 #: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
 msgstr "Težavi se poskusite približati z različnih vidikov."
 
 #: ../src/Core/Main/GameTips.cs:67
-msgid ""
-"Do not be afraid of making mistakes, they are part of the learning process."
+msgid "Do not be afraid of making mistakes, they are part of the learning process."
 msgstr "Ne obremenjujte se z napakami, saj so te vedno del učenega procesa."
 
 #: ../src/Core/Main/GameTips.cs:69
-msgid ""
-"Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
-msgstr "Rešite vse naloge, tudi težke. Napredek je mogoče doseči le z vajo."
+msgid "Do all the problems, even the difficult ones. Improvement comes from challenging yourself."
+msgstr "Rešite vse probleme, tudi najtežje. Napredek se pokaže pri najtežjih izzivih."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -3303,11 +3159,8 @@ msgstr "Igro igrajte dnevno in kmalu boste opazili napredek."
 
 #. Translators: Custom Game Selection is a menu option
 #: ../src/Core/Main/GameTips.cs:73
-msgid ""
-"Use the 'Custom Game Selection' to choose exactly which games you want to "
-"play."
-msgstr ""
-"Uporabite 'Izbira igre po meri' za natančen izbor iger, ki jih želite igrati."
+msgid "Use the 'Custom Game Selection' to choose exactly which games you want to play."
+msgstr "Uporabite 'Izbira igre po meri' za natančen izbor iger, ki jih želite igrati."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
 msgid "Use the Settings to adjust the difficulty level of the game."
@@ -3318,25 +3171,16 @@ msgid "Association of elements is a common technique for remembering things."
 msgstr "Asociacije so pogosto uporabljena tehnika za pomnjenje stvari."
 
 #: ../src/Core/Main/GameTips.cs:79
-msgid ""
-"Grouping elements into categories is a common technique for remembering "
-"things."
-msgstr ""
-"Združevanje elementov v kategorije je pogosto uporabljena tehnika za "
-"pomnjenje stvari."
+msgid "Grouping elements into categories is a common technique for remembering things."
+msgstr "Združevanje elementov v kategorije je pogosto uporabljena tehnika za pomnjenje stvari."
 
 #: ../src/Core/Main/GameTips.cs:81
 msgid "Build acronyms using the first letter of each fact to be remembered."
-msgstr ""
-"Sestavite akronim z uporabo prve črke vsakega dejstva, ki si ga je treba "
-"zapomniti."
+msgstr "Sestavite akronim z uporabo prve črke vsakega dejstva, ki si ga je treba zapomniti."
 
 #: ../src/Core/Main/GameTips.cs:83
-msgid ""
-"The enjoyment obtained from a puzzle is proportional to the time spent on it."
-msgstr ""
-"Občutek zadovoljstva po uspešno rešeni uganki je sorazmeren s časom "
-"reševanja."
+msgid "The enjoyment obtained from a puzzle is proportional to the time spent on it."
+msgstr "Občutek zadovoljstva po uspešno rešeni uganki je sorazmeren s časom reševanja."
 
 #: ../src/Core/Main/GameTips.cs:85
 msgid "Think of breaking down every problem into simpler components."
@@ -3347,11 +3191,8 @@ msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr "Pri odgovarjanju na besedne analogije pazite na čas glagola."
 
 #: ../src/Core/Main/GameTips.cs:89
-msgid ""
-"When you go shopping, try to perform calculations without the use of a "
-"calculator."
-msgstr ""
-"Med nakupovanjem, poskusi izračunati znesek nakupa brez uporabe računala."
+msgid "When you go shopping, try to perform calculations without the use of a calculator."
+msgstr "Med nakupovanjem, poskusi izračunati znesek nakupa brez uporabe računala."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
@@ -3400,10 +3241,8 @@ msgstr "{0} Odgovorite z izbiro črke {1}."
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:87
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:103
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:164
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:152
-#: ../src/Games/Logic/PuzzleOstracism.cs:164
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:183
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:142
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:152 ../src/Games/Logic/PuzzleOstracism.cs:164
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:183 ../src/Games/Memory/MemoryFiguresAndText.cs:142
 #, csharp-format
 msgid "{0}) {1}"
 msgstr "{0}) {1}"
@@ -3416,9 +3255,7 @@ msgstr "Primerjava para besed št.{0}"
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:55
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:55
 #, csharp-format
-msgid ""
-"Given the relationship between the two words below, which word has the same "
-"relationship to '{0}'?"
+msgid "Given the relationship between the two words below, which word has the same relationship to '{0}'?"
 msgstr "Katera beseda je z besedo '{0}' v enakem razmerju kot spodnji besedi?"
 
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
@@ -3447,8 +3284,7 @@ msgstr "Odgovor {0}."
 msgid "Get ready to memorize the next objects..."
 msgstr "Pripravite se na pomnjenje naslednjih predmetov ..."
 
-#: ../src/Core/Views/FinishView.cs:145
-#: ../src/Core/Views/PlayerHistoryView.cs:277
+#: ../src/Core/Views/FinishView.cs:145 ../src/Core/Views/PlayerHistoryView.cs:277
 msgid "Score"
 msgstr "Rezultat"
 
@@ -3501,38 +3337,28 @@ msgstr "Čestitke! Dosegli ste nov osebni rekord"
 #: ../src/Core/Views/FinishView.cs:227
 #, csharp-format
 msgid ""
-"By scoring {0} in logic puzzle games you have established a new personal "
-"record. Your previous record was {1}."
-msgstr ""
-"Z rezultatom {0} v logičnih ugankah ste dosegli nov osebni rekord. Vaš "
-"prejšnji rekord je bil {1}."
+"By scoring {0} in logic puzzle games you have established a new personal record. Your previous record was "
+"{1}."
+msgstr "Z rezultatom {0} v logičnih ugankah ste dosegli nov osebni rekord. Vaš prejšnji rekord je bil {1}."
 
 #: ../src/Core/Views/FinishView.cs:233
 #, csharp-format
 msgid ""
-"By scoring {0} in calculation games you have established a new personal "
-"record. Your previous record was {1}."
-msgstr ""
-"Z rezultatom {0} v računskih igrah ste dosegli nov osebni rekord. Vaš "
-"prejšnji rekord je bil {1}."
+"By scoring {0} in calculation games you have established a new personal record. Your previous record was "
+"{1}."
+msgstr "Z rezultatom {0} v računskih igrah ste dosegli nov osebni rekord. Vaš prejšnji rekord je bil {1}."
 
 #: ../src/Core/Views/FinishView.cs:239
 #, csharp-format
 msgid ""
-"By scoring {0} in memory games you have established a new personal record. "
-"Your previous record was {1}."
-msgstr ""
-"Z rezultatom {0} v spominskih igrah ste dosegli nov osebni rekord. Vaš "
-"prejšnji rekord je bil {1}."
+"By scoring {0} in memory games you have established a new personal record. Your previous record was {1}."
+msgstr "Z rezultatom {0} v spominskih igrah ste dosegli nov osebni rekord. Vaš prejšnji rekord je bil {1}."
 
 #: ../src/Core/Views/FinishView.cs:245
 #, csharp-format
 msgid ""
-"By scoring {0} in verbal analogies you have established a new personal "
-"record. Your previous record was {1}."
-msgstr ""
-"Z rezultatom {0} v besednih analogijah ste dosegli nov osebni rekord. Vaš "
-"prejšnji rekord je bil {1}."
+"By scoring {0} in verbal analogies you have established a new personal record. Your previous record was {1}."
+msgstr "Z rezultatom {0} v besednih analogijah ste dosegli nov osebni rekord. Vaš prejšnji rekord je bil {1}."
 
 #: ../src/Core/Views/PlayerHistoryView.cs:276
 msgid "Time"
@@ -3543,12 +3369,8 @@ msgid "Logic puzzles. Challenge your reasoning and thinking skills."
 msgstr "Logične uganke. Izzovite svoje sposobnosti sklepanja in razmišljanja."
 
 #: ../src/Core/Views/WelcomeView.cs:85
-msgid ""
-"Mental calculation. Arithmetical operations that test your mental "
-"calculation abilities."
-msgstr ""
-"Računanje. Aritmetične operacije, ki preizkusijo vaše sposobnosti računanja "
-"na pamet."
+msgid "Mental calculation. Arithmetical operations that test your mental calculation abilities."
+msgstr "Računanje. Aritmetične operacije, ki preizkusijo vaše sposobnosti računanja na pamet."
 
 #: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
@@ -3565,12 +3387,8 @@ msgid "Welcome to gbrainy {0}"
 msgstr "Dobrodošli v gbrainy {0}"
 
 #: ../src/Core/Views/WelcomeView.cs:147
-msgid ""
-"gbrainy is a brain teaser game and trainer to have fun and to keep your "
-"brain trained. It includes:"
-msgstr ""
-"Gbrainy je igra za razvijanje razmišljanja in bistrenje misli. Igra "
-"vključuje:"
+msgid "gbrainy is a brain teaser game and trainer to have fun and to keep your brain trained. It includes:"
+msgstr "Gbrainy je igra za razvijanje razmišljanja in bistrenje misli. Igra vključuje:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
 msgid "Arithmetical operations"
@@ -3587,19 +3405,14 @@ msgstr "Povprečje"
 #: ../src/Games/Calculation/CalculationAverage.cs:55
 #, csharp-format
 msgid ""
-"Given the numbers: {0}. Which of the following numbers is closest to the "
-"average? Answer {1}, {2}, {3} or {4}."
+"Given the numbers: {0}. Which of the following numbers is closest to the average? Answer {1}, {2}, {3} or "
+"{4}."
 msgstr ""
-"Dana so števila: {0}. Katero od naslednjih števil je najbližje povprečju? "
-"Odgovorite {1}, {2}, {3} ali {4}."
+"Dana so števila: {0}. Katero od naslednjih števil je najbližje povprečju? Odgovorite {1}, {2}, {3} ali {4}."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:60
-msgid ""
-"The average of a list of numbers is their sum divided by the number of "
-"numbers in the list."
-msgstr ""
-"Povprečje seznama števil je vsota vseh števil, deljena s številom števil na "
-"seznamu."
+msgid "The average of a list of numbers is their sum divided by the number of numbers in the list."
+msgstr "Povprečje seznama števil je vsota vseh števil, deljena s številom števil na seznamu."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:65
 #, csharp-format
@@ -3612,10 +3425,8 @@ msgstr "Bližji ulomek"
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:46
 #, csharp-format
-msgid ""
-"Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
-msgstr ""
-"Katero od naslednjih števil je bližje {0}? Odgovorite {1}, {2}, {3} ali {4}."
+msgid "Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
+msgstr "Katero od naslednjih števil je bližje {0}? Odgovorite {1}, {2}, {3} ali {4}."
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
@@ -3629,23 +3440,17 @@ msgstr "Zaporedne vsote"
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
 msgid ""
-"In the list of single-digit numbers below, there are 5 consecutive numbers "
-"whose sum is {0}. Which numbers are these?"
-msgstr ""
-"Na seznamu spodaj je 5 zaporednih števil, katerih vsota je {0}? Katera "
-"števila so to?"
+"In the list of single-digit numbers below, there are 5 consecutive numbers whose sum is {0}. Which numbers "
+"are these?"
+msgstr "Na seznamu spodaj je 5 zaporednih števil, katerih vsota je {0}? Katera števila so to?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
 msgstr "Ulomki"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:69
-msgid ""
-"What is the result of the given operation? Answer using either a fraction or "
-"a number."
-msgstr ""
-"Kakšen je rezultat spodnjega izračuna? Odgovorite z uporabo ulomka ali "
-"števila."
+msgid "What is the result of the given operation? Answer using either a fraction or a number."
+msgstr "Kakšen je rezultat spodnjega izračuna? Odgovorite z uporabo ulomka ali števila."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
 msgid "Greatest divisor"
@@ -3653,12 +3458,8 @@ msgstr "Največji skupni delitelj"
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:45
 #, csharp-format
-msgid ""
-"Which of the possible divisors is the greatest that divides all numbers? "
-"Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"Katero število je največji delitelj vseh števil? Odgovorite {0}, {1}, {2} "
-"ali {3}."
+msgid "Which of the possible divisors is the greatest that divides all numbers? Answer {0}, {1}, {2} or {3}."
+msgstr "Katero število je največji delitelj vseh števil? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
@@ -3682,11 +3483,10 @@ msgstr "Prvi operator je {0}."
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
 msgstr ""
-"Katere računske znake moramo postaviti med števila {0}, {1} in {2}, da "
-"dobimo rezultat {3}? Odgovoriti je treba z vpisom znakov '+-/*'."
+"Katere računske znake moramo postaviti med števila {0}, {1} in {2}, da dobimo rezultat {3}? Odgovoriti je "
+"treba z vpisom znakov '+-/*'."
 
-#: ../src/Games/Calculation/CalculationOperator.cs:109
-#: ../src/Games/Calculation/CalculationRatio.cs:86
+#: ../src/Games/Calculation/CalculationOperator.cs:109 ../src/Games/Calculation/CalculationRatio.cs:86
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:100
 #, csharp-format
 msgid "{0} and {1}"
@@ -3699,21 +3499,19 @@ msgstr "Praštevila"
 #: ../src/Games/Calculation/CalculationPrimes.cs:76
 #, csharp-format
 msgid ""
-"Which of the following numbers is a prime? A prime number is a positive "
-"integer that has exactly two different positive divisors, 1 and itself. "
-"Answer {0}, {1}, {2} or {3}."
+"Which of the following numbers is a prime? A prime number is a positive integer that has exactly two "
+"different positive divisors, 1 and itself. Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Katero od naslednjih števil v nizu je praštevilo? Praštevilo je pozitivno "
-"celo število, ki ima natanko dva različna pozitivna delitelja, število 1 in "
-"samega sebe. Odgovorite {0}, {1}, {2} ali {3}."
+"Katero od naslednjih števil v nizu je praštevilo? Praštevilo je pozitivno celo število, ki ima natanko dva "
+"različna pozitivna delitelja, število 1 in samega sebe. Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:81
 msgid ""
-"If the sum of all digits in a given number is divisible by 3, then so is the "
-"number. For example 15 = 1 + 5 = 6, which is divisible by 3."
+"If the sum of all digits in a given number is divisible by 3, then so is the number. For example 15 = 1 + 5 "
+"= 6, which is divisible by 3."
 msgstr ""
-"Če je vsota vseh številk v številu deljiva s 3, je deljivo tudi samo "
-"število. Na primer 15 = 1 + 5 = 6, ki je deljivo s 3."
+"Če je vsota vseh številk v številu deljiva s 3, je deljivo tudi samo število. Na primer 15 = 1 + 5 = 6, ki "
+"je deljivo s 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
@@ -3736,30 +3534,25 @@ msgstr "Razmerje"
 #: ../src/Games/Calculation/CalculationRatio.cs:41
 #, csharp-format
 msgid ""
-"Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
-"using two numbers (e.g.: 1 and 2)."
+"Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer using two numbers (e.g.: 1 and "
+"2)."
 msgstr ""
-"Dve števili, katerih vsota je {0}, imata razmerje {1} proti {2}. Kateri dve "
-"števili sta to? Odgovorite z dvema številoma (na primer: 1 in 2)."
+"Dve števili, katerih vsota je {0}, imata razmerje {1} proti {2}. Kateri dve števili sta to? Odgovorite z "
+"dvema številoma (na primer: 1 in 2)."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:48
 #, csharp-format
-msgid ""
-"The second number can be calculated by multiplying the first number by {0} "
-"and dividing it by {1}."
-msgstr ""
-"Drugo število je izračunano z množenjem prvega z {0} in deljenjem z {1}."
+msgid "The second number can be calculated by multiplying the first number by {0} and dividing it by {1}."
+msgstr "Drugo število je izračunano z množenjem prvega z {0} in deljenjem z {1}."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:54
 msgid ""
-"A ratio specifies a proportion between two numbers. A ratio of a:b means "
-"that for every 'a' parts you have 'b' parts."
+"A ratio specifies a proportion between two numbers. A ratio of a:b means that for every 'a' parts you have "
+"'b' parts."
 msgstr ""
-"Razmerje določi razmerje med dvema številoma. Razmerje a:b pomeni, da imate "
-"za vsakih 'a' delov 'b' delov."
+"Razmerje določi razmerje med dvema številoma. Razmerje a:b pomeni, da imate za vsakih 'a' delov 'b' delov."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:98
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
+#: ../src/Games/Calculation/CalculationRatio.cs:98 ../src/Games/Calculation/CalculationTwoNumbers.cs:114
 #, csharp-format
 msgid "x + y = {0}"
 msgstr "x + y = {0}"
@@ -3776,20 +3569,16 @@ msgstr "Izbrane številke"
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the sum of all the numbers with a "
-"value greater than {0}? Answer {1}, {2}, {3} or {4}."
-msgstr ""
-"Kakšna je vsota števil spodnjega seznama, ki so večja od {0}? Odgovorite "
-"{1}, {2}, {3} ali {4}."
+"In the list of numbers below, what is the sum of all the numbers with a value greater than {0}? Answer {1}, "
+"{2}, {3} or {4}."
+msgstr "Kakšna je vsota števil spodnjega seznama, ki so večja od {0}? Odgovorite {1}, {2}, {3} ali {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
 msgid ""
-"In the list of numbers below, what is the product of all the numbers with a "
-"value greater than {0}? Answer {1}, {2}, {3} or {4}."
-msgstr ""
-"Kakšen je zmnožek števil spodnjega seznama, ki so večja od {0}? Odgovorite "
-"{1}, {2}, {3} ali {4}."
+"In the list of numbers below, what is the product of all the numbers with a value greater than {0}? Answer "
+"{1}, {2}, {3} or {4}."
+msgstr "Kakšen je zmnožek števil spodnjega seznama, ki so večja od {0}? Odgovorite {1}, {2}, {3} ali {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -3798,20 +3587,19 @@ msgstr "Dve števili"
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:51
 #, csharp-format
 msgid ""
-"Which two numbers when added are {0} and when multiplied are {1}? Answer "
-"using two numbers (e.g.: 1 and 2)."
+"Which two numbers when added are {0} and when multiplied are {1}? Answer using two numbers (e.g.: 1 and 2)."
 msgstr ""
-"Kateri dve števili imata vsoto enako {0} in produkt enak {1}? Odgovorite z "
-"dvema številoma (na primer: 1 in 2)."
+"Kateri dve števili imata vsoto enako {0} in produkt enak {1}? Odgovorite z dvema številoma (na primer: 1 in "
+"2)."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:53
 #, csharp-format
 msgid ""
-"Which two numbers when subtracted are {0} and when multiplied are {1}? "
-"Answer using two numbers (e.g.: 1 and 2)."
+"Which two numbers when subtracted are {0} and when multiplied are {1}? Answer using two numbers (e.g.: 1 "
+"and 2)."
 msgstr ""
-"Kateri dve števili imata razliko enako {0} in produkt enak {1}? Odgovorite z "
-"dvema številoma (na primer: 1 in 2)."
+"Kateri dve števili imata razliko enako {0} in produkt enak {1}? Odgovorite z dvema številoma (na primer: 1 "
+"in 2)."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:117
 #, csharp-format
@@ -3828,12 +3616,9 @@ msgid "3D Cube"
 msgstr "3D kocka"
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:35
-msgid ""
-"How many small cubes does it take to build the large cube below? Answer "
-"using a number."
+msgid "How many small cubes does it take to build the large cube below? Answer using a number."
 msgstr ""
-"Koliko posameznih majhnih kock je treba postaviti, za izgradnjo spodnje "
-"velike kocke? Odgovorite s številom."
+"Koliko posameznih majhnih kock je treba postaviti, za izgradnjo spodnje velike kocke? Odgovorite s številom."
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
@@ -3845,19 +3630,15 @@ msgstr "Ravnotežje"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:53
 msgid ""
-"Using triangles only, how many triangles are needed in the right part of the "
-"last figure to keep it balanced?"
+"Using triangles only, how many triangles are needed in the right part of the last figure to keep it "
+"balanced?"
 msgstr ""
-"Koliko trikotnikov je treba postaviti v desni del zadnje slike za "
-"uravnoteženje? Uporabiti je mogoče le trikotnike."
+"Koliko trikotnikov je treba postaviti v desni del zadnje slike za uravnoteženje? Uporabiti je mogoče le "
+"trikotnike."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:58
-msgid ""
-"Every circle is equivalent to two triangles and every square to three "
-"triangles."
-msgstr ""
-"Vsak krog je enakovreden dvema trikotnikoma in vsak kvadrat je enakovreden "
-"trem trikotnikom"
+msgid "Every circle is equivalent to two triangles and every square to three triangles."
+msgstr "Vsak krog je enakovreden dvema trikotnikoma in vsak kvadrat je enakovreden trem trikotnikom"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:63
 msgid "Every circle is equivalent two triangles."
@@ -3870,11 +3651,11 @@ msgstr "Sestavite trikotnik"
 #: ../src/Games/Logic/PuzzleBuildTriangle.cs:55
 #, csharp-format
 msgid ""
-"Which three pieces can you use together to build a triangle? Answer using "
-"the three figure names, e.g.: {0}{1}{2}."
+"Which three pieces can you use together to build a triangle? Answer using the three figure names, e.g.: {0}"
+"{1}{2}."
 msgstr ""
-"Katere tri koščke lahko uporabite skupaj pri sestavljanju trikotnika? "
-"Odgovorite z imeni treh slik, na primer: {0}{1}{2}."
+"Katere tri koščke lahko uporabite skupaj pri sestavljanju trikotnika? Odgovorite z imeni treh slik, na "
+"primer: {0}{1}{2}."
 
 #: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
 msgid "The resulting triangle is isosceles."
@@ -3889,12 +3670,10 @@ msgid "Circles in a square"
 msgstr "Krogi v kvadratu"
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:33
-msgid ""
-"What is the maximum number of circles (as shown) that fit in the square "
-"below?"
+msgid "What is the maximum number of circles (as shown) that fit in the square below?"
 msgstr ""
-"Kolikšno je največje število krogov (kot je prikazano na sliki), ki jih je "
-"mogoče spraviti v spodnji kvadrat?"
+"Kolikšno je največje število krogov (kot je prikazano na sliki), ki jih je mogoče spraviti v spodnji "
+"kvadrat?"
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:37
 msgid "You can fit more than 64 circles."
@@ -3904,19 +3683,16 @@ msgstr "Spraviti je mogoče več kot 64 krogov."
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:43
 #, csharp-format
 msgid ""
-"Using the above layout {0} units of height are gained per row leaving enough "
-"space for an additional row."
+"Using the above layout {0} units of height are gained per row leaving enough space for an additional row."
 msgstr ""
-"V prikazani razporeditvi je v vsaki vrstici pridobljenih {0} višinskih enot. "
-"To omogoča uporabo dodatne vrstice."
+"V prikazani razporeditvi je v vsaki vrstici pridobljenih {0} višinskih enot. To omogoča uporabo dodatne "
+"vrstice."
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:77
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:96
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:77 ../src/Games/Logic/PuzzleCirclesSquare.cs:96
 msgid "8 units"
 msgstr "8 enot"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:115
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:134
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:115 ../src/Games/Logic/PuzzleCirclesSquare.cs:134
 msgid "1 unit"
 msgstr "1 enota"
 
@@ -3927,22 +3703,17 @@ msgstr "Ure"
 #. Translators: {0} is replaced by 'Figure X'
 #: ../src/Games/Logic/PuzzleClocks.cs:43
 #, csharp-format
-msgid ""
-"To what number should the large handle of the '{0}' clock point? Answer "
-"using numbers."
-msgstr ""
-"Na katero število naj kaže veliki kazalec ure '{0}'? Odgovorite s številom."
+msgid "To what number should the large handle of the '{0}' clock point? Answer using numbers."
+msgstr "Na katero število naj kaže veliki kazalec ure '{0}'? Odgovorite s številom."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:51
 #, csharp-format
 msgid ""
-"Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"Starting from the first clock, add {1} to the number obtained by appending the values to which the hands "
+"point. For example, the values of the hands for '{0}' are {3} ({2} + {1})."
 msgstr ""
-"Začnite iz prve ure in številu, ki ga dobite s pripenjanjem vrednosti na "
-"katero kažeta kazalca, dodajte {1}. Vrednosti kazalcev za '{0}' sta {3} ({2} "
-"+ {1})."
+"Začnite iz prve ure in številu, ki ga dobite s pripenjanjem vrednosti na katero kažeta kazalca, dodajte "
+"{1}. Vrednosti kazalcev za '{0}' sta {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:57
 msgid "The clocks do not follow the time logic."
@@ -3976,23 +3747,23 @@ msgstr[3] "Imamo {0} metrski kos blaga."
 #: ../src/Games/Logic/PuzzleCounting.cs:68
 #, csharp-format
 msgid ""
-"A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
-"does the machine take to cut the entire piece of fabric into 1 meter pieces?"
+"A machine takes {0} second to cut 1 meter of this fabric. How many seconds does the machine take to cut the "
+"entire piece of fabric into 1 meter pieces?"
 msgid_plural ""
-"A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
-"does the machine take to cut the entire piece of fabric into 1 meter pieces?"
+"A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds does the machine take to cut "
+"the entire piece of fabric into 1 meter pieces?"
 msgstr[0] ""
-"Naprava za rez metrskega kosa blaga potrebuje {0} sekund. Koliko sekund "
-"potrebuje naprava za razrez celotnega blaga na metrske kose?"
+"Naprava za rez metrskega kosa blaga potrebuje {0} sekund. Koliko sekund potrebuje naprava za razrez "
+"celotnega blaga na metrske kose?"
 msgstr[1] ""
-"Naprava za rez metrskega kosa blaga potrebuje {0} sekundo. Koliko sekund "
-"potrebuje naprava za razrez celotnega blaga na metrske kose?"
+"Naprava za rez metrskega kosa blaga potrebuje {0} sekundo. Koliko sekund potrebuje naprava za razrez "
+"celotnega blaga na metrske kose?"
 msgstr[2] ""
-"Naprava za rez metrskega kosa blaga potrebuje {0} sekundi. Koliko sekund "
-"potrebuje naprava za razrez celotnega blaga na metrske kose?"
+"Naprava za rez metrskega kosa blaga potrebuje {0} sekundi. Koliko sekund potrebuje naprava za razrez "
+"celotnega blaga na metrske kose?"
 msgstr[3] ""
-"Naprava za rez metrskega kosa blaga potrebuje {0} sekunde. Koliko sekund "
-"potrebuje naprava za razrez celotnega blaga na metrske kose?"
+"Naprava za rez metrskega kosa blaga potrebuje {0} sekunde. Koliko sekund potrebuje naprava za razrez "
+"celotnega blaga na metrske kose?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
 #, csharp-format
@@ -4006,71 +3777,58 @@ msgstr[3] "Z rezom št. {0} naprava ustvari dva metrska kosa."
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
 msgid ""
-"A fence is built to enclose a square shaped region. {0} fence pole is used "
-"in each side of the square. How many fence poles are used in total?"
+"A fence is built to enclose a square shaped region. {0} fence pole is used in each side of the square. How "
+"many fence poles are used in total?"
 msgid_plural ""
-"A fence is built to enclose a square shaped region. {0} fence poles are used "
-"in each side of the square. How many fence poles are used in total?"
+"A fence is built to enclose a square shaped region. {0} fence poles are used in each side of the square. "
+"How many fence poles are used in total?"
 msgstr[0] ""
-"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata "
-"je uporabljenih {0} kolov. Koliko je vseh uporabljenih kolov?"
+"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata je uporabljenih {0} kolov. "
+"Koliko je vseh uporabljenih kolov?"
 msgstr[1] ""
-"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata "
-"je uporabljen {0} kol. Koliko je vseh uporabljenih kolov?"
+"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata je uporabljen {0} kol. Koliko je "
+"vseh uporabljenih kolov?"
 msgstr[2] ""
-"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata "
-"sta uporabljena {0} kola. Koliko je vseh uporabljenih kolov?"
+"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata sta uporabljena {0} kola. Koliko "
+"je vseh uporabljenih kolov?"
 msgstr[3] ""
-"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata "
-"je uporabljenih {0} kolov. Koliko je vseh uporabljenih kolov?"
+"Ograja je zgrajena za ogrado kvadratnega območja. Na vsaki strani kvadrata je uporabljenih {0} kolov. "
+"Koliko je vseh uporabljenih kolov?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:92
 #, csharp-format
-msgid ""
-"There is {0} fence pole since the poles on the corners of the square are "
-"shared."
-msgid_plural ""
-"There are {0} fence poles since the poles on the corners of the square are "
-"shared."
-msgstr[0] ""
-"Skupaj je uporabljenih {0} kolov, saj so koli v kotih kvadrata deljeni."
+msgid "There is {0} fence pole since the poles on the corners of the square are shared."
+msgid_plural "There are {0} fence poles since the poles on the corners of the square are shared."
+msgstr[0] "Skupaj je uporabljenih {0} kolov, saj so koli v kotih kvadrata deljeni."
 msgstr[1] "Skupaj je uporabljen {0} kol, saj so koli v kotih kvadrata deljeni."
-msgstr[2] ""
-"Skupaj sta uporabljena {0} kola, saj so koli v kotih kvadrata deljeni."
-msgstr[3] ""
-"Skupaj so uporabljeni {0} koli, saj so koli v kotih kvadrata deljeni."
+msgstr[2] "Skupaj sta uporabljena {0} kola, saj so koli v kotih kvadrata deljeni."
+msgstr[3] "Skupaj so uporabljeni {0} koli, saj so koli v kotih kvadrata deljeni."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:105
 #, csharp-format
 msgid ""
-"Wrapping an anniversary present costs one monetary unit. The anniversary "
-"present costs {0} monetary unit more than the cost to wrap it. How much does "
-"it cost to both purchase and wrap the present?"
+"Wrapping an anniversary present costs one monetary unit. The anniversary present costs {0} monetary unit "
+"more than the cost to wrap it. How much does it cost to both purchase and wrap the present?"
 msgid_plural ""
-"Wrapping an anniversary present costs one monetary unit. The anniversary "
-"present costs {0} monetary units more than the cost to wrap it. How much "
-"does it cost to both purchase and wrap the present?"
+"Wrapping an anniversary present costs one monetary unit. The anniversary present costs {0} monetary units "
+"more than the cost to wrap it. How much does it cost to both purchase and wrap the present?"
 msgstr[0] ""
-"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} "
-"evrov več kot stroški zavijanja. Koliko staneta nakup in zavijanje darila?"
+"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} evrov več kot stroški zavijanja. "
+"Koliko staneta nakup in zavijanje darila?"
 msgstr[1] ""
-"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} "
-"evro več kot stroški zavijanja. Koliko staneta nakup in zavijanje darila?"
+"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} evro več kot stroški zavijanja. "
+"Koliko staneta nakup in zavijanje darila?"
 msgstr[2] ""
-"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} "
-"evra več kot stroški zavijanja. Koliko staneta nakup in zavijanje darila?"
+"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} evra več kot stroški zavijanja. "
+"Koliko staneta nakup in zavijanje darila?"
 msgstr[3] ""
-"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} "
-"evre več kot stroški zavijanja. Koliko staneta nakup in zavijanje darila?"
+"Zavijanje darila za obletnico stane en evro. Darilo za obletnico stane {0} evre več kot stroški zavijanja. "
+"Koliko staneta nakup in zavijanje darila?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:112
 #, csharp-format
-msgid ""
-"It is the cost of the present, {0} monetary unit, plus one monetary unit of "
-"the wrapping."
-msgid_plural ""
-"It is the cost of the present, {0} monetary units, plus one monetary unit of "
-"the wrapping."
+msgid "It is the cost of the present, {0} monetary unit, plus one monetary unit of the wrapping."
+msgid_plural "It is the cost of the present, {0} monetary units, plus one monetary unit of the wrapping."
 msgstr[0] "Skupna cena je {0} evrov za darilo in en evro za zavijanje."
 msgstr[1] "Skupna cena je {0} evro za darilo in en evro za zavijanje."
 msgstr[2] "Skupna cena je {0} evra za darilo in en evro za zavijanje."
@@ -4081,25 +3839,16 @@ msgid "Count series"
 msgstr "Zaporedje števil"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:62
-msgid ""
-"How many numbers '9' are required to represent the numbers between 10 to 100?"
+msgid "How many numbers '9' are required to represent the numbers between 10 to 100?"
 msgstr "Koliko številk '9' je mogoče najti v vseh številih med 10 in 100?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:68
-msgid ""
-"How many two digit numbers occur where the first digit is larger than the "
-"second (e.g.: 20 and 21)?"
-msgstr ""
-"Koliko je dvomestnih števil, kjer je prva številka večja kot druga (na "
-"primer 20 in 21)?"
+msgid "How many two digit numbers occur where the first digit is larger than the second (e.g.: 20 and 21)?"
+msgstr "Koliko je dvomestnih števil, kjer je prva številka večja kot druga (na primer 20 in 21)?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:74
-msgid ""
-"How many two digit numbers occur where the first digit is smaller than the "
-"second (e.g.: 12 and 13)?"
-msgstr ""
-"Koliko je dvomestnih števil, kjer je prva številka manjša kot druga (na "
-"primer 12 in 13)?"
+msgid "How many two digit numbers occur where the first digit is smaller than the second (e.g.: 12 and 13)?"
+msgstr "Koliko je dvomestnih števil, kjer je prva številka manjša kot druga (na primer 12 in 13)?"
 
 #. Translators: A sequence of numbers 1, 2, 3, etc.
 #: ../src/Games/Logic/PuzzleCountSeries.cs:86
@@ -4131,20 +3880,19 @@ msgstr "Kocka"
 #: ../src/Games/Logic/PuzzleCube.cs:49
 #, csharp-format
 msgid ""
-"When you fold the figure below as a cube, which face on the figure is "
-"opposite the face with a {0} drawn on it? Answer the number written on the "
-"face."
+"When you fold the figure below as a cube, which face on the figure is opposite the face with a {0} drawn on "
+"it? Answer the number written on the face."
 msgstr ""
-"Sliko spodaj prepognemo kot kocko. Katera ploskev na sliki je nasprotna "
-"ploskvi s številom {0}? Kot odgovor napišite število napisano na ploskvi."
+"Sliko spodaj prepognemo kot kocko. Katera ploskev na sliki je nasprotna ploskvi s številom {0}? Kot odgovor "
+"napišite število napisano na ploskvi."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
 msgid ""
-"What is the probability of getting a '2' or a '6' in a single throw of an "
-"unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
+"What is the probability of getting a '2' or a '6' in a single throw of an unmodified 6 sided die? Answer "
+"using a fraction (e.g.: 1/2)."
 msgstr ""
-"Kolikšna je verjetnost, da vržete vrednosti '2' ali '6' v enem metu igralne "
-"kocke? Odgovorite z ulomkom (na primer: 1/2)."
+"Kolikšna je verjetnost, da vržete vrednosti '2' ali '6' v enem metu igralne kocke? Odgovorite z ulomkom (na "
+"primer: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
 msgid "There are 2 of 6 possibilities."
@@ -4152,11 +3900,11 @@ msgstr "Obstajata 2 od 6 možnosti."
 
 #: ../src/Games/Logic/PuzzleDice.cs:58
 msgid ""
-"What is the probability of not getting a '5' in a single throw of an "
-"unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
+"What is the probability of not getting a '5' in a single throw of an unmodified 6 sided die? Answer using a "
+"fraction (e.g.: 1/2)."
 msgstr ""
-"Kolikšna je verjetnost, da vržemo vrednost, ki ni enaka '5' z enim metom "
-"igralne kocke? Odgovorite z ulomkom (na primer: 1/2)."
+"Kolikšna je verjetnost, da vržemo vrednost, ki ni enaka '5' z enim metom igralne kocke? Odgovorite z "
+"ulomkom (na primer: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:60
 msgid "There are 5 of 6 possibilities."
@@ -4164,11 +3912,11 @@ msgstr "Obstaja 5 od 6 možnosti."
 
 #: ../src/Games/Logic/PuzzleDice.cs:62
 msgid ""
-"Two unmodified 6 sided dice are thrown simultaneously. What is the "
-"probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
+"Two unmodified 6 sided dice are thrown simultaneously. What is the probability of getting two even numbers? "
+"Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Dve igralni kocki vržemo hkrati. Kolikšna je verjetnost, da dobimo dve sodi "
-"števili? Odgovorite z ulomkom (na primer: 1/2)."
+"Dve igralni kocki vržemo hkrati. Kolikšna je verjetnost, da dobimo dve sodi števili? Odgovorite z ulomkom "
+"(na primer: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid "There are 9 of 36 possibilities of getting two even numbers."
@@ -4176,16 +3924,14 @@ msgstr "9 od 36 možnosti da dve sodi števili."
 
 #: ../src/Games/Logic/PuzzleDice.cs:66
 msgid ""
-"Two unmodified 6 sided dice are thrown simultaneously. What is the "
-"probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
+"Two unmodified 6 sided dice are thrown simultaneously. What is the probability of getting two '6'? Answer "
+"using a fraction (e.g.: 1/2)."
 msgstr ""
-"Dve igralni kocki vržemo hkrati. Kolikšna je verjetnost dveh vrednosti '6'? "
-"Odgovorite z ulomkom (na primer: 1/2)."
+"Dve igralni kocki vržemo hkrati. Kolikšna je verjetnost dveh vrednosti '6'? Odgovorite z ulomkom (na "
+"primer: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:68
-msgid ""
-"There is 1 of 6 possibilities of getting a '6' on the first die and the same "
-"for the second die."
+msgid "There is 1 of 6 possibilities of getting a '6' on the first die and the same for the second die."
 msgstr "Za prvo kocko je možnost šestice 1/6; enako velja za drugo kocko."
 
 #: ../src/Games/Logic/PuzzleDice.cs:73
@@ -4197,11 +3943,8 @@ msgid "Divide circles"
 msgstr "Razdeli kroge"
 
 #: ../src/Games/Logic/PuzzleDivideCircle.cs:49
-msgid ""
-"In the last figure, in how many regions is the circle divided into when all "
-"dots are connected?"
-msgstr ""
-"Na koliko delov je razdeljen krog na zadnji sliki, ko so vse pike povezane?"
+msgid "In the last figure, in how many regions is the circle divided into when all dots are connected?"
+msgstr "Na koliko delov je razdeljen krog na zadnji sliki, ko so vse pike povezane?"
 
 #: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
@@ -4222,11 +3965,11 @@ msgstr "Kakšen je rezultat spodnje enačbe?"
 
 #: ../src/Games/Logic/PuzzleEquation.cs:42
 msgid ""
-"The order of arithmetical operations is always as follows: exponents and "
-"roots, multiplication and division, addition and subtraction."
+"The order of arithmetical operations is always as follows: exponents and roots, multiplication and "
+"division, addition and subtraction."
 msgstr ""
-"Vrstni red aritmetičnih operacij je vedno naslednji: potence in koreni, "
-"množenje in deljenje, seštevanje in odštevanje."
+"Vrstni red aritmetičnih operacij je vedno naslednji: potence in koreni, množenje in deljenje, seštevanje in "
+"odštevanje."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:53
 msgid "Extra circle"
@@ -4235,19 +3978,15 @@ msgstr "Dodaten krog"
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:62
 #, csharp-format
 msgid ""
-"Which circle does not belong to the group? It is not a sequence of elements. "
-"Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"Kateri krog ne spada v skupino? Zaporedje elementov ni pomembno. Odgovorite "
-"{0}, {1}, {2} ali {3}."
+"Which circle does not belong to the group? It is not a sequence of elements. Answer {0}, {1}, {2} or {3}."
+msgstr "Kateri krog ne spada v skupino? Zaporedje elementov ni pomembno. Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:67
 msgid "All circles share a common property except for one."
 msgstr "Vsi krogi razen enega si delijo skupno lastnost."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:72
-msgid ""
-"In all circles the color slices follow the same order except for this one."
+msgid "In all circles the color slices follow the same order except for this one."
 msgstr "V vseh krogih razen temu barvni deli sledijo enakemu zaporedju."
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:40
@@ -4255,11 +3994,8 @@ msgid "Figures and text"
 msgstr "Slike in besedilo"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
-msgid ""
-"The figures and the texts are related. What text should go under the last "
-"figure?"
-msgstr ""
-"Slike in besedilo so povezane. Katero besedilo naj gre pod zadnjo sliko?"
+msgid "The figures and the texts are related. What text should go under the last figure?"
+msgstr "Slike in besedilo so povezane. Katero besedilo naj gre pod zadnjo sliko?"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
 msgid "Every character of the text represents a property of the figure."
@@ -4267,12 +4003,11 @@ msgstr "Vsak znak besedila predstavlja lastnost slike."
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:53
 msgid ""
-"'A' indicates that the figures overlap, 'B' that are squares, 'C' that are "
-"circles, 'D' that the figures are separated, 'E' that there are three "
-"figures and 'F' that there are two figures."
+"'A' indicates that the figures overlap, 'B' that are squares, 'C' that are circles, 'D' that the figures "
+"are separated, 'E' that there are three figures and 'F' that there are two figures."
 msgstr ""
-"'A' pomeni da se sliki prekrivata, 'B' da sta kvadrata, 'C' da sta kroga, "
-"'D' da sta sliki ločeni, 'E' da so tri slike in 'F' da sta dve sliki."
+"'A' pomeni da se sliki prekrivata, 'B' da sta kvadrata, 'C' da sta kroga, 'D' da sta sliki ločeni, 'E' da "
+"so tri slike in 'F' da sta dve sliki."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
@@ -4284,19 +4019,14 @@ msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr "Katera slika naj zamenja vprašaj? Odgovorite {0}, {1} ali {2}."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:54
-msgid ""
-"The third figure of every row involves somehow combining the first two "
-"figures."
-msgstr ""
-"Tretja slika vsake vrstice  na nek način vsebuje spajanje prvih dveh slik."
+msgid "The third figure of every row involves somehow combining the first two figures."
+msgstr "Tretja slika vsake vrstice  na nek način vsebuje spajanje prvih dveh slik."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
-"Superpose the first and second figures and remove the lines that they have "
-"in common, then rotate the resulting figure 45 degrees."
-msgstr ""
-"Poveznite prvo sliko na drugo, odstranite skupne črte in nastalo sliko "
-"zavrtite za 45 stopinj."
+"Superpose the first and second figures and remove the lines that they have in common, then rotate the "
+"resulting figure 45 degrees."
+msgstr "Poveznite prvo sliko na drugo, odstranite skupne črte in nastalo sliko zavrtite za 45 stopinj."
 
 #: ../src/Games/Logic/PuzzleFigures.cs:58
 msgid "Figures"
@@ -4304,19 +4034,12 @@ msgstr "Slike"
 
 #: ../src/Games/Logic/PuzzleFigures.cs:62
 #, csharp-format
-msgid ""
-"What is the next logical sequence of objects in the last column? Answer {0}, "
-"{1} or {2}."
-msgstr ""
-"Kateri je naslednji logični predmet v zaporedju? Odgovorite {0}, {1} ali {2}."
+msgid "What is the next logical sequence of objects in the last column? Answer {0}, {1} or {2}."
+msgstr "Kateri je naslednji logični predmet v zaporedju? Odgovorite {0}, {1} ali {2}."
 
 #: ../src/Games/Logic/PuzzleFigures.cs:68
-msgid ""
-"It is the only combination that you can build with the given elements "
-"without repeating them."
-msgstr ""
-"Iščemo edino kombinacijo, ki jo lahko brez ponavljanja sestavite z danimi "
-"predmeti."
+msgid "It is the only combination that you can build with the given elements without repeating them."
+msgstr "Iščemo edino kombinacijo, ki jo lahko brez ponavljanja sestavite z danimi predmeti."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
 msgid "Find the number"
@@ -4326,39 +4049,37 @@ msgstr "Najdi število"
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
 msgid ""
-"Looking horizontally and vertically to the lines of the grid below, which is "
-"the number {0} place away from itself multiplied by 2 and {1} place away "
-"from itself plus 2?"
+"Looking horizontally and vertically to the lines of the grid below, which is the number {0} place away from "
+"itself multiplied by 2 and {1} place away from itself plus 2?"
 msgid_plural ""
-"Looking horizontally and vertically to the lines of the grid below, which is "
-"the number {0} places away from itself multiplied by 2 and {1} places away "
-"from itself plus 2?"
+"Looking horizontally and vertically to the lines of the grid below, which is the number {0} places away "
+"from itself multiplied by 2 and {1} places away from itself plus 2?"
 msgstr[0] ""
-"Gledano vodoravno in navpično na črte mreže je številka {0} mest stran "
-"pomnoženo z 2 in {1} mest stran plus 2?"
+"Gledano vodoravno in navpično na črte mreže je številka {0} mest stran pomnoženo z 2 in {1} mest stran plus "
+"2?"
 msgstr[1] ""
-"Gledano vodoravno in navpično na črte mreže je številka {0} mesto stran "
-"pomnoženo z 2 in {1} mesto stran plus 2?"
+"Gledano vodoravno in navpično na črte mreže je številka {0} mesto stran pomnoženo z 2 in {1} mesto stran "
+"plus 2?"
 msgstr[2] ""
-"Gledano vodoravno in navpično na črte mreže je številka {0} mesti stran "
-"pomnoženo z 2 in {1} mesti stran plus 2?"
+"Gledano vodoravno in navpično na črte mreže je številka {0} mesti stran pomnoženo z 2 in {1} mesti stran "
+"plus 2?"
 msgstr[3] ""
-"Gledano vodoravno in navpično na črte mreže je številka {0} mesta stran "
-"pomnoženo z 2 in {1} mesta stran plus 2?"
+"Gledano vodoravno in navpično na črte mreže je številka {0} mesta stran pomnoženo z 2 in {1} mesta stran "
+"plus 2?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
-msgstr "Številka se nahaja v vrstici {0} in stolpcu {1}."
+msgstr "Številka je v vrstici {0} in stolpcu {1}."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
-msgstr[0] "Številka se nahaja znotraj prvih {0} vrstic mreže."
-msgstr[1] "Številka se nahaja znotraj prve {0} vrstice mreže."
-msgstr[2] "Številka se nahaja znotraj prvih {0} vrstic mreže."
-msgstr[3] "Številka se nahaja znotraj prvih {0} vrstic mreže."
+msgstr[0] "Številka je znotraj prvih {0} vrstic mreže."
+msgstr[1] "Številka je znotraj prve {0} vrstice mreže."
+msgstr[2] "Številka je znotraj prvih {0} vrstic mreže."
+msgstr[3] "Številka je znotraj prvih {0} vrstic mreže."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
@@ -4398,98 +4119,62 @@ msgstr "Vsako obkroženo število je mogoče deliti z {0}."
 msgid "Square with dots"
 msgstr "Kvadrat s pikami"
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:210
-#: ../src/Games/Logic/PuzzleNextFigure.cs:58
+#: ../src/Games/Logic/PuzzleGridDots.cs:210 ../src/Games/Logic/PuzzleNextFigure.cs:58
 #, csharp-format
-msgid ""
-"Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
-msgstr ""
-"Katera je naslednja logična slika v zaporedju? Odgovorite {0}, {1} ali {2}."
+msgid "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
+msgstr "Katera je naslednja logična slika v zaporedju? Odgovorite {0}, {1} ali {2}."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
-"From the top-left figure, the top-left circle moves down, the bottom-left "
-"circle moves up, the bottom-right moves diagonally up-left and the top-right "
-"moves diagonally down-left."
+"From the top-left figure, the top-left circle moves down, the bottom-left circle moves up, the bottom-right "
+"moves diagonally up-left and the top-right moves diagonally down-left."
 msgstr ""
-"Iz zgornje leve slike se zgornji levi krog premakne navzdol, spodnji levi "
-"krog se premakne navzgor, spodnji desni krog se premakne diagonalno levo "
-"navzgor in spodnji desni krog se premakne desno navzdol."
+"Iz zgornje leve slike se zgornji levi krog premakne navzdol, spodnji levi krog se premakne navzgor, spodnji "
+"desni krog se premakne diagonalno levo navzgor in spodnji desni krog se premakne desno navzdol."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:222
-msgid ""
-"From the top-left figure, the figure is rotated counterclockwise 90 degrees."
-msgstr ""
-"Iz zgornje leve slike je slika za 90 stopinj zavrtena v nasprotni smeri "
-"urinega kazalca."
+msgid "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
+msgstr "Iz zgornje leve slike je slika za 90 stopinj zavrtena v nasprotni smeri urinega kazalca."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:44
 msgid "Numbers in a grid"
 msgstr "Števila v mreži"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:48
-msgid ""
-"The numbers in the grid below follow a pattern. Which number should replace "
-"the question mark?"
-msgstr ""
-"Števila v mreži spodaj sledijo vzorcu. Katero število naj zamenja vprašaj?"
+msgid "The numbers in the grid below follow a pattern. Which number should replace the question mark?"
+msgstr "Števila v mreži spodaj sledijo vzorcu. Katero število naj zamenja vprašaj?"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:54
 msgid "The pattern is arithmetical and works vertically."
 msgstr "Vzorec je aritmetičen in deluje navpično."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:56
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:56 ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
 msgid "The pattern is arithmetical and works horizontally."
 msgstr "Vzorec je aritmetičen in deluje vodoravno."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:65
-msgid ""
-"The fourth row is calculated by multiplying the first two rows and adding "
-"the third."
-msgstr ""
-"Četrta vrstica je izračunana z množenjem prvih dveh vrstic in dodajanjem "
-"tretje."
+msgid "The fourth row is calculated by multiplying the first two rows and adding the third."
+msgstr "Četrta vrstica je izračunana z množenjem prvih dveh vrstic in dodajanjem tretje."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:67
-msgid ""
-"The fourth column is calculated by multiplying the first two columns and "
-"adding the third."
-msgstr ""
-"Četrti stolpec je izračunan z množenjem prvih dveh stolpcev in seštevanjem "
-"tretjega."
+msgid "The fourth column is calculated by multiplying the first two columns and adding the third."
+msgstr "Četrti stolpec je izračunan z množenjem prvih dveh stolpcev in seštevanjem tretjega."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:71
-msgid ""
-"The fourth row is calculated by multiplying the first two rows and "
-"subtracting the third."
-msgstr ""
-"Četrta vrstica je izračunana z množenjem prvih dveh vrstic in odštevanjem "
-"tretje."
+msgid "The fourth row is calculated by multiplying the first two rows and subtracting the third."
+msgstr "Četrta vrstica je izračunana z množenjem prvih dveh vrstic in odštevanjem tretje."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:73
-msgid ""
-"The fourth column is calculated by multiplying the first two columns and "
-"subtracting the third."
-msgstr ""
-"Četrti stolpec je izračunan z množenjem prvih dveh stolpcev in odštevanjem "
-"tretjega."
+msgid "The fourth column is calculated by multiplying the first two columns and subtracting the third."
+msgstr "Četrti stolpec je izračunan z množenjem prvih dveh stolpcev in odštevanjem tretjega."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:77
-msgid ""
-"The fourth row is calculated by adding the first two rows and subtracting "
-"the third."
-msgstr ""
-"Četrta vrstica je izračunana s seštevanjem prvih dveh vrstic in odštevanjem "
-"tretje."
+msgid "The fourth row is calculated by adding the first two rows and subtracting the third."
+msgstr "Četrta vrstica je izračunana s seštevanjem prvih dveh vrstic in odštevanjem tretje."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:79
-msgid ""
-"The fourth column is calculated by adding the first two columns and "
-"subtracting the third."
-msgstr ""
-"Četrti stolpec je izračunan s seštevanjem prvih dveh stolpcev in odštevanjem "
-"tretjega. "
+msgid "The fourth column is calculated by adding the first two columns and subtracting the third."
+msgstr "Četrti stolpec je izračunan s seštevanjem prvih dveh stolpcev in odštevanjem tretjega. "
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:32
 msgid "Handshakes"
@@ -4498,25 +4183,23 @@ msgstr "Rokovanje"
 #: ../src/Games/Logic/PuzzleHandshakes.cs:37
 #, csharp-format
 msgid ""
-"All attendees to a party are introduced to one another. {0} handshakes are "
-"made in total. How many people are attending the party?"
+"All attendees to a party are introduced to one another. {0} handshakes are made in total. How many people "
+"are attending the party?"
 msgstr ""
-"Vsi udeleženci zabave se predstavijo drug drugemu. Pri tem se {0} krat "
-"rokujejo. Koliko ljudi se je udeležilo zabave?"
+"Vsi udeleženci zabave se predstavijo drug drugemu. Pri tem se {0} krat rokujejo. Koliko ljudi se je "
+"udeležilo zabave?"
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:42
-msgid ""
-"Try to imagine a situation in which you are meeting a small number of people."
+msgid "Try to imagine a situation in which you are meeting a small number of people."
 msgstr "Predstavljajte si, da srečate majhno število ljudi."
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:46
 msgid ""
-"Using n as the total number of people, the first person handshakes n-1 "
-"people, the second n-2 people, etc. The result is the sum of the first n-1 "
-"consecutive numbers: 1+2+3+...+(n-1)."
+"Using n as the total number of people, the first person handshakes n-1 people, the second n-2 people, etc. "
+"The result is the sum of the first n-1 consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
-"Če je n število ljudi, se prva oseba rokuje z n-1 ljudmi, druga z n-2 "
-"ljudmi, itd. Rezultat je vsota prvih n-1 zaporednih števil: 1+2+3+..+(n-1)."
+"Če je n število ljudi, se prva oseba rokuje z n-1 ljudmi, druga z n-2 ljudmi, itd. Rezultat je vsota prvih "
+"n-1 zaporednih števil: 1+2+3+..+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -4524,12 +4207,8 @@ msgstr "Večja oblika"
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:122
 #, csharp-format
-msgid ""
-"Which larger shape can you make combining the first two figures? Answer {0}, "
-"{1}, {2} or {3}."
-msgstr ""
-"Katero večjo obliko lahko naredite z združevanjem prvih dveh slik? "
-"Odgovorite {0}, {1}, {2} ali {3}."
+msgid "Which larger shape can you make combining the first two figures? Answer {0}, {1}, {2} or {3}."
+msgstr "Katero večjo obliko lahko naredite z združevanjem prvih dveh slik? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
 msgid "Largest area"
@@ -4537,12 +4216,8 @@ msgstr "Največja površina"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-msgid ""
-"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
-"{3}."
-msgstr ""
-"Katera od naslednjih shem ima največjo površino? Odgovorite {0}, {1}, {2} "
-"ali {3}."
+msgid "Which of the following figures has the largest area? Answer {0}, {1}, {2} or {3}."
+msgstr "Katera od naslednjih shem ima največjo površino? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
 msgid "Largest diameter"
@@ -4551,11 +4226,11 @@ msgstr "Največji premer"
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
 #, csharp-format
 msgid ""
-"If the circles represented by the arcs below were completed, which circle "
-"would have the largest diameter? Answer {0}, {1}, {2} or {3}."
+"If the circles represented by the arcs below were completed, which circle would have the largest diameter? "
+"Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Kateri krog bi imel največji premer, če bi bili spodnji loki, narisani do "
-"konca. Odgovorite {0}, {1}, {2} ali {3}."
+"Kateri krog bi imel največji premer, če bi bili spodnji loki, narisani do konca. Odgovorite {0}, {1}, {2} "
+"ali {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
 msgid "Less curved is the arc, the larger the circle is."
@@ -4572,20 +4247,14 @@ msgstr "Črte"
 
 #: ../src/Games/Logic/PuzzleLines.cs:38
 msgid ""
-"How many line segments in total are in the figures below? A line segment is "
-"a line between two points with no crossing lines."
-msgstr ""
-"Koliko črt lahko preštejete na slikah spodaj? Črta je del med dvema točkama "
-"brez sekajočih črt."
+"How many line segments in total are in the figures below? A line segment is a line between two points with "
+"no crossing lines."
+msgstr "Koliko črt lahko preštejete na slikah spodaj? Črta je del med dvema točkama brez sekajočih črt."
 
 #: ../src/Games/Logic/PuzzleLines.cs:44
 #, csharp-format
-msgid ""
-"There is {0} line in the figure to the left and {1} in the figure to the "
-"right."
-msgid_plural ""
-"There are {0} lines in the figure to the left and {1} in the figure to the "
-"right."
+msgid "There is {0} line in the figure to the left and {1} in the figure to the right."
+msgid_plural "There are {0} lines in the figure to the left and {1} in the figure to the right."
 msgstr[0] "Na sliki levo je {0} črt, na sliki desno je {1} črt."
 msgstr[1] "Na sliki levo je {0} črta, na sliki desno je {1} črt."
 msgstr[2] "Na sliki levo sta {0} črti, na sliki desno je {1} črt."
@@ -4610,12 +4279,11 @@ msgstr "Logika deluje na ravni vrstic."
 
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:50
 msgid ""
-"In every row the third square is made by flipping the first square and "
-"superimposing it on the second square, followed by removing the matching "
-"lines."
+"In every row the third square is made by flipping the first square and superimposing it on the second "
+"square, followed by removing the matching lines."
 msgstr ""
-"V vsaki vrstici dobimo tretji kvadratek z zrcaljenjem prvega kvadrata, ki ga "
-"poveznemo na drugi kvadrat in izbrišemo črte, ki so skupne obema."
+"V vsaki vrstici dobimo tretji kvadratek z zrcaljenjem prvega kvadrata, ki ga poveznemo na drugi kvadrat in "
+"izbrišemo črte, ki so skupne obema."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:62
 msgid "Missing slice"
@@ -4624,11 +4292,11 @@ msgstr "Manjkajoča rezina"
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:67
 #, csharp-format
 msgid ""
-"The slices below have some kind of relation. Which is the missing slice in "
-"the circle below? Answer {0}, {1} or {2}."
+"The slices below have some kind of relation. Which is the missing slice in the circle below? Answer {0}, "
+"{1} or {2}."
 msgstr ""
-"Nekatere rezine spodaj imajo skupno lastnost. Kateri je manjkajoča rezina v "
-"spodnjem krogu? Odgovorite {0}, {1} ali {2}."
+"Nekatere rezine spodaj imajo skupno lastnost. Kateri je manjkajoča rezina v spodnjem krogu? Odgovorite {0}, "
+"{1} ali {2}."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:72
 msgid "Each slice is related to the opposite one."
@@ -4636,9 +4304,7 @@ msgstr "Vsaka rezina je povezana z nasprotno."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:77
 #, csharp-format
-msgid ""
-"All numbers of each slice, when added to the ones of the opposite slice, add "
-"always {0}."
+msgid "All numbers of each slice, when added to the ones of the opposite slice, add always {0}."
 msgstr "Vsota števil na rezini s števili na nasprotni rezini je vedno {0}."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:77
@@ -4648,25 +4314,21 @@ msgstr "Največ skupnega"
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:82
 #, csharp-format
 msgid ""
-"Which of the possible answers have the most in common with the four given "
-"figures? Answer {0}, {1}, {2} or {3}."
+"Which of the possible answers have the most in common with the four given figures? Answer {0}, {1}, {2} or "
+"{3}."
 msgstr ""
-"Kateri od mogočih odgovorov ima največ skupnega s štirimi danimi slikami? "
-"Odgovorite {0}, {1}, {2} ali {3}."
+"Kateri od mogočih odgovorov ima največ skupnega s štirimi danimi slikami? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:87
 msgid "Think of the common elements that the given figures have inside them."
 msgstr "Pomislite na skupne elemente, ki jih imajo dane slike."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:93
-msgid ""
-"It has the same number of elements inside the figure as the given figures."
+msgid "It has the same number of elements inside the figure as the given figures."
 msgstr "Slika ima enako število elementov kot dane slike."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:95
-msgid ""
-"It is the figure with the most elements in common compared to the given "
-"figures."
+msgid "It is the figure with the most elements in common compared to the given figures."
 msgstr "Iščemo shemo, ki ima največ skupnih predmetov z danimi slikami."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:33
@@ -4675,26 +4337,22 @@ msgstr "Prestavi sliko"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:37
 msgid ""
-"What is the minimum number of circles to be moved in order to convert the "
-"left figure into the right figure?"
-msgstr ""
-"Kakšno je najmanjše število premikov krogov za pretvorbo leve slike v desno?"
+"What is the minimum number of circles to be moved in order to convert the left figure into the right figure?"
+msgstr "Kakšno je najmanjše število premikov krogov za pretvorbo leve slike v desno?"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:44
 msgid ""
-"Move the circle from the first line to the second and move two circles from "
-"the fourth line to the second and the fifth lines."
-msgstr ""
-"Premaknite krog iz prve črte na drugo in premaknite dva kroga s četrte črte "
-"na drugo in peto črto."
+"Move the circle from the first line to the second and move two circles from the fourth line to the second "
+"and the fifth lines."
+msgstr "Premaknite krog iz prve črte na drugo in premaknite dva kroga s četrte črte na drugo in peto črto."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:46
 msgid ""
-"Move the first line to the seventh; move the two circles of the second line "
-"to third; and move first and last circles of the fifth line to the sixth."
+"Move the first line to the seventh; move the two circles of the second line to third; and move first and "
+"last circles of the fifth line to the sixth."
 msgstr ""
-"Premaknite prvo črto k sedmi; premaknite dva kroga z druge črte na tretjo; "
-"premaknite prvi in zadnji krog s pete črte na šesto črto."
+"Premaknite prvo črto k sedmi; premaknite dva kroga z druge črte na tretjo; premaknite prvi in zadnji krog s "
+"pete črte na šesto črto."
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:53
 msgid "Next figure"
@@ -4702,11 +4360,11 @@ msgstr "Naslednja slika"
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:65
 msgid ""
-"From first figure, the top circle advances by two positions clockwise, while "
-"the left circle goes backwards one position."
+"From first figure, the top circle advances by two positions clockwise, while the left circle goes backwards "
+"one position."
 msgstr ""
-"Iz prve slike zgornji krog napreduje dve mesti v smeri urinega kazalca, "
-"medtem ko gre levi krog eno mesto nazaj."
+"Iz prve slike zgornji krog napreduje dve mesti v smeri urinega kazalca, medtem ko gre levi krog eno mesto "
+"nazaj."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:46
 msgid "Numeric relation"
@@ -4728,28 +4386,26 @@ msgstr "Vsota vsake skupine {0} je enaka {1}."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:64
 msgid ""
-"Divide the sequence in groups of three numbers. Every third number is "
-"calculated by multiplying by the two previous ones."
+"Divide the sequence in groups of three numbers. Every third number is calculated by multiplying by the two "
+"previous ones."
 msgstr ""
-"Razdelite zaporedje v skupine treh števil. Vsako tretje število je "
-"izračunano z množenjem dveh predhodnih števil."
+"Razdelite zaporedje v skupine treh števil. Vsako tretje število je izračunano z množenjem dveh predhodnih "
+"števil."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:66
 msgid ""
-"Divide the sequence in groups of three numbers. Every third number is "
-"calculated by subtracting the second number from the first."
+"Divide the sequence in groups of three numbers. Every third number is calculated by subtracting the second "
+"number from the first."
 msgstr ""
-"Razdelite zaporedje v skupine treh števil. Vsako tretje število je "
-"izračunano z odštevanjem drugega števila od prvega."
+"Razdelite zaporedje v skupine treh števil. Vsako tretje število je izračunano z odštevanjem drugega števila "
+"od prvega."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:42
 msgid "Numeric sequence"
 msgstr "Številčno zaporedje"
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:46
-msgid ""
-"The next sequence follows a logic. What number should replace the question "
-"mark?"
+msgid "The next sequence follows a logic. What number should replace the question mark?"
 msgstr "Naslednje zaporedje sledi logiki. Katero število naj zamenja vprašaj?"
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:50
@@ -4758,27 +4414,19 @@ msgstr "Vsako število v zaporedju je povezano s prejšnjim."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:57
 msgid ""
-"Every number in the sequence is the result of subtracting 1 from the "
-"previous number and multiplying it by 2."
-msgstr ""
-"Vsako število v zaporedju je rezultat zmanjšanja prejšnjega števila za 1 in "
-"množenja z 2. "
+"Every number in the sequence is the result of subtracting 1 from the previous number and multiplying it by "
+"2."
+msgstr "Vsako število v zaporedju je rezultat zmanjšanja prejšnjega števila za 1 in množenja z 2. "
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:59
-msgid ""
-"Every number in the sequence is the result of adding 1 to the previous "
-"number and multiplying it by 3."
-msgstr ""
-"Vsako število v zaporedju je rezultat prištevanja 1 prejšnjemu številu in "
-"množenju s 3."
+msgid "Every number in the sequence is the result of adding 1 to the previous number and multiplying it by 3."
+msgstr "Vsako število v zaporedju je rezultat prištevanja 1 prejšnjemu številu in množenju s 3."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:61
 msgid ""
-"Every number in the sequence is the result of subtracting 2 from the "
-"previous number and multiplying it by -2."
-msgstr ""
-"Vsako število v zaporedju je rezultat zmanjšanja prejšnjega števila za 2 in "
-"množenja z -2."
+"Every number in the sequence is the result of subtracting 2 from the previous number and multiplying it by "
+"-2."
+msgstr "Vsako število v zaporedju je rezultat zmanjšanja prejšnjega števila za 2 in množenja z -2."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:53
 msgid "Ostracism"
@@ -4787,38 +4435,27 @@ msgstr "Ostracizem"
 #: ../src/Games/Logic/PuzzleOstracism.cs:58
 #, csharp-format
 msgid ""
-"Which element does not belong to the group? It is not related to any "
-"arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
+"Which element does not belong to the group? It is not related to any arithmetical of the numbers. Answer "
+"{0}, {1}, {2}, {3} or {4}."
 msgstr ""
-"Kateri element ne spada v skupino? Odgovor ni povezan z aritmetiko števil. "
-"Odgovorite {0}, {1}, {2}, {3} ali {4}."
+"Kateri element ne spada v skupino? Odgovor ni povezan z aritmetiko števil. Odgovorite {0}, {1}, {2}, {3} "
+"ali {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
-msgid ""
-"The criteria for deciding if an equation belongs to the group is not "
-"arithmetical."
+msgid "The criteria for deciding if an equation belongs to the group is not arithmetical."
 msgstr "Pogoj za odločitev ali enačba spada v skupino ni aritmetičen."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:68
-msgid ""
-"Consider that every number that belongs to the group has two parts that are "
-"related."
+msgid "Consider that every number that belongs to the group has two parts that are related."
 msgstr "Vsako število, ki spada v skupino ima dva povezana dela."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:79
-msgid ""
-"In all the other equations the digits from the left side also appear on the "
-"right side."
-msgstr ""
-"V vseh drugih enačbah se številke na levi strani pojavijo tudi na desni "
-"strani."
+msgid "In all the other equations the digits from the left side also appear on the right side."
+msgstr "V vseh drugih enačbah se številke na levi strani pojavijo tudi na desni strani."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:81
-msgid ""
-"In all the other numbers the last three digits are the square of the first "
-"two digits."
-msgstr ""
-"V vseh ostalih številih so zadnje tri številke kvadrat prvih dveh številk."
+msgid "In all the other numbers the last three digits are the square of the first two digits."
+msgstr "V vseh ostalih številih so zadnje tri številke kvadrat prvih dveh številk."
 
 #: ../src/Games/Logic/PuzzlePencil.cs:38
 msgid "Pencil"
@@ -4827,11 +4464,11 @@ msgstr "Svinčnik"
 #: ../src/Games/Logic/PuzzlePencil.cs:43
 #, csharp-format
 msgid ""
-"Which of the following figures cannot be drawn without crossing any previous "
-"lines nor lifting the pencil? Answer {0}, {1}, {2}, {3} or {4}."
+"Which of the following figures cannot be drawn without crossing any previous lines nor lifting the pencil? "
+"Answer {0}, {1}, {2}, {3} or {4}."
 msgstr ""
-"Katere od naslednjih slik ni mogoče narisati brez prečkanja prejšnjih črt "
-"ali dviga svinčnika? Odgovorite {0}, {1}, {2}, {3}, {4}."
+"Katere od naslednjih slik ni mogoče narisati brez prečkanja prejšnjih črt ali dviga svinčnika? Odgovorite "
+"{0}, {1}, {2}, {3}, {4}."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:45
 msgid "People at a table"
@@ -4840,20 +4477,19 @@ msgstr "Ljudje za mizo"
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
 msgid ""
-"A group of people, spaced out evenly, are sitting at a round table. How many "
-"people are there if the {0} person sits directly across from the {1}?"
+"A group of people, spaced out evenly, are sitting at a round table. How many people are there if the {0} "
+"person sits directly across from the {1}?"
 msgstr ""
-"Skupina ljudi sedi enakomerno razporejeno za okroglo mizo. Koliko ljudi sedi "
-"za mizo, če sedi oseba na {0}. mestu nasproti osebi na {1}. mestu "
+"Skupina ljudi sedi enakomerno razporejeno za okroglo mizo. Koliko ljudi sedi za mizo, če sedi oseba na {0}. "
+"mestu nasproti osebi na {1}. mestu "
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
-"Subtracting the two positions you find out how many people are seated half "
-"way around the table. Doubling this number leaves you with the total amount "
-"of people."
+"Subtracting the two positions you find out how many people are seated half way around the table. Doubling "
+"this number leaves you with the total amount of people."
 msgstr ""
-"Z odštetjem dveh mest dobite število ljudi, ki sedijo za polovico mize. "
-"Podvojite število, da dobite število ljudi za celotno mizo."
+"Z odštetjem dveh mest dobite število ljudi, ki sedijo za polovico mize. Podvojite število, da dobite "
+"število ljudi za celotno mizo."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:62
 msgid "5th"
@@ -4890,53 +4526,45 @@ msgstr "Odstotek"
 #: ../src/Games/Logic/PuzzlePercentage.cs:75
 #, csharp-format
 msgid ""
-"After getting {0}% discount you have paid {1} monetary unit for a TV set. "
-"What was the original price of the TV set?"
+"After getting {0}% discount you have paid {1} monetary unit for a TV set. What was the original price of "
+"the TV set?"
 msgid_plural ""
-"After getting {0}% discount you have paid {1} monetary units for a TV set. "
-"What was the original price of the TV set?"
-msgstr[0] ""
-"Po dobljenem {0}% popustu ste plačali {1} enot za TV. Kakšna je bila prvotna "
-"cena TV-ja?"
-msgstr[1] ""
-"Po dobljenem {0}% popustu ste plačali {1} enoto za TV. Kakšna je bila "
-"prvotna cena TV-ja?"
-msgstr[2] ""
-"Po dobljenem {0}% popustu ste plačali {1} enoti za TV. Kakšna je bila "
-"prvotna cena TV-ja?"
-msgstr[3] ""
-"Po dobljenem {0}% popustu ste plačali {1} enot za TV. Kakšna je bila prvotna "
-"cena TV-ja?"
+"After getting {0}% discount you have paid {1} monetary units for a TV set. What was the original price of "
+"the TV set?"
+msgstr[0] "Po dobljenem {0}% popustu ste plačali {1} enot za TV. Kakšna je bila prvotna cena TV-ja?"
+msgstr[1] "Po dobljenem {0}% popustu ste plačali {1} enoto za TV. Kakšna je bila prvotna cena TV-ja?"
+msgstr[2] "Po dobljenem {0}% popustu ste plačali {1} enoti za TV. Kakšna je bila prvotna cena TV-ja?"
+msgstr[3] "Po dobljenem {0}% popustu ste plačali {1} enot za TV. Kakšna je bila prvotna cena TV-ja?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:96
 #, csharp-format
 msgid ""
-"John's shop had sales of {0} monetary unit. This was an increase of {1}% "
-"over last month. What were last month sales?"
+"John's shop had sales of {0} monetary unit. This was an increase of {1}% over last month. What were last "
+"month sales?"
 msgid_plural ""
-"John's shop had sales of {0} monetary units. This was an increase of {1}% "
-"over last month. What were last month sales?"
+"John's shop had sales of {0} monetary units. This was an increase of {1}% over last month. What were last "
+"month sales?"
 msgstr[0] ""
-"Janez je v trgovini prodal {0} enot. Prodaja se je povečala za {1}% glede na "
-"prejšnji mesec. Kolikšna je bila prodaja prejšnji mesec?"
+"Janez je v trgovini prodal {0} enot. Prodaja se je povečala za {1}% glede na prejšnji mesec. Kolikšna je "
+"bila prodaja prejšnji mesec?"
 msgstr[1] ""
-"Janez je v trgovini prodal {0} enoto. Prodaja se je povečala za {1}% glede "
-"na prejšnji mesec. Kolikšna je bila prodaja prejšnji mesec?"
+"Janez je v trgovini prodal {0} enoto. Prodaja se je povečala za {1}% glede na prejšnji mesec. Kolikšna je "
+"bila prodaja prejšnji mesec?"
 msgstr[2] ""
-"Janez je v trgovini prodal {0} enoti. Prodaja se je povečala za {1}% glede "
-"na prejšnji mesec. Kolikšna je bila prodaja prejšnji mesec?"
+"Janez je v trgovini prodal {0} enoti. Prodaja se je povečala za {1}% glede na prejšnji mesec. Kolikšna je "
+"bila prodaja prejšnji mesec?"
 msgstr[3] ""
-"Janez je v trgovini prodal {0} enote. Prodaja se je povečala za {1}% glede "
-"na prejšnji mesec. Kolikšna je bila prodaja prejšnji mesec?"
+"Janez je v trgovini prodal {0} enote. Prodaja se je povečala za {1}% glede na prejšnji mesec. Kolikšna je "
+"bila prodaja prejšnji mesec?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:114
 #, csharp-format
 msgid ""
-"The amount of water in a bucket decreases by {0}%. By what percentage must "
-"the amount of water increase to reach its original value?"
+"The amount of water in a bucket decreases by {0}%. By what percentage must the amount of water increase to "
+"reach its original value?"
 msgstr ""
-"Količina vode v kanglici se zmanjša za {0}%. Za koliko odstotkov se mora "
-"količina vode povečati, da doseže prvotno vrednost?"
+"Količina vode v kanglici se zmanjša za {0}%. Za koliko odstotkov se mora količina vode povečati, da doseže "
+"prvotno vrednost?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:117
 msgid "The objective is to obtain the same total amount."
@@ -4945,11 +4573,11 @@ msgstr "Cilj je pridobiti enako skupno količino."
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:59
 #, csharp-format
 msgid ""
-"If all painters are artists and some citizens of Barcelona are artists. "
-"Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If all painters are artists and some citizens of Barcelona are artists. Which of the following conclusions "
+"is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Nekateri slikarji so umetniki in nekateri meščani Barcelone so umetniki. "
-"Kateri od naslednjih stavkov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Nekateri slikarji so umetniki in nekateri meščani Barcelone so umetniki. Kateri od naslednjih stavkov je "
+"pravilen? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 msgid "Some citizens of Barcelona are painters"
@@ -4963,25 +4591,23 @@ msgstr "Vsi meščani Barcelone so slikarji"
 msgid "No citizen of Barcelona is a painter"
 msgstr "Noben meščan Barcelone ni slikar"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:64
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:72
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:80
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:88
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:64 ../src/Games/Logic/PuzzlePredicateLogic.cs:72
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:80 ../src/Games/Logic/PuzzlePredicateLogic.cs:88
 msgid "None of the other options"
 msgstr "Nobena od drugih možnosti"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
 #, csharp-format
 msgid ""
-"If no ill artist is happy and some artists are happy. Which of the following "
-"conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If no ill artist is happy and some artists are happy. Which of the following conclusions is correct? Answer "
+"{0}, {1}, {2} or {3}."
 msgstr ""
-"Noben bolan umetnik ni vesel in nekateri umetniki so veseli. Kateri od "
-"naslednjih stavkov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Noben bolan umetnik ni vesel in nekateri umetniki so veseli. Kateri od naslednjih stavkov je pravilen? "
+"Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
-msgstr "Nekateri umetniki niso bolni"
+msgid "Some artists are not ill"
+msgstr "Nekateri umetniki niso zboleli"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
 msgid "Some painters are not artists"
@@ -4994,11 +4620,11 @@ msgstr "Vsi umetniki so veseli"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:75
 #, csharp-format
 msgid ""
-"People that travel always buy a map. You are not going to travel. Which of "
-"the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"People that travel always buy a map. You are not going to travel. Which of the following conclusions is "
+"correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Ljudje, ki potujejo, vedno kupijo zemljevid. Vi ne boste potovali. Kateri od "
-"naslednjih stavkov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Ljudje, ki potujejo, vedno kupijo zemljevid. Vi ne boste potovali. Kateri od naslednjih stavkov je "
+"pravilen? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
 msgid "You do not have any map"
@@ -5015,11 +4641,11 @@ msgstr "Vsi ljudje imajo zemljevid"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
 #, csharp-format
 msgid ""
-"If you whistle if you are happy and you always smile when you whistle, which "
-"of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If you whistle if you are happy and you always smile when you whistle, which of the following conclusions "
+"is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Žvižgate, če ste veseli in smejite se vedno, kadar žvižgate. Kateri od "
-"naslednjih stavkov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Žvižgate, če ste veseli in smejite se vedno, kadar žvižgate. Kateri od naslednjih stavkov je pravilen? "
+"Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 msgid "You smile if you are happy"
@@ -5036,12 +4662,11 @@ msgstr "Žvižgate, če niste veseli"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
 #, csharp-format
 msgid ""
-"If your course is always honest and your course is always the best policy, "
-"which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If your course is always honest and your course is always the best policy, which of the following "
+"conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Vaše vodilo je biti vedno odkrit in vaše vodilo je vedno najboljša "
-"odločitev. Kateri od naslednjih sklepov je pravilen? Odgovorite {0}, {1}, "
-"{2} ali {3}."
+"Vaše vodilo je biti vedno odkrit in vaše vodilo je vedno najboljša odločitev. Kateri od naslednjih sklepov "
+"je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is sometimes the best policy"
@@ -5062,11 +4687,11 @@ msgstr "Nekatere najboljše odločitve niso odkrite"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
 #, csharp-format
 msgid ""
-"If no old misers are cheerful and some old misers are thin, which of the "
-"following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If no old misers are cheerful and some old misers are thin, which of the following conclusions is correct? "
+"Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Noben star skopuh ni vesel in nekateri stari skopuhi so suhi. Kateri od "
-"naslednjih sklepov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Noben star skopuh ni vesel in nekateri stari skopuhi so suhi. Kateri od naslednjih sklepov je pravilen? "
+"Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Some thin people are not cheerful"
@@ -5087,11 +4712,11 @@ msgstr "Nekateri veseli ljudje niso suhi"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
 #, csharp-format
 msgid ""
-"If all pigs are fat and nothing that is fed on barley-water is fat, which of "
-"the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If all pigs are fat and nothing that is fed on barley-water is fat, which of the following conclusions is "
+"correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Vsi prašiči debeli in nič, kar vsebuje samo vodo ni mastno. Kateri od "
-"naslednjih sklepov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Vsi prašiči debeli in nič, kar vsebuje samo vodo ni mastno. Kateri od naslednjih sklepov je pravilen? "
+"Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "All animals fed on barley-water are non pigs"
@@ -5112,11 +4737,11 @@ msgstr "Vse druge možnosti"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
 #, csharp-format
 msgid ""
-"If some pictures are first attempts and no first attempts are really good, "
-"which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If some pictures are first attempts and no first attempts are really good, which of the following "
+"conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Nekatere slike so prvi poskusi in noben prvi poskus ni resnično dober. "
-"Kateri od naslednjih sklepov je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Nekatere slike so prvi poskusi in noben prvi poskus ni resnično dober. Kateri od naslednjih sklepov je "
+"pravilen? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 msgid "Some bad pictures are not first attempts"
@@ -5137,11 +4762,11 @@ msgstr "Vse druge"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
 #, csharp-format
 msgid ""
-"If you have been out for a walk and you are feeling better, which of the "
-"following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+"If you have been out for a walk and you are feeling better, which of the following conclusions is correct? "
+"Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Če ste bili na sprehodu se počutite boljše. Kateri od naslednjih zaključkov "
-"je pravilen? Odgovorite {0}, {1}, {2} ali {3}."
+"Če ste bili na sprehodu se počutite boljše. Kateri od naslednjih zaključkov je pravilen? Odgovorite {0}, "
+"{1}, {2} ali {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "To feel better, you must go out for a walk"
@@ -5169,12 +4794,8 @@ msgstr "Izstopajoči štirikotniki"
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:48
 #, csharp-format
-msgid ""
-"Which of the following figures does not belong to the group? Answer {0}, "
-"{1}, {2}, {3}, {4} or {5}."
-msgstr ""
-"Katera od naslednjih slik ne spada v skupino? Odgovorite {0}, {1}, {2}, {3}, "
-"{4} ali {5}."
+msgid "Which of the following figures does not belong to the group? Answer {0}, {1}, {2}, {3}, {4} or {5}."
+msgstr "Katera od naslednjih slik ne spada v skupino? Odgovorite {0}, {1}, {2}, {3}, {4} ali {5}."
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
 msgid "It is the only figure with all lines of equal length."
@@ -5189,28 +4810,16 @@ msgid "In the grid below, which number should replace the question mark?"
 msgstr "Katero število v mreži spodaj naj zamenja vprašaj?"
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
-msgid ""
-"The number in the middle of every row is half of the sum of the other "
-"numbers in the row."
-msgstr ""
-"Število na sredini vsake vrstice je enako polovici vsote vseh ostalih števil "
-"v vrstici."
+msgid "The number in the middle of every row is half of the sum of the other numbers in the row."
+msgstr "Število na sredini vsake vrstice je enako polovici vsote vseh ostalih števil v vrstici."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
-msgid ""
-"The number in the middle of every row is the sum of the other numbers in the "
-"row."
-msgstr ""
-"Število na sredini vsake vrstice je enako vsoti vseh ostalih števil v "
-"vrstici."
+msgid "The number in the middle of every row is the sum of the other numbers in the row."
+msgstr "Število na sredini vsake vrstice je enako vsoti vseh ostalih števil v vrstici."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
-msgid ""
-"The number in the middle of every row is the double of the sum of the other "
-"numbers in the row."
-msgstr ""
-"Število na sredini vsake vrstice je dvakratnik vsote vseh ostalih števil v "
-"vrstici."
+msgid "The number in the middle of every row is the double of the sum of the other numbers in the row."
+msgstr "Število na sredini vsake vrstice je dvakratnik vsote vseh ostalih števil v vrstici."
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
 msgid "Squares and letters"
@@ -5218,21 +4827,17 @@ msgstr "Kvadrati in črke"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:38
 msgid ""
-"The letters around the squares follow a pattern. Which letter should replace "
-"the question mark in the last square?"
-msgstr ""
-"Črke okoli kvadratov sledijo vzorcu. Katera črka naj zamenja vprašaj v "
-"zadnjem kvadratu?"
+"The letters around the squares follow a pattern. Which letter should replace the question mark in the last "
+"square?"
+msgstr "Črke okoli kvadratov sledijo vzorcu. Katera črka naj zamenja vprašaj v zadnjem kvadratu?"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
 #, csharp-format
 msgid ""
-"Every letter is calculated by taking the alphabetical position of the "
-"previous character and adding {0} to it in order to get the position of the "
-"next letter."
+"Every letter is calculated by taking the alphabetical position of the previous character and adding {0} to "
+"it in order to get the position of the next letter."
 msgstr ""
-"Vsaka črka je izračunana z mestom prejšnje črke v abecedi in dodajanja {0} "
-"za izračun lege novega mesta. "
+"Vsaka črka je izračunana z mestom prejšnje črke v abecedi in dodajanja {0} za izračun lege novega mesta. "
 
 #: ../src/Games/Logic/PuzzleSquares.cs:30
 msgid "Squares"
@@ -5240,33 +4845,25 @@ msgstr "Kvadrati"
 
 #: ../src/Games/Logic/PuzzleSquares.cs:34
 msgid "How many squares of any size do you count in the figure below?"
-msgstr ""
-"Koliko kvadratov kakršnekoli velikosti lahko preštejete na sliki spodaj?"
+msgstr "Koliko kvadratov kakršnekoli velikosti lahko preštejete na sliki spodaj?"
 
 #: ../src/Games/Logic/PuzzleSquares.cs:38
-msgid ""
-"A square is a rectangle with sides of equal length. A square can also be "
-"built from other squares."
-msgstr ""
-"Kvadrat je pravokotnik s stranicami enakih dolžin. Kvadrat je lahko narejen "
-"iz drugih kvadratov."
+msgid "A square is a rectangle with sides of equal length. A square can also be built from other squares."
+msgstr "Kvadrat je pravokotnik s stranicami enakih dolžin. Kvadrat je lahko narejen iz drugih kvadratov."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:45
 msgid ""
-"There are 16 single squares, 9 squares made by 4 single squares, 4 squares "
-"made by 9 single squares and 1 square made by 16 single squares."
+"There are 16 single squares, 9 squares made by 4 single squares, 4 squares made by 9 single squares and 1 "
+"square made by 16 single squares."
 msgstr ""
-"Obstaja 16 samostojnih kvadratov, 9 kvadratov narejenih iz 4 samostojnih "
-"kvadratov, 4 kvadrati narejeni iz 9 samostojnih kvadratov in 1 kvadrat "
-"narejen iz 16 samostojnih kvadratov."
+"Obstaja 16 samostojnih kvadratov, 9 kvadratov narejenih iz 4 samostojnih kvadratov, 4 kvadrati narejeni iz "
+"9 samostojnih kvadratov in 1 kvadrat narejen iz 16 samostojnih kvadratov."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:47
-msgid ""
-"There are 9 single squares, 4 squares made by 4 single squares and 1 square "
-"made by 9 single squares."
+msgid "There are 9 single squares, 4 squares made by 4 single squares and 1 square made by 9 single squares."
 msgstr ""
-"Obstaja 9 samostojnih kvadratov, 4 kvadrati narejeni iz 4 samostojnih "
-"kvadratov in 1 kvadrat narejen iz 9 samostojnih kvadratov."
+"Obstaja 9 samostojnih kvadratov, 4 kvadrati narejeni iz 4 samostojnih kvadratov in 1 kvadrat narejen iz 9 "
+"samostojnih kvadratov."
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:29
 msgid "Square sheets"
@@ -5274,11 +4871,11 @@ msgstr "Kvadratni listi"
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:33
 msgid ""
-"What is the minimum number of square sheets of paper of any size required to "
-"create the figure? Lines indicate frontiers between different sheets."
+"What is the minimum number of square sheets of paper of any size required to create the figure? Lines "
+"indicate frontiers between different sheets."
 msgstr ""
-"Kolikšno je najmanjše število kvadratnih listov papirja katerekoli velikosti "
-"zahtevanih za ustvarjanje slike? Črte nakazujejo meje med različnimi listi."
+"Kolikšno je najmanjše število kvadratnih listov papirja katerekoli velikosti zahtevanih za ustvarjanje "
+"slike? Črte nakazujejo meje med različnimi listi."
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:37
 msgid "The sheets should overlap."
@@ -5287,14 +4884,12 @@ msgstr "Listi naj se prekrivajo."
 #. Translators: the translated version should not take more characters that the English original
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:43
 msgid ""
-"A full sized square of paper (yellow), a 3/4 of the whole size square of "
-"paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
-"in the top left corner and a 1/4 square of paper (red) in the top left "
-"corner."
+"A full sized square of paper (yellow), a 3/4 of the whole size square of paper (blue) in the bottom right "
+"corner, another 3/4 square of paper (green) in the top left corner and a 1/4 square of paper (red) in the "
+"top left corner."
 msgstr ""
-"Kvadrat polne velikosti papirja (rumeno), 3/4 celega kvadrata papirja v "
-"spodnjem desnem kotu (modro), 3/4 kvadrata papirja v zgornjem levem kotu "
-"(zeleno) in 1/4 kvadrata papirja v zgornjem levem kotu (rdeče)."
+"Kvadrat polne velikosti papirja (rumeno), 3/4 celega kvadrata papirja v spodnjem desnem kotu (modro), 3/4 "
+"kvadrata papirja v zgornjem levem kotu (zeleno) in 1/4 kvadrata papirja v zgornjem levem kotu (rdeče)."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:34
 msgid "Tetris"
@@ -5307,11 +4902,9 @@ msgstr "Katera slika konča spodnje zaporedje? Odgovorite  {0}, {1} ali {2}."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:45
 msgid ""
-"It is the figure that completes all possible combinations with four blocks "
-"without taking into account rotations."
-msgstr ""
-"Iščemo shemo, ki dopolni vse mogoče kombinacije s štirimi bloki, brez "
-"upoštevanja vrtenja."
+"It is the figure that completes all possible combinations with four blocks without taking into account "
+"rotations."
+msgstr "Iščemo shemo, ki dopolni vse mogoče kombinacije s štirimi bloki, brez upoštevanja vrtenja."
 
 #. Translators: this the name of a game
 #: ../src/Games/Logic/PuzzleTimeNow.cs:34
@@ -5321,44 +4914,40 @@ msgstr "Trenutni čas"
 #: ../src/Games/Logic/PuzzleTimeNow.cs:45
 #, csharp-format
 msgid ""
-"{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
-"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+"{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the same day. What is the time now? "
+"Answer using the hour (e.g.: {3:h tt})"
 msgid_plural ""
-"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
-"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the same day. What is the time "
+"now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
-"{0} ur nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na "
-"isti dan. Koliko je ura sedaj? Odgovorite z uporabo ure (na primer: {3:h tt})"
+"{0} ur nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na isti dan. Koliko je ura sedaj? "
+"Odgovorite z uporabo ure (na primer: {3:h tt})"
 msgstr[1] ""
-"{0} uro nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na "
-"isti dan. Koliko je ura sedaj? Odgovorite z uporabo ure (na primer: {3:h tt})"
+"{0} uro nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na isti dan. Koliko je ura sedaj? "
+"Odgovorite z uporabo ure (na primer: {3:h tt})"
 msgstr[2] ""
-"{0} uri nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na "
-"isti dan. Koliko je ura sedaj? Odgovorite z uporabo ure (na primer: {3:h tt})"
+"{0} uri nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na isti dan. Koliko je ura sedaj? "
+"Odgovorite z uporabo ure (na primer: {3:h tt})"
 msgstr[3] ""
-"{0} ure nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na "
-"isti dan. Koliko je ura sedaj? Odgovorite z uporabo ure (na primer: {3:h tt})"
+"{0} ure nazaj je bilo enako dolgo za {1:h tt}, kot je bilo pred {2:h tt} na isti dan. Koliko je ura sedaj? "
+"Odgovorite z uporabo ure (na primer: {3:h tt})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
 msgid ""
-"Determine the hour half way between the given times, and then add {0} hour "
-"to convert it to the present time."
+"Determine the hour half way between the given times, and then add {0} hour to convert it to the present "
+"time."
 msgid_plural ""
-"Determine the hour half way between the given times, and then add {0} hours "
-"to convert it to the present time."
+"Determine the hour half way between the given times, and then add {0} hours to convert it to the present "
+"time."
 msgstr[0] ""
-"Izračunate morate čas na polovici med danima časoma in nato dodati {0} ur za "
-"pretvorbo v sedanji čas."
+"Izračunate morate čas na polovici med danima časoma in nato dodati {0} ur za pretvorbo v sedanji čas."
 msgstr[1] ""
-"Izračunate morate čas na polovici med danima časoma in nato dodati {0} uro "
-"za pretvorbo v sedanji čas."
+"Izračunate morate čas na polovici med danima časoma in nato dodati {0} uro za pretvorbo v sedanji čas."
 msgstr[2] ""
-"Izračunate morate čas na polovici med danima časoma in nato dodati {0} uri "
-"za pretvorbo v sedanji čas."
+"Izračunate morate čas na polovici med danima časoma in nato dodati {0} uri za pretvorbo v sedanji čas."
 msgstr[3] ""
-"Izračunate morate čas na polovici med danima časoma in nato dodati {0} ure "
-"za pretvorbo v sedanji čas."
+"Izračunate morate čas na polovici med danima časoma in nato dodati {0} ure za pretvorbo v sedanji čas."
 
 #. TimeNow Puzzle. Translators: {0} is used to check the hour answered by the user.
 #. Use the right time format specification for your culture
@@ -5389,82 +4978,66 @@ msgstr "Formula za razdaljo je 'razdalja = hitrost x čas'."
 #: ../src/Games/Logic/PuzzleTrains.cs:81
 #, csharp-format
 msgid ""
-"A train leaves the station traveling at {0} mph. {1} hour later a second "
-"train leaves the station traveling in the same direction at {2} mph. How "
-"many hours does it take the second train, since it starts moving, to "
+"A train leaves the station traveling at {0} mph. {1} hour later a second train leaves the station traveling "
+"in the same direction at {2} mph. How many hours does it take the second train, since it starts moving, to "
 "overtake the first train?"
 msgid_plural ""
-"A train leaves the station traveling at {0} mph. {1} hours later a second "
-"train leaves the station traveling in the same direction at {2} mph. How "
-"many hours does it take the second train, since it starts moving, to "
-"overtake the first train?"
+"A train leaves the station traveling at {0} mph. {1} hours later a second train leaves the station "
+"traveling in the same direction at {2} mph. How many hours does it take the second train, since it starts "
+"moving, to overtake the first train?"
 msgstr[0] ""
-"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} ur kasneje "
-"železniško postajo zapusti drugi vlak, ki potuje v isti smeri s hitrostjo "
-"{2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak dohiti prvi "
-"vlak?"
+"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} ur kasneje železniško postajo zapusti drugi "
+"vlak, ki potuje v isti smeri s hitrostjo {2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak "
+"dohiti prvi vlak?"
 msgstr[1] ""
-"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} uro kasneje "
-"železniško postajo zapusti drugi vlak, ki potuje v isti smeri s hitrostjo "
-"{2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak dohiti prvi "
-"vlak?"
+"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} uro kasneje železniško postajo zapusti drugi "
+"vlak, ki potuje v isti smeri s hitrostjo {2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak "
+"dohiti prvi vlak?"
 msgstr[2] ""
-"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} uri kasneje "
-"železniško postajo zapusti drugi vlak, ki potuje v isti smeri s hitrostjo "
-"{2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak dohiti prvi "
-"vlak?"
+"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} uri kasneje železniško postajo zapusti drugi "
+"vlak, ki potuje v isti smeri s hitrostjo {2} kilometrov na uro. Koliko ur po odhodu s postaje drugi vlak "
+"dohiti prvi vlak?"
 msgstr[3] ""
-"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} ure kasneje "
-"železniško postajo zapusti drugi vlak, ki potuje v isti smeri s hitrostjo "
-"{2} kilometrov na uro.Koliko ur po odhodu s postaje drugi vlak dohiti prvi "
-"vlak?"
+"Vlak zapusti postajo s hitrostjo {0} kilometrov na uro. {1} ure kasneje železniško postajo zapusti drugi "
+"vlak, ki potuje v isti smeri s hitrostjo {2} kilometrov na uro.Koliko ur po odhodu s postaje drugi vlak "
+"dohiti prvi vlak?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:85
 msgid ""
-"You can calculate the answer by multiplying the speed of the first train by "
-"the time and dividing it by the difference of speeds."
+"You can calculate the answer by multiplying the speed of the first train by the time and dividing it by the "
+"difference of speeds."
 msgstr ""
-"Odgovor lahko izračunate z množenjem hitrosti prvega vlaka s časom in "
-"deljenjem z razliko v hitrostih."
+"Odgovor lahko izračunate z množenjem hitrosti prvega vlaka s časom in deljenjem z razliko v hitrostih."
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
 #: ../src/Games/Logic/PuzzleTrains.cs:101
 #, csharp-format
 msgid ""
-"Two trains separated by {0} mile are heading towards each other on straight "
-"parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
-"many hours will they meet?"
+"Two trains separated by {0} mile are heading towards each other on straight parallel tracks. One travels at "
+"{1} mph and the other at {2} mph. In how many hours will they meet?"
 msgid_plural ""
-"Two trains separated by {0} miles are heading towards each other on straight "
-"parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
-"many hours will they meet?"
+"Two trains separated by {0} miles are heading towards each other on straight parallel tracks. One travels "
+"at {1} mph and the other at {2} mph. In how many hours will they meet?"
 msgstr[0] ""
-"Dva vlaka sta oddaljena {0} kilometrov in potujeta drug proti drugemu na "
-"ravnih vzporednih železniških progah. Prvi potuje s hitrostjo {1} kilometrov "
-"na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez koliko ur se bosta "
-"srečata?"
+"Dva vlaka sta oddaljena {0} kilometrov in potujeta drug proti drugemu na ravnih vzporednih železniških "
+"progah. Prvi potuje s hitrostjo {1} kilometrov na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez "
+"koliko ur se bosta srečata?"
 msgstr[1] ""
-"Dva vlaka sta oddaljena {0} kilometer in potujeta drug proti drugemu na "
-"ravnih vzporednih železniških progah. Prvi potuje s hitrostjo {1} kilometrov "
-"na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez koliko ur se bosta "
-"srečata?"
+"Dva vlaka sta oddaljena {0} kilometer in potujeta drug proti drugemu na ravnih vzporednih železniških "
+"progah. Prvi potuje s hitrostjo {1} kilometrov na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez "
+"koliko ur se bosta srečata?"
 msgstr[2] ""
-"Dva vlaka sta oddaljena {0} kilometra in potujeta drug proti drugemu na "
-"ravnih vzporednih železniških progah. Prvi potuje s hitrostjo {1} kilometrov "
-"na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez koliko ur se bosta "
-"srečata?"
+"Dva vlaka sta oddaljena {0} kilometra in potujeta drug proti drugemu na ravnih vzporednih železniških "
+"progah. Prvi potuje s hitrostjo {1} kilometrov na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez "
+"koliko ur se bosta srečata?"
 msgstr[3] ""
-"Dva vlaka sta oddaljena {0} kilometre in potujeta drug proti drugemu na "
-"ravnih vzporednih železniških progah. Prvi potuje s hitrostjo {1} kilometrov "
-"na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez koliko ur se bosta "
-"srečata?"
+"Dva vlaka sta oddaljena {0} kilometre in potujeta drug proti drugemu na ravnih vzporednih železniških "
+"progah. Prvi potuje s hitrostjo {1} kilometrov na uro, drugi pa s hitrostjo {2} kilometrov na uro. Čez "
+"koliko ur se bosta srečata?"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:106
-#: ../src/Games/Logic/PuzzleTrains.cs:128
-msgid ""
-"You can calculate the answer by dividing the distance by the sum of both "
-"speeds."
+#: ../src/Games/Logic/PuzzleTrains.cs:106 ../src/Games/Logic/PuzzleTrains.cs:128
+msgid "You can calculate the answer by dividing the distance by the sum of both speeds."
 msgstr "Rezultat lahko izračunate z deljenjem razdalje z vsoto obeh hitrosti."
 
 #. Translators:
@@ -5472,29 +5045,23 @@ msgstr "Rezultat lahko izračunate z deljenjem razdalje z vsoto obeh hitrosti."
 #: ../src/Games/Logic/PuzzleTrains.cs:123
 #, csharp-format
 msgid ""
-"Two trains on straight parallel tracks leave from the same point and time "
-"traveling in opposite directions at {0} and {1} mph respectively. In how "
-"many hours will they be {2} mile apart?"
+"Two trains on straight parallel tracks leave from the same point and time traveling in opposite directions "
+"at {0} and {1} mph respectively. In how many hours will they be {2} mile apart?"
 msgid_plural ""
-"Two trains on straight parallel tracks leave from the same point and time "
-"traveling in opposite directions at {0} and {1} mph respectively. In how "
-"many hours will they be {2} miles apart?"
+"Two trains on straight parallel tracks leave from the same point and time traveling in opposite directions "
+"at {0} and {1} mph respectively. In how many hours will they be {2} miles apart?"
 msgstr[0] ""
-"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega "
-"mesta odideta v nasprotnih smereh s hitrostjo {0} in {1} kilometrov na uro. "
-"Čez koliko ur bosta {2} kilometrov narazen?"
+"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega mesta odideta v nasprotnih "
+"smereh s hitrostjo {0} in {1} kilometrov na uro. Čez koliko ur bosta {2} kilometrov narazen?"
 msgstr[1] ""
-"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega "
-"mesta odideta v nasprotnih smereh s hitrostjo {0} in {1} kilometrov na uro. "
-"Čez koliko ur bosta {2} kilometer narazen?"
+"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega mesta odideta v nasprotnih "
+"smereh s hitrostjo {0} in {1} kilometrov na uro. Čez koliko ur bosta {2} kilometer narazen?"
 msgstr[2] ""
-"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega "
-"mesta odideta v nasprotnih smereh s hitrostjo {0} in {1} kilometrov na uro. "
-"Čez koliko ur bosta {2} kilometra narazen?"
+"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega mesta odideta v nasprotnih "
+"smereh s hitrostjo {0} in {1} kilometrov na uro. Čez koliko ur bosta {2} kilometra narazen?"
 msgstr[3] ""
-"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega "
-"mesta odideta v nasprotnih smereh s hitrostjo {0} in {1} kilometrov na uro. "
-"Čez koliko ur bosta {2} kilometrov narazen?"
+"Dva vlaka na ravnih vzporednih železniških progah ob enakemu času z istega mesta odideta v nasprotnih "
+"smereh s hitrostjo {0} in {1} kilometrov na uro. Čez koliko ur bosta {2} kilometrov narazen?"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:31
 msgid "Triangles"
@@ -5502,8 +5069,7 @@ msgstr "Trikotniki"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:35
 msgid "How many triangles of any size do you count in the figure below?"
-msgstr ""
-"Koliko trikotnikov katerekoli velikosti lahko naštejete na sliki spodaj?"
+msgstr "Koliko trikotnikov katerekoli velikosti lahko naštejete na sliki spodaj?"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:39
 msgid "A triangle can be embedded inside another triangle."
@@ -5537,10 +5103,8 @@ msgstr "Obarvane slike"
 
 #: ../src/Games/Memory/MemoryColouredFigures.cs:59
 #, csharp-format
-msgid ""
-"Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"Katera od teh slik je bila prikazana? Odgovorite {0}, {1}, {2} ali {3}."
+msgid "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
+msgstr "Katera od teh slik je bila prikazana? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Memory/MemoryColouredText.cs:35
 msgid "Colored text"
@@ -5558,22 +5122,16 @@ msgstr "Štetje pik"
 #. Translators: {0} is the name of the color. The color name is always singular
 #: ../src/Games/Memory/MemoryCountDots.cs:52
 #, csharp-format
-msgid ""
-"How many dots of {0} color were in the previous image? Answer using numbers."
-msgstr ""
-"Koliko barvnih pik {0} je bilo na predhodni sliki? Odgovorite s številom."
+msgid "How many dots of {0} color were in the previous image? Answer using numbers."
+msgstr "Koliko barvnih pik {0} je bilo na predhodni sliki? Odgovorite s številom."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
 msgid "Memorize faces"
 msgstr "Pomnjenje obrazcev"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-msgid ""
-"In which cell is the other face like the one shown below? Answer the cell "
-"number."
-msgstr ""
-"V kateri celici je slika obraza enaka sliki prikazani spodaj? Odgovorite s "
-"številko celice."
+msgid "In which cell is the other face like the one shown below? Answer the cell number."
+msgstr "V kateri celici je slika obraza enaka sliki prikazani spodaj? Odgovorite s številko celice."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -5584,23 +5142,23 @@ msgstr "Pomnjenje dejstev"
 #: ../src/Games/Memory/MemoryFacts.cs:106
 #, csharp-format
 msgid ""
-"Shiny Cars had already announced a {0} day production halt next month, but "
-"before then it had not halted production since {1}."
+"Shiny Cars had already announced a {0} day production halt next month, but before then it had not halted "
+"production since {1}."
 msgid_plural ""
-"Shiny Cars had already announced a {0} day production halt next month, but "
-"before then it had not halted production since {1}."
+"Shiny Cars had already announced a {0} day production halt next month, but before then it had not halted "
+"production since {1}."
 msgstr[0] ""
-"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje "
-"bleščečih avtomobilov, prvič po letu {1}."
+"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje bleščečih avtomobilov, prvič po "
+"letu {1}."
 msgstr[1] ""
-"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje "
-"bleščečih avtomobilov, prvič po letu {1}."
+"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje bleščečih avtomobilov, prvič po "
+"letu {1}."
 msgstr[2] ""
-"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje "
-"bleščečih avtomobilov, prvič po letu {1}."
+"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje bleščečih avtomobilov, prvič po "
+"letu {1}."
 msgstr[3] ""
-"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje "
-"bleščečih avtomobilov, prvič po letu {1}."
+"Za naslednji mesec je bila oznanjena {0} dnevna zaustavitev proizvodnje bleščečih avtomobilov, prvič po "
+"letu {1}."
 
 #: ../src/Games/Memory/MemoryFacts.cs:110
 msgid "How many days did Shiny Cars halt its production for?"
@@ -5608,17 +5166,13 @@ msgstr "Za koliko dni je bila proizvodnja bleščečih avtomobilov zaustavljena?
 
 #: ../src/Games/Memory/MemoryFacts.cs:111
 msgid "In what year did Shiny Cars last halt its production?"
-msgstr ""
-"Katerega leta je bila proizvodnja bleščečih avtomobilov zadnjič zaustavljena?"
+msgstr "Katerega leta je bila proizvodnja bleščečih avtomobilov zadnjič zaustavljena?"
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #: ../src/Games/Memory/MemoryFacts.cs:119
 #, csharp-format
-msgid ""
-"Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
-msgstr ""
-"Prodaja bleščečih avtomobilov je lanskega decembra upadla za {0}%, največji "
-"upad od {1}."
+msgid "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
+msgstr "Prodaja bleščečih avtomobilov je lanskega decembra upadla za {0}%, največji upad od {1}."
 
 #: ../src/Games/Memory/MemoryFacts.cs:121
 msgid "By how much did company sales fall last December?"
@@ -5626,12 +5180,9 @@ msgstr "Za koliko je upadla prodaja lanskega decembra?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
 #, csharp-format
-msgid ""
-"Shiny Cars sales fell {0}% this past December. This is the worst decline "
-"since which year?"
+msgid "Shiny Cars sales fell {0}% this past December. This is the worst decline since which year?"
 msgstr ""
-"Prodaja bleščečih avtomobilov je lanskega decembra upadla za {0}%. To je "
-"največji upad od katerega leta?"
+"Prodaja bleščečih avtomobilov je lanskega decembra upadla za {0}%. To je največji upad od katerega leta?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
@@ -5639,18 +5190,13 @@ msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr "Okoli {0}% bleščečih avtomobilov je prodanih v Evropi."
 
 #: ../src/Games/Memory/MemoryFacts.cs:131
-msgid ""
-"What percentage of all Shiny Cars produced worldwide are sold in Europe?"
+msgid "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr "Koliko odstotkov bleščečih avtomobilov je prodanih v Evropi?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:137
 #, csharp-format
-msgid ""
-"About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
-"electricity."
-msgstr ""
-"Okoli {0}% bleščečih avtomobilov uporablja dizel, {1}% bencin, preostanek pa "
-"uporablja elektriko."
+msgid "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use electricity."
+msgstr "Okoli {0}% bleščečih avtomobilov uporablja dizel, {1}% bencin, preostanek pa uporablja elektriko."
 
 #: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use diesel?"
@@ -5683,11 +5229,11 @@ msgstr "Zapomnite si slike in besedilo"
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:84
 #, csharp-format
 msgid ""
-"The list below enumerates the figures shown in the previous image except for "
-"one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
+"The list below enumerates the figures shown in the previous image except for one. Which is the missing "
+"figure? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Na spodnjem seznamu so vse prej prikazane slike razen ene. Katera slika "
-"manjka? Mogoči odgovori so {0}, {1}, {2} in {3}."
+"Na spodnjem seznamu so vse prej prikazane slike razen ene. Katera slika manjka? Mogoči odgovori so {0}, "
+"{1}, {2} in {3}."
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
@@ -5699,11 +5245,8 @@ msgstr "Slike s števili"
 
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:43
 #, csharp-format
-msgid ""
-"Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"Kateri od teh kvadratov je bil predhodno prikazan? Odgovorite {0}, {1}, {2} "
-"ali {3}."
+msgid "Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
+msgstr "Kateri od teh kvadratov je bil predhodno prikazan? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Memory/MemoryIndications.cs:133
 #, csharp-format
@@ -5738,11 +5281,8 @@ msgstr "Pomnjenje znamenj"
 #: ../src/Games/Memory/MemoryIndications.cs:168
 #, csharp-format
 msgid ""
-"Which of the following graphics represents the indications previously given? "
-"Answer {0}, {1}, {2} or {3}."
-msgstr ""
-"Katera od naslednjih slik predstavlja predhodno dana znamenja? Odgovorite "
-"{0}, {1}, {2} ali {3}."
+"Which of the following graphics represents the indications previously given? Answer {0}, {1}, {2} or {3}."
+msgstr "Katera od naslednjih slik predstavlja predhodno dana znamenja? Odgovorite {0}, {1}, {2} ali {3}."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:65
 msgid "How many odd numbers were in the previous image? Answer using numbers."
@@ -5753,12 +5293,8 @@ msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr "Koliko sodih števil je bilo na predhodni sliki? Odgovorite s številom."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:115
-msgid ""
-"How many numbers with more than one digit were in the previous image? Answer "
-"using numbers."
-msgstr ""
-"Koliko števil z več kot eno številko je bilo na predhodni sliki? Odgovorite "
-"s številom."
+msgid "How many numbers with more than one digit were in the previous image? Answer using numbers."
+msgstr "Koliko števil z več kot eno številko je bilo na predhodni sliki? Odgovorite s številom."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:132
 msgid "Memorize numbers"
@@ -5769,9 +5305,7 @@ msgid "Memorize words"
 msgstr "Pomnjenje besed"
 
 #: ../src/Games/Memory/MemoryWords.cs:40
-msgid ""
-"There is a missing word from the previous list. Which one is the missing "
-"word?"
+msgid "There is a missing word from the previous list. Which one is the missing word?"
 msgstr "V prejšnjem seznamu manjka beseda. Katera beseda je to?"
 
 #. Body parts
@@ -5922,264 +5456,229 @@ msgid "wolf"
 msgstr "volk"
 
 #: ../tools/GameXmlGetString.cs:29
-msgid ""
-"How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
-msgid_plural ""
-"How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
-msgstr[0] ""
-"Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
-msgstr[1] ""
-"Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minuti? "
-msgstr[2] ""
-"Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
-msgstr[3] ""
-"Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
+msgid "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
+msgid_plural "How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
+msgstr[0] "Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
+msgstr[1] "Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minuti? "
+msgstr[2] "Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
+msgstr[3] "Za koliko stopinj se zavrti minutni kazalec v 2 urah in [num] minutah? "
 
 #: ../tools/GameXmlGetString.cs:33
 msgid ""
-"John is 46 years old. His son is [difference] year younger than half of "
-"John's age. How old is John's son?"
+"John is 46 years old. His son is [difference] year younger than half of John's age. How old is John's son?"
 msgid_plural ""
-"John is 46 years old. His son is [difference] years younger than half of "
-"John's age. How old is John's son?"
+"John is 46 years old. His son is [difference] years younger than half of John's age. How old is John's son?"
 msgstr[0] ""
-"Janez je star 46 let. Njegov sin je [difference] let mlajši kot pol Janezove "
-"starosti. Koliko je star Janezov sin?"
+"Janez je star 46 let. Njegov sin je [difference] let mlajši kot pol Janezove starosti. Koliko je star "
+"Janezov sin?"
 msgstr[1] ""
-"Janez je star 46 let. Njegov sin je [difference] leto mlajši kot pol "
-"Janezove starosti. Koliko je star Janezov sin?"
+"Janez je star 46 let. Njegov sin je [difference] leto mlajši kot pol Janezove starosti. Koliko je star "
+"Janezov sin?"
 msgstr[2] ""
-"Janez je star 46 let. Njegov sin je [difference] leti mlajši kot pol "
-"Janezove starosti. Koliko je star Janezov sin?"
+"Janez je star 46 let. Njegov sin je [difference] leti mlajši kot pol Janezove starosti. Koliko je star "
+"Janezov sin?"
 msgstr[3] ""
-"Janez je star 46 let. Njegov sin je [difference] leta mlajši kot pol "
-"Janezove starosti. Koliko je star Janezov sin?"
+"Janez je star 46 let. Njegov sin je [difference] leta mlajši kot pol Janezove starosti. Koliko je star "
+"Janezov sin?"
 
 #: ../tools/GameXmlGetString.cs:37
 msgid ""
-"John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"John's age is nowadays 2 times his son's age. [ago] year ago, John was [proportion] times older than his "
+"son. How old is John's son nowadays?"
 msgid_plural ""
-"John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"John's age is nowadays 2 times his son's age. [ago] years ago, John was [proportion] times older than his "
+"son. How old is John's son nowadays?"
 msgstr[0] ""
-"Janez je danes 2 krat starejši kot njegov sin. [ago] let nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. Koliko je Janez star danes?"
+"Janez je danes 2 krat starejši kot njegov sin. [ago] let nazaj je bil Janez [proportion] krat starejši kot "
+"njegov sin. Koliko je Janez star danes?"
 msgstr[1] ""
-"Janez je danes 2 krat starejši kot njegov sin. [ago] leto nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. Koliko je Janez star danes?"
+"Janez je danes 2 krat starejši kot njegov sin. [ago] leto nazaj je bil Janez [proportion] krat starejši kot "
+"njegov sin. Koliko je Janez star danes?"
 msgstr[2] ""
-"Janez je danes 2 krat starejši kot njegov sin. [ago] leti nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. Koliko je Janez star danes?"
+"Janez je danes 2 krat starejši kot njegov sin. [ago] leti nazaj je bil Janez [proportion] krat starejši kot "
+"njegov sin. Koliko je Janez star danes?"
 msgstr[3] ""
-"Janez je danes 2 krat starejši kot njegov sin. [ago] leta nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. Koliko je Janez star danes?"
+"Janez je danes 2 krat starejši kot njegov sin. [ago] leta nazaj je bil Janez [proportion] krat starejši kot "
+"njegov sin. Koliko je Janez star danes?"
 
 #: ../tools/GameXmlGetString.cs:41
 msgid ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] year ago, John was [proportion] times older than his "
-"son: x - [ago] = (y - [ago]) * [proportion]."
+"John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] year ago, "
+"John was [proportion] times older than his son: x - [ago] = (y - [ago]) * [proportion]."
 msgid_plural ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] years ago, John was [proportion] times older than his "
-"son: x - [ago] = (y - [ago]) * [proportion]."
+"John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] years "
+"ago, John was [proportion] times older than his son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
-"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin "
-"(spremenljivka y). To pomeni da je x = 2y. [ago] let nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
+"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin (spremenljivka y). To pomeni da je x = 2y. "
+"[ago] let nazaj je bil Janez [proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
 "[ago]) * [proportion]."
 msgstr[1] ""
-"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin "
-"(spremenljivka y). To pomeni, da je x = 2y. [ago] leto nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
+"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin (spremenljivka y). To pomeni, da je x = 2y. "
+"[ago] leto nazaj je bil Janez [proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
 "[ago]) * [proportion]."
 msgstr[2] ""
-"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin "
-"(spremenljivka y). To pomeni, da je x = 2y. [ago] leti nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
+"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin (spremenljivka y). To pomeni, da je x = 2y. "
+"[ago] leti nazaj je bil Janez [proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
 "[ago]) * [proportion]."
 msgstr[3] ""
-"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin "
-"(spremenljivka y). To pomeni, da je x = 2y. [ago] leta nazaj je bil Janez "
-"[proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
+"Janez (spremenljivka x) je danes 2 krat starejši kot njegov sin (spremenljivka y). To pomeni, da je x = 2y. "
+"[ago] leta nazaj je bil Janez [proportion] krat starejši kot njegov sin. To pomeni, da je x - [ago] = (y - "
 "[ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
 msgid ""
-"A file is protected by a password formed by a [digits] digit number "
-"represented in base 10 (ranging from 0 to 9). How many different passwords "
-"can you have?"
+"A file is protected by a password formed by a [digits] digit number represented in base 10 (ranging from 0 "
+"to 9). How many different passwords can you have?"
 msgid_plural ""
-"A file is protected by a password formed by a [digits] digits number "
-"represented in base 10 (ranging from 0 to 9). How many different passwords "
-"can you have?"
+"A file is protected by a password formed by a [digits] digits number represented in base 10 (ranging from 0 "
+"to 9). How many different passwords can you have?"
 msgstr[0] ""
-"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil "
-"(vrednosti od 0 do 9). Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil (vrednosti od 0 do 9). Koliko "
+"različnih gesel obstaja?"
 msgstr[1] ""
-"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števila "
-"(vrednosti od 0 do 9). Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števila (vrednosti od 0 do 9). Koliko "
+"različnih gesel obstaja?"
 msgstr[2] ""
-"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil "
-"(vrednosti od 0 do 9). Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil (vrednosti od 0 do 9). Koliko "
+"različnih gesel obstaja?"
 msgstr[3] ""
-"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil "
-"(vrednosti od 0 do 9). Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z desetiškim geslom sestavljenim iz [digits] števil (vrednosti od 0 do 9). Koliko "
+"različnih gesel obstaja?"
 
 #: ../tools/GameXmlGetString.cs:49
 msgid ""
-"A file is protected by a password formed by a [digits] digit represented in "
-"base 8 (ranging from 0 to 7). How many different passwords can you have?"
+"A file is protected by a password formed by a [digits] digit represented in base 8 (ranging from 0 to 7). "
+"How many different passwords can you have?"
 msgid_plural ""
-"A file is protected by a password formed by a [digits] digits represented in "
-"base 8 (ranging from 0 to 7). How many different passwords can you have?"
+"A file is protected by a password formed by a [digits] digits represented in base 8 (ranging from 0 to 7). "
+"How many different passwords can you have?"
 msgstr[0] ""
-"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) "
-"dolžine [digits] številk. Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) dolžine [digits] številk. Koliko "
+"različnih gesel obstaja?"
 msgstr[1] ""
-"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) "
-"dolžine [digits] številke. Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) dolžine [digits] številke. Koliko "
+"različnih gesel obstaja?"
 msgstr[2] ""
-"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) "
-"dolžine [digits] številk. Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) dolžine [digits] številk. Koliko "
+"različnih gesel obstaja?"
 msgstr[3] ""
-"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) "
-"dolžine [digits] številk. Koliko različnih gesel obstaja?"
+"Datoteka je zaščitena z geslom v osmiškim zapisu (številke so med 0 in 7) dolžine [digits] številk. Koliko "
+"različnih gesel obstaja?"
 
 #: ../tools/GameXmlGetString.cs:53
-msgid ""
-"There is [games] tennis game played simultaneously. How many different "
-"forecasts are possible?"
+msgid "There is [games] tennis game played simultaneously. How many different forecasts are possible?"
 msgid_plural ""
-"There are [games] tennis games played simultaneously. How many different "
-"forecasts are possible?"
-msgstr[0] ""
-"Hkrati se igra [games] iger tenisa. Koliko različnih napovedi je mogočih?"
-msgstr[1] ""
-"Hkrati se igra [games] igra tenisa. Koliko različnih napovedi je mogočih?"
-msgstr[2] ""
-"Hkrati se igrata [games] igri tenisa. Koliko različnih napovedi je mogočih?"
-msgstr[3] ""
-"Hkrati se igrajo [games] igre tenisa. Koliko različnih napovedi je mogočih?"
+"There are [games] tennis games played simultaneously. How many different forecasts are possible?"
+msgstr[0] "Hkrati se igra [games] iger tenisa. Koliko različnih napovedi je mogočih?"
+msgstr[1] "Hkrati se igra [games] igra tenisa. Koliko različnih napovedi je mogočih?"
+msgstr[2] "Hkrati se igrata [games] igri tenisa. Koliko različnih napovedi je mogočih?"
+msgstr[3] "Hkrati se igrajo [games] igre tenisa. Koliko različnih napovedi je mogočih?"
 
 #: ../tools/GameXmlGetString.cs:57
 msgid ""
-"In a tennis tournament, in every match a player is eliminated after losing "
-"to a single opponent. How many matches does it take to determine the winner "
-"of a tennis tournament that starts with [players] player?"
+"In a tennis tournament, in every match a player is eliminated after losing to a single opponent. How many "
+"matches does it take to determine the winner of a tennis tournament that starts with [players] player?"
 msgid_plural ""
-"In a tennis tournament, in every match a player is eliminated after losing "
-"to a single opponent. How many matches does it take to determine the winner "
-"of a tennis tournament that starts with [players] players?"
+"In a tennis tournament, in every match a player is eliminated after losing to a single opponent. How many "
+"matches does it take to determine the winner of a tennis tournament that starts with [players] players?"
 msgstr[0] ""
-"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je "
-"treba odigrati za določitev zmagovalca teniškega turnirja, ki se začne z "
-"[players] igralci?"
+"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je treba odigrati za določitev "
+"zmagovalca teniškega turnirja, ki se začne z [players] igralci?"
 msgstr[1] ""
-"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je "
-"treba odigrati za določitev zmagovalca teniškega turnirja, ki se začne z "
-"[players] igralcem?"
+"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je treba odigrati za določitev "
+"zmagovalca teniškega turnirja, ki se začne z [players] igralcem?"
 msgstr[2] ""
-"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je "
-"treba odigrati za določitev zmagovalca teniškega turnirja, ki se začne z "
-"[players] igralcema?"
+"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je treba odigrati za določitev "
+"zmagovalca teniškega turnirja, ki se začne z [players] igralcema?"
 msgstr[3] ""
-"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je "
-"treba odigrati za določitev zmagovalca teniškega turnirja, ki se začne s "
-"[players] igralci?"
+"Na teniškem turnirju je po vsaki tekmi poraženec izločen. Koliko iger je treba odigrati za določitev "
+"zmagovalca teniškega turnirja, ki se začne s [players] igralci?"
 
 #: ../tools/GameXmlGetString.cs:61
 msgid ""
-"You have [money] monetary unit in your bank account at 10% interest "
-"compounded annually. How much money will you have at the end of 2 years?"
+"You have [money] monetary unit in your bank account at 10% interest compounded annually. How much money "
+"will you have at the end of 2 years?"
 msgid_plural ""
-"You have [money] monetary units in your bank account at 10% interest "
-"compounded annually. How much money will you have at the end of 2 years?"
+"You have [money] monetary units in your bank account at 10% interest compounded annually. How much money "
+"will you have at the end of 2 years?"
 msgstr[0] ""
-"V svoji banki imate shranjenih [money] denarnih enot z 10% letno obrestno "
-"mero. Koliko denarja boste imeli po 2 letih?"
+"V svoji banki imate shranjenih [money] denarnih enot z 10% letno obrestno mero. Koliko denarja boste imeli "
+"po 2 letih?"
 msgstr[1] ""
-"V svoji banki imate shranjeno [money] denarno enoto z 10% letno obrestno "
-"mero. Koliko denarja boste imeli po 2 letih?"
+"V svoji banki imate shranjeno [money] denarno enoto z 10% letno obrestno mero. Koliko denarja boste imeli "
+"po 2 letih?"
 msgstr[2] ""
-"V svoji banki imate shranjeni [money] denarni enoti z 10% letno obrestno "
-"mero. Koliko denarja boste imeli po 2 letih?"
+"V svoji banki imate shranjeni [money] denarni enoti z 10% letno obrestno mero. Koliko denarja boste imeli "
+"po 2 letih?"
 msgstr[3] ""
-"V svoji banki imate shranjene [money] denarne enote z 10% letno obrestno "
-"mero. Koliko denarja boste imeli po 2 letih?"
+"V svoji banki imate shranjene [money] denarne enote z 10% letno obrestno mero. Koliko denarja boste imeli "
+"po 2 letih?"
 
 #: ../tools/GameXmlGetString.cs:69
 msgid ""
-"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
-"[friend]. Together they will need [answer_a] hour."
+"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / [friend]. Together they will "
+"need [answer_a] hour."
 msgid_plural ""
-"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
-"[friend]. Together they will need [answer_a] hours."
+"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / [friend]. Together they will "
+"need [answer_a] hours."
 msgstr[0] ""
-"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / "
-"[friend] na uro. Skupaj potrebujeta [answer_a] ur."
+"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / [friend] na uro. Skupaj "
+"potrebujeta [answer_a] ur."
 msgstr[1] ""
-"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / "
-"[friend] na uro. Skupaj potrebujeta [answer_a] ur."
+"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / [friend] na uro. Skupaj "
+"potrebujeta [answer_a] ur."
 msgstr[2] ""
-"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / "
-"[friend] na uro. Skupaj potrebujeta [answer_a] ur."
+"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / [friend] na uro. Skupaj "
+"potrebujeta [answer_a] ur."
 msgstr[3] ""
-"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / "
-"[friend] na uro. Skupaj potrebujeta [answer_a] ur."
+"Janez čisti s hitrostjo 1 / [john_time] na uro in njegov prijatelj z 1 / [friend] na uro. Skupaj "
+"potrebujeta [answer_a] ur."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
-"John needs [john_time] hour to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
+"John needs [john_time] hour to clean a warehouse and his friend needs half as many. How many hours would it "
+"take them to clean up the warehouse if they worked together? [option_answers]"
 msgid_plural ""
-"John needs [john_time] hours to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
+"John needs [john_time] hours to clean a warehouse and his friend needs half as many. How many hours would "
+"it take them to clean up the warehouse if they worked together? [option_answers]"
 msgstr[0] ""
-"Janez za čiščenje skladišča potrebuje [john_time] ur, njegov prijatelj pa "
-"porabi pol toliko časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] ur, njegov prijatelj pa porabi pol toliko časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[1] ""
-"Janez za čiščenje skladišča potrebuje [john_time] uro, njegov prijatelj pa "
-"porabi pol toliko časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] uro, njegov prijatelj pa porabi pol toliko časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[2] ""
-"Janez za čiščenje skladišča potrebuje [john_time] uri, njegov prijatelj pa "
-"porabi pol toliko časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] uri, njegov prijatelj pa porabi pol toliko časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[3] ""
-"Janez za čiščenje skladišča potrebuje [john_time] ure, njegov prijatelj pa "
-"porabi pol toliko časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] ure, njegov prijatelj pa porabi pol toliko časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:77
 msgid ""
-"John needs [john_time] hour to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
+"John needs [john_time] hour to clean a warehouse and his friend needs twice as many. How many hours would "
+"it take them to clean up the warehouse if they worked together? [option_answers]"
 msgid_plural ""
-"John needs [john_time] hours to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
+"John needs [john_time] hours to clean a warehouse and his friend needs twice as many. How many hours would "
+"it take them to clean up the warehouse if they worked together? [option_answers]"
 msgstr[0] ""
-"Janez za čiščenje skladišča potrebuje [john_time] ur, njegov prijatelj pa "
-"porabi dvakrat več časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] ur, njegov prijatelj pa porabi dvakrat več časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[1] ""
-"Janez za čiščenje skladišča potrebuje [john_time] uro, njegov prijatelj pa "
-"porabi dvakrat več časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] uro, njegov prijatelj pa porabi dvakrat več časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[2] ""
-"Janez za čiščenje skladišča potrebuje [john_time] uri, njegov prijatelj pa "
-"porabi dvakrat več časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] uri, njegov prijatelj pa porabi dvakrat več časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
 msgstr[3] ""
-"Janez za čiščenje skladišča potrebuje [john_time] ure, njegov prijatelj pa "
-"porabi dvakrat več časa. Koliko časa bi trajalo čiščenje skladišča, če bi "
-"delala skupaj? [option_answers]"
+"Janez za čiščenje skladišča potrebuje [john_time] ure, njegov prijatelj pa porabi dvakrat več časa. Koliko "
+"časa bi trajalo čiščenje skladišča, če bi delala skupaj? [option_answers]"
+
+#~ msgid "Do all the problems, even the difficult ones. Improvement comes from challeging yourself."
+#~ msgstr "Rešite vse naloge, tudi težke. Napredek je mogoče doseči le z vajo."
+
+#~ msgid "Some artist are not ill"
+#~ msgstr "Nekateri umetniki niso bolni"
 
 #~ msgid "coins"
 #~ msgstr "kovanci"
