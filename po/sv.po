@@ -1,26 +1,27 @@
 # Swedish translation for gbrainy.
-# Copyright (C) 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+# Copyright © 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011.
-#
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+# Josef Andersson <josef.andersson@fripost.org>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-27 21:47+0000\n"
-"PO-Revision-Date: 2011-11-02 09:10+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2015-06-19 04:58+0000\n"
+"PO-Revision-Date: 2015-07-20 18:40+0200\n"
+"Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
-#, fuzzy
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
 msgstr "Klockrotation"
 
@@ -46,7 +47,7 @@ msgid ""
 "people that have brothers only, minus [sisters_only] that have sisters only "
 "and minus [both] that have sisters and brothers."
 msgstr ""
-"Den beräknas genom att ta det totala antalet personer minus [brothers_only] "
+"Det beräknas genom att ta det totala antalet personer minus [brothers_only] "
 "personer som har endast bröder, minus [sisters_only] som har endast systrar "
 "och minus [both] som har systrar och bröder."
 
@@ -95,16 +96,12 @@ msgstr ""
 "antalet möjligheter är 2 upphöjt till [games]."
 
 #: ../data/games.xml.h:13
-#, fuzzy
-#| msgid ""
-#| "In every match you eliminate one player, you need the total number of "
-#| "games minus 1 to find out the winner."
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
 msgstr ""
-"I varje match slår du ut en spelare. Du behöver veta det totala antalet "
-"matcher minus 1 för att få reda på vinnaren."
+"I varje match slår du ut en spelare. Följaktligen är resultatet det totala "
+"antalet spelare minus ett."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
@@ -188,7 +185,7 @@ msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
 "x 5 x [z]?"
 msgstr ""
-"Hur många lådor som mäter 1 x 1 x 0,5 kan packas i en container som mäter 6 "
+"Hur många lådor som mäter 1 x 1 x 0,5 kan packas i en behållare som mäter 6 "
 "x 5 x [z]?"
 
 #: ../data/games.xml.h:34
@@ -291,8 +288,8 @@ msgid ""
 "Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
 "and a place to stand and I can move the Earth'."
 msgstr ""
-"Tänk på Arkimedes kända citat: \"Ge mig en fast punkt och jag skall rubba "
-"Jorden\"."
+"Tänk på Arkimedes kända citat: ”Ge mig en fast punkt och jag skall rubba "
+"Jorden”."
 
 #: ../data/games.xml.h:49
 msgid ""
@@ -320,7 +317,7 @@ msgid ""
 "remainder. For example, 10, 15 and 25 are multiples of 5."
 msgstr ""
 "En multipel är ett tal som kan delas av ett annat tal utan rest. Till "
-"exempel är 10, 15 och 25 multipler av 5."
+"exempel är 10, 15 och 25 multiplar av 5."
 
 #: ../data/games.xml.h:53
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
@@ -368,7 +365,7 @@ msgstr "[option_a] och [option_b]"
 
 #: ../data/games.xml.h:60
 msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr "[option_a] och [option_b] är båda multipler av [num_x] och [num_y]."
+msgstr "[option_a] och [option_b] är båda multiplar av [num_x] och [num_y]."
 
 #: ../data/games.xml.h:61
 msgid "Cars in town"
@@ -381,8 +378,8 @@ msgid ""
 "have a car and are males. What percentage of the population are females and "
 "have a car? [option_answers]"
 msgstr ""
-"I en liten stad har [all_cars]% av invånarna en bil och [males_cars]% som "
-"har en bil är män. Vilken procentandel av befolkningen är kvinnor och har en "
+"I en liten stad har [all_cars]% av invånarna en bil och [males_cars]% har en "
+"bil och är män. Vilken procentandel av befolkningen är kvinnor och har en "
 "bil? [option_answers]"
 
 #: ../data/games.xml.h:65
@@ -459,10 +456,8 @@ msgid "[option_prefix] r < q"
 msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
-#, fuzzy
-#| msgid "If x &gt; y, then x &gt; q &lt; and y &gt; r so r &lt; q is true."
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr "Om x &gt; y, och x &gt; q &lt; samt y &gt; r så är r &lt; q sant."
+msgstr "Om x &gt; y så är r &lt; y &lt; x &lt; q, så r &lt; q är sant."
 
 #: ../data/games.xml.h:84
 msgid "Odd number"
@@ -493,19 +488,14 @@ msgid "[option_prefix] (x - y) * 2"
 msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
-#, fuzzy
-#| msgid ""
-#| "Since x is always an even number, multiplying it by 2 always produces an "
-#| "even number. Adding an even number to an odd number (y) always produces "
-#| "an odd number."
 msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
 "produces an odd number."
 msgstr ""
-"Eftersom x alltid är ett jämnt tal och om det multipliceras med 2 ger det "
-"alltid ett jämnt tal. Lägger man till ett jämnt tal till ett udda tal (y) "
-"ger det alltid ett udda tal."
+"Multiplikation av två jämna tal ger alltid ett jämnt tal, så x multiplicerat "
+"med 2 är jämnt. Lägger man till ett udda tal (y) till detta jämna tal ger "
+"det alltid ett udda tal."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -589,7 +579,7 @@ msgstr "Hans moder"
 #: ../data/games.xml.h:106
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr "Systerns svärsyster är Johans faders fru, alltså Johans moder."
+msgstr "Systerns svägerska är Johans faders fru, alltså Johans moder."
 
 #: ../data/games.xml.h:107
 msgid ""
@@ -639,6 +629,8 @@ msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
+"gbrainy är ett spel för att träna minne, aritmetiska och logiska förmågor "
+"med många olika typer av övningar av olika svårighetsgrader."
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
@@ -647,6 +639,10 @@ msgid ""
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
 msgstr ""
+"Det bör ha något för alla åldrar och syften: barn vars föräldrar vill att de "
+"ska utveckla sina förmågor, vuxna som vill hålla sina sinnen i trim eller "
+"bara för skojs skull, äldre personer som kan behöva göra en del "
+"minnesövningar och så vidare."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -661,8 +657,7 @@ msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr ""
-"Spela spel som utmanar dina logiska, verbala, beräknande och "
-"minnesfärdigheter"
+"Spela spel som utmanar dina logiska, verbala, räkne- och minnesfärdigheter"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -729,7 +724,7 @@ msgstr "Hund och häst är djurarter och terrier och ponny är raser."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "Ordet \"taxidermist\" används för att definiera en person som?"
+msgstr "Ordet ”taxidermist” används för att definiera en person som?"
 
 #: ../data/verbal_analogies.xml.h:18
 msgid "Works with dead animals"
@@ -769,7 +764,7 @@ msgstr "Okonventionell"
 
 #: ../data/verbal_analogies.xml.h:27
 msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"censur\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”censur”?"
 
 #: ../data/verbal_analogies.xml.h:28
 msgid "Condemn"
@@ -812,8 +807,7 @@ msgstr "Martyr"
 
 #: ../data/verbal_analogies.xml.h:39
 msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr ""
-"Vilken av följande meningar definierar bättre en \"ostracerad\" person?"
+msgstr "Vilken av följande meningar definierar bättre en ”ostracerad” person?"
 
 #: ../data/verbal_analogies.xml.h:40
 msgid "Person expelled from society"
@@ -890,7 +884,7 @@ msgstr "Det är den enda som inte är ett blåsinstrument av trä."
 
 #: ../data/verbal_analogies.xml.h:62
 msgid "What is a 'halberd'?"
-msgstr "Vad är en \"hillebard\"?"
+msgstr "Vad är en ”hillebard”?"
 
 #: ../data/verbal_analogies.xml.h:63
 msgid "Weapon"
@@ -926,7 +920,7 @@ msgstr "Vindsvåning"
 
 #: ../data/verbal_analogies.xml.h:71
 msgid "It is the only one that is not related to architecture."
-msgstr "Det är den enda som inte är relaterat till arkitektur."
+msgstr "Det är den enda som inte är relaterad till arkitektur."
 
 #: ../data/verbal_analogies.xml.h:72
 msgid "Kilometer"
@@ -1011,7 +1005,7 @@ msgstr "Det är den enda som inte är en köttätare."
 
 #: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"hedonism\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”hedonism”?"
 
 #: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
@@ -1034,11 +1028,12 @@ msgstr "Avhållsamhet"
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
-"Den etiska läran säger att endast det som är njutbart är en väsentlig godhet."
+"Den etiska läran som säger att endast det som är njutbart är en väsentlig "
+"godhet."
 
 #: ../data/verbal_analogies.xml.h:99
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"askes\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”askes”?"
 
 #: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
@@ -1053,7 +1048,7 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"oxymoron\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”oxymoron”?"
 
 #: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
@@ -1153,7 +1148,7 @@ msgstr "Det är den enda som inte är en medicinsk specialitet."
 
 #: ../data/verbal_analogies.xml.h:127
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"nonchalant\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”nonchalant”?"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:129
@@ -1181,8 +1176,8 @@ msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
 msgstr ""
-"Det är misslyckandet att bry sig om som rättfärdigt eller ansvarsmässigt "
-"förväntas."
+"Det är misslyckandet att visa sådan försiktighet som rättfärdigt eller "
+"ansvarsmässigt förväntas."
 
 #: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
@@ -1206,12 +1201,12 @@ msgstr "De övriga orden har bibetydelsen av att inte inträffa frekvent."
 
 #: ../data/verbal_analogies.xml.h:143
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"förvirrad\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”förvirrad”?"
 
 #. Translator: As synonymous of 'perplexing'
 #: ../data/verbal_analogies.xml.h:145
 msgid "Confusing"
-msgstr "Förvirrad"
+msgstr "Disträ"
 
 #: ../data/verbal_analogies.xml.h:146
 msgid "Interesting"
@@ -1227,7 +1222,7 @@ msgstr "Banal"
 
 #: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"missbelåten\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”missbelåten”?"
 
 #: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
@@ -1263,7 +1258,7 @@ msgstr "De övriga orden har betydelsen av något utmärkande."
 
 #: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"specifik\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”specifik”?"
 
 #. Translator: Pertaining to a single or specific person or thing
 #: ../data/verbal_analogies.xml.h:160
@@ -1279,295 +1274,248 @@ msgid "Generic"
 msgstr "Allmän"
 
 #: ../data/verbal_analogies.xml.h:163
-#, fuzzy
-#| msgid "Related"
 msgid "Plate"
-msgstr "Besläktad"
+msgstr "Tallrik"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:165
 msgid "Bottle"
-msgstr ""
+msgstr "Flaska"
 
 #: ../data/verbal_analogies.xml.h:166
 msgid "Amphora"
-msgstr ""
+msgstr "Amfora"
 
 #: ../data/verbal_analogies.xml.h:167
 msgid "Bowl"
-msgstr ""
+msgstr "Skål"
 
 #: ../data/verbal_analogies.xml.h:168
-#, fuzzy
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used to storage liquids."
-msgstr "Det är den enda som inte är en frukt."
+msgstr "Det är den enda som inte används för att lagra vätska."
 
 #: ../data/verbal_analogies.xml.h:169
 msgid "Walnut"
-msgstr ""
+msgstr "Valnöt"
 
 #. Translator: In reference to the nut
 #: ../data/verbal_analogies.xml.h:171
 msgid "Macadamia"
-msgstr ""
+msgstr "Macadamia"
 
 #: ../data/verbal_analogies.xml.h:172
-#, fuzzy
-#| msgid "chest"
 msgid "Chestnut"
-msgstr "bröst"
+msgstr "Kastanj"
 
 #: ../data/verbal_analogies.xml.h:173
-#, fuzzy
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not a nut."
-msgstr "Det är den enda som inte är en frukt."
+msgstr "Det är den enda som inte är en nöt."
 
 #: ../data/verbal_analogies.xml.h:174
-#, fuzzy
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"askes\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”hylla”?"
 
 #: ../data/verbal_analogies.xml.h:175
-#, fuzzy
-#| msgid "Apple"
 msgid "Applause"
-msgstr "Äpple"
+msgstr "Applåder"
 
 #: ../data/verbal_analogies.xml.h:176
-#, fuzzy
-#| msgid "Ostentation"
 msgid "Commendation"
-msgstr "Anspråksfullhet"
+msgstr "Lovord"
 
 #: ../data/verbal_analogies.xml.h:177
-#, fuzzy
-#| msgid "Fixation"
 msgid "Citation"
-msgstr "Fixering"
+msgstr "Citat"
 
 #. Translator: As a noun (call upon a spirit by invocation)
 #: ../data/verbal_analogies.xml.h:179
 msgid "Conjure"
-msgstr ""
+msgstr "Frammana"
 
 #: ../data/verbal_analogies.xml.h:180
-#, fuzzy
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'negligent'?"
 msgid "Which of the following words is closest to the meaning of 'grief'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"nonchalant\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”sorg”?"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:182
 msgid "Lament"
-msgstr ""
+msgstr "Klagosång"
 
 #: ../data/verbal_analogies.xml.h:183
 msgid "Fraud"
-msgstr ""
+msgstr "Bedrägeri"
 
 #: ../data/verbal_analogies.xml.h:184
 msgid "Intolerance"
-msgstr ""
+msgstr "Intolerans"
 
 #: ../data/verbal_analogies.xml.h:185
 msgid "Risk"
-msgstr ""
+msgstr "Risk"
 
 #: ../data/verbal_analogies.xml.h:186
-#, fuzzy
-#| msgid ""
-#| "Which of the following words is closest to the meaning of 'specific'?"
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
-msgstr "Vilket av följande ord är närmast betydelsen för \"specifik\"?"
+msgstr "Vilket av följande ord är närmast betydelsen för ”flegmatisk”?"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
 msgid "Calm"
-msgstr ""
+msgstr "Lugn"
 
 #: ../data/verbal_analogies.xml.h:189
-#, fuzzy
-#| msgid "Attention"
 msgid "Authentic"
-msgstr "Uppmärksam"
+msgstr "Autentisk"
 
 #: ../data/verbal_analogies.xml.h:190
-#, fuzzy
-#| msgid "Lever"
 msgid "Clever"
-msgstr "Hävstång"
+msgstr "Klyftig"
 
 #: ../data/verbal_analogies.xml.h:191
 msgid "Tense"
-msgstr ""
+msgstr "Spänd"
 
 #: ../data/verbal_analogies.xml.h:192
-#, fuzzy
-#| msgid "Concert hall"
 msgid "Concert"
-msgstr "Konserthall"
+msgstr "Konsert"
 
 #: ../data/verbal_analogies.xml.h:193
 msgid "Satire"
-msgstr ""
+msgstr "Satir"
 
 #: ../data/verbal_analogies.xml.h:194
 msgid "Proverb"
-msgstr ""
+msgstr "Ordspråk"
 
 #: ../data/verbal_analogies.xml.h:195
-#, fuzzy
-#| msgid "Enneagram"
 msgid "Epigram"
-msgstr "Enneagram"
+msgstr "Epigram"
 
 #: ../data/verbal_analogies.xml.h:196
-#, fuzzy
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to literature."
-msgstr "Det är den enda som inte är relaterat till arkitektur."
+msgstr "Det är den enda som inte är relaterad till litteratur."
 
 #: ../data/verbal_analogies.xml.h:197
 msgid "Curve"
-msgstr ""
+msgstr "Kurva"
 
 #: ../data/verbal_analogies.xml.h:198
 msgid "Cathetus"
-msgstr ""
+msgstr "Katet"
 
 #: ../data/verbal_analogies.xml.h:199
 msgid "Hypotenuse"
-msgstr ""
+msgstr "Hypotenusa"
 
 #: ../data/verbal_analogies.xml.h:200
 msgid "Trigonometry"
-msgstr ""
+msgstr "Trigonometri"
 
 #: ../data/verbal_analogies.xml.h:201
-#, fuzzy
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related with triangles."
-msgstr "Det är den enda som inte är relaterat till arkitektur."
+msgstr "Det är den enda som inte är relaterad till trianglar."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:203
 msgid "Necklace"
-msgstr ""
+msgstr "Halsband"
 
 #: ../data/verbal_analogies.xml.h:204
 msgid "Candelabra"
-msgstr ""
+msgstr "Kandelaber"
 
 #: ../data/verbal_analogies.xml.h:205
 msgid "Lantern"
-msgstr ""
+msgstr "Lanterna"
 
 #: ../data/verbal_analogies.xml.h:206
 msgid "Lamp"
-msgstr ""
+msgstr "Lampa"
 
 #: ../data/verbal_analogies.xml.h:207
-#, fuzzy
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not produce light."
-msgstr "Det är den enda som inte är en frukt."
+msgstr "Det är den enda som inte producerar ljus."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:209
 msgid "Shield"
-msgstr ""
+msgstr "Sköld"
 
 #: ../data/verbal_analogies.xml.h:210
 msgid "Helmet"
-msgstr ""
+msgstr "Hjälm"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:212
 msgid "Armor"
-msgstr ""
+msgstr "Rustning"
 
 #: ../data/verbal_analogies.xml.h:213
 msgid "Crossbow"
-msgstr ""
+msgstr "Armborst"
 
 #: ../data/verbal_analogies.xml.h:214
-#, fuzzy
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used for protection."
-msgstr "Det är den enda som inte är en frukt."
+msgstr "Det är den enda som inte används som skydd."
 
 #: ../data/verbal_analogies.xml.h:215
 msgid "Monolith"
-msgstr ""
+msgstr "Monolit"
 
 #: ../data/verbal_analogies.xml.h:216
 msgid "Granite"
-msgstr ""
+msgstr "Granit"
 
 #: ../data/verbal_analogies.xml.h:217
 msgid "Rock"
-msgstr ""
+msgstr "Sten"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:219
 msgid "Tree"
-msgstr ""
+msgstr "Träd"
 
 #: ../data/verbal_analogies.xml.h:220
-#, fuzzy
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to rocks."
-msgstr "Det är den enda som inte är relaterat till arkitektur."
+msgstr "Det är den enda som inte är relaterad till stenar."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:222
 msgid "Carrot"
-msgstr ""
+msgstr "Morot"
 
 #: ../data/verbal_analogies.xml.h:223
 msgid "Beet"
-msgstr ""
+msgstr "Beta"
 
 #: ../data/verbal_analogies.xml.h:224
-#, fuzzy
-#| msgid "Radius"
 msgid "Radish"
-msgstr "Radie"
+msgstr "Rättika"
 
 #: ../data/verbal_analogies.xml.h:225
 msgid "Tomato"
-msgstr ""
+msgstr "Tomat"
 
 #: ../data/verbal_analogies.xml.h:226
-#, fuzzy
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not have roots."
-msgstr "Det är den enda som inte är en frukt."
+msgstr "Det är den enda som inte har rötter."
 
 #. Translator: Organ as a musical instrument
 #: ../data/verbal_analogies.xml.h:228
 msgid "Organ"
-msgstr ""
+msgstr "Orgel"
 
 #: ../data/verbal_analogies.xml.h:229
 msgid "Piano"
-msgstr ""
+msgstr "Piano"
 
 #: ../data/verbal_analogies.xml.h:230
 msgid "Accordion"
-msgstr ""
+msgstr "Dragspel"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
-#, fuzzy
-#| msgid "It is the only one that is not a metal."
 msgid "It is the only instrument that does not have keys."
-msgstr "Det är den enda som inte är en metall."
+msgstr "Det är den enda som inte har tangenter."
 
 #: ../data/verbal_analogies.xml.h:233
 msgid "car / garage | plane"
@@ -1619,7 +1567,7 @@ msgstr "prata / skrika | ogilla"
 
 #: ../data/verbal_analogies.xml.h:245
 msgid "Repugnance"
-msgstr "Oförenlig"
+msgstr "Avsky"
 
 #: ../data/verbal_analogies.xml.h:246
 msgid "Offensive"
@@ -1682,8 +1630,8 @@ msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
 msgstr ""
-"En oas är en isolerad yta av vegetation i en öken och en ö är en del av ett "
-"isolerat land som omges av vatten."
+"En oas är en isolerad yta av vegetation i en öken och en ö är en isolerad "
+"landmassa som omges av vatten."
 
 #. Translators: letter refers to letter (in paper form)
 #: ../data/verbal_analogies.xml.h:262
@@ -1741,7 +1689,7 @@ msgstr "Insekter"
 
 #: ../data/verbal_analogies.xml.h:275
 msgid "Amphibians"
-msgstr "Vattendjur"
+msgstr "Amfibier"
 
 #: ../data/verbal_analogies.xml.h:276
 msgid "Fishes"
@@ -1818,7 +1766,7 @@ msgstr "Latitud"
 
 #: ../data/verbal_analogies.xml.h:295
 msgid "Solstice"
-msgstr "Solstitier"
+msgstr "Solstånd"
 
 #: ../data/verbal_analogies.xml.h:296
 msgid "Pole"
@@ -1883,10 +1831,8 @@ msgstr "tallrik / sönder | ballong"
 
 #. Translators: like 'he burst the balloon'
 #: ../data/verbal_analogies.xml.h:312
-#, fuzzy
-#| msgid "Bursts"
 msgid "Burst"
-msgstr "Brista"
+msgstr "Spränga"
 
 #: ../data/verbal_analogies.xml.h:313
 msgid "Bounce"
@@ -1902,7 +1848,7 @@ msgstr "Rulla"
 
 #: ../data/verbal_analogies.xml.h:316
 msgid "Both relate to an action that breaks the related item."
-msgstr "Båda relaterar till en åtgärd som bryter det relaterade objektet."
+msgstr "Båda relaterar till en åtgärd som förstör det relaterade objektet."
 
 #: ../data/verbal_analogies.xml.h:317
 msgid "button / push | key (used in a lock)"
@@ -1983,89 +1929,75 @@ msgstr "Bur"
 #. Translator: 'rook' as a piece of chess
 #: ../data/verbal_analogies.xml.h:339
 msgid "rook / chess | soldier"
-msgstr ""
+msgstr "torn / schack | soldat"
 
 #: ../data/verbal_analogies.xml.h:340
 msgid "Battle"
-msgstr ""
+msgstr "Strid"
 
 #: ../data/verbal_analogies.xml.h:341
 msgid "Gun"
-msgstr ""
+msgstr "Pistol"
 
 #: ../data/verbal_analogies.xml.h:342
 msgid "Peace"
-msgstr ""
+msgstr "Fred"
 
 #: ../data/verbal_analogies.xml.h:343
 msgid "Enemy"
-msgstr ""
+msgstr "Fiende"
 
 #: ../data/verbal_analogies.xml.h:344
 msgid "competitive / cooperative | anxious"
-msgstr ""
+msgstr "tävlingsinriktad / samarbetsvillig | bekymrad"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:346
 msgid "Flexible"
-msgstr ""
+msgstr "Flexibel"
 
 #: ../data/verbal_analogies.xml.h:347
 msgid "Cautious"
-msgstr ""
+msgstr "Varsam"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:349
 msgid "Daring"
-msgstr ""
+msgstr "Djärv"
 
 #: ../data/verbal_analogies.xml.h:350
-#, fuzzy
-#| msgid "pessimist / optimist | poor"
 msgid "pessimistic / optimistic | suspicious"
-msgstr "pessimist / optimist | fattig"
+msgstr "pessimistisk / optimistisk | misstänksam"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:352
-#, fuzzy
-#| msgid "Interesting"
 msgid "Trusting"
-msgstr "Intressant"
+msgstr "Tillitsfull"
 
 #: ../data/verbal_analogies.xml.h:353
-#, fuzzy
-#| msgid "Obvious"
 msgid "Dubious"
-msgstr "Uppenbar"
+msgstr "Tvivelaktig"
 
 #. Translator: compass as the instrument used for finding direction
 #: ../data/verbal_analogies.xml.h:355
-#, fuzzy
-#| msgid "thermometer / temperature | clock"
 msgid "thermometer / temperature | compass"
-msgstr "termometer / temperatur | klocka"
+msgstr "termometer / temperatur | kompass"
 
 #: ../data/verbal_analogies.xml.h:356
-#, fuzzy
-#| msgid "Fractions"
 msgid "Direction"
-msgstr "Bråk"
+msgstr "Riktning"
 
 #: ../data/verbal_analogies.xml.h:357
-#, fuzzy
-#| msgid "Equation"
 msgid "Elevation"
-msgstr "Ekvation"
+msgstr "Höjd"
 
 #: ../data/verbal_analogies.xml.h:358
-#, fuzzy
-#| msgid "Positivism"
 msgid "Position"
-msgstr "Positivism"
+msgstr "Position"
 
 #: ../data/verbal_analogies.xml.h:359
 msgid "Area"
-msgstr ""
+msgstr "Area"
 
 #: ../data/verbal_analogies.xml.h:360
 msgid "The first word is the instrument and the second what it measures."
@@ -2101,14 +2033,14 @@ msgstr "klyva | hugga"
 #. Translators: 'break' is used as a verb (to break)
 #: ../data/verbal_analogies.xml.h:371
 msgid "glass / break | paper"
-msgstr "glas / sönder | papper"
+msgstr "glas / krossa | papper"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
 #: ../data/verbal_analogies.xml.h:373
 msgid "tear | rip"
-msgstr "riva"
+msgstr "riva | slita"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "fötter / två | tår"
@@ -2217,15 +2149,15 @@ msgstr "grönsak"
 
 #: ../data/verbal_analogies.xml.h:406
 msgid "hands / grab | teeth"
-msgstr "händer / ta | tänder"
+msgstr "händer / greppar | tänder"
 
 #: ../data/verbal_analogies.xml.h:407
 msgid "bite"
-msgstr "bita"
+msgstr "biter"
 
 #: ../data/verbal_analogies.xml.h:408
 msgid "Grab and bite are finite actions."
-msgstr "Fånga och bita är begränsande åtgärder."
+msgstr "Greppar och biter är finita verb."
 
 #: ../data/verbal_analogies.xml.h:409
 msgid "puzzle / solve | game"
@@ -2249,7 +2181,7 @@ msgstr "is / halt | lim"
 
 #: ../data/verbal_analogies.xml.h:414
 msgid "sticky"
-msgstr "klistrig | klibbig"
+msgstr "klistrig | klibbig | klistrigt | klibbigt"
 
 #: ../data/verbal_analogies.xml.h:415
 msgid "whirlpool / water | tornado"
@@ -2271,9 +2203,10 @@ msgstr "bo | näste"
 msgid "dog / tame | wolf"
 msgstr "hund / tam | varg"
 
+# Svar på frågan: Om en hund är tam så är en varg ...
 #: ../data/verbal_analogies.xml.h:420
 msgid "wild | savage"
-msgstr "vild | vilde"
+msgstr "vild"
 
 #: ../data/verbal_analogies.xml.h:421
 msgid "sugar / sweet | vinegar"
@@ -2281,7 +2214,7 @@ msgstr "socker / sött | vinäger"
 
 #: ../data/verbal_analogies.xml.h:422
 msgid "sour"
-msgstr "sur"
+msgstr "sur | surt"
 
 #: ../data/verbal_analogies.xml.h:423
 msgid "tennis / sport | ballet"
@@ -2302,7 +2235,7 @@ msgstr "näsa"
 
 #: ../data/verbal_analogies.xml.h:428
 msgid "elbow / knee | wrist"
-msgstr "armbåge / knä | vrist"
+msgstr "armbåge / knä | handled"
 
 #: ../data/verbal_analogies.xml.h:429
 msgid "ankle"
@@ -2321,8 +2254,6 @@ msgid "car / road | train"
 msgstr "bil / väg | tåg"
 
 #: ../data/verbal_analogies.xml.h:433
-#, fuzzy
-#| msgid "track | railway | rails"
 msgid "track | railway | rails | railroad"
 msgstr "spår | järnväg | räls"
 
@@ -2332,7 +2263,7 @@ msgstr "pediatrik / barn | numismatik"
 
 #: ../data/verbal_analogies.xml.h:435
 msgid "coins | currency | money"
-msgstr ""
+msgstr "mynt | valuta | pengar"
 
 #: ../data/verbal_analogies.xml.h:436
 msgid "thermometer / temperature | clock"
@@ -2387,7 +2318,7 @@ msgstr "öar"
 #: ../src/Clients/Classical/CommandLine.cs:100
 #, csharp-format
 msgid "Unknown command line parameter {0}"
-msgstr ""
+msgstr "Okänd kommandoradsparameter {0}"
 
 #. Translators: {0} is a date
 #: ../src/Clients/Classical/CommandLine.cs:110
@@ -2449,6 +2380,8 @@ msgstr "MENSA-arbeten"
 msgid "translator-credits"
 msgstr ""
 "Daniel Nylander <po@danielnylander.se>\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Josef Andersson <josef.andersson@fripost.org>\n"
 "\n"
 "Skicka synpunkter på översättningen till\n"
 "<tp-sv@listor.tp-sv.se>."
@@ -2496,10 +2429,8 @@ msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "En hjärnretare att ha kul med och träna dina hjärnmuskler."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#, fuzzy
-#| msgid "gbrainy project web site: {0}"
 msgid "gbrainy project web site"
-msgstr "Webbplats för gbrainy-projektet: {0}"
+msgstr "Webbplats för gbrainy-projektet"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
@@ -2540,7 +2471,7 @@ msgstr ""
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
-msgstr "Diagrammet nedan visar spelarens poängevolution. "
+msgstr "Diagrammet nedan visar spelarens poängevolution."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
 msgid ""
@@ -2615,7 +2546,7 @@ msgid ""
 "the puzzles without a computer."
 msgstr ""
 "Detta alternativ gör att du kan exportera en uppsättning spel till en PDF-"
-"fil. Du kan färdigställa pusslen utan en dator."
+"fil. Du kan slutföra pusslen utan en dator."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
@@ -2714,13 +2645,11 @@ msgstr ""
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:5
 msgid "Search and load extensions when starting"
-msgstr ""
+msgstr "Sök och läs in utökningar vid uppstart"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-#, fuzzy
-#| msgid "Enable"
 msgid "Enable sounds"
-msgstr "Aktivera"
+msgstr "Aktivera ljud"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:7
 msgid "Theme:"
@@ -2754,46 +2683,46 @@ msgstr "Maximalt antal lagrade spel i spelarens historik:"
 msgid "Delete Player's Game Session History"
 msgstr "Ta bort spelarens historik"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Gratulerar."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Felaktigt svar."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
 msgstr ""
-"När du har ett svar ska du ange det i \"Svar:\"-fältet och trycka på \"OK\"-"
+"När du har ett svar ska du ange det i ”Svar:”-fältet och trycka på ”OK”-"
 "knappen."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Nivån av översättningen för gbrainy för ditt språk är låg."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
 msgstr ""
-"Du kan påträffa delvis översatta spel som gör det lite svårare att spela. Om "
-"du föredrar att spela på engelska så finns det ett alternativ för att göra "
-"det i inställningarna för gbrainy."
+"Du kan träffa på delvis översatta spel som gör det lite svårare att spela. "
+"Om du föredrar att spela på engelska så finns det ett alternativ för att "
+"göra det i inställningarna för gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
-msgstr "Paus"
+msgstr "Pausa"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Återuppta"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Uppstartstid {0}"
@@ -2815,10 +2744,8 @@ msgid "Logic Puzzles Only"
 msgstr "Endast logiska pussel"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
-#, fuzzy
-#| msgid "Mental Calculation"
 msgid "Mental Calculation Only"
-msgstr "Mental beräkning"
+msgstr "Endast mental beräkning"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:7
 msgid "Memory Trainers Only"
@@ -2830,11 +2757,11 @@ msgstr "Endast verbala analogier"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:9
 msgid "Custom Game Selection..."
-msgstr "Val av anpassade spel..."
+msgstr "Val av anpassade spel…"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:10
 msgid "_Pause Game"
-msgstr "_Gör paus i spelet"
+msgstr "_Pausa spelet"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:11
 msgid "_End Game"
@@ -2842,7 +2769,7 @@ msgstr "_Avsluta spelet"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Exportera spel till PDF för spel utanför datorn..."
+msgstr "Exportera spel till PDF för frånkopplat spelande…"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -2922,15 +2849,15 @@ msgstr "Följande tillägg är redan installerade:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:36
 msgid "_Install Add-ins..."
-msgstr "_Installera tillägg..."
+msgstr "_Installera tillägg…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:37
 msgid "_Repositories..."
-msgstr "_Förråd..."
+msgstr "_Förråd…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:38
 msgid "_Uninstall..."
-msgstr "_Avinstallera..."
+msgstr "_Avinstallera…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:39
 msgid "Enable"
@@ -3035,7 +2962,7 @@ msgstr "Url:"
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:64
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
 msgid "Browse..."
-msgstr "Bläddra..."
+msgstr "Bläddra…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:65
 msgid "Path:"
@@ -3060,7 +2987,7 @@ msgstr "Förråd:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:72
 msgid "Install from file..."
-msgstr "Installera från fil..."
+msgstr "Installera från fil…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:73
 msgid "No selection"
@@ -3088,7 +3015,7 @@ msgstr "Alla förråd"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:79
 msgid "Manage Repositories..."
-msgstr "Hantera förråd..."
+msgstr "Hantera förråd…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:80
 msgid "Add-in Repository Management"
@@ -3150,7 +3077,7 @@ msgstr "Avsluta spelet och visa dina poäng"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
 msgid "End"
-msgstr "Slut"
+msgstr "Avsluta"
 
 #: ../src/Core/Main/ColorPalette.cs:72
 msgid "red"
@@ -3255,12 +3182,11 @@ msgstr "Figur {0}"
 
 #: ../src/Core/Main/Game.cs:138
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
-#, fuzzy, csharp-format
-#| msgid "The correct answer is {0}."
+#, csharp-format
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
 msgstr[0] "Det rätta svaret är {0}."
-msgstr[1] "Det rätta svaret är {0}."
+msgstr[1] "De möjliga rätta svaren är {0}."
 
 #: ../src/Core/Main/GameManager.cs:251
 msgid "Extensions database:"
@@ -3348,15 +3274,14 @@ msgstr "Prova att närma dig problemet från olika vinklar."
 #: ../src/Core/Main/GameTips.cs:67
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
-msgstr "Var inte rädd att göra fel. Det är en del av inlärningsprocessen."
+msgstr "Var inte rädd att göra fel, det är en del av inlärningsprocessen."
 
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
-"Gå igenom alla problem, även de svåra. Övning ger färdighet. Förbättring "
-"kommer genom utmaningar."
+"Gå igenom alla problem, även de svåra. Förbättring kommer genom utmaningar."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -3368,7 +3293,7 @@ msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
 msgstr ""
-"Använd \"Val av anpassade spel\" för att välja exakt vilka spel som du vill "
+"Använd ”Val av anpassade spel” för att välja exakt vilka spel som du vill "
 "spela."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
@@ -3410,6 +3335,7 @@ msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
 msgstr ""
+"Försök utföra beräkningar utan hjälp av miniräknare när du far och handlar."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
@@ -3478,8 +3404,8 @@ msgid ""
 "Given the relationship between the two words below, which word has the same "
 "relationship to '{0}'?"
 msgstr ""
-"Vilket ord har den närmsta relationen till \"{0}\" enligt förhållandet "
-"mellan nedanstående ord?"
+"Vilket ord har den närmsta relationen till ”{0}” enligt förhållandet mellan "
+"nedanstående ord?"
 
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
@@ -3505,7 +3431,7 @@ msgstr "Svara {0}."
 
 #: ../src/Core/Views/CountDownView.cs:80
 msgid "Get ready to memorize the next objects..."
-msgstr "Förbered dig på att memorera kommande objekt..."
+msgstr "Förbered dig på att memorera kommande objekt…"
 
 #: ../src/Core/Views/FinishView.cs:145
 #: ../src/Core/Views/PlayerHistoryView.cs:277
@@ -3514,28 +3440,25 @@ msgstr "Poäng"
 
 #. Translator: This will be part of the sentence "Games won: 10 (6 played)"
 #: ../src/Core/Views/FinishView.cs:154
-#, fuzzy, csharp-format
-#| msgid "Time played:"
+#, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
-msgstr[0] "Tid spelad:"
-msgstr[1] "Tid spelad:"
+msgstr[0] "{0} spelat"
+msgstr[1] "{0} spelade"
 
 #: ../src/Core/Views/FinishView.cs:158
-#, fuzzy, csharp-format
-#| msgid "Games won: {0} ({1} played)"
+#, csharp-format
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
-msgstr[0] "Spel vunna: {0} ({1} spelade)"
-msgstr[1] "Spel vunna: {0} ({1} spelade)"
+msgstr[0] "Spel vunna: {0} ({1})"
+msgstr[1] "Spel vunna: {0} ({1})"
 
 #: ../src/Core/Views/FinishView.cs:162
-#, fuzzy, csharp-format
-#| msgid "{0}. Games won: {1} ({2} played)"
+#, csharp-format
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
-msgstr[0] "{0}. Spel vunna: {1} ({2} spelade)"
-msgstr[1] "{0}. Spel vunna: {1} ({2} spelade)"
+msgstr[0] "{0}. Spel vunna: {1} ({2})"
+msgstr[1] "{0}. Spel vunna: {1} ({2})"
 
 #: ../src/Core/Views/FinishView.cs:168
 #, csharp-format
@@ -3627,8 +3550,8 @@ msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
 msgstr ""
-"gbrainy är en hjärnretare och lärande spel att ha kul med och träna dina "
-"hjärnmuskler. Det inkluderar:"
+"gbrainy är en hjärnretare och lärandespel att ha kul med, och för att träna "
+"dina hjärnmuskler. Det inkluderar:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
 msgid "Arithmetical operations"
@@ -3677,11 +3600,11 @@ msgstr "Vilket av följande tal är närmare {0}? Svara {1}, {2}, {3} eller {4}.
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr "Resultatet av operationen {0} / {1} är \"{2}\"."
+msgstr "Resultatet av operationen {0} / {1} är ”{2}”."
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
 msgid "Consecutive sum"
-msgstr ""
+msgstr "Seriesumma"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
 #, csharp-format
@@ -3689,6 +3612,8 @@ msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
 msgstr ""
+"I listan över ensiffriga tal nedan finns 5 tal i följd vars summa är {0}. "
+"Vilka tal är det?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3736,8 +3661,7 @@ msgstr "Den första operatorn är {0}."
 #: ../src/Games/Calculation/CalculationOperator.cs:46
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
-msgstr ""
-"Vilka operatorer gör {0}, {1} och {2} lika med {3}? Svara med \"+-/*\"."
+msgstr "Vilka operatorer gör {0}, {1} och {2} lika med {3}? Svara med ”+-/*”."
 
 #: ../src/Games/Calculation/CalculationOperator.cs:109
 #: ../src/Games/Calculation/CalculationRatio.cs:86
@@ -3770,8 +3694,7 @@ msgstr ""
 "talet. Till exempel 15 = 1 + 5 = 6, som är delbart med 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
-#, fuzzy, csharp-format
-#| msgid "The number {0} is a primer number."
+#, csharp-format
 msgid "The number {0} is a prime number."
 msgstr "Talet {0} är ett primtal."
 
@@ -3812,7 +3735,7 @@ msgid ""
 "that for every 'a' parts you have 'b' parts."
 msgstr ""
 "Ett förhållande anger en proportion mellan två tal. Förhållandet a:b betyder "
-"att för varje \"a\" delar så har du \"b\" delar."
+"att för varje ”a” delar så har du ”b” delar."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:98
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
@@ -3826,34 +3749,26 @@ msgid "have a ratio of {0}:{1}"
 msgstr "har förhållandet {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-#, fuzzy
-#| msgid "Related numbers"
 msgid "Selected numbers"
-msgstr "Relaterade siffror"
+msgstr "Valda siffror"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
-#, fuzzy, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is closest to the "
-#| "average? Answer {1}, {2}, {3} or {4}."
+#, csharp-format
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"Enligt talen: {0}. Vilket av följande tal är det närmsta till genomsnittet? "
+"I tallistan nedan, vad är summan av alla tal med ett värde större än {0}? "
 "Svara {1}, {2}, {3} eller {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
-#, fuzzy, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is closest to the "
-#| "average? Answer {1}, {2}, {3} or {4}."
+#, csharp-format
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
-"Enligt talen: {0}. Vilket av följande tal är det närmsta till genomsnittet? "
-"Svara {1}, {2}, {3} eller {4}."
+"Vad är produkten av alla tal i listan nedan med värde större än {0}? Svara "
+"{1}, {2}, {3} eller {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -3951,7 +3866,7 @@ msgstr "Triangeln är:"
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:29
 msgid "Circles in a square"
-msgstr "Cirklar i en rektangel"
+msgstr "Cirklar i en kvadrat"
 
 #
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:33
@@ -3997,7 +3912,7 @@ msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
 "using numbers."
 msgstr ""
-"Till vilket tal ska den stora visaren i klockan \"{0}\" peka? Svara med ett "
+"Till vilket tal ska den stora visaren i klockan ”{0}” peka? Svara med ett "
 "tal."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:51
@@ -4009,7 +3924,7 @@ msgid ""
 msgstr ""
 "Starta från första klockan, lägg till {1} till talet som fås av att lägga "
 "till värdena som indikeras av visarna. Till exempel, värdena för visarna för "
-"\"{0}\" är {3} ({2} + {1})."
+"”{0}” är {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:57
 msgid "The clocks do not follow the time logic."
@@ -4035,19 +3950,11 @@ msgstr "Räkning"
 #, csharp-format
 msgid "We have a {0} meter piece of fabric."
 msgid_plural "We have a {0} meters piece of fabric."
-msgstr[0] "Vi har en {0} meter långt tyg."
-msgstr[1] "Vi har en {0} meter långt tyg."
+msgstr[0] "Vi har ett {0} meter långt tyg."
+msgstr[1] "Vi har ett {0} meter långt tyg."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:68
-#, fuzzy, csharp-format
-#| msgid ""
-#| "Machine A takes {0} second to cut 1 meter of this fabric. How many "
-#| "seconds does Machine A take to cut the entire piece of fabric into 1 "
-#| "meter pieces?"
-#| msgid_plural ""
-#| "Machine A takes {0} seconds to cut 1 meter of this fabric. How many "
-#| "seconds does Machine A take to cut the entire piece of fabric into 1 "
-#| "meter pieces?"
+#, csharp-format
 msgid ""
 "A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
@@ -4055,23 +3962,22 @@ msgid_plural ""
 "A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
 msgstr[0] ""
-"Maskin A tar {0} sekund att klippa till 1 meter av detta tyg. Hur många "
-"sekunder tar det Maskin A att klippa till hela delen av tyg i 1 meter långa "
-"delar?"
+"En maskin tar {0} sekund att klippa till 1 meter av detta tyg. Hur många "
+"sekunder tar det maskinen att klippa till hela delen av tyget i 1 meter "
+"långa delar?"
 msgstr[1] ""
-"Maskin A tar {0} sekunder att klippa till 1 meter av detta tyg. Hur många "
-"sekunder tar det Maskin A att klippa till hela delen av tyg i 1 meter långa "
-"delar?"
+"En maskin tar {0} sekunder att klippa till 1 meter av detta tyg. Hur många "
+"sekunder tar det för maskinen att klippa till hela delen av tyget i 1 meter "
+"långa delar?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
-#, fuzzy, csharp-format
-#| msgid "With the {0} cut, Machine A creates two 1 meter pieces."
+#, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
 msgstr[0] ""
-"Maskin A skapar två stycken 1 meter långa delar med klipp nummer {0}."
+"Maskinen skapar två stycken 1 meter långa delar med klipp nummer {0}."
 msgstr[1] ""
-"Maskin A skapar två stycken 1 meter långa delar med klipp nummer {0}."
+"Maskinen skapar två stycken 1 meter långa delar med klipp nummer {0}."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
@@ -4145,7 +4051,7 @@ msgstr "Räkna serier"
 msgid ""
 "How many numbers '9' are required to represent the numbers between 10 to 100?"
 msgstr ""
-"Hur många \"9\"-siffror krävs för att representera talen mellan 10 och 100?"
+"Hur många ”9”-siffror krävs för att representera talen mellan 10 och 100?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:68
 msgid ""
@@ -4176,7 +4082,7 @@ msgstr "Talen är: {0}."
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:94
 msgid "Notice that 99 contains two numbers '9'."
-msgstr "Observera att 99 innehåller två stycken \"9\"."
+msgstr "Observera att 99 innehåller två stycken ”9”."
 
 #: ../src/Games/Logic/PuzzleCoverPercentage.cs:35
 msgid "Cover percentage"
@@ -4205,7 +4111,7 @@ msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Vad är sannolikheten att få en \"2\" eller en \"6\" på ett enda kast med en "
+"Vad är sannolikheten att få en tvåa eller en sexa på ett enda kast med en "
 "helt vanlig sexsidig tärning? Svara med ett bråk (t.ex.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
@@ -4217,7 +4123,7 @@ msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Vad är sannolikheten att inte få en \"5\" på ett enda kast med en helt "
+"Vad är sannolikheten att inte få en femma på ett enda kast med en helt "
 "vanlig sexsidig tärning? Svara med ett bråk (t.ex.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:60
@@ -4242,14 +4148,14 @@ msgid ""
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
 "Två helt vanliga sexsidiga tärningar kastas samtidigt. Vad är sannolikheten "
-"att båda visar \"6\"? Svara med ett bråk (t.ex.: 1/2)."
+"att båda visar ”6”? Svara med ett bråk (t.ex.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:68
 msgid ""
 "There is 1 of 6 possibilities of getting a '6' on the first die and the same "
 "for the second die."
 msgstr ""
-"Det finns 1 av 6 möjligheter att få en \"6\" på första tärningen och samma "
+"Det finns 1 av 6 möjligheter att få en sexa på första tärningen och samma "
 "för den andra tärningen."
 
 #: ../src/Games/Logic/PuzzleDice.cs:73
@@ -4319,15 +4225,11 @@ msgid "Figures and text"
 msgstr "Figurer och text"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
-#, fuzzy
-#| msgid ""
-#| "The figures and the text are related. What text should go under the last "
-#| "figure?"
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
-"Figurerna och texten är relaterade. Vilken text ska stå under den sista "
+"Figurerna och texterna är relaterade. Vilken text ska stå under den sista "
 "figuren?"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
@@ -4340,9 +4242,9 @@ msgid ""
 "circles, 'D' that the figures are separated, 'E' that there are three "
 "figures and 'F' that there are two figures."
 msgstr ""
-"\"A\" indikerar att figurerna överlappas, \"B\" att de är kvadrater, \"C\" "
-"att de är cirklar, \"D\" att figurerna är separerade, \"E\" att det finns "
-"tre figurer och \"F\" att det finns två figurer."
+"”A” indikerar att figurerna överlappas, ”B” att de är kvadrater, ”C” att de "
+"är cirklar, ”D” att figurerna är separerade, ”E” att det finns tre figurer "
+"och ”F” att det finns två figurer."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
@@ -4391,10 +4293,8 @@ msgstr ""
 "upprepa dem."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
-#, fuzzy
-#| msgid "Figures with numbers"
 msgid "Find the number"
-msgstr "Figurer med tal"
+msgstr "Finn talet"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
@@ -4407,26 +4307,25 @@ msgid_plural ""
 "the number {0} places away from itself multiplied by 2 and {1} places away "
 "from itself plus 2?"
 msgstr[0] ""
+"Genom att titta horisontellt och vertikalt över raderna i rutnätet nedan, "
+"vad är talet {0} plats bort från det själv multiplicerat med 2 och {1} plats "
+"bort från det själv plus 2?"
 msgstr[1] ""
+"Genom att titta horisontellt och vertikalt över raderna i rutnätet nedan, "
+"vad är talet {0} platser bort från det själv multiplicerat med 2 och {1} "
+"platser bort från det själv plus 2?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
-msgstr ""
+msgstr "Numret finns på rad {0}, kolumn {1}."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
-#, fuzzy, csharp-format
-#| msgid ""
-#| "The fourth row is calculated by multiplying the first two rows and adding "
-#| "the third."
+#, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
-msgstr[0] ""
-"Den fjärde raden beräknas genom att multiplicera de första två raderna och "
-"addera den tredje."
-msgstr[1] ""
-"Den fjärde raden beräknas genom att multiplicera de första två raderna och "
-"addera den tredje."
+msgstr[0] "Talet är lokaliserat inom den första {0} raden av rutnätet."
+msgstr[1] "Talet är lokaliserat inom de första {0} raderna av rutnätet."
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:32
 msgid "Four sided"
@@ -4505,12 +4404,12 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:54
 msgid "The pattern is arithmetical and works vertically."
-msgstr "Mönstret är aritmetisk och fungerar vertikalt."
+msgstr "Mönstret är aritmetiskt och fungerar vertikalt."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:56
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
 msgid "The pattern is arithmetical and works horizontally."
-msgstr "Mönstret är aritmetisk och fungerar horisontellt."
+msgstr "Mönstret är aritmetiskt och fungerar horisontellt."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:65
 msgid ""
@@ -4586,6 +4485,9 @@ msgid ""
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
+"Med n som det totala antalet personer, skakar den första personen hand med "
+"n-1 personer, den andra med n-2 personer, etc. Resultatet är summan av de "
+"första n-1 numren i följd: 1+2+3+…+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -4601,26 +4503,21 @@ msgstr ""
 "figurerna? Svara {0}, {1}, {2} eller {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#, fuzzy
-#| msgid "Larger shape"
 msgid "Largest area"
-msgstr "Större figur"
+msgstr "Största area"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
-#, fuzzy, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
+#, csharp-format
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
 msgstr ""
-"Vilken av följande figurer tillhör inte gruppen? Svara {0}, {1}, {2}, {3}, "
-"{4} eller {5}."
+"Vilken av följande figurer har den största arean? Svara {0}, {1}, {2}, eller "
+"{3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
 msgid "Largest diameter"
-msgstr ""
+msgstr "Största diameter"
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
 #, csharp-format
@@ -4628,16 +4525,17 @@ msgid ""
 "If the circles represented by the arcs below were completed, which circle "
 "would have the largest diameter? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Om cirklarna representerade av bågarna nedan slutfördes, vilken cirkel "
+"skulle ha den största diametern? Svara {0}, {1}, {2} eller {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
 msgid "Less curved is the arc, the larger the circle is."
-msgstr ""
+msgstr "Ju mindre böjd bågen är, ju större är cirkeln."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
-#, fuzzy, csharp-format
-#| msgid "Answer {0}."
+#, csharp-format
 msgid "Arc {0}"
-msgstr "Svara {0}."
+msgstr "Båge {0}"
 
 #: ../src/Games/Logic/PuzzleLines.cs:34
 msgid "Lines"
@@ -4806,7 +4704,7 @@ msgstr "Numren är aritmetiskt relaterade."
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:62
 #, csharp-format
 msgid "Every group of {0} numbers sums exactly {1}."
-msgstr "Varje grupp av {0} numren har exakt summan {1}."
+msgstr "Varje grupp av {0} nummer har exakt summan {1}."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:64
 msgid ""
@@ -4925,16 +4823,13 @@ msgid "People at a table"
 msgstr "Personer vid ett bord"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
-#, fuzzy, csharp-format
-#| msgid ""
-#| "A group of people are sitting at a round table spaced out evenly. How "
-#| "many people are there if the {0} person is across from the {1}?"
+#, csharp-format
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "En grupp personer sitter runt ett runt bord, jämnt utspridda. Hur många "
-"personer sitter där om den {0} personen sitter mitt emot nummer {1}?"
+"personer sitter där om person {0} sitter mitt emot nummer {1}?"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
@@ -4943,8 +4838,8 @@ msgid ""
 "of people."
 msgstr ""
 "Subtrahera de två positioner som du kommer fram till hur många personer som "
-"sitter halvvägs runt bortet. Dubblera detta tal ger dig det totala antalet "
-"personer."
+"sitter halvvägs runt bordet. Att dubblera detta tal ger dig det totala "
+"antalet personer."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:62
 msgid "5th"
@@ -4971,8 +4866,6 @@ msgid "22nd"
 msgstr "22:a"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#, fuzzy
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Två personer vid bordet sitter mittemot varandra"
 
@@ -5061,8 +4954,8 @@ msgstr ""
 "följande slutsatser är korrekt? Svara {0}, {1}, {2} eller {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
-msgstr "Någon konstnär är inte sjuk"
+msgid "Some artists are not ill"
+msgstr "Några konstnärer är inte sjuka"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
 msgid "Some painters are not artists"
@@ -5145,7 +5038,7 @@ msgid ""
 "If no old misers are cheerful and some old misers are thin, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Om inga gamla snåljåpar är glada och några gamla snåljåapar är tunna, vilken "
+"Om inga gamla snåljåpar är glada och några gamla snåljåpar är tunna, vilken "
 "av följande slutsatser är korrekt? Svara {0}, {1}, {2} eller {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
@@ -5195,7 +5088,7 @@ msgid ""
 "If some pictures are first attempts and no first attempts are really good, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Om några bilder är första försök och inga första försök är riktiga bra, "
+"Om några bilder är första försök och inga första försök är riktigt bra, "
 "vilken av följande slutsatser är då korrekt? Svara {0}, {1}, {2} eller {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
@@ -5240,8 +5133,6 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Ingen mår bättre som inte går ut på en promenad"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-#, fuzzy
-#| msgid "Predicate Logic"
 msgid "Predicate logic"
 msgstr "Predikatlogik"
 
@@ -5371,20 +5262,16 @@ msgstr "Arken ska överlappa."
 
 #. Translators: the translated version should not take more characters that the English original
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:43
-#, fuzzy
-#| msgid ""
-#| "A full sized square of paper, a 3/4 of the whole size square of paper in "
-#| "the bottom right corner, another 3/4 square of paper in the top left "
-#| "corner and a 1/4 square of paper in the top left corner."
 msgid ""
 "A full sized square of paper (yellow), a 3/4 of the whole size square of "
 "paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
 "in the top left corner and a 1/4 square of paper (red) in the top left "
 "corner."
 msgstr ""
-"Ett helt kvadratiskt papper, ett 3/4 stort papper av hela storleken i nedre "
-"högra hörnet, ett annat 3/4 kvadratiskt papper i övre vänstra hörnet och ett "
-"1/4 kvadratiskt papper i övre vänstra hörnet."
+"Ett helt kvadratiskt papper (gult), ett 3/4 kvadratiskt papper (blått) av "
+"hela storleken i nedre högra hörnet, ett annat 3/4 kvadratiskt papper "
+"(grönt) i övre vänstra hörnet och ett 1/4 kvadratiskt papper (rött) i övre "
+"vänstra hörnet."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:34
 msgid "Tetris"
@@ -5418,13 +5305,11 @@ msgid_plural ""
 "{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
-"{0} timme sedan var det så länge som efter {1:h tt} som det var före "
-"{2:h tt} på samma dag. Vad är klockan nu? Svara med att använda timmen (t."
-"ex.: {3:h tt})"
+"{0} timme sedan var det lika långt efter {1:%H} som det var före {2:%H} på "
+"samma dag. Vad är klockan nu? Svara med att använda timmen (t.ex.: {3:%H})"
 msgstr[1] ""
-"{0} timmar sedan var det så länge som efter {1:h tt} som det var före "
-"{2:h tt} på samma dag. Vad är klockan nu? Svara med att använda timmen (t."
-"ex.: {3:h tt})"
+"{0} timmar sedan var det lika långt efter {1:%H} som det var före {2:%H} på "
+"samma dag. Vad är klockan nu? Svara med att använda timmen (t.ex.: {3:%H})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
@@ -5462,23 +5347,13 @@ msgstr "Tåg"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:52
 msgid "The distance formula is 'distance = rate x time'."
-msgstr "Avståndsformeln är \"avstånd = hastighet x tid'."
+msgstr "Avståndsformeln är ”avstånd = hastighet x tid”."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
 #. - The translated string should not use more characters than the original sentence
 #: ../src/Games/Logic/PuzzleTrains.cs:81
-#, fuzzy, csharp-format
-#| msgid ""
-#| "A train leaves the station traveling at {0} mph. {1} hour later a second "
-#| "train leaves the station traveling in the same direction at {2} mph. How "
-#| "many hours since the first train left does it take the second train to "
-#| "overtake the first train?"
-#| msgid_plural ""
-#| "A train leaves the station traveling at {0} mph. {1} hours later a second "
-#| "train leaves the station traveling in the same direction at {2} mph. How "
-#| "many hours since the first train left does it take the second train to "
-#| "overtake the first train?"
+#, csharp-format
 msgid ""
 "A train leaves the station traveling at {0} mph. {1} hour later a second "
 "train leaves the station traveling in the same direction at {2} mph. How "
@@ -5492,11 +5367,11 @@ msgid_plural ""
 msgstr[0] ""
 "Ett tåg lämnar stationen och åker i {0} km/h. {1} timme senare lämnar ett "
 "annat tåg stationen i samma riktning fast i {2} km/h. Hur många timmar tar "
-"det för det andra tåget att köra förbi det första tåget?"
+"det för det andra tåget, sedan det startat, att köra förbi det första tåget?"
 msgstr[1] ""
 "Ett tåg lämnar stationen och åker i {0} km/h. {1} timmar senare lämnar ett "
 "annat tåg stationen i samma riktning fast i {2} km/h. Hur många timmar tar "
-"det för det andra tåget att köra förbi det första tåget?"
+"det för det andra tåget, sedan det startat, att köra förbi det första tåget?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:85
 msgid ""
@@ -5612,7 +5487,7 @@ msgstr "Färgad text"
 #: ../src/Games/Memory/MemoryColouredText.cs:44
 #, csharp-format
 msgid "What was the color of the text that said '{0}'?"
-msgstr "Vilken var färgen på texten som sa \"{0}\"?"
+msgstr "Vilken var färgen på texten som sa ”{0}”?"
 
 #: ../src/Games/Memory/MemoryCountDots.cs:41
 msgid "Counting dots"
@@ -5628,21 +5503,15 @@ msgstr ""
 "antalet."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
-#, fuzzy
-#| msgid "Memorize facts"
 msgid "Memorize faces"
-msgstr "Memorera fakta"
+msgstr "Memorera ansikten"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-#, fuzzy
-#| msgid ""
-#| "In which cell is the other figure like the one shown below? Answer the "
-#| "cell number."
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
 msgstr ""
-"I vilken cell är den andra figuren samma som den som visas nedan? Svara med "
+"I vilken cell är det andra ansiktet samma som det som visas nedan? Svara med "
 "cellens tal."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
@@ -5663,7 +5532,7 @@ msgstr[0] ""
 "Blänkande Bilar har redan annonserat ett {0} dag långt produktionsstopp "
 "nästa månad men innan det hade de inte stoppat produktionen sedan {1}."
 msgstr[1] ""
-"Blänkande Bilar har redan annonserat ett {0} dag långt produktionsstopp "
+"Blänkande Bilar har redan annonserat ett {0} dagar långt produktionsstopp "
 "nästa månad men innan det hade de inte stoppat produktionen sedan {1}."
 
 #: ../src/Games/Memory/MemoryFacts.cs:110
@@ -5688,22 +5557,19 @@ msgid "By how much did company sales fall last December?"
 msgstr "Med hur mycket föll företagets försäljning i december?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
-#, fuzzy, csharp-format
-#| msgid ""
-#| "Shiny Cars sales fell {0}% this past December, the worst decline since "
-#| "{1}."
+#, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
 msgstr ""
-"Försäljningen av Blänkande Bilar föll med {0}% i december förra året. Detta "
-"var den största minskningen sedan {1}."
+"Försäljningen av Blänkande Bilar föll med {0}% i december förra året. Sedan "
+"vilket år var detta den största minskningen?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr ""
-"Ungefär {0}% av Blänkade Bilar som producerats i världen säljs i Europa."
+"Ungefär {0}% av Blänkande Bilar som producerats i världen säljs i Europa."
 
 #: ../src/Games/Memory/MemoryFacts.cs:131
 msgid ""
@@ -5937,7 +5803,7 @@ msgstr "trumslagare"
 
 #: ../src/Games/Memory/MemoryWords.cs:78
 msgid "speaker"
-msgstr "talare"
+msgstr "högtalare"
 
 #: ../src/Games/Memory/MemoryWords.cs:79
 msgid "lyrics"
