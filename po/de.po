@@ -2,7 +2,7 @@
 # Copyright (C) 2006 THE gbrainy'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
 # Hendrik Richter <hendrikr@gnome.org>, 2007, 2008.
-# Wolfgang Stöggl <c72578@yahoo.de>, 2008-2014.
+# Wolfgang Stöggl <c72578@yahoo.de>, 2008-2015.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2010.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010, 2011.
 #
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-01 17:26+0000\n"
-"PO-Revision-Date: 2014-07-04 11:40+0100\n"
+"POT-Creation-Date: 2015-06-18 19:54+0000\n"
+"PO-Revision-Date: 2015-07-25 08:01+0200\n"
 "Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.3\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -2082,7 +2082,7 @@ msgstr "Glas / brechen | Papier"
 msgid "tear | rip"
 msgstr "reißen"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "Füße / zwei | Zehen"
@@ -2737,15 +2737,15 @@ msgstr "Maximale Anzahl an gespeicherten Spielen in der Chronik des Spielers:"
 msgid "Delete Player's Game Session History"
 msgstr "Spielchronik des Spielers löschen"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Gratulation."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Falsche Antwort."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2753,11 +2753,11 @@ msgstr ""
 "Schreiben Sie die gefundene Antwort in das Eingabefeld und drücken Sie "
 "danach den »OK«-Knopf."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Der Übersetzungsanteil von gbrainy ist für Ihre Sprache niedrig."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2767,16 +2767,16 @@ msgstr ""
 "diese zu spielen. Wenn Sie es vorziehen in Englisch zu spielen, so gibt es "
 "eine Einstellung dazu in den Einstellungen von gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pause"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Fortsetzen"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Startzeit {0}"
@@ -3349,7 +3349,7 @@ msgstr ""
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
 "Befassen Sie sich mit allen Problemen, auch den schwierigen. Übung macht den "
 "Meister."
@@ -5070,7 +5070,7 @@ msgstr ""
 "{0}, {1}, {2} oder {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Einige Künstler sind nicht krank"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
