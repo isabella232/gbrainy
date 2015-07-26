@@ -166,6 +166,11 @@ namespace gbrainy.Core.Main
 				FinishCountDown ();
 			else 
 				timer.Enabled = false;
+
+            if (gradient != null) {
+                gradient.Dispose ();
+                gradient = null;
+            }
 		}		
 
 		public override void Draw (CairoContextEx gr, int area_width, int area_height, bool rtl)
