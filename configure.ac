@@ -68,9 +68,13 @@ for i in $needed_assemblies; do
   AC_MSG_CHECKING([for $i.dll])
   if test ! \( -e `$PKG_CONFIG --variable=prefix mono`/lib/mono/2.0/$i.dll -o -e `$PKG_CONFIG --variable=prefix mono`/lib64/mono/2.0/$i.dll \); then
 	if test ! \( -e `$PKG_CONFIG --variable=prefix mono`/lib/mono/4.0/$i.dll -o -e `$PKG_CONFIG --variable=prefix mono`/lib64/mono/4.0/$i.dll \); then
-		AC_MSG_ERROR([missing required mono 2.0/4.0 DLL: $i.dll])
+        if test ! \( -e `$PKG_CONFIG --variable=prefix mono`/lib/mono/4.5/$i.dll -o -e `$PKG_CONFIG --variable=prefix mono`/lib64/mono/4.5/$i.dll \); then
+		    AC_MSG_ERROR([missing required mono 2.0/4.0/4.5 DLL: $i.dll])
+	    else
+	        AC_MSG_RESULT([found])
+	    fi
 	else
-	AC_MSG_RESULT([found])
+	    AC_MSG_RESULT([found])
 	fi
   else
 	AC_MSG_RESULT([found])
