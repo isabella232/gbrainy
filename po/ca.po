@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-08 07:33+0200\n"
-"PO-Revision-Date: 2013-08-30 13:45+0200\n"
+"POT-Creation-Date: 2015-07-26 15:34+0200\n"
+"PO-Revision-Date: 2015-07-26 15:34+0200\n"
 "Last-Translator: jmas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
 "Language: ca\n"
@@ -3370,7 +3370,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Memoritzeu els objectes de sota en el temps donat"
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Temps restant"
 
@@ -5001,7 +5001,7 @@ msgstr ""
 "de les conclusions següents és correcta? Responeu {0}, {1}, {2} o {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Alguns artistes no estan malalts"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
