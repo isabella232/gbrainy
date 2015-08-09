@@ -29,21 +29,25 @@
 #   İbrahim Altunok https://launchpad.net/~alquirel
 #
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2014.
+# Kaan Özdinçer <kaanozdincer@gmail.com>, 2015.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2014, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-06-17 04:48+0000\n"
-"PO-Revision-Date: 2014-06-17 16:13+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gbrainy&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-07-26 13:33+0000\n"
+"PO-Revision-Date: 2015-08-09 19:16+0300\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
-"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-POOTLE-MTIME: 1434042425.000000\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -59,16 +63,22 @@ msgstr "Erkek ve kız kardeşler"
 
 #: ../data/games.xml.h:4
 msgid ""
-"Out of [people] people, [brothers] have brothers, [sisters] have sisters and"
-" [both] have both. How many people have neither brothers nor sisters?"
-msgstr "[people] kişiden, [brothers] tanesi erkek kardeşe, [sisters] tanesi kız kardeşe ve [both] tanesi de her ikisine sahiptir. Kaç kişi erkek ya da kız kardeşe sahip değildir?"
+"Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
+"[both] have both. How many people have neither brothers nor sisters?"
+msgstr ""
+"[people] kişiden, [brothers] tanesi erkek kardeşe, [sisters] tanesi kız "
+"kardeşe ve [both] tanesi de her ikisine sahiptir. Kaç kişi erkek ya da kız "
+"kardeşe sahip değildir?"
 
 #: ../data/games.xml.h:5
 msgid ""
 "It is calculated by taking the total number of people minus [brothers_only] "
 "people that have brothers only, minus [sisters_only] that have sisters only "
 "and minus [both] that have sisters and brothers."
-msgstr "Toplam kişi sayısından sadece erkek kardeşleri olan [brothers_only] kişiyi, sadece kız kardeşleri olan [sisters_only] kişiyi ve hem kız hem de erkek kardeşleri olan [both] kişiyi çıkararak hesaplanır."
+msgstr ""
+"Toplam kişi sayısından sadece erkek kardeşleri olan [brothers_only] kişiyi, "
+"sadece kız kardeşleri olan [sisters_only] kişiyi ve hem kız hem de erkek "
+"kardeşleri olan [both] kişiyi çıkararak hesaplanır."
 
 #: ../data/games.xml.h:6
 msgid "Age"
@@ -78,7 +88,9 @@ msgstr "Yaş"
 msgid ""
 "John's son age is nowadays half of John's age minus [difference], that is, "
 "([father] / 2) - [difference]."
-msgstr "John'un oğlunun günümüzdeki yaşı John'un yaşının yarısından [difference] eksiktir, yani ([father] / 2) - [difference]."
+msgstr ""
+"John'un oğlunun günümüzdeki yaşı John'un yaşının yarısından [difference] "
+"eksiktir, yani ([father] / 2) - [difference]."
 
 #: ../data/games.xml.h:8
 msgid "Password"
@@ -86,15 +98,19 @@ msgstr "Parola"
 
 #: ../data/games.xml.h:9
 msgid ""
-"Every digit has 10 possibilities. The total number of possibilities is 10 at"
-" the power of [digits]."
-msgstr "Her basamağın 10 olasılığı vardır. Toplam olasılık sayısı 10 üssü [digits] 'dir."
+"Every digit has 10 possibilities. The total number of possibilities is 10 at "
+"the power of [digits]."
+msgstr ""
+"Her basamağın 10 olasılığı vardır. Toplam olasılık sayısı 10 üssü [digits] "
+"'dir."
 
 #: ../data/games.xml.h:10
 msgid ""
 "Every digit has 8 possibilities. The total number of possibilities is 8 at "
 "the power of [digits]."
-msgstr "Her basamağın 8 olasılığı vardır. Toplam olasılık sayısı 8 üssü [digits] 'dir."
+msgstr ""
+"Her basamağın 8 olasılığı vardır. Toplam olasılık sayısı 8 üssü [digits] "
+"'dir."
 
 #: ../data/games.xml.h:11
 msgid "Tennis game"
@@ -102,15 +118,19 @@ msgstr "Tenis oyunu"
 
 #: ../data/games.xml.h:12
 msgid ""
-"Every game is an independent event with 2 possible results. The total number"
-" of possibilities is 2 at the power of [games]."
-msgstr "Her oyun 2 olası sonucu olan bağımsız bir olaydır. Olasılıkların toplamı ise 2 üssü [games]dır."
+"Every game is an independent event with 2 possible results. The total number "
+"of possibilities is 2 at the power of [games]."
+msgstr ""
+"Her oyun 2 olası sonucu olan bağımsız bir olaydır. Olasılıkların toplamı ise "
+"2 üssü [games]dır."
 
 #: ../data/games.xml.h:13
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
-msgstr "Her oyunda bir oyuncu elenir. Yani sonuç, toplam oyuncu sayısının bir eksiğidir."
+msgstr ""
+"Her oyunda bir oyuncu elenir. Yani sonuç, toplam oyuncu sayısının bir "
+"eksiğidir."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
@@ -120,7 +140,8 @@ msgstr "Banka faizi"
 msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
-msgstr "Bileşik faiz, ana para ve birikmiş olan faizin toplamı üzerinden ödenir."
+msgstr ""
+"Bileşik faiz, ana para ve birikmiş olan faizin toplamı üzerinden ödenir."
 
 #: ../data/games.xml.h:16
 msgid "Simple equations"
@@ -186,13 +207,14 @@ msgstr "Kapsayıcı"
 msgid "Box"
 msgstr "Kutu"
 
-#. Translators: 0.5 should be formatted correctly to your locale, using ","
-#. for example instead of "." if this is the convention for your language.
+#. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
 #: ../data/games.xml.h:33
 msgid ""
-"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6"
-" x 5 x [z]?"
-msgstr "6 x 5 x [z] ölçülerindeki bir kapsayıcı içerisine 1 x 1 x 0,5 ölçülerindeki kutulardan kaç tane sığdırılabilir?"
+"How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
+"x 5 x [z]?"
+msgstr ""
+"6 x 5 x [z] ölçülerindeki bir kapsayıcı içerisine 1 x 1 x 0,5 ölçülerindeki "
+"kutulardan kaç tane sığdırılabilir?"
 
 #: ../data/games.xml.h:34
 msgid "You can fit 6 * 5 * [z] * 2 boxes."
@@ -204,16 +226,22 @@ msgstr "Palindromik(tersi ile aynı) yıllar"
 
 #: ../data/games.xml.h:36
 msgid ""
-"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What"
-" are the next two consecutive palindromic years after [year_end] with the "
+"[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
+"are the next two consecutive palindromic years after [year_end] with the "
 "same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
-msgstr "[year_start] yılı, [year_end] gibi palindromik bir yıldır, aralarında 11 yıl fark vardır. [year_end] yılından sonraki, aralarında aynı büyüklükte fark olan, ardışık palindromik yıl çifti nedir? İki sayı girerek cevaplayınız (ör.  [year_start] ve [year_end])"
+msgstr ""
+"[year_start] yılı, [year_end] gibi palindromik bir yıldır, aralarında 11 yıl "
+"fark vardır. [year_end] yılından sonraki, aralarında aynı büyüklükte fark "
+"olan, ardışık palindromik yıl çifti nedir? İki sayı girerek cevaplayınız "
+"(ör.  [year_start] ve [year_end])"
 
 #: ../data/games.xml.h:37
 msgid ""
 "A palindromic number remains the same when its digits are reversed (e.g.: "
 "2112)."
-msgstr "Bir palindromik sayının rakamları tersine çevrildiğinde o sayı aynı kalır (ör: 2112)."
+msgstr ""
+"Bir palindromik sayının rakamları tersine çevrildiğinde o sayı aynı kalır "
+"(ör: 2112)."
 
 #: ../data/games.xml.h:38
 msgid "[rslt_a] and [rslt_b]"
@@ -223,7 +251,9 @@ msgstr "[rslt_a] ve [rslt_b]"
 msgid ""
 "From year 1000 to year 10000, palindrome years occur at 110 year intervals "
 "except for the end of each millennium that occur at a 11 years interval."
-msgstr "Palindrome yılları, 1000 yılından 10000 yılına kadar milenyum sonu hariç 110 yıllık aralıklarla oluşur. Her milenyum sonunda 11 yıllık aralıklarla oluşur."
+msgstr ""
+"Palindrome yılları, 1000 yılından 10000 yılına kadar milenyum sonu hariç 110 "
+"yıllık aralıklarla oluşur. Her milenyum sonunda 11 yıllık aralıklarla oluşur."
 
 #: ../data/games.xml.h:40
 msgid "Dartboard"
@@ -233,11 +263,14 @@ msgstr "Nişan Tahtası"
 msgid ""
 "On the dartboard below, where would you need to throw the darts to add 120 "
 "points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
-msgstr "Aşağıdaki dart tahtasında, 5 atışta 120 puan almak için dartları nerelere atmanız gerekir? Sayıların listesini yazarak cevaplayın (ör. 4, 5, 6, 3, 2)"
+msgstr ""
+"Aşağıdaki dart tahtasında, 5 atışta 120 puan almak için dartları nerelere "
+"atmanız gerekir? Sayıların listesini yazarak cevaplayın (ör. 4, 5, 6, 3, 2)"
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr "120 puan kazanmak için dart tahtasındaki 4 sayıdan sadece 3'ü kullanılır."
+msgstr ""
+"120 puan kazanmak için dart tahtasındaki 4 sayıdan sadece 3'ü kullanılır."
 
 #: ../data/games.xml.h:43
 msgid "Horse race"
@@ -245,18 +278,22 @@ msgstr "At yarışı"
 
 #: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
 msgid ""
-"In a horse race there are people and horses. You count [eyes] eye and [legs]"
-" leg. How many horses are present?"
+"In a horse race there are people and horses. You count [eyes] eye and [legs] "
+"leg. How many horses are present?"
 msgid_plural ""
 "In a horse race there are people and horses. You count [eyes] eyes and "
 "[legs] legs. How many horses are present?"
-msgstr[0] "Bir at yarışında hem insanlar hem atlar bulunmaktadır. Burada [eyes] göz ve [legs] bacak olduğuna göre, kaç adet at vardır?"
+msgstr[0] ""
+"Bir at yarışında hem insanlar hem atlar bulunmaktadır. Burada [eyes] göz ve "
+"[legs] bacak olduğuna göre, kaç adet at vardır?"
 
 #: ../data/games.xml.h:45
 msgid ""
 "Every person has two legs and every horse four (2 * [men] + [horses] * 4). "
 "Every person and every horse have also two eyes (2 * [men] + 2 * [horses])."
-msgstr "Her insanın iki, her atın ise dört bacağı vardır (2 * [men] + [horses] * 4). Ayrıca her insanın ve her atın iki gözü vardır (2 * [men] + 2 * [horses])."
+msgstr ""
+"Her insanın iki, her atın ise dört bacağı vardır (2 * [men] + [horses] * 4). "
+"Ayrıca her insanın ve her atın iki gözü vardır (2 * [men] + 2 * [horses])."
 
 #: ../data/games.xml.h:46
 msgid "Lever"
@@ -266,19 +303,26 @@ msgstr "Kaldıraç"
 msgid ""
 "How much weight is needed at the point indicated by the question mark to "
 "balance the lever?"
-msgstr "Kaldıracı dengelemek için, soru işaretiyle belirtilen noktaya ne kadar ağırlık konmalıdır?"
+msgstr ""
+"Kaldıracı dengelemek için, soru işaretiyle belirtilen noktaya ne kadar "
+"ağırlık konmalıdır?"
 
 #: ../data/games.xml.h:48
 msgid ""
-"Consider the sentence attributed to Archimedes: 'Give me a lever long enough"
-" and a place to stand and I can move the Earth'."
-msgstr "Arşimet'e atfedilen şu cümle dikkate değerdir: 'Bana yeterince uzun bir kaldıraç ve üzerinde duracağım bir yer verin, ben de Dünyayı yerinden oynatayım'."
+"Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
+"and a place to stand and I can move the Earth'."
+msgstr ""
+"Arşimet'e atfedilen şu cümle dikkate değerdir: 'Bana yeterince uzun bir "
+"kaldıraç ve üzerinde duracağım bir yer verin, ben de Dünyayı yerinden "
+"oynatayım'."
 
 #: ../data/games.xml.h:49
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
-msgstr "Bir kaldıraç, üzerine yerleştirilen nesneler ağırlıklarıyla ters orantılı uzaklıklarda olduklarında dengededir."
+msgstr ""
+"Bir kaldıraç, üzerine yerleştirilen nesneler ağırlıklarıyla ters orantılı "
+"uzaklıklarda olduklarında dengededir."
 
 #: ../data/games.xml.h:50
 msgid "Multiple number"
@@ -288,13 +332,17 @@ msgstr "Çoklu sayı"
 msgid ""
 "Which two numbers of the list below are both multiple of [num_x] and "
 "[num_y]? [option_answers]"
-msgstr "Aşağıdaki listede yer alan sayılardan hangi ikisi hem [num_x] hem de [num_y] sayısının katıdır? [option_answers]"
+msgstr ""
+"Aşağıdaki listede yer alan sayılardan hangi ikisi hem [num_x] hem de [num_y] "
+"sayısının katıdır? [option_answers]"
 
 #: ../data/games.xml.h:52
 msgid ""
 "A multiple is a number that may be divided by another number with no "
 "remainder. For example, 10, 15 and 25 are multiples of 5."
-msgstr "Bir sayıya kalansız olarak bölünebilen sayıya, o sayının katı denir. Örneğin; 10, 15 ve 25, 5'in katlarıdır."
+msgstr ""
+"Bir sayıya kalansız olarak bölünebilen sayıya, o sayının katı denir. "
+"Örneğin; 10, 15 ve 25, 5'in katlarıdır."
 
 #: ../data/games.xml.h:53
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
@@ -335,15 +383,16 @@ msgstr "[option_prefix] [option_b] ve [option_c]"
 msgid "[option_prefix] [option_c] and [option_d]"
 msgstr "[option_prefix] [option_c] ve [option_d]"
 
-#. Since this a multioption the answer string is set to option | this string,
-#. what makes answer_show is not useful here
+#. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
 #: ../data/games.xml.h:59
 msgid "[option_a] and [option_b]"
 msgstr "[option_a] ve [option_b]"
 
 #: ../data/games.xml.h:60
 msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
-msgstr "[option_a] ve [option_b] sayılarının her ikisi de, [num_x] ve [num_y] sayılarının katıdır."
+msgstr ""
+"[option_a] ve [option_b] sayılarının her ikisi de, [num_x] ve [num_y] "
+"sayılarının katıdır."
 
 #: ../data/games.xml.h:61
 msgid "Cars in town"
@@ -352,10 +401,13 @@ msgstr "Şehirdeki arabalar"
 #: ../data/games.xml.h:63
 #, no-c-format
 msgid ""
-"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]%"
-" have a car and are males. What percentage of the population are females and"
-" have a car? [option_answers]"
-msgstr "Küçük bir kasabada, sakinlerin %[all_cars]'inin arabası bulunmaktadır ve %[males_cars]'i araba sahibi olan erkeklerdir. Nüfusun yüzde kaçı araba sahibi olan kadınlardan oluşmaktadır? [option_answers]"
+"In a small town, [all_cars]% of the inhabitants have a car and [males_cars]% "
+"have a car and are males. What percentage of the population are females and "
+"have a car? [option_answers]"
+msgstr ""
+"Küçük bir kasabada, sakinlerin %[all_cars]'inin arabası bulunmaktadır ve "
+"%[males_cars]'i araba sahibi olan erkeklerdir. Nüfusun yüzde kaçı araba "
+"sahibi olan kadınlardan oluşmaktadır? [option_answers]"
 
 #: ../data/games.xml.h:65
 #, no-c-format
@@ -380,9 +432,11 @@ msgstr "[option_prefix] %[option_d]"
 #: ../data/games.xml.h:73
 #, no-c-format
 msgid ""
-"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and"
-" have a car."
-msgstr "Nüfusun %[females_cars]'ini ([all_cars] - [males_cars]) araba sahibi olan kadınlar oluşturmaktadır."
+"[females_cars]% ([all_cars] - [males_cars]) of the inhabitants are women and "
+"have a car."
+msgstr ""
+"Nüfusun %[females_cars]'ini ([all_cars] - [males_cars]) araba sahibi olan "
+"kadınlar oluşturmaktadır."
 
 #: ../data/games.xml.h:74
 msgid "Compare variables"
@@ -392,7 +446,10 @@ msgstr "Değişkenleri karşılaştır"
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
 "which of the following options is correct? [option_answers]"
-msgstr "Eğer p &lt; x &lt; q ve r &lt; y &lt; s ise ve x &lt; y değerinin doğru olduğunu biliyorsanız, aşağıdaki seçeneklerden hangisi doğrudur? [option_answers]"
+msgstr ""
+"Eğer p &lt; x &lt; q ve r &lt; y &lt; s ise ve x &lt; y değerinin doğru "
+"olduğunu biliyorsanız, aşağıdaki seçeneklerden hangisi doğrudur? "
+"[option_answers]"
 
 #: ../data/games.xml.h:76
 msgid "[option_prefix] s > p"
@@ -412,13 +469,17 @@ msgstr "[option_prefix] q = s"
 
 #: ../data/games.xml.h:80
 msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
-msgstr "Eğer x &lt; y ise p &lt; x &lt; y &lt; s'dir; öyleyse s &gt; p doğrudur."
+msgstr ""
+"Eğer x &lt; y ise p &lt; x &lt; y &lt; s'dir; öyleyse s &gt; p doğrudur."
 
 #: ../data/games.xml.h:81
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
 "which of the following options is correct? [option_answers]"
-msgstr "Eğer p &lt; x &lt; q ve r &lt; y &lt; s ise ve x &gt; y değerinin doğru olduğunu biliyorsanız, aşağıdaki seçeneklerden hangisi doğrudur? [option_answers]"
+msgstr ""
+"Eğer p &lt; x &lt; q ve r &lt; y &lt; s ise ve x &gt; y değerinin doğru "
+"olduğunu biliyorsanız, aşağıdaki seçeneklerden hangisi doğrudur? "
+"[option_answers]"
 
 #: ../data/games.xml.h:82
 msgid "[option_prefix] r < q"
@@ -426,7 +487,8 @@ msgstr "[option_prefix] r < q"
 
 #: ../data/games.xml.h:83
 msgid "If x &gt; y, then r &lt; y &lt; x &lt; q, so r &lt; q is true."
-msgstr "Eğer x &gt; y ise r &lt; y &lt; x &lt; q 'dur. Öyleyse, r &lt; q doğrudur."
+msgstr ""
+"Eğer x &gt; y ise r &lt; y &lt; x &lt; q 'dur. Öyleyse, r &lt; q doğrudur."
 
 #: ../data/games.xml.h:84
 msgid "Odd number"
@@ -436,7 +498,9 @@ msgstr "Tek sayı"
 msgid ""
 "Given two integer numbers x and y, if x is even and y odd, which of the "
 "following expressions gives always an odd result? [option_answers]"
-msgstr "Verilen x ve y tam sayılarından x çift ve y tek ise, aşağıdaki ifadelerden hangisi her zaman tek sayı sonuç verir? [option_answers]"
+msgstr ""
+"Verilen x ve y tam sayılarından x çift ve y tek ise, aşağıdaki ifadelerden "
+"hangisi her zaman tek sayı sonuç verir? [option_answers]"
 
 #: ../data/games.xml.h:86
 msgid "[option_prefix] 2x + y"
@@ -457,9 +521,12 @@ msgstr "[option_prefix] (x - y) * 2"
 #: ../data/games.xml.h:90
 msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
-"multiplied by 2 is even. Adding an odd number (y) to that even number always"
-" produces an odd number."
-msgstr "İki çift sayının çarpım sonucu her zaman çifttir; öyleyse, x ile 2'nin çarpımı da çifttir. Bu çift sayıya bir tek sayı (y) eklemek, her zaman tek sayı sonuç verecektir."
+"multiplied by 2 is even. Adding an odd number (y) to that even number always "
+"produces an odd number."
+msgstr ""
+"İki çift sayının çarpım sonucu her zaman çifttir; öyleyse, x ile 2'nin "
+"çarpımı da çifttir. Bu çift sayıya bir tek sayı (y) eklemek, her zaman tek "
+"sayı sonuç verecektir."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -494,11 +561,16 @@ msgid_plural ""
 "You have two trucks that have a total weight of [add] units. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
 "what is the weight of the lighter truck? [option_answers]"
-msgstr[0] "Toplam ağırlığı [add] birim olan iki adet kamyonunuz var. Eğer hafif kamyonun ağırlığı, ağır kamyonun ağırlığının yarısından 15 birim daha azsa, hafif kamyonun ağırlığı nedir? [option_answers]"
+msgstr[0] ""
+"Toplam ağırlığı [add] birim olan iki adet kamyonunuz var. Eğer hafif "
+"kamyonun ağırlığı, ağır kamyonun ağırlığının yarısından 15 birim daha azsa, "
+"hafif kamyonun ağırlığı nedir? [option_answers]"
 
 #: ../data/games.xml.h:98
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr "Ağır kamyonun ağırlığı [heavier] birim, hafif kamyonun ağırlığı ise [lighter] birimdir."
+msgstr ""
+"Ağır kamyonun ağırlığı [heavier] birim, hafif kamyonun ağırlığı ise "
+"[lighter] birimdir."
 
 #: ../data/games.xml.h:99
 msgid "Family relations"
@@ -508,7 +580,10 @@ msgstr "Aile ilişkileri"
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
-msgstr "Can'ın babasının kız kardeşinin yengesi aynı zamanda kimdir? Can'ın burada bahsedilmemiş olan herhangi bir akrabası olduğunu varsaymayınız. [option_answers]"
+msgstr ""
+"Can'ın babasının kız kardeşinin yengesi aynı zamanda kimdir? Can'ın burada "
+"bahsedilmemiş olan herhangi bir akrabası olduğunu varsaymayınız. "
+"[option_answers]"
 
 #: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
@@ -534,13 +609,17 @@ msgstr "Annesi"
 #: ../data/games.xml.h:106
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr "Kız kardeşinin yengesi Can'ın babasının karısıdır, yani Can'ın annesidir."
+msgstr ""
+"Kız kardeşinin yengesi Can'ın babasının karısıdır, yani Can'ın annesidir."
 
 #: ../data/games.xml.h:107
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
-msgstr "Can'ın annesinin erkek kardeşinin kayınbiraderi aynı zamanda kimdir? Can'ın burada bahsedilmemiş olan herhangi bir akrabası olduğunu varsaymayınız. [option_answers]"
+msgstr ""
+"Can'ın annesinin erkek kardeşinin kayınbiraderi aynı zamanda kimdir? Can'ın "
+"burada bahsedilmemiş olan herhangi bir akrabası olduğunu varsaymayınız. "
+"[option_answers]"
 
 #: ../data/games.xml.h:108
 msgid "[option_prefix] His father"
@@ -559,7 +638,9 @@ msgstr "Babası"
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
-msgstr "Erkek kardeşinin kayınbiraderi Can'ın annesinin kocasıdır, yani Can'ın babasıdır."
+msgstr ""
+"Erkek kardeşinin kayınbiraderi Can'ın annesinin kocasıdır, yani Can'ın "
+"babasıdır."
 
 #: ../data/games.xml.h:112
 msgid "Third number"
@@ -567,9 +648,11 @@ msgstr "Üçüncü sayı"
 
 #: ../data/games.xml.h:113
 msgid ""
-"The average of three numbers is [three]. The average of two of these numbers"
-" is [two]. What is the third number? [option_answers]"
-msgstr "Üç sayının ortalaması [three] sayısıdır. Bu sayılardan ikisinin ortalaması [two] sayısıdır. Öyleyse, üçüncü sayı nedir? [option_answers]"
+"The average of three numbers is [three]. The average of two of these numbers "
+"is [two]. What is the third number? [option_answers]"
+msgstr ""
+"Üç sayının ortalaması [three] sayısıdır. Bu sayılardan ikisinin ortalaması "
+"[two] sayısıdır. Öyleyse, üçüncü sayı nedir? [option_answers]"
 
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
@@ -579,7 +662,9 @@ msgstr "([three] * 3) - ([two] * 2) işleminin sonucudur."
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
-msgstr "gbrainy; hafıza, aritmetik ve mantıksal yetenekleri eğitici bir oyundur. Farklı zorluk düzeylerinde çok çeşitli alıştırmalar içerir."
+msgstr ""
+"gbrainy; hafıza, aritmetik ve mantıksal yetenekleri eğitici bir oyundur. "
+"Farklı zorluk düzeylerinde çok çeşitli alıştırmalar içerir."
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
@@ -587,7 +672,11 @@ msgid ""
 "them to develop their capabilities, adults that want to keep their mind in "
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
-msgstr "Her yaş ve amaca yönelik bir şeyler sunmaktadır: ailesinin yeteneklerini geliştirmesini istediği çocuklar, zihinlerini formda tutmak ya da sadece eğlenmek isteyen yetişkinler, hafıza alıştırmaları yapması gereken yaşlı insanlar vb."
+msgstr ""
+"Her yaş ve amaca yönelik bir şeyler sunmaktadır: ailesinin yeteneklerini "
+"geliştirmesini istediği çocuklar, zihinlerini formda tutmak ya da sadece "
+"eğlenmek isteyen yetişkinler, hafıza alıştırmaları yapması gereken yaşlı "
+"insanlar vb."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -601,7 +690,9 @@ msgstr "Oyun"
 msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
-msgstr "Sözlü, hesaplama ve hafıza kabiliyeti ile aklına meydan okuyarak oyunları oyna"
+msgstr ""
+"Sözlü, hesaplama ve hafıza kabiliyeti ile aklına meydan okuyarak oyunları "
+"oyna"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -611,8 +702,9 @@ msgstr "Klasik"
 msgid "Notebook"
 msgstr "Not defteri"
 
-#. Translators, please check these recommendations when translating gbrainy:
-#. https://wiki.gnome.org/Apps/gbrainy/Localizing
+#.
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+#.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
 msgstr "Aşağıdaki spor dallarından hangisi bu gruba ait değildir?"
@@ -687,7 +779,9 @@ msgstr "Deri ile çalışır"
 
 #: ../data/verbal_analogies.xml.h:22
 msgid "A car engine that is poorly designed and lacking of sophistication is?"
-msgstr "Yetersiz tasarlanmış ve çok yönlü olmayan bir araba motoru nasıl tanımlanabilir?"
+msgstr ""
+"Yetersiz tasarlanmış ve çok yönlü olmayan bir araba motoru nasıl "
+"tanımlanabilir?"
 
 #: ../data/verbal_analogies.xml.h:23
 msgid "Simplistic"
@@ -707,7 +801,8 @@ msgstr "Alışılmışın dışında"
 
 #: ../data/verbal_analogies.xml.h:27
 msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr "Aşağıdaki kelimelerden hangisinin anlamı 'censure' kelimesine en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisinin anlamı 'censure' kelimesine en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:28
 msgid "Condemn"
@@ -748,8 +843,7 @@ msgid "Martyr"
 msgstr "Şehit"
 
 #: ../data/verbal_analogies.xml.h:39
-msgid ""
-"Which of the following sentences defines better an 'ostracized' person?"
+msgid "Which of the following sentences defines better an 'ostracized' person?"
 msgstr "Aşağıdakilerden hangisi 'dışlanmış' bir insanı daha iyi açıklar?"
 
 #: ../data/verbal_analogies.xml.h:40
@@ -923,8 +1017,7 @@ msgid "Frog"
 msgstr "Kurbağa"
 
 #: ../data/verbal_analogies.xml.h:87
-msgid ""
-"It is the only one that is not a reptile and also does not have a tail."
+msgid "It is the only one that is not a reptile and also does not have a tail."
 msgstr "Bir sürüngen olmayan ve ayrıca bir kuyruğu da olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:88
@@ -949,7 +1042,8 @@ msgstr "Etçil olmayan hangisidir?"
 
 #: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'hazcılık' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'hazcılık' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
@@ -969,14 +1063,13 @@ msgstr "yoksunluk"
 
 #: ../data/verbal_analogies.xml.h:98
 msgid ""
-"The ethical doctrine holding that only what is pleasant is an intrinsic "
-"good."
+"The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr "Makbul olanın esasen iyi olduğuna dayanan ahlaki öğreti."
 
 #: ../data/verbal_analogies.xml.h:99
-msgid ""
-"Which of the following words is closest to the meaning of 'asceticism'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'çilecilik' kelimesine anlamca en yakındır?"
+msgid "Which of the following words is closest to the meaning of 'asceticism'?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'çilecilik' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
@@ -990,7 +1083,8 @@ msgstr "Daha yüksek ruhani fikirler için yapılan sıkı öz-disiplin."
 
 #: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'oksimoron' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'oksimoron' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
@@ -1090,28 +1184,25 @@ msgstr "Tıbbi uzmanlık olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:127
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'ihmalkâr' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'ihmalkâr' kelimesine anlamca en yakındır?"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of
-#. the following words is closest to the meaning of 'negligent'
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:129
 msgid "Careless"
 msgstr "Dikkatsiz"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of
-#. the following words is closest to the meaning of 'negligent'
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:131
 msgid "Friendly"
 msgstr "Dost canlısı"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of
-#. the following words is closest to the meaning of 'negligent'
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:133
 msgid "Polite"
 msgstr "Kibar"
 
-#. Translator: Used as an adjective in English. Possible answer to: Which of
-#. the following words is closest to the meaning of 'negligent'
+#. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:135
 msgid "Angry"
 msgstr "Öfkeli"
@@ -1144,9 +1235,9 @@ msgid "The other words have the connotation of not occurring frequently."
 msgstr "Diğer kelimeler sıkça meydana gelmemek anlamında kullanılır."
 
 #: ../data/verbal_analogies.xml.h:143
-msgid ""
-"Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'şaşırtıcı' kelimesine anlamca en yakındır?"
+msgid "Which of the following words is closest to the meaning of 'perplexing'?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'şaşırtıcı' kelimesine anlamca en yakındır?"
 
 #. Translator: As synonymous of 'perplexing'
 #: ../data/verbal_analogies.xml.h:145
@@ -1167,7 +1258,8 @@ msgstr "Önemsiz"
 
 #: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'mutsuz' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'mutsuz' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
@@ -1203,7 +1295,8 @@ msgstr "Diğer kelimeler seçkinlik anlamında kullanılır."
 
 #: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'spesifik' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'spesifik' kelimesine anlamca en yakındır?"
 
 #. Translator: Pertaining to a single or specific person or thing
 #: ../data/verbal_analogies.xml.h:160
@@ -1258,7 +1351,8 @@ msgstr "Kuru meyve olmayan tek şey."
 
 #: ../data/verbal_analogies.xml.h:174
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'beğeni' kelimesine anlamca en yakındır?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'beğeni' kelimesine anlamca en yakındır?"
 
 #: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
@@ -1299,9 +1393,9 @@ msgid "Risk"
 msgstr "Risk"
 
 #: ../data/verbal_analogies.xml.h:186
-msgid ""
-"Which of the following words is closest to the meaning of 'phlegmatic'?"
-msgstr "Aşağıdaki kelimelerden hangisi 'ağırkanlı' kelimesine anlamca en yakındır?"
+msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
+msgstr ""
+"Aşağıdaki kelimelerden hangisi 'ağırkanlı' kelimesine anlamca en yakındır?"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
@@ -1575,7 +1669,9 @@ msgstr "Sahil"
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
-msgstr "Vaha çölde çevresinden yalıtılmış bir bitki örtüsü alanı, ada ise suyla çevrili yalıtılmış bir toprak parçasıdır."
+msgstr ""
+"Vaha çölde çevresinden yalıtılmış bir bitki örtüsü alanı, ada ise suyla "
+"çevrili yalıtılmış bir toprak parçasıdır."
 
 #. Translators: letter refers to letter (in paper form)
 #: ../data/verbal_analogies.xml.h:262
@@ -1723,7 +1819,9 @@ msgstr "Azimut"
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
-msgstr "Paralel ve boylam doğudan batıya doğru giderken, meridyen ve enlem kuzeyden güneye doğru gider."
+msgstr ""
+"Paralel ve boylam doğudan batıya doğru giderken, meridyen ve enlem kuzeyden "
+"güneye doğru gider."
 
 #: ../data/verbal_analogies.xml.h:299
 msgid "art / gallery | drama"
@@ -1816,9 +1914,11 @@ msgstr "Kapat"
 
 #: ../data/verbal_analogies.xml.h:325
 msgid ""
-"To make both objects work, a button needs to be pushed and a key needs to be"
-" turned."
-msgstr "Her iki nesnenin de çalışması için bir düğmeye basılması ve bir anahtarın döndürülmesi gerekir."
+"To make both objects work, a button needs to be pushed and a key needs to be "
+"turned."
+msgstr ""
+"Her iki nesnenin de çalışması için bir düğmeye basılması ve bir anahtarın "
+"döndürülmesi gerekir."
 
 #: ../data/verbal_analogies.xml.h:326
 msgid "concept / idea | obsession"
@@ -1974,15 +2074,12 @@ msgstr "vuruş"
 msgid "glass / break | paper"
 msgstr "bardak / kırık | kağıt"
 
-#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as
-#. in "To pull apart or into pieces by force" (not lacrimation)
+#. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
 #: ../data/verbal_analogies.xml.h:373
 msgid "tear | rip"
 msgstr "yırtmak | sökmek"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not
-#. exist in all languages. It means 'digits of the foot'. Feel free to change
-#. it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "ayak / iki | parmak"
@@ -2291,10 +2388,13 @@ msgstr "  --gamelist\t\t\tMevcut oyunların listesini gösterir."
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
-msgstr "  --customgame [game1, gameN]\tÖzel oyun oynarken oyunların listesini belirtir."
+msgstr ""
+"  --customgame [game1, gameN]\tÖzel oyun oynarken oyunların listesini "
+"belirtir."
 
 #: ../src/Clients/Classical/CommandLine.cs:177
-msgid "  --norandom \t\t\tThe custom game list provided will not be randomized."
+msgid ""
+"  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tSağlanan özel oyun listesi rastgele seçilmeyecek."
 
 #: ../src/Clients/Classical/CommandLine.cs:178
@@ -2313,30 +2413,48 @@ msgstr "Fikirleri temel alınmıştır:"
 msgid "MENSA works"
 msgstr "MENSA works"
 
-#. Translators: Replace by the name of the people that translated the
-#. application
+#. Translators: Replace by the name of the people that translated the application
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:61
 msgid "translator-credits"
 msgstr "Muhammet Kara <muhammetk@gmail.com>"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
-"This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as  published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as  published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
 "\n"
-msgstr "Bu uygulama bir özgür yazılımdır; Özgür Yazılım Derneği'nce yayınlanan GNU Açık Kamu Yetki Belgesi'nin 2. ya da daha sonraki sürümü (seçim size kalmış)  koşulları altında yeniden dağıtabilir ve/ya da değiştirebilirsiniz.\n\n"
+msgstr ""
+"Bu uygulama bir özgür yazılımdır; Özgür Yazılım Derneği'nce yayınlanan GNU "
+"Açık Kamu Yetki Belgesi'nin 2. ya da daha sonraki sürümü (seçim size "
+"kalmış)  koşulları altında yeniden dağıtabilir ve/ya da "
+"değiştirebilirsiniz.\n"
+"\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:67
 msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details.\n"
 "\n"
-msgstr "Bu yazılım kullanışlı olacağı umuduyla dağıtılır, ama HİÇ BİR GARANTİSİ YOKTUR; SATILABİLİRLİĞİ veya HERHANGİ BİR AMACA UYGUNLUĞU için ima edilen bir garanti yoktur. Daha fazla bilgi için GNU Genel Kamu Lisansı'na (GPL) bakınız.\n\n"
+msgstr ""
+"Bu yazılım kullanışlı olacağı umuduyla dağıtılır, ama HİÇ BİR GARANTİSİ "
+"YOKTUR; SATILABİLİRLİĞİ veya HERHANGİ BİR AMACA UYGUNLUĞU için ima edilen "
+"bir garanti yoktur. Daha fazla bilgi için GNU Genel Kamu Lisansı'na (GPL) "
+"bakınız.\n"
+"\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
 msgid ""
-"You should have received a copy of the GNU General Public License along with"
-" this program; if not, write to the Free Software Foundation, Inc., 59 "
-"Temple Place - Suite 330, Boston, MA 02111-1307, USA."
-msgstr "Bu programla beraber GNU Genel Kamu Lisansını da almış olmalısınız; eğer almadıysanız, Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02110-1302, USA adresine yazınız."
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place - Suite 330, Boston, MA 02111-1307, USA."
+msgstr ""
+"Bu programla beraber GNU Genel Kamu Lisansını da almış olmalısınız; eğer "
+"almadıysanız, Free Software Foundation, Inc., 59 Temple Place - Suite 330, "
+"Boston, MA 02110-1302, USA adresine yazınız."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2360,8 +2478,7 @@ msgstr "Tür"
 msgid "Selected"
 msgstr "Seçili"
 
-#. Translators: default file name used when exporting PDF files (keep the pdf
-#. extension please)
+#. Translators: default file name used when exporting PDF files (keep the pdf extension please)
 #: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:73
 msgid "games.pdf"
 msgstr "games.pdf"
@@ -2381,16 +2498,20 @@ msgstr "PDF dosyası düzgün bir şekilde dışa aktarıldı."
 #: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:175
 msgid ""
 "There was a problem generating the PDF file. The file has not been created."
-msgstr "PDF dosyası oluşturulurken bir sorunla karşılaşıldı. Doysa oluşturulamadı."
+msgstr ""
+"PDF dosyası oluşturulurken bir sorunla karşılaşıldı. Doysa oluşturulamadı."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
 msgid "The graph below shows the player's game score evolution."
-msgstr "Alttaki grafikte oyuncunun oyunda aldığı puanların gelişimi gözlenebilir."
+msgstr ""
+"Alttaki grafikte oyuncunun oyunda aldığı puanların gelişimi gözlenebilir."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
 msgid ""
 "You need more than one game session recorded to see the score evolution."
-msgstr "Sayı gelişiminizi görmek için oyun oturumunu birden fazla kaydetmiş olmanız gerekli."
+msgstr ""
+"Sayı gelişiminizi görmek için oyun oturumunu birden fazla kaydetmiş olmanız "
+"gerekli."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
 #, csharp-format
@@ -2401,8 +2522,7 @@ msgstr[0] "{0} kayıtlı oturumunun sonuçları kullanılarak kurulmuş."
 
 #. Translators: "The graph below" +  "It is built using" sentences
 #. Translators: answer + rationale of the answer
-#. Translators: Concatenating two strings (rationale of answer + extra
-#. information).
+#. Translators: Concatenating two strings (rationale of answer + extra information).
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61
 #: ../src/Core/Main/Game.cs:145
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75
@@ -2425,7 +2545,9 @@ msgstr "Oyuncunun geçmiş oturumlarını silmek üzeresiniz."
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
-msgstr "Devam ederseniz, geçmiş oturumları kaybedeceksiniz. Devam etmek istiyor musunuz?"
+msgstr ""
+"Devam ederseniz, geçmiş oturumları kaybedeceksiniz. Devam etmek istiyor "
+"musunuz?"
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
 msgid "_Delete"
@@ -2455,7 +2577,9 @@ msgstr "PDF dışa aktar"
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
-msgstr "Bu seçenek, bir grup oyunu PDF dosyası olarak dışa aktarmaya olanak tanır. Bulmacaları bir bilgisayar olmadan tamamlayabilirsiniz."
+msgstr ""
+"Bu seçenek, bir grup oyunu PDF dosyası olarak dışa aktarmaya olanak tanır. "
+"Bulmacaları bir bilgisayar olmadan tamamlayabilirsiniz."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
@@ -2516,8 +2640,7 @@ msgstr "<b>Oyun sayısı</b>"
 msgid "Total number of games:"
 msgstr "Toplam oyun sayısı:"
 
-#. Translators: this the number of pages that are included by side when
-#. exporting a PDF"
+#. Translators: this the number of pages that are included by side when exporting a PDF"
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
 msgid "Pages per side:"
 msgstr "Yüz başına sayfa:"
@@ -2592,41 +2715,46 @@ msgstr "Oyuncunun oturum geçmişindeki kayıtların en fazla sayısı:"
 msgid "Delete Player's Game Session History"
 msgstr "Oyuncunun Geçmiş Oturumlarını Sil"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Tebrikler."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Yanlış cevap"
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
-msgstr "Cevabı bulduktan sonra, onu \"Cevap:\" girişindeki kutuya yaz ve \"Tamam\" butonuna bas."
+msgstr ""
+"Cevabı bulduktan sonra, onu \"Cevap:\" girişindeki kutuya yaz ve \"Tamam\" "
+"butonuna bas."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Diliniz için gbrainy çeviri düzeyi düşüktür."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
-"You may be exposed to partially translated games making it more difficult to"
-" play. If you prefer to play in English, there is an option for doing so in "
+"You may be exposed to partially translated games making it more difficult to "
+"play. If you prefer to play in English, there is an option for doing so in "
 "gbrainy's Preferences."
-msgstr "Oynamayı daha zor hale getiren, kısmen çevrilmiş oyunlarla karşılaşabilirsiniz. İngilizce olarak oynamayı tercih ediyorsanız, gbrainy'nin Tercihlerinde bunun için bir seçenek bulunmaktadır."
+msgstr ""
+"Oynamayı daha zor hale getiren, kısmen çevrilmiş oyunlarla "
+"karşılaşabilirsiniz. İngilizce olarak oynamayı tercih ediyorsanız, "
+"gbrainy'nin Tercihlerinde bunun için bir seçenek bulunmaktadır."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Duraklat"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Sürdür"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Başlangıç zamanı {0}"
@@ -2801,7 +2929,8 @@ msgstr "Eklenti Bağımlılıkları:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:48
 msgid "<b>Select the add-ins to install and click on Next</b>"
-msgstr "<b>Yüklenmesini istediğiniz eklentileri seçerek İleri tuşuna basınız.</b>"
+msgstr ""
+"<b>Yüklenmesini istediğiniz eklentileri seçerek İleri tuşuna basınız.</b>"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:49
 msgid "Show all packages"
@@ -3094,14 +3223,15 @@ msgstr[0] "Olası doğru yanıtlar şunlardır: {0}."
 msgid "Extensions database:"
 msgstr "Eklenti veritabanı:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and
-#. load from addins-in and external files)
+#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
 #: ../src/Core/Main/GameManager.cs:257
 #, csharp-format
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
-msgstr "{0} oyun kayıtlı: {1} mantık bulmaca, {2} hesaplama eğiticisi, {3} hafıza eğiticisi, {4} sözlü analoji"
+msgstr ""
+"{0} oyun kayıtlı: {1} mantık bulmaca, {2} hesaplama eğiticisi, {3} hafıza "
+"eğiticisi, {4} sözlü analoji"
 
 #: ../src/Core/Main/GameSession.cs:183
 #, csharp-format
@@ -3159,12 +3289,15 @@ msgstr "Yönergeleri dikkatlice okuyun, verileri ve ipuçlarını teşhis edin."
 msgid ""
 "To score the player gbrainy uses the time and tips needed to complete each "
 "game."
-msgstr "Oyuncunun skorunu hesaplamak için gbrainy zamanı kullanır ve herbir oyunu tamamlamak için gereken püf noktaları verir."
+msgstr ""
+"Oyuncunun skorunu hesaplamak için gbrainy zamanı kullanır ve herbir oyunu "
+"tamamlamak için gereken püf noktaları verir."
 
 #: ../src/Core/Main/GameTips.cs:63
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
-msgstr "Mantık oyunlarında ilgisiz görünebilen unsurlar çok önemli olabilirler."
+msgstr ""
+"Mantık oyunlarında ilgisiz görünebilen unsurlar çok önemli olabilirler."
 
 #: ../src/Core/Main/GameTips.cs:65
 msgid "Try to approach a problem from different angles."
@@ -3178,8 +3311,10 @@ msgstr "Hata yapmaktan korkmayın. Hatalar öğrenme sürecinin bir parçasıdı
 #: ../src/Core/Main/GameTips.cs:69
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
-msgstr "Tüm problemleri, zor olanları bile çözün. Gelişme, kendinizi zorlamaktan geçer."
+"challenging yourself."
+msgstr ""
+"Tüm problemleri, zor olanları bile çözün. Gelişim, kendinizi zorlamaktan "
+"geçer."
 
 #: ../src/Core/Main/GameTips.cs:71
 msgid "Play on a daily basis, you will notice progress soon."
@@ -3190,7 +3325,9 @@ msgstr "Günlük kuralla oynayın, gelişimi yakında fark edeceksin."
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
-msgstr "Tam olarak hangi oyunu oynamak istediğini seçmek için 'Özel Oyun Seçimi'ni kullanın."
+msgstr ""
+"Tam olarak hangi oyunu oynamak istediğini seçmek için 'Özel Oyun Seçimi'ni "
+"kullanın."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
 msgid "Use the Settings to adjust the difficulty level of the game."
@@ -3204,16 +3341,18 @@ msgstr "Elemanların ilişkisi, onları hatırlamak için genel bir tekniktir."
 msgid ""
 "Grouping elements into categories is a common technique for remembering "
 "things."
-msgstr "Kategorideki elemanları gruplandırma, onları hatırlamak için genel bir tekniktir."
+msgstr ""
+"Kategorideki elemanları gruplandırma, onları hatırlamak için genel bir "
+"tekniktir."
 
 #: ../src/Core/Main/GameTips.cs:81
 msgid "Build acronyms using the first letter of each fact to be remembered."
-msgstr "Hatırlamak için herbir unsurun ilk harfini kullanarak kısaltmalar oluşturun."
+msgstr ""
+"Hatırlamak için herbir unsurun ilk harfini kullanarak kısaltmalar oluşturun."
 
 #: ../src/Core/Main/GameTips.cs:83
 msgid ""
-"The enjoyment obtained from a puzzle is proportional to the time spent on "
-"it."
+"The enjoyment obtained from a puzzle is proportional to the time spent on it."
 msgstr "Bir bulmacadan alınan haz, ona harcanan zamanla orantılıdır."
 
 #: ../src/Core/Main/GameTips.cs:85
@@ -3228,19 +3367,20 @@ msgstr "Sözlü kıyaslamalara cevap verirken sözün dilbilgisine dikkat edin."
 msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
-msgstr "Alışverişe çıktığınız zaman, hesapları bir hesap makinesi kullanmadan yapmaya çalışın."
+msgstr ""
+"Alışverişe çıktığınız zaman, hesapları bir hesap makinesi kullanmadan "
+"yapmaya çalışın."
 
 #: ../src/Core/Main/Memory.cs:53
 msgid "Memorize the objects below in the given time"
 msgstr "Aşağıdaki nesneleri verilen zamanda ezberleyin"
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Kalan süre"
 
 #. Translators: {0} is the game number and {1} the game question or answer
-#. The number is used as reference when looking for the game solution in the
-#. PDF
+#. The number is used as reference when looking for the game solution in the PDF
 #: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
 #, csharp-format
 msgid "Game #{0}. {1}"
@@ -3255,8 +3395,7 @@ msgstr "gbrainy {0} ile oluşturulmuştur"
 msgid "Solutions"
 msgstr "Çözümler"
 
-#. Translators: this the separator used when concatenating multiple possible
-#. answers for verbal analogies
+#. Translators: this the separator used when concatenating multiple possible answers for verbal analogies
 #. For example: "Possible correct answers are: sleep, rest."
 #: ../src/Core/Main/Verbal/Analogies.cs:76
 msgid ", "
@@ -3267,8 +3406,7 @@ msgstr ", "
 msgid "Multiple options #{0}"
 msgstr "Çoklu seçenekler #{0}"
 
-#. Translators: {0} is replaced by a question and {1} by the possible valid
-#. answers
+#. Translators: {0} is replaced by a question and {1} by the possible valid answers
 #. E.g.: What is the correct option? Answer A, B, C or D.
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:51
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:60
@@ -3276,8 +3414,7 @@ msgstr "Çoklu seçenekler #{0}"
 msgid "{0} Answer {1}."
 msgstr "{0} Cevap {1}."
 
-#. Translators: this "option) answer" for example "a) "21 x 60 = 1260". This
-#. should not be changed for most of the languages
+#. Translators: this "option) answer" for example "a) "21 x 60 = 1260". This should not be changed for most of the languages
 #: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:87
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:103
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:164
@@ -3300,7 +3437,9 @@ msgstr "#{0} çifti kelimelerin karşılaştırılması"
 msgid ""
 "Given the relationship between the two words below, which word has the same "
 "relationship to '{0}'?"
-msgstr "Aşağıda verilen iki kelime arasındaki ilişki, hangi kelimenin '{0}' ile olan ilişkiye ile aynıdır?"
+msgstr ""
+"Aşağıda verilen iki kelime arasındaki ilişki, hangi kelimenin '{0}' ile olan "
+"ilişkiye ile aynıdır?"
 
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
@@ -3357,11 +3496,12 @@ msgstr[0] "{0}. Kazanılan oyun: {1} ({2})"
 msgid "Time played {0} (average per game {1})"
 msgstr "Oynanan zaman {0} (oyun başına ortalama {1})"
 
-#. Translators: translated string should not be longer that the English
-#. original (space restriction on the UI)
+#. Translators: translated string should not be longer that the English original (space restriction on the UI)
 #: ../src/Core/Views/FinishView.cs:177
 msgid "For details on how gbrainy's scoring works refer to the help."
-msgstr "gbrainy'nin puanlamasının nasıl çalıştığı hakkındaki detaylar için yardım kısmına bakın."
+msgstr ""
+"gbrainy'nin puanlamasının nasıl çalıştığı hakkındaki detaylar için yardım "
+"kısmına bakın."
 
 #: ../src/Core/Views/FinishView.cs:189
 msgid "Tips for your next games"
@@ -3376,28 +3516,36 @@ msgstr "Tebrikler! Yeni kişisel rekor"
 msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
 "record. Your previous record was {1}."
-msgstr "Mantıksal bulmaca oyunlarında {0} puan alarak yeni bir kişisel rekor kırdınız. Bir önceki rekorunuz {1}."
+msgstr ""
+"Mantıksal bulmaca oyunlarında {0} puan alarak yeni bir kişisel rekor "
+"kırdınız. Bir önceki rekorunuz {1}."
 
 #: ../src/Core/Views/FinishView.cs:233
 #, csharp-format
 msgid ""
 "By scoring {0} in calculation games you have established a new personal "
 "record. Your previous record was {1}."
-msgstr "Hesaplama oyunlarında {0} puan alarak yeni bir kişisek rekor kırdınız. Bir önceki rekorunuz {1}."
+msgstr ""
+"Hesaplama oyunlarında {0} puan alarak yeni bir kişisek rekor kırdınız. Bir "
+"önceki rekorunuz {1}."
 
 #: ../src/Core/Views/FinishView.cs:239
 #, csharp-format
 msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
 "Your previous record was {1}."
-msgstr "Hafıza oyunlarında {0} puan alarak yeni bir kişisek rekor kırdınız. Bir önceki rekorunuz {1}."
+msgstr ""
+"Hafıza oyunlarında {0} puan alarak yeni bir kişisek rekor kırdınız. Bir "
+"önceki rekorunuz {1}."
 
 #: ../src/Core/Views/FinishView.cs:245
 #, csharp-format
 msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
 "record. Your previous record was {1}."
-msgstr "Sözlü kıyaslamalarda {0} puan alarak yeni bir kişisek rekor kırdınız. Bir önceki rekorunuz {1}."
+msgstr ""
+"Sözlü kıyaslamalarda {0} puan alarak yeni bir kişisek rekor kırdınız. Bir "
+"önceki rekorunuz {1}."
 
 #: ../src/Core/Views/PlayerHistoryView.cs:276
 msgid "Time"
@@ -3411,7 +3559,8 @@ msgstr "Mantık bulmacaları. Aklına ve düşünme yeteneklerine meydan oku"
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
-msgstr "Zihinsel hesaplama. Sayısal işlemler zihinsel hesap kabiliyetini sınar."
+msgstr ""
+"Zihinsel hesaplama. Sayısal işlemler zihinsel hesap kabiliyetini sınar."
 
 #: ../src/Core/Views/WelcomeView.cs:106
 msgid "Memory trainers. To prove your short term memory."
@@ -3431,7 +3580,8 @@ msgstr "gbrainy {0} e/a Hoş geldiniz"
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
-msgstr "gbrainy, beyin bulmaca oyunu ve eğitimidir. Beyni eğitir. Şunları içerir:"
+msgstr ""
+"gbrainy, beyin bulmaca oyunu ve eğitimidir. Beyni eğitir. Şunları içerir:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
 msgid "Arithmetical operations"
@@ -3450,13 +3600,17 @@ msgstr "Ortalama"
 msgid ""
 "Given the numbers: {0}. Which of the following numbers is closest to the "
 "average? Answer {1}, {2}, {3} or {4}."
-msgstr "Verilen numaralar: {0}. Ortalamaya en yakın olan numara hangisidir? Cevap {1}, {2}, {3} ya da {4}."
+msgstr ""
+"Verilen numaralar: {0}. Ortalamaya en yakın olan numara hangisidir? Cevap "
+"{1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:60
 msgid ""
 "The average of a list of numbers is their sum divided by the number of "
 "numbers in the list."
-msgstr "Bir grup sayının ortalaması, gruptaki bütün sayıların toplamının gruptaki sayı adedine bölünmesidir."
+msgstr ""
+"Bir grup sayının ortalaması, gruptaki bütün sayıların toplamının gruptaki "
+"sayı adedine bölünmesidir."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:65
 #, csharp-format
@@ -3470,9 +3624,10 @@ msgstr "Daha yakın kesir"
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:46
 #, csharp-format
 msgid ""
-"Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or "
+"Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
+msgstr ""
+"Aşağıdaki sayılardan hangisi {0}'a daha yakındır? Cevap {1}, {2}, {3} ya da "
 "{4}."
-msgstr "Aşağıdaki sayılardan hangisi {0}'a daha yakındır? Cevap {1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
@@ -3488,7 +3643,9 @@ msgstr "Ardışık toplama"
 msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
-msgstr "Aşağıdaki tek basamaklı sayı listesinde toplamları {0} olan 5 ardışık sayı bulunmaktadır. Bunlar hangi sayılardır?"
+msgstr ""
+"Aşağıdaki tek basamaklı sayı listesinde toplamları {0} olan 5 ardışık sayı "
+"bulunmaktadır. Bunlar hangi sayılardır?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:61
 msgid "Fractions"
@@ -3496,9 +3653,11 @@ msgstr "Kesirler"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:69
 msgid ""
-"What is the result of the given operation? Answer using either a fraction or"
-" a number."
-msgstr "Verilen işlemin sonucu nedir? Cevabınızı kesir olarak ya da tamsayı olarak veriniz."
+"What is the result of the given operation? Answer using either a fraction or "
+"a number."
+msgstr ""
+"Verilen işlemin sonucu nedir? Cevabınızı kesir olarak ya da tamsayı olarak "
+"veriniz."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
 msgid "Greatest divisor"
@@ -3509,7 +3668,9 @@ msgstr "En büyük bölen"
 msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
 "Answer {0}, {1}, {2} or {3}."
-msgstr "Tüm sayıların en büyük ortak böleni hangisidir? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Tüm sayıların en büyük ortak böleni hangisidir? Cevap {0}, {1}, {2} ya da "
+"{3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
@@ -3532,7 +3693,9 @@ msgstr "İlk işlem {0}'dır."
 #: ../src/Games/Calculation/CalculationOperator.cs:46
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
-msgstr "Hangi işlem sayesinde {0}, {1} ve {2} ; {3}'e eşit çıkar. Cevabınızı '+-/*' kullanarak veriniz."
+msgstr ""
+"Hangi işlem sayesinde {0}, {1} ve {2} ; {3}'e eşit çıkar. Cevabınızı '+-/*' "
+"kullanarak veriniz."
 
 #: ../src/Games/Calculation/CalculationOperator.cs:109
 #: ../src/Games/Calculation/CalculationRatio.cs:86
@@ -3551,13 +3714,18 @@ msgid ""
 "Which of the following numbers is a prime? A prime number is a positive "
 "integer that has exactly two different positive divisors, 1 and itself. "
 "Answer {0}, {1}, {2} or {3}."
-msgstr "Aşağıdaki sayılardan hangisi asaldır? 1 ve kendisi olmak üzere tam olarak iki pozitif tam böleni olan pozitif sayılara asal sayı denir. Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Aşağıdaki sayılardan hangisi asaldır? 1 ve kendisi olmak üzere tam olarak "
+"iki pozitif tam böleni olan pozitif sayılara asal sayı denir. Cevap {0}, "
+"{1}, {2} ya da {3}."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:81
 msgid ""
-"If the sum of all digits in a given number is divisible by 3, then so is the"
-" number. For example 15 = 1 + 5 = 6, which is divisible by 3."
-msgstr "Sayının basamaklarını topladığınızda çıkan rakam 3'e bölünebiliyorsa, sayı da 3'e bölünebilir. Örnek: 15 = 1 + 5 = 6, yani sayı 3'e bölünebilir."
+"If the sum of all digits in a given number is divisible by 3, then so is the "
+"number. For example 15 = 1 + 5 = 6, which is divisible by 3."
+msgstr ""
+"Sayının basamaklarını topladığınızda çıkan rakam 3'e bölünebiliyorsa, sayı "
+"da 3'e bölünebilir. Örnek: 15 = 1 + 5 = 6, yani sayı 3'e bölünebilir."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
@@ -3571,7 +3739,8 @@ msgstr "Oranlar"
 #: ../src/Games/Calculation/CalculationProportions.cs:46
 #, csharp-format
 msgid "What is {0}% of {1}/{2}? Answer {3}, {4}, {5} or {6}."
-msgstr "{1}/{2} sayısının %{0}'si kaçtır? Cevap: {3}, {4}, {5} ya da {6} olabilir."
+msgstr ""
+"{1}/{2} sayısının %{0}'si kaçtır? Cevap: {3}, {4}, {5} ya da {6} olabilir."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:31
 msgid "Ratio"
@@ -3582,7 +3751,9 @@ msgstr "Oran"
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr "Toplamı {0} ve oranı {1} / {2} olan iki sayı hangileridir? İki sayı kullanarak cevaplayın (ör. 1 ve 2)."
+msgstr ""
+"Toplamı {0} ve oranı {1} / {2} olan iki sayı hangileridir? İki sayı "
+"kullanarak cevaplayın (ör. 1 ve 2)."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:48
 #, csharp-format
@@ -3595,7 +3766,9 @@ msgstr "İkinci sayı, ilk sayıyı {0} ile çarpıp {1}'e bölerek hesaplanabil
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
-msgstr "Oran, iki sayının birbirine bölümünü belirtir. a:b oranı, her bir 'a' parça ile eşleşen 'b' parça olduğu anlamına gelir."
+msgstr ""
+"Oran, iki sayının birbirine bölümünü belirtir. a:b oranı, her bir 'a' parça "
+"ile eşleşen 'b' parça olduğu anlamına gelir."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:98
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
@@ -3617,14 +3790,18 @@ msgstr "Seçilen sayılar"
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
-msgstr "Aşağıdaki sayı listesinde {0}'dan büyük tüm sayıların toplamı nedir? Cevap {1}, {2}, {3} ya da {4}."
+msgstr ""
+"Aşağıdaki sayı listesinde {0}'dan büyük tüm sayıların toplamı nedir? Cevap "
+"{1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
-msgstr "Aşağıdaki sayı listesinde {0}'dan büyük tüm sayıların çarpımı nedir? Cevap {1}, {2}, {3} ya da {4}."
+msgstr ""
+"Aşağıdaki sayı listesinde {0}'dan büyük tüm sayıların çarpımı nedir? Cevap "
+"{1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
 msgid "Two numbers"
@@ -3635,14 +3812,18 @@ msgstr "İki sayı"
 msgid ""
 "Which two numbers when added are {0} and when multiplied are {1}? Answer "
 "using two numbers (e.g.: 1 and 2)."
-msgstr "Hangi iki sayının toplamı {0} ve çarpımı {1} dir?  İki sayıyla cevap verin (ör: 1 ve 2)."
+msgstr ""
+"Hangi iki sayının toplamı {0} ve çarpımı {1} dir?  İki sayıyla cevap verin "
+"(ör: 1 ve 2)."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:53
 #, csharp-format
 msgid ""
 "Which two numbers when subtracted are {0} and when multiplied are {1}? "
 "Answer using two numbers (e.g.: 1 and 2)."
-msgstr "Hangi iki sayı çıkarıldığında {0} ve çarpıldığında {1} sonucunu verir? Answer using two numbers (e.g.: 1 and 2)."
+msgstr ""
+"Hangi iki sayı çıkarıldığında {0} ve çarpıldığında {1} sonucunu verir? "
+"Answer using two numbers (e.g.: 1 and 2)."
 
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:117
 #, csharp-format
@@ -3662,7 +3843,9 @@ msgstr "3B Küp"
 msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
-msgstr "Aşağıdaki büyük küpü oluşturmak için kaç tane küçük küp kullanılır? Sayı kullanarak cevaplayın."
+msgstr ""
+"Aşağıdaki büyük küpü oluşturmak için kaç tane küçük küp kullanılır? Sayı "
+"kullanarak cevaplayın."
 
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
@@ -3674,9 +3857,11 @@ msgstr "Denge"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:53
 msgid ""
-"Using triangles only, how many triangles are needed in the right part of the"
-" last figure to keep it balanced?"
-msgstr "Sadece üçgenler kullanarak, son şeklin dengede kalabilmesi için sağ kısmında kaç tane üçgene ihtiyaç vardır?"
+"Using triangles only, how many triangles are needed in the right part of the "
+"last figure to keep it balanced?"
+msgstr ""
+"Sadece üçgenler kullanarak, son şeklin dengede kalabilmesi için sağ kısmında "
+"kaç tane üçgene ihtiyaç vardır?"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:58
 msgid ""
@@ -3697,7 +3882,9 @@ msgstr "Bir üçgen oluştur"
 msgid ""
 "Which three pieces can you use together to build a triangle? Answer using "
 "the three figure names, e.g.: {0}{1}{2}."
-msgstr "Bir üçgen oluşturmak için hangi üç parçayı birlikte kullanabilirsin? Üç şekil adlarını kullanarak cevapla, örn: {0}{1}{2}."
+msgstr ""
+"Bir üçgen oluşturmak için hangi üç parçayı birlikte kullanabilirsin? Üç "
+"şekil adlarını kullanarak cevapla, örn: {0}{1}{2}."
 
 #: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
 msgid "The resulting triangle is isosceles."
@@ -3715,7 +3902,9 @@ msgstr "Bir karedeki çemberler"
 msgid ""
 "What is the maximum number of circles (as shown) that fit in the square "
 "below?"
-msgstr "Aşağıdaki kareye uyacak dairelerin (gösterildiği gibi) en büyük sayısı kaçtır?"
+msgstr ""
+"Aşağıdaki kareye uyacak dairelerin (gösterildiği gibi) en büyük sayısı "
+"kaçtır?"
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:37
 msgid "You can fit more than 64 circles."
@@ -3725,9 +3914,11 @@ msgstr "64 daireden fazla yerleştirebilirsin."
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:43
 #, csharp-format
 msgid ""
-"Using the above layout {0} units of height are gained per row leaving enough"
-" space for an additional row."
-msgstr "Yukarıdaki yerleşim kullanılarak her bir satır için {0} birim yükseklik kazanılmakta ve yeni bir satır için yeterli boşluk bırakılmaktadır."
+"Using the above layout {0} units of height are gained per row leaving enough "
+"space for an additional row."
+msgstr ""
+"Yukarıdaki yerleşim kullanılarak her bir satır için {0} birim yükseklik "
+"kazanılmakta ve yeni bir satır için yeterli boşluk bırakılmaktadır."
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:77
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:96
@@ -3749,7 +3940,9 @@ msgstr "Saatler"
 msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
 "using numbers."
-msgstr "Hangi sayı saat '{0}' noktasını büyük yapmak içindir? Rakamları kullanarak cevapla."
+msgstr ""
+"Hangi sayı saat '{0}' noktasını büyük yapmak içindir? Rakamları kullanarak "
+"cevapla."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:51
 #, csharp-format
@@ -3757,7 +3950,10 @@ msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
 "the values to which the hands point. For example, the values of the hands "
 "for '{0}' are {3} ({2} + {1})."
-msgstr "İlk saatten başlayarak akrep, yelkovan ve saniye kolunun gösterdiği değerlerin toplamına {1} ekleyin. Örneğin, '{0}' için kolların gösterdiği değerler {3} ({2} + {1}) şeklindedir."
+msgstr ""
+"İlk saatten başlayarak akrep, yelkovan ve saniye kolunun gösterdiği "
+"değerlerin toplamına {1} ekleyin. Örneğin, '{0}' için kolların gösterdiği "
+"değerler {3} ({2} + {1}) şeklindedir."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:57
 msgid "The clocks do not follow the time logic."
@@ -3793,14 +3989,16 @@ msgid ""
 msgid_plural ""
 "A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
-msgstr[0] "Bir makine bu kumaşın 1 metresini {0} saniyede kesmektedir. Makinenin tüm kumaş parçasını 1 metrelik parçalara bölmesi kaç saniye sürer?"
+msgstr[0] ""
+"Bir makine bu kumaşın 1 metresini {0} saniyede kesmektedir. Makinenin tüm "
+"kumaş parçasını 1 metrelik parçalara bölmesi kaç saniye sürer?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
 #, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
-msgid_plural ""
-"With the cut number {0}, the machine creates two 1 meter pieces."
-msgstr[0] "{0} kesim numarasıyla makine iki adet 1 metrelik parça oluşturmaktadır."
+msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
+msgstr[0] ""
+"{0} kesim numarasıyla makine iki adet 1 metrelik parça oluşturmaktadır."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
@@ -3808,9 +4006,12 @@ msgid ""
 "A fence is built to enclose a square shaped region. {0} fence pole is used "
 "in each side of the square. How many fence poles are used in total?"
 msgid_plural ""
-"A fence is built to enclose a square shaped region. {0} fence poles are used"
-" in each side of the square. How many fence poles are used in total?"
-msgstr[0] "Bir çit, kare şeklinde bir alanı çevreleyecek şekilde yapılmıştır. Karenin her bir kenarında {0} adet direk kullanılmaktadır. Bu çit için toplamda kaç adet direk kullanılmıştır?"
+"A fence is built to enclose a square shaped region. {0} fence poles are used "
+"in each side of the square. How many fence poles are used in total?"
+msgstr[0] ""
+"Bir çit, kare şeklinde bir alanı çevreleyecek şekilde yapılmıştır. Karenin "
+"her bir kenarında {0} adet direk kullanılmaktadır. Bu çit için toplamda kaç "
+"adet direk kullanılmıştır?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:92
 #, csharp-format
@@ -3820,19 +4021,23 @@ msgid ""
 msgid_plural ""
 "There are {0} fence poles since the poles on the corners of the square are "
 "shared."
-msgstr[0] "Karenin köşelerindeki direkler paylaşıldığı için çitte {0} direk bulunur."
+msgstr[0] ""
+"Karenin köşelerindeki direkler paylaşıldığı için çitte {0} direk bulunur."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:105
 #, csharp-format
 msgid ""
 "Wrapping an anniversary present costs one monetary unit. The anniversary "
-"present costs {0} monetary unit more than the cost to wrap it. How much does"
-" it cost to both purchase and wrap the present?"
+"present costs {0} monetary unit more than the cost to wrap it. How much does "
+"it cost to both purchase and wrap the present?"
 msgid_plural ""
 "Wrapping an anniversary present costs one monetary unit. The anniversary "
 "present costs {0} monetary units more than the cost to wrap it. How much "
 "does it cost to both purchase and wrap the present?"
-msgstr[0] "Bir yıl dönümü hediyesinin paketleme maliyeti 1 liradır. Yıl dönümü hediyesinin fiyatı ise paketleme maliyetinden {0} lira daha fazladır. Bu hediyeyi satın almanın ve paketlemenin toplam maliyeti nedir?"
+msgstr[0] ""
+"Bir yıl dönümü hediyesinin paketleme maliyeti 1 liradır. Yıl dönümü "
+"hediyesinin fiyatı ise paketleme maliyetinden {0} lira daha fazladır. Bu "
+"hediyeyi satın almanın ve paketlemenin toplam maliyeti nedir?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:112
 #, csharp-format
@@ -3840,9 +4045,11 @@ msgid ""
 "It is the cost of the present, {0} monetary unit, plus one monetary unit of "
 "the wrapping."
 msgid_plural ""
-"It is the cost of the present, {0} monetary units, plus one monetary unit of"
-" the wrapping."
-msgstr[0] "Hediyenin fiyatı olan {0} lira ile paketleme maliyeti olan 1 liranın toplamına eşittir."
+"It is the cost of the present, {0} monetary units, plus one monetary unit of "
+"the wrapping."
+msgstr[0] ""
+"Hediyenin fiyatı olan {0} lira ile paketleme maliyeti olan 1 liranın "
+"toplamına eşittir."
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:40
 msgid "Count series"
@@ -3850,21 +4057,26 @@ msgstr "Dizi Sayımı"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:62
 msgid ""
-"How many numbers '9' are required to represent the numbers between 10 to "
-"100?"
-msgstr "10 ile 100 arasındaki tüm sayıları göstermek için kaç adet '9' rakamı gerekir?"
+"How many numbers '9' are required to represent the numbers between 10 to 100?"
+msgstr ""
+"10 ile 100 arasındaki tüm sayıları göstermek için kaç adet '9' rakamı "
+"gerekir?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:68
 msgid ""
 "How many two digit numbers occur where the first digit is larger than the "
 "second (e.g.: 20 and 21)?"
-msgstr "İlk hanedeki rakamı ikinci hanedeki rakamdan büyük, iki haneli kaç sayı oluşur (ör: 20 ve 21)?"
+msgstr ""
+"İlk hanedeki rakamı ikinci hanedeki rakamdan büyük, iki haneli kaç sayı "
+"oluşur (ör: 20 ve 21)?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:74
 msgid ""
 "How many two digit numbers occur where the first digit is smaller than the "
 "second (e.g.: 12 and 13)?"
-msgstr "İlk hanedeki rakamı ikinci hanedeki rakamdan küçük, iki haneli kaç sayı oluşur (ör: 12 ve 13)?"
+msgstr ""
+"İlk hanedeki rakamı ikinci hanedeki rakamdan küçük, iki haneli kaç sayı "
+"oluşur (ör: 12 ve 13)?"
 
 #. Translators: A sequence of numbers 1, 2, 3, etc.
 #: ../src/Games/Logic/PuzzleCountSeries.cs:86
@@ -3899,13 +4111,18 @@ msgid ""
 "When you fold the figure below as a cube, which face on the figure is "
 "opposite the face with a {0} drawn on it? Answer the number written on the "
 "face."
-msgstr "Aşağıdaki remi bir küp şeklinde katlarsanız; resimdeki hangi yüz, üzerine {0} çizilmiş yüzün tam karşısında olur? Bu yüz üzerindeki sayıyı yazarak cevaplayın."
+msgstr ""
+"Aşağıdaki remi bir küp şeklinde katlarsanız; resimdeki hangi yüz, üzerine "
+"{0} çizilmiş yüzün tam karşısında olur? Bu yüz üzerindeki sayıyı yazarak "
+"cevaplayın."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
 msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
-msgstr "Hilesiz, 6 taraflı bir zar bir kere atıldığında '2' ya da '6' gelme olasılığı nedir? Cevabınızı kesir kullanarak veriniz (ör. 1/2)."
+msgstr ""
+"Hilesiz, 6 taraflı bir zar bir kere atıldığında '2' ya da '6' gelme "
+"olasılığı nedir? Cevabınızı kesir kullanarak veriniz (ör. 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
 msgid "There are 2 of 6 possibilities."
@@ -3915,7 +4132,9 @@ msgstr "6'da 2 olasılık var."
 msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
-msgstr "Hilesiz, 6 taraflı bir zar bir kere atıldığında '5' gelmeme olasılığı nedir? Cevabınızı kesir kullanarak veriniz (ör. 1/2)."
+msgstr ""
+"Hilesiz, 6 taraflı bir zar bir kere atıldığında '5' gelmeme olasılığı nedir? "
+"Cevabınızı kesir kullanarak veriniz (ör. 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:60
 msgid "There are 5 of 6 possibilities."
@@ -3924,9 +4143,10 @@ msgstr "6'da 5 olasılık var."
 #: ../src/Games/Logic/PuzzleDice.cs:62
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
-"probability of getting two even numbers? Answer using a fraction (e.g.: "
-"1/2)."
-msgstr "İki adet hilesiz, 6 taraflı zar aynı anda atılmaktadır. İki adet çift sayı gelme olasılığı nedir? Cevabınızı kesir olarak veriniz. (ör. 1/2)."
+"probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
+msgstr ""
+"İki adet hilesiz, 6 taraflı zar aynı anda atılmaktadır. İki adet çift sayı "
+"gelme olasılığı nedir? Cevabınızı kesir olarak veriniz. (ör. 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid "There are 9 of 36 possibilities of getting two even numbers."
@@ -3936,12 +4156,14 @@ msgstr "Çift sayı gelme olasılığı 36'da 9'dur."
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
-msgstr "İki adet hilesiz, 6 taraflı zar aynı anda atılmaktadır. İki adet '6' gelme olasılığı nedir? Cevabınızı kesir olarak veriniz (ör. 1/2)."
+msgstr ""
+"İki adet hilesiz, 6 taraflı zar aynı anda atılmaktadır. İki adet '6' gelme "
+"olasılığı nedir? Cevabınızı kesir olarak veriniz (ör. 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:68
 msgid ""
-"There is 1 of 6 possibilities of getting a '6' on the first die and the same"
-" for the second die."
+"There is 1 of 6 possibilities of getting a '6' on the first die and the same "
+"for the second die."
 msgstr "Birinci zarda '6' gelme ihtimali 6'da 1, bu ikinci zar içinde geçerli."
 
 #: ../src/Games/Logic/PuzzleDice.cs:73
@@ -3956,7 +4178,9 @@ msgstr "Bölünmüş daireler"
 msgid ""
 "In the last figure, in how many regions is the circle divided into when all "
 "dots are connected?"
-msgstr "Son şekilde, tüm noktalar birbiriyle bağlantılı olarak  birleştirildiğinde daireler kaç bölge oluşacak şekilde bölünmüş olur?"
+msgstr ""
+"Son şekilde, tüm noktalar birbiriyle bağlantılı olarak  birleştirildiğinde "
+"daireler kaç bölge oluşacak şekilde bölünmüş olur?"
 
 #: ../src/Games/Logic/PuzzleDivideCircle.cs:176
 #, csharp-format
@@ -3976,7 +4200,9 @@ msgstr "Aşağıdaki denklemin sonucu nedir?"
 msgid ""
 "The order of arithmetical operations is always as follows: exponents and "
 "roots, multiplication and division, addition and subtraction."
-msgstr "Aritmetik işlemlerin öncelik sırası her zaman şu şekildedir: üstel ve kök işlemleri, çarpma ve bölme işlemleri, toplama ve çıkarma işlemleri."
+msgstr ""
+"Aritmetik işlemlerin öncelik sırası her zaman şu şekildedir: üstel ve kök "
+"işlemleri, çarpma ve bölme işlemleri, toplama ve çıkarma işlemleri."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:53
 msgid "Extra circle"
@@ -3985,9 +4211,11 @@ msgstr "Fazladan halka"
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:62
 #, csharp-format
 msgid ""
-"Which circle does not belong to the group? It is not a sequence of elements."
-" Answer {0}, {1}, {2} or {3}."
-msgstr "Hangisi gruba uymamaktadır? Bu bir elemanlar dizesi değildir. Cevabınız {0}, {1}, {2} ya da {3} olabilir."
+"Which circle does not belong to the group? It is not a sequence of elements. "
+"Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Hangisi gruba uymamaktadır? Bu bir elemanlar dizesi değildir. Cevabınız {0}, "
+"{1}, {2} ya da {3} olabilir."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:67
 msgid "All circles share a common property except for one."
@@ -4006,7 +4234,8 @@ msgstr "Resimler ve yazı"
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
-msgstr "Şekiller ve metinler ilişkilidir. Son şeklin altına hangi metin gelmelidir?"
+msgstr ""
+"Şekiller ve metinler ilişkilidir. Son şeklin altına hangi metin gelmelidir?"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:48
 msgid "Every character of the text represents a property of the figure."
@@ -4017,7 +4246,9 @@ msgid ""
 "'A' indicates that the figures overlap, 'B' that are squares, 'C' that are "
 "circles, 'D' that the figures are separated, 'E' that there are three "
 "figures and 'F' that there are two figures."
-msgstr "'A' örtüşen şekilleri, 'B' kareleri, 'C' daireleri, 'D' ayrılmış şekilleri, 'E' üç şekil olanları ve 'F' iki şekil olanları belirtir."
+msgstr ""
+"'A' örtüşen şekilleri, 'B' kareleri, 'C' daireleri, 'D' ayrılmış şekilleri, "
+"'E' üç şekil olanları ve 'F' iki şekil olanları belirtir."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:44
 msgid "Figure pattern"
@@ -4032,13 +4263,17 @@ msgstr "Soru işareti yerine hangi şekil gelmelidir? Cevap {0}, {1} veya {2}."
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
-msgstr "Her satırın üçüncü figürü, ilk iki satırdaki figürleri bir şekilde birleştirerek elde edilebilmektedir."
+msgstr ""
+"Her satırın üçüncü figürü, ilk iki satırdaki figürleri bir şekilde "
+"birleştirerek elde edilebilmektedir."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:59
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
-msgstr "İlk ve ikinci figürün ortak paylaştıkları çizgiyi kaldırdığımızı ve sonucunda oluşan figürü 45 derece döndürdüğümüzü düşünün."
+msgstr ""
+"İlk ve ikinci figürün ortak paylaştıkları çizgiyi kaldırdığımızı ve "
+"sonucunda oluşan figürü 45 derece döndürdüğümüzü düşünün."
 
 #: ../src/Games/Logic/PuzzleFigures.cs:58
 msgid "Figures"
@@ -4047,15 +4282,18 @@ msgstr "Rakamlar"
 #: ../src/Games/Logic/PuzzleFigures.cs:62
 #, csharp-format
 msgid ""
-"What is the next logical sequence of objects in the last column? Answer {0},"
-" {1} or {2}."
-msgstr "Son sütundaki bir sonraki mantıksal nesne dizisi ne olmalıdır? Cevap {0}, {1} ya da {2}."
+"What is the next logical sequence of objects in the last column? Answer {0}, "
+"{1} or {2}."
+msgstr ""
+"Son sütundaki bir sonraki mantıksal nesne dizisi ne olmalıdır? Cevap {0}, "
+"{1} ya da {2}."
 
 #: ../src/Games/Logic/PuzzleFigures.cs:68
 msgid ""
 "It is the only combination that you can build with the given elements "
 "without repeating them."
-msgstr "Bu verilen elemanları tekrar etmeden oluşturulabilecek tek kombinasyondur."
+msgstr ""
+"Bu verilen elemanları tekrar etmeden oluşturulabilecek tek kombinasyondur."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
 msgid "Find the number"
@@ -4064,14 +4302,16 @@ msgstr "Sayı bulmaca"
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
 #, csharp-format
 msgid ""
-"Looking horizontally and vertically to the lines of the grid below, which is"
-" the number {0} place away from itself multiplied by 2 and {1} place away "
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} place away from itself multiplied by 2 and {1} place away "
 "from itself plus 2?"
 msgid_plural ""
-"Looking horizontally and vertically to the lines of the grid below, which is"
-" the number {0} places away from itself multiplied by 2 and {1} places away "
+"Looking horizontally and vertically to the lines of the grid below, which is "
+"the number {0} places away from itself multiplied by 2 and {1} places away "
 "from itself plus 2?"
-msgstr[0] "Aşağıdaki tablodaki çizgilere yatay ve dikey olarak bakıldığında hangi sayı kendisinden {0} kutu uzaklığının 2 katı ve {1} kutu uzaklığının 2 fazlasıdır?"
+msgstr[0] ""
+"Aşağıdaki tablodaki çizgilere yatay ve dikey olarak bakıldığında hangi sayı "
+"kendisinden {0} kutu uzaklığının 2 katı ve {1} kutu uzaklığının 2 fazlasıdır?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
 #, csharp-format
@@ -4098,9 +4338,9 @@ msgstr "Dört kenarlı bir figür, başka bir figürün içinde gömülü olabil
 
 #: ../src/Games/Logic/PuzzleFourSided.cs:45
 #, csharp-format
-msgid ""
-"The four sided figures are made by connecting the following points: {0}"
-msgstr "4 kenarlı figürler sıradaki noktaları birleştirerek elde edilmiştir : {0}"
+msgid "The four sided figures are made by connecting the following points: {0}"
+msgstr ""
+"4 kenarlı figürler sıradaki noktaları birleştirerek elde edilmiştir : {0}"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:42
 msgid "Circles in a grid"
@@ -4112,7 +4352,8 @@ msgstr "Tablodaki sayılardan birinin daire içine alınması gereklidir. Hangis
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
-msgstr "Çembere alınmış tüm sayılar belli bir aritmetik özelliği paylaşmaktadır."
+msgstr ""
+"Çembere alınmış tüm sayılar belli bir aritmetik özelliği paylaşmaktadır."
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
@@ -4128,19 +4369,24 @@ msgstr "Noktalarla elde edilmiş kare"
 #, csharp-format
 msgid ""
 "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
-msgstr "Dizide sıradaki mantıksal figür hangisi olmalıdır? Cevap {0}, {1} ya da {2}."
+msgstr ""
+"Dizide sıradaki mantıksal figür hangisi olmalıdır? Cevap {0}, {1} ya da {2}."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
 "From the top-left figure, the top-left circle moves down, the bottom-left "
-"circle moves up, the bottom-right moves diagonally up-left and the top-right"
-" moves diagonally down-left."
-msgstr "Sol üstteki şekle göre, sol üstteki daire aşağı kayıyor, sol alttaki daire yukarı kayıyor, sağ alttaki çapraz olarak yukarı sola kayıyor ve sağ üstteki çapraz olarak aşağı sola kayıyor."
+"circle moves up, the bottom-right moves diagonally up-left and the top-right "
+"moves diagonally down-left."
+msgstr ""
+"Sol üstteki şekle göre, sol üstteki daire aşağı kayıyor, sol alttaki daire "
+"yukarı kayıyor, sağ alttaki çapraz olarak yukarı sola kayıyor ve sağ üstteki "
+"çapraz olarak aşağı sola kayıyor."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:222
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
-msgstr "Sol üstteki şekle göre, şekil saat yönünün tersinde 90 derece döndürülmüştür."
+msgstr ""
+"Sol üstteki şekle göre, şekil saat yönünün tersinde 90 derece döndürülmüştür."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:44
 msgid "Numbers in a grid"
@@ -4150,7 +4396,9 @@ msgstr "Tablodaki sayılar"
 msgid ""
 "The numbers in the grid below follow a pattern. Which number should replace "
 "the question mark?"
-msgstr "Aşağıdaki tablodaki sayılar belli bir düzen izlemektedir. Soru işareti yerine hangi sayı gelmelidir?"
+msgstr ""
+"Aşağıdaki tablodaki sayılar belli bir düzen izlemektedir. Soru işareti "
+"yerine hangi sayı gelmelidir?"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:54
 msgid "The pattern is arithmetical and works vertically."
@@ -4165,37 +4413,49 @@ msgstr "Bu düzen aritmetik bir düzen olup, yatay olarak çalışmaktadır."
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and adding "
 "the third."
-msgstr "Dörtüncü satırı hesaplamak için ilk iki satırı çarpınız ve üçüncü satırı sonuca ekleyiniz."
+msgstr ""
+"Dörtüncü satırı hesaplamak için ilk iki satırı çarpınız ve üçüncü satırı "
+"sonuca ekleyiniz."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:67
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "adding the third."
-msgstr "Dördüncü sütunu hesaplamak için ilk iki sütunu çarpınız ve sonuca üçüncü sütunu ekleyiniz."
+msgstr ""
+"Dördüncü sütunu hesaplamak için ilk iki sütunu çarpınız ve sonuca üçüncü "
+"sütunu ekleyiniz."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:71
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and "
 "subtracting the third."
-msgstr "Dördüncü satırı hesaplamak için ilk iki satırı çarpınız ve sonuçtan üçüncü satırı çıkartınız.."
+msgstr ""
+"Dördüncü satırı hesaplamak için ilk iki satırı çarpınız ve sonuçtan üçüncü "
+"satırı çıkartınız.."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:73
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "subtracting the third."
-msgstr "Dördüncü sütunu hesaplamak için ilk iki sütunu çarpınız ve sonuçtan üçüncü sütunu çıkartınız."
+msgstr ""
+"Dördüncü sütunu hesaplamak için ilk iki sütunu çarpınız ve sonuçtan üçüncü "
+"sütunu çıkartınız."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:77
 msgid ""
 "The fourth row is calculated by adding the first two rows and subtracting "
 "the third."
-msgstr "Dördüncü satırı hesaplamak için ilk iki satırı toplayınız ve sonuçtan üçüncü satırı çıkartınız."
+msgstr ""
+"Dördüncü satırı hesaplamak için ilk iki satırı toplayınız ve sonuçtan üçüncü "
+"satırı çıkartınız."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:79
 msgid ""
 "The fourth column is calculated by adding the first two columns and "
 "subtracting the third."
-msgstr "Dördüncü sütunu hesaplamak için ilk iki sütunu toplayınız ve sonuçtan üçüncü sütunu çıkartınız."
+msgstr ""
+"Dördüncü sütunu hesaplamak için ilk iki sütunu toplayınız ve sonuçtan üçüncü "
+"sütunu çıkartınız."
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:32
 msgid "Handshakes"
@@ -4206,20 +4466,26 @@ msgstr "Elsıkmalar"
 msgid ""
 "All attendees to a party are introduced to one another. {0} handshakes are "
 "made in total. How many people are attending the party?"
-msgstr "Partiye katılan her kişi bir kişiyi başka bir kişiye tanıştırmıştır. Toplamda {0} el sıkışması yapılmıştır. Partiye kaç kişi katılmıştır?"
+msgstr ""
+"Partiye katılan her kişi bir kişiyi başka bir kişiye tanıştırmıştır. "
+"Toplamda {0} el sıkışması yapılmıştır. Partiye kaç kişi katılmıştır?"
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:42
 msgid ""
-"Try to imagine a situation in which you are meeting a small number of "
-"people."
-msgstr "Daha az sayıda insan ile tanıştığınız bir durumu göz önüne getirmeye çalışınız."
+"Try to imagine a situation in which you are meeting a small number of people."
+msgstr ""
+"Daha az sayıda insan ile tanıştığınız bir durumu göz önüne getirmeye "
+"çalışınız."
 
 #: ../src/Games/Logic/PuzzleHandshakes.cs:46
 msgid ""
 "Using n as the total number of people, the first person handshakes n-1 "
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
-msgstr "Toplam kişi sayısını n olarak kabul edersek, ilk kişi n-1 kişiyle el sıkışır, ikinci kişi n-2 kişiyle, vb. Sonuç ilk n-1 ardışık sayının toplamıdır: 1+2+3+...+(n-1)."
+msgstr ""
+"Toplam kişi sayısını n olarak kabul edersek, ilk kişi n-1 kişiyle el "
+"sıkışır, ikinci kişi n-2 kişiyle, vb. Sonuç ilk n-1 ardışık sayının "
+"toplamıdır: 1+2+3+...+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -4228,9 +4494,11 @@ msgstr "Büyük şekil"
 #: ../src/Games/Logic/PuzzleLargerShape.cs:122
 #, csharp-format
 msgid ""
-"Which larger shape can you make combining the first two figures? Answer {0},"
-" {1}, {2} or {3}."
-msgstr "İlk iki figürü birleştirerek hangi büyük figür elde edilebilir? Cevap {0}, {1}, {2} ya da {3}."
+"Which larger shape can you make combining the first two figures? Answer {0}, "
+"{1}, {2} or {3}."
+msgstr ""
+"İlk iki figürü birleştirerek hangi büyük figür elde edilebilir? Cevap {0}, "
+"{1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
 msgid "Largest area"
@@ -4239,9 +4507,11 @@ msgstr "En büyük alan"
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
 msgid ""
-"Which of the following figures has the largest area? Answer {0}, {1}, {2} or"
-" {3}."
-msgstr "Aşağıdaki şekillerden hangisinin alanı en büyüktür? Cevap {0}, {1}, {2} ya da {3}."
+"Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
+"{3}."
+msgstr ""
+"Aşağıdaki şekillerden hangisinin alanı en büyüktür? Cevap {0}, {1}, {2} ya "
+"da {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
 msgid "Largest diameter"
@@ -4252,7 +4522,9 @@ msgstr "En büyük çap"
 msgid ""
 "If the circles represented by the arcs below were completed, which circle "
 "would have the largest diameter? Answer {0}, {1}, {2} or {3}."
-msgstr "Aşağıdaki yaylar bir daire oluşturacak şekilde tamamlansaydı hangi dairenin çapı en büyük olurdu? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Aşağıdaki yaylar bir daire oluşturacak şekilde tamamlansaydı hangi dairenin "
+"çapı en büyük olurdu? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
 msgid "Less curved is the arc, the larger the circle is."
@@ -4271,7 +4543,9 @@ msgstr "Çizgiler"
 msgid ""
 "How many line segments in total are in the figures below? A line segment is "
 "a line between two points with no crossing lines."
-msgstr "Aşağıdaki figürlerde kaç adet çizgi kısmı bulunmaktadır? Çizgi kısmı ; iki noktayı kesilmeden birleştiren doğruya verilen addır."
+msgstr ""
+"Aşağıdaki figürlerde kaç adet çizgi kısmı bulunmaktadır? Çizgi kısmı ; iki "
+"noktayı kesilmeden birleştiren doğruya verilen addır."
 
 #: ../src/Games/Logic/PuzzleLines.cs:44
 #, csharp-format
@@ -4285,7 +4559,8 @@ msgstr[0] "Soldaki şekilde {0} ve sağdaki şekilde {1} tane çizgi var."
 
 #: ../src/Games/Logic/PuzzleLines.cs:52
 msgid "It is an easy exercise if you systematically count the lines."
-msgstr "Çizgileri belli bir sisteme göre sayarsanız, bu basit bir alıştırmadır."
+msgstr ""
+"Çizgileri belli bir sisteme göre sayarsanız, bu basit bir alıştırmadır."
 
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:35
 msgid "Missing piece"
@@ -4305,7 +4580,9 @@ msgid ""
 "In every row the third square is made by flipping the first square and "
 "superimposing it on the second square, followed by removing the matching "
 "lines."
-msgstr "Her sıradaki üçüncü kare, ilk kare döndürülerek ve onu ikinci karenin üzerine yerleştirerek, sonrasında eşleşen satırlar kaldırılarak yapılır."
+msgstr ""
+"Her sıradaki üçüncü kare, ilk kare döndürülerek ve onu ikinci karenin "
+"üzerine yerleştirerek, sonrasında eşleşen satırlar kaldırılarak yapılır."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:62
 msgid "Missing slice"
@@ -4316,7 +4593,9 @@ msgstr "Yitik dilim"
 msgid ""
 "The slices below have some kind of relation. Which is the missing slice in "
 "the circle below? Answer {0}, {1} or {2}."
-msgstr "Aşağıdaki parçaların arasında bir çeşit ilişki vardır. Hangisi aşağıdaki dairedeki eksik parçadır? Cevap {0}, {1} ya da {2}."
+msgstr ""
+"Aşağıdaki parçaların arasında bir çeşit ilişki vardır. Hangisi aşağıdaki "
+"dairedeki eksik parçadır? Cevap {0}, {1} ya da {2}."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:72
 msgid "Each slice is related to the opposite one."
@@ -4325,9 +4604,11 @@ msgstr "Her dilim zıt bir dilimle ilişkilidir."
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:77
 #, csharp-format
 msgid ""
-"All numbers of each slice, when added to the ones of the opposite slice, add"
-" always {0}."
-msgstr "Her dilimdeki numaralar, zıt dilimdeki numaralara eklendiğinde her zaman {0} ekleyin."
+"All numbers of each slice, when added to the ones of the opposite slice, add "
+"always {0}."
+msgstr ""
+"Her dilimdeki numaralar, zıt dilimdeki numaralara eklendiğinde her zaman {0} "
+"ekleyin."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:77
 msgid "Most in common"
@@ -4338,7 +4619,9 @@ msgstr "En çok rastlanan ortak özellik"
 msgid ""
 "Which of the possible answers have the most in common with the four given "
 "figures? Answer {0}, {1}, {2} or {3}."
-msgstr "Cevaplardan hangisinin verilen dört figürle en çok ortak özelliği bulunmaktadır. Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Cevaplardan hangisinin verilen dört figürle en çok ortak özelliği "
+"bulunmaktadır. Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:87
 msgid "Think of the common elements that the given figures have inside them."
@@ -4353,7 +4636,8 @@ msgstr "Verilen figürlerin içindekilerle aynı sayıda eleman içermektedir."
 msgid ""
 "It is the figure with the most elements in common compared to the given "
 "figures."
-msgstr "Verilen figürlerle kıyaslandığında en çok ortak eleman barındıran figürdür."
+msgstr ""
+"Verilen figürlerle kıyaslandığında en çok ortak eleman barındıran figürdür."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:33
 msgid "Move figure"
@@ -4363,19 +4647,26 @@ msgstr "Figürü oynat"
 msgid ""
 "What is the minimum number of circles to be moved in order to convert the "
 "left figure into the right figure?"
-msgstr "Soldaki figürü sağdaki figüre dönüştürmek için oynatılması gereken daire sayısı en az kaçtır?"
+msgstr ""
+"Soldaki figürü sağdaki figüre dönüştürmek için oynatılması gereken daire "
+"sayısı en az kaçtır?"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:44
 msgid ""
 "Move the circle from the first line to the second and move two circles from "
 "the fourth line to the second and the fifth lines."
-msgstr "İlk çizgideki daireyi ikinci çizgiye taşıyınız. Dördüncü çizgiden iki adet daireyi ikinci ve beşinci çizgilere taşıyınız."
+msgstr ""
+"İlk çizgideki daireyi ikinci çizgiye taşıyınız. Dördüncü çizgiden iki adet "
+"daireyi ikinci ve beşinci çizgilere taşıyınız."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:46
 msgid ""
 "Move the first line to the seventh; move the two circles of the second line "
 "to third; and move first and last circles of the fifth line to the sixth."
-msgstr "İlk çizgiyi yedinci çizgiye taşıyınız; ikinci çizgiden üçüncü çizgiye iki daire taşıyınız; ve ilk ve son daireleri beşinci ve altıncı çizgilere taşıyınız."
+msgstr ""
+"İlk çizgiyi yedinci çizgiye taşıyınız; ikinci çizgiden üçüncü çizgiye iki "
+"daire taşıyınız; ve ilk ve son daireleri beşinci ve altıncı çizgilere "
+"taşıyınız."
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:53
 msgid "Next figure"
@@ -4383,9 +4674,11 @@ msgstr "Sonraki figür"
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:65
 msgid ""
-"From first figure, the top circle advances by two positions clockwise, while"
-" the left circle goes backwards one position."
-msgstr "İlk şekilde, sol çember geriye doğru bir konuma giderken, üst çember saat yününde iki konum ilerler."
+"From first figure, the top circle advances by two positions clockwise, while "
+"the left circle goes backwards one position."
+msgstr ""
+"İlk şekilde, sol çember geriye doğru bir konuma giderken, üst çember saat "
+"yününde iki konum ilerler."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:46
 msgid "Numeric relation"
@@ -4409,13 +4702,17 @@ msgstr "Her {0} grubu tam olarak {1} sonucunu verecek şekilde toplanır."
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by multiplying by the two previous ones."
-msgstr "Dizeyi her grupta üç numara olacak şekilde ayırınız. Her üçüncü numara ilk ikisinin çarpımı olmalıdır."
+msgstr ""
+"Dizeyi her grupta üç numara olacak şekilde ayırınız. Her üçüncü numara ilk "
+"ikisinin çarpımı olmalıdır."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:66
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by subtracting the second number from the first."
-msgstr "Dizeyi her grupta üç numara olacak şekilde ayırınız. Her üçüncü numara ilk numaradan ikinci numaranın çıkartılması ile elde edilmelidir."
+msgstr ""
+"Dizeyi her grupta üç numara olacak şekilde ayırınız. Her üçüncü numara ilk "
+"numaradan ikinci numaranın çıkartılması ile elde edilmelidir."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:42
 msgid "Numeric sequence"
@@ -4425,7 +4722,9 @@ msgstr "Numaralardan oluşan sıra"
 msgid ""
 "The next sequence follows a logic. What number should replace the question "
 "mark?"
-msgstr "Sıradaki dize bir mantığa göre dizilmiştir. Soru işaretinin yerine hangi numara gelmelidir?"
+msgstr ""
+"Sıradaki dize bir mantığa göre dizilmiştir. Soru işaretinin yerine hangi "
+"numara gelmelidir?"
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:50
 msgid "Every number in the sequence is related to the previous one."
@@ -4435,19 +4734,25 @@ msgstr "Dizedeki her numara kendinden bir öncekiyle ilişkilidir."
 msgid ""
 "Every number in the sequence is the result of subtracting 1 from the "
 "previous number and multiplying it by 2."
-msgstr "Sıralamadaki her sayı, önceki sayıdan 1 çıkarılıp 2 ile çarpılmasından elde edilen sonuçtur."
+msgstr ""
+"Sıralamadaki her sayı, önceki sayıdan 1 çıkarılıp 2 ile çarpılmasından elde "
+"edilen sonuçtur."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:59
 msgid ""
 "Every number in the sequence is the result of adding 1 to the previous "
 "number and multiplying it by 3."
-msgstr "Sıralamadaki her sayı, önceki sayıya 1 eklenip 3 ile çarpılmasından elde edilen sonuçtur."
+msgstr ""
+"Sıralamadaki her sayı, önceki sayıya 1 eklenip 3 ile çarpılmasından elde "
+"edilen sonuçtur."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:61
 msgid ""
 "Every number in the sequence is the result of subtracting 2 from the "
 "previous number and multiplying it by -2."
-msgstr "Sıralamadaki her sayı, önceki sayıdan 2 çıkarılıp -2 ile çarpılmasından elde edilen sonuçtur."
+msgstr ""
+"Sıralamadaki her sayı, önceki sayıdan 2 çıkarılıp -2 ile çarpılmasından elde "
+"edilen sonuçtur."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:53
 msgid "Ostracism"
@@ -4458,25 +4763,32 @@ msgstr "Sürgün"
 msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
-msgstr "Hangi eleman bu gruba uygun değildir? Sayılar arasında hiçbir aritmetik bağ yoktur. Cevap {0}, {1}, {2}, {3} ya da {4}."
+msgstr ""
+"Hangi eleman bu gruba uygun değildir? Sayılar arasında hiçbir aritmetik bağ "
+"yoktur. Cevap {0}, {1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
 "The criteria for deciding if an equation belongs to the group is not "
 "arithmetical."
-msgstr "Bir denklemin gruba ait olup olmadığını belirleme kriteri aritmetik değildir."
+msgstr ""
+"Bir denklemin gruba ait olup olmadığını belirleme kriteri aritmetik değildir."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:68
 msgid ""
 "Consider that every number that belongs to the group has two parts that are "
 "related."
-msgstr "Gruba ait olan her sayının birbiriyle bağlantılı iki kısmı olduğunu göz önünde bulundurunuz."
+msgstr ""
+"Gruba ait olan her sayının birbiriyle bağlantılı iki kısmı olduğunu göz "
+"önünde bulundurunuz."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:79
 msgid ""
 "In all the other equations the digits from the left side also appear on the "
 "right side."
-msgstr "Diğer tüm eşitliklerde sol taraftaki rakamlar aynı zamanda sağ tarafta da bulunuyorlar."
+msgstr ""
+"Diğer tüm eşitliklerde sol taraftaki rakamlar aynı zamanda sağ tarafta da "
+"bulunuyorlar."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:81
 msgid ""
@@ -4491,9 +4803,11 @@ msgstr "Kalem"
 #: ../src/Games/Logic/PuzzlePencil.cs:43
 #, csharp-format
 msgid ""
-"Which of the following figures cannot be drawn without crossing any previous"
-" lines nor lifting the pencil? Answer {0}, {1}, {2}, {3} or {4}."
-msgstr "Gösterilen figürlerden hangisi kalemi kaldırmadan ve bir çizginin üzerinden iki defa geçilmeden elde edilebilir? Cevap {0}, {1}, {2}, {3} ya da {4}."
+"Which of the following figures cannot be drawn without crossing any previous "
+"lines nor lifting the pencil? Answer {0}, {1}, {2}, {3} or {4}."
+msgstr ""
+"Gösterilen figürlerden hangisi kalemi kaldırmadan ve bir çizginin üzerinden "
+"iki defa geçilmeden elde edilebilir? Cevap {0}, {1}, {2}, {3} ya da {4}."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:45
 msgid "People at a table"
@@ -4502,16 +4816,22 @@ msgstr "Masadaki insanlar"
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
 msgid ""
-"A group of people, spaced out evenly, are sitting at a round table. How many"
-" people are there if the {0} person sits directly across from the {1}?"
-msgstr "Bir grup insan yuvarlak bir masanın etrafında aralarında eşit mesafe olacak şekilde oturuyorlar. {0} numaralı kişi {1} numaralı kişinin tam karşısında oturuyorsa toplam kaç kişi vardır?"
+"A group of people, spaced out evenly, are sitting at a round table. How many "
+"people are there if the {0} person sits directly across from the {1}?"
+msgstr ""
+"Bir grup insan yuvarlak bir masanın etrafında aralarında eşit mesafe olacak "
+"şekilde oturuyorlar. {0} numaralı kişi {1} numaralı kişinin tam karşısında "
+"oturuyorsa toplam kaç kişi vardır?"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:54
 msgid ""
 "Subtracting the two positions you find out how many people are seated half "
 "way around the table. Doubling this number leaves you with the total amount "
 "of people."
-msgstr "İki konumun farkını aldığınızda, bulacağınız sonuç size masada oturan kişilerin yarısının sayısını verir. Bu sonucu iki ile çarparsanız, masada oturan toplam insan sayısına ulaşabilirsiniz."
+msgstr ""
+"İki konumun farkını aldığınızda, bulacağınız sonuç size masada oturan "
+"kişilerin yarısının sayısını verir. Bu sonucu iki ile çarparsanız, masada "
+"oturan toplam insan sayısına ulaşabilirsiniz."
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:62
 msgid "5th"
@@ -4553,7 +4873,9 @@ msgid ""
 msgid_plural ""
 "After getting {0}% discount you have paid {1} monetary units for a TV set. "
 "What was the original price of the TV set?"
-msgstr[0] "%{0} indirim yaptırdıktan sonra bir TV ünitesi için {1} lira ödediniz. Bu TV ünitesinin asıl fiyatı nedir?"
+msgstr[0] ""
+"%{0} indirim yaptırdıktan sonra bir TV ünitesi için {1} lira ödediniz. Bu TV "
+"ünitesinin asıl fiyatı nedir?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:96
 #, csharp-format
@@ -4563,14 +4885,18 @@ msgid ""
 msgid_plural ""
 "John's shop had sales of {0} monetary units. This was an increase of {1}% "
 "over last month. What were last month sales?"
-msgstr[0] "Can'ın dükkanı {0} liralık satış yapmıştır. Bu, geçen aya göre %{1} daha fazladır. Geçen ayın satış miktarı nedir?"
+msgstr[0] ""
+"Can'ın dükkanı {0} liralık satış yapmıştır. Bu, geçen aya göre %{1} daha "
+"fazladır. Geçen ayın satış miktarı nedir?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:114
 #, csharp-format
 msgid ""
 "The amount of water in a bucket decreases by {0}%. By what percentage must "
 "the amount of water increase to reach its original value?"
-msgstr "Bir kovadaki su miktarı %{0} eksilmiştir. Kovadaki suyun ilk seviyesine gelmesi için, yüzde kaçlık bir artış olmalıdır?"
+msgstr ""
+"Bir kovadaki su miktarı %{0} eksilmiştir. Kovadaki suyun ilk seviyesine "
+"gelmesi için, yüzde kaçlık bir artış olmalıdır?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:117
 msgid "The objective is to obtain the same total amount."
@@ -4581,7 +4907,9 @@ msgstr "Amaç aynı miktarı elde etmektir."
 msgid ""
 "If all painters are artists and some citizens of Barcelona are artists. "
 "Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer tüm ressamlar sanatçıysa ve bazı Barselonalı vatandaşlar sanatçıysa, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Eğer tüm ressamlar sanatçıysa ve bazı Barselonalı vatandaşlar sanatçıysa, "
+"aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 msgid "Some citizens of Barcelona are painters"
@@ -4605,12 +4933,15 @@ msgstr "Öteki seçeneklerin hiçbiri"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
 #, csharp-format
 msgid ""
-"If no ill artist is happy and some artists are happy. Which of the following"
-" conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer hiçbir hasta sanatçı mutlu değilse ve bazı sanatçılar mutluysa, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+"If no ill artist is happy and some artists are happy. Which of the following "
+"conclusions is correct? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Eğer hiçbir hasta sanatçı mutlu değilse ve bazı sanatçılar mutluysa, "
+"aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+#| msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Bazı sanatçılar hasta değil"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
@@ -4626,7 +4957,10 @@ msgstr "Bütün sanatçılar mutlu"
 msgid ""
 "People that travel always buy a map. You are not going to travel. Which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Seyahat eden insanlar daima bir harita satın alırlar. Siz seyahat etmeyeceksiniz. Aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Seyahat eden insanlar daima bir harita satın alırlar. Siz seyahat "
+"etmeyeceksiniz. Aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, "
+"{2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
 msgid "You do not have any map"
@@ -4643,9 +4977,12 @@ msgstr "Herkesin bir haritası var"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
 #, csharp-format
 msgid ""
-"If you whistle if you are happy and you always smile when you whistle, which"
-" of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Islık çalıyorsanız mutlusunuzdur ve ıslık çalıyorsanız her zaman gülümsüyorsunuzdur, buna göre aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+"If you whistle if you are happy and you always smile when you whistle, which "
+"of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Islık çalıyorsanız mutlusunuzdur ve ıslık çalıyorsanız her zaman "
+"gülümsüyorsunuzdur, buna göre aşağıdaki çıkarımlardan hangisi doğrudur? "
+"Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 msgid "You smile if you are happy"
@@ -4664,7 +5001,10 @@ msgstr "Mutlu değilseniz, ıslık çalarsınız"
 msgid ""
 "If your course is always honest and your course is always the best policy, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer izlediğiniz yol her zaman dürüstse ve izlediğiniz yol daima en iyi prensipse aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Eğer izlediğiniz yol her zaman dürüstse ve izlediğiniz yol daima en iyi "
+"prensipse aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya "
+"da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is sometimes the best policy"
@@ -4687,7 +5027,9 @@ msgstr "En iyi prensiplerin bazıları dürüst değildir"
 msgid ""
 "If no old misers are cheerful and some old misers are thin, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer hiçbir yaşlı cimri neşeli değilse ve bazı yaşlı cimriler zayıfsa, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Eğer hiçbir yaşlı cimri neşeli değilse ve bazı yaşlı cimriler zayıfsa, "
+"aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Some thin people are not cheerful"
@@ -4708,9 +5050,11 @@ msgstr "Bazı neşeli insanlar zayıf değildirler"
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
 #, csharp-format
 msgid ""
-"If all pigs are fat and nothing that is fed on barley-water is fat, which of"
-" the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer tüm kuzular şişmansa ve samanla beslenen hiçbir şey şişman değilse, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+"If all pigs are fat and nothing that is fed on barley-water is fat, which of "
+"the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Eğer tüm kuzular şişmansa ve samanla beslenen hiçbir şey şişman değilse, "
+"aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "All animals fed on barley-water are non pigs"
@@ -4733,7 +5077,9 @@ msgstr "Diğer seçeneklerin tümü"
 msgid ""
 "If some pictures are first attempts and no first attempts are really good, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer bazı resimler ilk denemeyse ve hiçbir ilk deneme gerçekten iyi değilse, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Eğer bazı resimler ilk denemeyse ve hiçbir ilk deneme gerçekten iyi değilse, "
+"aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 msgid "Some bad pictures are not first attempts"
@@ -4756,7 +5102,9 @@ msgstr "Diğerlerinin tümü"
 msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
-msgstr "Eğer yürüyüşe çıktıysanız ve daha iyi hissediyorsanız, aşağıdaki çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
+msgstr ""
+"Eğer yürüyüşe çıktıysanız ve daha iyi hissediyorsanız, aşağıdaki "
+"çıkarımlardan hangisi doğrudur? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "To feel better, you must go out for a walk"
@@ -4787,7 +5135,9 @@ msgstr "Dörtgenler"
 msgid ""
 "Which of the following figures does not belong to the group? Answer {0}, "
 "{1}, {2}, {3}, {4} or {5}."
-msgstr "Bu figürlerden hangisi gruba ait değildir? Cevap {0}, {1}, {2}, {3}, {4} ya da {5}."
+msgstr ""
+"Bu figürlerden hangisi gruba ait değildir? Cevap {0}, {1}, {2}, {3}, {4} ya "
+"da {5}."
 
 #: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
 msgid "It is the only figure with all lines of equal length."
@@ -4805,19 +5155,24 @@ msgstr "Aşağıdaki tabloda soru işareti yerine hangi sayı gelmelidir?"
 msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
-msgstr "Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamının yarısıdır."
+msgstr ""
+"Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamının "
+"yarısıdır."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
 msgid ""
-"The number in the middle of every row is the sum of the other numbers in the"
-" row."
-msgstr "Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamı kadardır."
+"The number in the middle of every row is the sum of the other numbers in the "
+"row."
+msgstr ""
+"Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamı kadardır."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
 msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
-msgstr "Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamının iki katıdır."
+msgstr ""
+"Her satırın ortasındaki sayı o satırdaki diğer sayıların toplamının iki "
+"katıdır."
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
 msgid "Squares and letters"
@@ -4825,9 +5180,11 @@ msgstr "Kareler ve harfler"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:38
 msgid ""
-"The letters around the squares follow a pattern. Which letter should replace"
-" the question mark in the last square?"
-msgstr "Kareler etrafındaki harfler belli bir düzen içindedir. Soru işaretinin yerine hangi harf gelmelidir?"
+"The letters around the squares follow a pattern. Which letter should replace "
+"the question mark in the last square?"
+msgstr ""
+"Kareler etrafındaki harfler belli bir düzen içindedir. Soru işaretinin "
+"yerine hangi harf gelmelidir?"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
 #, csharp-format
@@ -4835,7 +5192,9 @@ msgid ""
 "Every letter is calculated by taking the alphabetical position of the "
 "previous character and adding {0} to it in order to get the position of the "
 "next letter."
-msgstr "Her harf kendinden bir önceki harfin alfabetik sırasına {0} eklenerek kendinden bir sonraki harfin hesaplanmasıyla bulunabilir."
+msgstr ""
+"Her harf kendinden bir önceki harfin alfabetik sırasına {0} eklenerek "
+"kendinden bir sonraki harfin hesaplanmasıyla bulunabilir."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:30
 msgid "Squares"
@@ -4849,19 +5208,26 @@ msgstr "Aşağıdaki şekilde herhangi bir boyutta kaç kare sayıyorsunuz?"
 msgid ""
 "A square is a rectangle with sides of equal length. A square can also be "
 "built from other squares."
-msgstr "Kare, dikdörtgenin her kenarı eşit uzunlukta olanıdır. Aynı zamanda bir kare başka karelerden de oluşabilir."
+msgstr ""
+"Kare, dikdörtgenin her kenarı eşit uzunlukta olanıdır. Aynı zamanda bir kare "
+"başka karelerden de oluşabilir."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:45
 msgid ""
 "There are 16 single squares, 9 squares made by 4 single squares, 4 squares "
 "made by 9 single squares and 1 square made by 16 single squares."
-msgstr "16 adet tek kare bulunmaktadır. 9 kare 4 tek kare kullanılarak yapılmıştır. 4 kare 9 tek kare kullanılarak yapılmıştır ve 1 kare 16 adet tek kare kullanılarak yapılmıştır."
+msgstr ""
+"16 adet tek kare bulunmaktadır. 9 kare 4 tek kare kullanılarak yapılmıştır. "
+"4 kare 9 tek kare kullanılarak yapılmıştır ve 1 kare 16 adet tek kare "
+"kullanılarak yapılmıştır."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:47
 msgid ""
 "There are 9 single squares, 4 squares made by 4 single squares and 1 square "
 "made by 9 single squares."
-msgstr "9 adet tek kare bulunmaktadır. 4 kare 4 tek kare tarafından yapılmıştır ve 1 kare 9 tek kare tarafından yapılmıştır."
+msgstr ""
+"9 adet tek kare bulunmaktadır. 4 kare 4 tek kare tarafından yapılmıştır ve 1 "
+"kare 9 tek kare tarafından yapılmıştır."
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:29
 msgid "Square sheets"
@@ -4869,23 +5235,27 @@ msgstr "Kareli sayfalar"
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:33
 msgid ""
-"What is the minimum number of square sheets of paper of any size required to"
-" create the figure? Lines indicate frontiers between different sheets."
-msgstr "Bu figürü yaratmak için kullanılması gereken en az kareli kağıt sayısı nedir? Çizgiler, sayfalar arasındaki sınırlar olarak kabul edilmelidir."
+"What is the minimum number of square sheets of paper of any size required to "
+"create the figure? Lines indicate frontiers between different sheets."
+msgstr ""
+"Bu figürü yaratmak için kullanılması gereken en az kareli kağıt sayısı "
+"nedir? Çizgiler, sayfalar arasındaki sınırlar olarak kabul edilmelidir."
 
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:37
 msgid "The sheets should overlap."
 msgstr "Sayfalar üst üste gelmelidir."
 
-#. Translators: the translated version should not take more characters that
-#. the English original
+#. Translators: the translated version should not take more characters that the English original
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:43
 msgid ""
 "A full sized square of paper (yellow), a 3/4 of the whole size square of "
-"paper (blue) in the bottom right corner, another 3/4 square of paper (green)"
-" in the top left corner and a 1/4 square of paper (red) in the top left "
+"paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
+"in the top left corner and a 1/4 square of paper (red) in the top left "
 "corner."
-msgstr "Tam kare bir kağıt (sarı), sağ alt köşede tamın 3/4'ü kadar kare bir kağıt (mavi), sol üst köşede tamın 3/4'ü kadar kare bir kağıt (yeşil) ve sol üst köşede tamın 1/4'ü kadar kare bir kağıt (kırmızı)."
+msgstr ""
+"Tam kare bir kağıt (sarı), sağ alt köşede tamın 3/4'ü kadar kare bir kağıt "
+"(mavi), sol üst köşede tamın 3/4'ü kadar kare bir kağıt (yeşil) ve sol üst "
+"köşede tamın 1/4'ü kadar kare bir kağıt (kırmızı)."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:34
 msgid "Tetris"
@@ -4900,7 +5270,9 @@ msgstr "Hangi şekil aşağıdaki kümeyi tamamlar? Cevap {0}, {1} ya da {2}."
 msgid ""
 "It is the figure that completes all possible combinations with four blocks "
 "without taking into account rotations."
-msgstr "Bu, hesap devirlerini almaksızın, mümkün olan tüm kombinasyonları dört blok ile tamamlayan şekildir."
+msgstr ""
+"Bu, hesap devirlerini almaksızın, mümkün olan tüm kombinasyonları dört blok "
+"ile tamamlayan şekildir."
 
 #. Translators: this the name of a game
 #: ../src/Games/Logic/PuzzleTimeNow.cs:34
@@ -4913,9 +5285,12 @@ msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgid_plural ""
-"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the"
-" same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
-msgstr[0] "{0} saat önceki vakit, aynı gündeki saat {1:h tt}'den ne kadar sonraysa, {2:h tt}'den de o kadar önceydi. Şu anda saat kaçtır? Saati kullanarak cevaplayın (ör. {3:h tt})"
+"{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
+"same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
+msgstr[0] ""
+"{0} saat önceki vakit, aynı gündeki saat {1:h tt}'den ne kadar sonraysa, "
+"{2:h tt}'den de o kadar önceydi. Şu anda saat kaçtır? Saati kullanarak "
+"cevaplayın (ör. {3:h tt})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
@@ -4925,16 +5300,15 @@ msgid ""
 msgid_plural ""
 "Determine the hour half way between the given times, and then add {0} hours "
 "to convert it to the present time."
-msgstr[0] "Verilen iki vaktin tam ortasındaki saati hesaplayın ve çıkan sonuca {0} saat daha ekleyerek şimdiki zamanı bulun."
+msgstr[0] ""
+"Verilen iki vaktin tam ortasındaki saati hesaplayın ve çıkan sonuca {0} saat "
+"daha ekleyerek şimdiki zamanı bulun."
 
-#. TimeNow Puzzle. Translators: {0} is used to check the hour answered by the
-#. user.
+#. TimeNow Puzzle. Translators: {0} is used to check the hour answered by the user.
 #. Use the right time format specification for your culture
 #. Explanation of the date and time format specifications can be found here:
-#. http://msdn.microsoft.com/en-
-#. us/library/system.globalization.datetimeformatinfo.aspx
-#. For 12-hour clock format use {0:%h} and for 24-hour clock format use
-#. {0:%H}. The date formats {0:h} and {0:H} are invalid.
+#. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
+#. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
 #. 'tt' is the A.M./P.M. designator
 #: ../src/Games/Logic/PuzzleTimeNow.cs:86
 #, csharp-format
@@ -4954,10 +5328,8 @@ msgid "The distance formula is 'distance = rate x time'."
 msgstr "Mesafe formülü, 'mesafe = hız x zaman'."
 
 #. Translators:
-#. - mph (miles per hour). You must localize this using the right unit of
-#. speed for your locale
-#. - The translated string should not use more characters than the original
-#. sentence
+#. - mph (miles per hour). You must localize this using the right unit of speed for your locale
+#. - The translated string should not use more characters than the original sentence
 #: ../src/Games/Logic/PuzzleTrains.cs:81
 #, csharp-format
 msgid ""
@@ -4970,17 +5342,21 @@ msgid_plural ""
 "train leaves the station traveling in the same direction at {2} mph. How "
 "many hours does it take the second train, since it starts moving, to "
 "overtake the first train?"
-msgstr[0] "Bir tren {0} km/saat hızla istasyondan ayrılıyor. {1} saat sonra, ikinci tren aynı yönde {2} km/saat hızla istasyondan ayrılıyor. İkinci trenin harekete başlama anından itibaren birinci trene yetişmesi kaç saat sürer?"
+msgstr[0] ""
+"Bir tren {0} km/saat hızla istasyondan ayrılıyor. {1} saat sonra, ikinci "
+"tren aynı yönde {2} km/saat hızla istasyondan ayrılıyor. İkinci trenin "
+"harekete başlama anından itibaren birinci trene yetişmesi kaç saat sürer?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:85
 msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
-msgstr "Cevabı, birinci trenin hızını zamanla çarpıp trenlerin hızlarının farkına bölerek bulabilirsiniz."
+msgstr ""
+"Cevabı, birinci trenin hızını zamanla çarpıp trenlerin hızlarının farkına "
+"bölerek bulabilirsiniz."
 
 #. Translators:
-#. - mph (miles per hour) and miles must be localized this using the right
-#. unit of speed for your locale
+#. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
 #: ../src/Games/Logic/PuzzleTrains.cs:101
 #, csharp-format
 msgid ""
@@ -4988,10 +5364,13 @@ msgid ""
 "parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
 "many hours will they meet?"
 msgid_plural ""
-"Two trains separated by {0} miles are heading towards each other on straight"
-" parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
+"Two trains separated by {0} miles are heading towards each other on straight "
+"parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
 "many hours will they meet?"
-msgstr[0] "Aralarında {0} km olan iki tren, düz ve paralel demir yolları üzerinde birbirlerine doğru hareket etmektedir. Biri {1} km/saat hızla, diğeri ise {2} km/saat hızla hareket etmektedir. İki tren, kaç saat sonra karşılaşır?"
+msgstr[0] ""
+"Aralarında {0} km olan iki tren, düz ve paralel demir yolları üzerinde "
+"birbirlerine doğru hareket etmektedir. Biri {1} km/saat hızla, diğeri ise "
+"{2} km/saat hızla hareket etmektedir. İki tren, kaç saat sonra karşılaşır?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:106
 #: ../src/Games/Logic/PuzzleTrains.cs:128
@@ -5001,8 +5380,7 @@ msgid ""
 msgstr "Cevabı, aradaki uzaklığı hızların toplamına bölerek bulabilirsiniz."
 
 #. Translators:
-#. - mph (miles per hour) and miles must be localized this using the right
-#. unit of speed for your locale
+#. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
 #: ../src/Games/Logic/PuzzleTrains.cs:123
 #, csharp-format
 msgid ""
@@ -5013,7 +5391,10 @@ msgid_plural ""
 "Two trains on straight parallel tracks leave from the same point and time "
 "traveling in opposite directions at {0} and {1} mph respectively. In how "
 "many hours will they be {2} miles apart?"
-msgstr[0] "Düz ve paralel demir yollarındaki iki tren, aynı anda aynı noktadan yola çıkıp sırasıyla {0} ve {1} km/saat hızlarla zıt yönde harekete başlıyorlar. Kaç saat sonra aralarındaki uzaklık {2} km olur?"
+msgstr[0] ""
+"Düz ve paralel demir yollarındaki iki tren, aynı anda aynı noktadan yola "
+"çıkıp sırasıyla {0} ve {1} km/saat hızlarla zıt yönde harekete başlıyorlar. "
+"Kaç saat sonra aralarındaki uzaklık {2} km olur?"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:31
 msgid "Triangles"
@@ -5042,12 +5423,12 @@ msgstr "Aşağıdaki soru işaretinin yerine hangi sayı gelmelidir?"
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:66
 msgid "All the triangles share a property and are independent of the rest."
-msgstr "Bütün üçgenler bir özelliği paylaşmakta olup diğerlerinden bağımsızdır."
+msgstr ""
+"Bütün üçgenler bir özelliği paylaşmakta olup diğerlerinden bağımsızdır."
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
 #, csharp-format
-msgid ""
-"The result of multiplying the two numbers inside every triangle is {0}."
+msgid "The result of multiplying the two numbers inside every triangle is {0}."
 msgstr "Her üçgenin içindeki iki sayının çarpımı {0}'dır."
 
 #: ../src/Games/Memory/MemoryColouredFigures.cs:50
@@ -5058,7 +5439,8 @@ msgstr "Renkli şekiller"
 #, csharp-format
 msgid ""
 "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
-msgstr "Figürlerden hangisi daha önceden gösterildi? Cevap {0}, {1}, {2} veya {3}."
+msgstr ""
+"Figürlerden hangisi daha önceden gösterildi? Cevap {0}, {1}, {2} veya {3}."
 
 #: ../src/Games/Memory/MemoryColouredText.cs:35
 msgid "Colored text"
@@ -5073,13 +5455,14 @@ msgstr "{0} 'ın yazıldığı yazının rengi neydi?"
 msgid "Counting dots"
 msgstr "Noktaları saymak"
 
-#. Translators: {0} is the name of the color. The color name is always
-#. singular
+#. Translators: {0} is the name of the color. The color name is always singular
 #: ../src/Games/Memory/MemoryCountDots.cs:52
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
-msgstr "Önceki resimde kaç adet {0} renginde nokta vardı? Sayı kullanarak cevap veriniz."
+msgstr ""
+"Önceki resimde kaç adet {0} renginde nokta vardı? Sayı kullanarak cevap "
+"veriniz."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
 msgid "Memorize faces"
@@ -5089,7 +5472,9 @@ msgstr "Yüzleri aklınızda tutun"
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
-msgstr "Hangi hücrede aşağıdakine benzeyen bir yüz bulunmaktadır? Hücre numarasını yazarak cevaplayınız."
+msgstr ""
+"Hangi hücrede aşağıdakine benzeyen bir yüz bulunmaktadır? Hücre numarasını "
+"yazarak cevaplayınız."
 
 #: ../src/Games/Memory/MemoryFacts.cs:48
 msgid "Memorize facts"
@@ -5105,7 +5490,10 @@ msgid ""
 msgid_plural ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
 "before then it had not halted production since {1}."
-msgstr[0] "Parlak Arabalar şirketi halihazırda gelecek ay için {0} gün üretimi durdurma kararı vermiştir, ancak bundan önce {1} tarihinden beri üretimi durdurmamıştır."
+msgstr[0] ""
+"Parlak Arabalar şirketi halihazırda gelecek ay için {0} gün üretimi durdurma "
+"kararı vermiştir, ancak bundan önce {1} tarihinden beri üretimi "
+"durdurmamıştır."
 
 #: ../src/Games/Memory/MemoryFacts.cs:110
 msgid "How many days did Shiny Cars halt its production for?"
@@ -5120,7 +5508,9 @@ msgstr "Parlak Arabalar şirketi hangi yılda üretime ara vermiştir?"
 #, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
-msgstr "Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu, {1} tarihinden beri yaşanan en kötü düşüştür."
+msgstr ""
+"Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu, "
+"{1} tarihinden beri yaşanan en kötü düşüştür."
 
 #: ../src/Games/Memory/MemoryFacts.cs:121
 msgid "By how much did company sales fall last December?"
@@ -5131,24 +5521,31 @@ msgstr "Geçen aralıkta şirket satışları ne kadar düşmüştür?"
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
-msgstr "Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu hangi yıldan sonraki en kötü düşüştür?"
+msgstr ""
+"Parlak Arabalar şirketinin satışları geçen aralık ayında %{0} düşmüştür. Bu "
+"hangi yıldan sonraki en kötü düşüştür?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
-msgstr "Dünyada üretilen Parlak Arabalar ürünlerinin %{0}'si Avrupa'da satılmıştır."
+msgstr ""
+"Dünyada üretilen Parlak Arabalar ürünlerinin %{0}'si Avrupa'da satılmıştır."
 
 #: ../src/Games/Memory/MemoryFacts.cs:131
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
-msgstr "Dünyada üretilen Parlak Arabalar ürünlerinin yüzde kaçı Avrupa'da satılmıştır?"
+msgstr ""
+"Dünyada üretilen Parlak Arabalar ürünlerinin yüzde kaçı Avrupa'da "
+"satılmıştır?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:137
 #, csharp-format
 msgid ""
-"About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use"
-" electricity."
-msgstr "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use electricity."
+"About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
+"electricity."
+msgstr ""
+"About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
+"electricity."
 
 #: ../src/Games/Memory/MemoryFacts.cs:139
 msgid "What percentage of Shiny Cars use diesel?"
@@ -5181,9 +5578,11 @@ msgstr "Figürleri ve yazıları aklınızda tutmaya çalışınız."
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:84
 #, csharp-format
 msgid ""
-"The list below enumerates the figures shown in the previous image except for"
-" one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
-msgstr "Aşağıdaki listede, önceki resimde gösterilen şekiller biri hariç numaralandırılmıştır. Kayıp şekil hangisidir?  Cevap {0}, {1}, {2} ya da {3}."
+"The list below enumerates the figures shown in the previous image except for "
+"one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Aşağıdaki listede, önceki resimde gösterilen şekiller biri hariç "
+"numaralandırılmıştır. Kayıp şekil hangisidir?  Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:222
 msgid "List of images shown before"
@@ -5196,9 +5595,10 @@ msgstr "Numarlı figürler"
 #: ../src/Games/Memory/MemoryFiguresNumbers.cs:43
 #, csharp-format
 msgid ""
-"Which one of these squares was previously shown? Answer {0}, {1}, {2} or "
+"Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Bu karelerden hangileri daha önceden gösterildi? Cevap {0}, {1}, {2} yada "
 "{3}."
-msgstr "Bu karelerden hangileri daha önceden gösterildi? Cevap {0}, {1}, {2} yada {3}."
 
 #: ../src/Games/Memory/MemoryIndications.cs:133
 #, csharp-format
@@ -5233,23 +5633,24 @@ msgstr "İpuçlarını aklınızda tutmaya çalışınız"
 #: ../src/Games/Memory/MemoryIndications.cs:168
 #, csharp-format
 msgid ""
-"Which of the following graphics represents the indications previously given?"
-" Answer {0}, {1}, {2} or {3}."
-msgstr "Aşağıdaki şekillerden hangisi önceden gösterilmiş ipuçlarını temsil etmektedir? Cevap {0}, {1}, {2} ya da {3}."
+"Which of the following graphics represents the indications previously given? "
+"Answer {0}, {1}, {2} or {3}."
+msgstr ""
+"Aşağıdaki şekillerden hangisi önceden gösterilmiş ipuçlarını temsil "
+"etmektedir? Cevap {0}, {1}, {2} ya da {3}."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:65
 msgid "How many odd numbers were in the previous image? Answer using numbers."
 msgstr "Önceki resimde kaç tane tek sayı vardı? Sayıyla cevaplayın."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:90
-msgid ""
-"How many even numbers were in the previous image? Answer using numbers."
+msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr "Önceki resimde kaç tane çift sayı vardı? Sayıyla cevaplayın."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:115
 msgid ""
-"How many numbers with more than one digit were in the previous image? Answer"
-" using numbers."
+"How many numbers with more than one digit were in the previous image? Answer "
+"using numbers."
 msgstr "Önceki resimde birden fazla haneli kaç sayı vardı? Sayıyla cevaplayın."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:132
@@ -5417,8 +5818,7 @@ msgstr "kurt"
 msgid ""
 "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
 msgid_plural ""
-"How many degrees rotates the minute hand of a clock in 2 hours [num] "
-"minutes?"
+"How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
 msgstr[0] "2 saat [num] dakika içinde yelkovan kaç derecelik döner?"
 
 #: ../tools/GameXmlGetString.cs:33
@@ -5428,7 +5828,9 @@ msgid ""
 msgid_plural ""
 "John is 46 years old. His son is [difference] years younger than half of "
 "John's age. How old is John's son?"
-msgstr[0] "John 46 yaşındadır. Oğlu John'ın yaşının yarısından [difference] yaş daha gençtir. John'ın oğlu kaç yaşındadır?"
+msgstr[0] ""
+"John 46 yaşındadır. Oğlu John'ın yaşının yarısından [difference] yaş daha "
+"gençtir. John'ın oğlu kaç yaşındadır?"
 
 #: ../tools/GameXmlGetString.cs:37
 msgid ""
@@ -5437,18 +5839,23 @@ msgid ""
 msgid_plural ""
 "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
 "[proportion] times older than his son. How old is John's son nowadays?"
-msgstr[0] "John'ın yaşı şu an oğlunun yaşının 2 katıdır. [ago] sene önce, John oğlundan [proportion] kez daha yaşlıydı. John bugün kaç yaşındadır?"
+msgstr[0] ""
+"John'ın yaşı şu an oğlunun yaşının 2 katıdır. [ago] sene önce, John oğlundan "
+"[proportion] kez daha yaşlıydı. John bugün kaç yaşındadır?"
 
 #: ../tools/GameXmlGetString.cs:41
 msgid ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that"
-" is x = 2y, and [ago] year ago, John was [proportion] times older than his "
+"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
+"is x = 2y, and [ago] year ago, John was [proportion] times older than his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgid_plural ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that"
-" is x = 2y, and [ago] years ago, John was [proportion] times older than his "
+"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
+"is x = 2y, and [ago] years ago, John was [proportion] times older than his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
-msgstr[0] "Bugün Can'ın yaşı (x değişkeni) oğlunun yaşının (y değişkeni) 2 katıdır, yani x = 2y. [ago] yıl önce Can oğlundan [proportion] kat daha yaşlıydı: x - [ago] = (y - [ago]) * [proportion]."
+msgstr[0] ""
+"Bugün Can'ın yaşı (x değişkeni) oğlunun yaşının (y değişkeni) 2 katıdır, "
+"yani x = 2y. [ago] yıl önce Can oğlundan [proportion] kat daha yaşlıydı: x - "
+"[ago] = (y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
 msgid ""
@@ -5459,16 +5866,20 @@ msgid_plural ""
 "A file is protected by a password formed by a [digits] digits number "
 "represented in base 10 (ranging from 0 to 9). How many different passwords "
 "can you have?"
-msgstr[0] "Bir dosya, 10 tabanındaki (0 ile 9 aralığında) [digits] basamaklı bir sayıdan oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
+msgstr[0] ""
+"Bir dosya, 10 tabanındaki (0 ile 9 aralığında) [digits] basamaklı bir "
+"sayıdan oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
 
 #: ../tools/GameXmlGetString.cs:49
 msgid ""
 "A file is protected by a password formed by a [digits] digit represented in "
 "base 8 (ranging from 0 to 7). How many different passwords can you have?"
 msgid_plural ""
-"A file is protected by a password formed by a [digits] digits represented in"
-" base 8 (ranging from 0 to 7). How many different passwords can you have?"
-msgstr[0] "Bir dosya 8 tabanındaki (0 ile 7 aralığında) [digits] basamaklı bir sayıdan oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
+"A file is protected by a password formed by a [digits] digits represented in "
+"base 8 (ranging from 0 to 7). How many different passwords can you have?"
+msgstr[0] ""
+"Bir dosya 8 tabanındaki (0 ile 7 aralığında) [digits] basamaklı bir sayıdan "
+"oluşan bir parola ile korunuyor. Kaç farklı parolanız olabilir?"
 
 #: ../tools/GameXmlGetString.cs:53
 msgid ""
@@ -5477,7 +5888,9 @@ msgid ""
 msgid_plural ""
 "There are [games] tennis games played simultaneously. How many different "
 "forecasts are possible?"
-msgstr[0] "Aynı anda oynanan [games] tenis maçı var. Mümkün olan kaç farklı tahmin vardır?"
+msgstr[0] ""
+"Aynı anda oynanan [games] tenis maçı var. Mümkün olan kaç farklı tahmin "
+"vardır?"
 
 #: ../tools/GameXmlGetString.cs:57
 msgid ""
@@ -5488,7 +5901,10 @@ msgid_plural ""
 "In a tennis tournament, in every match a player is eliminated after losing "
 "to a single opponent. How many matches does it take to determine the winner "
 "of a tennis tournament that starts with [players] players?"
-msgstr[0] "Bir tenis turnuvasında, her maçın ardından rakibine yenilen oyuncu turnuvadan eleniyor. [players] oyuncuyla başlayan bir tenis turnuvasında kazananı belirlemek için kaç maç yapılması gerekir?"
+msgstr[0] ""
+"Bir tenis turnuvasında, her maçın ardından rakibine yenilen oyuncu "
+"turnuvadan eleniyor. [players] oyuncuyla başlayan bir tenis turnuvasında "
+"kazananı belirlemek için kaç maç yapılması gerekir?"
 
 #: ../tools/GameXmlGetString.cs:61
 msgid ""
@@ -5497,7 +5913,9 @@ msgid ""
 msgid_plural ""
 "You have [money] monetary units in your bank account at 10% interest "
 "compounded annually. How much money will you have at the end of 2 years?"
-msgstr[0] "Banka hesabınızda [money] liranız var ve yıllık %10 bileşik faiz uygulanıyor. 2 yıl sonunda ne kadar paranız olur?"
+msgstr[0] ""
+"Banka hesabınızda [money] liranız var ve yıllık %10 bileşik faiz "
+"uygulanıyor. 2 yıl sonunda ne kadar paranız olur?"
 
 #: ../tools/GameXmlGetString.cs:69
 msgid ""
@@ -5506,26 +5924,35 @@ msgid ""
 msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
-msgstr[0] "Can saatte 1 / [john_time], arkadaşıysa 1 / [friend] hızla temizlik yapmaktadırlar. İkisi beraber çalıştıklarında [answer_a] saate ihtiyaç duyarlar."
+msgstr[0] ""
+"Can saatte 1 / [john_time], arkadaşıysa 1 / [friend] hızla temizlik "
+"yapmaktadırlar. İkisi beraber çalıştıklarında [answer_a] saate ihtiyaç "
+"duyarlar."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
 "John needs [john_time] hour to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they"
-" worked together? [option_answers]"
+"as many. How many hours would it take them to clean up the warehouse if they "
+"worked together? [option_answers]"
 msgid_plural ""
 "John needs [john_time] hours to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they"
-" worked together? [option_answers]"
-msgstr[0] "Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken arkadaşı bunun yarısı kadar zamana ihtiyaç duyuyor. Birlikte çalışırlarsa ambarı temizlemeleri kaç saat sürer? [option_answers]"
+"as many. How many hours would it take them to clean up the warehouse if they "
+"worked together? [option_answers]"
+msgstr[0] ""
+"Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken "
+"arkadaşı bunun yarısı kadar zamana ihtiyaç duyuyor. Birlikte çalışırlarsa "
+"ambarı temizlemeleri kaç saat sürer? [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:77
 msgid ""
 "John needs [john_time] hour to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if they"
-" worked together? [option_answers]"
+"as many. How many hours would it take them to clean up the warehouse if they "
+"worked together? [option_answers]"
 msgid_plural ""
-"John needs [john_time] hours to clean a warehouse and his friend needs twice"
-" as many. How many hours would it take them to clean up the warehouse if "
-"they worked together? [option_answers]"
-msgstr[0] "Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken arkadaşı bunun iki katı zamana ihtiyaç duyuyor. Birlikte çalışırlarsa ambarı temizlemeleri kaç saat sürer? [option_answers]"
+"John needs [john_time] hours to clean a warehouse and his friend needs twice "
+"as many. How many hours would it take them to clean up the warehouse if they "
+"worked together? [option_answers]"
+msgstr[0] ""
+"Can'ın bir ambarı temizlemesi için [john_time] saate ihtiyacı varken "
+"arkadaşı bunun iki katı zamana ihtiyaç duyuyor. Birlikte çalışırlarsa ambarı "
+"temizlemeleri kaç saat sürer? [option_answers]"
