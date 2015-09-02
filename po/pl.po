@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-19 22:15+0200\n"
-"PO-Revision-Date: 2015-06-19 22:17+0200\n"
+"POT-Creation-Date: 2015-09-03 01:22+0200\n"
+"PO-Revision-Date: 2015-09-03 01:23+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -2443,7 +2443,7 @@ msgid ""
 msgstr ""
 "Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać dalej i/"
 "lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
-"przez Fundację Wolnego Oprogramowania - według wersji 2-giej tej Licencji "
+"przez Fundację Wolnego Oprogramowania — według wersji 2-giej tej Licencji "
 "lub którejś z późniejszych wersji.\n"
 "\n"
 
@@ -2455,7 +2455,7 @@ msgid ""
 "more details.\n"
 "\n"
 msgstr ""
-"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - "
+"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny — "
 "jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
 "HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
 "bliższych informacji, proszę zapoznać się z treścią Powszechnej Licencji "
@@ -2470,8 +2470,8 @@ msgid ""
 msgstr ""
 "Z pewnością wraz z niniejszym programem dostarczono też egzemplarz "
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
-"- proszę w tej sprawie skontaktować się z Free Software Foundation, Inc., 59 "
-"Temple Place - Suite 330, Boston, MA 02111-1307, USA."
+"— proszę w tej sprawie skontaktować się z Free Software Foundation, Inc., 59 "
+"Temple Place — Suite 330, Boston, MA 02111-1307, USA."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2809,7 +2809,7 @@ msgstr "Zadania słowne"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:9
 msgid "Custom Game Selection..."
-msgstr "Własny wybór..."
+msgstr "Własny wybór…"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:10
 msgid "_Pause Game"
@@ -2821,7 +2821,7 @@ msgstr "_Zakończ grę"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Eksportuj do pliku PDF..."
+msgstr "Eksportuj do pliku PDF…"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -2901,15 +2901,15 @@ msgstr "Te dodatki są już zainstalowane:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:36
 msgid "_Install Add-ins..."
-msgstr "_Zainstaluj dodatki..."
+msgstr "_Zainstaluj dodatki…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:37
 msgid "_Repositories..."
-msgstr "_Repozytoria..."
+msgstr "_Repozytoria…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:38
 msgid "_Uninstall..."
-msgstr "_Odinstaluj..."
+msgstr "_Odinstaluj…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:39
 msgid "Enable"
@@ -3014,7 +3014,7 @@ msgstr "Adres URL:"
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:64
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
 msgid "Browse..."
-msgstr "Przeglądaj..."
+msgstr "Przeglądaj…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:65
 msgid "Path:"
@@ -3039,7 +3039,7 @@ msgstr "Repozytorium:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:72
 msgid "Install from file..."
-msgstr "Zainstaluj z pliku..."
+msgstr "Zainstaluj z pliku…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:73
 msgid "No selection"
@@ -3067,7 +3067,7 @@ msgstr "Wszystkie"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:79
 msgid "Manage Repositories..."
-msgstr "Zarządzaj repozytoriami..."
+msgstr "Zarządzaj repozytoriami…"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:80
 msgid "Add-in Repository Management"
@@ -3277,13 +3277,13 @@ msgstr "Zadanie: {0}"
 #: ../src/Core/Main/GameSession.cs:191
 #, csharp-format
 msgid "{0} - {1} - {2}"
-msgstr "{0} - {1} - {2}"
+msgstr "{0} — {1} — {2}"
 
 #. Translators: text in the status bar: games played - time
 #: ../src/Core/Main/GameSession.cs:194
 #, csharp-format
 msgid "{0} - {1}"
-msgstr "{0} - {1}"
+msgstr "{0} — {1}"
 
 #: ../src/Core/Main/GameSessionHistory.cs:80
 msgid "Outstanding results"
@@ -3351,7 +3351,7 @@ msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
 msgstr ""
-"Polecenie „Własny wybór...” w menu poleceń umożliwia wybranie określonych "
+"Polecenie „Własny wybór…” w menu poleceń umożliwia wybranie określonych "
 "zadań."
 
 #: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
@@ -3402,7 +3402,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Zapamiętaj poniższe obiekty w wyznaczonym czasie."
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Pozostały czas"
 
@@ -3492,7 +3492,7 @@ msgstr "Proszę wskazać odpowiedź {0}."
 
 #: ../src/Core/Views/CountDownView.cs:80
 msgid "Get ready to memorize the next objects..."
-msgstr "Proszę przygotować się do zapamiętania obiektów..."
+msgstr "Proszę przygotować się do zapamiętania obiektów…"
 
 #: ../src/Core/Views/FinishView.cs:145
 #: ../src/Core/Views/PlayerHistoryView.cs:277
@@ -4587,7 +4587,7 @@ msgid ""
 msgstr ""
 "Pierwsza osoba wykonuje n-1 uścisków dłoni, druga n-2, itd, gdzie n to "
 "liczba wszystkich uczestników przyjęcia. Łączna liczba uścisków jest równa "
-"sumie wyrazów ciągu 1+2+3+...+(n-1)."
+"sumie wyrazów ciągu 1+2+3+…+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -5569,17 +5569,17 @@ msgid_plural ""
 "many hours will they be {2} miles apart?"
 msgstr[0] ""
 "Dwa pociągi poruszające się po równoległych torach, wyruszają w drogę z tego "
-"samego punktu, o tym samym czasie - pierwszy z prędkością {0} km/s a drugi z "
+"samego punktu, o tym samym czasie — pierwszy z prędkością {0} km/s a drugi z "
 "prędkością {1} km/h. Po ilu godzinach pociągi znajdą się w odległości {2} "
 "kilometra?"
 msgstr[1] ""
 "Dwa pociągi poruszające się po równoległych torach, wyruszają w drogę z tego "
-"samego punktu, o tym samym czasie - pierwszy z prędkością {0} km/s a drugi z "
+"samego punktu, o tym samym czasie — pierwszy z prędkością {0} km/s a drugi z "
 "prędkością {1} km/h. Po ilu godzinach pociągi znajdą się w odległości {2} "
 "kilometrów?"
 msgstr[2] ""
 "Dwa pociągi poruszające się po równoległych torach, wyruszają w drogę z tego "
-"samego punktu, o tym samym czasie - pierwszy z prędkością {0} km/s a drugi z "
+"samego punktu, o tym samym czasie — pierwszy z prędkością {0} km/s a drugi z "
 "prędkością {1} km/h. Po ilu godzinach pociągi znajdą się w odległości {2} "
 "kilometrów?"
 
