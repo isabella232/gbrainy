@@ -3,25 +3,26 @@
 # This file is distributed under the same license as the gbrainy package.
 #
 #
+#
 # Viesturs Ružāns <viesty@exs.lv>, 2012.
 # Anita Reitere <nitalynx@gmail.com>, 2012.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013.
-#
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-02 22:59+0300\n"
-"PO-Revision-Date: 2013-09-02 23:01+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&"
+"keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-06-18 19:54+0000\n"
+"PO-Revision-Date: 2015-12-19 21:05+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -637,6 +638,25 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Tas ir šādas izteiksmes rezultāts: ([three] * 3) - ([two] * 2)."
 
+#: ../data/gbrainy.appdata.xml.in.h:1
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"gbrainy ir atmiņas trenēšanas, aritmētikas un loģikas spēju spēle ar daudziem "
+"uzdevumiem ar dažādām grūtības pakāpēm."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"It should have something for all ages and purposes: kids whose parents want "
+"them to develop their capabilities, adults that want to keep their mind in "
+"form or just try it out for fun, older people that might need to do some "
+"memory exercises, etc."
+msgstr ""
+"Tajā ir kaut kas visām paaudzēm un nolūkiem: bērniem, kuru vecāki vēlas "
+"attīstīt to spējas; pieaugušajiem, kas vēlas uzturēt formā prātu vai "
+"pamēģināt prieka pēc; vecākiem ļaudīm varētu noderēt atmiņas vingrojumi, utt."
+
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -662,7 +682,7 @@ msgid "Notebook"
 msgstr "Piezīmju blociņš"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: http://live.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2031,7 +2051,7 @@ msgstr "stikls / sasist | papīrs"
 msgid "tear | rip"
 msgstr "saplēst | plēst"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "pēdas / divas | pirksti"
@@ -2665,15 +2685,15 @@ msgstr "Maksimālais ierakstu skaits spēlētāja spēļu sesiju vēsturē:"
 msgid "Delete Player's Game Session History"
 msgstr "Dzēst spēlētāja spēļu sesiju vēsturi"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Apsveicam."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Nepareiza atbilde."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2681,11 +2701,11 @@ msgstr ""
 "Tiklīdz jums ir atbilde, ierakstiet to laukā \"Atbilde:\" un nospiediet pogu "
 "\"OK\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Gbrainy tulkojuma līmenis jūsu valodai ir zems."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2695,16 +2715,16 @@ msgstr ""
 "Ja jūs dodat priekšroku spēlēšanai angļu valodā, šāda iespēja ir gbrainy "
 "iestatījumos."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pauzēt"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Atsākt"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Palaišanas laiks {0}"
@@ -3264,9 +3284,12 @@ msgid ""
 msgstr "Nebaidieties pieļaut kļūdas — tās ir daļa no mācīšanās procesa."
 
 #: ../src/Core/Main/GameTips.cs:69
+#| msgid ""
+#| "Do all the problems, even the difficult ones. Improvement comes from "
+#| "challeging yourself."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr ""
 "Izpildiet visus uzdevumus, pat pašus grūtākos. Spējas iespējams uzlabot, "
 "pārvarot arvien jaunas grūtības."
@@ -4952,7 +4975,8 @@ msgstr ""
 "kurš no šiem slēdzieniem ir pareizs? Atbildi {0}, {1}, {2} vai {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+#| msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Daži mākslinieki nav noguruši"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
@@ -6094,15 +6118,3 @@ msgstr[2] ""
 "Jānim ir nepieciešams [john_time] stundu, lai satīrītu noliktavu, bet viņa "
 "draugam ir nepieciešams divreiz vairāk laika. Cik ilgu laiku aizņemtu "
 "noliktavas tīrīšana, ja viņi to darītu kopā? [option_answers]"
-
-#~ msgid "coins"
-#~ msgstr "monētas"
-
-#~ msgid "Next Game"
-#~ msgstr "Nākamā spēle"
-
-#~ msgid "Answer"
-#~ msgstr "Atbilde"
-
-#~ msgid "Memorize figures"
-#~ msgstr "Iegaumē figūras"
