@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-06-18 19:54+0000\n"
-"PO-Revision-Date: 2015-07-25 08:01+0200\n"
+"POT-Creation-Date: 2015-07-25 06:22+0000\n"
+"PO-Revision-Date: 2015-12-21 10:51+0100\n"
 "Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.3\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -2282,7 +2282,7 @@ msgstr "Ellbogen / Knie | Handgelenk"
 
 #: ../data/verbal_analogies.xml.h:429
 msgid "ankle"
-msgstr "Knöchel"
+msgstr "Knöchel | Fußgelenk | Sprunggelenk"
 
 #: ../data/verbal_analogies.xml.h:430
 msgid "novel / author | song"
@@ -5183,9 +5183,9 @@ msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Wenn alle Schweine fett sind und nichts, was mit Gerstenwasser gefütter wird "
-"fett ist, welche der folgenden Aussagen ist dann zutreffend? Antworten Sie "
-"mit {0}, {1}, {2} oder {3}."
+"Wenn alle Schweine fett sind und nichts, was mit Gerstenwasser gefüttert "
+"wird fett ist, welche der folgenden Aussagen ist dann zutreffend? Antworten "
+"Sie mit {0}, {1}, {2} oder {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "All animals fed on barley-water are non pigs"
