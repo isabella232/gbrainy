@@ -1,15 +1,15 @@
 # Serbian translation for gbrainy
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the gbrainy package.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2010—2014.
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2010—2015.
 # Милош Поповић <gpopac@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy"
 "&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-27 21:47+0000\n"
-"PO-Revision-Date: 2014-10-24 22:03+0200\n"
+"POT-Creation-Date: 2015-06-18 19:54+0000\n"
+"PO-Revision-Date: 2015-12-28 09:00+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -2056,7 +2056,7 @@ msgstr "стакло / сломити | папир"
 msgid "tear | rip"
 msgstr "поцепати | покидати"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. Feel free to change it to 'fingers' and adapt the answer accordingly
+#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
 #: ../data/verbal_analogies.xml.h:375
 msgid "feet / two | toes"
 msgstr "стопа / два | ножни прсти"
@@ -2700,15 +2700,15 @@ msgstr "Највећи број сачуваних игара у историј�
 msgid "Delete Player's Game Session History"
 msgstr "Обриши историјат сесије игара"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:428
 msgid "Congratulations."
 msgstr "Честитамо."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:432
 msgid "Incorrect answer."
 msgstr "Нетачан одговор."
 
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:493
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2716,11 +2716,11 @@ msgstr ""
 "Када будете имали одговор упишите га у поље „Одговор:“ и притисните дугме "
 "„ОК“."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:523
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Ниво превода г-кефала на ваш језик је низак."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2730,16 +2730,16 @@ msgstr ""
 "за играње. Ако вам више одговара да их играте на енглеском језику, можете "
 "изабрати такву опцију у подешавањима г-кефала."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:620
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Паузирај"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:625
 msgid "Resume"
 msgstr "Настави"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:775
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Време покретања {0}"
@@ -3300,9 +3300,12 @@ msgstr ""
 "Немојте се плашити да направите грешке, оне су саставни део процеса учења."
 
 #: ../src/Core/Main/GameTips.cs:69
+#| msgid ""
+#| "Do all the problems, even the difficult ones. Improvement comes from "
+#| "challeging yourself."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
-"challeging yourself."
+"challenging yourself."
 msgstr "Урадите све проблеме, чак и оне најтеже. Побољшање долази са вежбањем."
 
 #: ../src/Core/Main/GameTips.cs:71
@@ -5005,7 +5008,8 @@ msgstr ""
 "реченица је тачна? Одговорите {0}, {1}, {2} или {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-msgid "Some artist are not ill"
+#| msgid "Some artist are not ill"
+msgid "Some artists are not ill"
 msgstr "Неки уметници нису болесни"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
@@ -6146,17 +6150,17 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребан [answer_a] сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребан [answer_a] сат."
 msgstr[1] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно су им потребна [answer_a] сата."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно су им потребна [answer_a] сата."
 msgstr[2] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребно [answer_a] сати."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребно [answer_a] сати."
 msgstr[3] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребан један сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребан један сат."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
