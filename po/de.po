@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-07-25 06:22+0000\n"
-"PO-Revision-Date: 2015-12-21 10:51+0100\n"
+"POT-Creation-Date: 2015-12-21 09:55+0000\n"
+"PO-Revision-Date: 2015-12-28 10:41+0100\n"
 "Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -1639,7 +1639,7 @@ msgstr "Wüste / Oase | Meer"
 
 #: ../data/verbal_analogies.xml.h:256
 msgid "Island"
-msgstr "Inseln"
+msgstr "Insel"
 
 #: ../data/verbal_analogies.xml.h:257
 msgid "River"
@@ -3422,7 +3422,7 @@ msgid "Memorize the objects below in the given time"
 msgstr ""
 "Merken Sie sich die unterhalb gezeigten Objekte in der vorgegebenen Zeit"
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Verbleibende Zeit"
 
