@@ -51,7 +51,7 @@ namespace gbrainy.Games.Calculation
 		{
 			int found = 0;
 
-			for (int i = 0; i < total_size - CONSECUTIVE_SIZE; i++)
+			for (int i = 0; i < total_size - CONSECUTIVE_SIZE + 1; i++)
 			{
 				int sum = 0;
 				for (int c = 0; c < CONSECUTIVE_SIZE; c++)
