@@ -94,15 +94,15 @@ namespace gbrainy.Games.Logic
 				return;
 
 			// References
-			gr.MoveTo (x - 0.04, y - 0.02);
+			gr.MoveTo (x - 0.04, y - 0.05);
 			gr.ShowPangoText ("a");
 			gr.Stroke ();
 
-			gr.MoveTo (x + w / 2 - 0.02, y - 0.02);
+			gr.MoveTo (x + w / 2 - 0.02, y - 0.05);
 			gr.ShowPangoText ("b");
 			gr.Stroke ();
 
-			gr.MoveTo (x + w + 0.02, y - 0.02);
+			gr.MoveTo (x + w + 0.02, y - 0.05);
 			gr.ShowPangoText ("c");
 			gr.Stroke ();
 
@@ -118,15 +118,15 @@ namespace gbrainy.Games.Logic
 			gr.ShowPangoText ("f");
 			gr.Stroke ();
 
-			gr.MoveTo (x - 0.04, y + h + 0.04);
+			gr.MoveTo (x - 0.04, y + h + 0.02);
 			gr.ShowPangoText ("g");
 			gr.Stroke ();
 
-			gr.MoveTo (x + w / 2 - 0.02, y + h + 0.04);
+			gr.MoveTo (x + w / 2 - 0.02, y + h + 0.02);
 			gr.ShowPangoText ("h");
 			gr.Stroke ();
 
-			gr.MoveTo (x + w + 0.02, y + h + 0.04);
+			gr.MoveTo (x + w + 0.02, y + h + 0.02);
 			gr.ShowPangoText ("i");
 			gr.Stroke ();
 		}
