@@ -108,7 +108,7 @@ if test "x$enable_addins" = "xyes" -a "x$enable_addins_sharp" = "xno"; then
 	AC_MSG_ERROR([mono-addins was not found or is not up to date. Please install mono-addins of at least version $MONO_ADDINS, or disable mono-addins support by --disable-addins])
 fi
 
-if test "x$enable_addins_sharp" = "xyes"; then
+if test "x$enable_addins" = "xyes"; then
 	AC_SUBST(MONO_ADDINS_LIBS)
 	CSC_DEFINES="$CSC_DEFINES -d:MONO_ADDINS"
 fi
