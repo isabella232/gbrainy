@@ -43,8 +43,8 @@ namespace gbrainy.Games.Logic
 		public override string Rationale {
 			get { 
 				return String.Format (Translations.GetString ("The four sided figures are made by connecting the following points: {0}"),
-					(type == 0) ? "abde, degh, bcef, efhi, acdf, dfgi, abhg, bcih, acig, aghe, aefc, deig, bcie." : 
-					"abde, degh, bcef, efhi, acdf, dfgi, abhg, bcih, acig, aghe, aefc, deig, bcie, acde, cehi, abeg, egif.");
+					(type == 0) ? "abed, dehg, bcfe, efih, acfd, dfig, abhg, bcih, acig, aghe, aefc, deig, bcie." : 
+					"abed, dehg, bcfe, efih, acfd, dfig, abhg, bcih, acig, aghe, aefc, deig, bcie, aced, cehi, abeg, egif.");
 			}
 		}
 
