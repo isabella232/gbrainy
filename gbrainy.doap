@@ -7,12 +7,12 @@
   <name xml:lang="en">gbrainy</name>
   <shortdesc xml:lang="en">A brain teaser game for fun and to keep your brain trained</shortdesc>
   <homepage rdf:resource="https://wiki.gnome.org/Apps/gbrainy" />
-  <mailing-list rdf:resource="http://groups.google.com/group/gbrainy" />
+  <mailing-list rdf:resource="https://groups.google.com/group/gbrainy" />
   <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gbrainy" />
 
   <repository>
     <GitRepository>
-      <browse rdf:resource="http://git.gnome.org/cgit/gbrainy" />
+      <browse rdf:resource="https://git.gnome.org/cgit/gbrainy" />
       <location rdf:resource="git://git.gnome.org/gbrainy" />
     </GitRepository>
   </repository>
