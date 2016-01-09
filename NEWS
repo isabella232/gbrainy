@@ -1,5 +1,10 @@
 gbrainy NEWS
 
+Version 2.2.7
+* Fixed 2 bugs
+* Standardize on .Net 4.5 and msc compiler
+* Updated translations
+
 Version 2.2.6
 * Updated translations
 
