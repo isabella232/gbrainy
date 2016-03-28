@@ -148,6 +148,7 @@ namespace gbrainy.Clients.Classical
 
 			drawing_area = new GameDrawingArea ();
 			drawing_area.Drawable = session;
+                        drawing_area.Vexpand = true;
                         drawing_area.SetSizeRequest (drawing_vbox.WidthRequest, drawing_vbox.HeightRequest);
 			GameSensitiveUI ();
 
@@ -680,14 +681,6 @@ namespace gbrainy.Clients.Classical
 				Preferences.Save ();
 			}
 			toolbar.Attach (orientation);
-
-            // resize to reclaim height
-            int width, height;
-			Requisition requisition;
-
-			requisition = toolbar.SizeRequest ();
-			app_window.GetSize (out width, out height);
-			app_window.Resize (width, height - requisition.Height);
 		}
 
 		void OnHorizontalToolbar (object sender, System.EventArgs args)
