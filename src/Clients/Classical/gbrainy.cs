@@ -680,6 +680,14 @@ namespace gbrainy.Clients.Classical
 				Preferences.Save ();
 			}
 			toolbar.Attach (orientation);
+
+            // resize to reclaim height
+            int width, height;
+			Requisition requisition;
+
+			requisition = toolbar.SizeRequest ();
+			app_window.GetSize (out width, out height);
+			app_window.Resize (width, height - requisition.Height);
 		}
 
 		void OnHorizontalToolbar (object sender, System.EventArgs args)
