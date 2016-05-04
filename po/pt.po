@@ -3,27 +3,25 @@
 # This file is distributed under the same license as the gbrainy package.
 # Pedro Barreira <almufadado@gmail.com>, 2011.
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015.
+# Tiago Santos <tiagofsantos81@sapo.pt>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-06-18 19:54+0000\n"
-"PO-Revision-Date: 2015-09-04 11:25+0100\n"
-"Last-Translator: Pedro Albuquerque <palbuquerque73@gmail.com>\n"
+"POT-Creation-Date: 2016-03-27 06:19+0000\n"
+"PO-Revision-Date: 2016-05-04 20:12+0100\n"
+"Last-Translator: Tiago Santos <tiagofsantos81@sapo.pt>\n"
 "Language-Team: Português <palbuquerque73@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: Portugal\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../data/games.xml.h:1
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
 msgstr "Rotação do relógio"
 
@@ -45,9 +43,6 @@ msgstr ""
 "irmãs?"
 
 #: ../data/games.xml.h:5
-#| msgid ""
-#| "[brothers_only] people have brothers only, [sisters_only] sisters only "
-#| "and [both] have sisters and brothers."
 msgid ""
 "It is calculated by taking the total number of people minus [brothers_only] "
 "people that have brothers only, minus [sisters_only] that have sisters only "
@@ -102,9 +97,6 @@ msgstr ""
 "total de possibilidades é 2 elevado a [games]."
 
 #: ../data/games.xml.h:13
-#| msgid ""
-#| "In every match you eliminate one player, you need the total number of "
-#| "games minus 1 to find out the winner."
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
@@ -117,9 +109,6 @@ msgid "Bank interest"
 msgstr "Juros bancários"
 
 #: ../data/games.xml.h:15
-#| msgid ""
-#| "Compound interest is paid on the original amount and on the accumulated "
-#| "past interest."
 msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
@@ -193,9 +182,6 @@ msgstr "Caixa"
 
 #. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
 #: ../data/games.xml.h:33
-#| msgid ""
-#| "How many boxes measuring 1 x 1 x 0.5 can be packed into a container "
-#| "measuring 6 x 5 x [z]?"
 msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
 "x 5 x [z]?"
@@ -212,10 +198,6 @@ msgid "Palindromic years"
 msgstr "Anos palíndromos"
 
 #: ../data/games.xml.h:36
-#| msgid ""
-#| "[year_start] is a palindromic year as [year_end] is, a gap of 11 years. "
-#| "What are the next two consecutive palindromic years after [year_end] with "
-#| "the same gap?"
 msgid ""
 "[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
 "are the next two consecutive palindromic years after [year_end] with the "
@@ -249,9 +231,6 @@ msgid "Dartboard"
 msgstr "Alvo para dardos"
 
 #: ../data/games.xml.h:41
-#| msgid ""
-#| "On the dartboard below, where you have to hit the darts to add 120 points "
-#| "in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
 msgid ""
 "On the dartboard below, where would you need to throw the darts to add 120 "
 "points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
@@ -270,12 +249,6 @@ msgid "Horse race"
 msgstr "Corrida de Cavalos"
 
 #: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
-#| msgid ""
-#| "In a horse race there are people and horses. You can count [eyes] eye and "
-#| "[legs] leg. How many horses are present?"
-#| msgid_plural ""
-#| "In a horse race there are people and horses. You can count [eyes] eyes "
-#| "and [legs] legs. How many horses are present?"
 msgid ""
 "In a horse race there are people and horses. You count [eyes] eye and [legs] "
 "leg. How many horses are present?"
@@ -310,9 +283,6 @@ msgstr ""
 "interrogação a fim de equilibrar a alavanca?"
 
 #: ../data/games.xml.h:48
-#| msgid ""
-#| "Consider the sentence attributed to Archimedes: give me a lever long "
-#| "enough and a place to stand, and I can move the Earth."
 msgid ""
 "Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
 "and a place to stand and I can move the Earth'."
@@ -322,9 +292,6 @@ msgstr ""
 "apoio e eu levantarei o mundo\"."
 
 #: ../data/games.xml.h:49
-#| msgid ""
-#| "A lever is in equilibrium at distances reciprocally proportional to their "
-#| "weights."
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
@@ -393,12 +360,10 @@ msgstr "[option_prefix] [option_c] e [option_d]"
 
 #. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
 #: ../data/games.xml.h:59
-#| msgid "[option_prefix] [option_b]%"
 msgid "[option_a] and [option_b]"
 msgstr "[option_a] e [option_b]"
 
 #: ../data/games.xml.h:60
-#| msgid "[option_a] and [option_b] are both multiples of [product]."
 msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
 msgstr "[option_a] e [option_b] são ambos múltiplos de [num_x] e [num_y]."
 
@@ -451,9 +416,6 @@ msgid "Compare variables"
 msgstr "Comparar variáveis"
 
 #: ../data/games.xml.h:75
-#| msgid ""
-#| "If p &lt; x &lt; q and r &lt; y &lt; s. Which of the following options "
-#| "makes x &gt; y true? [option_answers]"
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &lt; y is true, "
 "which of the following options is correct? [option_answers]"
@@ -462,7 +424,6 @@ msgstr ""
 "das seguintes opções é correta? [option_answers]"
 
 #: ../data/games.xml.h:76
-#| msgid "[option_prefix] p > r"
 msgid "[option_prefix] s > p"
 msgstr "[option_prefix] s > p"
 
@@ -483,9 +444,6 @@ msgid "If x &lt; y, then p &lt; x &lt; y &lt; s so s &gt; p is true."
 msgstr "Se x &lt; y, então p &lt; x &lt; y &lt; s logo s &gt; p é verdadeiro."
 
 #: ../data/games.xml.h:81
-#| msgid ""
-#| "If p &lt; x &lt; q and r &lt; y &lt; s. Which of the following options "
-#| "makes x &gt; y true? [option_answers]"
 msgid ""
 "If p &lt; x &lt; q and r &lt; y &lt; s and you know that x &gt; y is true, "
 "which of the following options is correct? [option_answers]"
@@ -494,7 +452,6 @@ msgstr ""
 "das seguintes opções é correta? [option_answers]"
 
 #: ../data/games.xml.h:82
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] r < q"
 msgstr "[option_prefix] r < q"
 
@@ -532,10 +489,6 @@ msgid "[option_prefix] (x - y) * 2"
 msgstr "[option_prefix] (x - y) * 2"
 
 #: ../data/games.xml.h:90
-#| msgid ""
-#| "Since x is always an even number, multiplying it by 2 always produces an "
-#| "even number. Adding an even number to an odd number (y) always produces "
-#| "an odd number."
 msgid ""
 "Multiplication of two even numbers always produces an even number, so x "
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
@@ -550,22 +503,18 @@ msgid "Warehouse"
 msgstr "Armazém"
 
 #: ../data/games.xml.h:92
-#| msgid "[option_prefix] [option_a]%"
 msgid "[option_prefix] [answer_a]"
 msgstr "[option_prefix] [answer_a]"
 
 #: ../data/games.xml.h:93
-#| msgid "[option_prefix] [option_b]%"
 msgid "[option_prefix] [answer_b]"
 msgstr "[option_prefix] [answer_b]"
 
 #: ../data/games.xml.h:94
-#| msgid "[option_prefix] [option_c]%"
 msgid "[option_prefix] [answer_c]"
 msgstr "[option_prefix] [answer_c]"
 
 #: ../data/games.xml.h:95
-#| msgid "[option_prefix] [option_d]%"
 msgid "[option_prefix] [answer_d]"
 msgstr "[option_prefix] [answer_d]"
 
@@ -596,14 +545,10 @@ msgid "The heavier truck weights [heavier] and the lighter [lighter]."
 msgstr "O camião mais pesado pesa [heavier] e o mais leve pesa [lighter]."
 
 #: ../data/games.xml.h:99
-#| msgid "Numeric relation"
 msgid "Family relations"
 msgstr "Relações familiares"
 
 #: ../data/games.xml.h:100
-#| msgid ""
-#| "John's father's sister's sister-in-law is also? Do not assume that John "
-#| "has any relative that has not been mentioned."
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
@@ -613,23 +558,19 @@ msgstr ""
 "[option_answers]"
 
 #: ../data/games.xml.h:101
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Sua mãe"
 
 #: ../data/games.xml.h:102
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] Has no relation"
 msgstr "[option_prefix] Não tem relação"
 
 #: ../data/games.xml.h:103
-#| msgid "[option_prefix] q = s"
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Sua prima"
 
 #: ../data/games.xml.h:104
-#| msgid "[option_prefix] q = s"
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Seu genro"
 
@@ -643,9 +584,6 @@ msgid ""
 msgstr "A cunhada da irmã é a mulher do pai do João, ou seja, a sua mãe."
 
 #: ../data/games.xml.h:107
-#| msgid ""
-#| "John's mother's brother's brother-in-law is also? Do not assume that John "
-#| "has any relative that has not been mentioned."
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
@@ -654,12 +592,10 @@ msgstr ""
 "qualquer outro parente que não tenha sido mencionado."
 
 #: ../data/games.xml.h:108
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] His father"
 msgstr "[option_prefix] Seu pai"
 
 #: ../data/games.xml.h:109
-#| msgid "[option_prefix] q = s"
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Seu primo"
@@ -675,14 +611,10 @@ msgid ""
 msgstr "O cunhado do irmão é o marido da mãe do João, ou seja, o seu pai."
 
 #: ../data/games.xml.h:112
-#| msgid "Odd number"
 msgid "Third number"
 msgstr "Terceiro número"
 
 #: ../data/games.xml.h:113
-#| msgid ""
-#| "The average of a list of numbers is the sum of all of the numbers divided "
-#| "by the number of items in the list."
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
@@ -691,7 +623,6 @@ msgstr ""
 "Qual é o terceiro número?"
 
 #: ../data/games.xml.h:114
-#| msgid "It is the result of the operation [num_a] * [num_b]."
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "É o resultado da operação: ([three] * 3) - ([two] * 2)."
 
@@ -743,7 +674,6 @@ msgstr "Bloco de notas"
 #. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
-#| msgid "Which of the following sports is the odd one?"
 msgid "Which of the following sports does not belong in this group?"
 msgstr "Qual dos seguintes desportos não pertence ao grupo?"
 
@@ -860,7 +790,6 @@ msgid "Ignore"
 msgstr "Ignorar"
 
 #: ../data/verbal_analogies.xml.h:33
-#| msgid "An artist whose work has become the defining style of that genre is?"
 msgid "An artist whose work has become the defining style of a genre is?"
 msgstr ""
 "O que se chama a um artista cujas estilo das obras se tornaram a própria "
@@ -936,7 +865,6 @@ msgstr "Agorafobia"
 
 #. Selected to avoid physical characteristics like: has shield, legs or tail
 #: ../data/verbal_analogies.xml.h:55
-#| msgid "Which of the following words is the odd one?"
 msgid "Which of the following words does not belong in this group?"
 msgstr "Qual das seguintes palavras não pertence ao grupo?"
 
@@ -1059,7 +987,6 @@ msgid "Frog"
 msgstr "Sapo"
 
 #: ../data/verbal_analogies.xml.h:87
-#| msgid "It is the only one that is not a reptile."
 msgid "It is the only one that is not a reptile and also does not have a tail."
 msgstr "É o único que não é um réptil e também não tem cauda."
 
@@ -1084,7 +1011,6 @@ msgid "It is the only one that is not a carnivore."
 msgstr "É o único que não é carnívoro."
 
 #: ../data/verbal_analogies.xml.h:93
-#| msgid "Which of the following words is closer to the meaning of 'hedonism'?"
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"hedonismo"
@@ -1114,8 +1040,6 @@ msgstr ""
 "intrínseco."
 
 #: ../data/verbal_analogies.xml.h:99
-#| msgid ""
-#| "Which of the following words is closer to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
 msgstr ""
 "Qual das seguintes palavras está mais perto do significado de \"ascetismo\"?"
@@ -1133,7 +1057,6 @@ msgstr ""
 "ou superior."
 
 #: ../data/verbal_analogies.xml.h:102
-#| msgid "Which of the following words is closer to the meaning of 'oxymoron'?"
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"paradoxo\"?"
@@ -1235,7 +1158,6 @@ msgid "It is the only one that is not a medical specialty."
 msgstr "É o único que não é uma especialidade médica."
 
 #: ../data/verbal_analogies.xml.h:127
-#| msgid "Which of the following words is closer to the meaning of 'hedonism'?"
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"negligent"
@@ -1243,7 +1165,6 @@ msgstr ""
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:129
-#| msgid "Homeless"
 msgid "Careless"
 msgstr "Descuidado"
 
@@ -1292,7 +1213,6 @@ msgid "The other words have the connotation of not occurring frequently."
 msgstr "As outras palavras têm a conotação de não ocorrerem frequentemente."
 
 #: ../data/verbal_analogies.xml.h:143
-#| msgid "Which of the following words is closer to the meaning of 'hedonism'?"
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"embaraçoso"
@@ -1300,7 +1220,6 @@ msgstr ""
 
 #. Translator: As synonymous of 'perplexing'
 #: ../data/verbal_analogies.xml.h:145
-#| msgid "Cousin"
 msgid "Confusing"
 msgstr "Confuso"
 
@@ -1317,7 +1236,6 @@ msgid "Trivial"
 msgstr "Trivial"
 
 #: ../data/verbal_analogies.xml.h:149
-#| msgid "Which of the following words is closer to the meaning of 'hedonism'?"
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"infeliz\"?"
@@ -1339,7 +1257,6 @@ msgid "Incredible"
 msgstr "Incrível"
 
 #: ../data/verbal_analogies.xml.h:154
-#| msgid "mouse"
 msgid "Famous"
 msgstr "Famoso"
 
@@ -1348,7 +1265,6 @@ msgid "Acclaimed"
 msgstr "Aclamado"
 
 #: ../data/verbal_analogies.xml.h:156
-#| msgid "Related"
 msgid "Celebrated"
 msgstr "Celebrado"
 
@@ -1357,8 +1273,6 @@ msgid "The other words have the meaning of distinguished."
 msgstr "As outras palavras significam distinção."
 
 #: ../data/verbal_analogies.xml.h:158
-#| msgid ""
-#| "Which of the following words is closer to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'specific'?"
 msgstr ""
 "Qual das seguintes palavras está mais perto do significado de \"específico\"?"
@@ -1377,7 +1291,6 @@ msgid "Generic"
 msgstr "Genérico"
 
 #: ../data/verbal_analogies.xml.h:163
-#| msgid "Related"
 msgid "Plate"
 msgstr "Prato"
 
@@ -1395,7 +1308,6 @@ msgid "Bowl"
 msgstr "Taça"
 
 #: ../data/verbal_analogies.xml.h:168
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not used to storage liquids."
 msgstr "É a única que não é usada para armazenar líquidos."
 
@@ -1409,34 +1321,27 @@ msgid "Macadamia"
 msgstr "Noz"
 
 #: ../data/verbal_analogies.xml.h:172
-#| msgid "chest"
 msgid "Chestnut"
 msgstr "Castanha"
 
 #: ../data/verbal_analogies.xml.h:173
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that is not a nut."
 msgstr "É a única que não é uma noz."
 
 #: ../data/verbal_analogies.xml.h:174
-#| msgid ""
-#| "Which of the following words is closer to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
 "Qual das seguintes palavras está mais perto do significado de \"aclamar\"?"
 
 #: ../data/verbal_analogies.xml.h:175
-#| msgid "Apple"
 msgid "Applause"
 msgstr "Aplauso"
 
 #: ../data/verbal_analogies.xml.h:176
-#| msgid "Ostentation"
 msgid "Commendation"
 msgstr "Recomendação"
 
 #: ../data/verbal_analogies.xml.h:177
-#| msgid "Clock Rotation"
 msgid "Citation"
 msgstr "Citação"
 
@@ -1446,7 +1351,6 @@ msgid "Conjure"
 msgstr "Conjura"
 
 #: ../data/verbal_analogies.xml.h:180
-#| msgid "Which of the following words is closer to the meaning of 'hedonism'?"
 msgid "Which of the following words is closest to the meaning of 'grief'?"
 msgstr ""
 "Qual das seguintes palavras está mais próxima do significado de \"pesar\"?"
@@ -1469,8 +1373,6 @@ msgid "Risk"
 msgstr "Risco"
 
 #: ../data/verbal_analogies.xml.h:186
-#| msgid ""
-#| "Which of the following words is closer to the meaning of 'asceticism'?"
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Qual das seguintes palavras está mais perto do significado de \"fleumático\"?"
@@ -1485,7 +1387,6 @@ msgid "Authentic"
 msgstr "Autêntico"
 
 #: ../data/verbal_analogies.xml.h:190
-#| msgid "Lever"
 msgid "Clever"
 msgstr "Esperto"
 
@@ -1506,12 +1407,10 @@ msgid "Proverb"
 msgstr "Provérbio"
 
 #: ../data/verbal_analogies.xml.h:195
-#| msgid "Enneagram"
 msgid "Epigram"
 msgstr "Ditado"
 
 #: ../data/verbal_analogies.xml.h:196
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to literature."
 msgstr "É o único que não tem relação com arquitetura."
 
@@ -1532,7 +1431,6 @@ msgid "Trigonometry"
 msgstr "Trigonometria"
 
 #: ../data/verbal_analogies.xml.h:201
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related with triangles."
 msgstr "É o único que não tem relação com triângulos."
 
@@ -1554,7 +1452,6 @@ msgid "Lamp"
 msgstr "Lampâda"
 
 #: ../data/verbal_analogies.xml.h:207
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not produce light."
 msgstr "É a única que não produz luz."
 
@@ -1577,7 +1474,6 @@ msgid "Crossbow"
 msgstr "Arco"
 
 #: ../data/verbal_analogies.xml.h:214
-#| msgid "It is the only one that is not a reptile."
 msgid "It is the only one that is not used for protection."
 msgstr "É a única que não é usada para proteção."
 
@@ -1599,7 +1495,6 @@ msgid "Tree"
 msgstr "Árvore"
 
 #: ../data/verbal_analogies.xml.h:220
-#| msgid "It is the only one that is not related to architecture."
 msgid "It is the only one that is not related to rocks."
 msgstr "É o único que não tem relação com pedras."
 
@@ -1613,7 +1508,6 @@ msgid "Beet"
 msgstr "Beterraba"
 
 #: ../data/verbal_analogies.xml.h:224
-#| msgid "Radius"
 msgid "Radish"
 msgstr "Rábano"
 
@@ -1622,7 +1516,6 @@ msgid "Tomato"
 msgstr "Tomate"
 
 #: ../data/verbal_analogies.xml.h:226
-#| msgid "It is the only one that is not a fruit."
 msgid "It is the only one that does not have roots."
 msgstr "É a única que não tem raizes."
 
@@ -1641,119 +1534,141 @@ msgstr "Acordeão"
 
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
-#| msgid "It is the only one that is not a metal."
 msgid "It is the only instrument that does not have keys."
 msgstr "É o único instrumento que não tem teclas."
 
 #: ../data/verbal_analogies.xml.h:233
+msgid "Cow"
+msgstr "Vaca"
+
+#: ../data/verbal_analogies.xml.h:234
+msgid "Leopard"
+msgstr "Leopardo"
+
+#: ../data/verbal_analogies.xml.h:235
+#| msgid "fog"
+msgid "Dog"
+msgstr "Cão"
+
+#: ../data/verbal_analogies.xml.h:236
+msgid "Snake"
+msgstr "Cobra"
+
+#: ../data/verbal_analogies.xml.h:237
+#| msgid ""
+#| "It is the only one that is not a reptile and also does not have a tail."
+msgid "It is the only animal that does not have legs and it is not a mammal."
+msgstr "É o único animal que não tem pernas e que não é um mamífero."
+
+#: ../data/verbal_analogies.xml.h:238
 msgid "car / garage | plane"
 msgstr "automóvel/garagem|avião"
 
-#: ../data/verbal_analogies.xml.h:234
+#: ../data/verbal_analogies.xml.h:239
 msgid "Hangar"
 msgstr "Hangar"
 
-#: ../data/verbal_analogies.xml.h:235
+#: ../data/verbal_analogies.xml.h:240
 msgid "Airline"
 msgstr "Aviação"
 
-#: ../data/verbal_analogies.xml.h:236
+#: ../data/verbal_analogies.xml.h:241
 msgid "Aircraft"
 msgstr "Avião"
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:242
 msgid "Bunker"
 msgstr "Abrigo"
 
-#: ../data/verbal_analogies.xml.h:238
+#: ../data/verbal_analogies.xml.h:243
 msgid "circle / semicircle | diameter"
 msgstr "círulo/semicírculo|diâmetro"
 
-#: ../data/verbal_analogies.xml.h:239
+#: ../data/verbal_analogies.xml.h:244
 msgid "Radius"
 msgstr "Raio"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:245
 msgid "Chord"
 msgstr "Acorde"
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:246
 msgid "Tangent"
 msgstr "Tangente"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:247
 msgid "Angle"
 msgstr "Ângulo"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:248
 msgid "The radius of a circle is half the diameter."
 msgstr "O raio de um círculo é metade do seu diâmetro."
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:249
 msgid "talk / yell | dislike"
 msgstr "falar/gritar|não gostar"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:250
 msgid "Repugnance"
 msgstr "Repugnância"
 
-#: ../data/verbal_analogies.xml.h:246
+#: ../data/verbal_analogies.xml.h:251
 msgid "Offensive"
 msgstr "Ofensivo"
 
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:252
 msgid "Shame"
 msgstr "Vergonha"
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:253
 msgid "Ostentation"
 msgstr "Ostentação"
 
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:254
 msgid "write / pen | eat"
 msgstr "escrever/caneta|comer"
 
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:255
 msgid "Fork"
 msgstr "Garfo"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:256
 msgid "Restaurant"
 msgstr "Restaurante"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:257
 msgid "Winery"
 msgstr "Adega"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:258
 msgid "Table"
 msgstr "Mesa"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:259
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "Um caneta é usada para escrever e um garfo é usado para comer."
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:260
 msgid "desert / oasis | sea"
 msgstr "deserto/oásis|mar"
 
-#: ../data/verbal_analogies.xml.h:256
+#: ../data/verbal_analogies.xml.h:261
 msgid "Island"
 msgstr "Ilha"
 
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:262
 msgid "River"
 msgstr "Rio"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:263
 msgid "Beach"
 msgstr "Praia"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:264
 msgid "Coast"
 msgstr "Costa"
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:265
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1762,151 +1677,150 @@ msgstr ""
 "de terra isolado rodeado por água."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:267
 msgid "turtle / shell | letter"
 msgstr "tartaruga/carapaça|carta"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:268
 msgid "Envelope"
 msgstr "Envelope"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:269
 msgid "Ink"
 msgstr "Tinta"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:270
 msgid "Printer"
 msgstr "Impressora"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:271
 msgid "Cellulose"
 msgstr "Celulose"
 
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:272
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr ""
 "Uma tartaruga está dentro de uma carapaça e uma carta está dentro de um "
 "envelope."
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:273
 msgid "wine / grape | rum"
 msgstr "vinho/uvas|rum"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:274
 msgid "Sugarcane"
 msgstr "Cana de açúcar"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:275
 msgid "Grain"
 msgstr "Cereais"
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:276
 msgid "Sweet corn"
 msgstr "Milho doce"
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:277
 msgid "horticulture / plants | ornithology"
 msgstr "horticultura/plantas|avicultura"
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:278
 msgid "Birds"
 msgstr "Pássaros"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:279
 msgid "Insects"
 msgstr "Insetos"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:280
 msgid "Amphibians"
 msgstr "Anfíbios"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:281
 msgid "Fishes"
 msgstr "Peixes"
 
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:282
 msgid "thankful / ingratitude | despotism"
 msgstr "agradecido/ingrato|despótico"
 
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:283
 msgid "Democracy"
 msgstr "Democracia"
 
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:284
 msgid "Totalitarianism"
 msgstr "Totalitarismo"
 
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:285
 msgid "Oligarchy"
 msgstr "Oligarquia"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:286
 msgid "Authority"
 msgstr "Autoridade"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:287
 msgid "pessimist / optimist | poor"
 msgstr "pessimista/optimista|pobre"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:289
 msgid "Affluent"
 msgstr "Rico"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:290
 msgid "Homeless"
 msgstr "Sem abrigo"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:291
 msgid "Property"
 msgstr "Propriedade"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:292
 msgid "Money"
 msgstr "Dinheiro"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:293
 msgid "five / pentagon | ten"
 msgstr "cinco/pentágono|dez"
 
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:294
 msgid "Decagon"
 msgstr "Decágono"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:295
 msgid "Enneagram"
 msgstr "N-agrama"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:296
 msgid "Icosagon"
 msgstr "Icoságono"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:297
 msgid "Decimal"
 msgstr "Decimal"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:298
 msgid "parallel / meridian | longitude"
 msgstr "paralelo/meridiano|longitude"
 
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:299
 msgid "Latitude"
 msgstr "Latitude"
 
-#: ../data/verbal_analogies.xml.h:295
-#| msgid "Simplistic"
+#: ../data/verbal_analogies.xml.h:300
 msgid "Solstice"
 msgstr "Solestício"
 
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:301
 msgid "Pole"
 msgstr "Pólo"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:302
 msgid "Azimuth"
 msgstr "Azimute"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:303
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1914,99 +1828,96 @@ msgstr ""
 "Paralelo e longitude vão de Este para oeste enquato que meridiano e latitude "
 "vão de norte para sul."
 
-#: ../data/verbal_analogies.xml.h:299
+#: ../data/verbal_analogies.xml.h:304
 msgid "art / gallery | drama"
 msgstr "arte/galeria|drama"
 
-#: ../data/verbal_analogies.xml.h:300
-#| msgid "Wheat"
+#: ../data/verbal_analogies.xml.h:305
 msgid "Theater"
 msgstr "Teatro"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:306
 msgid "Museum"
 msgstr "Museu"
 
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:307
 msgid "Concert hall"
 msgstr "Sala de concertos"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:308
 msgid "Gym"
 msgstr "Ginásio"
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:309
 msgid "hunter / rifle | photographer"
 msgstr "caçador/espingarda|fotógrafo"
 
-#: ../data/verbal_analogies.xml.h:305
-#| msgid "camera"
+#: ../data/verbal_analogies.xml.h:310
 msgid "Camera"
 msgstr "Câmara"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:312
 msgid "Tripod"
 msgstr "Tripé"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:313
 msgid "Photography"
 msgstr "Fotografia"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:314
 msgid "Light"
 msgstr "Luz"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:315
 msgid "dish / break | balloon"
 msgstr "prato/partir|balão"
 
 #. Translators: like 'he burst the balloon'
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:317
 msgid "Burst"
 msgstr "Rebentar"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:318
 msgid "Bounce"
 msgstr "Saltar"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:319
 msgid "Float"
 msgstr "Flutuar"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:320
 msgid "Roll"
 msgstr "Rolar"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:321
 msgid "Both relate to an action that breaks the related item."
 msgstr "Ambos se relacionam com uma ação que parte o item em causa."
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:322
 msgid "button / push | key (used in a lock)"
 msgstr "botão/premir|chave (usada numa fechadura)"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:323
 msgid "Turn"
 msgstr "Girar"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:325
 msgid "Open"
 msgstr "Abrir"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:327
 msgid "Lock"
 msgstr "Trancar"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:324
-#| msgid "Cellulose"
+#: ../data/verbal_analogies.xml.h:329
 msgid "Close"
 msgstr "Fechar"
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:330
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -2014,454 +1925,436 @@ msgstr ""
 "Para fazer funcionar ambos os objetos, um botão tem de ser premido e uma "
 "chave tem de ser rodada."
 
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:331
 msgid "concept / idea | obsession"
 msgstr "conceito/ideia|obsessão"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:328
-#| msgid "Fractions"
+#: ../data/verbal_analogies.xml.h:333
 msgid "Fixation"
 msgstr "Fixação"
 
-#: ../data/verbal_analogies.xml.h:329
-#| msgid "Preferences"
+#: ../data/verbal_analogies.xml.h:334
 msgid "Indifference"
 msgstr "Indiferença"
 
-#: ../data/verbal_analogies.xml.h:330
-#| msgid "Bank interest"
+#: ../data/verbal_analogies.xml.h:335
 msgid "Disinterest"
 msgstr "Desinteresse"
 
-#: ../data/verbal_analogies.xml.h:331
-#| msgid "Ostentation"
+#: ../data/verbal_analogies.xml.h:336
 msgid "Intuition"
 msgstr "Intuição"
 
-#: ../data/verbal_analogies.xml.h:332
-#| msgid ""
-#| "Given the relationship between the two words below, which word has the "
-#| "same relationship to '{0}'?"
+#: ../data/verbal_analogies.xml.h:337
 msgid "The relation between the two words is that they are synonymous."
 msgstr "A relação entre as duas palavras é que são sinónimos."
 
-#: ../data/verbal_analogies.xml.h:333
-#| msgid "fish / submarine | bird"
+#: ../data/verbal_analogies.xml.h:338
 msgid "fish / water | bird"
 msgstr "peixe/água|ave"
 
-#: ../data/verbal_analogies.xml.h:334
-#| msgid "Airline"
+#: ../data/verbal_analogies.xml.h:339
 msgid "Air"
 msgstr "Ar"
 
-#: ../data/verbal_analogies.xml.h:335
-#| msgid "wings"
+#: ../data/verbal_analogies.xml.h:340
 msgid "Wings"
 msgstr "Asas"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:341
 msgid "Ship"
 msgstr "Navio"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:342
 msgid "Cage"
 msgstr "Gaiola"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:344
 msgid "rook / chess | soldier"
 msgstr "torre/xadrez|soldado"
 
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:345
 msgid "Battle"
 msgstr "Batalha"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:346
 msgid "Gun"
 msgstr "Arma"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:347
 msgid "Peace"
 msgstr "Paz"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:348
 msgid "Enemy"
 msgstr "Inimigo"
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:349
 msgid "competitive / cooperative | anxious"
 msgstr "competitivo/cooperativo|ansioso"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:351
 msgid "Flexible"
 msgstr "Flexível"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:352
 msgid "Cautious"
 msgstr "Cauteloso"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:354
 msgid "Daring"
 msgstr "Ousado"
 
-#: ../data/verbal_analogies.xml.h:350
-#| msgid "pessimist / optimist | poor"
+#: ../data/verbal_analogies.xml.h:355
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pessimista/optimista|desconfiado"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:352
-#| msgid "Counting"
+#: ../data/verbal_analogies.xml.h:357
 msgid "Trusting"
 msgstr "Confiante"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:358
 msgid "Dubious"
 msgstr "Dúbio"
 
 #. Translator: compass as the instrument used for finding direction
-#: ../data/verbal_analogies.xml.h:355
-#| msgid "thermometer / temperature | clock"
+#: ../data/verbal_analogies.xml.h:360
 msgid "thermometer / temperature | compass"
 msgstr "termómetro/temperatura|bússola"
 
-#: ../data/verbal_analogies.xml.h:356
-#| msgid "Fractions"
+#: ../data/verbal_analogies.xml.h:361
 msgid "Direction"
 msgstr "Direção"
 
-#: ../data/verbal_analogies.xml.h:357
-#| msgid "Equation"
+#: ../data/verbal_analogies.xml.h:362
 msgid "Elevation"
 msgstr "Elevação"
 
-#: ../data/verbal_analogies.xml.h:358
-#| msgid "Positivism"
+#: ../data/verbal_analogies.xml.h:363
 msgid "Position"
 msgstr "Posição"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:364
 msgid "Area"
 msgstr "Área"
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:365
 msgid "The first word is the instrument and the second what it measures."
 msgstr "A primeira palavra é o instrumento e a segunda é o que ele mede."
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:366
 msgid "hungry / eat | tired"
 msgstr "esfomeado/comer|cansado"
 
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:367
 msgid "sleep | rest"
 msgstr "dormir|descansar"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:369
 msgid "box / open | banana"
 msgstr "caixa/abrir|banana"
 
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:370
 msgid "peel"
 msgstr "descascar"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:367
+#: ../data/verbal_analogies.xml.h:372
 msgid "shovel / dig | axe"
 msgstr "pá/escavar|machado"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:374
 msgid "chop"
 msgstr "cortar"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:371
+#: ../data/verbal_analogies.xml.h:376
 msgid "glass / break | paper"
 msgstr "vidro/partido|papel"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:373
+#: ../data/verbal_analogies.xml.h:378
 msgid "tear | rip"
 msgstr "rasgado|cortado"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:375
+#: ../data/verbal_analogies.xml.h:380
 msgid "feet / two | toes"
 msgstr "pés/dois|dedos"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:382
 msgid "ten | 10"
 msgstr "dez|10"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:383
 msgid "fish / aquarium | monkey"
 msgstr "peixe/aquário|macaco"
 
-#: ../data/verbal_analogies.xml.h:379
+#: ../data/verbal_analogies.xml.h:384
 msgid "cage | zoo | zoological garden"
 msgstr "jaula|zoológico|jardim zoológico"
 
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:385
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Um peixe dentro de um aquário vive em cativeiro."
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:386
 msgid "ring / finger | bracelet"
 msgstr "anel/dedo|pulseira"
 
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:387
 msgid "wrist | arm"
 msgstr "pulso|braço"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:388
 msgid "seal / flippers | bird"
 msgstr "foca/barbatanas|ave"
 
-#: ../data/verbal_analogies.xml.h:384
+#: ../data/verbal_analogies.xml.h:389
 msgid "wings"
 msgstr "asas"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:386
+#: ../data/verbal_analogies.xml.h:391
 msgid "stick / float | stone"
 msgstr "pau/flutuar|pedra"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:392
 msgid "sink"
 msgstr "afundar"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:393
 msgid "leopard / spots | tiger"
 msgstr "leopardo/pintas|tigre"
 
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:394
 msgid "stripes"
 msgstr "riscas"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:396
 msgid "fish / submarine | bird"
 msgstr "peixe/submarino|ave"
 
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:397
 msgid "airplane | aeroplane | plane"
 msgstr "avião|aeronave|planador"
 
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:398
 msgid "tears / eyes | sweat"
 msgstr "lágrimas/olhos|suor"
 
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:399
 msgid "body | skin"
 msgstr "corpo|pele"
 
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:400
 msgid "bridge / over | tunnel"
 msgstr "ponte/sobre|túnel"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:401
 msgid "in | under | through"
 msgstr "em|sob|através"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:403
 msgid "toy / play | tool"
 msgstr "brinquedo/brincar|ferramenta"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:405
 msgid "work"
 msgstr "trabalhar"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:402
-#| msgid "error / correct | damage"
+#: ../data/verbal_analogies.xml.h:407
 msgid "error / (to) correct | damage"
 msgstr "erro/corrigir|danos"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:408
 msgid "repair | fix"
 msgstr "reparar|arranjar|consertar"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:409
 msgid "orange / fruit | spinach"
 msgstr "laranja/fruta|espinafres"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:410
 msgid "vegetable"
 msgstr "vegetal"
 
-#: ../data/verbal_analogies.xml.h:406
+#: ../data/verbal_analogies.xml.h:411
 msgid "hands / grab | teeth"
 msgstr "mãos/agarrar|dentes"
 
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:412
 msgid "bite"
 msgstr "morder"
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:413
 msgid "Grab and bite are finite actions."
 msgstr "Agarrar e morder são ações finitas."
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:414
 msgid "puzzle / solve | game"
 msgstr "puzzle/resolver|jogo"
 
-#: ../data/verbal_analogies.xml.h:410
+#: ../data/verbal_analogies.xml.h:415
 msgid "win | play"
 msgstr "ganhar|jogar"
 
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:416
 msgid "eyebrow / eye | mustache"
 msgstr "sobrancelha/olho|bigode"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:417
 msgid "lip | upper lip | mouth"
 msgstr "lábio|lábio superior|boca"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:418
 msgid "ice / slippery | glue"
 msgstr "gelo/escorregadio|cola"
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:419
 msgid "sticky"
 msgstr "pegajoso"
 
-#: ../data/verbal_analogies.xml.h:415
+#: ../data/verbal_analogies.xml.h:420
 msgid "whirlpool / water | tornado"
 msgstr "remoinho/água|tornado"
 
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:421
 msgid "wind | air"
 msgstr "vento|ar"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:422
 msgid "fox / den | bird"
 msgstr "raposa/toca|ave"
 
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:423
 msgid "nest"
 msgstr "ninho"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:424
 msgid "dog / tame | wolf"
 msgstr "cão/domesticado|lobo"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:425
 msgid "wild | savage"
 msgstr "selvagem|bravo"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:426
 msgid "sugar / sweet | vinegar"
 msgstr "açúcar/doce|vinagre"
 
-#: ../data/verbal_analogies.xml.h:422
+#: ../data/verbal_analogies.xml.h:427
 msgid "sour"
 msgstr "azedo"
 
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:428
 msgid "tennis / sport | ballet"
 msgstr "ténis/desporto|ballet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:430
 msgid "dance"
 msgstr "dança"
 
-#: ../data/verbal_analogies.xml.h:426
+#: ../data/verbal_analogies.xml.h:431
 msgid "slurp / tongue | snort"
 msgstr "lamber/língua|resfolegar"
 
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:432
 msgid "nose"
 msgstr "nariz"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:433
 msgid "elbow / knee | wrist"
 msgstr "cotovelo/joelho|pulso"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:434
 msgid "ankle"
 msgstr "tornozelo"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:435
 msgid "novel / author | song"
 msgstr "romance/autor|canção"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:436
 msgid "composer | songwriter | lyricist"
 msgstr "compositor|letrista|autor"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:437
 msgid "car / road | train"
 msgstr "carro/estrada|comboio"
 
-#: ../data/verbal_analogies.xml.h:433
-#| msgid "track | railway | rails"
+#: ../data/verbal_analogies.xml.h:438
 msgid "track | railway | rails | railroad"
 msgstr "linha|caminho de ferro|carris|linha de comboio"
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:439
 msgid "pediatrics / children | numismatics"
 msgstr "pediatria/crianças|numismática"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:440
 msgid "coins | currency | money"
 msgstr "moedas|moeda|dinheiro"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:441
 msgid "thermometer / temperature | clock"
 msgstr "termómetro/temperatura|relógio"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:443
 msgid "time"
 msgstr "tempo"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:444
 msgid "poems / anthology | maps"
 msgstr "poemas/antologia|mapas"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:445
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:446
 msgid "letter / word | page"
 msgstr "letra/palavra|página"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:447
 msgid "book | magazine | document"
 msgstr "Livro|revista|documento"
 
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:448
 msgid "hour / minute | minute"
 msgstr "hora/minuto|minuto"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:450
 msgid "second"
 msgstr "segundo"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:451
 msgid "tiger / carnivore | cow"
 msgstr "tigre/carnívoro|vaca"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:452
 msgid "herbivorous | herbivore"
 msgstr "herbívoro|herbívoro"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:453
 msgid "constellation / stars | archipelago"
 msgstr "constelação/estrelas|arquipélago"
 
-#: ../data/verbal_analogies.xml.h:449
+#: ../data/verbal_analogies.xml.h:454
 msgid "islands"
 msgstr "ilhas"
 
@@ -2531,6 +2424,7 @@ msgid "translator-credits"
 msgstr ""
 "Pedro Barreira (tradução, revisão para o GNOME)\n"
 "Pedro Albuquerque <palbuquerque73@gmail.com>, 2015\n"
+"Tiago Santos <tiagofsantos81@sapo.pt>, 2016\n"
 "Contribuições no Launchpad\n"
 "  AdrianaVeleda https://launchpad.net/~traducoes-incriveis\n"
 "  Pedro Barreira https://launchpad.net/~almufadado\n"
@@ -2588,22 +2482,20 @@ msgstr ""
 "treinado."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
-#| msgid "gbrainy web site"
 msgid "gbrainy project web site"
 msgstr "Página web do gBrainy"
 
 #. Column: Game Name
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:106
 msgid "Game Name"
 msgstr "Nome do jogo"
 
 #. Column: Type
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:131
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:132
 msgid "Type"
 msgstr "Tipo"
 
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:157
-#| msgid "Select All"
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:158
 msgid "Selected"
 msgstr "Selecionados"
 
@@ -2662,7 +2554,7 @@ msgstr[1] ""
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:68
 #: ../src/Core/Views/FinishView.cs:102
 #: ../src/Core/Views/PlayerHistoryView.cs:85
 msgid "Total"
@@ -2689,22 +2581,26 @@ msgid "Custom Game"
 msgstr "Jogo personalizado"
 
 #: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "_Start"
+msgstr "_Começar"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
 msgid "Select All"
 msgstr "Selecionar todos"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
 msgid "Unselect all"
 msgstr "Remover todas as seleções"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Começar"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
 msgid "PDF export"
 msgstr "Exportar PDF"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid "_Save"
+msgstr "_Gravar"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
@@ -2713,78 +2609,73 @@ msgstr ""
 "Se o imprimir, pode assim completar os puzzles sem necessidade de um "
 "computador."
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
 msgid "<b>General Settings</b>"
 msgstr "<b>Opções gerais</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
-#| msgid "Skip games that use colors (friendly to colorblind users)"
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
 msgid "Skip games that use colors"
 msgstr "Saltar jogos que usem cores"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 msgid "<b>Game Types</b>"
 msgstr "<b>Tipos de jogos</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
 #: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
 msgid "Logic"
 msgstr "Lógica"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:128
 #: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
 msgid "Calculation"
 msgstr "Cálculo"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:138
 #: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
 msgid "Verbal"
 msgstr "Verbal"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
 msgid "<b>Difficulty Level</b>"
 msgstr "<b>Nível de dificuldade</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
 msgid "Easy"
 msgstr "Fácil"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
 msgid "Medium"
 msgstr "Médio"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
 msgid "Master"
 msgstr "Mestre"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
 msgid "<b>Number of games</b>"
 msgstr "<b>Número de jogos</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:15
 msgid "Total number of games:"
 msgstr "Quantidade total de jogos:"
 
 #. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
 msgid "Pages per side:"
 msgstr "Páginas por lado:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
 msgid "<b>Output File</b>"
 msgstr "<b>Ficheiro de saída</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "_Gravar"
 
 #: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
 #: ../src/Clients/Classical/gbrainy.ui.h:19
@@ -2801,7 +2692,6 @@ msgid "Preferences"
 msgstr "Preferências"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:3
-#| msgid "Skip games that use colors (friendly to colorblind users)"
 msgid "Skip games that use colors (for colorblind users)"
 msgstr "Saltar jogos que usem cores (opção para daltónicos)"
 
@@ -2814,7 +2704,6 @@ msgid "Search and load extensions when starting"
 msgstr "Procurar e carregar extensões no arranque"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:6
-#| msgid "Enabled"
 msgid "Enable sounds"
 msgstr "Ativar sons"
 
@@ -2831,7 +2720,6 @@ msgid "Time in seconds to memorize the challenge:"
 msgstr "Tempo em segundos para memorizar o desafio:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
-#| msgid "Show countdown message"
 msgid "Show a countdown message"
 msgstr "Mostrar a contagem decrescente"
 
@@ -2851,15 +2739,15 @@ msgstr "Número máximo de registos no histórico da sessão de jogos do jogador
 msgid "Delete Player's Game Session History"
 msgstr "Eliminar o histórico da sessão de jogos do jogador"
 
-#: ../src/Clients/Classical/gbrainy.cs:428
+#: ../src/Clients/Classical/gbrainy.cs:430
 msgid "Congratulations."
 msgstr "Parabéns."
 
-#: ../src/Clients/Classical/gbrainy.cs:432
+#: ../src/Clients/Classical/gbrainy.cs:434
 msgid "Incorrect answer."
 msgstr "Resposta incorreta"
 
-#: ../src/Clients/Classical/gbrainy.cs:493
+#: ../src/Clients/Classical/gbrainy.cs:495
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2867,11 +2755,11 @@ msgstr ""
 "Assim que descobrir a resposta, escreva-a no campo de texto \"Resposta:\" e "
 "depois clique em \"Aceitar\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:523
+#: ../src/Clients/Classical/gbrainy.cs:525
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "O nível de tradução do gBrainy no seu idioma é baixo."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2881,16 +2769,16 @@ msgstr ""
 "para jogar. Se prefere jogar em Inglês, há uma opção para o fazer nas "
 "preferências do gBrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:620
+#: ../src/Clients/Classical/gbrainy.cs:622
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pausa"
 
-#: ../src/Clients/Classical/gbrainy.cs:625
+#: ../src/Clients/Classical/gbrainy.cs:627
 msgid "Resume"
 msgstr "Retomar"
 
-#: ../src/Clients/Classical/gbrainy.cs:775
+#: ../src/Clients/Classical/gbrainy.cs:777
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Tempo de inicio {0}"
@@ -2912,7 +2800,6 @@ msgid "Logic Puzzles Only"
 msgstr "Só jogos de lógica"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
-#| msgid "Mental Calculation Trainers Only"
 msgid "Mental Calculation Only"
 msgstr "Só cálculos mentais"
 
@@ -2949,17 +2836,14 @@ msgid "Toolbar"
 msgstr "Barra de ferramentas"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:15
-#| msgid "Show:"
 msgid "Show"
 msgstr "Mostrar"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:16
-#| msgid "Ostentation"
 msgid "Orientation"
 msgstr "Orientação"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:17
-#| msgid "Arithmetical"
 msgid "Vertical"
 msgstr "Vertical"
 
@@ -3142,7 +3026,6 @@ msgstr "Caminho:"
 
 #. Mono Addins 0.6
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:68
-#| msgid "Install from:"
 msgid "Installed"
 msgstr "Instalado"
 
@@ -3151,17 +3034,14 @@ msgid "Updates"
 msgstr "Atualizações"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:70
-#| msgid "Gallon"
 msgid "Gallery"
 msgstr "Galeria"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:71
-#| msgid "Repository"
 msgid "Repository:"
 msgstr "Repositório:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:72
-#| msgid "Install from:"
 msgid "Install from file..."
 msgstr "Instalar de ficheiro..."
 
@@ -3178,27 +3058,22 @@ msgid "Refresh"
 msgstr "Atualizar"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:76
-#| msgid "Add-in Manager"
 msgid "Add-in packages"
 msgstr "Pacotes de extras"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:77
-#| msgid "_Install Add-ins..."
 msgid "Install Add-in Package"
 msgstr "Instalar pacote de extra"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:78
-#| msgid "All registered repositories"
 msgid "All repositories"
 msgstr "Todos os repositórios"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:79
-#| msgid "_Repositories..."
 msgid "Manage Repositories..."
 msgstr "Gerir repositórios..."
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:80
-#| msgid "Add-in Manager"
 msgid "Add-in Repository Management"
 msgstr "Gestão de repositório de extras"
 
@@ -3214,7 +3089,7 @@ msgstr[1] "{0}atualizações disponíveis"
 msgid "Open Location"
 msgstr "Abrir localização"
 
-#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
+#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:126
 #: ../src/Core/Main/GameSession.cs:185
 msgid "Paused"
 msgstr "Pausado"
@@ -3257,7 +3132,6 @@ msgid "End the game and show score"
 msgstr "Terminar o jogo e mostrar a pontuação"
 
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:149
-#| msgid "Enabled"
 msgid "End"
 msgstr "Fim"
 
@@ -3342,21 +3216,18 @@ msgstr "H"
 #. Translators. This is the list of valid answers, like A or B.
 #: ../src/Core/Main/GameAnswer.cs:146
 #, csharp-format
-#| msgid "{0} - {1}"
 msgid "{0} or {1}"
 msgstr "{0} ou {1}"
 
 #. Translators. This is the list of valid answers, like A, B or C.
 #: ../src/Core/Main/GameAnswer.cs:150
 #, csharp-format
-#| msgid "{0} - {1} - {2}"
 msgid "{0}, {1} or {2}"
 msgstr "{0}, {1} ou {2}"
 
 #. Translators. This is the list of valid answers, like A, B, C or D.
 #: ../src/Core/Main/GameAnswer.cs:154
 #, csharp-format
-#| msgid "{0} - {1} - {2}"
 msgid "{0}, {1}, {2} or {3}"
 msgstr "{0}, {1}, {2} ou {3}"
 
@@ -3368,7 +3239,6 @@ msgstr "Figura {0}"
 #: ../src/Core/Main/Game.cs:138
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
 #, csharp-format
-#| msgid "The correct answer is {0}."
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
 msgstr[0] "A resposta correta é {0}."
@@ -3381,9 +3251,6 @@ msgstr "Base de dados de extensões:"
 #. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
 #: ../src/Core/Main/GameManager.cs:257
 #, csharp-format
-#| msgid ""
-#| "Games registered: {0}: {1} logic puzzles, {2} calculation trainers, {3} "
-#| "memory trainers, {4} verbal analogies"
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
 "memory trainers, {4} verbal analogies"
@@ -3465,7 +3332,6 @@ msgid "Try to approach a problem from different angles."
 msgstr "Tente abordar um problema de diferentes ângulos."
 
 #: ../src/Core/Main/GameTips.cs:67
-#| msgid "Enjoy making mistakes, they are part of the learning process."
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
 msgstr ""
@@ -3473,9 +3339,6 @@ msgstr ""
 "de aprendizagem."
 
 #: ../src/Core/Main/GameTips.cs:69
-#| msgid ""
-#| "Do all the problems, even the difficult ones. Improvement comes from "
-#| "practicing."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challenging yourself."
@@ -3545,7 +3408,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Memorize os objetos abaixo no tempo dado"
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Tempo restante"
 
@@ -3553,7 +3416,6 @@ msgstr "Tempo restante"
 #. The number is used as reference when looking for the game solution in the PDF
 #: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
 #, csharp-format
-#| msgid "Game {0}. {1}"
 msgid "Game #{0}. {1}"
 msgstr "Jogo nº.{0}. {1}"
 
@@ -3631,7 +3493,6 @@ msgstr "Pergunta e resposta nº.{0}"
 #. Translators {0}: list of options (A, B, C)
 #: ../src/Core/Main/Xml/GameXml.cs:216
 #, csharp-format
-#| msgid "Answer {0}"
 msgid "Answer {0}."
 msgstr "Resposta {0}"
 
@@ -3654,7 +3515,6 @@ msgstr[1] "{0} jogados"
 
 #: ../src/Core/Views/FinishView.cs:158
 #, csharp-format
-#| msgid "Games won: {0} ({1} played)"
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
 msgstr[0] "Jogos vencidos: {0} ({1})"
@@ -3662,7 +3522,6 @@ msgstr[1] "Jogos vencidos: {0} ({1})"
 
 #: ../src/Core/Views/FinishView.cs:162
 #, csharp-format
-#| msgid "{0}. Games won: {1} ({2} played)"
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
 msgstr[0] "{0}. Jogos vencidos: {1} ({2})"
@@ -3762,12 +3621,10 @@ msgstr ""
 "o seu cérebro treinado. Inclui:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:41
-#| msgid "Arithmetical"
 msgid "Arithmetical operations"
 msgstr "Operações aritméticas"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:49
-#| msgid "What is the result of the arithmetical operation?"
 msgid "What is the result of the following operation?"
 msgstr "Qual é o resultado da seguinte operação aritmética?"
 
@@ -3777,9 +3634,6 @@ msgstr "Média"
 
 #: ../src/Games/Calculation/CalculationAverage.cs:55
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#| "the average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "Given the numbers: {0}. Which of the following numbers is closest to the "
 "average? Answer {1}, {2}, {3} or {4}."
@@ -3788,9 +3642,6 @@ msgstr ""
 "Responda {1}, {2}, {3} ou {4}."
 
 #: ../src/Games/Calculation/CalculationAverage.cs:60
-#| msgid ""
-#| "The average of a list of numbers is the sum of all of the numbers divided "
-#| "by the number of items in the list."
 msgid ""
 "The average of a list of numbers is their sum divided by the number of "
 "numbers in the list."
@@ -3800,7 +3651,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationAverage.cs:65
 #, csharp-format
-#| msgid "The result of the operation is {0:##0.###}."
 msgid "The result of the operation is {0}."
 msgstr "O resultado da operação é {0}."
 
@@ -3810,9 +3660,6 @@ msgstr "Fração mais próxima"
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:46
 #, csharp-format
-#| msgid ""
-#| "Which of the following numbers is closer to {0:##0.###}? Answer {1}, {2}, "
-#| "{3} or {4}."
 msgid ""
 "Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
 msgstr ""
@@ -3821,7 +3668,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
-#| msgid "The result of the operation {0} / {1} is {2:##0.###}"
 msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "O resultado da operação {0}/{1} é \"{2}\""
 
@@ -3920,7 +3766,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
-#| msgid "The number {0} is a primer number."
 msgid "The number {0} is a prime number."
 msgstr "O número {0} é um número primo."
 
@@ -3939,9 +3784,6 @@ msgstr "Taxa"
 
 #: ../src/Games/Calculation/CalculationRatio.cs:41
 #, csharp-format
-#| msgid ""
-#| "Two numbers sum {0} and have a ratio of {1} to {2}. Which are these "
-#| "numbers? Answer using two numbers (e.g.: 1 and 2)."
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
@@ -3951,9 +3793,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationRatio.cs:48
 #, csharp-format
-#| msgid ""
-#| "The second number is calculated by multiplying the first by {0} and "
-#| "dividing it by {1}."
 msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
 "and dividing it by {1}."
@@ -3962,9 +3801,6 @@ msgstr ""
 "dividindo o resultado por {1}."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:54
-#| msgid ""
-#| "A ratio specifies a proportion between two numbers. A ratio a:b means "
-#| "that for every 'a' parts you have 'b' parts."
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
@@ -3984,15 +3820,11 @@ msgid "have a ratio of {0}:{1}"
 msgstr "tem uma taxa de {0}:{1}"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
-#| msgid "Related numbers"
 msgid "Selected numbers"
 msgstr "Números selecionados"
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#| "the average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -4002,9 +3834,6 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
 #, csharp-format
-#| msgid ""
-#| "Given the numbers: {0}. Which of the following numbers is the nearest to "
-#| "the average? Answer {1}, {2}, {3} or {4}."
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
 "value greater than {0}? Answer {1}, {2}, {3} or {4}."
@@ -4125,9 +3954,6 @@ msgstr "É possível colocar mais de 64 círculos."
 #. Translators: {0} is replaced always by 0.1340
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:43
 #, csharp-format
-#| msgid ""
-#| "In the layout shown {0} units of height are gained in each row. This "
-#| "allows using an additional row."
 msgid ""
 "Using the above layout {0} units of height are gained per row leaving enough "
 "space for an additional row."
@@ -4199,14 +4025,6 @@ msgstr[1] "Temos um peça de tecido com {0} metros."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:68
 #, csharp-format
-#| msgid ""
-#| "Machine A takes {0} second to cut 1 meter of this fabric. How many "
-#| "seconds does Machine A take to cut the entire piece of fabric into 1 "
-#| "meter pieces?"
-#| msgid_plural ""
-#| "Machine A takes {0} seconds to cut 1 meter of this fabric. How many "
-#| "seconds does Machine A take to cut the entire piece of fabric into 1 "
-#| "meter pieces?"
 msgid ""
 "A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
@@ -4224,7 +4042,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzleCounting.cs:72
 #, csharp-format
-#| msgid "With the {0} cut, Machine A creates two 1 meter pieces."
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
 msgstr[0] "Com {0} cortes, a máquina faz duas peças de 1 metro."
@@ -4232,9 +4049,6 @@ msgstr[1] "Com {0} cortes, a máquina faz duas peças de 1 metro."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
-#| msgid ""
-#| "A fence is built to enclose a square shaped region. {0} fence poles are "
-#| "used in each side of the square. How many fence poles are used in total?"
 msgid ""
 "A fence is built to enclose a square shaped region. {0} fence pole is used "
 "in each side of the square. How many fence poles are used in total?"
@@ -4251,9 +4065,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzleCounting.cs:92
 #, csharp-format
-#| msgid ""
-#| "There are {0} fence poles since the poles on the corners of the square "
-#| "are shared."
 msgid ""
 "There is {0} fence pole since the poles on the corners of the square are "
 "shared."
@@ -4268,10 +4079,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzleCounting.cs:105
 #, csharp-format
-#| msgid ""
-#| "Wrapping an anniversary present costs one euro. The anniversary present "
-#| "costs {0} euros more than the cost to wrap it. How much does it cost to "
-#| "both purchase and wrap the present?"
 msgid ""
 "Wrapping an anniversary present costs one monetary unit. The anniversary "
 "present costs {0} monetary unit more than the cost to wrap it. How much does "
@@ -4356,10 +4163,6 @@ msgstr "Cubo"
 
 #: ../src/Games/Logic/PuzzleCube.cs:49
 #, csharp-format
-#| msgid ""
-#| "When you fold the figure below as a cube, which face on the figure is "
-#| "opposite the face with a {0} drawn on it? Answer the number written on "
-#| "face."
 msgid ""
 "When you fold the figure below as a cube, which face on the figure is "
 "opposite the face with a {0} drawn on it? Answer the number written on the "
@@ -4369,9 +4172,6 @@ msgstr ""
 "oposta à face marcada com {0}? Responda com o número escrito na face do cubo."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
-#| msgid ""
-#| "What is the probability of getting a '2' or a '6' in a single throw of a "
-#| "fair 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
@@ -4384,9 +4184,6 @@ msgid "There are 2 of 6 possibilities."
 msgstr "Existem 2 de 6 possibilidades."
 
 #: ../src/Games/Logic/PuzzleDice.cs:58
-#| msgid ""
-#| "What is the probability of not getting a '5' in a single throw of a fair "
-#| "6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
@@ -4399,9 +4196,6 @@ msgid "There are 5 of 6 possibilities."
 msgstr "Existem 5 de 6 possibilidades"
 
 #: ../src/Games/Logic/PuzzleDice.cs:62
-#| msgid ""
-#| "Two fair 6 sided dices are thrown simultaneously. What is the probability "
-#| "of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
@@ -4414,9 +4208,6 @@ msgid "There are 9 of 36 possibilities of getting two even numbers."
 msgstr "Existem 9 em 36 possibilidades de obter dois números pares."
 
 #: ../src/Games/Logic/PuzzleDice.cs:66
-#| msgid ""
-#| "Two fair 6 sided dices are thrown simultaneously. What is the probability "
-#| "of getting two '6'? Answer using a fraction (e.g.: 1/2)."
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
@@ -4499,9 +4290,6 @@ msgid "Figures and text"
 msgstr "Figuras e texto"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:44
-#| msgid ""
-#| "The figures and the text are related. What text should go under the last "
-#| "figure?"
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
@@ -4556,8 +4344,6 @@ msgstr "Figuras"
 
 #: ../src/Games/Logic/PuzzleFigures.cs:62
 #, csharp-format
-#| msgid ""
-#| "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
 msgid ""
 "What is the next logical sequence of objects in the last column? Answer {0}, "
 "{1} or {2}."
@@ -4573,7 +4359,6 @@ msgstr ""
 "É a única combinação que pode usar com os elementos dados, sem os repetir."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
-#| msgid "Figures with numbers"
 msgid "Find the number"
 msgstr "Descubra o número"
 
@@ -4603,9 +4388,6 @@ msgstr "O número está na linha {0}, coluna {1}."
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
 #, csharp-format
-#| msgid ""
-#| "The fourth row is calculated by multiplying the first two rows and adding "
-#| "the third."
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
 msgstr[0] "O número está dentro da {0} linha da grelha."
@@ -4630,12 +4412,10 @@ msgstr ""
 "As figuras de quatro lados são obtidas ao ligar os seguintes pontos: {0}"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:42
-#| msgid "Circles in a square"
 msgid "Circles in a grid"
 msgstr "Círculos numa grelha"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:46
-#| msgid "One of the numbers in the matrix must be circled. Which one?"
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr "Um dos números na grelha deve ser assinalado. Qual deles"
 
@@ -4681,9 +4461,6 @@ msgid "Numbers in a grid"
 msgstr "Números numa grelha"
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:48
-#| msgid ""
-#| "The numbers in the matrix follow a pattern. Which number should replace "
-#| "the question mark?"
 msgid ""
 "The numbers in the grid below follow a pattern. Which number should replace "
 "the question mark?"
@@ -4791,15 +4568,11 @@ msgstr ""
 "Responda {0}, {1}, {2} ou {3}."
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:241
-#| msgid "Larger shape"
 msgid "Largest area"
 msgstr "Área maior"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:246
 #, csharp-format
-#| msgid ""
-#| "Which of the following figures does not belong to the group? Answer {0}, "
-#| "{1}, {2}, {3}, {4} or {5}."
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
 "{3}."
@@ -4825,7 +4598,6 @@ msgstr "Quando menos curvo for o arco, maior é o círculo."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
 #, csharp-format
-#| msgid "Answer {0}"
 msgid "Arc {0}"
 msgstr "Arco {0}"
 
@@ -4843,9 +4615,6 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleLines.cs:44
 #, csharp-format
-#| msgid ""
-#| "There are {0} lines in the figure to the left and {1} in the figure to "
-#| "the right."
 msgid ""
 "There is {0} line in the figure to the left and {1} in the figure to the "
 "right."
@@ -5062,9 +4831,6 @@ msgstr "Ostracismo"
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:58
 #, csharp-format
-#| msgid ""
-#| "Which element does not belong to the group? It is not related to "
-#| "divisibility of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
 msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
@@ -5088,9 +4854,6 @@ msgstr ""
 "relacionadas."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:79
-#| msgid ""
-#| "In all the other equations the digits from the left side appear also in "
-#| "the right side."
 msgid ""
 "In all the other equations the digits from the left side also appear on the "
 "right side."
@@ -5126,9 +4889,6 @@ msgstr "Pessoas à mesa"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:49
 #, csharp-format
-#| msgid ""
-#| "A group of people are sitting at round table, evenly spaced out. How many "
-#| "people are there if the {0} person is across from the {1}?"
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
 "people are there if the {0} person sits directly across from the {1}?"
@@ -5172,7 +4932,6 @@ msgid "22nd"
 msgstr "22º"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:85
-#| msgid "Two people in the table sitting across each other"
 msgid "Two people in the table sitting across from each other"
 msgstr "Duas pessoas estão sentadas à mesa de frente uma para a outra."
 
@@ -5182,9 +4941,6 @@ msgstr "Percentagem"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:75
 #, csharp-format
-#| msgid ""
-#| "After getting {0}% discount you have paid {1} monetary units for a TV "
-#| "set. What was the original price of the TV set?"
 msgid ""
 "After getting {0}% discount you have paid {1} monetary unit for a TV set. "
 "What was the original price of the TV set?"
@@ -5200,9 +4956,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:96
 #, csharp-format
-#| msgid ""
-#| "John's shop had sales of {0} monetary units. This was an increase of {1}% "
-#| "over last month. What were last month sales?"
 msgid ""
 "John's shop had sales of {0} monetary unit. This was an increase of {1}% "
 "over last month. What were last month sales?"
@@ -5270,7 +5023,6 @@ msgstr ""
 "seguintes conclusões é a correta? Responda com {0}, {1}, {2} ou {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-#| msgid "Some artist are not ill"
 msgid "Some artists are not ill"
 msgstr "Alguns artistas não estão doentes"
 
@@ -5452,7 +5204,6 @@ msgid "No one feels better who does not go out for a walk"
 msgstr "Ninguém se sente melhor se não sair de casa para passear"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
-#| msgid "Predicate Logic"
 msgid "Predicate logic"
 msgstr "Lógica predicativa"
 
@@ -5478,15 +5229,11 @@ msgid "Related numbers"
 msgstr "Números relacionados"
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:162
-#| msgid "In the matrix below, which number should replace the question mark?"
 msgid "In the grid below, which number should replace the question mark?"
 msgstr ""
 "Na matriz abaixo, qual dos números deve substituir o ponto-de-interrogação?"
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
-#| msgid ""
-#| "The number on the middle in every row is equal to half of the sum of the "
-#| "other numbers of the row."
 msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
@@ -5495,9 +5242,6 @@ msgstr ""
 "nessa linha."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
-#| msgid ""
-#| "The number on the middle in every row is equal the sum of the other "
-#| "numbers of the row."
 msgid ""
 "The number in the middle of every row is the sum of the other numbers in the "
 "row."
@@ -5505,9 +5249,6 @@ msgstr ""
 "O número no meio de cada linha é igual à soma dos outros números nessa linha."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
-#| msgid ""
-#| "The number on the middle in every row is equal to the double of the sum "
-#| "of the other numbers of the row."
 msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
@@ -5529,10 +5270,6 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
 #, csharp-format
-#| msgid ""
-#| "Every letter is calculated by taking the alphabetical position of the "
-#| "previous character and adding {0} to it in order to get the position of "
-#| "the new letter."
 msgid ""
 "Every letter is calculated by taking the alphabetical position of the "
 "previous character and adding {0} to it in order to get the position of the "
@@ -5592,10 +5329,6 @@ msgstr "As folhas podem sobrepor-se."
 
 #. Translators: the translated version should not take more characters that the English original
 #: ../src/Games/Logic/PuzzleSquareSheets.cs:43
-#| msgid ""
-#| "A full sized square of paper, a 3/4 of the whole size square of paper in "
-#| "the bottom right corner, another 3/4 square of paper in the top left "
-#| "corner and a 1/4 square of paper in the top left corner."
 msgid ""
 "A full sized square of paper (yellow), a 3/4 of the whole size square of "
 "paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
@@ -5631,9 +5364,6 @@ msgstr "Que horas são?"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:45
 #, csharp-format
-#| msgid ""
-#| "{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on "
-#| "the same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
@@ -5649,9 +5379,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:54
 #, csharp-format
-#| msgid ""
-#| "You have to calculate the hour from which the distance is the same for "
-#| "the given times, and then add the {0} hours to convert it to present time."
 msgid ""
 "Determine the hour half way between the given times, and then add {0} hour "
 "to convert it to the present time."
@@ -5693,14 +5420,6 @@ msgstr "A fórmula da distância é \"distância = velocidade x tempo\"."
 #. - The translated string should not use more characters than the original sentence
 #: ../src/Games/Logic/PuzzleTrains.cs:81
 #, csharp-format
-#| msgid ""
-#| "A train leaves the station traveling at {0} mph. {1} hour later a second "
-#| "train leaves the station traveling in the same direction at {2} mph. How "
-#| "many hours does it take the second train to overtake the first train?"
-#| msgid_plural ""
-#| "A train leaves the station traveling at {0} mph. {1} hours later a second "
-#| "train leaves the station traveling in the same direction at {2} mph. How "
-#| "many hours does it take the second train to overtake the first train?"
 msgid ""
 "A train leaves the station traveling at {0} mph. {1} hour later a second "
 "train leaves the station traveling in the same direction at {2} mph. How "
@@ -5721,9 +5440,6 @@ msgstr[1] ""
 "Quantas horas leva o segundo comboio para apanhar o primeiro?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:85
-#| msgid ""
-#| "You can calculate the answer multiplying the speed of the first train by "
-#| "the time and dividing it by the difference of speeds."
 msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
@@ -5735,14 +5451,6 @@ msgstr ""
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
 #: ../src/Games/Logic/PuzzleTrains.cs:101
 #, csharp-format
-#| msgid ""
-#| "Two trains separated by {0} mile are heading towards each other on "
-#| "straight parallel tracks. One travels at {1} mph and the other at {2} "
-#| "mph. In how many hours do they meet?"
-#| msgid_plural ""
-#| "Two trains separated by {0} miles are heading towards each other on "
-#| "straight parallel tracks. One travels at {1} mph and the other at {2} "
-#| "mph. In how many hours do they meet?"
 msgid ""
 "Two trains separated by {0} mile are heading towards each other on straight "
 "parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
@@ -5762,9 +5470,6 @@ msgstr[1] ""
 
 #: ../src/Games/Logic/PuzzleTrains.cs:106
 #: ../src/Games/Logic/PuzzleTrains.cs:128
-#| msgid ""
-#| "You can calculate the answer dividing the distance by the sum of both "
-#| "speeds."
 msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
@@ -5776,14 +5481,6 @@ msgstr ""
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
 #: ../src/Games/Logic/PuzzleTrains.cs:123
 #, csharp-format
-#| msgid ""
-#| "Two trains on straight parallel tracks leave from the same point and time "
-#| "traveling in opposite directions at {0} and {1} mph respectively. In how "
-#| "many hours they will be {2} mile apart?"
-#| msgid_plural ""
-#| "Two trains on straight parallel tracks leave from the same point and time "
-#| "traveling in opposite directions at {0} and {1} mph respectively. In how "
-#| "many hours they will be {2} miles apart?"
 msgid ""
 "Two trains on straight parallel tracks leave from the same point and time "
 "traveling in opposite directions at {0} and {1} mph respectively. In how "
@@ -5872,14 +5569,10 @@ msgstr ""
 "números."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
-#| msgid "Memorize facts"
 msgid "Memorize faces"
 msgstr "Memorizar caras"
 
 #: ../src/Games/Memory/MemoryFaces.cs:57
-#| msgid ""
-#| "In which cell is the other figure like the one shown below? Answer the "
-#| "cell number."
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
@@ -5895,12 +5588,6 @@ msgstr "Memorizar fatos"
 #. Day in English does not need to be plural
 #: ../src/Games/Memory/MemoryFacts.cs:106
 #, csharp-format
-#| msgid ""
-#| "Shiny Cars had already announced a {0} day production halt next month, "
-#| "but before that it had not cut production since {1}."
-#| msgid_plural ""
-#| "Shiny Cars had already announced a {0} days production halt next month, "
-#| "but before that it had not cut production since {1}."
 msgid ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
 "before then it had not halted production since {1}."
@@ -5915,7 +5602,6 @@ msgstr[1] ""
 "próximo mês, mas antes disto não parava a produção desde {1}."
 
 #: ../src/Games/Memory/MemoryFacts.cs:110
-#| msgid "For how many days did Shiny Cars halt its production?"
 msgid "How many days did Shiny Cars halt its production for?"
 msgstr "Durante quandos dias a fábrica Carros, Lda. vai parar a produção?"
 
@@ -5927,9 +5613,6 @@ msgstr ""
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #: ../src/Games/Memory/MemoryFacts.cs:119
 #, csharp-format
-#| msgid ""
-#| "Shiny Cars sales fell {0}% this past December, the worse decline since "
-#| "{1}."
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
 msgstr ""
@@ -5941,9 +5624,6 @@ msgstr "Qual foi a queda nas vendas da empresa desde Dezembro?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:123
 #, csharp-format
-#| msgid ""
-#| "Shiny Cars sales fell {0}% this past December, the worse decline since "
-#| "{1}."
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
@@ -5967,9 +5647,6 @@ msgstr ""
 
 #: ../src/Games/Memory/MemoryFacts.cs:137
 #, csharp-format
-#| msgid ""
-#| "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder "
-#| "use electric."
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
 "electricity."
@@ -6007,10 +5684,6 @@ msgstr "Memorize figuras e texto"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:84
 #, csharp-format
-#| msgid ""
-#| "The list below enumerates the figures shown in the previous image except "
-#| "for one. Which is the missing figure? Possible answers are triangle, "
-#| "square, pentagon and circle."
 msgid ""
 "The list below enumerates the figures shown in the previous image except for "
 "one. Which is the missing figure? Answer {0}, {1}, {2} or {3}."
@@ -6066,9 +5739,6 @@ msgstr "Memorizar indicações"
 
 #: ../src/Games/Memory/MemoryIndications.cs:168
 #, csharp-format
-#| msgid ""
-#| "Which of the following graphics represent the indications previously "
-#| "given? Answer {0}, {1}, {2} or {3}."
 msgid ""
 "Which of the following graphics represents the indications previously given? "
 "Answer {0}, {1}, {2} or {3}."
@@ -6297,12 +5967,6 @@ msgstr[1] ""
 "[proportion] vezes mais velho que o seu filho. Qual é a idade atual do João?"
 
 #: ../tools/GameXmlGetString.cs:41
-#| msgid ""
-#| "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
-#| msgid_plural ""
-#| "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
 msgid ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
 "is x = 2y, and [ago] year ago, John was [proportion] times older than his "
@@ -6321,12 +5985,6 @@ msgstr[1] ""
 "velho que o filho: x-[ago]=(y-[ago])*[proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
-#| msgid ""
-#| "A file is protected by a password formed by a [digits] digit number "
-#| "(ranging from 0 to 9). How many different passwords can you have?"
-#| msgid_plural ""
-#| "A file is protected by a password formed by a [digits] digits number "
-#| "(ranging from 0 to 9). How many different passwords can you have?"
 msgid ""
 "A file is protected by a password formed by a [digits] digit number "
 "represented in base 10 (ranging from 0 to 9). How many different passwords "
@@ -6345,12 +6003,6 @@ msgstr[1] ""
 "geradas?"
 
 #: ../tools/GameXmlGetString.cs:49
-#| msgid ""
-#| "A file is protected by a password formed by a [digits] digit octal number "
-#| "(ranging from 0 to 7). How many different passwords can you have?"
-#| msgid_plural ""
-#| "A file is protected by a password formed by a [digits] digits octal "
-#| "number (ranging from 0 to 7). How many different passwords can you have?"
 msgid ""
 "A file is protected by a password formed by a [digits] digit represented in "
 "base 8 (ranging from 0 to 7). How many different passwords can you have?"
@@ -6380,12 +6032,6 @@ msgstr[1] ""
 "possíveis previsões?"
 
 #: ../tools/GameXmlGetString.cs:57
-#| msgid ""
-#| "How many matches does it take to determine the winner of a tennis "
-#| "tournament that starts with [players] player?"
-#| msgid_plural ""
-#| "How many matches does it take to determine the winner of a tennis "
-#| "tournament that starts with [players] players?"
 msgid ""
 "In a tennis tournament, in every match a player is eliminated after losing "
 "to a single opponent. How many matches does it take to determine the winner "
@@ -6402,12 +6048,6 @@ msgstr[1] ""
 "que começou a ser jogado por [players] jogadores?"
 
 #: ../tools/GameXmlGetString.cs:61
-#| msgid ""
-#| "You have [money] monetary unit in your bank account at 10% compound "
-#| "interest annually. How much money will you have at end of 2 years?"
-#| msgid_plural ""
-#| "You have [money] monetary units in your bank account at 10% compound "
-#| "interest annually. How much money will you have at end of 2 years?"
 msgid ""
 "You have [money] monetary unit in your bank account at 10% interest "
 "compounded annually. How much money will you have at the end of 2 years?"
@@ -6531,9 +6171,6 @@ msgstr[1] ""
 
 #~ msgid "Has no relation"
 #~ msgstr "Não têm relação"
-
-#~ msgid "Snake"
-#~ msgstr "Cobra"
 
 #~ msgid "Son-in-law"
 #~ msgstr "Genro"
