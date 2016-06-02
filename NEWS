@@ -1,5 +1,10 @@
 gbrainy NEWS
 
+Version 2.3.0
+* Ported to GTK 3.0
+* Updated translations
+* Small fixes
+
 Version 2.2.7
 * Fixed 2 bugs
 * Standardize on .Net 4.5 and msc compiler
