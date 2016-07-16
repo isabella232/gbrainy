@@ -19,7 +19,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2010-09-25 14:28+0000\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: Russian\n"
+"Language: ru\n"
 
 #: ../data/games.xml.h:1
 msgid ""
