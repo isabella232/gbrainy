@@ -16,13 +16,9 @@ EXTRA_DIST =			\
 	MAINTAINERS		\
 	intltool-extract.in	\
 	intltool-merge.in	\
-	intltool-update.in	\
-	gnome-doc-utils.make
+	intltool-update.in
 
 DISTCLEANFILES = \
         intltool-extract        \
         intltool-merge          \
-        intltool-update         \
-	gnome-doc-utils.make
-
-DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper
+        intltool-update

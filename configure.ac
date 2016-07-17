@@ -47,7 +47,7 @@ fi
 
 dnl -- Initialize docs
 
-GNOME_DOC_INIT
+YELP_HELP_INIT
 
 dnl -- Check for mono pc file
 

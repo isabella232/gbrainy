@@ -75,8 +75,8 @@ grep "^AM_GLIB_GNU_GETTEXT" configure.ac >/dev/null && {
   }
 }
 
-(which gnome-doc-prepare && gnome-doc-prepare )|| {
-	echo "**Error**: You must have gnome-common (sometimes packaged as gnome-doc-utils) installed to compile $PROJECT."
+(which yelp-build)|| {
+	echo "**Error**: You must have yelp-tools installed to compile $PROJECT."
 	DIE=1
 }
 

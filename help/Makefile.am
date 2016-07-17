@@ -1,9 +1,8 @@
-include $(top_srcdir)/gnome-doc-utils.make
+@YELP_HELP_RULES@
 
-DOC_ID = gbrainy
-DOC_INCLUDES = legal.xml
+HELP_ID = gbrainy
 
-DOC_FIGURES = \
+HELP_MEDIA = \
 	figures/all-games.png		\
 	figures/logic-games.png		\
 	figures/memory-games.png	\
@@ -12,7 +11,7 @@ DOC_FIGURES = \
 	figures/verbal-games.png	
 
 
-DOC_PAGES = \
+HELP_FILES = \
 	customgame.page	\
 	gametypes.page	\
 	license.page	\
@@ -28,6 +27,4 @@ DOC_PAGES = \
 	times.page	\
 	export.page
 
-DOC_LINGUAS = af ca cs da de el es fr gl hi hu it nl pt_BR ro ru sl sr sr@latin sv
-
-dist-hook: doc-dist-hook
+HELP_LINGUAS = af ca cs da de el es fr gl hi hu it nl pt_BR ro ru sl sr sr@latin sv
