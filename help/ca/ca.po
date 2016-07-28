@@ -564,7 +564,7 @@ msgid ""
 "type played."
 msgstr ""
 "Això vol dir que quan es juga en el nivell de dificultat mitjà, per "
-"aconseguir una puntuació del 100 punts necessiteu obtenir 10 punts en "
+"aconseguir una puntuació de 100 punts necessiteu obtenir 10 punts en "
 "almenys 20 de tots els tipus de jocs que heu jugat."
 
 #: C/score.page:110(p)
@@ -671,7 +671,7 @@ msgid ""
 "before you can start to see the results in the history graphic."
 msgstr ""
 "Utilitzeu el botó de selecció de valor per canviar quantes partides cal que "
-"s'emmagatzemin abans de què comencin a mostrar-se els resultats al gràfic de "
+"s'emmagatzemin abans que comencin a mostrar-se els resultats al gràfic de "
 "l'historial."
 
 #: C/history.page:68(p)
