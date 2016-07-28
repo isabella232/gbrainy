@@ -413,7 +413,7 @@ namespace gbrainy.Clients.Classical
 
 		void OnMenuHelp (object sender, EventArgs args)
 		{
-			Unix.ShowUri (null, "ghelp:gbrainy",
+			Unix.ShowUri (null, "help:gbrainy",
 				Gdk.EventHelper.GetTime (new Gdk.Event(IntPtr.Zero)));
 		}
 
