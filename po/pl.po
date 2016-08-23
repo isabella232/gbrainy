@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-19 18:37+0200\n"
-"PO-Revision-Date: 2016-08-19 18:38+0200\n"
+"POT-Creation-Date: 2016-08-23 12:10+0200\n"
+"PO-Revision-Date: 2016-08-23 12:11+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -651,7 +651,7 @@ msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
-"gbrainy to gra trenująca pamięć, umiejętności arytmetyczne i logiczne za "
+"Łamigłówka to gra trenująca pamięć, umiejętności arytmetyczne i logiczne za "
 "pomocą wielu zadań o różnych poziomach trudności."
 
 #: ../data/gbrainy.appdata.xml.in.h:2
@@ -661,10 +661,10 @@ msgid ""
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
 msgstr ""
-"gbrainy posiada coś dla osób w każdym wieku i w każdym celu: dzieci, których "
-"rodzice chcą rozwijać ich umiejętności, dorośli chcący zachować swój umysł "
-"w formie lub po prostu się zabawić, osoby starsze, które mogą potrzebować "
-"ćwiczeń umysłowych itd."
+"Łamigłówka posiada coś dla osób w każdym wieku i w każdym celu: dzieci, "
+"których rodzice chcą rozwijać ich umiejętności, dorośli chcący zachować swój "
+"umysł w formie lub po prostu się zabawić, osoby starsze, które mogą "
+"potrzebować ćwiczeń umysłowych itd."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -679,6 +679,10 @@ msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr "Gry logiczne, językowe, obliczeniowe i pamięciowe"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "gra;logiczna;pamięć;ćwiczenia;trening;zabawa;mózg;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2495,7 +2499,7 @@ msgstr "Zapewnia zabawę, trening oraz ćwiczenia dla umysłu."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
 msgid "gbrainy project web site"
-msgstr "Witryna programu gbrainy"
+msgstr "Witryna programu Łamigłówka"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:106
@@ -2769,7 +2773,7 @@ msgstr ""
 
 #: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
-msgstr "Tłumaczenie programu gbrainy dla bieżącego języka jest niekompletne."
+msgstr "Tłumaczenie programu dla bieżącego języka jest niekompletne."
 
 #: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
