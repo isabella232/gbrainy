@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy"
-"&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
-"PO-Revision-Date: 2016-03-28 16:05+0200\n"
+"&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
+"PO-Revision-Date: 2016-08-23 21:12+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language-Team: српски <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -673,6 +673,10 @@ msgid ""
 msgstr ""
 "Играјте игре које су изазов за способности ваше логике, вербала, рачуна и "
 "меморије"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "игра;логика;меморија;мозгалица;кефало;ум;памет;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -1542,7 +1546,6 @@ msgid "Leopard"
 msgstr "Леопард"
 
 #: ../data/verbal_analogies.xml.h:235
-#| msgid "fog"
 msgid "Dog"
 msgstr "Пас"
 
@@ -1551,8 +1554,6 @@ msgid "Snake"
 msgstr "Змија"
 
 #: ../data/verbal_analogies.xml.h:237
-#| msgid ""
-#| "It is the only one that is not a reptile and also does not have a tail."
 msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "То је једина животиња која нема ноге и уједно није сисар."
 
@@ -2450,8 +2451,8 @@ msgid ""
 msgstr ""
 "Овај програм је достављен у нади да ће бити користан, али БЕЗ ИКАКВЕ "
 "ГАРАНЦИЈЕ; чак и без примењене гаранције ТРЖИШНЕ ВРЕДНОСТИ или "
-"ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ.  Погледајте Гнуову Општу Јавну Лиценцу за више "
-"детаља.\n"
+"ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ.  Погледајте Гнуову Општу Јавну Лиценцу за "
+"више детаља.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
@@ -2460,8 +2461,8 @@ msgid ""
 "this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
-"Требали сте да примите примерак Гнуове Опште Јавне Лиценце уз овај програм; ако "
-"нисте, пишите на адресу: „Free Software Foundation, Inc., 51 Franklin "
+"Требали сте да примите примерак Гнуове Опште Јавне Лиценце уз овај програм; "
+"ако нисте, пишите на адресу: „Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA 02110-1301, USA“."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
@@ -2726,15 +2727,15 @@ msgstr "Највећи број сачуваних игара у историј�
 msgid "Delete Player's Game Session History"
 msgstr "Обриши историјат сесије игара"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Честитамо."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Нетачан одговор."
 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2742,11 +2743,11 @@ msgstr ""
 "Када будете имали одговор упишите га у поље „Одговор:“ и притисните дугме "
 "„ОК“."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Ниво превода г-кефала на ваш језик је низак."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2756,16 +2757,16 @@ msgstr ""
 "за играње. Ако вам више одговара да их играте на енглеском језику, можете "
 "изабрати такву опцију у подешавањима г-кефала."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Паузирај"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Настави"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Време покретања {0}"
@@ -6172,17 +6173,17 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребан [answer_a] сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребан [answer_a] сат."
 msgstr[1] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно су им потребна [answer_a] сата."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно су им потребна [answer_a] сата."
 msgstr[2] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребно [answer_a] сати."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребно [answer_a] сати."
 msgstr[3] ""
-"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од 1 /"
-" [friend], заједно им је потребан један сат."
+"Јован чисти брзином од 1 / [john_time] на сат а његов пријатељ брзином од "
+"1 / [friend], заједно им је потребан један сат."
 
 #: ../tools/GameXmlGetString.cs:73
 msgid ""
