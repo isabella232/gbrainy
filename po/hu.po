@@ -1,17 +1,17 @@
 # Hungarian translation for gbrainy.
-# Copyright (C) 2010, 2011, 2012 Free Software Foundation, Inc.
+# Copyright (C) 2010-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
-# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015.
+# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
-"PO-Revision-Date: 2016-03-27 12:10+0200\n"
+"product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
+"PO-Revision-Date: 2016-08-23 11:49+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -654,6 +654,10 @@ msgid ""
 "Play games that challenge your logic, verbal, calculation and memory "
 "abilities"
 msgstr "Tedd próbára logikai, emlékező, verbális és fejszámoló képességeid"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "játék;logika;memória;fejtörő;agy;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2703,15 +2707,15 @@ msgstr "A játékos megőrzött játékelőzményeinek maximális száma:"
 msgid "Delete Player's Game Session History"
 msgstr "Játékos játékelőzményeinek törlése"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Gratulálunk."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Helytelen válasz."
 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2719,11 +2723,11 @@ msgstr ""
 "Ha megvan a válasz, gépeld be a „Válasz:” mezőbe, és nyomd meg az „OK” "
 "gombot."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "A gbrainy fordításának szintje alacsony ezen a nyelven."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2733,16 +2737,16 @@ msgstr ""
 "Ha inkább angolul szeretne játszani, a gbrainy beállításai közt talál erre "
 "vonatkozó beállítást."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Szünet"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Folytatás"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Indulási idő: {0}"
@@ -6019,26 +6023,3 @@ msgstr[1] ""
 "idő alatt. Hány óráig tartana kitakarítaniuk az áruházat, ha együtt "
 "dolgoznának? [option_answers]"
 
-#~ msgid "coins"
-#~ msgstr "érmék"
-
-#~ msgid "You can also play on-line at {0}"
-#~ msgstr "Online is játszhat itt: {0}"
-
-#~ msgid "Next Game"
-#~ msgstr "Következő játék"
-
-#~ msgid "Answer"
-#~ msgstr "Válasz"
-
-#~ msgid "Memorize figures"
-#~ msgstr "Ábrák megjegyzése"
-
-#~ msgid ""
-#~ "In what year was Shiny Cars sales total lower than that of last December?"
-#~ msgstr ""
-#~ "Melyik évben voltak az autógyár eladásai alacsonyabbak, mint tavaly "
-#~ "decemberben?"
-
-#~ msgid "{0}) "
-#~ msgstr "{0}) "
