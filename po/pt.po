@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
-"PO-Revision-Date: 2016-05-04 20:12+0100\n"
+"product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
+"PO-Revision-Date: 2016-08-27 16:18+0100\n"
 "Last-Translator: Tiago Santos <tiagofsantos81@sapo.pt>\n"
 "Language-Team: Português <palbuquerque73@gmail.com>\n"
 "Language: pt\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -661,6 +661,10 @@ msgid ""
 msgstr ""
 "Divirta-se com jogos que desafiam as suas capacidades lógicas, verbais, de "
 "cálculo e de memória"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "jogo;lógica;memória;teaser;cérebro;mente;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -1546,7 +1550,6 @@ msgid "Leopard"
 msgstr "Leopardo"
 
 #: ../data/verbal_analogies.xml.h:235
-#| msgid "fog"
 msgid "Dog"
 msgstr "Cão"
 
@@ -1555,8 +1558,6 @@ msgid "Snake"
 msgstr "Cobra"
 
 #: ../data/verbal_analogies.xml.h:237
-#| msgid ""
-#| "It is the only one that is not a reptile and also does not have a tail."
 msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "É o único animal que não tem pernas e que não é um mamífero."
 
@@ -2739,15 +2740,15 @@ msgstr "Número máximo de registos no histórico da sessão de jogos do jogador
 msgid "Delete Player's Game Session History"
 msgstr "Eliminar o histórico da sessão de jogos do jogador"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Parabéns."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Resposta incorreta"
 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2755,11 +2756,11 @@ msgstr ""
 "Assim que descobrir a resposta, escreva-a no campo de texto \"Resposta:\" e "
 "depois clique em \"Aceitar\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "O nível de tradução do gBrainy no seu idioma é baixo."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2769,16 +2770,16 @@ msgstr ""
 "para jogar. Se prefere jogar em Inglês, há uma opção para o fazer nas "
 "preferências do gBrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pausa"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Retomar"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Tempo de inicio {0}"
