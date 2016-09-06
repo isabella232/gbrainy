@@ -9,6 +9,8 @@
   <homepage rdf:resource="https://wiki.gnome.org/Apps/gbrainy" />
   <mailing-list rdf:resource="https://groups.google.com/group/gbrainy" />
   <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=gbrainy" />
+  <license rdf:resource="https://www.gnu.org/licenses/gpl-2.0.html" />
+  <programming-language>C#</programming-language>
 
   <repository>
     <GitRepository>
