@@ -10,10 +10,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grainy 1.50\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
-"y&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
-"PO-Revision-Date: 2016-03-28 09:49-0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy"
+"&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
+"PO-Revision-Date: 2016-09-06 11:12-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -95,7 +95,7 @@ msgid ""
 "Every game is an independent event with 2 possible results. The total number "
 "of possibilities is 2 at the power of [games]."
 msgstr ""
-"Cada jogo é um evento independente, com dois resultados possíveis. O número "
+"Cada jogo é um evento independente, com 2 resultados possíveis. O número "
 "total de possibilidades é de 2 à potência de [games]."
 
 #: ../data/games.xml.h:13
@@ -666,6 +666,10 @@ msgstr ""
 "Jogue jogos que desafiam suas habilidades lógicas, verbais, de cálculos e de "
 "memória"
 
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "jogo;lógica;memória;cérebro;quebra-cabeça"
+
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
 msgstr "Clássico"
@@ -687,7 +691,7 @@ msgstr "Pense nos itens usados no jogo."
 
 #: ../data/verbal_analogies.xml.h:6
 msgid "Golf"
-msgstr "Golf"
+msgstr "Golfe"
 
 #: ../data/verbal_analogies.xml.h:7
 msgid "Basketball"
@@ -1356,8 +1360,8 @@ msgstr "Conjuração"
 #: ../data/verbal_analogies.xml.h:180
 msgid "Which of the following words is closest to the meaning of 'grief'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de "
-"'tristeza'?"
+"Qual das seguintes palavras é mais parecida com o significado de \""
+"tristeza\"?"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:182
@@ -1551,7 +1555,6 @@ msgid "Leopard"
 msgstr "Leopardo"
 
 #: ../data/verbal_analogies.xml.h:235
-#| msgid "fog"
 msgid "Dog"
 msgstr "Cachorro"
 
@@ -1560,8 +1563,6 @@ msgid "Snake"
 msgstr "Cobra"
 
 #: ../data/verbal_analogies.xml.h:237
-#| msgid ""
-#| "It is the only one that is not a reptile and also does not have a tail."
 msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "É o único animal que não possui pernas e não é um mamífero."
 
@@ -2433,7 +2434,7 @@ msgstr ""
 "Gabriel Fonseca <gabrielmcf@gmail.com>\n"
 "Djavan Fagundes <djavan@comum.org>\n"
 "Gabriel Speckhahn <gabspeck@gmail.com>\n"
-"Rafael Ferreira <rafael.f.f1@gmail.com>"
+"Rafael Fontenelle <rafaelff@gnome.org>"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
 msgid ""
@@ -2734,15 +2735,15 @@ msgstr ""
 msgid "Delete Player's Game Session History"
 msgstr "Excluir histórico de partidas do jogador"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Parabéns."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Resposta incorreta."
 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2750,11 +2751,11 @@ msgstr ""
 "Uma vez que você saiba a resposta, digite-a na caixa de entrada \"Resposta:"
 "\" e pressione o botão \"OK\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "O nível de tradução do gbrainy para a sua língua é baixo."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2764,16 +2765,16 @@ msgstr ""
 "para ser jogado. Se você preferir jogar em Inglês, existe uma opção para "
 "isto nas preferências do gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pausa"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Retomar"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Início {0}"
@@ -5982,12 +5983,12 @@ msgid_plural ""
 "is x = 2y, and [ago] years ago, John was [proportion] times older than his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
-"A idade de John (variável x) é atualmente 2 vezes a idade de seu filho "
-"(variável y), ou seja, x = 2y. Há [ago] ano, John era [proportion] vezes "
-"mais velho que seu filho: x - [ago] = (y -[ago]) * [proportion]."
+"A idade de John (variável x) é atualmente 2 vezes a idade de seu filho ("
+"variável y), ou seja, x = 2y. Há [ago] ano, John era [proportion] vezes mais "
+"velho que seu filho: x - [ago] = (y -[ago]) * [proportion]."
 msgstr[1] ""
-"A idade de John (variável x) é atualmente 2 vezes a idade de seu filho "
-"(variável y), ou seja, x = 2y. Há [ago] anos, John era [proportion] vezes "
+"A idade de John (variável x) é atualmente 2 vezes a idade de seu filho ("
+"variável y), ou seja, x = 2y. Há [ago] anos, John era [proportion] vezes "
 "mais velho que seu filho: x - [ago] = (y -[ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
