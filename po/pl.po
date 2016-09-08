@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-23 12:10+0200\n"
-"PO-Revision-Date: 2016-08-23 12:11+0200\n"
+"POT-Creation-Date: 2016-09-08 03:42+0200\n"
+"PO-Revision-Date: 2016-09-08 03:44+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -40,9 +40,8 @@ msgid ""
 "Out of [people] people, [brothers] have brothers, [sisters] have sisters and "
 "[both] have both. How many people have neither brothers nor sisters?"
 msgstr ""
-"Z pośród [people] osób, [brothers] posiada braci, [sisters] posiada siostry "
-"i [both] posiada zarówno braci i siostry. Ilu ludzi nie posiada ani braci, "
-"ani sióstr?"
+"Spośród [people] osób, [brothers] ma braci, [sisters] ma siostry i [both] ma "
+"braci i siostry. Ilu ludzi nie ma ani braci, ani sióstr?"
 
 #: ../data/games.xml.h:5
 msgid ""
@@ -51,8 +50,8 @@ msgid ""
 "and minus [both] that have sisters and brothers."
 msgstr ""
 "Wynik wyznaczono odejmując od łącznej liczby osób, [brothers_only] osób, "
-"które posiadają tylko braci, [sisters_only] osób, które posiadają tylko "
-"siostry oraz [both] osób, które posiadają siostry i braci."
+"które mają tylko braci, [sisters_only] osób, które mają tylko siostry oraz "
+"[both] osób, które mają siostry i braci."
 
 #: ../data/games.xml.h:6
 msgid "Age"
@@ -95,7 +94,7 @@ msgid ""
 "Every game is an independent event with 2 possible results. The total number "
 "of possibilities is 2 at the power of [games]."
 msgstr ""
-"Każda gra jest niezależnym zdarzeniem, posiadającym 2 możliwe wyniki. Łączna "
+"Każda gra jest niezależnym zdarzeniem, mającym 2 możliwe wyniki. Łączna "
 "ilość możliwości jest równa 2 do potęgi [games]."
 
 #: ../data/games.xml.h:13
@@ -188,8 +187,8 @@ msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
 "x 5 x [z]?"
 msgstr ""
-"Ile pudeł o wymiarach 1 x 1 x 0,5 można zmieścić w pojemniku o wymiarach 6 x "
-"5 x [z]?"
+"Ile pudeł o wymiarach 1 × 1 × 0,5 można zmieścić w pojemniku o wymiarach 6 × "
+"5 × [z]?"
 
 #: ../data/games.xml.h:34
 msgid "You can fit 6 * 5 * [z] * 2 boxes."
@@ -207,7 +206,7 @@ msgid ""
 msgstr ""
 "Rok [year_start] i [year_end] są datami palindromicznymi. Dzieli je okres 11 "
 "lat. Jakie są kolejne dwa lata palindromiczne, następujące po roku "
-"[year_end], które dzieli taki sam okres? Proszę odpowiedzieć używając dwóch "
+"[year_end], które dzieli taki sam okres? Proszę odpowiedzieć za pomocą dwóch "
 "liczb (np. [year_start] i [year_end])."
 
 #: ../data/games.xml.h:37
@@ -245,7 +244,7 @@ msgstr ""
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
 msgstr ""
-"Zdobycie 120 punktów umożliwiają tylko 3 z pośród wszystkich 4 pól tarczy do "
+"Zdobycie 120 punktów umożliwiają tylko 3 spośród wszystkich 4 pól tarczy do "
 "lotek."
 
 #: ../data/games.xml.h:43
@@ -507,7 +506,7 @@ msgid ""
 "produces an odd number."
 msgstr ""
 "Wynik mnożenia dwóch liczb parzystych jest zawsze liczbą parzystą. Z tego "
-"wynika, że wynik działania x * 2 jest liczba parzystą. Wynik dodawania "
+"wynika, że wynik działania x * 2 jest liczbą parzystą. Wynik dodawania "
 "liczby nieparzystej (y) do liczby parzystej (x) jest zawsze liczbą "
 "nieparzystą."
 
@@ -571,7 +570,7 @@ msgid ""
 "any relative that has not been mentioned. [option_answers]"
 msgstr ""
 "Kim jest dla Jana szwagierka siostry jego ojca? Nie należy zakładać, że Jan "
-"posiada krewnych, o których nie wspomniano. [option_answers]"
+"ma krewnych, o których nie wspomniano. [option_answers]"
 
 #: ../data/games.xml.h:101
 msgid "[option_prefix] His mother"
@@ -606,8 +605,8 @@ msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
 msgstr ""
-"Kim jest dla Jana szwagier brata jego matki? Nie należy zakładać, że Jan "
-"posiada krewnych, o których nie wspomniano. [option_answers]"
+"Kim jest dla Jana szwagier brata jego matki? Nie należy zakładać, że Jan ma "
+"krewnych, o których nie wspomniano. [option_answers]"
 
 #: ../data/games.xml.h:108
 msgid "[option_prefix] His father"
@@ -1011,7 +1010,7 @@ msgstr "Żaba"
 
 #: ../data/verbal_analogies.xml.h:87
 msgid "It is the only one that is not a reptile and also does not have a tail."
-msgstr "Jest jedynym, który nie jest gadem i nie posiada ogona."
+msgstr "Jest jedynym, który nie jest gadem i nie ma ogona."
 
 #: ../data/verbal_analogies.xml.h:88
 msgid "Tiger"
@@ -1558,7 +1557,7 @@ msgstr "Akordeon"
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
 msgid "It is the only instrument that does not have keys."
-msgstr "To jedyny instrument, który nie posiada klawiszy."
+msgstr "To jedyny instrument, który nie ma klawiszy."
 
 #: ../data/verbal_analogies.xml.h:233
 msgid "Cow"
@@ -1578,7 +1577,7 @@ msgstr "Wąż"
 
 #: ../data/verbal_analogies.xml.h:237
 msgid "It is the only animal that does not have legs and it is not a mammal."
-msgstr "Jest jedynym, który nie jest ssakiem i nie posiada nóg."
+msgstr "Jest jedynym, który nie jest ssakiem i nie ma nóg."
 
 #: ../data/verbal_analogies.xml.h:238
 msgid "car / garage | plane"
@@ -1693,7 +1692,7 @@ msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
 msgstr ""
-"Oaza jest odosobnionym obszarem na pustyni a wyspa jest odosobnionym lądem "
+"Oaza jest odosobnionym obszarem na pustyni, a wyspa jest odosobnionym lądem "
 "otoczonym wodą."
 
 #. Translators: letter refers to letter (in paper form)
@@ -2463,8 +2462,8 @@ msgid ""
 msgstr ""
 "Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać dalej i/"
 "lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej "
-"przez Fundację Wolnego Oprogramowania — według wersji 2-giej tej Licencji "
-"lub którejś z późniejszych wersji.\n"
+"przez Fundację Wolnego Oprogramowania (Free Software Foundation) — według "
+"wersji drugiej tej Licencji lub którejś z późniejszych wersji.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:67
@@ -2478,8 +2477,8 @@ msgstr ""
 "Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny — "
 "jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
 "HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
-"bliższych informacji, proszę zapoznać się z treścią Powszechnej Licencji "
-"Publicznej GNU.\n"
+"bliższych informacji należy zapoznać się z Powszechną Licencją Publiczną "
+"GNU.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
@@ -2488,10 +2487,10 @@ msgid ""
 "this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
-"Z pewnością wraz z niniejszym programem dostarczono też egzemplarz "
+"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
 "Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie "
-"— proszę w tej sprawie skontaktować się z Free Software Foundation, Inc., 59 "
-"Temple Place — Suite 330, Boston, MA 02111-1307, USA."
+"— proszę napisać do Free Software Foundation, Inc., 59 Temple Place — Suite "
+"330, Boston, MA 02111-1307, USA."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2768,7 +2767,7 @@ msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
 msgstr ""
-"Po znalezieniu odpowiedzi, proszę wpisać ją w pole tekstowe „Odpowiedź” "
+"Po znalezieniu odpowiedzi proszę wpisać ją w pole tekstowe „Odpowiedź” "
 "i kliknąć przycisk „OK”."
 
 #: ../src/Clients/Classical/gbrainy.cs:526
@@ -3341,7 +3340,7 @@ msgstr ""
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
 msgstr ""
-"W grach logicznych, elementy które mogą wydawać się nieistotne, mogą być "
+"W grach logicznych elementy, które mogą wydawać się nieistotne, mogą być "
 "bardzo ważne."
 
 #: ../src/Core/Main/GameTips.cs:65
@@ -3768,7 +3767,7 @@ msgid ""
 "integer that has exactly two different positive divisors, 1 and itself. "
 "Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Która z poniższych liczb, jest liczbą pierwszą? Liczba pierwsza to dodatnia "
+"Która z poniższych liczb jest liczbą pierwszą? Liczba pierwsza to dodatnia "
 "liczba całkowita, podzielna tylko przez 1 oraz przez samą siebie. Proszę "
 "wskazać odpowiedź {0}, {1}, {2} lub {3}."
 
@@ -3778,8 +3777,8 @@ msgid ""
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
 msgstr ""
 "Jeżeli suma wszystkich cyfr w danej liczbie jest podzielna przez 3, oznacza "
-"to że również cała liczba jest podzielna przez 3. Na przykład liczba 15 = 1 "
-"+ 5 = 6, jest podzielna przez 3."
+"to, że również cała liczba jest podzielna przez 3. Na przykład liczba 15 = 1 "
+"+ 5 = 6 jest podzielna przez 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:86
 #, csharp-format
@@ -3908,8 +3907,8 @@ msgstr ""
 #: ../src/Games/Logic/Puzzle3DCube.cs:39
 msgid "A cube is a regular solid object having six congruent square faces."
 msgstr ""
-"Sześcian jest bryłą foremną, posiadającą sześć identycznych boków "
-"w kształcie kwadratów."
+"Sześcian jest bryłą foremną, mającą sześć identycznych boków w kształcie "
+"kwadratów."
 
 #: ../src/Games/Logic/PuzzleBalance.cs:49
 msgid "Balance"
@@ -3943,7 +3942,7 @@ msgid ""
 "Which three pieces can you use together to build a triangle? Answer using "
 "the three figure names, e.g.: {0}{1}{2}."
 msgstr ""
-"Które trzy figury, po złożeniu utworzą trójkąt? Odpowiedz używając trzech "
+"Które trzy figury, po złożeniu utworzą trójkąt? Odpowiedz za pomocą trzech "
 "oznaczeń figur, np.: {0}{1}{2}."
 
 #: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
@@ -4065,9 +4064,9 @@ msgstr[2] ""
 #, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
-msgstr[0] "W wyniku {0} cięcia, Maszyna tworzy dwa 1-metrowe kawałki."
-msgstr[1] "W wyniku {0} cięć, Maszyna tworzy dwa 1-metrowe kawałki."
-msgstr[2] "W wyniku {0} cięć, Maszyna tworzy dwa 1-metrowe kawałki."
+msgstr[0] "W wyniku {0} cięcia maszyna tworzy dwa 1-metrowe kawałki."
+msgstr[1] "W wyniku {0} cięć maszyna tworzy dwa 1-metrowe kawałki."
+msgstr[2] "W wyniku {0} cięć maszyna tworzy dwa 1-metrowe kawałki."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:85
 #, csharp-format
@@ -4208,7 +4207,7 @@ msgid ""
 "opposite the face with a {0} drawn on it? Answer the number written on the "
 "face."
 msgstr ""
-"Ściana o jakim numerze znajdzie się po przeciwnej stronie ściany oznaczonej "
+"Ściana, o jakim numerze znajdzie się po przeciwnej stronie ściany oznaczonej "
 "liczbą {0}, po złożeniu poniższego kształtu w sześcian? Proszę odpowiedzieć "
 "podając liczbę wypisaną na ścianie sześcianu."
 
@@ -4218,8 +4217,8 @@ msgid ""
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
 "Jakie jest prawdopodobieństwo wyrzucenia 2 lub 6 oczek w pojedynczym rzucie "
-"zwykłą, sześciościenną kostką? Proszę odpowiedzieć używając zapisu "
-"ułamkowego (np: 1/2)."
+"zwykłą, sześciościenną kostką? Proszę odpowiedzieć za pomocą zapisu "
+"ułamkowego (np.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:56
 msgid "There are 2 of 6 possibilities."
@@ -4230,9 +4229,9 @@ msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Jakie jest prawdopodobieństwo nie wyrzucenia 5 oczek w pojedynczym rzucie "
-"zwykłą, sześciościenną kostką? Proszę odpowiedzieć używając zapisu "
-"ułamkowego (np: 1/2)."
+"Jakie jest prawdopodobieństwo niewyrzucenia 5 oczek w pojedynczym rzucie "
+"zwykłą, sześciościenną kostką? Proszę odpowiedzieć za pomocą zapisu "
+"ułamkowego (np.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:60
 msgid "There are 5 of 6 possibilities."
@@ -4245,8 +4244,8 @@ msgid ""
 msgstr ""
 "Dwie zwykłe, sześciościenne kostki zostały rzucone równocześnie. Jakie jest "
 "prawdopodobieństwo zdarzenia, polegającego na wyrzuceniu parzystej liczby "
-"oczek na obydwu kostkach? Proszę odpowiedzieć używając zapisu ułamkowego "
-"(np: 1/2)."
+"oczek na obydwu kostkach? Proszę odpowiedzieć za pomocą zapisu ułamkowego "
+"(np.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid "There are 9 of 36 possibilities of getting two even numbers."
@@ -4259,7 +4258,7 @@ msgid ""
 msgstr ""
 "Dwie zwykłe, sześciościenne kostki zostały rzucone równocześnie. Jakie jest "
 "prawdopodobieństwo zdarzenia, polegającego na wyrzuceniu 6 oczek na obydwu "
-"kostkach? Proszę odpowiedzieć używając zapisu ułamkowego (np: 1/2)."
+"kostkach? Proszę odpowiedzieć za pomocą zapisu ułamkowego (np.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:68
 msgid ""
@@ -4289,9 +4288,9 @@ msgstr ""
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
-msgstr[0] "Posiada {0} obszar"
-msgstr[1] "Posiada {0} obszary"
-msgstr[2] "Posiada {0} obszarów"
+msgstr[0] "Ma {0} obszar"
+msgstr[1] "Ma {0} obszary"
+msgstr[2] "Ma {0} obszarów"
 
 #: ../src/Games/Logic/PuzzleEquation.cs:33
 msgid "Equation"
@@ -4325,7 +4324,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:67
 msgid "All circles share a common property except for one."
-msgstr "Wszystkie okręgi posiadają wspólną własność oprócz jednego."
+msgstr "Wszystkie okręgi mają wspólną własność oprócz jednego."
 
 #: ../src/Games/Logic/PuzzleExtraCircle.cs:72
 msgid ""
@@ -4473,7 +4472,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:50
 msgid "All circled numbers share an arithmetical property."
-msgstr "Każda liczba zakreślona w kółko posiada pewną własność arytmetyczną."
+msgstr "Każda liczba zakreślona w kółko ma pewną własność arytmetyczną."
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:55
 #, csharp-format
@@ -4490,7 +4489,7 @@ msgstr "Kwadrat z kropkami"
 msgid ""
 "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
 msgstr ""
-"Który kształ pasuje do sekwencji jako następny? Proszę wskazać odpowiedź "
+"Który kształt pasuje do sekwencji jako następny? Proszę wskazać odpowiedź "
 "{0}, {1} lub {2}."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
@@ -4605,7 +4604,7 @@ msgid ""
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
-"Pierwsza osoba wykonuje n-1 uścisków dłoni, druga n-2, itd, gdzie n to "
+"Pierwsza osoba wykonuje n-1 uścisków dłoni, druga n-2 itd., gdzie n to "
 "liczba wszystkich uczestników przyjęcia. Łączna liczba uścisków jest równa "
 "sumie wyrazów ciągu 1+2+3+…+(n-1)."
 
@@ -4667,7 +4666,7 @@ msgid ""
 "a line between two points with no crossing lines."
 msgstr ""
 "Ile odcinków znajduje się na rysunku poniżej? Przez odcinek należy rozumieć "
-"linie pomiędzy dwoma punktami, nie przeciętą inną linią."
+"linie pomiędzy dwoma punktami, nieprzeciętą inną linią."
 
 #: ../src/Games/Logic/PuzzleLines.cs:44
 #, csharp-format
@@ -4712,7 +4711,7 @@ msgid ""
 "superimposing it on the second square, followed by removing the matching "
 "lines."
 msgstr ""
-"W każdym rzędzie, trzeci kwadrat powstaje, poprzez odwrócenie pierwszego "
+"W każdym rzędzie trzeci kwadrat powstaje poprzez odwrócenie pierwszego "
 "kwadratu i nałożenie go na drugi kwadrat, a następnie usunięcie "
 "nakładających się linii."
 
@@ -4756,7 +4755,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:87
 msgid "Think of the common elements that the given figures have inside them."
-msgstr "Uwzględnij wspólne elementy jakie dane figury mają w środku."
+msgstr "Uwzględnij wspólne elementy, jakie dane figury mają w środku."
 
 #: ../src/Games/Logic/PuzzleMostInCommon.cs:93
 msgid ""
@@ -4768,7 +4767,7 @@ msgid ""
 "It is the figure with the most elements in common compared to the given "
 "figures."
 msgstr ""
-"Jest to figura która ma najwięcej elementów wspólnych, w porównaniu do "
+"Jest to figura, która ma najwięcej elementów wspólnych, w porównaniu do "
 "reszty."
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:33
@@ -4830,7 +4829,7 @@ msgstr "Pomiędzy liczbami istnieją zależności arytmetyczne."
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:62
 #, csharp-format
 msgid "Every group of {0} numbers sums exactly {1}."
-msgstr "Suma każdej grupy {0} liczb, wynosi dokładnie {1}."
+msgstr "Suma każdej grupy {0} liczb wynosi dokładnie {1}."
 
 #: ../src/Games/Logic/PuzzleNumericRelation.cs:64
 msgid ""
@@ -4862,7 +4861,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:50
 msgid "Every number in the sequence is related to the previous one."
-msgstr "Wartość każdej liczby w ciągu, jest związana w poprzednią liczbą."
+msgstr "Wartość każdej liczby w ciągu jest związana w poprzednią liczbą."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:57
 msgid ""
@@ -5009,13 +5008,13 @@ msgid_plural ""
 "After getting {0}% discount you have paid {1} monetary units for a TV set. "
 "What was the original price of the TV set?"
 msgstr[0] ""
-"Po otrzymaniu {0}% rabatu, cena telewizora wyniosła {1} złoty. Jaka była "
+"Po otrzymaniu {0}% rabatu cena telewizora wyniosła {1} złoty. Jaka była "
 "pierwotna cena telewizora?"
 msgstr[1] ""
-"Po otrzymaniu {0}% rabatu, cena telewizora wyniosła {1} złote. Jaka była "
+"Po otrzymaniu {0}% rabatu cena telewizora wyniosła {1} złote. Jaka była "
 "pierwotna cena telewizora?"
 msgstr[2] ""
-"Po otrzymaniu {0}% rabatu, cena telewizora wyniosła {1} złotych. Jaka była "
+"Po otrzymaniu {0}% rabatu cena telewizora wyniosła {1} złotych. Jaka była "
 "pierwotna cena telewizora?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:96
@@ -5028,15 +5027,15 @@ msgid_plural ""
 "over last month. What were last month sales?"
 msgstr[0] ""
 "Miesięczny utarg sklepu Jana wyniósł {0} złoty. W porównaniu z poprzednim "
-"miesiącem, odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
+"miesiącem odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
 "miesiącu?"
 msgstr[1] ""
 "Miesięczny utarg sklepu Jana wyniósł {0} złote. W porównaniu z poprzednim "
-"miesiącem, odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
+"miesiącem odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
 "miesiącu?"
 msgstr[2] ""
 "Miesięczny utarg sklepu Jana wyniósł {0} złotych. W porównaniu z poprzednim "
-"miesiącem, odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
+"miesiącem odnotowano jego wzrost o {1}%. Ile wynosił utarg w poprzednim "
 "miesiącu?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:114
@@ -5206,9 +5205,9 @@ msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
-"Jeśli wszystkie świnie są grube i wszystko co karmi się kleikiem jęczmiennym "
-"nie jest grube, które z poniższych zdań jest prawdziwe? Proszę wskazać "
-"odpowiedź {0}, {1}, {2} lub {3}."
+"Jeśli wszystkie świnie są grube i wszystko, co karmi się kleikiem "
+"jęczmiennym nie jest grube, które z poniższych zdań jest prawdziwe? Proszę "
+"wskazać odpowiedź {0}, {1}, {2} lub {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "All animals fed on barley-water are non pigs"
@@ -5271,7 +5270,7 @@ msgstr "Jeśli wyjdziesz na spacer, poczujesz się lepiej"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:127
 msgid "Some who go out for a walk feel better"
-msgstr "Ktoś kto wychodzi na spacer, czuje się lepiej"
+msgstr "Ktoś, kto wychodzi na spacer, czuje się lepiej"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
 msgid "No one feels better who does not go out for a walk"
@@ -5312,7 +5311,7 @@ msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
 msgstr ""
-"Liczba umieszczona pośrodku każdego wiersza, stanowi połowę sumy pozostałych "
+"Liczba umieszczona pośrodku każdego wiersza stanowi połowę sumy pozostałych "
 "liczb tego wiersza."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
@@ -5320,7 +5319,7 @@ msgid ""
 "The number in the middle of every row is the sum of the other numbers in the "
 "row."
 msgstr ""
-"Liczba umieszczona pośrodku każdego wiersza, jest równa sumie pozostałych "
+"Liczba umieszczona pośrodku każdego wiersza jest równa sumie pozostałych "
 "liczb tego wiersza."
 
 #: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
@@ -5328,7 +5327,7 @@ msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
 msgstr ""
-"Liczba umieszczona pośrodku każdego wiersza, stanowi dwukrotność sumy "
+"Liczba umieszczona pośrodku każdego wiersza stanowi dwukrotność sumy "
 "pozostałych liczb tego wiersza."
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
@@ -5367,7 +5366,7 @@ msgid ""
 "A square is a rectangle with sides of equal length. A square can also be "
 "built from other squares."
 msgstr ""
-"Kwadrat jest szczególnym przypadkiem prostokąta, w wszystkimi bokami "
+"Kwadrat jest szczególnym przypadkiem prostokąta, ze wszystkimi bokami "
 "równymi. Kwadrat może być zbudowany także z innych kwadratów."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:45
@@ -5412,7 +5411,7 @@ msgid ""
 "in the top left corner and a 1/4 square of paper (red) in the top left "
 "corner."
 msgstr ""
-"Potrzebna jest jedna cała kwadratowa karka (żółty), 3/4 kartki (niebieski) "
+"Potrzebna jest jedna cała kwadratowa kartka (żółty), 3/4 kartki (niebieski) "
 "w dolnym, prawym rogu, kolejne 3/4 kartki (zielony) w górnym, lewym rogu "
 "i 1/4 kartki (czerwony) w górnym, lewym rogu."
 
@@ -5500,7 +5499,7 @@ msgstr "Pociągi"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:52
 msgid "The distance formula is 'distance = rate x time'."
-msgstr "Pokonaną odległość można wyznaczyć ze wzoru: droga = prędkość x czas."
+msgstr "Pokonaną odległość można wyznaczyć ze wzoru: droga = prędkość × czas."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
@@ -5631,7 +5630,7 @@ msgstr "Jaka liczba powinna zastąpić znak zapytania na poniższym rysunku?"
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:66
 msgid "All the triangles share a property and are independent of the rest."
 msgstr ""
-"Wszystkie liczby w trójkątach posiadają pewną regułę, oraz są niezależne od "
+"Wszystkie liczby w trójkątach mają pewną regułę, oraz są niezależne od "
 "siebie."
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
@@ -5671,7 +5670,7 @@ msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
 msgstr ""
 "Ile kropek koloru {0} znajdowało się na poprzednim rysunku? Proszę "
-"odpowiedzieć używając liczb."
+"odpowiedzieć za pomocą liczb."
 
 #: ../src/Games/Memory/MemoryFaces.cs:52
 msgid "Memorize faces"
@@ -5868,13 +5867,13 @@ msgstr ""
 msgid "How many odd numbers were in the previous image? Answer using numbers."
 msgstr ""
 "Ile nieparzystych liczb znajdowało się na poprzednim rysunku? Proszę "
-"odpowiedzieć używając liczb."
+"odpowiedzieć za pomocą liczb."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:90
 msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr ""
 "Ile parzystych liczb znajdowało się na poprzednim rysunku? Proszę "
-"odpowiedzieć używając liczb."
+"odpowiedzieć za pomocą liczb."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:115
 msgid ""
@@ -5882,7 +5881,7 @@ msgid ""
 "using numbers."
 msgstr ""
 "Ile liczb zawierających więcej niż jedną cyfrę znajdowało się na poprzednim "
-"rysunku? Proszę odpowiedzieć używając liczb."
+"rysunku? Proszę odpowiedzieć za pomocą liczb."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:132
 msgid "Memorize numbers"
@@ -6184,17 +6183,17 @@ msgid_plural ""
 "to a single opponent. How many matches does it take to determine the winner "
 "of a tennis tournament that starts with [players] players?"
 msgstr[0] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym jak "
-"przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić zwycięzce "
-"turnieju, w którym bierze udział [players] gracz?"
+"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
+"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
+"zwycięzcę turnieju, w którym bierze udział [players] gracz?"
 msgstr[1] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym jak "
-"przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić zwycięzce "
-"turnieju, w którym bierze udział [players] graczy?"
+"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
+"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
+"zwycięzcę turnieju, w którym bierze udział [players] graczy?"
 msgstr[2] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym jak "
-"przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić zwycięzce "
-"turnieju, w którym bierze udział [players] graczy?"
+"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
+"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
+"zwycięzcę turnieju, w którym bierze udział [players] graczy?"
 
 #: ../tools/GameXmlGetString.cs:61
 msgid ""
@@ -6246,15 +6245,15 @@ msgid_plural ""
 msgstr[0] ""
 "Jan potrzebuje [john_time] godzinę, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu gdyby pracowali razem? [option_answers]"
+"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
 msgstr[1] ""
 "Jan potrzebuje [john_time] godziny, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu gdyby pracowali razem? [option_answers]"
+"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
 msgstr[2] ""
 "Jan potrzebuje [john_time] godzin, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu gdyby pracowali razem? [option_answers]"
+"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:77
 msgid ""
@@ -6268,12 +6267,12 @@ msgid_plural ""
 msgstr[0] ""
 "Jan potrzebuje [john_time] godzinę, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu gdyby pracowali razem? [option_answers]"
+"magazynu, gdyby pracowali razem? [option_answers]"
 msgstr[1] ""
 "Jan potrzebuje [john_time] godziny, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu gdyby pracowali razem? [option_answers]"
+"magazynu, gdyby pracowali razem? [option_answers]"
 msgstr[2] ""
 "Jan potrzebuje [john_time] godzin, aby posprzątać magazyn. Jego przyjaciel "
 "ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu gdyby pracowali razem? [option_answers]"
+"magazynu, gdyby pracowali razem? [option_answers]"
