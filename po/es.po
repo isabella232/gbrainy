@@ -7,14 +7,14 @@
 # Joaquín Ignacio Aramendía <samsagax@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2010, 2011.
 # 
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015., 2016.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
+"product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
 "PO-Revision-Date: 2016-03-28 08:11+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
@@ -670,6 +670,10 @@ msgid ""
 msgstr ""
 "Jugar a los juegos que desafíen mi capacidades lógicas, verbales, cálculo y "
 "memoria"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr ""
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -1560,7 +1564,6 @@ msgid "Leopard"
 msgstr "Leopardo"
 
 #: ../data/verbal_analogies.xml.h:235
-#| msgid "fog"
 msgid "Dog"
 msgstr "Perro"
 
@@ -1569,8 +1572,6 @@ msgid "Snake"
 msgstr "Serpiente"
 
 #: ../data/verbal_analogies.xml.h:237
-#| msgid ""
-#| "It is the only one that is not a reptile and also does not have a tail."
 msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "Es el único anila que no tiene piernas y no es mamífero."
 
@@ -2476,7 +2477,7 @@ msgstr ""
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"this program; if not, write to the Free Software Foundation, Inc, 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
 "Debería haber recibido una copia de la Licencia Pública General de GNU junto "
@@ -2754,16 +2755,16 @@ msgstr ""
 msgid "Delete Player's Game Session History"
 msgstr "Eliminar el histórico de sesiones de partidas del jugador"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Enhorabuena."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Respuesta incorrecta."
 
 # 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2771,11 +2772,11 @@ msgstr ""
 "Una vez que tengas la respuesta escríbela en «Respuesta:» y pulsa el botón "
 "«Aceptar»."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "El nivel de traducción de gbrainy en su idioma es bajo."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2785,16 +2786,16 @@ msgstr ""
 "difíciles de jugar. Si prefiere jugar en inglés, hay una opción para hacerlo "
 "en las preferencias de gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pausar"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Reanudar"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Tiempo de inicio {0}"
