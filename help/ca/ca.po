@@ -206,8 +206,8 @@ msgstr "Sou lliure de:"
 
 #. (itstool) path: item/title
 #: C/license.page:23
-msgid "<em>To share</em>"
-msgstr "<em>Compartir<em>"
+msgid "To share"
+msgstr "Compartir"
 
 #. (itstool) path: item/p
 #: C/license.page:24
@@ -216,8 +216,8 @@ msgstr "Copiar, distribuir i transmetre el treball."
 
 #. (itstool) path: item/title
 #: C/license.page:27
-msgid "<em>To remix</em>"
-msgstr "<em>Combinar<em>"
+msgid "To remix"
+msgstr "Combinar"
 
 #. (itstool) path: item/p
 #: C/license.page:28
@@ -231,8 +231,8 @@ msgstr "Sota les condicions següents:"
 
 #. (itstool) path: item/title
 #: C/license.page:36
-msgid "<em>Attribution</em>"
-msgstr "<em>Atribució</em>"
+msgid "Attribution"
+msgstr "Atribució"
 
 #. (itstool) path: item/p
 #: C/license.page:37
@@ -247,8 +247,8 @@ msgstr ""
 
 #. (itstool) path: item/title
 #: C/license.page:44
-msgid "<em>Share Alike</em>"
-msgstr "<em>Compatir igual<em>"
+msgid "Share Alike"
+msgstr "Compatir igual"
 
 #. (itstool) path: item/p
 #: C/license.page:45

@@ -212,8 +212,8 @@ msgstr "Jogodban áll:"
 #. (itstool) path: item/title
 #: C/license.page:23
 #| msgid "To share"
-msgid "<em>To share</em>"
-msgstr "<em>Megosztani</em>"
+msgid "To share"
+msgstr "Megosztani"
 
 #. (itstool) path: item/p
 #: C/license.page:24
@@ -223,8 +223,8 @@ msgstr "Másolni, terjeszteni és továbbítani a művet."
 #. (itstool) path: item/title
 #: C/license.page:27
 #| msgid "To remix"
-msgid "<em>To remix</em>"
-msgstr "<em>Feldolgozni</em>"
+msgid "To remix"
+msgstr "Feldolgozni"
 
 #. (itstool) path: item/p
 #: C/license.page:28
@@ -239,8 +239,8 @@ msgstr "A következő feltételek szerint:"
 #. (itstool) path: item/title
 #: C/license.page:36
 #| msgid "Attribution"
-msgid "<em>Attribution</em>"
-msgstr "<em>Nevezd meg!</em>"
+msgid "Attribution"
+msgstr "Nevezd meg!"
 
 #. (itstool) path: item/p
 #: C/license.page:37
@@ -255,8 +255,8 @@ msgstr ""
 #. (itstool) path: item/title
 #: C/license.page:44
 #| msgid "Share Alike"
-msgid "<em>Share Alike</em>"
-msgstr "<em>Így add tovább!</em>"
+msgid "Share Alike"
+msgstr "Így add tovább!"
 
 #. (itstool) path: item/p
 #: C/license.page:45

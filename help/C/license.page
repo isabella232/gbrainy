@@ -20,11 +20,11 @@
   </p>
   <terms>
     <item>
-      <title><em>To share</em></title>
+      <em><title>To share</title></em>
       <p>To copy, distribute and transmit the work.</p>
     </item>
     <item>
-      <title><em>To remix</em></title>
+      <em><title>To remix</title></em>
       <p>To adapt the work.</p> 
     </item>
   </terms>
@@ -33,7 +33,7 @@
   </p>
   <terms>
     <item>
-      <title><em>Attribution</em></title>
+      <em><title>Attribution</title></em>
       <p>
         You must attribute the work in the manner specified by the author or 
         licensor (but not in any way that suggests that they endorse you or 
@@ -41,7 +41,7 @@
       </p>
     </item>
     <item>
-      <title><em>Share Alike</em></title>
+      <em><title>Share Alike</title></em>
       <p>
         If you alter, transform, or build upon this work, you may distribute the 
         resulting work only under the same, similar or a compatible license.  

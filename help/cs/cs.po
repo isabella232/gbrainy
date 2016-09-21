@@ -202,8 +202,8 @@ msgstr "Můžete volně:"
 
 #. (itstool) path: item/title
 #: C/license.page:23
-msgid "<em>To share</em>"
-msgstr "<em>Sdílet</em>"
+msgid "To share"
+msgstr "Sdílet"
 
 #. (itstool) path: item/p
 #: C/license.page:24
@@ -212,8 +212,8 @@ msgstr "Kopírovat, šířit a rozesílat dílo."
 
 #. (itstool) path: item/title
 #: C/license.page:27
-msgid "<em>To remix</em>"
-msgstr "<em>Měnit</em>"
+msgid "To remix"
+msgstr "Měnit"
 
 #. (itstool) path: item/p
 #: C/license.page:28
@@ -227,8 +227,8 @@ msgstr "Za následujících podmínek:"
 
 #. (itstool) path: item/title
 #: C/license.page:36
-msgid "<em>Attribution</em>"
-msgstr "<em>Označení</em>"
+msgid "Attribution"
+msgstr "Označení"
 
 #. (itstool) path: item/p
 #: C/license.page:37
@@ -242,8 +242,8 @@ msgstr ""
 
 #. (itstool) path: item/title
 #: C/license.page:44
-msgid "<em>Share Alike</em>"
-msgstr "<em>Sdílení stejně</em>"
+msgid "Share Alike"
+msgstr "Sdílení stejně"
 
 #. (itstool) path: item/p
 #: C/license.page:45

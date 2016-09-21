@@ -201,8 +201,8 @@ msgstr "Du har tillstånd:"
 
 #. (itstool) path: item/title
 #: C/license.page:23
-msgid "<em>To share</em>"
-msgstr "<em>Att dela</em>"
+msgid "To share"
+msgstr "Att dela"
 
 #. (itstool) path: item/p
 #: C/license.page:24
@@ -211,8 +211,8 @@ msgstr "Att kopiera, distribuera och överföra verket."
 
 #. (itstool) path: item/title
 #: C/license.page:27
-msgid "<em>To remix</em>"
-msgstr "<em>Att remixa</em>"
+msgid "To remix"
+msgstr "Att remixa"
 
 #. (itstool) path: item/p
 #: C/license.page:28
@@ -226,8 +226,8 @@ msgstr "Under följande villkor:"
 
 #. (itstool) path: item/title
 #: C/license.page:36
-msgid "<em>Attribution</em>"
-msgstr "<em>Erkännande</em>"
+msgid "Attribution"
+msgstr "Erkännande"
 
 #. (itstool) path: item/p
 #: C/license.page:37
@@ -242,8 +242,8 @@ msgstr ""
 
 #. (itstool) path: item/title
 #: C/license.page:44
-msgid "<em>Share Alike</em>"
-msgstr "<em>Dela lika</em>"
+msgid "Share Alike"
+msgstr "Dela lika"
 
 #. (itstool) path: item/p
 #: C/license.page:45
