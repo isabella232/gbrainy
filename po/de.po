@@ -10,17 +10,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-03-27 06:19+0000\n"
-"PO-Revision-Date: 2016-03-31 17:21+0200\n"
-"Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
+"product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2016-08-23 09:34+0000\n"
+"PO-Revision-Date: 2016-09-23 01:07+0200\n"
+"Last-Translator: Benedikt M. Thoma <gnome@thomba.net>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../data/games.xml.h:1
 msgid "Clock rotation"
@@ -673,6 +673,10 @@ msgid ""
 msgstr ""
 "Spiele, die Ihre logischen, verbalen und Kopfrechenfähigkeiten sowie Ihr "
 "Gedächtnis herausfordern"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "spiel;logik;gedächtnis;knobeln;gehirn;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2758,15 +2762,15 @@ msgstr "Maximale Anzahl an gespeicherten Spielen in der Chronik des Spielers:"
 msgid "Delete Player's Game Session History"
 msgstr "Spielchronik des Spielers löschen"
 
-#: ../src/Clients/Classical/gbrainy.cs:430
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Gratulation."
 
-#: ../src/Clients/Classical/gbrainy.cs:434
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Falsche Antwort."
 
-#: ../src/Clients/Classical/gbrainy.cs:495
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2774,11 +2778,11 @@ msgstr ""
 "Schreiben Sie die gefundene Antwort in das Eingabefeld und drücken Sie "
 "danach den »OK«-Knopf."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Der Übersetzungsanteil von gbrainy ist für Ihre Sprache niedrig."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2788,16 +2792,16 @@ msgstr ""
 "diese zu spielen. Wenn Sie es vorziehen in Englisch zu spielen, so gibt es "
 "eine Einstellung dazu in den Einstellungen von gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:622
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pause"
 
-#: ../src/Clients/Classical/gbrainy.cs:627
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Fortsetzen"
 
-#: ../src/Clients/Classical/gbrainy.cs:777
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Startzeit {0}"
