@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2016-08-23 09:34+0000\n"
-"PO-Revision-Date: 2016-09-26 10:19+0200\n"
+"POT-Creation-Date: 2016-09-26 08:20+0000\n"
+"PO-Revision-Date: 2016-09-27 13:10+0200\n"
 "Last-Translator: Alexandre Franke <alexandre.franke@gmail.com>\n"
 "Language-Team: français <GNOME French Team <gnomefr@traduc.org>>\n"
 "Language: fr\n"
@@ -2178,7 +2178,7 @@ msgstr "poisson / sous-marin | oiseau"
 
 #: ../data/verbal_analogies.xml.h:397
 msgid "airplane | aeroplane | plane"
-msgstr "avion | aéroplane | planeur"
+msgstr "avion | aéroplane | planeur | aérien"
 
 #: ../data/verbal_analogies.xml.h:398
 msgid "tears / eyes | sweat"
