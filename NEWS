@@ -1,5 +1,11 @@
 gbrainy NEWS
 
+Version 2.3.1
+* Port to new documentation infrastructure
+* Updated translations
+* Better metadata describing the app for software centers
+* Small bug fixes
+
 Version 2.3.0
 * Ported to GTK 3.0
 * Updated translations
