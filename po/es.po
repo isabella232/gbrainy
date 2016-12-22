@@ -1,12 +1,11 @@
 # translation of gbrainy.master.po to Español
 # Spanish translation for gbrainy.
 # This file is distributed under the same license as the gbrainy package.
-# 
+#
 # (c) 2007 Santiago Martinez Varela, 2007.
 # Eduardo Retamales <eretamales@gnome.cl>, 2007, 2008.
 # Joaquín Ignacio Aramendía <samsagax@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2010, 2011.
-# 
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
 #
 msgid ""
@@ -14,10 +13,10 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2016-08-23 09:34+0000\n"
-"PO-Revision-Date: 2016-03-28 08:11+0200\n"
+"POT-Creation-Date: 2016-09-13 18:16+0000\n"
+"PO-Revision-Date: 2016-12-22 12:26+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -673,7 +672,7 @@ msgstr ""
 
 #: ../data/gbrainy.desktop.in.h:4
 msgid "game;logic;memory;teaser;brain;"
-msgstr ""
+msgstr "juego;lógica;memoria;cerebro;rompecabezas;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2475,14 +2474,18 @@ msgstr ""
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
+#| msgid ""
+#| "You should have received a copy of the GNU General Public License along "
+#| "with this program; if not, write to the Free Software Foundation, Inc, 59 "
+#| "Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc, 59 Temple "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
 "Place - Suite 330, Boston, MA 02111-1307, USA."
 msgstr ""
 "Debería haber recibido una copia de la Licencia Pública General de GNU junto "
-"coneste programa, si no, escriba a la Fundación del Sofware Libre, en 59 "
-"Temple 59 Place - Suite 330, Boston, MA 02111-1307, EE. UU."
+"con este programa, si no es así, escriba a la Free Software Foundation, Inc, "
+"59 Temple Place, Suite 330, Boston, MA 02111-1307 EE. UU."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "A brain teaser game for fun and to keep your brain trained."
@@ -2763,7 +2766,7 @@ msgstr "Enhorabuena."
 msgid "Incorrect answer."
 msgstr "Respuesta incorrecta."
 
-# 
+#
 #: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
