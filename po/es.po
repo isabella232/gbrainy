@@ -650,7 +650,7 @@ msgid ""
 "memory exercises, etc."
 msgstr ""
 "Debería tener algo para todas las edades y propósitos: niños cuyos padres "
-"quieren que desarrollen sus capacidades, adultos que quiere mantener su "
+"quieren que desarrollen sus capacidades, adultos que quieren mantener su "
 "mente en forma o simplemente probarlo por diversión, personas mayores que "
 "necesitan hacer más ejercicios de memoria, etc."
 
