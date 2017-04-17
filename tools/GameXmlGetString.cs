@@ -34,12 +34,12 @@ public class GameXmlStringFactory
 			"John is 46 years old. His son is [difference] years younger than half of John's age. How old is John's son?",
 			variable);
 
-		Catalog.GetPluralString ("John's age is nowadays 2 times his son's age. [ago] year ago, John was [proportion] times older than his son. How old is John's son nowadays?",
-			"John's age is nowadays 2 times his son's age. [ago] years ago, John was [proportion] times older than his son. How old is John's son nowadays?",
+		Catalog.GetPluralString ("John's age is nowadays 2 times his son's age. [ago] year ago, John was [proportion] times as old as his son. How old is John's son nowadays?",
+			"John's age is nowadays 2 times his son's age. [ago] years ago, John was [proportion] times as old as his son. How old is John's son nowadays?",
 			variable);
 
-		Catalog.GetPluralString ("John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] year ago, John was [proportion] times older than his son: x - [ago] = (y - [ago]) * [proportion].",
-			"John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] years ago, John was [proportion] times older than his son: x - [ago] = (y - [ago]) * [proportion].",
+		Catalog.GetPluralString ("John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] year ago, John was [proportion] times as old as his son: x - [ago] = (y - [ago]) * [proportion].",
+			"John's age (variable x) is nowadays 2 times his son's age (variable y), that is x = 2y, and [ago] years ago, John was [proportion] times as old as his son: x - [ago] = (y - [ago]) * [proportion].",
 			variable);
 
 		Catalog.GetPluralString ("A file is protected by a password formed by a [digits] digit number represented in base 10 (ranging from 0 to 9). How many different passwords can you have?",
