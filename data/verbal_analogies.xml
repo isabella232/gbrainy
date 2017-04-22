@@ -419,6 +419,24 @@
 		<_rationale>It is the only animal that does not have legs and it is not a mammal.</_rationale>
 	</analogy>
 
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer>Heptagon</_answer>
+		<_answer>Triangle</_answer>
+		<_answer>Pentagon</_answer>
+		<_answer correct = "yes">Cube</_answer>
+		<_rationale>It is the only one that is a three-dimensional solid object.</_rationale>
+	</analogy>
+
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words is the closest in meaning to 'intrinsic'?</_question>
+		<_answer correct ="yes">Inherent</_answer>
+		<_answer>External</_answer>
+		<_answer>Precursory</_answer>
+		<_answer>Ambiguous</_answer>
+	    <_rationale>Intrinsic means belonging to a thing by its very nature.</_rationale>
+	</analogy>
+
 	<!--- Pair of words options -->
 
 	<analogy>
