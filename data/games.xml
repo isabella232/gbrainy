@@ -759,4 +759,23 @@
 		</variant>
 	</game>
 
+    <game>
+		<_name>Birthday</_name>
+		<type>Logic</type>
+		<difficulty>All</difficulty>
+		<answer_checkattributes>MultiOption | IgnoreSpaces</answer_checkattributes>
+		<_question>A girl once said: 2 days ago I was 18 years old. Next year I will be 21 years old. Can this be true? [option_answers]</_question>
+		<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
+
+		<option x = "0.3" y = "0.3" width ="0.25" height ="0.1" order ="randomized" correct = "yes">
+			<string _text = "[option_prefix] Yes" x = "0.05" y = "0.02" size = "large"/>
+		</option>
+
+		<option x = "0.3" y = "0.4" width ="0.25" height ="0.1" order ="randomized">
+			<string _text = "[option_prefix] No" x = "0.05" y = "0.02" size = "large"/>
+		</option>
+        <_rationale>She was born 31st of December and she said this on 1st of January.</_rationale>
+		<answer>[answer_a]</answer>
+	</game>
+
 </games>
