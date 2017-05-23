@@ -4,6 +4,8 @@ Here are the steps to create a new gbrainy release:
 
 * Send a message two weeks before the release to the gnome localization list asking translators to update gbrainy's translations
 
+* Update <release> metadata in gbrainy.doap file
+
 * Run src/tools/TranslationsChecker.exe and make sure that no translation strings have problems
 
 * Run all the unit tests and verify that they pass

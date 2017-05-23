@@ -12,6 +12,14 @@
   <license rdf:resource="https://www.gnu.org/licenses/gpl-2.0.html" />
   <programming-language>C#</programming-language>
 
+  <release>
+    <Version>
+      <revision>2.3.2</revision>
+      <created>2017-04-17</created>
+      <file-release rdf:resource="http://gent.softcatala.org/jmas/gbrainy/gbrainy-2.3.2.tar.gz"/>
+    </Version>
+  </release>
+
   <repository>
     <GitRepository>
       <browse rdf:resource="https://git.gnome.org/cgit/gbrainy" />
