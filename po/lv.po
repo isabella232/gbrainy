@@ -6,22 +6,22 @@
 #
 # Viesturs Ružāns <viesty@exs.lv>, 2012.
 # Anita Reitere <nitalynx@gmail.com>, 2012.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2015.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy&"
-"keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-06-18 19:54+0000\n"
-"PO-Revision-Date: 2015-12-19 21:05+0200\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gbrainy"
+"&keywords=I18N+L10N&component=gbrainy application\n"
+"POT-Creation-Date: 2017-04-22 09:10+0000\n"
+"PO-Revision-Date: 2017-09-14 18:28+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
+" 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: ../data/games.xml.h:1
@@ -638,13 +638,39 @@ msgstr ""
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Tas ir šādas izteiksmes rezultāts: ([three] * 3) - ([two] * 2)."
 
+#: ../data/games.xml.h:115
+msgid "Birthday"
+msgstr "Dzimšanas diena"
+
+#: ../data/games.xml.h:116
+msgid ""
+"A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
+"years old. Can this be true? [option_answers]"
+msgstr ""
+"Meitene reiz teica: pirms 2 dienām man bija 18 gadu. Nākamajā gadā man būs 21"
+" gads. Vai tā var būt? [option_answers]"
+
+#: ../data/games.xml.h:117
+#| msgid "[option_prefix] s > p"
+msgid "[option_prefix] Yes"
+msgstr "[option_prefix] Jā"
+
+#: ../data/games.xml.h:118
+#| msgid "[option_prefix] s > p"
+msgid "[option_prefix] No"
+msgstr "[option_prefix] Nē"
+
+#: ../data/games.xml.h:119
+msgid "She was born 31st of December and she said this on 1st of January."
+msgstr "Viņa bija dzimusi 31. decembrī un šos vārdus teica 1. janvārī."
+
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
-"gbrainy ir atmiņas trenēšanas, aritmētikas un loģikas spēju spēle ar daudziem "
-"uzdevumiem ar dažādām grūtības pakāpēm."
+"gbrainy ir atmiņas trenēšanas, aritmētikas un loģikas spēju spēle ar "
+"daudziem uzdevumiem ar dažādām grūtības pakāpēm."
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
@@ -672,6 +698,10 @@ msgid ""
 msgstr ""
 "Spēlēt spēles, kuras izaicina tavas loģikas, verbālās, rēķināšanas un "
 "atmiņas spējas"
+
+#: ../data/gbrainy.desktop.in.h:4
+msgid "game;logic;memory;teaser;brain;"
+msgstr "spēle;loģika;atmiņa;smadzenes;ķircināšana;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -1532,114 +1562,187 @@ msgid "It is the only instrument that does not have keys."
 msgstr "Tas ir vienīgais instruments, kam nav taustiņu."
 
 #: ../data/verbal_analogies.xml.h:233
+msgid "Cow"
+msgstr "Govs"
+
+#: ../data/verbal_analogies.xml.h:234
+msgid "Leopard"
+msgstr "Leopards"
+
+#: ../data/verbal_analogies.xml.h:235
+#| msgid "fog"
+msgid "Dog"
+msgstr "Suns"
+
+#: ../data/verbal_analogies.xml.h:236
+msgid "Snake"
+msgstr "Čūska"
+
+#: ../data/verbal_analogies.xml.h:237
+#| msgid ""
+#| "It is the only one that is not a reptile and also does not have a tail."
+msgid "It is the only animal that does not have legs and it is not a mammal."
+msgstr "Tā ir vienīgais dzīvnieks, kam nav kāju un kas nav zīdītājs."
+
+#: ../data/verbal_analogies.xml.h:238
+#| msgid "Pentagon"
+msgid "Heptagon"
+msgstr "Septiņstūris"
+
+#: ../data/verbal_analogies.xml.h:239
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
+msgid "Triangle"
+msgstr "Trijstūris"
+
+#: ../data/verbal_analogies.xml.h:240
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
+msgid "Pentagon"
+msgstr "Piecstūris"
+
+#: ../data/verbal_analogies.xml.h:241 ../src/Games/Logic/PuzzleCube.cs:45
+msgid "Cube"
+msgstr "Kubs"
+
+#: ../data/verbal_analogies.xml.h:242
+#| msgid "It is the only one that is not a medical specialty."
+msgid "It is the only one that is a three-dimensional solid object."
+msgstr "Tas ir vienīgais trīsdimensionālais objekts."
+
+#: ../data/verbal_analogies.xml.h:243
+#| msgid "Which of the following words is the closest in meaning to 'censure'?"
+msgid "Which of the following words is the closest in meaning to 'intrinsic'?"
+msgstr "Kuram no sekojošajiem vārdiem ir tuvākā nozīme vārdam “būtisks”?"
+
+#: ../data/verbal_analogies.xml.h:244
+#| msgid "Indifference"
+msgid "Inherent"
+msgstr "Raksturīgs"
+
+#: ../data/verbal_analogies.xml.h:245
+msgid "External"
+msgstr "Ārējs"
+
+#: ../data/verbal_analogies.xml.h:246
+msgid "Precursory"
+msgstr "Pareģojošs"
+
+#: ../data/verbal_analogies.xml.h:247
+msgid "Ambiguous"
+msgstr "Nenoteikts"
+
+#: ../data/verbal_analogies.xml.h:248
+msgid "Intrinsic means belonging to a thing by its very nature."
+msgstr "“Būtisks” nozīmē piederošs pašas lietas dabai."
+
+#: ../data/verbal_analogies.xml.h:249
 msgid "car / garage | plane"
 msgstr "mašīna / garāža | lidmašīna"
 
-#: ../data/verbal_analogies.xml.h:234
+#: ../data/verbal_analogies.xml.h:250
 msgid "Hangar"
 msgstr "Angārs"
 
-#: ../data/verbal_analogies.xml.h:235
+#: ../data/verbal_analogies.xml.h:251
 msgid "Airline"
 msgstr "Aviolīnija"
 
-#: ../data/verbal_analogies.xml.h:236
+#: ../data/verbal_analogies.xml.h:252
 msgid "Aircraft"
 msgstr "Lidaparāts"
 
-#: ../data/verbal_analogies.xml.h:237
+#: ../data/verbal_analogies.xml.h:253
 msgid "Bunker"
 msgstr "Bunkurs"
 
-#: ../data/verbal_analogies.xml.h:238
+#: ../data/verbal_analogies.xml.h:254
 msgid "circle / semicircle | diameter"
 msgstr "aplis / pusaplis | diametrs"
 
-#: ../data/verbal_analogies.xml.h:239
+#: ../data/verbal_analogies.xml.h:255
 msgid "Radius"
 msgstr "Rādiuss"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:256
 msgid "Chord"
 msgstr "Horda"
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:257
 msgid "Tangent"
 msgstr "Pieskare"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:258
 msgid "Angle"
 msgstr "Leņķis"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:259
 msgid "The radius of a circle is half the diameter."
 msgstr "Riņķa rādiuss ir puse no tā diametra."
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:260
 msgid "talk / yell | dislike"
 msgstr "runāt / kliegt | nepatika"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:261
 msgid "Repugnance"
 msgstr "Riebums"
 
-#: ../data/verbal_analogies.xml.h:246
+#: ../data/verbal_analogies.xml.h:262
 msgid "Offensive"
 msgstr "Aizvainojošs"
 
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:263
 msgid "Shame"
 msgstr "Kauns"
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:264
 msgid "Ostentation"
 msgstr "Dižošanās"
 
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:265
 msgid "write / pen | eat"
 msgstr "rakstīt / pildspalva | ēst"
 
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:266
 msgid "Fork"
 msgstr "Dakšiņa"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:267
 msgid "Restaurant"
 msgstr "Restorāns"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:268
 msgid "Winery"
 msgstr "Vīna darītava"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:269
 msgid "Table"
 msgstr "Galds"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:270
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "Pildspalvu izmanto, lai rakstītu, bet ēšanai izmanto dakšiņu."
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:271
 msgid "desert / oasis | sea"
 msgstr "tuksnesis / oāze | jūra"
 
-#: ../data/verbal_analogies.xml.h:256
+#: ../data/verbal_analogies.xml.h:272
 msgid "Island"
 msgstr "Sala"
 
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:273
 msgid "River"
 msgstr "Upe"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:274
 msgid "Beach"
 msgstr "Pludmale"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:275
 msgid "Coast"
 msgstr "Krasts"
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:276
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1648,148 +1751,148 @@ msgstr ""
 "zemes gabals, ko no visām pusēm ieskauj jūra."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:278
 msgid "turtle / shell | letter"
 msgstr "bruņurupucis / čaula | vēstule"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:279
 msgid "Envelope"
 msgstr "Aploksne"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:280
 msgid "Ink"
 msgstr "Tinte"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:281
 msgid "Printer"
 msgstr "Printeris"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:282
 msgid "Cellulose"
 msgstr "Celuloze"
 
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:283
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr "Bruņurupucis ir savā čaulā, bet vēstule aploksnē."
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:284
 msgid "wine / grape | rum"
 msgstr "vīns / vīnoga | rums"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:285
 msgid "Sugarcane"
 msgstr "Cukurniedres"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:286
 msgid "Grain"
 msgstr "Labība"
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:287
 msgid "Sweet corn"
 msgstr "Saldā kukurūza"
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:288
 msgid "horticulture / plants | ornithology"
 msgstr "dārzkopība / augi | ornitoloģija"
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:289
 msgid "Birds"
 msgstr "Putni"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:290
 msgid "Insects"
 msgstr "Insekti"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:291
 msgid "Amphibians"
 msgstr "Abinieki"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:292
 msgid "Fishes"
 msgstr "Zivis"
 
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:293
 msgid "thankful / ingratitude | despotism"
 msgstr "pateicīgs / nepateicība | despotisms"
 
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:294
 msgid "Democracy"
 msgstr "Demokrātija"
 
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:295
 msgid "Totalitarianism"
 msgstr "Totalitārisms"
 
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:296
 msgid "Oligarchy"
 msgstr "Oligarhija"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:297
 msgid "Authority"
 msgstr "Autoritārais režīms"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:298
 msgid "pessimist / optimist | poor"
 msgstr "pesimists / optimists | nabags"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:300
 msgid "Affluent"
 msgstr "Pārticis"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:301
 msgid "Homeless"
 msgstr "Bezpajumtnieks"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:302
 msgid "Property"
 msgstr "Īpašums"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:303
 msgid "Money"
 msgstr "Nauda"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:304
 msgid "five / pentagon | ten"
 msgstr "pieci / piecstūris | desmit"
 
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:305
 msgid "Decagon"
 msgstr "Desmitstūris"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:306
 msgid "Enneagram"
 msgstr "Deviņstaru zvaigzne"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:307
 msgid "Icosagon"
 msgstr "Divdesmitstūris"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:308
 msgid "Decimal"
 msgstr "Desmitstaru zvaigzne"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:309
 msgid "parallel / meridian | longitude"
 msgstr "paralēle / meridiāns | garums"
 
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:310
 msgid "Latitude"
 msgstr "Platums"
 
-#: ../data/verbal_analogies.xml.h:295
+#: ../data/verbal_analogies.xml.h:311
 msgid "Solstice"
 msgstr "Saulgrieži"
 
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:312
 msgid "Pole"
 msgstr "Pols"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:313
 msgid "Azimuth"
 msgstr "Azimuts"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:314
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1797,531 +1900,531 @@ msgstr ""
 "Paralēle un ģeogrāfiskais garums šķērso zemeslodi no austrumiem uz "
 "rietumiem, kamēr meridiāna un platums - no ziemeļiem uz dienvidiem."
 
-#: ../data/verbal_analogies.xml.h:299
+#: ../data/verbal_analogies.xml.h:315
 msgid "art / gallery | drama"
 msgstr "māksla / galerija | drāma"
 
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:316
 msgid "Theater"
 msgstr "Teātris"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:317
 msgid "Museum"
 msgstr "Muzejs"
 
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:318
 msgid "Concert hall"
 msgstr "Koncertzāle"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:319
 msgid "Gym"
 msgstr "Trenažieru zāle"
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:320
 msgid "hunter / rifle | photographer"
 msgstr "mednieks / šautene | fotogrāfs"
 
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:321
 msgid "Camera"
 msgstr "Fotoaparāts"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:323
 msgid "Tripod"
 msgstr "Statīvs"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:324
 msgid "Photography"
 msgstr "Fotogrāfija"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:325
 msgid "Light"
 msgstr "Apgaismojums"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:326
 msgid "dish / break | balloon"
 msgstr "šķīvis / plīst | balons"
 
 #. Translators: like 'he burst the balloon'
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:328
 msgid "Burst"
 msgstr "Sprāgt"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:329
 msgid "Bounce"
 msgstr "Atlekt"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:330
 msgid "Float"
 msgstr "Lidināties"
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:331
 msgid "Roll"
 msgstr "Ripot"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:332
 msgid "Both relate to an action that breaks the related item."
 msgstr "Abi vārdi atbilst darbībai, kas iznīcina attiecīgo priekšmetu."
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:333
 msgid "button / push | key (used in a lock)"
 msgstr "poga / spiest | atslēga"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:334
 msgid "Turn"
 msgstr "Pagriezt"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:336
 msgid "Open"
 msgstr "Atvērt"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:338
 msgid "Lock"
 msgstr "Aizslēgt"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:340
 msgid "Close"
 msgstr "Aizvērt"
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:341
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
 msgstr "Lai lietotu abus objektus, poga ir jānospiež, bet atslēga jāpagriež."
 
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:342
 msgid "concept / idea | obsession"
 msgstr "jēdziens / ideja | apmātība"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:344
 msgid "Fixation"
 msgstr "Apsēstība"
 
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:345
 msgid "Indifference"
 msgstr "Vienaldzība"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:346
 msgid "Disinterest"
 msgstr "Neieinteresētība"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:347
 msgid "Intuition"
 msgstr "Intuīcija"
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:348
 msgid "The relation between the two words is that they are synonymous."
 msgstr "Attiecība starp šiem diviem vārdiem ir tāda, ka tie ir sinonīmi."
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:349
 msgid "fish / water | bird"
 msgstr "zivs / ūdens | putns"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:350
 msgid "Air"
 msgstr "Gaiss"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:351
 msgid "Wings"
 msgstr "Spārni"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:352
 msgid "Ship"
 msgstr "Kuģis"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:353
 msgid "Cage"
 msgstr "Būris"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:355
 msgid "rook / chess | soldier"
 msgstr "tornis / šahs | zaldāts"
 
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:356
 msgid "Battle"
 msgstr "Kauja"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:357
 msgid "Gun"
 msgstr "Ierocis"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:358
 msgid "Peace"
 msgstr "Miers"
 
-#: ../data/verbal_analogies.xml.h:343
+#: ../data/verbal_analogies.xml.h:359
 msgid "Enemy"
 msgstr "Ienaidnieks"
 
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:360
 msgid "competitive / cooperative | anxious"
 msgstr "konkurējošs / kooperatīvs | satraucies"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:362
 msgid "Flexible"
 msgstr "Elastīgs"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:363
 msgid "Cautious"
 msgstr "Piesardzīgs"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:365
 msgid "Daring"
 msgstr "Drosmīgs"
 
-#: ../data/verbal_analogies.xml.h:350
+#: ../data/verbal_analogies.xml.h:366
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pesimistisks / optimistisks | šaubīgs"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:368
 msgid "Trusting"
 msgstr "Paļāvīgs"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:369
 msgid "Dubious"
 msgstr "Šaubīgs"
 
 #. Translator: compass as the instrument used for finding direction
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:371
 msgid "thermometer / temperature | compass"
 msgstr "termometrs / temperatūra | kompass"
 
-#: ../data/verbal_analogies.xml.h:356
+#: ../data/verbal_analogies.xml.h:372
 msgid "Direction"
 msgstr "Virziens"
 
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:373
 msgid "Elevation"
 msgstr "Augstums"
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:374
 msgid "Position"
 msgstr "Novietojums"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:375
 msgid "Area"
 msgstr "Laukums"
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:376
 msgid "The first word is the instrument and the second what it measures."
 msgstr "Pirmais vārds ir instruments, bet otrs norāda to, ko tas mēra."
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:377
 msgid "hungry / eat | tired"
 msgstr "izsalcis / ēst | noguris"
 
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:378
 msgid "sleep | rest"
 msgstr "gulēt | atpūsties"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:380
 msgid "box / open | banana"
 msgstr "kaste / atvērt | banāns"
 
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:381
 msgid "peel"
 msgstr "nolobīt | nomizot"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:367
+#: ../data/verbal_analogies.xml.h:383
 msgid "shovel / dig | axe"
 msgstr "lāpsta / rakt | cirvis"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:385
 msgid "chop"
 msgstr "cirst | skaldīt"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:371
+#: ../data/verbal_analogies.xml.h:387
 msgid "glass / break | paper"
 msgstr "stikls / sasist | papīrs"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:373
+#: ../data/verbal_analogies.xml.h:389
 msgid "tear | rip"
 msgstr "saplēst | plēst"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:375
+#: ../data/verbal_analogies.xml.h:391
 msgid "feet / two | toes"
 msgstr "pēdas / divas | pirksti"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:393
 msgid "ten | 10"
 msgstr "desmit | 10"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:394
 msgid "fish / aquarium | monkey"
 msgstr "zivis / akvārijs | pērtiķis"
 
-#: ../data/verbal_analogies.xml.h:379
+#: ../data/verbal_analogies.xml.h:395
 msgid "cage | zoo | zoological garden"
 msgstr "krātiņš | zoo | būris | zooloģiskais dārzs"
 
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:396
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Zivis nebrīvē dzīvo akvārijā."
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:397
 msgid "ring / finger | bracelet"
 msgstr "gredzens / pirksts | aproce"
 
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:398
 msgid "wrist | arm"
 msgstr "roka"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:399
 msgid "seal / flippers | bird"
 msgstr "ronis / pleznas | putns"
 
-#: ../data/verbal_analogies.xml.h:384
+#: ../data/verbal_analogies.xml.h:400
 msgid "wings"
 msgstr "spārni"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:386
+#: ../data/verbal_analogies.xml.h:402
 msgid "stick / float | stone"
 msgstr "kociņš / peld | akmens"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:403
 msgid "sink"
 msgstr "grimst | slīkst"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:404
 msgid "leopard / spots | tiger"
 msgstr "leopards / plankumi | tīģeris"
 
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:405
 msgid "stripes"
 msgstr "svītrojums | svītras"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:407
 msgid "fish / submarine | bird"
 msgstr "zivs / zemūdene | putns"
 
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:408
 msgid "airplane | aeroplane | plane"
 msgstr "lidmašīna | lidaparāts"
 
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:409
 msgid "tears / eyes | sweat"
 msgstr "asaras / acis | sviedri"
 
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:410
 msgid "body | skin"
 msgstr "āda | ķermenis"
 
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:411
 msgid "bridge / over | tunnel"
 msgstr "tilts / pāri | tunelis"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:412
 msgid "in | under | through"
 msgstr "zem | iekšā | cauri"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:414
 msgid "toy / play | tool"
 msgstr "rotaļlieta / spēlēties | instruments"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:416
 msgid "work"
 msgstr "strādāt"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:418
 msgid "error / (to) correct | damage"
 msgstr "kļūda / izlabot | bojājums"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:419
 msgid "repair | fix"
 msgstr "salabot | saremontēt"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:420
 msgid "orange / fruit | spinach"
 msgstr "apelsīns / auglis | spināts"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:421
 msgid "vegetable"
 msgstr "dārzenis"
 
-#: ../data/verbal_analogies.xml.h:406
+#: ../data/verbal_analogies.xml.h:422
 msgid "hands / grab | teeth"
 msgstr "rokas / satvert | zobi"
 
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:423
 msgid "bite"
 msgstr "sakost | kost"
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:424
 msgid "Grab and bite are finite actions."
 msgstr "Satveršana un sakošana ir galīgas darbības."
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:425
 msgid "puzzle / solve | game"
 msgstr "mīkla / atrisināt | spēle"
 
-#: ../data/verbal_analogies.xml.h:410
+#: ../data/verbal_analogies.xml.h:426
 msgid "win | play"
 msgstr "uzvarēt | spēlēt | vinnēt"
 
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:427
 msgid "eyebrow / eye | mustache"
 msgstr "uzacs / acs | ūsas"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:428
 msgid "lip | upper lip | mouth"
 msgstr "lūpa | virslūpa | mute | augšlūpa"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:429
 msgid "ice / slippery | glue"
 msgstr "ledus / slidens | līme"
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:430
 msgid "sticky"
 msgstr "lipīga | lipīgs"
 
-#: ../data/verbal_analogies.xml.h:415
+#: ../data/verbal_analogies.xml.h:431
 msgid "whirlpool / water | tornado"
 msgstr "virpulis / ūdens | viesuļvētra"
 
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:432
 msgid "wind | air"
 msgstr "vējš | gaiss"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:433
 msgid "fox / den | bird"
 msgstr "lapsa / midzenis | putns"
 
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:434
 msgid "nest"
 msgstr "ligzda"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:435
 msgid "dog / tame | wolf"
 msgstr "suns / pieradināts | vilks"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:436
 msgid "wild | savage"
 msgstr "savvaļas | brīvs | mežonīgs"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:437
 msgid "sugar / sweet | vinegar"
 msgstr "cukurs / salds | etiķis"
 
-#: ../data/verbal_analogies.xml.h:422
+#: ../data/verbal_analogies.xml.h:438
 msgid "sour"
 msgstr "skābs"
 
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:439
 msgid "tennis / sport | ballet"
 msgstr "teniss / sports | balets"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:441
 msgid "dance"
 msgstr "deja"
 
-#: ../data/verbal_analogies.xml.h:426
+#: ../data/verbal_analogies.xml.h:442
 msgid "slurp / tongue | snort"
 msgstr "strēbt / mēle | šņaukt"
 
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:443
 msgid "nose"
 msgstr "deguns"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:444
 msgid "elbow / knee | wrist"
 msgstr "elkonis / celis | plaukstas locītava"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:445
 msgid "ankle"
 msgstr "potīte"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:446
 msgid "novel / author | song"
 msgstr "romāns / autors | melodija"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:447
 msgid "composer | songwriter | lyricist"
 msgstr "komponists"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:448
 msgid "car / road | train"
 msgstr "mašīna / ceļš | vilciens"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:449
 msgid "track | railway | rails | railroad"
 msgstr "sliedes | dzelzceļa sliedes | dzelzceļš"
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:450
 msgid "pediatrics / children | numismatics"
 msgstr "pediatrija / bērni | numismātika"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:451
 msgid "coins | currency | money"
 msgstr "monētas | valūta | nauda"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:452
 msgid "thermometer / temperature | clock"
 msgstr "termometrs / temperatūra | pulkstenis"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:454
 msgid "time"
 msgstr "laiks"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:455
 msgid "poems / anthology | maps"
 msgstr "dzejoļi / antoloģija | kartes"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:456
 msgid "atlas"
 msgstr "atlants"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:457
 msgid "letter / word | page"
 msgstr "burts / vārds | lapa"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:458
 msgid "book | magazine | document"
 msgstr "grāmata | žurnāls | dokuments | avīze"
 
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:459
 msgid "hour / minute | minute"
 msgstr "stunda / minūte | minūte"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:461
 msgid "second"
 msgstr "sekunde"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:462
 msgid "tiger / carnivore | cow"
 msgstr "tīģeris / gaļēdājs | govs"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:463
 msgid "herbivorous | herbivore"
 msgstr "zālēdājs"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:464
 msgid "constellation / stars | archipelago"
 msgstr "zvaigznājs / zvaigznes | arhipelāgs"
 
-#: ../data/verbal_analogies.xml.h:449
+#: ../data/verbal_analogies.xml.h:465
 msgid "islands"
 msgstr "salas"
 
@@ -2436,16 +2539,16 @@ msgid "gbrainy project web site"
 msgstr "gbrainy projekta mājaslapa"
 
 #. Column: Game Name
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:105
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:106
 msgid "Game Name"
 msgstr "Spēles nosaukums"
 
 #. Column: Type
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:131
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:132
 msgid "Type"
 msgstr "Tips"
 
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:157
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:158
 msgid "Selected"
 msgstr "Izvēlēts"
 
@@ -2501,7 +2604,7 @@ msgstr[2] "Tas ir sastādīts, izmantojot rezultātus no {0} spēles sesiju."
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:67
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:68
 #: ../src/Core/Views/FinishView.cs:102
 #: ../src/Core/Views/PlayerHistoryView.cs:85
 msgid "Total"
@@ -2528,22 +2631,26 @@ msgid "Custom Game"
 msgstr "Pielāgota spēle"
 
 #: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:2
+msgid "_Start"
+msgstr "_Sākt"
+
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
 msgid "Select All"
 msgstr "Izvēlēties visu"
 
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
 msgid "Unselect all"
 msgstr "Neizvēlēties neko"
-
-#: ../src/Clients/Classical/Dialogs/ui/CustomGameDialog.ui.h:4
-msgid "_Start"
-msgstr "_Sākt"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:1
 msgid "PDF export"
 msgstr "PDF eksports"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:2
+msgid "_Save"
+msgstr "_Saglabāt"
+
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
 msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
@@ -2551,77 +2658,73 @@ msgstr ""
 "Šī iespēja ļauj eksportēt vairākas spēles PDF datnē. Tā jūs varat pildīt "
 "uzdevumus bez datora."
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:3
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:2
 msgid "<b>General Settings</b>"
 msgstr "<b>Vispārīgie iestatījumi</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
 msgid "Skip games that use colors"
 msgstr "Izlaist spēles, kuras izmanto krāsas"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:5
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
 msgid "<b>Game Types</b>"
 msgstr "<b>Spēļu tipi</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:6
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:124
 #: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
 msgid "Logic"
 msgstr "Loģika"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:128
 #: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
 msgid "Calculation"
 msgstr "Rēķināšana"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:138
 #: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
 msgid "Verbal"
 msgstr "Verbālās"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:8
 msgid "<b>Difficulty Level</b>"
 msgstr "<b>Sarežģītības līmenis</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:10
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:9
 msgid "Easy"
 msgstr "Viegls"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:11
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:10
 msgid "Medium"
 msgstr "Vidējs"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:12
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:11
 msgid "Master"
 msgstr "Grūts"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:13
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
 msgid "<b>Number of games</b>"
 msgstr "<b>Spēļu skaits</b>"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:14
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:15
 msgid "Total number of games:"
 msgstr "Kopējais spēļu skaits:"
 
 #. Translators: this the number of pages that are included by side when exporting a PDF"
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:16
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
 msgid "Pages per side:"
 msgstr "Lapas vienā pusē:"
 
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:17
+#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
 msgid "<b>Output File</b>"
 msgstr "<b>Izvades datne</b>"
-
-#: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
-msgid "_Save"
-msgstr "_Saglabāt"
 
 #: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
 #: ../src/Clients/Classical/gbrainy.ui.h:19
@@ -2685,15 +2788,15 @@ msgstr "Maksimālais ierakstu skaits spēlētāja spēļu sesiju vēsturē:"
 msgid "Delete Player's Game Session History"
 msgstr "Dzēst spēlētāja spēļu sesiju vēsturi"
 
-#: ../src/Clients/Classical/gbrainy.cs:428
+#: ../src/Clients/Classical/gbrainy.cs:431
 msgid "Congratulations."
 msgstr "Apsveicam."
 
-#: ../src/Clients/Classical/gbrainy.cs:432
+#: ../src/Clients/Classical/gbrainy.cs:435
 msgid "Incorrect answer."
 msgstr "Nepareiza atbilde."
 
-#: ../src/Clients/Classical/gbrainy.cs:493
+#: ../src/Clients/Classical/gbrainy.cs:496
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2701,11 +2804,11 @@ msgstr ""
 "Tiklīdz jums ir atbilde, ierakstiet to laukā \"Atbilde:\" un nospiediet pogu "
 "\"OK\"."
 
-#: ../src/Clients/Classical/gbrainy.cs:523
+#: ../src/Clients/Classical/gbrainy.cs:526
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "Gbrainy tulkojuma līmenis jūsu valodai ir zems."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:527
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2715,16 +2818,16 @@ msgstr ""
 "Ja jūs dodat priekšroku spēlēšanai angļu valodā, šāda iespēja ir gbrainy "
 "iestatījumos."
 
-#: ../src/Clients/Classical/gbrainy.cs:620
+#: ../src/Clients/Classical/gbrainy.cs:623
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:143
 msgid "Pause"
 msgstr "Pauzēt"
 
-#: ../src/Clients/Classical/gbrainy.cs:625
+#: ../src/Clients/Classical/gbrainy.cs:628
 msgid "Resume"
 msgstr "Atsākt"
 
-#: ../src/Clients/Classical/gbrainy.cs:775
+#: ../src/Clients/Classical/gbrainy.cs:778
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Palaišanas laiks {0}"
@@ -3036,7 +3139,7 @@ msgstr[2] "{0} pieejamu atjauninājumu"
 msgid "Open Location"
 msgstr "Atvērt atrašanās vietu"
 
-#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:127
+#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:126
 #: ../src/Core/Main/GameSession.cs:185
 msgid "Paused"
 msgstr "Pauzēts"
@@ -3284,9 +3387,6 @@ msgid ""
 msgstr "Nebaidieties pieļaut kļūdas — tās ir daļa no mācīšanās procesa."
 
 #: ../src/Core/Main/GameTips.cs:69
-#| msgid ""
-#| "Do all the problems, even the difficult ones. Improvement comes from "
-#| "challeging yourself."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challenging yourself."
@@ -3354,7 +3454,7 @@ msgstr ""
 msgid "Memorize the objects below in the given time"
 msgstr "Iegaumē zemāk esošos objektus dotajā laikā"
 
-#: ../src/Core/Main/Memory.cs:233
+#: ../src/Core/Main/Memory.cs:238
 msgid "Time left"
 msgstr "Atlikušais laiks"
 
@@ -4115,10 +4215,6 @@ msgstr "Noklājuma procentuālā daļa"
 #: ../src/Games/Logic/PuzzleCoverPercentage.cs:39
 msgid "What percentage of the figure is colored?"
 msgstr "Cik liela daļa, procentuāli, no figūras ir noklāta?"
-
-#: ../src/Games/Logic/PuzzleCube.cs:45
-msgid "Cube"
-msgstr "Kubs"
 
 #: ../src/Games/Logic/PuzzleCube.cs:49
 #, csharp-format
@@ -4975,7 +5071,6 @@ msgstr ""
 "kurš no šiem slēdzieniem ir pareizs? Atbildi {0}, {1}, {2} vai {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
-#| msgid "Some artist are not ill"
 msgid "Some artists are not ill"
 msgstr "Daži mākslinieki nav noguruši"
 
@@ -5628,17 +5723,9 @@ msgstr "Cik procentu Glauno Vāģu izmanto dīzeli?"
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "Cik procentu Glauno Vāģu izmanto benzīnu?"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
-msgid "Triangle"
-msgstr "Trijstūris"
-
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:67
 msgid "Square"
 msgstr "Kvadrāts"
-
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
-msgid "Pentagon"
-msgstr "Piecstūris"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:71
 msgid "Circle"
@@ -5922,12 +6009,18 @@ msgstr[2] ""
 "puse no Jāņa vecuma. Cik vecs ir Jāņa dēls?"
 
 #: ../tools/GameXmlGetString.cs:37
+#| msgid ""
+#| "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
+#| "[proportion] times older than his son. How old is John's son nowadays?"
+#| msgid_plural ""
+#| "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
+#| "[proportion] times older than his son. How old is John's son nowadays?"
 msgid ""
 "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"[proportion] times as old as his son. How old is John's son nowadays?"
 msgid_plural ""
 "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"[proportion] times as old as his son. How old is John's son nowadays?"
 msgstr[0] ""
 "Jāņa vecums tagad ir 2 reizes lielāks nekā viņa dēla vecums. Pirms [ago] "
 "gada Jānis bija [proportion] reizes vecāks nekā viņa dēls. Cik vecs ir Jāņa "
@@ -5942,13 +6035,21 @@ msgstr[2] ""
 "Jāņa dēls tagad?"
 
 #: ../tools/GameXmlGetString.cs:41
+#| msgid ""
+#| "John's age (variable x) is nowadays 2 times his son's age (variable y), "
+#| "that is x = 2y, and [ago] year ago, John was [proportion] times older "
+#| "than his son: x - [ago] = (y - [ago]) * [proportion]."
+#| msgid_plural ""
+#| "John's age (variable x) is nowadays 2 times his son's age (variable y), "
+#| "that is x = 2y, and [ago] years ago, John was [proportion] times older "
+#| "than his son: x - [ago] = (y - [ago]) * [proportion]."
 msgid ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] year ago, John was [proportion] times older than his "
+"is x = 2y, and [ago] year ago, John was [proportion] times as old as his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgid_plural ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] years ago, John was [proportion] times older than his "
+"is x = 2y, and [ago] years ago, John was [proportion] times as old as his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
 "Jāņa vecums tagad (mainīgais x) ir 2 reizes lielāks nekā viņa dēla vecums  "
@@ -6118,3 +6219,4 @@ msgstr[2] ""
 "Jānim ir nepieciešams [john_time] stundu, lai satīrītu noliktavu, bet viņa "
 "draugam ir nepieciešams divreiz vairāk laika. Cik ilgu laiku aizņemtu "
 "noliktavas tīrīšana, ja viņi to darītu kopā? [option_answers]"
+
