@@ -17,10 +17,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2016-08-23 09:34+0000\n"
-"PO-Revision-Date: 2016-11-16 13:46+0100\n"
+"POT-Creation-Date: 2017-04-22 09:10+0000\n"
+"PO-Revision-Date: 2017-10-18 15:42+0200\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -633,6 +633,30 @@ msgstr ""
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Det er resultatet af udregningen: ([three] * 3) - ([two] * 2)."
+
+#: ../data/games.xml.h:115
+msgid "Birthday"
+msgstr "Fødselsdag"
+
+#: ../data/games.xml.h:116
+msgid ""
+"A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
+"years old. Can this be true? [option_answers]"
+msgstr ""
+"En pige sagde engang: For to dage siden var jeg 18 år gammel. Næste år vil "
+"jeg være 21 år gammel. Kan det være sandt? [option_answers]"
+
+#: ../data/games.xml.h:117
+msgid "[option_prefix] Yes"
+msgstr "[option_prefix] Ja"
+
+#: ../data/games.xml.h:118
+msgid "[option_prefix] No"
+msgstr "[option_prefix] Nej"
+
+#: ../data/games.xml.h:119
+msgid "She was born 31st of December and she said this on 1st of January."
+msgstr "Hun var født den 31. december og sagde det 1. januar."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
@@ -1587,116 +1611,162 @@ msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "Det er den eneste dyr, som ikke har ben og ikke er et pattedyr."
 
 #: ../data/verbal_analogies.xml.h:238
+msgid "Heptagon"
+msgstr "Syvkant"
+
+#: ../data/verbal_analogies.xml.h:239
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
+msgid "Triangle"
+msgstr "Trekant"
+
+#: ../data/verbal_analogies.xml.h:240
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
+msgid "Pentagon"
+msgstr "Femkant"
+
+#: ../data/verbal_analogies.xml.h:241 ../src/Games/Logic/PuzzleCube.cs:45
+msgid "Cube"
+msgstr "Terning"
+
+#: ../data/verbal_analogies.xml.h:242
+msgid "It is the only one that is a three-dimensional solid object."
+msgstr "Det er den eneste, som er et tredimensionalt fast objekt."
+
+#: ../data/verbal_analogies.xml.h:243
+msgid "Which of the following words is the closest in meaning to 'intrinsic'?"
+msgstr "Hvilket af følgende ord er tættest på betydningen af \"iboende\"?"
+
+#: ../data/verbal_analogies.xml.h:244
+msgid "Inherent"
+msgstr "Indre"
+
+#: ../data/verbal_analogies.xml.h:245
+msgid "External"
+msgstr "Ekstern"
+
+#: ../data/verbal_analogies.xml.h:246
+msgid "Precursory"
+msgstr "Forudgående"
+
+#: ../data/verbal_analogies.xml.h:247
+msgid "Ambiguous"
+msgstr "Tvetydig"
+
+#: ../data/verbal_analogies.xml.h:248
+msgid "Intrinsic means belonging to a thing by its very nature."
+msgstr "Iboende betyder, at det er en fast egenskab ved nogen eller noget."
+
+#: ../data/verbal_analogies.xml.h:249
 msgid "car / garage | plane"
 msgstr "bil / garage | fly"
 
-#: ../data/verbal_analogies.xml.h:239
+#: ../data/verbal_analogies.xml.h:250
 msgid "Hangar"
 msgstr "Hangar"
 
-#: ../data/verbal_analogies.xml.h:240
+#: ../data/verbal_analogies.xml.h:251
 msgid "Airline"
 msgstr "Flyselskab"
 
-#: ../data/verbal_analogies.xml.h:241
+#: ../data/verbal_analogies.xml.h:252
 msgid "Aircraft"
 msgstr "Luftfartøj"
 
-#: ../data/verbal_analogies.xml.h:242
+#: ../data/verbal_analogies.xml.h:253
 msgid "Bunker"
 msgstr "Bunker"
 
-#: ../data/verbal_analogies.xml.h:243
+#: ../data/verbal_analogies.xml.h:254
 msgid "circle / semicircle | diameter"
 msgstr "cirkel / halvcirkel | diameter"
 
-#: ../data/verbal_analogies.xml.h:244
+#: ../data/verbal_analogies.xml.h:255
 msgid "Radius"
 msgstr "Radius"
 
-#: ../data/verbal_analogies.xml.h:245
+#: ../data/verbal_analogies.xml.h:256
 msgid "Chord"
 msgstr "Korde"
 
-#: ../data/verbal_analogies.xml.h:246
+#: ../data/verbal_analogies.xml.h:257
 msgid "Tangent"
 msgstr "Tangent"
 
-#: ../data/verbal_analogies.xml.h:247
+#: ../data/verbal_analogies.xml.h:258
 msgid "Angle"
 msgstr "Vinkel"
 
-#: ../data/verbal_analogies.xml.h:248
+#: ../data/verbal_analogies.xml.h:259
 msgid "The radius of a circle is half the diameter."
 msgstr "Radiussen på en cirkel er halvdelen af diameteren."
 
 # dislike = modvilje, antipati, ubehag, uvilje, ulyst, ikke kunne lide
-#: ../data/verbal_analogies.xml.h:249
+#: ../data/verbal_analogies.xml.h:260
 msgid "talk / yell | dislike"
 msgstr "tale / råbe | modvilje"
 
 # modvilje, modstand, modbydelighed
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:261
 msgid "Repugnance"
 msgstr "Afsky"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:262
 msgid "Offensive"
 msgstr "Offensiv"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:263
 msgid "Shame"
 msgstr "Skam"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:264
 msgid "Ostentation"
 msgstr "Vulgarisme"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:265
 msgid "write / pen | eat"
 msgstr "skriv / kuglepen | spis"
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:266
 msgid "Fork"
 msgstr "Gaffel"
 
-#: ../data/verbal_analogies.xml.h:256
+#: ../data/verbal_analogies.xml.h:267
 msgid "Restaurant"
 msgstr "Restaurant"
 
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:268
 msgid "Winery"
 msgstr "Vingård"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:269
 msgid "Table"
 msgstr "Tabel"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:270
 msgid "A pen is used to write and a fork is used to eat."
 msgstr "En kuglepen bruges til at skrive med og en gaffel til at spise med."
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:271
 msgid "desert / oasis | sea"
 msgstr "ørken / oase | hav"
 
-#: ../data/verbal_analogies.xml.h:261
+#: ../data/verbal_analogies.xml.h:272
 msgid "Island"
 msgstr "Ø"
 
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:273
 msgid "River"
 msgstr "Flod"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:274
 msgid "Beach"
 msgstr "Strand"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:275
 msgid "Coast"
 msgstr "Kyst"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:276
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1705,156 +1775,156 @@ msgstr ""
 "isoleret land, som er omgivet af vand."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:278
 msgid "turtle / shell | letter"
 msgstr "skildpadde / skjold | brev"
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:279
 msgid "Envelope"
 msgstr "Kuvert"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:280
 msgid "Ink"
 msgstr "Blæk"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:281
 msgid "Printer"
 msgstr "Printer"
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:282
 msgid "Cellulose"
 msgstr "Cellulose"
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:283
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr "En skildpadde er inden i et skjold og et brev er i en kuvert."
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:284
 msgid "wine / grape | rum"
 msgstr "vin / vindrue | rom"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:285
 msgid "Sugarcane"
 msgstr "Sukkerrør"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:286
 msgid "Grain"
 msgstr "Korn"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:287
 msgid "Sweet corn"
 msgstr "Sukkermajs"
 
 # http://www.denstoredanske.dk/Samfund,_jura_og_politik/Sprog/Fremmedord/hl-h%C3%A5/hortikultur
-#: ../data/verbal_analogies.xml.h:277
+#: ../data/verbal_analogies.xml.h:288
 msgid "horticulture / plants | ornithology"
 msgstr "havebrug / planter | ornitologi"
 
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:289
 msgid "Birds"
 msgstr "Fugle"
 
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:290
 msgid "Insects"
 msgstr "Insekter"
 
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:291
 msgid "Amphibians"
 msgstr "Padder"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:292
 msgid "Fishes"
 msgstr "Fisk"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:293
 msgid "thankful / ingratitude | despotism"
 msgstr "taknemmelig / utaknemmelig | despotisme"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:294
 msgid "Democracy"
 msgstr "Demokrati"
 
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:295
 msgid "Totalitarianism"
 msgstr "Totalitarisme"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:296
 msgid "Oligarchy"
 msgstr "Oligarki"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:297
 msgid "Authority"
 msgstr "Autoritet"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:298
 msgid "pessimist / optimist | poor"
 msgstr "pessimist / optimist | fattig"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:300
 msgid "Affluent"
 msgstr "Velstående"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:301
 msgid "Homeless"
 msgstr "Hjemløs"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:302
 msgid "Property"
 msgstr "Ejendom"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:303
 msgid "Money"
 msgstr "Penge"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:304
 msgid "five / pentagon | ten"
 msgstr "fem / pentagon | ti"
 
 # http://www.denstoredanske.dk/Samfund,_jura_og_politik/Sprog/Fremmedord/d-dh/dekagon
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:305
 msgid "Decagon"
 msgstr "Dekagon"
 
 # http://da.wikipedia.org/wiki/Enneagram
-#: ../data/verbal_analogies.xml.h:295
+#: ../data/verbal_analogies.xml.h:306
 msgid "Enneagram"
 msgstr "Enneagram"
 
 # 20-sidet polygon (ikke fundet en dansk stavning!)
 # Min fremmedordbog har "ikosaeder" (gr. /eikosi/ 20 + e.) ~ legeme med 20
 # sideflader.
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:307
 msgid "Icosagon"
 msgstr "Ikosagon"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:308
 msgid "Decimal"
 msgstr "Decimal"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:309
 msgid "parallel / meridian | longitude"
 msgstr "parallel / meridian | længdegrad"
 
 # frihed eller breddegrad (suk mangler vist en oversætterkommentar).
-#: ../data/verbal_analogies.xml.h:299
+#: ../data/verbal_analogies.xml.h:310
 msgid "Latitude"
 msgstr "Breddegrad"
 
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:311
 msgid "Solstice"
 msgstr "Solhverv"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:312
 msgid "Pole"
 msgstr "Pol"
 
 # http://da.wikipedia.org/wiki/Azimut_%28astronomi%29
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:313
 msgid "Azimuth"
 msgstr "Azimut"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:314
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1862,102 +1932,102 @@ msgstr ""
 "Parallel og længdegrad går fra øst mod vest mens meridian og breddegrad går "
 "fra nord mod syd."
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:315
 msgid "art / gallery | drama"
 msgstr "kunst / galleri | drama"
 
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:316
 msgid "Theater"
 msgstr "Teater"
 
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:317
 msgid "Museum"
 msgstr "Museum"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:318
 msgid "Concert hall"
 msgstr "Koncertsal"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:319
 msgid "Gym"
 msgstr "Gymnastiksal"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:320
 msgid "hunter / rifle | photographer"
 msgstr "jæger / riffel | fotograf"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:321
 msgid "Camera"
 msgstr "Kamera"
 
 # trefod, trebenet stativ
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:323
 msgid "Tripod"
 msgstr "Trefod"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:324
 msgid "Photography"
 msgstr "Fotografering"
 
 # let eller lys
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:325
 msgid "Light"
 msgstr "Lys"
 
 # svarmuligheder: brage, pifte, sprænge, baldre
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:326
 msgid "dish / break | balloon"
 msgstr "skål / gå i stykker | ballon"
 
 #. Translators: like 'he burst the balloon'
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:328
 msgid "Burst"
 msgstr "Sprænge"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:329
 msgid "Bounce"
 msgstr "Hoppe"
 
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:330
 msgid "Float"
 msgstr "Flyde"
 
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:331
 msgid "Roll"
 msgstr "Rulle"
 
-#: ../data/verbal_analogies.xml.h:321
+#: ../data/verbal_analogies.xml.h:332
 msgid "Both relate to an action that breaks the related item."
 msgstr "Begge har forbindelse med en handling som ødelægger denne ting."
 
 # problemstillingen tast/nøgle burde ikke være der på dansk.
-#: ../data/verbal_analogies.xml.h:322
+#: ../data/verbal_analogies.xml.h:333
 msgid "button / push | key (used in a lock)"
 msgstr "knap / tryk | nøgle"
 
 # givet ordparret knap/tryk, hvilket ord har så den
 # tætteste forbindelse med 'nøgle'?
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:334
 msgid "Turn"
 msgstr "Drej"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:336
 msgid "Open"
 msgstr "Åbn"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:327
+#: ../data/verbal_analogies.xml.h:338
 msgid "Lock"
 msgstr "Lås"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:340
 msgid "Close"
 msgstr "Luk"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:341
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -1965,269 +2035,269 @@ msgstr ""
 "For at få begge objekter til at virke, kræves det at der trykkes på en knap "
 "og en nøgle skal drejes."
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:342
 msgid "concept / idea | obsession"
 msgstr "koncept / ide | besættelse"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:344
 msgid "Fixation"
 msgstr "Lidenskab"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:345
 msgid "Indifference"
 msgstr "Indifference"
 
-#: ../data/verbal_analogies.xml.h:335
+#: ../data/verbal_analogies.xml.h:346
 msgid "Disinterest"
 msgstr "Mangel på interesse"
 
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:347
 msgid "Intuition"
 msgstr "Intuition"
 
-#: ../data/verbal_analogies.xml.h:337
+#: ../data/verbal_analogies.xml.h:348
 msgid "The relation between the two words is that they are synonymous."
 msgstr "Relationen mellem de to ord er at de er synonymer."
 
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:349
 msgid "fish / water | bird"
 msgstr "fisk / vand | fugl"
 
-#: ../data/verbal_analogies.xml.h:339
+#: ../data/verbal_analogies.xml.h:350
 msgid "Air"
 msgstr "Luft"
 
 # er svaret på
 # Givet ordparret sæler/luffer, hvilket ord har så den
 # tætteste forbindelse med 'fugl'?
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:351
 msgid "Wings"
 msgstr "Vinger"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:352
 msgid "Ship"
 msgstr "Skib"
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:353
 msgid "Cage"
 msgstr "Bur"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:355
 msgid "rook / chess | soldier"
 msgstr "tårn / skak | soldater"
 
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:356
 msgid "Battle"
 msgstr "Kamp"
 
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:357
 msgid "Gun"
 msgstr "Pistol"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:358
 msgid "Peace"
 msgstr "Fred"
 
-#: ../data/verbal_analogies.xml.h:348
+#: ../data/verbal_analogies.xml.h:359
 msgid "Enemy"
 msgstr "Fjende"
 
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:360
 msgid "competitive / cooperative | anxious"
 msgstr "konkurrencedygtig / samarbejdsvillig | nervøs"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:362
 msgid "Flexible"
 msgstr "Fleksibel"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:363
 msgid "Cautious"
 msgstr "Forsigtig"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:354
+#: ../data/verbal_analogies.xml.h:365
 msgid "Daring"
 msgstr "Dristig"
 
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:366
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pessimistisk / optimistisk | mistænkelig"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:368
 msgid "Trusting"
 msgstr "Troværdig"
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:369
 msgid "Dubious"
 msgstr "Tvivlsom"
 
 #. Translator: compass as the instrument used for finding direction
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:371
 msgid "thermometer / temperature | compass"
 msgstr "termometer / temperatur | kompas"
 
-#: ../data/verbal_analogies.xml.h:361
+#: ../data/verbal_analogies.xml.h:372
 msgid "Direction"
 msgstr "Retning"
 
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:373
 msgid "Elevation"
 msgstr "Elevation"
 
-#: ../data/verbal_analogies.xml.h:363
+#: ../data/verbal_analogies.xml.h:374
 msgid "Position"
 msgstr "Position"
 
-#: ../data/verbal_analogies.xml.h:364
+#: ../data/verbal_analogies.xml.h:375
 msgid "Area"
 msgstr "Område"
 
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:376
 msgid "The first word is the instrument and the second what it measures."
 msgstr ""
 "Det første ord er instrumentet og det andet det som instrumentet måler."
 
-#: ../data/verbal_analogies.xml.h:366
+#: ../data/verbal_analogies.xml.h:377
 msgid "hungry / eat | tired"
 msgstr "sulten / spis | træt"
 
 # givet ordparret sulten/spis, hvilket ord
 # har så den tætteste forbindelse med træt
-#: ../data/verbal_analogies.xml.h:367
+#: ../data/verbal_analogies.xml.h:378
 msgid "sleep | rest"
 msgstr "sov | hvil"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:380
 msgid "box / open | banana"
 msgstr "boks / åbn | banan"
 
 # er svaret på
 # givet ordparret boks/åbn, hvilket ord har så den
 # tætteste forbindelse med banan
-#: ../data/verbal_analogies.xml.h:370
+#: ../data/verbal_analogies.xml.h:381
 msgid "peel"
 msgstr "skræl"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:372
+#: ../data/verbal_analogies.xml.h:383
 msgid "shovel / dig | axe"
 msgstr "skovl / grav | økse"
 
 # er svaret på givet skovl/grav hvilket ord har så den
 # tætteste forbindelse med økse
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:374
+#: ../data/verbal_analogies.xml.h:385
 msgid "chop"
 msgstr "hug"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:376
+#: ../data/verbal_analogies.xml.h:387
 msgid "glass / break | paper"
 msgstr "glas / gå itu | papir"
 
 # giver ordparrret glas/knus, hvilket ord har så
 # den tætteste forbindelse med 'papir'.
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:389
 msgid "tear | rip"
 msgstr "flå | riv"
 
 #. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:391
 msgid "feet / two | toes"
 msgstr "fødder / to | tæer"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:382
+#: ../data/verbal_analogies.xml.h:393
 msgid "ten | 10"
 msgstr "ti | 10"
 
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:394
 msgid "fish / aquarium | monkey"
 msgstr "fisk / akvarium | abe"
 
-#: ../data/verbal_analogies.xml.h:384
+#: ../data/verbal_analogies.xml.h:395
 msgid "cage | zoo | zoological garden"
 msgstr "bur | zoo | zoologisk have"
 
-#: ../data/verbal_analogies.xml.h:385
+#: ../data/verbal_analogies.xml.h:396
 msgid "A fish in an aquarium lives in captivity."
 msgstr "En fisk i et akvarium lever i fangenskab."
 
-#: ../data/verbal_analogies.xml.h:386
+#: ../data/verbal_analogies.xml.h:397
 msgid "ring / finger | bracelet"
 msgstr "ring / finger | armbånd"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:398
 msgid "wrist | arm"
 msgstr "håndled | arm"
 
-#: ../data/verbal_analogies.xml.h:388
+#: ../data/verbal_analogies.xml.h:399
 msgid "seal / flippers | bird"
 msgstr "sæler / luffer | fugl"
 
 # er svaret på
 # Givet ordparret sæler/luffer, hvilket ord har så den
 # tætteste forbindelse med 'fugl'?
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:400
 msgid "wings"
 msgstr "vinger"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:391
+#: ../data/verbal_analogies.xml.h:402
 msgid "stick / float | stone"
 msgstr "pind / flyd | sten"
 
 # givet ordparret pind/flyd, hvilket ord har så den
 # tætteste forbindelse med 'sten'?
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:403
 msgid "sink"
 msgstr "synk"
 
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:404
 msgid "leopard / spots | tiger"
 msgstr "leopard / pletter | tiger"
 
 # Er svaret på
 # Givet ordparret leopard/pletter, hvilket ord har så den tætteste
 # forbindelse med 'tiger'?
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:405
 msgid "stripes"
 msgstr "striber"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:407
 msgid "fish / submarine | bird"
 msgstr "fisk / ubåd | fugl"
 
 # skal flyver med her (eller er det mere en pilot).
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:408
 msgid "airplane | aeroplane | plane"
 msgstr "fly | flyvemaskine | luftfartøj"
 
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:409
 msgid "tears / eyes | sweat"
 msgstr "tårer / øjne | sved"
 
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:410
 msgid "body | skin"
 msgstr "krop | hud"
 
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:411
 msgid "bridge / over | tunnel"
 msgstr "bro / over | tunnel"
 
-#: ../data/verbal_analogies.xml.h:401
+#: ../data/verbal_analogies.xml.h:412
 msgid "in | under | through"
 msgstr "i | under | igennem | gennem"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:414
 msgid "toy / play | tool"
 msgstr "legetøj / leg | værktøj"
 
@@ -2235,104 +2305,104 @@ msgstr "legetøj / leg | værktøj"
 # Givet ordparret legetøj/leg, hvilket ord har så den tætteste
 # forbindelse med 'værktøj'?
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:416
 msgid "work"
 msgstr "arbejd | arbejde | job"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:418
 msgid "error / (to) correct | damage"
 msgstr "fejl / ret | skade"
 
 # givet ordparret fejl/rette, hvilket ord har så den
 # tætteste forbindelse med 'skade'?
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:419
 msgid "repair | fix"
 msgstr "reparer | reparér"
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:420
 msgid "orange / fruit | spinach"
 msgstr "appelsin / frugt | spinat"
 
 # givet ordparret appelsin/frugt, hvilket ord har så
 # den tætteste forbindelse med 'spinat'?
-#: ../data/verbal_analogies.xml.h:410
+#: ../data/verbal_analogies.xml.h:421
 msgid "vegetable"
 msgstr "grøntsag | grønsag"
 
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:422
 msgid "hands / grab | teeth"
 msgstr "hænder / tag | tænder"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:423
 msgid "bite"
 msgstr "bid"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:424
 msgid "Grab and bite are finite actions."
 msgstr "Tage og bide er afsluttede handlinger."
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:425
 msgid "puzzle / solve | game"
 msgstr "puslespil / læg | spil"
 
-#: ../data/verbal_analogies.xml.h:415
+#: ../data/verbal_analogies.xml.h:426
 msgid "win | play"
 msgstr "vind | spil"
 
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:427
 msgid "eyebrow / eye | mustache"
 msgstr "øjenbryn / øje | overskæg"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:428
 msgid "lip | upper lip | mouth"
 msgstr "læbe | overlæbe | mund"
 
 # svarmuligheder: klistret, klæbende,
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:429
 msgid "ice / slippery | glue"
 msgstr "is / glat | lim"
 
 # svarmuligheder for ordparret is/glat
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:430
 msgid "sticky"
 msgstr "klistret | klæbende | klæbrigt"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:431
 msgid "whirlpool / water | tornado"
 msgstr "strømhvirvel / vand | tornado"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:432
 msgid "wind | air"
 msgstr "vind | luft"
 
-#: ../data/verbal_analogies.xml.h:422
+#: ../data/verbal_analogies.xml.h:433
 msgid "fox / den | bird"
 msgstr "ræv / grav | fugl"
 
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:434
 msgid "nest"
 msgstr "rede"
 
-#: ../data/verbal_analogies.xml.h:424
+#: ../data/verbal_analogies.xml.h:435
 msgid "dog / tame | wolf"
 msgstr "hund / tam | ulv"
 
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:436
 msgid "wild | savage"
 msgstr "vild"
 
-#: ../data/verbal_analogies.xml.h:426
+#: ../data/verbal_analogies.xml.h:437
 msgid "sugar / sweet | vinegar"
 msgstr "sukker / sød | eddike"
 
 # Givet ordparret sukker/sød, hvilket ord har så den
 # tætteste forbindelse med 'eddike'?
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:438
 msgid "sour"
 msgstr "sur"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:439
 msgid "tennis / sport | ballet"
 msgstr "tennis / sport | ballet"
 
@@ -2340,99 +2410,99 @@ msgstr "tennis / sport | ballet"
 # givet ordparret tennis/sport, hvilket ord har
 # så den tætteste forbindelse med 'ballet'?
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:441
 msgid "dance"
 msgstr "dans | kunstart | kunst"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:442
 msgid "slurp / tongue | snort"
 msgstr "slurpre / tunge | pruste"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:443
 msgid "nose"
 msgstr "næse | tud"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:444
 msgid "elbow / knee | wrist"
 msgstr "albue / knæ | håndled"
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:445
 msgid "ankle"
 msgstr "ankel"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:446
 msgid "novel / author | song"
 msgstr "roman / forfatter | sang"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:447
 msgid "composer | songwriter | lyricist"
 msgstr "komponist | sangskriver | tekstforfatter"
 
-#: ../data/verbal_analogies.xml.h:437
+#: ../data/verbal_analogies.xml.h:448
 msgid "car / road | train"
 msgstr "bil / vej | tog"
 
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:449
 msgid "track | railway | rails | railroad"
 msgstr "spor | jernbane | jernbanespor | togskinner | skinner"
 
 # pædiatri er læren om børnesygdomme. numismatik er møntvidenskab.
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:450
 msgid "pediatrics / children | numismatics"
 msgstr "pædiatri / børn | numismatik"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:451
 msgid "coins | currency | money"
 msgstr "mønter | valuta | penge"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:452
 msgid "thermometer / temperature | clock"
 msgstr "termometer / temperatur | ur"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:454
 msgid "time"
 msgstr "tid"
 
-#: ../data/verbal_analogies.xml.h:444
+#: ../data/verbal_analogies.xml.h:455
 msgid "poems / anthology | maps"
 msgstr "digte / antologi | kort"
 
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:456
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:457
 msgid "letter / word | page"
 msgstr "bogstav / ord | side"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:458
 msgid "book | magazine | document"
 msgstr "bog | magasin | blad | dokument"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:459
 msgid "hour / minute | minute"
 msgstr "time / minut | minut"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:450
+#: ../data/verbal_analogies.xml.h:461
 msgid "second"
 msgstr "sekund"
 
 # Hvis man bruger "tiger" bliver "rovdyr" tvetydig (kødæder eller gruppe af pattedyr), og så ville svar som Parrettåede og Klovdyr også være korrekte. Det undgås ved at vælge et rovdyr som ikke tilhører rovdyrordenen.
-#: ../data/verbal_analogies.xml.h:451
+#: ../data/verbal_analogies.xml.h:462
 msgid "tiger / carnivore | cow"
 msgstr "krokodille / rovdyr | ko"
 
-#: ../data/verbal_analogies.xml.h:452
+#: ../data/verbal_analogies.xml.h:463
 msgid "herbivorous | herbivore"
 msgstr "planteædende | planteæder"
 
-#: ../data/verbal_analogies.xml.h:453
+#: ../data/verbal_analogies.xml.h:464
 msgid "constellation / stars | archipelago"
 msgstr "stjernebillede / stjerner | øhav"
 
-#: ../data/verbal_analogies.xml.h:454
+#: ../data/verbal_analogies.xml.h:465
 msgid "islands"
 msgstr "øer"
 
@@ -4228,10 +4298,6 @@ msgstr "Procentdækning"
 msgid "What percentage of the figure is colored?"
 msgstr "Hvor stor en procentdel af figuren er farvet?"
 
-#: ../src/Games/Logic/PuzzleCube.cs:45
-msgid "Cube"
-msgstr "Terning"
-
 #: ../src/Games/Logic/PuzzleCube.cs:49
 #, csharp-format
 msgid ""
@@ -5732,17 +5798,9 @@ msgstr "Hvilken procentdel af Skinnende Biler bruger diesel?"
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "Hvilken procentdel af Skinnende Biler bruger benzin?"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
-msgid "Triangle"
-msgstr "Trekant"
-
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:67
 msgid "Square"
 msgstr "Firkant"
-
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
-msgid "Pentagon"
-msgstr "Femkant"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:71
 msgid "Circle"
@@ -6024,33 +6082,33 @@ msgstr[1] ""
 #: ../tools/GameXmlGetString.cs:37
 msgid ""
 "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"[proportion] times as old as his son. How old is John's son nowadays?"
 msgid_plural ""
 "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-"[proportion] times older than his son. How old is John's son nowadays?"
+"[proportion] times as old as his son. How old is John's son nowadays?"
 msgstr[0] ""
 "Johns alder er i dag 2 gange hans søns. For [ago] år siden var John "
 "[proportion] gange ældre end sin søn. Hvor gammel er Johns søn i dag?"
 msgstr[1] ""
 "Johns alder er i dag 2 gange hans søns. For [ago] år siden var John "
-"[proportion] gange ældre end sin søn. Hvor gammel er Johns søn i dag?"
+"[proportion] så gammel som sin søn. Hvor gammel er Johns søn i dag?"
 
 #: ../tools/GameXmlGetString.cs:41
 msgid ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] year ago, John was [proportion] times older than his "
+"is x = 2y, and [ago] year ago, John was [proportion] times as old as his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgid_plural ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] years ago, John was [proportion] times older than his "
+"is x = 2y, and [ago] years ago, John was [proportion] times as old as his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
 "Johns alder (variabel x) er i dag 2 gange hans søns alder (variabel y), det "
-"vil sige x = 2y, og [ago] år siden, var John [proportion] gange ældre end "
+"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel som "
 "sin søn: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[1] ""
 "Johns alder (variabel x) er i dag 2 gange hans søns alder (variabel y), det "
-"vil sige x = 2y, og [ago] år siden, var John [proportion] gange ældre end "
+"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel som "
 "sin søn: x - [ago] = (y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
