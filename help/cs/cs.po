@@ -1,14 +1,14 @@
 # Czech translation for gbrainy.
 # Copyright (C) 2009 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2016.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-29 21:05+0000\n"
-"PO-Revision-Date: 2016-09-15 12:10+0200\n"
+"POT-Creation-Date: 2017-10-28 08:11+0000\n"
+"PO-Revision-Date: 2017-10-29 08:26+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -257,14 +257,14 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/license.page:51
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"Text licence v plném znění najdete na <link href=\"http://creativecommons."
+"Text licence v plném znění najdete na <link href=\"https://creativecommons."
 "org/licenses/by-sa/3.0/legalcode\">webových stránkách CreativeCommons</link> "
-"nebo si přečtěte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"nebo si přečtěte <link href=\"https://creativecommons.org/licenses/by-sa/3.0/"
 "\">výtah dokumentu pro neprávníky</link>."
 
 #. (itstool) path: info/title
@@ -802,14 +802,14 @@ msgstr ""
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "Aplikace <app>gbrainy</app> se hodně spoléhá na dřívější přední logické "
 "hlavolamy, od klasických hlavolamů z historických dob až po nedávné práce "
-"jako hlavolamy <link href=\"http://en.wikipedia.org/wiki/Terry_Stickels"
-"\">Terryho Stickela</link> nebo klasická hra <link href=\"http://en."
+"jako hlavolamy <link href=\"https://en.wikipedia.org/wiki/Terry_Stickels"
+"\">Terryho Stickela</link> nebo klasická hra <link href=\"https://en."
 "wikipedia.org/wiki/Dr._Brain\">Dr. Brain</link>."
 
 #. (itstool) path: note/p
