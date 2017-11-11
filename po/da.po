@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2017-04-22 09:10+0000\n"
-"PO-Revision-Date: 2017-10-18 15:42+0200\n"
+"POT-Creation-Date: 2017-10-22 13:04+0000\n"
+"PO-Revision-Date: 2017-11-11 14:32+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
@@ -1634,7 +1634,7 @@ msgstr "Det er den eneste, som er et tredimensionalt fast objekt."
 
 #: ../data/verbal_analogies.xml.h:243
 msgid "Which of the following words is the closest in meaning to 'intrinsic'?"
-msgstr "Hvilket af følgende ord er tættest på betydningen af \"iboende\"?"
+msgstr "Hvilket af følgende ord er tættest på betydningen af “iboende”?"
 
 #: ../data/verbal_analogies.xml.h:244
 msgid "Inherent"
@@ -2950,7 +2950,7 @@ msgstr "Kun sproglige analogier"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:9
 msgid "Custom Game Selection..."
-msgstr "Tilpasset spiludvælgelse..."
+msgstr "Tilpasset spiludvælgelse …"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:10
 msgid "_Pause Game"
@@ -2962,7 +2962,7 @@ msgstr "_Afslut spil"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Eksporter spil til PDF så du kan spille uden computeren..."
+msgstr "Eksporter spil til PDF så du kan spille uden computeren …"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -3042,15 +3042,15 @@ msgstr "De følgende udvidelsesmoduler er aktuelt installeret:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:36
 msgid "_Install Add-ins..."
-msgstr "_Installer udvidelsesmoduler..."
+msgstr "_Installer udvidelsesmoduler …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:37
 msgid "_Repositories..."
-msgstr "_Arkiver..."
+msgstr "_Arkiver …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:38
 msgid "_Uninstall..."
-msgstr "A_finstaller..."
+msgstr "A_finstaller …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:39
 msgid "Enable"
@@ -3156,7 +3156,7 @@ msgstr "Url:"
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:64
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
 msgid "Browse..."
-msgstr "Gennemse..."
+msgstr "Gennemse …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:65
 msgid "Path:"
@@ -3181,7 +3181,7 @@ msgstr "Arkiv:"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:72
 msgid "Install from file..."
-msgstr "Installer fra fil..."
+msgstr "Installer fra fil …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:73
 msgid "No selection"
@@ -3209,7 +3209,7 @@ msgstr "Alle arkiver"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:79
 msgid "Manage Repositories..."
-msgstr "Håndter arkiver..."
+msgstr "Håndter arkiver …"
 
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:80
 msgid "Add-in Repository Management"
@@ -3637,7 +3637,7 @@ msgstr "Svar {0}."
 
 #: ../src/Core/Views/CountDownView.cs:80
 msgid "Get ready to memorize the next objects..."
-msgstr "Gør klar til at huske de næste objekter udenad..."
+msgstr "Gør klar til at huske de næste objekter udenad …"
 
 #: ../src/Core/Views/FinishView.cs:145
 #: ../src/Core/Views/PlayerHistoryView.cs:277
@@ -3811,7 +3811,7 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationCloserFraction.cs:55
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
-msgstr "Resultatet af beregningen {0} / {1} er \"{2}\""
+msgstr "Resultatet af beregningen {0} / {1} er “{2}”"
 
 #: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
 msgid "Consecutive sum"
@@ -4682,10 +4682,7 @@ msgid ""
 "Using n as the total number of people, the first person handshakes n-1 "
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
-msgstr ""
-"Hvis vi antager, at n er det samlede antal folk, så giver den første person "
-"hånden til n-1 personer, den anden person n-2 personer etc. Resultatet er "
-"summen af de første n-1 fortløbende tal: 1+2+3+...+(n-1)."
+msgstr "Hvis vi antager, at n er det samlede antal folk, så giver den første person hånden til n-1 personer, den anden person n-2 personer etc. Resultatet er summen af de første n-1 fortløbende tal: 1+2+3+ … +(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:113
 msgid "Larger shape"
@@ -6104,12 +6101,12 @@ msgid_plural ""
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
 "Johns alder (variabel x) er i dag 2 gange hans søns alder (variabel y), det "
-"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel som "
-"sin søn: x - [ago] = (y - [ago]) * [proportion]."
+"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel "
+"som sin søn: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[1] ""
 "Johns alder (variabel x) er i dag 2 gange hans søns alder (variabel y), det "
-"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel som "
-"sin søn: x - [ago] = (y - [ago]) * [proportion]."
+"vil sige x = 2y, og for [ago] år siden var John [proportion] gange så gammel "
+"som sin søn: x - [ago] = (y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:45
 msgid ""
