@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <id type="desktop">gbrainy.desktop</id>
-  <licence>CC0</licence>
+<component type="desktop">
+  <name>gbrainy</name>
+  <id>org.gnome.gbrainy.desktop</id>
+  <metadata_license>CC0</metadata_license>
   <project_license>GPL-2.0+</project_license>
+  <summary>gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of different difficulty levels</summary>
   <description>
     <_p>
     gbrainy is a game to train memory, arithmetical and logical capabilities 
@@ -16,11 +18,13 @@
     </_p>
   </description>
   <screenshots>
-      <screenshot type="default">https://gent.softcatala.org/jmas/gbrainy/gbrainy-screenshot-appdata.png</screenshot>
+    <screenshot height="705" width="632">
+      <image>https://gent.softcatala.org/jmas/gbrainy/gbrainy-screenshot-appdata.png</image>
+   </screenshot>
   </screenshots>
   <url type="homepage">https://wiki.gnome.org/action/show/Apps/gbrainy/</url>
   <url type="translate">https://wiki.gnome.org/TranslationProject</url>
-  <updatecontact>jmas_at_softcatala_dot_org</updatecontact>
+  <update_contact>jmas_at_softcatala_dot_org</update_contact>
   <project_group>GNOME</project_group>
   <translation type="gettext">gbrainy</translation>
   <content_rating type="oars-1.0">
@@ -45,4 +49,4 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-</application>
+</component>
