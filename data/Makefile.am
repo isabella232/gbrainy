@@ -25,7 +25,7 @@ Applications_DATA = $(desktop_files)
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = gbrainy.pc
 
-appdatadir = $(datadir)/appdata
+appdatadir = $(datadir)/metainfo
 appdata_in_files = gbrainy.appdata.xml.in
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
 @INTLTOOL_XML_RULE@
