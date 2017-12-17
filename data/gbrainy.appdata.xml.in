@@ -4,7 +4,7 @@
   <id>org.gnome.gbrainy.desktop</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-2.0+</project_license>
-  <summary>gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of different difficulty levels</summary>
+  <_summary>gbrainy is a game to train memory, arithmetical and logical capabilities with many sorts of exercises of different difficulty levels</_summary>
   <description>
     <_p>
     gbrainy is a game to train memory, arithmetical and logical capabilities 
