@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-19 19:34+0100\n"
-"PO-Revision-Date: 2017-11-19 19:35+0100\n"
+"POT-Creation-Date: 2017-12-18 04:54+0100\n"
+"PO-Revision-Date: 2017-12-18 04:55+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -672,22 +672,30 @@ msgstr "Dziewczyna urodziła się 31 grudnia i powiedziała to 1 stycznia."
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
-"with many sorts of exercises of different difficulty levels."
+"with many sorts of exercises of different difficulty levels"
 msgstr ""
-"Łamigłówka to gra trenująca pamięć, umiejętności arytmetyczne i logiczne za "
-"pomocą wielu zadań o różnych poziomach trudności."
+"Gra trenująca pamięć, umiejętności arytmetyczne i logiczne za pomocą wielu "
+"zadań o różnych poziomach trudności"
 
 #: ../data/gbrainy.appdata.xml.in.h:2
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels."
+msgstr ""
+"Gra trenująca pamięć, umiejętności arytmetyczne i logiczne za pomocą wielu "
+"zadań o różnych poziomach trudności."
+
+#: ../data/gbrainy.appdata.xml.in.h:3
 msgid ""
 "It should have something for all ages and purposes: kids whose parents want "
 "them to develop their capabilities, adults that want to keep their mind in "
 "form or just try it out for fun, older people that might need to do some "
 "memory exercises, etc."
 msgstr ""
-"Łamigłówka posiada coś dla osób w każdym wieku i w każdym celu: dzieci, "
-"których rodzice chcą rozwijać ich umiejętności, dorośli chcący zachować swój "
-"umysł w formie lub po prostu się zabawić, osoby starsze, które mogą "
-"potrzebować ćwiczeń umysłowych itd."
+"Ma coś dla osób w każdym wieku i w każdym celu: dzieci, których rodzice chcą "
+"rozwijać ich umiejętności, dorośli chcący zachować swój umysł w formie lub "
+"po prostu się zabawić, osoby starsze, które mogą potrzebować ćwiczeń "
+"umysłowych itd."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
 msgid "gbrainy"
@@ -724,7 +732,7 @@ msgstr "Który z wymienionych sportów nie pasuje do pozostałych?"
 
 #: ../data/verbal_analogies.xml.h:5
 msgid "Think of the items used in the game."
-msgstr "Pomyśl o przedmiotach użytych w grze."
+msgstr "Pomyśl o przedmiotach używanych w grze."
 
 #: ../data/verbal_analogies.xml.h:6
 msgid "Golf"
@@ -2567,7 +2575,7 @@ msgstr "Zapewnia zabawę, trening oraz ćwiczenia dla umysłu."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "gbrainy project web site"
-msgstr "Witryna programu Łamigłówka"
+msgstr "Witryna projektu gbrainy"
 
 #. Column: Game Name
 #: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:104
@@ -2613,8 +2621,7 @@ msgstr "Poniższy wykres przedstawia historię wyników gracza."
 msgid ""
 "You need more than one game session recorded to see the score evolution."
 msgstr ""
-"Należy rozegrać więcej niż jedną sesję gry, aby rozpocząć obserwowanie "
-"wyników."
+"Należy rozegrać więcej niż jedną sesję, aby rozpocząć obserwowanie wyników."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:52
 #, csharp-format
@@ -2622,13 +2629,11 @@ msgid "It is built using the results of {0} recorded game session."
 msgid_plural ""
 "It is built using the results of the last {0} recorded game sessions."
 msgstr[0] ""
-"Wygenerowano go korzystając z wyniku ostatniej {0} zarejestrowanej sesji gry."
+"Wygenerowano go korzystając z wyniku ostatniej {0} zarejestrowanej sesji."
 msgstr[1] ""
-"Wygenerowano go korzystając z wyników ostatnich {0} zarejestrowanych sesji "
-"gry."
+"Wygenerowano go korzystając z wyników ostatnich {0} zarejestrowanych sesji."
 msgstr[2] ""
-"Wygenerowano go korzystając z wyników ostatnich {0} zarejestrowanych sesji "
-"gry."
+"Wygenerowano go korzystając z wyników ostatnich {0} zarejestrowanych sesji."
 
 #. Translators: "The graph below" +  "It is built using" sentences
 #. Translators: answer + rationale of the answer
@@ -2655,7 +2660,7 @@ msgstr "Historia rozegranych gier zostanie usunięta."
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
-msgstr "Zostanie usunięta historia poprzednich sesji gry. Kontynuować?"
+msgstr "Zostanie usunięta historia poprzednich sesji. Kontynuować?"
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "_Delete"
@@ -2841,7 +2846,7 @@ msgstr ""
 
 #: ../src/Clients/Classical/gbrainy.cs:524
 msgid "The level of translation of gbrainy for your language is low."
-msgstr "Tłumaczenie programu dla bieżącego języka jest niekompletne."
+msgstr "Tłumaczenie gry dla bieżącego języka jest niepełne."
 
 #: ../src/Clients/Classical/gbrainy.cs:525
 msgid ""
@@ -2851,7 +2856,7 @@ msgid ""
 msgstr ""
 "Możliwe jest napotkanie częściowo przetłumaczonych zadań, co może utrudnić "
 "ich rozwiązywanie. Aby zmienić język na angielski, proszę użyć odpowiedniej "
-"opcji znajdującej się w oknie preferencji programu."
+"opcji znajdującej się w oknie preferencji gry."
 
 #: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:141
@@ -2909,7 +2914,7 @@ msgstr "_Zakończ grę"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Eksportuj do pliku PDF…"
+msgstr "Wyeksportuj do pliku PDF…"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -2953,7 +2958,7 @@ msgstr "_Spis treści"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:25
 msgid "How to Extend gbrainy's Functionality"
-msgstr "Jak rozszerzyć funkcjonalność Łamigłówki"
+msgstr "Jak rozszerzyć funkcjonalność gry"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:26
 msgid "Answer:"
@@ -3431,7 +3436,7 @@ msgstr ""
 
 #: ../src/Core/Main/GameTips.cs:69
 msgid "Play on a daily basis, you will notice progress soon."
-msgstr "Graj każdego dnia, wkrótce zauważysz postęp."
+msgstr "Graj każdego dnia, a wkrótce zauważysz postęp."
 
 #. Translators: Custom Game Selection is a menu option
 #: ../src/Core/Main/GameTips.cs:71
@@ -3694,15 +3699,14 @@ msgstr "Analogie słowne. Sprawdzają zasób słownictwa."
 #: ../src/Core/Views/WelcomeView.cs:141
 #, csharp-format
 msgid "Welcome to gbrainy {0}"
-msgstr "Witamy w programie Łamigłówka {0}"
+msgstr "Witamy w grze gbrainy {0}"
 
 #: ../src/Core/Views/WelcomeView.cs:145
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
 msgstr ""
-"Łamigłówka jest grą zapewniającą zabawę, trening oraz ćwiczenia dla umysłu. "
-"Obejmuje ona:"
+"Jest to gra zapewniająca zabawę, trening oraz ćwiczenia dla umysłu. Zawiera:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:39
 msgid "Arithmetical operations"

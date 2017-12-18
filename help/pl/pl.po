@@ -1,0 +1,1068 @@
+# Polish translation for gbrainy help.
+# Copyright © 2017 the gbrainy authors.
+# This file is distributed under the same license as the gbrainy help.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017.
+# Aviary.pl <community-poland@mozilla.org>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gbrainy-help\n"
+"POT-Creation-Date: 2017-12-17 16:28+0000\n"
+"PO-Revision-Date: 2017-12-18 04:55+0100\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Piotr Drąg <piotrdrag@gmail.com>, 2017\n"
+"Aviary.pl <community-poland@mozilla.org>, 2017"
+
+#. (itstool) path: info/desc
+#: C/customgame.page:9
+msgid "Start a custom games selection."
+msgstr "Włączanie własnego wyboru zadań."
+
+#. (itstool) path: credit/name
+#: C/customgame.page:12 C/pause.page:12 C/tips.page:12 C/difficulty.page:12
+#: C/history.page:9 C/multiplayer.page:11 C/score.page:11 C/gameplay.page:12
+#: C/index.page:15 C/newgame.page:14 C/times.page:11 C/export.page:10
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#. (itstool) path: license/p
+#: C/customgame.page:16 C/gametypes.page:13 C/pause.page:16 C/tips.page:16
+#: C/difficulty.page:16 C/history.page:13 C/multiplayer.page:15 C/score.page:15
+#: C/gameplay.page:16 C/index.page:19 C/newgame.page:18 C/times.page:15
+#: C/export.page:14
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/customgame.page:20
+msgid "Custom games selection"
+msgstr "Własny wybór zadań"
+
+#. (itstool) path: page/p
+#: C/customgame.page:21
+msgid ""
+"It is possible to play a custom selection of all the games in <app>gbrainy</"
+"app>."
+msgstr ""
+"Można samodzielnie wybrać zadania do rozwiązania w grze <app>gbrainy</app>."
+
+#. (itstool) path: page/p
+#: C/customgame.page:24
+msgid "To do so, proceed as follows:"
+msgstr "Aby to zrobić:"
+
+#. (itstool) path: item/p
+#: C/customgame.page:29
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
+"Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Gra</gui><gui style=\"menuitem\">Nowa</"
+"gui> <gui style=\"menuitem\">Własny wybór…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/customgame.page:35
+msgid ""
+"In the <gui>Custom Game</gui> dialog, select the games that you would like "
+"to play by clicking on the check box next to the name of the game."
+msgstr ""
+"W oknie <gui>Wybór zadań</gui> wybierz zadania do rozwiązania klikając pole "
+"wyboru obok nazwy zadania."
+
+#. (itstool) path: item/p
+#: C/customgame.page:41
+msgid ""
+"Once you are done, click on <gui style=\"button\">Start</gui> to start "
+"playing your custom games selection."
+msgstr ""
+"Po ukończeniu kliknij przycisk <gui style=\"button\">Rozpocznij</gui>, aby "
+"zacząć rozwiązywanie wybranych zadań."
+
+#. (itstool) path: info/title
+#: C/gametypes.page:6
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#. (itstool) path: info/desc
+#: C/gametypes.page:7
+msgid "What types of game you can play."
+msgstr "Jakie rodzaje zadań można rozwiązywać."
+
+#. (itstool) path: page/title
+#: C/gametypes.page:16
+msgid "Game types"
+msgstr "Rodzaje zadań"
+
+#. (itstool) path: page/p
+#: C/gametypes.page:18
+msgid "<app>gbrainy</app> provides the following types of games:"
+msgstr "<app>gbrainy</app> zawiera te rodzaje zadań:"
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:27 C/score.page:39
+msgid "Logic puzzles"
+msgstr "Łamigłówki logiczne"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:28
+msgid ""
+"Games designed to challenge your reasoning and thinking skills. These games "
+"are based on sequences of elements, visual and spatial reasoning or "
+"relationships between elements."
+msgstr ""
+"Zadania zaprojektowane do sprawdzania umiejętności dedukcji i myślenia. Są "
+"one oparte na sekwencjach elementów, dedukcji wizualnej i przestrzennej oraz "
+"związkach między elementami."
+
+#. (itstool) path: item/title
+#: C/gametypes.page:48
+msgid "Mental calculations"
+msgstr "Zadania obliczeniowe"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:49
+msgid ""
+"Games based on arithmetical operations designed to improve your mental "
+"calculation skills. Games that require the player to use multiplication, "
+"division, addition and subtraction combined in different ways."
+msgstr ""
+"Zadania oparte na działaniach arytmetycznych, zaprojektowane do treningu "
+"umiejętności liczenia. Wymagają zastosowania mnożenia, dzielenia, dodawania "
+"i odejmowania w różnych połączeniach."
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:69 C/score.page:51
+msgid "Memory trainers"
+msgstr "Zadania pamięciowe"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:70
+msgid ""
+"Games designed to challenge your short-term memory. These games show "
+"collections of objects and ask the player to recall them, sometimes "
+"establishing relationships between figures, words, numbers or colors."
+msgstr ""
+"Zadania zaprojektowane do sprawdzania pamięci krótkotrwałej. Pokazują one "
+"zbiory obiektów i pytają gracza o przypomnienie sobie ich, czasami "
+"ustanawiając związki między ilustracjami, słowami, cyframi i kolorami."
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:90 C/score.page:57
+msgid "Verbal analogies"
+msgstr "Zadania słowne"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:91
+msgid ""
+"Games that challenge your verbal aptitude. These games ask the player to "
+"identify cause and effect, use synonyms or antonyms, and use their "
+"vocabulary."
+msgstr ""
+"Zadania sprawdzające zasób słownictwa. Proszą one o identyfikowanie związków "
+"przyczynowo-skutkowych, używanie synonimów lub antonimów i słownictwa."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Informacje prawne."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Licencja"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Na warunkach licencji Creative Commons Attribution-Share Alike 3.0 Unported."
+
+#. (itstool) path: page/p
+#: C/license.page:18
+msgid "You are free:"
+msgstr "Można:"
+
+#. (itstool) path: item/title
+#: C/license.page:23
+msgid "To share"
+msgstr "dzielić się"
+
+#. (itstool) path: item/p
+#: C/license.page:24
+msgid "To copy, distribute and transmit the work."
+msgstr ", czyli kopiować, rozpowszechniać, odtwarzać i wykonywać utwór."
+
+#. (itstool) path: item/title
+#: C/license.page:27
+msgid "To remix"
+msgstr "remiksować"
+
+#. (itstool) path: item/p
+#: C/license.page:28
+msgid "To adapt the work."
+msgstr ", czyli tworzyć utwory zależne."
+
+#. (itstool) path: page/p
+#: C/license.page:31
+msgid "Under the following conditions:"
+msgstr "Na następujących warunkach:"
+
+#. (itstool) path: item/title
+#: C/license.page:36
+msgid "Attribution"
+msgstr "Uznanie autorstwa"
+
+#. (itstool) path: item/p
+#: C/license.page:37
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Utwór należy oznaczyć w sposób określony przez Twórcę lub Licencjodawcę."
+
+#. (itstool) path: item/title
+#: C/license.page:44
+msgid "Share Alike"
+msgstr "Na tych samych warunkach"
+
+#. (itstool) path: item/p
+#: C/license.page:45
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Zmieniając utwór, przekształcając go lub tworząc na jego podstawie, wolno "
+"rozpowszechniać powstały utwór zależny jedynie na tej samej, podobnej lub "
+"zgodnej licencji."
+
+#. (itstool) path: page/p
+#: C/license.page:51
+msgid ""
+"For the full text of the license, see the <link href=\"https://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Pełny tekst licencji dostępny jest na stronie <link href=\"https://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">Creative Commons</link>; "
+"można również przeczytać <link href=\"https://creativecommons.org/licenses/"
+"by-sa/3.0/\">podsumowanie</link>."
+
+#. (itstool) path: info/title
+#: C/pause.page:6
+msgctxt "sort"
+msgid "4"
+msgstr "4"
+
+#. (itstool) path: info/desc
+#: C/pause.page:9
+msgid "How to pause or end a game."
+msgstr "Jak wstrzymać lub zakończyć grę."
+
+#. (itstool) path: page/title
+#: C/pause.page:20
+msgid "Pause/End a game"
+msgstr "Wstrzymywanie/kończenie gry"
+
+#. (itstool) path: section/title
+#: C/pause.page:23
+msgid "Pause and resume a game"
+msgstr "Wstrzymywanie i wznawianie gry"
+
+#. (itstool) path: section/p
+#: C/pause.page:24
+msgid ""
+"To pause a game so that you can resume it at the same point at a later time, "
+"perform one of the following:"
+msgstr "Aby wstrzymać grę, wykonaj jedno z tych działań:"
+
+#. (itstool) path: item/p
+#: C/pause.page:30 C/pause.page:45
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Pause "
+"Game</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Gra</gui><gui style=\"menuitem"
+"\">Wstrzymaj</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pause.page:35
+msgid "Click on the <gui style=\"button\">Pause</gui> button in the toolbar."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Wstrzymaj</gui> na pasku narzędziowym."
+
+#. (itstool) path: section/p
+#: C/pause.page:40
+msgid ""
+"In order to resume the game after you paused it, perform one of the "
+"following:"
+msgstr "Aby wznowić wstrzymaną grę, wykonaj jedno z tych działań:"
+
+#. (itstool) path: item/p
+#: C/pause.page:50
+msgid "Click on the <gui style=\"button\">Resume</gui> button in the toolbar."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Wznów</gui> na pasku narzędziowym."
+
+#. (itstool) path: section/title
+#: C/pause.page:58
+msgid "End a game"
+msgstr "Kończenie gry"
+
+#. (itstool) path: section/p
+#: C/pause.page:59
+msgid "To end a game, perform one of the following:"
+msgstr "Aby zakończyć grę, wykonaj jedno z tych działań:"
+
+#. (itstool) path: item/p
+#: C/pause.page:64
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">End "
+"Game</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Gra</gui><gui style=\"menuitem\">Zakończ "
+"grę</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pause.page:69
+msgid "Click on the <gui style=\"button\">End</gui> button in the toolbar."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Zakończ</gui> na pasku narzędziowym."
+
+#. (itstool) path: info/desc
+#: C/tips.page:8
+msgid "Use the tips to solve a puzzle."
+msgstr "Korzystanie ze wskazówek, aby rozwiązać łamigłówkę."
+
+#. (itstool) path: page/title
+#: C/tips.page:20
+msgid "Tips"
+msgstr "Wskazówki"
+
+#. (itstool) path: page/p
+#: C/tips.page:21
+msgid ""
+"With some of the games you can play, it is possible to get simple tips that "
+"can help you to solve the problem."
+msgstr ""
+"Dla niektórych zadań dostępne są proste wskazówki, które mogą pomóc je "
+"rozwiązać."
+
+#. (itstool) path: page/p
+#: C/tips.page:25
+msgid ""
+"When playing a game, click on the <gui style=\"button\">Tip</gui> button at "
+"the bottom of the window (next to the <gui style=\"input\">Answer</gui> text "
+"entry)."
+msgstr ""
+"Podczas gry kliknij przycisk <gui style=\"button\">Wskazówka</gui> na dole "
+"okna (obok pola tekstowego <gui style=\"input\">Odpowiedź</gui>)."
+
+#. (itstool) path: note/p
+#: C/tips.page:29
+msgid "This feature is not available for some of the games."
+msgstr "Ta funkcja jest dostępna tylko dla części zadań."
+
+#. (itstool) path: info/title
+#: C/difficulty.page:6
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: info/desc
+#: C/difficulty.page:8
+msgid "Change the difficulty level of the games."
+msgstr "Zmiana poziomu trudności zadań."
+
+#. (itstool) path: page/title
+#: C/difficulty.page:20
+msgid "Difficulty levels"
+msgstr "Poziomy trudności"
+
+#. (itstool) path: page/p
+#: C/difficulty.page:21
+msgid "To change the difficulty level of the game, proceed as follows:"
+msgstr "Aby zmienić poziom trudności gry:"
+
+#. (itstool) path: item/p
+#: C/difficulty.page:26 C/times.page:26
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem"
+"\">Preferences</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Ustawienia</gui><gui style=\"menuitem"
+"\">Preferencje</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/difficulty.page:31
+msgid "In the <gui>Difficulty Level</gui> section, select the desired level."
+msgstr "W sekcji <gui>Poziom trudności</gui> wybierz odpowiedni poziom."
+
+#. (itstool) path: item/p
+#: C/difficulty.page:34
+msgid ""
+"You can choose from three different levels: <gui style=\"radiobutton\">Easy</"
+"gui>, <gui style=\"radiobutton\">Medium</gui>, and <gui style=\"radiobutton"
+"\">Master</gui>. The default level is <gui style=\"radiobutton\">Medium</"
+"gui>."
+msgstr ""
+"Można wybrać jeden z trzech poziomów trudności: <gui style=\"radiobutton"
+"\">Łatwy</gui>, <gui style=\"radiobutton\">Średni</gui>, and <gui style="
+"\"radiobutton\">Zaawansowany</gui>. Domyślny poziom to <gui style="
+"\"radiobutton\">Średni</gui>."
+
+#. (itstool) path: info/desc
+#: C/history.page:6
+msgid "Access your personal game history."
+msgstr "Dostęp do historii rozegranych gier."
+
+#. (itstool) path: page/title
+#: C/history.page:17
+msgid "Personal game history"
+msgstr "Historia rozegranych gier"
+
+#. (itstool) path: page/p
+#: C/history.page:19
+msgid ""
+"The <gui>Player's Game History</gui> dialog shows your performance in every "
+"game type during the last few game sessions."
+msgstr ""
+"Okno <gui>Historia rozegranych gier</gui> pokazuje wyniki gracza w każdym "
+"rodzaju zadań przez kilka ostatnich sesji."
+
+#. (itstool) path: section/title
+#: C/history.page:25
+msgid "View the games history"
+msgstr "Wyświetlanie historii rozegranych gier"
+
+#. (itstool) path: section/p
+#: C/history.page:26
+msgid ""
+"To access your personal game history, choose <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
+msgstr ""
+"Aby wyświetlić historię rozegranych gier, wybierz <guiseq><gui style=\"menu"
+"\">Widok</gui> <gui style=\"menuitem\">Historia rozegranych gier</gui></"
+"guiseq>."
+
+#. (itstool) path: section/title
+#: C/history.page:33
+msgid "Select which results to show"
+msgstr "Wybór wyników do wyświetlania"
+
+#. (itstool) path: section/p
+#: C/history.page:34
+msgid ""
+"To select the results that will be shown in the graphic, use the different "
+"check boxes located under the graph."
+msgstr "Aby wybrać wyświetlane wyniki, użyj różnych pól wyboru pod wykresem."
+
+#. (itstool) path: section/title
+#: C/history.page:41
+msgid "Change the number of saved games"
+msgstr "Zmiana liczby zapisanych gier"
+
+#. (itstool) path: section/p
+#: C/history.page:42
+msgid ""
+"<app>gbrainy</app> saves the player's scores so it can track how they evolve."
+msgstr ""
+"<app>gbrainy</app> zapisuje wyniki gracza, aby można było obserwować ich "
+"rozwój."
+
+#. (itstool) path: section/p
+#: C/history.page:45
+msgid ""
+"In order to change the number of sessions recorded or how many games will be "
+"stored in the history, proceed as follows:"
+msgstr ""
+"Aby zmienić liczbę zapisywanych sesji lub ile gier przechowywać w historii:"
+
+#. (itstool) path: item/p
+#: C/history.page:51
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem\"> "
+"Preferences</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Ustawienia</gui><gui style=\"menuitem"
+"\">Preferencje</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/history.page:57
+msgid "In the <gui>Player's Game History</gui> section:"
+msgstr "W sekcji <gui>Historia rozegranych gier</gui>:"
+
+#. (itstool) path: item/p
+#: C/history.page:62
+msgid ""
+"Use the first spin box to change how many game sessions need to be recorded "
+"before you can start to see the results in the history graphic."
+msgstr ""
+"Użyj pierwszego pola, aby zmienić liczbę sesji nagrywanych, zanim wyniki "
+"będą widoczne na wykresie."
+
+#. (itstool) path: item/p
+#: C/history.page:68
+msgid ""
+"Use the second spin box to change how many game sessions will be shown in "
+"the history graphic."
+msgstr ""
+"Użyj drugiego pola, aby zmienić liczbę sesji wyświetlanych na wykresie."
+
+#. (itstool) path: info/desc
+#: C/multiplayer.page:7
+msgid "How to play with other people."
+msgstr "Jak grać z innymi."
+
+#. (itstool) path: page/title
+#: C/multiplayer.page:19
+msgid "Play with other people"
+msgstr "Gra wieloosobowa"
+
+#. (itstool) path: page/p
+#: C/multiplayer.page:21
+msgid ""
+"It is not possible to play against other people over the Internet or a local "
+"network with <app>gbrainy</app>."
+msgstr ""
+"Gra przeciwko innym osobom przez Internet lub sieć lokalną nie jest możliwa."
+
+#. (itstool) path: info/desc
+#: C/score.page:8
+msgid "How the player scores are calculated."
+msgstr "Jak obliczane są wyniki."
+
+#. (itstool) path: page/title
+#: C/score.page:19
+msgid "Game score and timings"
+msgstr "Wyniki punktowe i czasowe"
+
+#. (itstool) path: page/p
+#: C/score.page:20
+msgid "If you answer a puzzle incorrectly, you will not get any score for it."
+msgstr "Niewłaściwa odpowiedź nie daje żadnych punktów."
+
+#. (itstool) path: page/p
+#: C/score.page:23
+msgid ""
+"If you answer a puzzle correctly, you will get a score which depends on the "
+"time taken to resolve the problem and whether you used the tip during the "
+"game."
+msgstr ""
+"Właściwa odpowiedź daje punkty, których liczba zależy od czasu rozwiązywania "
+"problemu i czy skorzystano ze wskazówki."
+
+#. (itstool) path: page/p
+#: C/score.page:27
+msgid ""
+"The following table summarizes the different game durations (in seconds) "
+"based on the difficulty level."
+msgstr ""
+"Poniższa tabela podsumowuje różne czasy gry (w sekundach) na podstawie "
+"poziomu trudności."
+
+#. (itstool) path: td/p
+#: C/score.page:34
+msgid "Easy"
+msgstr "Łatwy"
+
+#. (itstool) path: td/p
+#: C/score.page:35
+msgid "Medium"
+msgstr "Średni"
+
+#. (itstool) path: td/p
+#: C/score.page:36
+msgid "Master"
+msgstr "Zaawansowany"
+
+#. (itstool) path: td/p
+#: C/score.page:40
+msgid "156"
+msgstr "156"
+
+#. (itstool) path: td/p
+#: C/score.page:41
+msgid "120"
+msgstr "120"
+
+#. (itstool) path: td/p
+#: C/score.page:42
+msgid "110"
+msgstr "110"
+
+#. (itstool) path: td/p
+#: C/score.page:45
+msgid "Mental calculation"
+msgstr "Zadanie obliczeniowe"
+
+#. (itstool) path: td/p
+#: C/score.page:46
+msgid "78"
+msgstr "78"
+
+#. (itstool) path: td/p
+#: C/score.page:47
+msgid "60"
+msgstr "60"
+
+#. (itstool) path: td/p
+#: C/score.page:48
+msgid "55"
+msgstr "55"
+
+#. (itstool) path: td/p
+#: C/score.page:52 C/score.page:58
+msgid "39"
+msgstr "39"
+
+#. (itstool) path: td/p
+#: C/score.page:53 C/score.page:59
+msgid "30"
+msgstr "30"
+
+#. (itstool) path: td/p
+#: C/score.page:54 C/score.page:60
+msgid "27"
+msgstr "27"
+
+#. (itstool) path: page/p
+#: C/score.page:63
+msgid ""
+"With the expected time for the chosen difficulty level and the time you take "
+"to complete the game, the following logic is applied:"
+msgstr ""
+"Za pomocą spodziewanego czasu dla wybranego poziomu trudności i czasu, jaki "
+"zajęło ukończenie zadania, stosowane są te reguły:"
+
+#. (itstool) path: item/p
+#: C/score.page:69
+msgid ""
+"If you take less than the time expected to complete the game, you score 10 "
+"points."
+msgstr "Ukończenie zadania w krótszym czasie niż spodziewano daje 10 punktów."
+
+#. (itstool) path: item/p
+#: C/score.page:74
+msgid ""
+"If you take more than the time expected to complete the game, you score 8 "
+"points."
+msgstr "Ukończenie zadania w dłuższym czasie niż spodziewano daje 8 punktów."
+
+#. (itstool) path: item/p
+#: C/score.page:79
+msgid ""
+"If you take more than 2x the time expected to complete the game, you score 7 "
+"points."
+msgstr ""
+"Ukończenie zadania w dwa razy dłuższym czasie niż spodziewano daje 7 punktów."
+
+#. (itstool) path: item/p
+#: C/score.page:85
+msgid ""
+"If you take more than 3x the time expected to complete the game, you score 6 "
+"points."
+msgstr ""
+"Ukończenie zadania w trzy razy dłuższym czasie niż spodziewano daje 6 "
+"punktów."
+
+#. (itstool) path: item/p
+#: C/score.page:91
+msgid "If you use a tip, you score only the 80% of the original score."
+msgstr "Skorzystanie ze wskazówki odejmuje 20% punktów."
+
+#. (itstool) path: section/title
+#: C/score.page:98
+msgid "Computing the totals"
+msgstr "Obliczanie sum"
+
+#. (itstool) path: section/p
+#: C/score.page:99
+msgid ""
+"<app>gbrainy</app> keeps track of the different games types played. To "
+"compute the final score of every set of game types it sums all the results "
+"of the same game types played and then applies a factor based on: the "
+"logarithm of 10 for the easy level; on the logarithm of 20 for the medium "
+"level; and on the logarithm of 30 for the master level."
+msgstr ""
+"<app>gbrainy</app> zapisuje różne rodzaje rozegranych gier. Aby obliczyć "
+"wynik końcowy każdego zestawu rodzajów gier, dodaje do siebie wszystkie "
+"wyniki tych samych rodzajów gier, a następnie mnoży na podstawie logarytmu "
+"10 dla łatwego poziomu, 20 dla średniego i 30 dla zaawansowanego."
+
+#. (itstool) path: section/p
+#: C/score.page:106
+msgid ""
+"This means that when playing at medium difficulty level, to get a score of "
+"100 points you need to score 10 points on at least 20 games of every game "
+"type played."
+msgstr ""
+"Oznacza to, że grając na średnim poziomie trudności, aby zdobyć 100 punktów "
+"potrzeba 10 punktów z co najmniej 20 zadań każdego rodzaju zadań."
+
+#. (itstool) path: section/p
+#: C/score.page:110
+msgid ""
+"This may sound challenging, but it allows players to compare game scores "
+"from different sessions (in the player's game history) and allows better "
+"tracking of the progression of the player through all of the games played."
+msgstr ""
+"Może to się wydawać trudne, ale umożliwia graczom porównywanie wyników "
+"z różnych sesji (w historii rozegranych gier) i umożliwia lepsze śledzenie "
+"postępów gracza przez wszystkie rozegrane gry."
+
+#. (itstool) path: info/desc
+#: C/gameplay.page:7
+msgid "Introduction to <app>gbrainy</app>."
+msgstr "Wprowadzenie do gry <app>gbrainy</app>."
+
+#. (itstool) path: page/title
+#: C/gameplay.page:20
+msgid "Gameplay"
+msgstr "Rozgrywka"
+
+#. (itstool) path: page/p
+#: C/gameplay.page:22
+msgid ""
+"<app>gbrainy</app> is a brain teaser game; the aim of the game is to have "
+"fun and keep your brain trained."
+msgstr ""
+"<app>gbrainy</app> to gra zapewniająca zabawę, trening oraz ćwiczenia dla "
+"umysłu."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:26
+msgid ""
+"It features different game types like logic puzzles, mental calculation "
+"games, memory trainers and verbal analogies, designed to test different "
+"cognitive skills."
+msgstr ""
+"Zawiera różne rodzaje zadań: łamigłówki logiczne, zadania obliczeniowe, "
+"pamięciowe i słowne, zaprojektowane do testowania różnych umiejętności "
+"poznawczych."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:30
+msgid ""
+"You can choose different difficulty levels making <app>gbrainy</app> "
+"enjoyable for kids, adults or senior citizens. It also features a game "
+"history, personal records, tips and fullscreen mode support. <app>gbrainy</"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"\">extended</link> easily with new games developed by third parties."
+msgstr ""
+"Można wybierać różne poziomy trudności, aby gra była przyjemna dla dzieci, "
+"dorosłych i osób starszych. Zawiera także historię gier, osobiste rekordy, "
+"wskazówki i tryb pełnoekranowy. <app>gbrainy</app> można także łatwo <link "
+"href=\"https://wiki.gnome.org/Apps/gbrainy/Extending\">rozszerzać</link>, "
+"dodając nowe zadania napisane przez osoby trzecie."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:37
+msgid ""
+"<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
+"ranging from classic puzzles from ancient times to more recent works like "
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
+"_Brain\">Dr. Brain</link> game."
+msgstr ""
+"<app>gbrainy</app> mocno korzysta z pracy mistrzów łamigłówek, od "
+"klasycznych gier z czasów starożytnych do nowszych, takich jak łamigłówki "
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry’ego "
+"Stickelsa</link> czy klasyczna gra <link href=\"https://en.wikipedia.org/"
+"wiki/Dr._Brain\">Dr Brain</link>."
+
+#. (itstool) path: note/p
+#: C/gameplay.page:45
+msgid ""
+"There have been recent discussions in the scientific community regarding "
+"whether brain training software improves cognitive performance. Most of the "
+"studies show that there is little or no improvement, but that doesn't mean "
+"you can't have a good time playing games like <app>gbrainy</app>!"
+msgstr ""
+"Fakt, czy oprogramowanie do treningu umysłu zwiększa umiejętności poznawcze "
+"budzi kontrowersje w środowisku naukowym. Większość badań wskazuje, że efekt "
+"jest niski lub nawet nie istnieje, ale nie znaczy to, że nie można się "
+"dobrze bawić grając w <app>gbrainy</app>!"
+
+#. (itstool) path: info/title
+#: C/index.page:8 C/index.page:12
+msgctxt "link"
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#. (itstool) path: info/desc
+#: C/index.page:13
+msgid "The <app>gbrainy</app> help."
+msgstr "Pomoc gry <app>gbrainy</app>."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> gbrainy"
+msgstr "<_:media-1/> gbrainy"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Basic Gameplay &amp; Usage"
+msgstr "Podstawy rozgrywki"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Multiplayer Game"
+msgstr "Gra wieloosobowa"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Tips &amp; Tricks"
+msgstr "Wskazówki"
+
+#. (itstool) path: info/title
+#: C/newgame.page:7
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#. (itstool) path: info/desc
+#: C/newgame.page:10
+msgid "Start and play a game."
+msgstr "Rozpoczynanie gry."
+
+#. (itstool) path: page/title
+#: C/newgame.page:22
+msgid "Game session"
+msgstr "Sesja"
+
+#. (itstool) path: section/title
+#: C/newgame.page:25
+msgid "Start a new session"
+msgstr "Rozpoczynanie nowej sesji"
+
+#. (itstool) path: section/p
+#: C/newgame.page:26
+msgid "To start a new game, do one of the following:"
+msgstr "Aby rozpocząć nową grę, wykonaj jedno z tych działań:"
+
+#. (itstool) path: item/p
+#: C/newgame.page:31
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
+"Game</gui></guiseq>, and select the type of game to play."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Gra</gui><gui style=\"menuitem\">Nowa</"
+"gui></guiseq> i wybierz rodzaj zadań."
+
+#. (itstool) path: item/p
+#: C/newgame.page:37
+msgid "Click on one of the buttons in the toolbar."
+msgstr "Kliknij jeden z przycisków na pasku narzędziowym."
+
+#. (itstool) path: section/p
+#: C/newgame.page:42
+msgid "The toolbar buttons have the following meanings:"
+msgstr "Dostępne przyciski na pasku narzędziowym:"
+
+#. (itstool) path: item/title
+#: C/newgame.page:50
+msgid "All"
+msgstr "Wszystkie"
+
+#. (itstool) path: item/p
+#: C/newgame.page:51
+msgid "Starts a new game playing all the available game types."
+msgstr "Rozpoczyna nową grę ze wszystkimi rodzajami zadań."
+
+#. (itstool) path: item/title
+#: C/newgame.page:69
+msgid "Logic"
+msgstr "Logiczne"
+
+#. (itstool) path: item/p
+#: C/newgame.page:70
+msgid "Start a new game playing only logic games."
+msgstr "Rozpoczyna nową grę tylko z zadaniami logicznymi."
+
+#. (itstool) path: item/title
+#: C/newgame.page:88
+msgid "Calculation"
+msgstr "Obliczeniowe"
+
+#. (itstool) path: item/p
+#: C/newgame.page:89
+msgid "Starts a new game playing only calculation games."
+msgstr "Rozpoczyna nową grę tylko z zadaniami obliczeniowymi."
+
+#. (itstool) path: item/title
+#: C/newgame.page:107
+msgid "Memory"
+msgstr "Pamięciowe"
+
+#. (itstool) path: item/p
+#: C/newgame.page:108
+msgid "Starts a new game playing only memory games."
+msgstr "Rozpoczyna nową grę tylko z zadaniami pamięciowymi."
+
+#. (itstool) path: item/title
+#: C/newgame.page:126
+msgid "Verbal"
+msgstr "Słowne"
+
+#. (itstool) path: item/p
+#: C/newgame.page:127
+msgid "Starts a new game playing only verbal analogy games."
+msgstr "Rozpoczyna nową grę tylko z zadaniami słownymi."
+
+#. (itstool) path: note/p
+#: C/newgame.page:143
+msgid ""
+"These descriptions also apply to the game types that you can select from the "
+"<gui style=\"menu\">Game</gui> menu."
+msgstr ""
+"Te opisy mają zastosowanie tylko do rodzajów zadań, które można wybrać "
+"z menu <gui style=\"menu\">Gra</gui>."
+
+#. (itstool) path: section/title
+#: C/newgame.page:150
+msgid "Play a session"
+msgstr "Rozgrywanie sesji"
+
+#. (itstool) path: note/p
+#: C/newgame.page:152
+msgid "When you play a game, always read the instructions carefully!"
+msgstr "Podczas gry zawsze uważnie czytaj instrukcje!"
+
+#. (itstool) path: section/p
+#: C/newgame.page:156
+msgid ""
+"The game session begins by showing you the problem and then asking for the "
+"answer. At the bottom of the window is the main set of controls that you can "
+"use to interact with the game."
+msgstr ""
+"Sesja zaczyna się wyświetlając problem i prosząc o odpowiedź. Na dole okna "
+"znajduje się główny zestaw elementów sterujących."
+
+#. (itstool) path: section/p
+#: C/newgame.page:160
+msgid ""
+"Once you know the answer to the problem, type it in the <gui style=\"input"
+"\">Answer</gui> text entry and press <gui style=\"button\">OK</gui>."
+msgstr ""
+"Wpisz odpowiedź w polu tekstowym <gui style=\"input\">Odpowiedź</gui> "
+"i kliknij przycisk <gui style=\"button\">OK</gui>."
+
+#. (itstool) path: section/p
+#: C/newgame.page:164
+msgid "To proceed to the next game, click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Aby przejść do następnej gry, kliknij przycisk <gui style=\"button"
+"\">Następna</gui>."
+
+#. (itstool) path: note/p
+#: C/newgame.page:168
+msgid ""
+"If you click <gui style=\"button\">Next</gui> before completing the game, or "
+"without providing an answer, that game will be counted in your results."
+msgstr ""
+"Kliknięcie przycisku <gui style=\"button\">Następna</gui> przed ukończeniem "
+"zadania lub bez podania odpowiedzi spowoduje dodanie tego zadania do wyników."
+
+#. (itstool) path: info/desc
+#: C/times.page:7
+msgid "Change the challenge presentation time in memory games."
+msgstr "Zmiana czasu wyświetlania zadań pamięciowych."
+
+#. (itstool) path: page/title
+#: C/times.page:19
+msgid "Change the challenge duration"
+msgstr "Zmiana czasu trwania zadań"
+
+#. (itstool) path: page/p
+#: C/times.page:20
+msgid ""
+"To change the number of seconds you are given to memorize the challenge when "
+"playing memory games, proceed as follows:"
+msgstr "Aby zmienić liczbę sekund na zapamiętanie zadania pamięciowego:"
+
+#. (itstool) path: item/p
+#: C/times.page:31
+msgid ""
+"In the <gui>Memory Games</gui> section, use the spin box to increase or "
+"decrease the number of seconds that the challenge will be visible for."
+msgstr ""
+"W sekcji <gui>Zadania pamięciowe</gui> użyj pola, aby zwiększyć lub "
+"zmniejszyć liczbę sekund, przez jakie zadanie będzie wyświetlane."
+
+#. (itstool) path: item/p
+#: C/times.page:35
+msgid "The default value is 6 seconds."
+msgstr "Domyślna wartość to 6 sekund."
+
+#. (itstool) path: info/desc
+#: C/export.page:7
+msgid "Export the games for playing off-line."
+msgstr "Eksportowanie zadań do gry bez komputera."
+
+#. (itstool) path: page/title
+#: C/export.page:20
+msgid "Export the games"
+msgstr "Eksportowanie zadań"
+
+#. (itstool) path: page/p
+#: C/export.page:21
+msgid ""
+"It is possible to export and then print the games provided by the app for "
+"playing while not at the computer."
+msgstr ""
+"Można wyeksportować, a następnie wydrukować zadania do gry bez komputera."
+
+#. (itstool) path: page/p
+#: C/export.page:25
+msgid ""
+"The games will be saved in a <file>PDF</file> file in the selected folder."
+msgstr "Zadania zostaną zapisane w pliku <file>PDF</file> w wybranym katalogu."
+
+#. (itstool) path: page/p
+#: C/export.page:28
+msgid "To export the games:"
+msgstr "Aby wyeksportować gry:"
+
+#. (itstool) path: item/p
+#: C/export.page:33
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Export "
+"Games to PDF for Off-Line Playing</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Gra</gui><gui style=\"menuitem"
+"\">Wyeksportuj do pliku PDF…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/export.page:38
+msgid ""
+"Select the type of games, the difficulty level, and how many games to "
+"export. When done click <gui style=\"button\">Save</gui>."
+msgstr ""
+"Wybierz rodzaje zadań, poziom trudności i liczbę zadań. Następnie kliknij "
+"przycisk <gui style=\"button\">Zapisz</gui>."
