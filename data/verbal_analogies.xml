@@ -437,6 +437,15 @@
 	    <_rationale>Intrinsic means belonging to a thing by its very nature.</_rationale>
 	</analogy>
 
+	<analogy>
+		<_question type = "MultipleOptions">Which of the following words does not belong in this group?</_question>
+		<_answer>Rectangle</_answer>
+		<_answer>Square</_answer>
+		<_answer correct ="yes">Triangle</_answer>
+		<_answer>Rhombus</_answer>
+	    <_rationale>Triangle is the only one that does not have four sides.</_rationale>
+	</analogy>
+
 	<!--- Pair of words options -->
 
 	<analogy>
@@ -638,6 +647,13 @@
 		<_rationale>The first word is the instrument and the second what it measures.</_rationale>
 	</analogy>
 
+	<analogy>
+		<_question type = "PairOfWordsOptions">violin / orchestra | knife</_question>
+		<_answer correct ="yes">Cutlery</_answer>
+		<_answer>Metal</_answer>
+		<_answer>Spoon</_answer>
+		<_answer>Wood</_answer>
+	</analogy>
 
 	<!--- Pair of words compare  -->
 
