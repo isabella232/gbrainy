@@ -1,13 +1,13 @@
 # Brazilian Portuguese translation for gbrainy.
-# Copyright (C) 2016 gbrainy's COPYRIGHT HOLDER
+# Copyright (C) 2018 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2011.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"POT-Creation-Date: 2016-09-21 17:01+0000\n"
-"PO-Revision-Date: 2016-09-26 21:35-0200\n"
+"POT-Creation-Date: 2017-12-17 16:25+0000\n"
+"PO-Revision-Date: 2018-01-27 15:36-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.com>\n"
 "Language: pt_BR\n"
@@ -15,14 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 "Flamarion Jorge <jorge.flamarion@gmail.com>, 2011\n"
-"Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016"
+"Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016, 2018"
 
 #. (itstool) path: info/desc
 #: C/customgame.page:9
@@ -70,8 +70,8 @@ msgid ""
 "Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
 msgstr ""
 "Escolha <guiseq><gui style=\"menu\">Jogo</gui><gui style=\"menuitem\">Novo "
-"jogo</gui><gui style=\"menuitem\">Seleção de jogo "
-"personalizado</gui></guiseq>."
+"jogo</gui><gui style=\"menuitem\">Seleção de jogo personalizado</gui></"
+"guiseq>."
 
 #. (itstool) path: item/p
 #: C/customgame.page:35
@@ -88,8 +88,8 @@ msgid ""
 "Once you are done, click on <gui style=\"button\">Start</gui> to start "
 "playing your custom games selection."
 msgstr ""
-"Uma vez que você tenha concluído, clique em <gui style=\"button\""
-">Iniciar</gui> para começar a jogar sua seleção de jogos personalizados."
+"Uma vez que você tenha concluído, clique em <gui style=\"button\">Iniciar</"
+"gui> para começar a jogar sua seleção de jogos personalizados."
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
@@ -261,14 +261,19 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/license.page:51
+#| msgid ""
+#| "For the full text of the license, see the <link href=\"http://"
+#| "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons "
+#| "website</link>, or read the full <link href=\"http://creativecommons.org/"
+#| "licenses/by-sa/3.0/\">Commons Deed</link>."
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
 "Para o texto integral da licença, veja o <link href=\""
-"http://creativecommons.org/licenses/by-sa/3.0/legalcode\">site da "
+"https://creativecommons.org/licenses/by-sa/3.0/legalcode\">site da "
 "CreativeCommons</link> ou leia o texto completo em <link href=\""
 "https://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR\">Licença para "
 "leigos</link>."
@@ -384,8 +389,8 @@ msgid ""
 "entry)."
 msgstr ""
 "Ao jogar um jogo, clique no botão <gui style=\"button\">Dica</gui> na parte "
-"inferior da janela (próximo à caixa de entrada de <gui style=\"input\""
-">Resposta</gui>)."
+"inferior da janela (próximo à caixa de entrada de <gui style=\"input"
+"\">Resposta</gui>)."
 
 #. (itstool) path: note/p
 #: C/tips.page:29
@@ -436,10 +441,10 @@ msgid ""
 "\">Master</gui>. The default level is <gui style=\"radiobutton\">Medium</"
 "gui>."
 msgstr ""
-"Você pode escolher entre três níveis diferentes: <gui style=\"radiobutton\""
-">Fácil</gui>, <gui style=\"radiobutton\">Médio</gui> e <gui style=\""
-"radiobutton\">Mestre</gui>. O nível padrão é <gui style=\"radiobutton\""
-">Médio</gui>."
+"Você pode escolher entre três níveis diferentes: <gui style=\"radiobutton"
+"\">Fácil</gui>, <gui style=\"radiobutton\">Médio</gui> e <gui style="
+"\"radiobutton\">Mestre</gui>. O nível padrão é <gui style=\"radiobutton"
+"\">Médio</gui>."
 
 #. (itstool) path: info/desc
 #: C/history.page:6
@@ -471,8 +476,8 @@ msgid ""
 "To access your personal game history, choose <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
 msgstr ""
-"Para acessar seu histórico pessoal de jogos, escolha <guiseq><gui style=\""
-"menu\">Ver</gui><gui style=\"menuitem\">Histórico de partidas dos "
+"Para acessar seu histórico pessoal de jogos, escolha <guiseq><gui style="
+"\"menu\">Ver</gui><gui style=\"menuitem\">Histórico de partidas dos "
 "jogadores</gui></guiseq>."
 
 #. (itstool) path: section/title
@@ -797,27 +802,34 @@ msgid ""
 "app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
-"Você pode escolher diferentes níveis de dificuldade, tornando "
-"<app>gbrainy</app> um divertimento para crianças, adultos ou idosos. Ele "
-"também possui suporte a histórico de jogos, recordes pessoais, dicas e modo "
-"de tela cheia. O <app>gbrainy</app> também pode ser <link href=\""
-"https://wiki.gnome.org/Apps/gbrainy/Extending\">estendido</link> facilmente "
-"com novos jogos desenvolvido por terceiros."
+"Você pode escolher diferentes níveis de dificuldade, tornando <app>gbrainy</"
+"app> um divertimento para crianças, adultos ou idosos. Ele também possui "
+"suporte a histórico de jogos, recordes pessoais, dicas e modo de tela cheia. "
+"O <app>gbrainy</app> também pode ser <link href=\"https://wiki.gnome.org/"
+"Apps/gbrainy/Extending\">estendido</link> facilmente com novos jogos "
+"desenvolvido por terceiros."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
+#| msgid ""
+#| "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
+#| "ranging from classic puzzles from ancient times to more recent works like "
+#| "<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
+#| "Stickels'</link> puzzles or the classic <link href=\"http://en.wikipedia."
+#| "org/wiki/Dr._Brain\">Dr. Brain</link> game."
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "<app>gbrainy</app> depende muito do trabalho de mestres anteriores do quebra-"
 "cabeça, desde quebra-cabeças clássicos de tempos antigos a trabalhos mais "
-"recentes como os quebra-cabeças do <link href=\"http://en.wikipedia.org/wiki/"
-"Terry_Stickels\">Terry Stickels</link> ou o clássico jogo do <link href=\""
-"http://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</link>."
+"recentes como os quebra-cabeças do <link href=\""
+"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels</link> ou o "
+"clássico jogo do <link href=\"https://en.wikipedia.org/wiki/Dr._Brain\">Dr. "
+"Brain</link>."
 
 #. (itstool) path: note/p
 #: C/gameplay.page:45
@@ -1000,8 +1012,8 @@ msgid ""
 "Once you know the answer to the problem, type it in the <gui style=\"input"
 "\">Answer</gui> text entry and press <gui style=\"button\">OK</gui>."
 msgstr ""
-"Uma vez que você saiba a resposta, digite-a na caixa de entrada <gui style=\""
-"input\">Resposta</gui> e pressione <gui style=\"button\">OK</gui>."
+"Uma vez que você saiba a resposta, digite-a na caixa de entrada <gui style="
+"\"input\">Resposta</gui> e pressione <gui style=\"button\">OK</gui>."
 
 #. (itstool) path: section/p
 #: C/newgame.page:164
