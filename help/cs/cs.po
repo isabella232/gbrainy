@@ -1047,7 +1047,7 @@ msgstr "Výchozí hodnota je 6 sekund."
 #. (itstool) path: info/desc
 #: C/export.page:7
 msgid "Export the games for playing off-line."
-msgstr "Export her pro hraní off-line."
+msgstr "Jak exportovat hry pro hraní bez počítače."
 
 #. (itstool) path: page/title
 #: C/export.page:20
