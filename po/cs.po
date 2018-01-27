@@ -2534,7 +2534,7 @@ msgid "translator-credits"
 msgstr ""
 "Jaroslav Ryník (původní slovenský překlad)\n"
 "Lucas Lommer <llommer@svn.gnome.org>, 2009.\n"
-"Marek Černocký <marek@manet.cz>, 2009."
+"Marek Černocký <marek@manet.cz>, 2009 – 2018."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:64
 msgid ""
