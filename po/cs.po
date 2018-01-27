@@ -2202,7 +2202,7 @@ msgstr "chodidlo / dvě | prst"
 #. Translators: referred to 'feet / two | toes'
 #: ../data/verbal_analogies.xml.h:402
 msgid "ten | 10"
-msgstr "deset | 10"
+msgstr "dvacet | 20"
 
 #: ../data/verbal_analogies.xml.h:403
 msgid "fish / aquarium | monkey"
