@@ -1,14 +1,14 @@
 # Hungarian translation for gbrainy_help.
-# Copyright (C) 2011-2016 Free Software Foundation, Inc.
+# Copyright (C) 2011, 2014, 2016, 2018 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2011, 2014.
-# Balázs Úr <urbalazs at gmail dot com>, 2016.
+# Balázs Úr <urbalazs at gmail dot com>, 2016, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy_help master\n"
-"POT-Creation-Date: 2016-07-29 21:05+0000\n"
-"PO-Revision-Date: 2016-08-19 21:54+0200\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-01-28 21:04+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
@@ -19,7 +19,6 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
@@ -67,15 +66,13 @@ msgstr "Ehhez tegye a következőket:"
 
 #. (itstool) path: item/p
 #: C/customgame.page:29
-#| msgid ""
-#| "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
-#| "Game</gui><gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
 "Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
 msgstr ""
 "Válassza a <guiseq><gui style=\"menu\">Játék</gui><gui style=\"menuitem\">Új "
-"játék</gui> <gui style=\"menuitem\">Egyéni kérdések</gui></guiseq> menüpontot."
+"játék</gui> <gui style=\"menuitem\">Egyéni kérdések</gui></guiseq> "
+"menüpontot."
 
 #. (itstool) path: item/p
 #: C/customgame.page:35
@@ -97,7 +94,6 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
-#| msgid "3"
 msgctxt "sort"
 msgid "3"
 msgstr "3"
@@ -211,7 +207,6 @@ msgstr "Jogodban áll:"
 
 #. (itstool) path: item/title
 #: C/license.page:23
-#| msgid "To share"
 msgid "To share"
 msgstr "Megosztani"
 
@@ -222,7 +217,6 @@ msgstr "Másolni, terjeszteni és továbbítani a művet."
 
 #. (itstool) path: item/title
 #: C/license.page:27
-#| msgid "To remix"
 msgid "To remix"
 msgstr "Feldolgozni"
 
@@ -238,7 +232,6 @@ msgstr "A következő feltételek szerint:"
 
 #. (itstool) path: item/title
 #: C/license.page:36
-#| msgid "Attribution"
 msgid "Attribution"
 msgstr "Nevezd meg!"
 
@@ -254,7 +247,6 @@ msgstr ""
 
 #. (itstool) path: item/title
 #: C/license.page:44
-#| msgid "Share Alike"
 msgid "Share Alike"
 msgstr "Így add tovább!"
 
@@ -270,19 +262,18 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/license.page:51
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"A licenc teljes szövegéért lásd a <link href=\"http://creativecommons.org/"
+"A licenc teljes szövegéért lásd a <link href=\"https://creativecommons.org/"
 "licenses/by-sa/3.0/legalcode\">CreativeCommons weboldalát</link>, vagy a "
-"teljes <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Commons "
+"teljes <link href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons "
 "összefoglalót</link>."
 
 #. (itstool) path: info/title
 #: C/pause.page:6
-#| msgid "4"
 msgctxt "sort"
 msgid "4"
 msgstr "4"
@@ -397,7 +388,6 @@ msgstr "Ez a szolgáltatás nem érhető el egyes játékokhoz."
 
 #. (itstool) path: info/title
 #: C/difficulty.page:6
-#| msgid "2"
 msgctxt "sort"
 msgid "2"
 msgstr "2"
@@ -470,16 +460,13 @@ msgstr "A játékelőzmények megjelenítése"
 
 #. (itstool) path: section/p
 #: C/history.page:26
-#| msgid ""
-#| "To access your personal game history, choose <guiseq><gui style=\"menu"
-#| "\">View</gui><gui style=\"menuitem\">Player's Game History</gui></guiseq>."
 msgid ""
 "To access your personal game history, choose <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
 msgstr ""
 "Személyes játékelőzményei megnyitásához válassza a <guiseq><gui style=\"menu"
-"\">Nézet</gui> <gui style=\"menuitem\">Játékos játékelőzményei</gui></guiseq> "
-"menüpontot."
+"\">Nézet</gui> <gui style=\"menuitem\">Játékos játékelőzményei</gui></"
+"guiseq> menüpontot."
 
 #. (itstool) path: section/title
 #: C/history.page:33
@@ -794,29 +781,29 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Több nehézségi szint közül választhat, így a <app>gbrainy</app> egyaránt "
 "élvezhető gyerekek, felnőttek vagy idősek számára is. Tartalmaz "
 "játékelőzményeket, egyéni rekordokat, tippeket és a teljes képernyős mód is "
 "támogatott. A <app>gbrainy</app> egyszerűen <link href=\"https://wiki.gnome."
-"org/Apps/gbrainy/Extending\">kibővíthető</link> harmadik felek által "
-"készített új játékokkal."
+"org/gbrainy/Extending\">kibővíthető</link> harmadik felek által készített új "
+"játékokkal."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "A <app>gbrainy</app> erősen épít a korábbi fejtörőmesterek munkájára, az ősi "
-"klasszikus fejtörőktől az újabb munkákig, mint <link href=\"http://en."
+"klasszikus fejtörőktől az újabb munkákig, mint <link href=\"https://en."
 "wikipedia.org/wiki/Terry_Stickels\">Terry Stickels</link> fejtörői, vagy a "
-"klasszikus <link href=\"http://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</"
+"klasszikus <link href=\"https://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</"
 "link> játék."
 
 #. (itstool) path: note/p
@@ -834,14 +821,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:8 C/index.page:12
-#| msgid "gbrainy"
 msgctxt "link"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "gbrainy"
 msgctxt "text"
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -873,7 +858,6 @@ msgstr "Tippek és trükkök"
 
 #. (itstool) path: info/title
 #: C/newgame.page:7
-#| msgid "1"
 msgctxt "sort"
 msgid "1"
 msgstr "1"
@@ -1110,68 +1094,3 @@ msgstr ""
 "játékok számát. Ha kész, nyomja meg a <gui style=\"button\">Mentés</gui> "
 "gombot."
 
-#~ msgid "milo@ubuntu.com"
-#~ msgstr "milo@ubuntu.com"
-
-#~ msgid ""
-#~ "@@image: 'figures/all-games.png'; md5=b9b2464dfdb280d8de79b921e03a4705"
-#~ msgstr ""
-#~ "@@image: 'figures/all-games.png'; md5=b9b2464dfdb280d8de79b921e03a4705"
-
-#~ msgid ""
-#~ "@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
-#~ msgstr ""
-#~ "@@image: 'figures/logic-games.png'; md5=2679be12956397b6337da869bdbee82d"
-
-#~ msgid ""
-#~ "@@image: 'figures/math-games.png'; md5=208d189bcd6246b40e3dff184a5d5698"
-#~ msgstr ""
-#~ "@@image: 'figures/math-games.png'; md5=208d189bcd6246b40e3dff184a5d5698"
-
-#~ msgid ""
-#~ "@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
-#~ msgstr ""
-#~ "@@image: 'figures/memory-games.png'; md5=2747c731e0a757a98a91c8e141748c75"
-
-#~ msgid ""
-#~ "@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
-#~ msgstr ""
-#~ "@@image: 'figures/verbal-games.png'; md5=6559e8d03907794b9983c5501df1aed2"
-
-#~ msgid "All games button"
-#~ msgstr "Minden játék gomb"
-
-#~ msgid "Logic games button"
-#~ msgstr "Logikai játékok gomb"
-
-#~ msgid "Calculation games button"
-#~ msgstr "Számolási játékok gomb"
-
-#~ msgid "Memory games button"
-#~ msgstr "Memóriajátékok gomb"
-
-#~ msgid "Verbal games button"
-#~ msgstr "Verbális játékok gomb"
-
-#~ msgid "@@image: 'figures/gbrainy.png'; md5=d3b523ab1c8d00d00560d3f036d681bb"
-#~ msgstr ""
-#~ "@@image: 'figures/gbrainy.png'; md5=d3b523ab1c8d00d00560d3f036d681bb"
-
-#~ msgid ""
-#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/gbrainy.png"
-#~ "\">gbrainy logo</media> gbrainy"
-#~ msgstr ""
-#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/gbrainy.png"
-#~ "\">gbrainy logó</media> gbrainy"
-
-#~ msgid "Logic games logo"
-#~ msgstr "Logikai játékok logó"
-
-#~ msgid "Calculation games logo"
-#~ msgstr "Számolási játékok logó"
-
-#~ msgid "Memory games logo"
-#~ msgstr "Memóriajátékok logó"
-
-#~ msgid "Verbal analogies games logo"
-#~ msgstr "Verbális játékok logó"
