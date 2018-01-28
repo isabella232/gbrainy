@@ -29,7 +29,7 @@ namespace gbrainy.Core.Main.Verbal
 		public AnalogiesMultipleOptions ()
 		{
 			if (analogies == null)
-				analogies = AnalogiesFactory. Get (Analogy.Type.MultipleOptions);
+				analogies = AnalogiesFactory.Get (Analogy.Type.MultipleOptions);
 		}
 
 		public override string Name {
