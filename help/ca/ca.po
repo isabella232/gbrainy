@@ -1,14 +1,14 @@
 #
 # This file is distributed under the same license as the PACKAGE package.
-# (c) 2009-2011 Jordi Mas i Hernàndez
+# (c) 2009-2018 Jordi Mas i Hernàndez
 #
 # N.T.: Traduïm "game session" per "partida"
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy documentation\n"
-"POT-Creation-Date: 2016-07-29 21:05+0000\n"
-"PO-Revision-Date: 2016-07-29 21:30+0100\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-01-28 17:44+0000\n"
 "Last-Translator: jmas@softcatala.org\n"
 "Language-Team: Catalan\n"
 "Language: \n"
@@ -17,10 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Jordi Mas <jmas@softcatala.org>, 2009-2016"
+msgstr "Jordi Mas <jmas@softcatala.org>, 2009-2018"
 
 #. (itstool) path: info/desc
 #: C/customgame.page:9
@@ -92,7 +91,6 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
-#| msgid "3"
 msgctxt "sort"
 msgid "3"
 msgstr "3"
@@ -263,14 +261,14 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/license.page:51
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
 "Per accedir al text complet de la llicència, visiteu el lloc web de <link "
-"href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode"
-"\">CreativeCommons</link>, o llegiu el text <link href=\"http://"
+"href=\"https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+"\">CreativeCommons</link>, o llegiu el text <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/deed.ca\">Commons Deed</link>."
 
 #. (itstool) path: info/title
@@ -473,9 +471,9 @@ msgid ""
 "To access your personal game history, choose <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
 msgstr ""
-"Per a accedir a l'historial de partides del jugador, seleccioneu "
-"<guiseq> <gui style=\"menu\">Visualitza</gui><gui style=\"menuitem"
-"\">Historial de partides del jugador</gui></guiseq>."
+"Per a accedir a l'historial de partides del jugador, seleccioneu <guiseq> "
+"<gui style=\"menu\">Visualitza</gui><gui style=\"menuitem\">Historial de "
+"partides del jugador</gui></guiseq>."
 
 #. (itstool) path: section/title
 #: C/history.page:33
@@ -789,14 +787,14 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Podeu escollir diferents nivells de dificultat fent que el <app>gbrainy</"
 "app> sigui entretingut per la canalla, els adults o les persones grans. "
 "Inclou també historial de partides del jugador, records personals del "
 "jugador, consells pel jugador i compatibilitat amb pantalla completa. El "
-"<app>gbrainy</app> també pot ser <link href=\"https://wiki.gnome.org/Apps/"
+"<app>gbrainy</app> també pot ser <link href=\"https://wiki.gnome.org/"
 "gbrainy/Extending\">estès</link> fàcilment amb nous jocs desenvolupats per "
 "terceres persones."
 
@@ -805,15 +803,15 @@ msgstr ""
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "<app>gbrainy</app> es basa en el talent d'anteriors grans creadors de "
 "trencaclosques incloent-hi des dels trencaclosques clàssics de temps "
 "immemorables fins a idees de treballs més recents com ara els trencaclosques "
-"de <link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
-"Stickels</link> o el joc clàssic <link href=\"http://en.wikipedia.org/wiki/"
+"de <link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
+"Stickels</link> o el joc clàssic <link href=\"https://en.wikipedia.org/wiki/"
 "Dr._Brain\">Dr. Brain</link>."
 
 #. (itstool) path: note/p
@@ -1100,4 +1098,3 @@ msgid ""
 msgstr ""
 "Seleccioneu el tipus de jocs, el nivell de dificultat, i quants jocs voleu "
 "exportar. Quan finalitzeu feu clic a <gui style=\"button\">Desa</gui>."
-
