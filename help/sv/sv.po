@@ -1,12 +1,14 @@
 # Swedish translation for gbrainy help.
-# Copyright © 2015 gbrainy's COPYRIGHT HOLDER
+# Copyright © 2015, 2016, 2018 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
 # Josef Andersson <josef.andersson@fripost.org>, 2015.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2018.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"POT-Creation-Date: 2016-07-29 21:05+0000\n"
-"PO-Revision-Date: 2016-08-02 00:16+0200\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-01-28 23:21+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -14,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.0.5\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -257,14 +259,14 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/license.page:51
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"För hela licenstexten, se <link href=\"http://creativecommons.org/licenses/"
+"För hela licenstexten, se <link href=\"https://creativecommons.org/licenses/"
 "by-sa/3.0/legalcode\">CreativeCommons webbplats</link>, eller läs <link href="
-"\"http://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
+"\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
 
 #. (itstool) path: info/title
 #: C/pause.page:6
@@ -777,13 +779,13 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Du kan välja olika svårighetsgrader vilket gör <app>gbrainy</app> njutsamt "
 "för barn, vuxna eller äldre. Det innehåller spelhistorik, personliga rekord, "
 "tips och helskärmsstöd. <app>gbrainy</app> kan också enkelt <link href="
-"\"https://wiki.gnome.org/Apps/gbrainy/Extending\">utökas</link> med nya spel "
+"\"https://wiki.gnome.org/gbrainy/Extending\">utökas</link> med nya spel "
 "utvecklade av tredjepart."
 
 #. (itstool) path: page/p
@@ -791,14 +793,14 @@ msgstr ""
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "<app>gbrainy</app> bygger på arbetet från tidigare pusselmästare, från "
-"uråldriga klassiska pussel till nyare som  <link href=\"http://en.wikipedia."
+"uråldriga klassiska pussel till nyare som  <link href=\"https://en.wikipedia."
 "org/wiki/Terry_Stickels\">Terry Stickels</link> pussel eller det klassiska "
-"spelet <link href=\"http://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</"
+"spelet <link href=\"https://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</"
 "link>."
 
 #. (itstool) path: note/p
@@ -816,14 +818,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:8 C/index.page:12
-#| msgid "gbrainy"
 msgctxt "link"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "gbrainy"
 msgctxt "text"
 msgid "gbrainy"
 msgstr "gbrainy"
