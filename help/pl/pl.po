@@ -1,14 +1,14 @@
 # Polish translation for gbrainy help.
-# Copyright © 2017 the gbrainy authors.
+# Copyright © 2017-2018 the gbrainy authors.
 # This file is distributed under the same license as the gbrainy help.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017.
-# Aviary.pl <community-poland@mozilla.org>, 2017.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017-2018.
+# Aviary.pl <community-poland@mozilla.org>, 2017-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy-help\n"
-"POT-Creation-Date: 2017-12-17 16:28+0000\n"
-"PO-Revision-Date: 2017-12-18 04:55+0100\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-01-28 19:21+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -22,8 +22,8 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Piotr Drąg <piotrdrag@gmail.com>, 2017\n"
-"Aviary.pl <community-poland@mozilla.org>, 2017"
+"Piotr Drąg <piotrdrag@gmail.com>, 2017-2018\n"
+"Aviary.pl <community-poland@mozilla.org>, 2017-2018"
 
 #. (itstool) path: info/desc
 #: C/customgame.page:9
@@ -766,14 +766,14 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Można wybierać różne poziomy trudności, aby gra była przyjemna dla dzieci, "
 "dorosłych i osób starszych. Zawiera także historię gier, osobiste rekordy, "
 "wskazówki i tryb pełnoekranowy. <app>gbrainy</app> można także łatwo <link "
-"href=\"https://wiki.gnome.org/Apps/gbrainy/Extending\">rozszerzać</link>, "
-"dodając nowe zadania napisane przez osoby trzecie."
+"href=\"https://wiki.gnome.org/gbrainy/Extending\">rozszerzać</link>, dodając "
+"nowe zadania napisane przez osoby trzecie."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
