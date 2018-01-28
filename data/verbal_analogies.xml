@@ -7,7 +7,7 @@
 			Carlos Navarro <navarro37 at gmail dot com>
 			Jordi Mas <jmas at softcatala dot org>
 
-		See: https://wiki.gnome.org/Apps/gbrainy/Extending for more details about how to use this file and its format.
+		See: https://wiki.gnome.org/gbrainy/Extending for more details about how to use this file and its format.
 
 		You can also look at GameXmlFactory.cs source code file as reference.
 	-->
@@ -16,7 +16,7 @@
 
 	<analogy>
 		<!--
-			Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+			Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
 		-->
 		<_question type = "MultipleOptions">Which of the following sports does not belong in this group?</_question>
 		<_tip>Think of the items used in the game.</_tip>

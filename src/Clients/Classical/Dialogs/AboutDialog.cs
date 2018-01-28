@@ -74,7 +74,7 @@ namespace gbrainy.Clients.Classical.Dialogs
 			Copyright = Defines.COPYRIGHT;
 
 			Comments = Catalog.GetString ("A brain teaser game for fun and to keep your brain trained.");
-			Website = "https://wiki.gnome.org/Apps/gbrainy";
+			Website = "https://wiki.gnome.org/gbrainy";
 			WebsiteLabel = Catalog.GetString ("gbrainy project web site");
 			TranslatorCredits = translators;
 			Artists = artists;
