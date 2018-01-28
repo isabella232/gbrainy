@@ -26,6 +26,7 @@ using gbrainy.Core.Main.Verbal;
 using gbrainy.Core.Main.Xml;
 using gbrainy.Core.Services;
 using System.Reflection;
+using gbrainy.Core.Libraries;
 
 public class GamesStatistics
 {
@@ -39,37 +40,34 @@ public class GamesStatistics
 
 	static void InitCoreLibraries ()
 	{
-		new DefaultServices ().RegisterServices ();
+	        new DefaultServices ().RegisterServices ();
 
-		// Configuration
-		ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.GamesDefinitions, Defines.DATA_DIR);
-		ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.GamesGraphics, Defines.DATA_DIR);
-		ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.ThemesDir, Defines.DATA_DIR);
+	        // Configuration
+	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.GamesDefinitions, Defines.DATA_DIR);
+	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.GamesGraphics, Defines.DATA_DIR);
+	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.ThemesDir, Defines.DATA_DIR);
 
-		string mono_path = Environment.GetEnvironmentVariable ("MONO_PATH");
-
-		if (String.IsNullOrEmpty (mono_path))
-			mono_path = ".";
-
-		// Configuration
-		ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, mono_path);
+	        string assemblies_dir;
+	        assemblies_dir =  System.IO.Path.GetDirectoryName (Assembly.GetExecutingAssembly ().Location);
+	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, assemblies_dir);
 	}
 
 	static int question_answer, multiple_options, words_options, words_compare, games_xml;
 	static int tip, rationale;
 
 	//Lists the games without tip
-	static void GetStatistics (GameManager gm)
+	static void GetStatistics (GameManager gm, ITranslations translations)
 	{
 		question_answer = multiple_options = words_options = words_compare = games_xml = 0;
 		tip = rationale = 0;
 
-		GameManager.GameLocator [] games = gm.AvailableGames;
+		GameLocator [] games = gm.AvailableGames;
 
-		foreach (GameManager.GameLocator locator in games)
+		foreach (GameLocator locator in games)
 		{
-			Game game = (Game) Activator.CreateInstance (locator.TypeOf, true);
+                        Game game = (Game) Activator.CreateInstance (locator.TypeOf, true);
 			game.Variant = locator.Variant;
+                        game.Translations = translations;
 
 			if (game as AnalogiesQuestionAnswer != null)
 				question_answer++;
@@ -118,16 +116,15 @@ public class GamesStatistics
 
 	static void Main (string[] args)
 	{
-		InitCoreLibraries ();
-
-		GameSession session = new GameSession ();
+	        ITranslations translations = new TranslationsCatalog ();
+                InitCoreLibraries ();
+		GameSession session = new GameSession (translations);
 		GameManagerPreload (session.GameManager);
 
 		Console.WriteLine ("gbrainy {0} (built on {1})", Defines.VERSION, Defines.BUILD_TIME);
-		Console.WriteLine (session.GameManager.GetGamesSummary ());
-
+		Console.WriteLine (session.GameManager.GetGamesSummary (translations));
 		Console.WriteLine ("");
-		GetStatistics (session.GameManager);
+		GetStatistics (session.GameManager, translations);
 	}
 }
 
