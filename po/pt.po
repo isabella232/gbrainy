@@ -534,11 +534,11 @@ msgid_plural ""
 msgstr[0] ""
 "Tem dois camiões com um peso total de [add] unidades. Se o mais leve pesar "
 "15 unidades menos que metade do peso do camião mais pesado, qual é o peso do "
-"camião mais leve? option_answers]"
+"camião mais leve? [option_answers]"
 msgstr[1] ""
 "Tem dois camiões com um peso total de [add] unidades. Se o mais leve pesar "
 "15 unidades menos que metade do peso do camião mais pesado, qual é o peso do "
-"camião mais leve? option_answers]"
+"camião mais leve? [option_answers]"
 
 #: ../data/games.xml.h:98
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
@@ -589,7 +589,7 @@ msgid ""
 "has any relative that has not been mentioned. [option_answers]"
 msgstr ""
 "O cunhado do irmão da mãe do João é o quê ao João? Não assuma que o João tem "
-"qualquer outro parente que não tenha sido mencionado."
+"qualquer outro parente que não tenha sido mencionado. [option_answers]"
 
 #: ../data/games.xml.h:108
 msgid "[option_prefix] His father"
@@ -620,7 +620,7 @@ msgid ""
 "is [two]. What is the third number? [option_answers]"
 msgstr ""
 "A média de três números é [three]. A média de dois desses números é [two]. "
-"Qual é o terceiro número?"
+"Qual é o terceiro número? [option_answers]"
 
 #: ../data/games.xml.h:114
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
