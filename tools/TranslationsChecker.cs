@@ -140,6 +140,18 @@ public class GameXmlToGetString
 		}
 	}
 
+        static void ParseFile (string file)
+        {
+                try {
+		        Console.WriteLine ("Openning {0}", file);
+			Parser parser = new Parser (file, Encoding.UTF8);
+			parser.Parse ();
+                }
+                catch (Exception e) {
+                        Console.WriteLine ("Error parsing {0}: {1}", file, e);
+                }
+        }
+
 	/*
 		This tool scans the LINGUAS files and searches for potential
 		mismatching string formatters and expression variables that can
@@ -159,11 +171,8 @@ public class GameXmlToGetString
 			if (line.StartsWith ("#") == true)
 				continue;
 
-			file = "../po/" + line + ".po";
-
-			Console.WriteLine ("Openning {0}", file);
-			Parser parser = new Parser (file, Encoding.UTF8);
-			parser.Parse ();
+                        file = "../po/" + line + ".po";
+                        ParseFile(file);
 		}
 	}
 }
