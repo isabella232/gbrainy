@@ -11,5 +11,5 @@ Experimental tools:
 * TranslationsChecker.cs - Checks for errors in translation files
 
 'Make binary' (e.g: Make GameXmlToAssembly.exe) builds a specific tool
-
+'make run-stats' to run GamesStatistics.exe
 

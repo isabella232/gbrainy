@@ -47,9 +47,13 @@ public class GamesStatistics
 	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.GamesGraphics, Defines.DATA_DIR);
 	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.ThemesDir, Defines.DATA_DIR);
 
-	        string assemblies_dir;
-	        assemblies_dir =  System.IO.Path.GetDirectoryName (Assembly.GetExecutingAssembly ().Location);
-	        ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, assemblies_dir);
+		string mono_path = Environment.GetEnvironmentVariable ("MONO_PATH");
+
+		if (String.IsNullOrEmpty (mono_path))
+			mono_path = ".";
+
+		// Configuration
+		ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, mono_path);
 	}
 
 	static int question_answer, multiple_options, words_options, words_compare, games_xml;
