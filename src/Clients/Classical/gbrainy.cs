@@ -647,9 +647,9 @@ namespace gbrainy.Clients.Classical
 		void OnActivateToolbar (object sender, System.EventArgs args)
 		{
 			int width, height;
-			Requisition requisition;
+			Requisition minimum_size, natural_size;
 
-			requisition = toolbar.SizeRequest ();
+			toolbar.GetPreferredSize(out minimum_size, out natural_size);
 			app_window.GetSize (out width, out height);
 			toolbar.Visible = !toolbar.Visible;
 
@@ -663,7 +663,7 @@ namespace gbrainy.Clients.Classical
 				Preferences.Set <bool> (Preferences.ToolbarShowKey, toolbar.Visible);
 				Preferences.Save ();
 			}
-			app_window.Resize (width, height - requisition.Height);
+			app_window.Resize (width, height - natural_size.Height);
 		}
 
 		void OnVerticalToolbar (object sender, System.EventArgs args)
