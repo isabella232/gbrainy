@@ -1,14 +1,14 @@
 # Czech translation for gbrainy.
 # Copyright (C) 2009 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2016, 2017.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2016, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-28 08:11+0000\n"
-"PO-Revision-Date: 2017-10-29 08:26+0100\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-01-29 09:44+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -787,14 +787,14 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Můžete si vybrat různou náročnost, což dělá aplikaci <app>gbrainy</app> "
 "zábavnou pro děti, dospělé i seniory. Obsahuje také historii her, osobní "
 "záznamy hráče, pomůcky pro hráče a podporu režimu celé obrazovky. Aplikaci "
 "<app>gbrainy</app> lze také jednoduše <link href=\"https://wiki.gnome.org/"
-"Apps/gbrainy/Extending\">rozšiřovat</link> o nové hry vyvinuté třetími "
+"gbrainy/Extending\">rozšiřovat</link> o nové hry vyvinuté třetími "
 "stranami."
 
 #. (itstool) path: page/p
