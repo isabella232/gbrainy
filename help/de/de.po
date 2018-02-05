@@ -4,13 +4,14 @@
 # Wolfgang Stöggl <c72578@yahoo.de>, 2009-2011.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.
 # Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2011.
+# Mario Blättermann <mario.blaettermann@gmail.com>, 2017-2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy help master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?\n"
-"POT-Creation-Date: 2017-02-27 17:46+0000\n"
-"PO-Revision-Date: 2017-10-16 23:20+0200\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-02-05 20:25+0100\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -26,7 +27,7 @@ msgid "translator-credits"
 msgstr ""
 "Wolfgang Stöggl <c72578@yahoo.de>, 2010\n"
 "Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2011\n"
-"Mario Blättermann <mario.blaettermann@gmail.com>, 2017"
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2017, 2018"
 
 #. (itstool) path: info/desc
 #: C/customgame.page:9
@@ -99,7 +100,6 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
-#| msgid "3"
 msgctxt "sort"
 msgid "3"
 msgstr "3"
@@ -275,19 +275,18 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/license.page:51
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"Den vollständigen Text der Lizenz finden Sie auf der <link href=\"http://"
+"Den vollständigen Text der Lizenz finden Sie auf der <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons-Webseite</"
-"link>. Oder Sie können den vollständigen <link href=\"http://creativecommons."
-"org/licenses/by-sa/3.0/\">Commons Deed</link> lesen."
+"link>. Oder Sie können den vollständigen <link href=\"https://"
+"creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link> lesen."
 
 #. (itstool) path: info/title
 #: C/pause.page:6
-#| msgid "4"
 msgctxt "sort"
 msgid "4"
 msgstr "4"
@@ -411,7 +410,6 @@ msgstr "Diese Funktion steht bei einigen Spielen nicht zur Verfügung."
 
 #. (itstool) path: info/title
 #: C/difficulty.page:6
-#| msgid "2"
 msgctxt "sort"
 msgid "2"
 msgstr "2"
@@ -814,7 +812,7 @@ msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Sie können verschiedene Schwierigkeitsgrade wählen, um <app>gbrainy</app> "
@@ -829,14 +827,14 @@ msgstr ""
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "<app>gbrainy</app> beruht auf den Arbeiten ehemaliger Rätselmeister mit "
 "Aufgaben aus früheren Zeiten bis hin zu jüngeren Arbeiten wie den Rätseln "
-"von <link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
-"Stickels</link> oder dem klassischen Spiel <link href=\"http://en.wikipedia."
+"von <link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
+"Stickels</link> oder dem klassischen Spiel <link href=\"https://en.wikipedia."
 "org/wiki/Dr._Brain\">Dr. Brain</link>."
 
 #. (itstool) path: note/p
@@ -855,14 +853,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:8 C/index.page:12
-#| msgid "gbrainy"
 msgctxt "link"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "gbrainy"
 msgctxt "text"
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -894,7 +890,6 @@ msgstr "Tipps und Tricks"
 
 #. (itstool) path: info/title
 #: C/newgame.page:7
-#| msgid "1"
 msgctxt "sort"
 msgid "1"
 msgstr "1"
