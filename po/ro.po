@@ -6,14 +6,14 @@
 # Chris <chrisochinca@yahoo.com>, 2010.
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
 # laur <ionlaurentiucristian@gmail.com>, 2011.
-# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2010, 2011, 2012, 2017.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2010, 2011, 2012, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
 "y&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2017-08-20 21:39+0000\n"
-"PO-Revision-Date: 2017-08-27 19:17+0200\n"
+"POT-Creation-Date: 2018-01-21 08:31+0000\n"
+"PO-Revision-Date: 2018-02-21 08:15+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -256,7 +256,7 @@ msgstr ""
 msgid "Horse race"
 msgstr "Cursa de cai"
 
-#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:65
+#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:63
 msgid ""
 "In a horse race there are people and horses. You count [eyes] eye and [legs] "
 "leg. How many horses are present?"
@@ -331,25 +331,25 @@ msgstr ""
 "rămâne rest. De exemplu 10, 15 și 25 sunt multiplii lui 5."
 
 #: ../data/games.xml.h:53
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:102
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:121
-#: ../src/Games/Calculation/CalculationAverage.cs:185
-#: ../src/Games/Calculation/CalculationCloserFraction.cs:177
-#: ../src/Games/Calculation/CalculationPrimes.cs:151
-#: ../src/Games/Calculation/CalculationProportions.cs:130
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:244
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:237
-#: ../src/Games/Logic/PuzzleFigures.cs:192
-#: ../src/Games/Logic/PuzzleGridDots.cs:340
-#: ../src/Games/Logic/PuzzleLargerShape.cs:303
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:173
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:218
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:313
-#: ../src/Games/Logic/PuzzleNextFigure.cs:166
-#: ../src/Games/Logic/PuzzleOstracism.cs:176
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:196
-#: ../src/Games/Logic/PuzzleTetris.cs:171
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:219
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:100
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:119
+#: ../src/Games/Calculation/CalculationAverage.cs:183
+#: ../src/Games/Calculation/CalculationCloserFraction.cs:175
+#: ../src/Games/Calculation/CalculationPrimes.cs:149
+#: ../src/Games/Calculation/CalculationProportions.cs:128
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:242
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:235
+#: ../src/Games/Logic/PuzzleFigures.cs:190
+#: ../src/Games/Logic/PuzzleGridDots.cs:338
+#: ../src/Games/Logic/PuzzleLargerShape.cs:301
+#: ../src/Games/Logic/PuzzleMissingPiece.cs:171
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:216
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:311
+#: ../src/Games/Logic/PuzzleNextFigure.cs:164
+#: ../src/Games/Logic/PuzzleOstracism.cs:174
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:194
+#: ../src/Games/Logic/PuzzleTetris.cs:169
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:217
 msgid "Choose one of the following:"
 msgstr "Alegeți una din următoarele:"
 
@@ -534,7 +534,7 @@ msgstr "[option_prefix] [answer_d]"
 msgid "Two trucks"
 msgstr "Două camioane"
 
-#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:81
+#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:79
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -669,6 +669,18 @@ msgid "She was born 31st of December and she said this on 1st of January."
 msgstr "Ea a fost născută pe 31 Decembrie și a spus aste pe 1 Ianuarie."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
+#| msgid ""
+#| "gbrainy is a game to train memory, arithmetical and logical capabilities "
+#| "with many sorts of exercises of different difficulty levels."
+msgid ""
+"gbrainy is a game to train memory, arithmetical and logical capabilities "
+"with many sorts of exercises of different difficulty levels"
+msgstr ""
+"gbrainy este un joc pentru antrenamentul memoriei, aritmeticii și a "
+"capabilităților logice cu multe tipuri de exerciții de diferite nivele de "
+"dificultate."
+
+#: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
@@ -677,7 +689,7 @@ msgstr ""
 "capabilităților logice cu multe tipuri de exerciții de diferite nivele de "
 "dificultate."
 
-#: ../data/gbrainy.appdata.xml.in.h:2
+#: ../data/gbrainy.appdata.xml.in.h:3
 msgid ""
 "It should have something for all ages and purposes: kids whose parents want "
 "them to develop their capabilities, adults that want to keep their mind in "
@@ -1605,16 +1617,16 @@ msgid "Heptagon"
 msgstr "Heptagon"
 
 #: ../data/verbal_analogies.xml.h:239
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:63
 msgid "Triangle"
 msgstr "Triunghi"
 
 #: ../data/verbal_analogies.xml.h:240
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:67
 msgid "Pentagon"
 msgstr "Pentagon"
 
-#: ../data/verbal_analogies.xml.h:241 ../src/Games/Logic/PuzzleCube.cs:45
+#: ../data/verbal_analogies.xml.h:241 ../src/Games/Logic/PuzzleCube.cs:43
 msgid "Cube"
 msgstr "Cub"
 
@@ -1648,116 +1660,134 @@ msgid "Intrinsic means belonging to a thing by its very nature."
 msgstr "Intirnsec înseamnă apartenența la un obiect prin propria sa natură."
 
 #: ../data/verbal_analogies.xml.h:249
+msgid "Rectangle"
+msgstr "Dreptunghi"
+
+#: ../data/verbal_analogies.xml.h:250
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:65
+msgid "Square"
+msgstr "Pătrat"
+
+#: ../data/verbal_analogies.xml.h:251
+msgid "Rhombus"
+msgstr "Romb"
+
+#: ../data/verbal_analogies.xml.h:252
+#| msgid "It is the only one that does not have roots."
+msgid "Triangle is the only one that does not have four sides."
+msgstr "Triunghiul este singurul care nu are patru laturi."
+
+#: ../data/verbal_analogies.xml.h:253
 msgid "car / garage | plane"
 msgstr "mașină / garaj | avion"
 
-#: ../data/verbal_analogies.xml.h:250
+#: ../data/verbal_analogies.xml.h:254
 msgid "Hangar"
 msgstr "Hangar"
 
-#: ../data/verbal_analogies.xml.h:251
+#: ../data/verbal_analogies.xml.h:255
 msgid "Airline"
 msgstr "Companie aeriană"
 
-#: ../data/verbal_analogies.xml.h:252
+#: ../data/verbal_analogies.xml.h:256
 msgid "Aircraft"
 msgstr "Aeronavă"
 
-#: ../data/verbal_analogies.xml.h:253
+#: ../data/verbal_analogies.xml.h:257
 msgid "Bunker"
 msgstr "Buncăr"
 
-#: ../data/verbal_analogies.xml.h:254
+#: ../data/verbal_analogies.xml.h:258
 msgid "circle / semicircle | diameter"
 msgstr "cerc / semicerc | diametru"
 
-#: ../data/verbal_analogies.xml.h:255
+#: ../data/verbal_analogies.xml.h:259
 msgid "Radius"
 msgstr "Rază"
 
-#: ../data/verbal_analogies.xml.h:256
+#: ../data/verbal_analogies.xml.h:260
 msgid "Chord"
 msgstr "Coardă"
 
-#: ../data/verbal_analogies.xml.h:257
+#: ../data/verbal_analogies.xml.h:261
 msgid "Tangent"
 msgstr "Tangentă"
 
-#: ../data/verbal_analogies.xml.h:258
+#: ../data/verbal_analogies.xml.h:262
 msgid "Angle"
 msgstr "Unghi"
 
-#: ../data/verbal_analogies.xml.h:259
+#: ../data/verbal_analogies.xml.h:263
 msgid "The radius of a circle is half the diameter."
 msgstr "Raza unui cerc este jumătate din diametru."
 
-#: ../data/verbal_analogies.xml.h:260
+#: ../data/verbal_analogies.xml.h:264
 msgid "talk / yell | dislike"
 msgstr "a vorbi / a urla | a displace"
 
-#: ../data/verbal_analogies.xml.h:261
+#: ../data/verbal_analogies.xml.h:265
 msgid "Repugnance"
 msgstr "Aversiune"
 
-#: ../data/verbal_analogies.xml.h:262
+#: ../data/verbal_analogies.xml.h:266
 msgid "Offensive"
 msgstr "Ofensiv"
 
-#: ../data/verbal_analogies.xml.h:263
+#: ../data/verbal_analogies.xml.h:267
 msgid "Shame"
 msgstr "Rușine"
 
-#: ../data/verbal_analogies.xml.h:264
+#: ../data/verbal_analogies.xml.h:268
 msgid "Ostentation"
 msgstr "Ostentație"
 
-#: ../data/verbal_analogies.xml.h:265
+#: ../data/verbal_analogies.xml.h:269
 msgid "write / pen | eat"
 msgstr "scrie / pix | a mânca"
 
-#: ../data/verbal_analogies.xml.h:266
+#: ../data/verbal_analogies.xml.h:270
 msgid "Fork"
 msgstr "Furculiță"
 
-#: ../data/verbal_analogies.xml.h:267
+#: ../data/verbal_analogies.xml.h:271
 msgid "Restaurant"
 msgstr "Restaurant"
 
-#: ../data/verbal_analogies.xml.h:268
+#: ../data/verbal_analogies.xml.h:272
 msgid "Winery"
 msgstr "Vinărie"
 
-#: ../data/verbal_analogies.xml.h:269
+#: ../data/verbal_analogies.xml.h:273
 msgid "Table"
 msgstr "Masă"
 
-#: ../data/verbal_analogies.xml.h:270
+#: ../data/verbal_analogies.xml.h:274
 msgid "A pen is used to write and a fork is used to eat."
 msgstr ""
 "Un pix este folosit pentru a scrie și o furculiță este folosită pentru a "
 "mânca."
 
-#: ../data/verbal_analogies.xml.h:271
+#: ../data/verbal_analogies.xml.h:275
 msgid "desert / oasis | sea"
 msgstr "deșert / oază | ocean"
 
-#: ../data/verbal_analogies.xml.h:272
+#: ../data/verbal_analogies.xml.h:276
 msgid "Island"
 msgstr "Insulă"
 
-#: ../data/verbal_analogies.xml.h:273
+#: ../data/verbal_analogies.xml.h:277
 msgid "River"
 msgstr "Râu"
 
-#: ../data/verbal_analogies.xml.h:274
+#: ../data/verbal_analogies.xml.h:278
 msgid "Beach"
 msgstr "Plajă"
 
-#: ../data/verbal_analogies.xml.h:275
+#: ../data/verbal_analogies.xml.h:279
 msgid "Coast"
 msgstr "Coastă"
 
-#: ../data/verbal_analogies.xml.h:276
+#: ../data/verbal_analogies.xml.h:280
 msgid ""
 "An oasis is an isolated area of vegetation in a desert and an island is a "
 "piece of isolated land that is surrounded by water."
@@ -1766,150 +1796,150 @@ msgstr ""
 "bucată de pământ izolată, care este înconjurată de apă."
 
 #. Translators: letter refers to letter (in paper form)
-#: ../data/verbal_analogies.xml.h:278
+#: ../data/verbal_analogies.xml.h:282
 msgid "turtle / shell | letter"
 msgstr "țestoasă / carapace | scrisoare"
 
-#: ../data/verbal_analogies.xml.h:279
+#: ../data/verbal_analogies.xml.h:283
 msgid "Envelope"
 msgstr "Plic"
 
-#: ../data/verbal_analogies.xml.h:280
+#: ../data/verbal_analogies.xml.h:284
 msgid "Ink"
 msgstr "Cerneală"
 
-#: ../data/verbal_analogies.xml.h:281
+#: ../data/verbal_analogies.xml.h:285
 msgid "Printer"
 msgstr "Imprimantă"
 
-#: ../data/verbal_analogies.xml.h:282
+#: ../data/verbal_analogies.xml.h:286
 msgid "Cellulose"
 msgstr "Celuloză"
 
-#: ../data/verbal_analogies.xml.h:283
+#: ../data/verbal_analogies.xml.h:287
 msgid "A turtle is inside a shell and a letter is inside an envelope."
 msgstr ""
 "O broască țestoasă se află într-o carapace și o scrisoare se află într-un "
 "plic."
 
-#: ../data/verbal_analogies.xml.h:284
+#: ../data/verbal_analogies.xml.h:288
 msgid "wine / grape | rum"
 msgstr "vin / strugure | rom"
 
-#: ../data/verbal_analogies.xml.h:285
+#: ../data/verbal_analogies.xml.h:289
 msgid "Sugarcane"
 msgstr "Trestie de zahăr"
 
-#: ../data/verbal_analogies.xml.h:286
+#: ../data/verbal_analogies.xml.h:290
 msgid "Grain"
 msgstr "Cereale"
 
-#: ../data/verbal_analogies.xml.h:287
+#: ../data/verbal_analogies.xml.h:291
 msgid "Sweet corn"
 msgstr "Porumb dulce"
 
-#: ../data/verbal_analogies.xml.h:288
+#: ../data/verbal_analogies.xml.h:292
 msgid "horticulture / plants | ornithology"
 msgstr "horticultură / plante | ornitologie"
 
-#: ../data/verbal_analogies.xml.h:289
+#: ../data/verbal_analogies.xml.h:293
 msgid "Birds"
 msgstr "Păsări"
 
-#: ../data/verbal_analogies.xml.h:290
+#: ../data/verbal_analogies.xml.h:294
 msgid "Insects"
 msgstr "Insecte"
 
-#: ../data/verbal_analogies.xml.h:291
+#: ../data/verbal_analogies.xml.h:295
 msgid "Amphibians"
 msgstr "Amfibieni"
 
-#: ../data/verbal_analogies.xml.h:292
+#: ../data/verbal_analogies.xml.h:296
 msgid "Fishes"
 msgstr "Pești"
 
-#: ../data/verbal_analogies.xml.h:293
+#: ../data/verbal_analogies.xml.h:297
 msgid "thankful / ingratitude | despotism"
 msgstr "mulțumire / ingratitudine | despotism"
 
-#: ../data/verbal_analogies.xml.h:294
+#: ../data/verbal_analogies.xml.h:298
 msgid "Democracy"
 msgstr "Democrație"
 
-#: ../data/verbal_analogies.xml.h:295
+#: ../data/verbal_analogies.xml.h:299
 msgid "Totalitarianism"
 msgstr "Totalitarism"
 
-#: ../data/verbal_analogies.xml.h:296
+#: ../data/verbal_analogies.xml.h:300
 msgid "Oligarchy"
 msgstr "Oligarhie"
 
-#: ../data/verbal_analogies.xml.h:297
+#: ../data/verbal_analogies.xml.h:301
 msgid "Authority"
 msgstr "Autoritate"
 
-#: ../data/verbal_analogies.xml.h:298
+#: ../data/verbal_analogies.xml.h:302
 msgid "pessimist / optimist | poor"
 msgstr "pesimist / optimist | sărac"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
-#: ../data/verbal_analogies.xml.h:300
+#: ../data/verbal_analogies.xml.h:304
 msgid "Affluent"
 msgstr "Abundent"
 
-#: ../data/verbal_analogies.xml.h:301
+#: ../data/verbal_analogies.xml.h:305
 msgid "Homeless"
 msgstr "Fără adăpost"
 
-#: ../data/verbal_analogies.xml.h:302
+#: ../data/verbal_analogies.xml.h:306
 msgid "Property"
 msgstr "Proprietate"
 
-#: ../data/verbal_analogies.xml.h:303
+#: ../data/verbal_analogies.xml.h:307
 msgid "Money"
 msgstr "Bani"
 
-#: ../data/verbal_analogies.xml.h:304
+#: ../data/verbal_analogies.xml.h:308
 msgid "five / pentagon | ten"
 msgstr "cinci / pentagon | zece"
 
-#: ../data/verbal_analogies.xml.h:305
+#: ../data/verbal_analogies.xml.h:309
 msgid "Decagon"
 msgstr "Decagon"
 
-#: ../data/verbal_analogies.xml.h:306
+#: ../data/verbal_analogies.xml.h:310
 msgid "Enneagram"
 msgstr "Eneagramă"
 
-#: ../data/verbal_analogies.xml.h:307
+#: ../data/verbal_analogies.xml.h:311
 msgid "Icosagon"
 msgstr "Icosagon"
 
-#: ../data/verbal_analogies.xml.h:308
+#: ../data/verbal_analogies.xml.h:312
 msgid "Decimal"
 msgstr "Zecimal"
 
-#: ../data/verbal_analogies.xml.h:309
+#: ../data/verbal_analogies.xml.h:313
 msgid "parallel / meridian | longitude"
 msgstr "paralelă / meridian | longitudine"
 
-#: ../data/verbal_analogies.xml.h:310
+#: ../data/verbal_analogies.xml.h:314
 msgid "Latitude"
 msgstr "Latitudine"
 
-#: ../data/verbal_analogies.xml.h:311
+#: ../data/verbal_analogies.xml.h:315
 msgid "Solstice"
 msgstr "Solstițiu"
 
-#: ../data/verbal_analogies.xml.h:312
+#: ../data/verbal_analogies.xml.h:316
 msgid "Pole"
 msgstr "Pol"
 
-#: ../data/verbal_analogies.xml.h:313
+#: ../data/verbal_analogies.xml.h:317
 msgid "Azimuth"
 msgstr "Azimut"
 
-#: ../data/verbal_analogies.xml.h:314
+#: ../data/verbal_analogies.xml.h:318
 msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
@@ -1917,96 +1947,96 @@ msgstr ""
 "Paralela și longitudinea traversează de la est la vest pe când meridiana și "
 "latitudinea traversează de la nord la sud."
 
-#: ../data/verbal_analogies.xml.h:315
+#: ../data/verbal_analogies.xml.h:319
 msgid "art / gallery | drama"
 msgstr "artă / galerie | dramă"
 
-#: ../data/verbal_analogies.xml.h:316
+#: ../data/verbal_analogies.xml.h:320
 msgid "Theater"
 msgstr "Teatru"
 
-#: ../data/verbal_analogies.xml.h:317
+#: ../data/verbal_analogies.xml.h:321
 msgid "Museum"
 msgstr "Muzeu"
 
-#: ../data/verbal_analogies.xml.h:318
+#: ../data/verbal_analogies.xml.h:322
 msgid "Concert hall"
 msgstr "Sală de concert"
 
-#: ../data/verbal_analogies.xml.h:319
+#: ../data/verbal_analogies.xml.h:323
 msgid "Gym"
 msgstr "Sală de sport"
 
-#: ../data/verbal_analogies.xml.h:320
+#: ../data/verbal_analogies.xml.h:324
 msgid "hunter / rifle | photographer"
 msgstr "vânător / pușcă | fotograf"
 
-#: ../data/verbal_analogies.xml.h:321
+#: ../data/verbal_analogies.xml.h:325
 msgid "Camera"
 msgstr "Cameră"
 
 #. Translators: tripod as used is photography
-#: ../data/verbal_analogies.xml.h:323
+#: ../data/verbal_analogies.xml.h:327
 msgid "Tripod"
 msgstr "Trepied"
 
-#: ../data/verbal_analogies.xml.h:324
+#: ../data/verbal_analogies.xml.h:328
 msgid "Photography"
 msgstr "Fotografie"
 
-#: ../data/verbal_analogies.xml.h:325
+#: ../data/verbal_analogies.xml.h:329
 msgid "Light"
 msgstr "Lumină"
 
-#: ../data/verbal_analogies.xml.h:326
+#: ../data/verbal_analogies.xml.h:330
 msgid "dish / break | balloon"
 msgstr "vas / se sparge | balon"
 
 #. Translators: like 'he burst the balloon'
-#: ../data/verbal_analogies.xml.h:328
+#: ../data/verbal_analogies.xml.h:332
 msgid "Burst"
 msgstr "Explozie"
 
-#: ../data/verbal_analogies.xml.h:329
+#: ../data/verbal_analogies.xml.h:333
 msgid "Bounce"
 msgstr "Săritură"
 
-#: ../data/verbal_analogies.xml.h:330
+#: ../data/verbal_analogies.xml.h:334
 msgid "Float"
 msgstr "Plutire"
 
-#: ../data/verbal_analogies.xml.h:331
+#: ../data/verbal_analogies.xml.h:335
 msgid "Roll"
 msgstr "Dă cu zarul"
 
-#: ../data/verbal_analogies.xml.h:332
+#: ../data/verbal_analogies.xml.h:336
 msgid "Both relate to an action that breaks the related item."
 msgstr "Ambele se referă la o acțiune care rupe elementul înrudit."
 
-#: ../data/verbal_analogies.xml.h:333
+#: ../data/verbal_analogies.xml.h:337
 msgid "button / push | key (used in a lock)"
 msgstr "buton / a apăsa | cheie"
 
-#: ../data/verbal_analogies.xml.h:334
+#: ../data/verbal_analogies.xml.h:338
 msgid "Turn"
 msgstr "Întoarce"
 
 #. Translator: 'Open' as verb, like open with a key
-#: ../data/verbal_analogies.xml.h:336
+#: ../data/verbal_analogies.xml.h:340
 msgid "Open"
 msgstr "Deschide"
 
 #. Translator: 'Lock' as verb, like locked with a key
-#: ../data/verbal_analogies.xml.h:338
+#: ../data/verbal_analogies.xml.h:342
 msgid "Lock"
 msgstr "Blochează"
 
 #. Translator: 'Close' as verb, like closed with a key
-#: ../data/verbal_analogies.xml.h:340
+#: ../data/verbal_analogies.xml.h:344
 msgid "Close"
 msgstr "Închide"
 
-#: ../data/verbal_analogies.xml.h:341
+#: ../data/verbal_analogies.xml.h:345
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
@@ -2014,471 +2044,491 @@ msgstr ""
 "Pentru a face ambele obiecte să funcționeze, un buton trebuie apăsat și o "
 "cheie trebuie să fie întoarsă."
 
-#: ../data/verbal_analogies.xml.h:342
+#: ../data/verbal_analogies.xml.h:346
 msgid "concept / idea | obsession"
 msgstr "concept / idee | obsesie"
 
 #. As a synonym of obsession
-#: ../data/verbal_analogies.xml.h:344
+#: ../data/verbal_analogies.xml.h:348
 msgid "Fixation"
 msgstr "Fixare"
 
-#: ../data/verbal_analogies.xml.h:345
+#: ../data/verbal_analogies.xml.h:349
 msgid "Indifference"
 msgstr "Indiferență"
 
-#: ../data/verbal_analogies.xml.h:346
+#: ../data/verbal_analogies.xml.h:350
 msgid "Disinterest"
 msgstr "Dezinteres"
 
-#: ../data/verbal_analogies.xml.h:347
+#: ../data/verbal_analogies.xml.h:351
 msgid "Intuition"
 msgstr "Intuiție"
 
-#: ../data/verbal_analogies.xml.h:348
+#: ../data/verbal_analogies.xml.h:352
 msgid "The relation between the two words is that they are synonymous."
 msgstr "Relația dintre cele două cuvinte este că ele sunt sinonime."
 
-#: ../data/verbal_analogies.xml.h:349
+#: ../data/verbal_analogies.xml.h:353
 msgid "fish / water | bird"
 msgstr "pește / apă | pasăre"
 
-#: ../data/verbal_analogies.xml.h:350
+#: ../data/verbal_analogies.xml.h:354
 msgid "Air"
 msgstr "Aer"
 
-#: ../data/verbal_analogies.xml.h:351
+#: ../data/verbal_analogies.xml.h:355
 msgid "Wings"
 msgstr "aripi | aripă"
 
-#: ../data/verbal_analogies.xml.h:352
+#: ../data/verbal_analogies.xml.h:356
 msgid "Ship"
 msgstr "Corabie"
 
-#: ../data/verbal_analogies.xml.h:353
+#: ../data/verbal_analogies.xml.h:357
 msgid "Cage"
 msgstr "Cușcă"
 
 #. Translator: 'rook' as a piece of chess
-#: ../data/verbal_analogies.xml.h:355
+#: ../data/verbal_analogies.xml.h:359
 msgid "rook / chess | soldier"
 msgstr "tură / șah | soldat"
 
-#: ../data/verbal_analogies.xml.h:356
+#: ../data/verbal_analogies.xml.h:360
 msgid "Battle"
 msgstr "Luptă"
 
-#: ../data/verbal_analogies.xml.h:357
+#: ../data/verbal_analogies.xml.h:361
 msgid "Gun"
 msgstr "Pușcă"
 
-#: ../data/verbal_analogies.xml.h:358
+#: ../data/verbal_analogies.xml.h:362
 msgid "Peace"
 msgstr "Pace"
 
-#: ../data/verbal_analogies.xml.h:359
+#: ../data/verbal_analogies.xml.h:363
 msgid "Enemy"
 msgstr "Inamic"
 
-#: ../data/verbal_analogies.xml.h:360
+#: ../data/verbal_analogies.xml.h:364
 msgid "competitive / cooperative | anxious"
 msgstr "competitiv / cooperativ | nerăbdător"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:362
+#: ../data/verbal_analogies.xml.h:366
 msgid "Flexible"
 msgstr "Flexibil"
 
-#: ../data/verbal_analogies.xml.h:363
+#: ../data/verbal_analogies.xml.h:367
 msgid "Cautious"
 msgstr "Precaut"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:365
+#: ../data/verbal_analogies.xml.h:369
 msgid "Daring"
 msgstr "Îndrăzneț"
 
-#: ../data/verbal_analogies.xml.h:366
+#: ../data/verbal_analogies.xml.h:370
 msgid "pessimistic / optimistic | suspicious"
 msgstr "pesimist / optimist | suspicios"
 
 #. Translator: Used as an adjective in English
-#: ../data/verbal_analogies.xml.h:368
+#: ../data/verbal_analogies.xml.h:372
 msgid "Trusting"
 msgstr "Încrezător"
 
-#: ../data/verbal_analogies.xml.h:369
+#: ../data/verbal_analogies.xml.h:373
 msgid "Dubious"
 msgstr "Dubios"
 
 #. Translator: compass as the instrument used for finding direction
-#: ../data/verbal_analogies.xml.h:371
+#: ../data/verbal_analogies.xml.h:375
 msgid "thermometer / temperature | compass"
 msgstr "termometru / temperatură | busolă"
 
-#: ../data/verbal_analogies.xml.h:372
+#: ../data/verbal_analogies.xml.h:376
 msgid "Direction"
 msgstr "Direcție"
 
-#: ../data/verbal_analogies.xml.h:373
+#: ../data/verbal_analogies.xml.h:377
 msgid "Elevation"
 msgstr "Elevație"
 
-#: ../data/verbal_analogies.xml.h:374
+#: ../data/verbal_analogies.xml.h:378
 msgid "Position"
 msgstr "Poziție"
 
-#: ../data/verbal_analogies.xml.h:375
+#: ../data/verbal_analogies.xml.h:379
 msgid "Area"
 msgstr "Suprafață"
 
-#: ../data/verbal_analogies.xml.h:376
+#: ../data/verbal_analogies.xml.h:380
 msgid "The first word is the instrument and the second what it measures."
 msgstr "Primul cuvânt este instrumentul, iar al doilea ceea ce măsoară."
 
-#: ../data/verbal_analogies.xml.h:377
+#: ../data/verbal_analogies.xml.h:381
+msgid "violin / orchestra | knife"
+msgstr "vioară / orchestră | cuțit"
+
+#: ../data/verbal_analogies.xml.h:382
+msgid "Cutlery"
+msgstr "Tacâmuri"
+
+#: ../data/verbal_analogies.xml.h:383
+msgid "Metal"
+msgstr "Metal"
+
+#: ../data/verbal_analogies.xml.h:384
+msgid "Spoon"
+msgstr "Lingură"
+
+#: ../data/verbal_analogies.xml.h:385
+msgid "Wood"
+msgstr "Lemn"
+
+#: ../data/verbal_analogies.xml.h:386
 msgid "hungry / eat | tired"
 msgstr "foame / a mânca | obosit"
 
-#: ../data/verbal_analogies.xml.h:378
+#: ../data/verbal_analogies.xml.h:387
 msgid "sleep | rest"
 msgstr "somn | odihnă | a dormi"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:380
+#: ../data/verbal_analogies.xml.h:389
 msgid "box / open | banana"
 msgstr "cutie / a deschide | banană"
 
-#: ../data/verbal_analogies.xml.h:381
+#: ../data/verbal_analogies.xml.h:390
 msgid "peel"
 msgstr "a decoji"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:383
+#: ../data/verbal_analogies.xml.h:392
 msgid "shovel / dig | axe"
 msgstr "lopată / a săpa | topor"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:385
+#: ../data/verbal_analogies.xml.h:394
 msgid "chop"
 msgstr "a tăia | tăia | taie"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:396
 msgid "glass / break | paper"
 msgstr "pahar / se sparge | hârtie"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:398
 msgid "tear | rip"
 msgstr "se rupe | rupe"
 
-#. Translators: the concept 'toe' (http://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:391
+#. Translators: the concept 'toe' (https://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
+#: ../data/verbal_analogies.xml.h:400
 msgid "feet / two | toes"
 msgstr "picioare / două | degete"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:393
+#: ../data/verbal_analogies.xml.h:402
 msgid "ten | 10"
 msgstr "douăzeci | 20"
 
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:403
 msgid "fish / aquarium | monkey"
 msgstr "pește / acvariu | maimuță"
 
-#: ../data/verbal_analogies.xml.h:395
+#: ../data/verbal_analogies.xml.h:404
 msgid "cage | zoo | zoological garden"
 msgstr "cușcă | zoo | grădina zoologică | grădină zoologică"
 
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:405
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Un pește dintr-un acvariu trăiește în captivitate."
 
-#: ../data/verbal_analogies.xml.h:397
+#: ../data/verbal_analogies.xml.h:406
 msgid "ring / finger | bracelet"
 msgstr "inel / deget | brățară"
 
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:407
 msgid "wrist | arm"
 msgstr "încheietura mâinii | mână"
 
-#: ../data/verbal_analogies.xml.h:399
+#: ../data/verbal_analogies.xml.h:408
 msgid "seal / flippers | bird"
 msgstr "focă / înotătoare | pasăre"
 
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:409
 msgid "wings"
 msgstr "aripi | aripă"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:411
 msgid "stick / float | stone"
 msgstr "băț / plutește | piatră"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:412
 msgid "sink"
 msgstr "se scufundă | scufundă"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:413
 msgid "leopard / spots | tiger"
 msgstr "leopard / pete | tigru"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:414
 msgid "stripes"
 msgstr "dungi"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:416
 msgid "fish / submarine | bird"
 msgstr "pește / submarin | pasăre"
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:417
 msgid "airplane | aeroplane | plane"
 msgstr "aeroplan | avion"
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:418
 msgid "tears / eyes | sweat"
 msgstr "lacrimi / ochi | sudoare"
 
-#: ../data/verbal_analogies.xml.h:410
+#: ../data/verbal_analogies.xml.h:419
 msgid "body | skin"
 msgstr "piele"
 
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:420
 msgid "bridge / over | tunnel"
 msgstr "pod / deasupra | tunel"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:421
 msgid "in | under | through"
 msgstr "în | sub | prin"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:423
 msgid "toy / play | tool"
 msgstr "jucărie / a se juca | unealtă"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:425
 msgid "work"
 msgstr "a munci | a lucra"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:427
 msgid "error / (to) correct | damage"
 msgstr "eroare / (a) corecta | daune"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:428
 msgid "repair | fix"
 msgstr "a repara | a renova"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:429
 msgid "orange / fruit | spinach"
 msgstr "portocală / fruct | spanac"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:430
 msgid "vegetable"
 msgstr "legumă | zarzavat"
 
-#: ../data/verbal_analogies.xml.h:422
+#: ../data/verbal_analogies.xml.h:431
 msgid "hands / grab | teeth"
 msgstr "mâini / a apuca | dinți"
 
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:432
 msgid "bite"
 msgstr "a mușca | mușca | mușcă"
 
-#: ../data/verbal_analogies.xml.h:424
+#: ../data/verbal_analogies.xml.h:433
 msgid "Grab and bite are finite actions."
 msgstr "Apucă și mușcă sunt acțiuni finite."
 
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:434
 msgid "puzzle / solve | game"
 msgstr "puzzle / a rezolva | joc"
 
-#: ../data/verbal_analogies.xml.h:426
+#: ../data/verbal_analogies.xml.h:435
 msgid "win | play"
 msgstr "a câștiga | a juca"
 
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:436
 msgid "eyebrow / eye | mustache"
 msgstr "sprânceană / ochi | mustață"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:437
 msgid "lip | upper lip | mouth"
 msgstr "buză | buză superioară | gură"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:438
 msgid "ice / slippery | glue"
 msgstr "gheață / alunecos | lipici"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:439
 msgid "sticky"
 msgstr "lipicios"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:440
 msgid "whirlpool / water | tornado"
 msgstr "vârtej / apă | tornadă"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:441
 msgid "wind | air"
 msgstr "vânt | aer"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:442
 msgid "fox / den | bird"
 msgstr "vulpe / vizuină | pasăre"
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:443
 msgid "nest"
 msgstr "cuib"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:444
 msgid "dog / tame | wolf"
 msgstr "câine / blând | lup"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:445
 msgid "wild | savage"
 msgstr "sălbatic"
 
-#: ../data/verbal_analogies.xml.h:437
+#: ../data/verbal_analogies.xml.h:446
 msgid "sugar / sweet | vinegar"
 msgstr "zahăr / dulce | oțet"
 
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:447
 msgid "sour"
 msgstr "acru"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:448
 msgid "tennis / sport | ballet"
 msgstr "tenis / sport | balet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:450
 msgid "dance"
 msgstr "dans"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:451
 msgid "slurp / tongue | snort"
 msgstr "sorbit / limbă | sforăit"
 
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:452
 msgid "nose"
 msgstr "nas"
 
-#: ../data/verbal_analogies.xml.h:444
+#: ../data/verbal_analogies.xml.h:453
 msgid "elbow / knee | wrist"
 msgstr "cot / genunchi | încheietură"
 
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:454
 msgid "ankle"
 msgstr "mână"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:455
 msgid "novel / author | song"
 msgstr "roman / autor | piesă"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:456
 msgid "composer | songwriter | lyricist"
 msgstr "compozitor | textier"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:457
 msgid "car / road | train"
 msgstr "mașină / drum | tren"
 
-#: ../data/verbal_analogies.xml.h:449
+#: ../data/verbal_analogies.xml.h:458
 msgid "track | railway | rails | railroad"
 msgstr "șină | cale ferată | șine | drum feroviar"
 
-#: ../data/verbal_analogies.xml.h:450
+#: ../data/verbal_analogies.xml.h:459
 msgid "pediatrics / children | numismatics"
 msgstr "pediatrie / copii | numismatică"
 
-#: ../data/verbal_analogies.xml.h:451
+#: ../data/verbal_analogies.xml.h:460
 msgid "coins | currency | money"
 msgstr "monedă | valută | bani"
 
-#: ../data/verbal_analogies.xml.h:452
+#: ../data/verbal_analogies.xml.h:461
 msgid "thermometer / temperature | clock"
 msgstr "termometru / temperatură | ceas"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:454
+#: ../data/verbal_analogies.xml.h:463
 msgid "time"
 msgstr "timp"
 
-#: ../data/verbal_analogies.xml.h:455
+#: ../data/verbal_analogies.xml.h:464
 msgid "poems / anthology | maps"
 msgstr "poezii / antologie | hărți"
 
-#: ../data/verbal_analogies.xml.h:456
+#: ../data/verbal_analogies.xml.h:465
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:457
+#: ../data/verbal_analogies.xml.h:466
 msgid "letter / word | page"
 msgstr "scrisoare / cuvânt | pagină"
 
-#: ../data/verbal_analogies.xml.h:458
+#: ../data/verbal_analogies.xml.h:467
 msgid "book | magazine | document"
 msgstr "carte | revistă | document"
 
-#: ../data/verbal_analogies.xml.h:459
+#: ../data/verbal_analogies.xml.h:468
 msgid "hour / minute | minute"
 msgstr "oră / minut | minut"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:461
+#: ../data/verbal_analogies.xml.h:470
 msgid "second"
 msgstr "secundă"
 
-#: ../data/verbal_analogies.xml.h:462
+#: ../data/verbal_analogies.xml.h:471
 msgid "tiger / carnivore | cow"
 msgstr "tigru / carnivor | vacă"
 
-#: ../data/verbal_analogies.xml.h:463
+#: ../data/verbal_analogies.xml.h:472
 msgid "herbivorous | herbivore"
 msgstr "erbivor"
 
-#: ../data/verbal_analogies.xml.h:464
+#: ../data/verbal_analogies.xml.h:473
 msgid "constellation / stars | archipelago"
 msgstr "constelație / stele | arhipelag"
 
-#: ../data/verbal_analogies.xml.h:465
+#: ../data/verbal_analogies.xml.h:474
 msgid "islands"
 msgstr "insule"
 
-#: ../src/Clients/Classical/CommandLine.cs:100
+#: ../src/Clients/Classical/CommandLine.cs:98
 #, csharp-format
 msgid "Unknown command line parameter {0}"
 msgstr "Parametru pentru linia de comandă necunoscut {0}"
 
 #. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:110
+#: ../src/Clients/Classical/CommandLine.cs:108
 #, csharp-format
 msgid "(built on {0})"
 msgstr "(construit la {0})"
 
-#: ../src/Clients/Classical/CommandLine.cs:121
+#: ../src/Clients/Classical/CommandLine.cs:119
 msgid "List of available games"
 msgstr "Lista jocurilor disponibile"
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "Usage: gbrainy [options]"
 msgstr "Utilizare: gbrainy [options]"
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tAfișează informații despre versiune."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tAfișează acest dialog de ajutor."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tAfișează lista jocurilor disponibile."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2486,29 +2536,29 @@ msgstr ""
 "  --customgame [game1, gameN]\tSpecifică o listă de jocuri pentru a fi "
 "jucată în timpul unui joc personalizat."
 
-#: ../src/Clients/Classical/CommandLine.cs:177
+#: ../src/Clients/Classical/CommandLine.cs:175
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tLista de jocuri personalizată nu va fi aleatoare."
 
-#: ../src/Clients/Classical/CommandLine.cs:178
+#: ../src/Clients/Classical/CommandLine.cs:176
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tAfișează dependențele."
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:34
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:32
 msgid "Software"
 msgstr "Software"
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:37
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:35
 msgid "Based on ideas by"
 msgstr "Bazat pe ideile"
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:41
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:39
 msgid "MENSA works"
 msgstr "MENSA works"
 
 #. Translators: Replace by the name of the people that translated the application
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:61
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:59
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -2517,7 +2567,7 @@ msgstr ""
 "  Ic3-T https://launchpad.net/~mazilu59\n"
 "  dinamic https://launchpad.net/~dinamic6661"
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as  published by the Free "
@@ -2531,7 +2581,7 @@ msgstr ""
 "latitudinea dumneavoastră) orice versiune ulterioară.\n"
 "\n"
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:67
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:65
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -2544,75 +2594,77 @@ msgstr ""
 "anumit scop. Pentru detalii vezi Licența Publică Generală GNU.\n"
 "\n"
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:68
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
+#| msgid ""
+#| "You should have received a copy of the GNU General Public License along "
+#| "with this program; if not, write to the Free Software Foundation, Inc., "
+#| "59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
-"Place - Suite 330, Boston, MA 02111-1307, USA."
+"this program; if not, see <http://www.gnu.org/licenses/>."
 msgstr ""
-"Ar trebui să fi primit o copie a GNU General Public Licence odată cu acest  "
-"program. Dacă nu ați primit-o deja, contactați Free Software Foundation Inc. "
-"la adresa 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA."
+"Ar trebui să fi primit o copie a Licenței Publice Generale GNU împreună cu "
+"acest program; dacă nu consultați <http://www.gnu.org/licenses/>."
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:76
 msgid "A brain teaser game for fun and to keep your brain trained."
 msgstr "Un joc de inteligență distractiv pentru antrenarea creierului."
 
-#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:80
+#: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "gbrainy project web site"
 msgstr "Pagina web a proiectului gbrainy"
 
 #. Column: Game Name
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:106
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:104
 msgid "Game Name"
 msgstr "Nume joc"
 
 #. Column: Type
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:132
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:130
 msgid "Type"
 msgstr "Tip"
 
-#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:158
+#: ../src/Clients/Classical/Dialogs/CustomGameDialog.cs:156
 msgid "Selected"
 msgstr "Selectat"
 
 #. Translators: default file name used when exporting PDF files (keep the pdf extension please)
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:73
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:71
 msgid "games.pdf"
 msgstr "jocuri.pdf"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:80
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:78
 msgid "PDF files"
 msgstr "Fișiere PDF"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:84
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:82
 msgid "All files"
 msgstr "Toate fișierele"
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:172
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:170
 msgid "The PDF file has been exported correctly."
 msgstr "Fișierul PDF a fost exportat corect."
 
-#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:175
+#: ../src/Clients/Classical/Dialogs/PdfExportDialog.cs:173
 msgid ""
 "There was a problem generating the PDF file. The file has not been created."
 msgstr ""
 "A fost o problemă la generarea fișierului PDF. Fișierul nu a fost creat."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:46
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:44
 msgid "The graph below shows the player's game score evolution."
 msgstr ""
 "Graficul de mai jos reprezintă evoluția jucătorului din punct de vedere al "
 "punctajului."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:50
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:48
 msgid ""
 "You need more than one game session recorded to see the score evolution."
 msgstr ""
 "Ai nevoie de mai mult de o sesiune de joc înregistrată pentru a vedea "
 "evoluția punctajului."
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:54
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:52
 #, csharp-format
 msgid "It is built using the results of {0} recorded game session."
 msgid_plural ""
@@ -2629,26 +2681,26 @@ msgstr[2] ""
 #. Translators: "The graph below" +  "It is built using" sentences
 #. Translators: answer + rationale of the answer
 #. Translators: Concatenating two strings (rationale of answer + extra information).
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:61
-#: ../src/Core/Main/Game.cs:145
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:75
-#: ../src/Games/Logic/PuzzleCountSeries.cs:93
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:59
+#: ../src/Core/Main/Game.cs:143
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:73
+#: ../src/Games/Logic/PuzzleCountSeries.cs:91
 #, csharp-format
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
-#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:68
-#: ../src/Core/Views/FinishView.cs:102
-#: ../src/Core/Views/PlayerHistoryView.cs:85
+#: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:66
+#: ../src/Core/Views/FinishView.cs:100
+#: ../src/Core/Views/PlayerHistoryView.cs:83
 msgid "Total"
 msgstr "Total"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:118
 msgid "You are about to delete the player's game session history."
 msgstr ""
 "Sunteți pe cale să ștergeți istoricul sesiunilor de joc ale jucătorului."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:121
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:119
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
@@ -2656,7 +2708,7 @@ msgstr ""
 "Dacă veți continua, veți pierde istoria sesiunilor de joc precedente. Doriți "
 "să continuați?"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:122
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
 msgid "_Delete"
 msgstr "Ș_terge"
 
@@ -2706,20 +2758,20 @@ msgid "<b>Game Types</b>"
 msgstr "<b>Jocuri de memorie</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:7
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:124
-#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:109
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:122
+#: ../src/Core/Main/GameTypes.cs:43 ../src/Core/Views/FinishView.cs:107
 msgid "Logic"
 msgstr "Logică"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:8
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:128
-#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:116
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:126
+#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:114
 msgid "Calculation"
 msgstr "Calcule"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:9
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:138
-#: ../src/Core/Main/GameTypes.cs:51 ../src/Core/Views/FinishView.cs:130
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:136
+#: ../src/Core/Main/GameTypes.cs:49 ../src/Core/Views/FinishView.cs:128
 msgid "Verbal"
 msgstr "Verbale"
 
@@ -2825,15 +2877,15 @@ msgstr "Numărul maxim de recorduri în istoria sesiunii de joc a jucătorului:"
 msgid "Delete Player's Game Session History"
 msgstr "Șterge istoricul sesiunilor de joc ale jucătorului"
 
-#: ../src/Clients/Classical/gbrainy.cs:431
+#: ../src/Clients/Classical/gbrainy.cs:429
 msgid "Congratulations."
 msgstr "Felicitări."
 
-#: ../src/Clients/Classical/gbrainy.cs:435
+#: ../src/Clients/Classical/gbrainy.cs:433
 msgid "Incorrect answer."
 msgstr "Răspuns incorect."
 
-#: ../src/Clients/Classical/gbrainy.cs:496
+#: ../src/Clients/Classical/gbrainy.cs:494
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2841,12 +2893,12 @@ msgstr ""
 "Odată ce aveți un răspuns, tastați-l în căsuța „Răspuns:” și apăsați butonul "
 "„OK”."
 
-#: ../src/Clients/Classical/gbrainy.cs:526
+#: ../src/Clients/Classical/gbrainy.cs:524
 msgid "The level of translation of gbrainy for your language is low."
 msgstr ""
 "Nivelul de traducere al gbrainy pentru limba dumneavoastră este scăzut."
 
-#: ../src/Clients/Classical/gbrainy.cs:527
+#: ../src/Clients/Classical/gbrainy.cs:525
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2856,16 +2908,16 @@ msgstr ""
 "jucat. Dacă preferați să jucați în limba engleză, există o opțiune pentru a "
 "face acest lucru în Preferințele lui gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:623
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:143
+#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:141
 msgid "Pause"
 msgstr "Pauză"
 
-#: ../src/Clients/Classical/gbrainy.cs:628
+#: ../src/Clients/Classical/gbrainy.cs:626
 msgid "Resume"
 msgstr "Reia"
 
-#: ../src/Clients/Classical/gbrainy.cs:778
+#: ../src/Clients/Classical/gbrainy.cs:776
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Timpul de începere {0}"
@@ -2971,202 +3023,202 @@ msgstr "_Următoarea"
 msgid "_Tip"
 msgstr "_Indiciu"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:31
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:29
 msgid "Add-in Manager"
 msgstr "Administrator de module"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:32
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:30
 msgid "Additional extensions are required to perform this operation."
 msgstr "Sunt necesare extensii adiționale pentru a efectua această operație."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:33
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:31
 msgid "The following add-ins will be installed:"
 msgstr "Următoarele module vor fi instalate:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:34
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:32
 msgid "<big><b>Add-in Manager</b></big>"
 msgstr "<big><b>Administrator de module</b></big>"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:35
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:33
 msgid "The following add-ins are currently installed:"
 msgstr "În prezent următoarele module sunt instalate:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:36
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:34
 msgid "_Install Add-ins..."
 msgstr "_Instalează module..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:37
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:35
 msgid "_Repositories..."
 msgstr "Dep_ozite..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:38
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:36
 msgid "_Uninstall..."
 msgstr "_Dezinstalează..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:39
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:37
 msgid "Enable"
 msgstr "Activează"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:40
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:38
 msgid "Disable"
 msgstr "Dezactivează"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:41
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:39
 msgid "Add-in"
 msgstr "Modul"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:42
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:40
 msgid "Version"
 msgstr "Versiune"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:43
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:41
 msgid "Other"
 msgstr "Alta"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:44
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:42
 msgid "Version:"
 msgstr "Versiune:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:45
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:43
 msgid "Author:"
 msgstr "Autor:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:46
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:44
 msgid "Copyright:"
 msgstr "Drepturi de autor:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:47
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:45
 msgid "Add-in Dependencies:"
 msgstr "Dependențele modulului:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:48
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:46
 msgid "<b>Select the add-ins to install and click on Next</b>"
 msgstr "<b>Selectați modulele de instalat și apăsați Următor</b>"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:49
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:47
 msgid "Show all packages"
 msgstr "Afișează toate pachetele"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:50
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:48
 msgid "Show new versions only"
 msgstr "Afișează numai versiunile noi"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:51
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:49
 msgid "Show updates only"
 msgstr "Afișează numai actualizările"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:52
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:50
 msgid "_Unselect All"
 msgstr "_Deselectează tot"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:53
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:51
 msgid "Select _All"
 msgstr "Selecte_ază tot"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:54
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:52
 msgid "Add-in Installation"
 msgstr "Instalarea modulului"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:55
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:53
 msgid "Name"
 msgstr "Nume"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:56
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:54
 msgid "Url"
 msgstr "Url"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:57
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:55
 msgid "Install from:"
 msgstr "Instalează de la:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:58
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:56
 msgid "Repository"
 msgstr "Depozit"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:59
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:57
 msgid "All registered repositories"
 msgstr "Toate depozitele înregistrate"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:60
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:58
 msgid "Register an on-line repository"
 msgstr "Înregistrează un depozit online"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:61
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:59
 msgid "Select the location of the repository you want to register:"
 msgstr "Selectați locația depozitului la care doriți să vă înregistrați:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:62
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:60
 msgid "Register a local repository"
 msgstr "Înregistrează un depozit local"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:63
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:61
 msgid "Url:"
 msgstr "Url:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:64
-#: ../src/Clients/Classical/Widgets/BrowseFile.cs:43
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:62
+#: ../src/Clients/Classical/Widgets/BrowseFile.cs:41
 msgid "Browse..."
 msgstr "Răsfoiește..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:65
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:63
 msgid "Path:"
 msgstr "Cale:"
 
 #. Mono Addins 0.6
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:66
 msgid "Installed"
 msgstr "Instalat"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:69
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:67
 msgid "Updates"
 msgstr "Actualizări"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:70
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
 msgid "Gallery"
 msgstr "Galerie"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:71
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:69
 msgid "Repository:"
 msgstr "Depozit:"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:72
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:70
 msgid "Install from file..."
 msgstr "Instalează din fișier..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:73
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:71
 msgid "No selection"
 msgstr "Nicio selecție"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:74
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:72
 msgid "No add-ins found"
 msgstr "Nu s-a găsit niciun modul"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:75
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:73
 msgid "Refresh"
 msgstr "Reîmprospătare"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:76
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:74
 msgid "Add-in packages"
 msgstr "Pachete de module"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:77
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:75
 msgid "Install Add-in Package"
 msgstr "Instalează un pachet de module"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:78
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:76
 msgid "All repositories"
 msgstr "Toate depozitele"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:79
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:77
 msgid "Manage Repositories..."
 msgstr "Administrează depozitele..."
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:80
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:78
 msgid "Add-in Repository Management"
 msgstr "Administratorul depozitului de module"
 
 #. Translators: {0} is a number indicating the Addins available for update
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:87
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:85
 #, csharp-format
 msgid "{0} update available"
 msgid_plural "{0} updates available"
@@ -3174,85 +3226,85 @@ msgstr[0] "{0} actualizare disponibilă"
 msgstr[1] "{0} actualizări disponibile"
 msgstr[2] "{0} de actualizări disponibile"
 
-#: ../src/Clients/Classical/Widgets/BrowseFile.cs:84
+#: ../src/Clients/Classical/Widgets/BrowseFile.cs:82
 msgid "Open Location"
 msgstr "Deschide locația"
 
-#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:126
-#: ../src/Core/Main/GameSession.cs:185
+#: ../src/Clients/Classical/Widgets/GameDrawingArea.cs:124
+#: ../src/Core/Main/GameSession.cs:183
 msgid "Paused"
 msgstr "Întrerupt"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:118
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:116
 msgid "Play all the games"
 msgstr "Joacă toate tipurile de jocuri"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:119
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:117
 msgid "All"
 msgstr "Toate"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:123
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:121
 msgid "Play games that challenge your reasoning and thinking"
 msgstr "Jucați jocuri care vă provocă raționamentul și gândirea"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:129
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:127
 msgid "Play games that challenge your mental calculation skills"
 msgstr "Jucați jocuri care vă provocă abilitățile de calcul mental"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:133
-#: ../src/Core/Main/GameTypes.cs:47 ../src/Core/Views/FinishView.cs:123
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:131
+#: ../src/Core/Main/GameTypes.cs:45 ../src/Core/Views/FinishView.cs:121
 msgid "Memory"
 msgstr "Memorie"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:134
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:132
 msgid "Play games that challenge your short term memory"
 msgstr "Jucați jocuri care vă provocă memoria pe termen scurt"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:139
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:137
 msgid "Play games that challenge your verbal aptitude"
 msgstr "Jucați jocuri care vă provocă aptitudinile verbale"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:144
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:142
 msgid "Pause or resume the game"
 msgstr "Pune pauză sau reia jocul"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:148
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:146
 msgid "End the game and show score"
 msgstr "Termină jocul și arată punctajul"
 
-#: ../src/Clients/Classical/Widgets/Toolbar.cs:149
+#: ../src/Clients/Classical/Widgets/Toolbar.cs:147
 msgid "End"
 msgstr "Sfârșit"
 
-#: ../src/Core/Main/ColorPalette.cs:72
+#: ../src/Core/Main/ColorPalette.cs:70
 msgid "red"
 msgstr "roșu"
 
-#: ../src/Core/Main/ColorPalette.cs:73
+#: ../src/Core/Main/ColorPalette.cs:71
 msgid "green"
 msgstr "verde"
 
-#: ../src/Core/Main/ColorPalette.cs:74
+#: ../src/Core/Main/ColorPalette.cs:72
 msgid "blue"
 msgstr "albastru"
 
-#: ../src/Core/Main/ColorPalette.cs:75
+#: ../src/Core/Main/ColorPalette.cs:73
 msgid "yellow"
 msgstr "galben"
 
-#: ../src/Core/Main/ColorPalette.cs:76
+#: ../src/Core/Main/ColorPalette.cs:74
 msgid "magenta"
 msgstr "violet"
 
-#: ../src/Core/Main/ColorPalette.cs:77
+#: ../src/Core/Main/ColorPalette.cs:75
 msgid "orange"
 msgstr "portocaliu"
 
-#: ../src/Core/Main/ColorPalette.cs:78
+#: ../src/Core/Main/ColorPalette.cs:76
 msgid "black"
 msgstr "negru"
 
-#: ../src/Core/Main/ColorPalette.cs:79
+#: ../src/Core/Main/ColorPalette.cs:77
 msgid "white"
 msgstr "alb"
 
@@ -3263,70 +3315,70 @@ msgstr "alb"
 #. For languages represented with the Latin alphabet use
 #. the same than English
 #. First possible answer for a series (e.g.: Figure A)
-#: ../src/Core/Main/GameAnswer.cs:116
+#: ../src/Core/Main/GameAnswer.cs:114
 msgid "A"
 msgstr "A"
 
 #. Second possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:118
+#: ../src/Core/Main/GameAnswer.cs:116
 msgid "B"
 msgstr "B"
 
 #. Third possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:120
+#: ../src/Core/Main/GameAnswer.cs:118
 msgid "C"
 msgstr "C"
 
 #. Fourth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:122
+#: ../src/Core/Main/GameAnswer.cs:120
 msgid "D"
 msgstr "D"
 
 #. Fifth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:124
+#: ../src/Core/Main/GameAnswer.cs:122
 msgid "E"
 msgstr "E"
 
 #. Sixth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:126
+#: ../src/Core/Main/GameAnswer.cs:124
 msgid "F"
 msgstr "F"
 
 #. Seventh possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:128
+#: ../src/Core/Main/GameAnswer.cs:126
 msgid "G"
 msgstr "G"
 
 #. Eighth possible answer for a series
-#: ../src/Core/Main/GameAnswer.cs:130
+#: ../src/Core/Main/GameAnswer.cs:128
 msgid "H"
 msgstr "H"
 
 #. Translators. This is the list of valid answers, like A or B.
-#: ../src/Core/Main/GameAnswer.cs:146
+#: ../src/Core/Main/GameAnswer.cs:144
 #, csharp-format
 msgid "{0} or {1}"
 msgstr "{0} sau {1}"
 
 #. Translators. This is the list of valid answers, like A, B or C.
-#: ../src/Core/Main/GameAnswer.cs:150
+#: ../src/Core/Main/GameAnswer.cs:148
 #, csharp-format
 msgid "{0}, {1} or {2}"
 msgstr "{0}, {1} sau {2}"
 
 #. Translators. This is the list of valid answers, like A, B, C or D.
-#: ../src/Core/Main/GameAnswer.cs:154
+#: ../src/Core/Main/GameAnswer.cs:152
 #, csharp-format
 msgid "{0}, {1}, {2} or {3}"
 msgstr "{0}, {1}, {2} sau {3}"
 
-#: ../src/Core/Main/GameAnswer.cs:163
+#: ../src/Core/Main/GameAnswer.cs:161
 #, csharp-format
 msgid "Figure {0}"
 msgstr "Figura {0}"
 
-#: ../src/Core/Main/Game.cs:138
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:67
+#: ../src/Core/Main/Game.cs:136
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:65
 #, csharp-format
 msgid "The correct answer is {0}."
 msgid_plural "The possible correct answers are {0}."
@@ -3334,12 +3386,12 @@ msgstr[0] "Răspunsul corect este {0}."
 msgstr[1] "Posibilele răspunsuri corecte sunt {0}."
 msgstr[2] "Posibilele răspunsuri corecte sunt {0}."
 
-#: ../src/Core/Main/GameManager.cs:251
+#: ../src/Core/Main/GameManager.cs:249
 msgid "Extensions database:"
 msgstr "Baza de date a extensiilor:"
 
 #. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:257
+#: ../src/Core/Main/GameManager.cs:255
 #, csharp-format
 msgid ""
 "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
@@ -3348,60 +3400,60 @@ msgstr ""
 "{0} jocuri înregistrate: {1} puzzle-uri logice, {2} jocuri de calculat, {3} "
 "jocuri de memorie, {4} analogii verbale"
 
-#: ../src/Core/Main/GameSession.cs:183
+#: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
 msgid "Games played: {0} (Score: {1})"
 msgstr "Partide jucate: {0} (Punctaj: {1})"
 
-#: ../src/Core/Main/GameSession.cs:184
+#: ../src/Core/Main/GameSession.cs:182
 #, csharp-format
 msgid "Time: {0}"
 msgstr "Timp: {0}"
 
 #. Translators: {0} is the name of the game
-#: ../src/Core/Main/GameSession.cs:189
+#: ../src/Core/Main/GameSession.cs:187
 #, csharp-format
 msgid "Game: {0}"
 msgstr "Joc: {0}"
 
 #. Translators: text in the status bar: games played - time - game name
-#: ../src/Core/Main/GameSession.cs:191
+#: ../src/Core/Main/GameSession.cs:189
 #, csharp-format
 msgid "{0} - {1} - {2}"
 msgstr "{0} - {1} - {2}"
 
 #. Translators: text in the status bar: games played - time
-#: ../src/Core/Main/GameSession.cs:194
+#: ../src/Core/Main/GameSession.cs:192
 #, csharp-format
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
-#: ../src/Core/Main/GameSessionHistory.cs:80
+#: ../src/Core/Main/GameSessionHistory.cs:78
 msgid "Outstanding results"
 msgstr "Rezultate deosebite"
 
-#: ../src/Core/Main/GameSessionHistory.cs:82
+#: ../src/Core/Main/GameSessionHistory.cs:80
 msgid "Excellent results"
 msgstr "Rezultate excelente"
 
-#: ../src/Core/Main/GameSessionHistory.cs:84
+#: ../src/Core/Main/GameSessionHistory.cs:82
 msgid "Good results"
 msgstr "Rezultate bune"
 
-#: ../src/Core/Main/GameSessionHistory.cs:86
+#: ../src/Core/Main/GameSessionHistory.cs:84
 msgid "Poor results"
 msgstr "Rezultate slabe"
 
-#: ../src/Core/Main/GameSessionHistory.cs:87
+#: ../src/Core/Main/GameSessionHistory.cs:85
 msgid "Disappointing results"
 msgstr "Rezultate dezamăgitoare"
 
-#: ../src/Core/Main/GameTips.cs:59
+#: ../src/Core/Main/GameTips.cs:57
 msgid "Read the instructions carefully and identify the data and given clues."
 msgstr ""
 "Citiți cu atenție instrucțiunile și identificați datele și indiciile primite."
 
-#: ../src/Core/Main/GameTips.cs:61
+#: ../src/Core/Main/GameTips.cs:59
 msgid ""
 "To score the player gbrainy uses the time and tips needed to complete each "
 "game."
@@ -3409,24 +3461,24 @@ msgstr ""
 "Pentru a puncta jucătorul gbrainy folosește timpul și indiciile folosite "
 "pentru a termina fiecare joc."
 
-#: ../src/Core/Main/GameTips.cs:63
+#: ../src/Core/Main/GameTips.cs:61
 msgid ""
 "In logic games, elements that may seem irrelevant can be very important."
 msgstr ""
 "În jocurile de logică, elementele care ar putea părea irelevante pot fi "
 "foarte importante."
 
-#: ../src/Core/Main/GameTips.cs:65
+#: ../src/Core/Main/GameTips.cs:63
 msgid "Try to approach a problem from different angles."
 msgstr "Încercați să abordați o problemă din unghiuri diferite."
 
-#: ../src/Core/Main/GameTips.cs:67
+#: ../src/Core/Main/GameTips.cs:65
 msgid ""
 "Do not be afraid of making mistakes, they are part of the learning process."
 msgstr ""
 "Nu vă fie teamă să greșiți, aceasta este o parte din procesul de învățare."
 
-#: ../src/Core/Main/GameTips.cs:69
+#: ../src/Core/Main/GameTips.cs:67
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challenging yourself."
@@ -3434,12 +3486,12 @@ msgstr ""
 "Rezolvați toate problemele, chiar și pe cele dificile. Progresul vine dacă "
 "vă provocați."
 
-#: ../src/Core/Main/GameTips.cs:71
+#: ../src/Core/Main/GameTips.cs:69
 msgid "Play on a daily basis, you will notice progress soon."
 msgstr "Joacă în fiecare zi, veți observa progresul în cel mai scurt timp."
 
 #. Translators: Custom Game Selection is a menu option
-#: ../src/Core/Main/GameTips.cs:73
+#: ../src/Core/Main/GameTips.cs:71
 msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
@@ -3447,17 +3499,17 @@ msgstr ""
 "Utilizați „Selectare personalizată a jocului” pentru a alege exact jocurile "
 "pe care vreți să le jucați."
 
-#: ../src/Core/Main/GameTips.cs:75 ../src/Core/Views/WelcomeView.cs:151
+#: ../src/Core/Main/GameTips.cs:73 ../src/Core/Views/WelcomeView.cs:149
 msgid "Use the Settings to adjust the difficulty level of the game."
 msgstr ""
 "Utilizați configurările pentru a ajusta nivelul de dificultate al jocului."
 
-#: ../src/Core/Main/GameTips.cs:77
+#: ../src/Core/Main/GameTips.cs:75
 msgid "Association of elements is a common technique for remembering things."
 msgstr ""
 "Asocierea elementelor este o tehnică comună pentru amintirea lucrurilor."
 
-#: ../src/Core/Main/GameTips.cs:79
+#: ../src/Core/Main/GameTips.cs:77
 msgid ""
 "Grouping elements into categories is a common technique for remembering "
 "things."
@@ -3465,30 +3517,30 @@ msgstr ""
 "Gruparea elementelor pe categorii este o tehnică comună pentru amintirea "
 "lucrurilor."
 
-#: ../src/Core/Main/GameTips.cs:81
+#: ../src/Core/Main/GameTips.cs:79
 msgid "Build acronyms using the first letter of each fact to be remembered."
 msgstr ""
 "Construiți acronimele folosind prima literă a fiecărui fapt pentru a fi "
 "amintit."
 
-#: ../src/Core/Main/GameTips.cs:83
+#: ../src/Core/Main/GameTips.cs:81
 msgid ""
 "The enjoyment obtained from a puzzle is proportional to the time spent on it."
 msgstr ""
 "Plăcerea obținută dintr-un puzzle este proporțională cu timpul petrecut în "
 "rezolvarea lui."
 
-#: ../src/Core/Main/GameTips.cs:85
+#: ../src/Core/Main/GameTips.cs:83
 msgid "Think of breaking down every problem into simpler components."
 msgstr "Gândiți-vă să împărțiți fiecare problemă în componente mai simple."
 
-#: ../src/Core/Main/GameTips.cs:87
+#: ../src/Core/Main/GameTips.cs:85
 msgid "When answering verbal analogies pay attention to the verb tense."
 msgstr ""
 "Atunci când răspundeți la analogii verbale acordați atenție la timpul "
 "verbului."
 
-#: ../src/Core/Main/GameTips.cs:89
+#: ../src/Core/Main/GameTips.cs:87
 msgid ""
 "When you go shopping, try to perform calculations without the use of a "
 "calculator."
@@ -3496,68 +3548,68 @@ msgstr ""
 "Când mergeți la cumpărături, încercați să faceți calcule fără ajutorul unui "
 "calculator."
 
-#: ../src/Core/Main/Memory.cs:53
+#: ../src/Core/Main/Memory.cs:51
 msgid "Memorize the objects below in the given time"
 msgstr "Memorați elementele de mai jos în timpul dat"
 
-#: ../src/Core/Main/Memory.cs:238
+#: ../src/Core/Main/Memory.cs:236
 msgid "Time left"
 msgstr "Timp rămas"
 
 #. Translators: {0} is the game number and {1} the game question or answer
 #. The number is used as reference when looking for the game solution in the PDF
-#: ../src/Core/Main/PdfExporter.cs:112 ../src/Core/Main/PdfExporter.cs:172
+#: ../src/Core/Main/PdfExporter.cs:110 ../src/Core/Main/PdfExporter.cs:170
 #, csharp-format
 msgid "Game #{0}. {1}"
 msgstr "Joc #{0}. {1}"
 
-#: ../src/Core/Main/PdfExporter.cs:129
+#: ../src/Core/Main/PdfExporter.cs:127
 #, csharp-format
 msgid "Created by gbrainy {0}"
 msgstr "Creat de gbrainy {0}"
 
-#: ../src/Core/Main/PdfExporter.cs:164
+#: ../src/Core/Main/PdfExporter.cs:162
 msgid "Solutions"
 msgstr "Soluții"
 
 #. Translators: this the separator used when concatenating multiple possible answers for verbal analogies
 #. For example: "Possible correct answers are: sleep, rest."
-#: ../src/Core/Main/Verbal/Analogies.cs:76
+#: ../src/Core/Main/Verbal/Analogies.cs:74
 msgid ", "
 msgstr ", "
 
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:38
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:36
 #, csharp-format
 msgid "Multiple options #{0}"
 msgstr "Variante multiple nr.{0}"
 
 #. Translators: {0} is replaced by a question and {1} by the possible valid answers
 #. E.g.: What is the correct option? Answer A, B, C or D.
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:51
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:60
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:49
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:58
 #, csharp-format
 msgid "{0} Answer {1}."
 msgstr "{0} Răspundeți folosind {1}."
 
 #. Translators: this "option) answer" for example "a) "21 x 60 = 1260". This should not be changed for most of the languages
-#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:87
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:103
-#: ../src/Games/Calculation/CalculationCloserFraction.cs:164
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:152
-#: ../src/Games/Logic/PuzzleOstracism.cs:164
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:183
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:142
+#: ../src/Core/Main/Verbal/AnalogiesMultipleOptions.cs:85
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:101
+#: ../src/Games/Calculation/CalculationCloserFraction.cs:162
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:150
+#: ../src/Games/Logic/PuzzleOstracism.cs:162
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:181
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:140
 #, csharp-format
 msgid "{0}) {1}"
 msgstr "{0}) {1}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:39
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:37
 #, csharp-format
 msgid "Pair of words compare #{0}"
 msgstr "Comparația perechilor de cuvinte nr.{0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:55
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:55
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:53
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:53
 #, csharp-format
 msgid ""
 "Given the relationship between the two words below, which word has the same "
@@ -3566,39 +3618,39 @@ msgstr ""
 "Având în vedere relația dintre cele două cuvinte de mai jos, ce cuvânt are "
 "aceeași relație cu „{0}”?"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:112
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:125
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:110
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:123
 #, csharp-format
 msgid "Words: {0}"
 msgstr "Cuvinte: {0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:39
+#: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:37
 #, csharp-format
 msgid "Pair of words #{0}"
 msgstr "Perechea de cuvinte nr. {0}"
 
-#: ../src/Core/Main/Verbal/AnalogiesQuestionAnswer.cs:36
+#: ../src/Core/Main/Verbal/AnalogiesQuestionAnswer.cs:34
 #, csharp-format
 msgid "Question and answer #{0}"
 msgstr "Întrebare și răspuns #{0}"
 
 #. Translators {0}: list of options (A, B, C)
-#: ../src/Core/Main/Xml/GameXml.cs:216
+#: ../src/Core/Main/Xml/GameXml.cs:214
 #, csharp-format
 msgid "Answer {0}."
 msgstr "Răspunsul {0}."
 
-#: ../src/Core/Views/CountDownView.cs:80
+#: ../src/Core/Views/CountDownView.cs:78
 msgid "Get ready to memorize the next objects..."
 msgstr "Pregătiți-vă pentru a memora obiectele următoare..."
 
-#: ../src/Core/Views/FinishView.cs:145
-#: ../src/Core/Views/PlayerHistoryView.cs:277
+#: ../src/Core/Views/FinishView.cs:143
+#: ../src/Core/Views/PlayerHistoryView.cs:275
 msgid "Score"
 msgstr "Punctaj"
 
 #. Translator: This will be part of the sentence "Games won: 10 (6 played)"
-#: ../src/Core/Views/FinishView.cs:154
+#: ../src/Core/Views/FinishView.cs:152
 #, csharp-format
 msgid "{0} played"
 msgid_plural "{0} played"
@@ -3606,7 +3658,7 @@ msgstr[0] "{0} jucat"
 msgstr[1] "{0} jucate"
 msgstr[2] "{0} jucate"
 
-#: ../src/Core/Views/FinishView.cs:158
+#: ../src/Core/Views/FinishView.cs:156
 #, csharp-format
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
@@ -3614,7 +3666,7 @@ msgstr[0] "Partide câștigate: {0} ({1})"
 msgstr[1] "Partide câștigate: {0} ({1})"
 msgstr[2] "Partide câștigate: {0} ({1})"
 
-#: ../src/Core/Views/FinishView.cs:162
+#: ../src/Core/Views/FinishView.cs:160
 #, csharp-format
 msgid "{0}. Games won: {1} ({2})"
 msgid_plural "{0}. Games won: {1} ({2})"
@@ -3622,27 +3674,27 @@ msgstr[0] "{0}. Partide câștigate: {1} ({2})"
 msgstr[1] "{0}. Partide câștigate: {1} ({2})"
 msgstr[2] "{0}. Partide câștigate: {1} ({2})"
 
-#: ../src/Core/Views/FinishView.cs:168
+#: ../src/Core/Views/FinishView.cs:166
 #, csharp-format
 msgid "Time played {0} (average per game {1})"
 msgstr "Timp jucat {0} (media pe joc {1})"
 
 #. Translators: translated string should not be longer that the English original (space restriction on the UI)
-#: ../src/Core/Views/FinishView.cs:177
+#: ../src/Core/Views/FinishView.cs:175
 msgid "For details on how gbrainy's scoring works refer to the help."
 msgstr ""
 "Pentru detalii despre cum funcționează sistemul de punctare gbrainy "
 "consultați ajutorul."
 
-#: ../src/Core/Views/FinishView.cs:189
+#: ../src/Core/Views/FinishView.cs:187
 msgid "Tips for your next games"
 msgstr "Sfaturi pentru următoarele jocuri"
 
-#: ../src/Core/Views/FinishView.cs:217
+#: ../src/Core/Views/FinishView.cs:215
 msgid "Congratulations! New personal record"
 msgstr "Felicitări! Ați stabilit un nou record personal"
 
-#: ../src/Core/Views/FinishView.cs:227
+#: ../src/Core/Views/FinishView.cs:225
 #, csharp-format
 msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
@@ -3651,7 +3703,7 @@ msgstr ""
 "Obținând punctajul {0} la puzzle logice ați stabilit un nou record personal. "
 "Recordul anterior a fost {1}."
 
-#: ../src/Core/Views/FinishView.cs:233
+#: ../src/Core/Views/FinishView.cs:231
 #, csharp-format
 msgid ""
 "By scoring {0} in calculation games you have established a new personal "
@@ -3660,7 +3712,7 @@ msgstr ""
 "Obținând punctajul {0} la jocurile de calcul ați stabilit un nou record "
 "personal. Recordul anterior a fost {1}."
 
-#: ../src/Core/Views/FinishView.cs:239
+#: ../src/Core/Views/FinishView.cs:237
 #, csharp-format
 msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
@@ -3669,7 +3721,7 @@ msgstr ""
 "Obținând punctajul {0} la jocurile de memorie ați stabilit un nou record "
 "personal. Recordul anterior a fost {1}."
 
-#: ../src/Core/Views/FinishView.cs:245
+#: ../src/Core/Views/FinishView.cs:243
 #, csharp-format
 msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
@@ -3678,17 +3730,17 @@ msgstr ""
 "Obținând punctajul {0} la analogii verbale ați stabilit un nou record "
 "personal. Recordul anterior a fost {1}."
 
-#: ../src/Core/Views/PlayerHistoryView.cs:276
+#: ../src/Core/Views/PlayerHistoryView.cs:274
 msgid "Time"
 msgstr "Timp"
 
-#: ../src/Core/Views/WelcomeView.cs:64
+#: ../src/Core/Views/WelcomeView.cs:62
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
 msgstr ""
 "Puzzle-uri logice. Pentru a vă provoca raționamentul și abilitățile de "
 "gândire."
 
-#: ../src/Core/Views/WelcomeView.cs:85
+#: ../src/Core/Views/WelcomeView.cs:83
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
@@ -3696,22 +3748,22 @@ msgstr ""
 "Calcule mentale. Operații aritmetice pentru a testa abilitățile "
 "dumneavoastră în calcule mentale."
 
-#: ../src/Core/Views/WelcomeView.cs:106
+#: ../src/Core/Views/WelcomeView.cs:104
 msgid "Memory trainers. To prove your short term memory."
 msgstr ""
 "Jocuri de memorie. Pentru a vă pune la încercare memoria de termen scurt."
 
-#: ../src/Core/Views/WelcomeView.cs:127
+#: ../src/Core/Views/WelcomeView.cs:125
 msgid "Verbal analogies. Challenge your verbal aptitude."
 msgstr "Analogii verbale. Pentru a vă provoca aptitudinile verbale."
 
 #. Translators: {0} is the version number of the program
-#: ../src/Core/Views/WelcomeView.cs:143
+#: ../src/Core/Views/WelcomeView.cs:141
 #, csharp-format
 msgid "Welcome to gbrainy {0}"
 msgstr "Bine ați venit la gbrainy {0}"
 
-#: ../src/Core/Views/WelcomeView.cs:147
+#: ../src/Core/Views/WelcomeView.cs:145
 msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
@@ -3719,19 +3771,19 @@ msgstr ""
 "gbrainy este un joc de inteligență distractiv ce vă menține creierul "
 "antrenat. Acesta include:"
 
-#: ../src/Games/Calculation/CalculationArithmetical.cs:41
+#: ../src/Games/Calculation/CalculationArithmetical.cs:39
 msgid "Arithmetical operations"
 msgstr "Operații aritmetice"
 
-#: ../src/Games/Calculation/CalculationArithmetical.cs:49
+#: ../src/Games/Calculation/CalculationArithmetical.cs:47
 msgid "What is the result of the following operation?"
 msgstr "Care este rezultatul următoarei operații?"
 
-#: ../src/Games/Calculation/CalculationAverage.cs:38
+#: ../src/Games/Calculation/CalculationAverage.cs:36
 msgid "Average"
 msgstr "Media"
 
-#: ../src/Games/Calculation/CalculationAverage.cs:55
+#: ../src/Games/Calculation/CalculationAverage.cs:53
 #, csharp-format
 msgid ""
 "Given the numbers: {0}. Which of the following numbers is closest to the "
@@ -3740,7 +3792,7 @@ msgstr ""
 "Fiind date numerele: {0}. Care dintre următoarele numere este cel mai "
 "apropiat de medie? Răspundeți folosind {1}, {2}, {3} or {4}."
 
-#: ../src/Games/Calculation/CalculationAverage.cs:60
+#: ../src/Games/Calculation/CalculationAverage.cs:58
 msgid ""
 "The average of a list of numbers is their sum divided by the number of "
 "numbers in the list."
@@ -3748,16 +3800,16 @@ msgstr ""
 "Media unei liste de numere este suma lor împărțită la numărul de numere din "
 "listă."
 
-#: ../src/Games/Calculation/CalculationAverage.cs:65
+#: ../src/Games/Calculation/CalculationAverage.cs:63
 #, csharp-format
 msgid "The result of the operation is {0}."
 msgstr "Rezultatul operației de este {0}."
 
-#: ../src/Games/Calculation/CalculationCloserFraction.cs:37
+#: ../src/Games/Calculation/CalculationCloserFraction.cs:35
 msgid "Closer fraction"
 msgstr "Cea mai apropiată fracție"
 
-#: ../src/Games/Calculation/CalculationCloserFraction.cs:46
+#: ../src/Games/Calculation/CalculationCloserFraction.cs:44
 #, csharp-format
 msgid ""
 "Which of the following numbers is closer to {0}? Answer {1}, {2}, {3} or {4}."
@@ -3765,16 +3817,16 @@ msgstr ""
 "Care dintre următoarele numere este mai apropiat de {0}? Răspundeți folosind "
 "{1}, {2}, {3} sau {4}."
 
-#: ../src/Games/Calculation/CalculationCloserFraction.cs:55
+#: ../src/Games/Calculation/CalculationCloserFraction.cs:53
 #, csharp-format
 msgid "The result of the operation {0} / {1} is '{2}'."
 msgstr "Rezultatul operației {0} / {1} este „{2}”."
 
-#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:36
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:34
 msgid "Consecutive sum"
 msgstr "Suma consecutivelor"
 
-#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:45
+#: ../src/Games/Calculation/CalculationConsecutiveSum.cs:43
 #, csharp-format
 msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
@@ -3783,11 +3835,11 @@ msgstr ""
 "În lista cu numere de o cifră de mai jos, sunt 5 numere consecutive ale "
 "căror sumă este {0}. Care numere sunt acelea?"
 
-#: ../src/Games/Calculation/CalculationFractions.cs:61
+#: ../src/Games/Calculation/CalculationFractions.cs:59
 msgid "Fractions"
 msgstr "Fracții"
 
-#: ../src/Games/Calculation/CalculationFractions.cs:69
+#: ../src/Games/Calculation/CalculationFractions.cs:67
 msgid ""
 "What is the result of the given operation? Answer using either a fraction or "
 "a number."
@@ -3795,11 +3847,11 @@ msgstr ""
 "Care este rezultatul operației date? Răspundeți folosind fie o facție fie un "
 "număr."
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:36
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:34
 msgid "Greatest divisor"
 msgstr "Cel mai mare divizor"
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:45
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:43
 #, csharp-format
 msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
@@ -3808,43 +3860,43 @@ msgstr ""
 "Care dintre divizorii posibili este cel mai mare ce poate divide toate "
 "numerele? Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:243
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:231
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:241
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:229
 msgid "Numbers"
 msgstr "Numere"
 
-#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:257
+#: ../src/Games/Calculation/CalculationGreatestDivisor.cs:255
 msgid "Possible divisors"
 msgstr "Divizori posibili"
 
-#: ../src/Games/Calculation/CalculationOperator.cs:34
+#: ../src/Games/Calculation/CalculationOperator.cs:32
 msgid "Operators"
 msgstr "Operanzi"
 
-#: ../src/Games/Calculation/CalculationOperator.cs:38
+#: ../src/Games/Calculation/CalculationOperator.cs:36
 #, csharp-format
 msgid "The first operator is {0}."
 msgstr "Primul operator este {0}."
 
-#: ../src/Games/Calculation/CalculationOperator.cs:46
+#: ../src/Games/Calculation/CalculationOperator.cs:44
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
 msgstr ""
 "Ce operanzi aritmetici fac ca {0}, {1}, și {2} să dea rezultatul {3}? "
 "Răspundeți folosind „+-/*”."
 
-#: ../src/Games/Calculation/CalculationOperator.cs:109
-#: ../src/Games/Calculation/CalculationRatio.cs:86
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:100
+#: ../src/Games/Calculation/CalculationOperator.cs:107
+#: ../src/Games/Calculation/CalculationRatio.cs:84
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:98
 #, csharp-format
 msgid "{0} and {1}"
 msgstr "{0} și {1}"
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:67
+#: ../src/Games/Calculation/CalculationPrimes.cs:65
 msgid "Primes"
 msgstr "Numere prime"
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:76
+#: ../src/Games/Calculation/CalculationPrimes.cs:74
 #, csharp-format
 msgid ""
 "Which of the following numbers is a prime? A prime number is a positive "
@@ -3855,7 +3907,7 @@ msgstr ""
 "pozitiv care are exact doi divizori pozitivi diferiți, 1 și el însuși. "
 "Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:81
+#: ../src/Games/Calculation/CalculationPrimes.cs:79
 msgid ""
 "If the sum of all digits in a given number is divisible by 3, then so is the "
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
@@ -3864,25 +3916,25 @@ msgstr ""
 "și numărul este divizibil cu 3. De exemplu 15 = 1 + 5 = 6, care este "
 "divizibil cu 3."
 
-#: ../src/Games/Calculation/CalculationPrimes.cs:86
+#: ../src/Games/Calculation/CalculationPrimes.cs:84
 #, csharp-format
 msgid "The number {0} is a prime number."
 msgstr "Numărul {0} este prim."
 
-#: ../src/Games/Calculation/CalculationProportions.cs:36
+#: ../src/Games/Calculation/CalculationProportions.cs:34
 msgid "Proportions"
 msgstr "Proporții"
 
-#: ../src/Games/Calculation/CalculationProportions.cs:46
+#: ../src/Games/Calculation/CalculationProportions.cs:44
 #, csharp-format
 msgid "What is {0}% of {1}/{2}? Answer {3}, {4}, {5} or {6}."
 msgstr "Cât este {0}% din {1}/{2}? Răspundeți folosind {3}, {4}, {5} sau {6}."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:31
+#: ../src/Games/Calculation/CalculationRatio.cs:29
 msgid "Ratio"
 msgstr "Raport"
 
-#: ../src/Games/Calculation/CalculationRatio.cs:41
+#: ../src/Games/Calculation/CalculationRatio.cs:39
 #, csharp-format
 msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
@@ -3891,7 +3943,7 @@ msgstr ""
 "Care două numere au suma {0} și un raport de {1} la {2}? Răspundeți folosind "
 "două numere (ex: 1 și 2)."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:48
+#: ../src/Games/Calculation/CalculationRatio.cs:46
 #, csharp-format
 msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
@@ -3900,7 +3952,7 @@ msgstr ""
 "Al doilea număr poate fi calculat prin înmulțirea primului cu {0} și "
 "împărțindu-l la {1}."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:54
+#: ../src/Games/Calculation/CalculationRatio.cs:52
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
@@ -3908,22 +3960,22 @@ msgstr ""
 "Un raport specifică proporția dintre două numere. Un raport de a:b înseamnă "
 "că pentru fiecare parte „a” aveți „b” părți."
 
-#: ../src/Games/Calculation/CalculationRatio.cs:98
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:114
+#: ../src/Games/Calculation/CalculationRatio.cs:96
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:112
 #, csharp-format
 msgid "x + y = {0}"
 msgstr "x + y = {0}"
 
-#: ../src/Games/Calculation/CalculationRatio.cs:101
+#: ../src/Games/Calculation/CalculationRatio.cs:99
 #, csharp-format
 msgid "have a ratio of {0}:{1}"
 msgstr "au un raport de {0}:{1}"
 
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:48
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:46
 msgid "Selected numbers"
 msgstr "Numere selectate"
 
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:61
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:59
 #, csharp-format
 msgid ""
 "In the list of numbers below, what is the sum of all the numbers with a "
@@ -3932,7 +3984,7 @@ msgstr ""
 "În lista numerelor de mai jos, care este suma tuturor numerelor cu o valoare "
 "mai mare decât {0}? Răspundeți folosind {1}, {2}, {3} or {4}."
 
-#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:66
+#: ../src/Games/Calculation/CalculationSelectedNumbers.cs:64
 #, csharp-format
 msgid ""
 "In the list of numbers below, what is the product of all the numbers with a "
@@ -3941,11 +3993,11 @@ msgstr ""
 "În lista numerelor de mai jos, care este produsul tuturor numerelor cu o "
 "valoare mai mare decât {0}? Răspundeți folosind {1}, {2}, {3} or {4}."
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:40
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:38
 msgid "Two numbers"
 msgstr "Două numere"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:51
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:49
 #, csharp-format
 msgid ""
 "Which two numbers when added are {0} and when multiplied are {1}? Answer "
@@ -3954,7 +4006,7 @@ msgstr ""
 "Care două numere atunci când sunt adunate dau {0} și când sunt înmulțite dau "
 "{1}? Răspundeți folosind două numere (ex: 1 și 2)."
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:53
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:51
 #, csharp-format
 msgid ""
 "Which two numbers when subtracted are {0} and when multiplied are {1}? "
@@ -3963,21 +4015,21 @@ msgstr ""
 "Care două numere atunci când scăzute dau {0} și când sunt înmulțite dau {1}? "
 "Răspundeți folosind două numere (ex: 1 și 2)."
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:117
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:115
 #, csharp-format
 msgid "x - y = {0}"
 msgstr "x - y = {0}"
 
-#: ../src/Games/Calculation/CalculationTwoNumbers.cs:124
+#: ../src/Games/Calculation/CalculationTwoNumbers.cs:122
 #, csharp-format
 msgid "x * y = {0}"
 msgstr "x * y = {0}"
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:31
+#: ../src/Games/Logic/Puzzle3DCube.cs:29
 msgid "3D Cube"
 msgstr "Cubul 3D"
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:35
+#: ../src/Games/Logic/Puzzle3DCube.cs:33
 msgid ""
 "How many small cubes does it take to build the large cube below? Answer "
 "using a number."
@@ -3985,16 +4037,16 @@ msgstr ""
 "De câte cuburi mici este nevoie pentru a construi cubul mare de mai jos? "
 "Răspundeți folosind un număr."
 
-#: ../src/Games/Logic/Puzzle3DCube.cs:39
+#: ../src/Games/Logic/Puzzle3DCube.cs:37
 msgid "A cube is a regular solid object having six congruent square faces."
 msgstr ""
 "Un cub este un obiect solid regulat având șase fețe pătrate congruente."
 
-#: ../src/Games/Logic/PuzzleBalance.cs:49
+#: ../src/Games/Logic/PuzzleBalance.cs:47
 msgid "Balance"
 msgstr "Balanța"
 
-#: ../src/Games/Logic/PuzzleBalance.cs:53
+#: ../src/Games/Logic/PuzzleBalance.cs:51
 msgid ""
 "Using triangles only, how many triangles are needed in the right part of the "
 "last figure to keep it balanced?"
@@ -4002,7 +4054,7 @@ msgstr ""
 "Folosind doar triunghiuri, câte sunt necesare în partea din dreapta a "
 "figurii pentru a menține echilibrul?"
 
-#: ../src/Games/Logic/PuzzleBalance.cs:58
+#: ../src/Games/Logic/PuzzleBalance.cs:56
 msgid ""
 "Every circle is equivalent to two triangles and every square to three "
 "triangles."
@@ -4010,15 +4062,15 @@ msgstr ""
 "Fiecare cerc este echivalent cu două triunghiuri și fiecare pătrat este "
 "echivalent cu trei triunghiuri."
 
-#: ../src/Games/Logic/PuzzleBalance.cs:63
+#: ../src/Games/Logic/PuzzleBalance.cs:61
 msgid "Every circle is equivalent two triangles."
 msgstr "Fiecare cerc este echivalent cu două triunghiuri."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:50
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:48
 msgid "Build a triangle"
 msgstr "Construiește un triunghi"
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:55
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:53
 #, csharp-format
 msgid ""
 "Which three pieces can you use together to build a triangle? Answer using "
@@ -4027,19 +4079,19 @@ msgstr ""
 "Care trei piese pot fi folosite pentru a construi un triunghi? Răspundeți "
 "folosind numele figurilor, de ex.: {0}{1}{2}."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:60
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:58
 msgid "The resulting triangle is isosceles."
 msgstr "Triunghiul rezultat este isoscel."
 
-#: ../src/Games/Logic/PuzzleBuildTriangle.cs:173
+#: ../src/Games/Logic/PuzzleBuildTriangle.cs:171
 msgid "The triangle is:"
 msgstr "Triunghiul este:"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:29
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:27
 msgid "Circles in a square"
 msgstr "Cercurile din pătrat"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:33
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:31
 msgid ""
 "What is the maximum number of circles (as shown) that fit in the square "
 "below?"
@@ -4047,12 +4099,12 @@ msgstr ""
 "Care este numărul maxim de cercuri (ca cel din imagine), care se încadrează "
 "în pătratul de mai jos?"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:37
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:35
 msgid "You can fit more than 64 circles."
 msgstr "Puteți pune mai mult de 64 de cercuri."
 
 #. Translators: {0} is replaced always by 0.1340
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:43
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:41
 #, csharp-format
 msgid ""
 "Using the above layout {0} units of height are gained per row leaving enough "
@@ -4061,22 +4113,22 @@ msgstr ""
 "Folosind aspectul mai sus {0} unități de înălțime sunt acumulate pe rând "
 "lăsând spațiu suficient pentru un rând suplimentar."
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:77
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:96
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:75
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:94
 msgid "8 units"
 msgstr "8 unități"
 
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:115
-#: ../src/Games/Logic/PuzzleCirclesSquare.cs:134
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:113
+#: ../src/Games/Logic/PuzzleCirclesSquare.cs:132
 msgid "1 unit"
 msgstr "1 unitate"
 
-#: ../src/Games/Logic/PuzzleClocks.cs:37
+#: ../src/Games/Logic/PuzzleClocks.cs:35
 msgid "Clocks"
 msgstr "Ceasurile"
 
 #. Translators: {0} is replaced by 'Figure X'
-#: ../src/Games/Logic/PuzzleClocks.cs:43
+#: ../src/Games/Logic/PuzzleClocks.cs:41
 #, csharp-format
 msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
@@ -4085,7 +4137,7 @@ msgstr ""
 "Către care număr ar trebui limba mare a ceasului „{0}” să indice? Răspundeți "
 "folosind numere."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:51
+#: ../src/Games/Logic/PuzzleClocks.cs:49
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
@@ -4096,27 +4148,27 @@ msgstr ""
 "valorilor spre care arată mâinile. De exemplu, valorile mâinilor pentru "
 "„{0}” sunt {3} ({2} + {1})."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:57
+#: ../src/Games/Logic/PuzzleClocks.cs:55
 msgid "The clocks do not follow the time logic."
 msgstr "Ceasurile nu urmează logica timpului."
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:45
+#: ../src/Games/Logic/PuzzleCountCircles.cs:43
 msgid "Count circles"
 msgstr "Numărarea cercurilor"
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:49
+#: ../src/Games/Logic/PuzzleCountCircles.cs:47
 msgid "How many circles do you count?"
 msgstr "Câte cercuri ați numărat?"
 
-#: ../src/Games/Logic/PuzzleCountCircles.cs:53
+#: ../src/Games/Logic/PuzzleCountCircles.cs:51
 msgid "It is an easy exercise if you systematically count the circles."
 msgstr "Este un exercițiu ușor dacă numărați sistematic cercurile."
 
-#: ../src/Games/Logic/PuzzleCounting.cs:41
+#: ../src/Games/Logic/PuzzleCounting.cs:39
 msgid "Counting"
 msgstr "Numărătoarea"
 
-#: ../src/Games/Logic/PuzzleCounting.cs:64
+#: ../src/Games/Logic/PuzzleCounting.cs:62
 #, csharp-format
 msgid "We have a {0} meter piece of fabric."
 msgid_plural "We have a {0} meters piece of fabric."
@@ -4124,7 +4176,7 @@ msgstr[0] "Avem un metru de material."
 msgstr[1] "Avem {0} metri de material."
 msgstr[2] "Avem {0} de metri de material."
 
-#: ../src/Games/Logic/PuzzleCounting.cs:68
+#: ../src/Games/Logic/PuzzleCounting.cs:66
 #, csharp-format
 msgid ""
 "A machine takes {0} second to cut 1 meter of this fabric. How many seconds "
@@ -4142,7 +4194,7 @@ msgstr[2] ""
 "O mașină taie un metru din materialul dat în {0} de secunde. În câte secunde "
 "taie mașina întregul material în fâșii de un metru?"
 
-#: ../src/Games/Logic/PuzzleCounting.cs:72
+#: ../src/Games/Logic/PuzzleCounting.cs:70
 #, csharp-format
 msgid "With the cut number {0}, the machine creates two 1 meter pieces."
 msgid_plural "With the cut number {0}, the machine creates two 1 meter pieces."
@@ -4150,7 +4202,7 @@ msgstr[0] "Cu prima tăietură, mașina creează două fâșii de un metru."
 msgstr[1] "Cu tăietura {0}, mașina creează două fâșii de un metru."
 msgstr[2] "Cu tăietura {0}, mașina creează două fâșii de un metru."
 
-#: ../src/Games/Logic/PuzzleCounting.cs:85
+#: ../src/Games/Logic/PuzzleCounting.cs:83
 #, csharp-format
 msgid ""
 "A fence is built to enclose a square shaped region. {0} fence pole is used "
@@ -4171,7 +4223,7 @@ msgstr[2] ""
 "stâlpi de gard sunt folosiți pentru fiecare latură a pătratului. Câți stâlpi "
 "de gard sunt folosiți în total?"
 
-#: ../src/Games/Logic/PuzzleCounting.cs:92
+#: ../src/Games/Logic/PuzzleCounting.cs:90
 #, csharp-format
 msgid ""
 "There is {0} fence pole since the poles on the corners of the square are "
@@ -4186,7 +4238,7 @@ msgstr[1] ""
 msgstr[2] ""
 "Sunt {0} de stâlpi de gard de vreme ce stâlpii de la colțuri sunt partajați."
 
-#: ../src/Games/Logic/PuzzleCounting.cs:105
+#: ../src/Games/Logic/PuzzleCounting.cs:103
 #, csharp-format
 msgid ""
 "Wrapping an anniversary present costs one monetary unit. The anniversary "
@@ -4209,7 +4261,7 @@ msgstr[2] ""
 "aniversare costă cu {0} unități monetare mai mult decât ambalajul lui. Cât "
 "costă cadoul și ambalajul lui?"
 
-#: ../src/Games/Logic/PuzzleCounting.cs:112
+#: ../src/Games/Logic/PuzzleCounting.cs:110
 #, csharp-format
 msgid ""
 "It is the cost of the present, {0} monetary unit, plus one monetary unit of "
@@ -4227,18 +4279,18 @@ msgstr[2] ""
 "Acesta este costul cadoului, {0} de unități monetare, plus o unitate "
 "monetară a ambalajului."
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:40
+#: ../src/Games/Logic/PuzzleCountSeries.cs:38
 msgid "Count series"
 msgstr "Serii de numărare"
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:62
+#: ../src/Games/Logic/PuzzleCountSeries.cs:60
 msgid ""
 "How many numbers '9' are required to represent the numbers between 10 to 100?"
 msgstr ""
 "Câte cifre de „9” sunt necesare pentru a reprezenta numerele dintre 10 și "
 "100?"
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:68
+#: ../src/Games/Logic/PuzzleCountSeries.cs:66
 msgid ""
 "How many two digit numbers occur where the first digit is larger than the "
 "second (e.g.: 20 and 21)?"
@@ -4246,7 +4298,7 @@ msgstr ""
 "Câte numere de două cifre există, unde prima cifră este mai mare decât a "
 "doua (ex: 20 și 21)?"
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:74
+#: ../src/Games/Logic/PuzzleCountSeries.cs:72
 msgid ""
 "How many two digit numbers occur where the first digit is smaller than the "
 "second (e.g.: 12 and 13)?"
@@ -4255,29 +4307,29 @@ msgstr ""
 "doua (ex: 12 și 13)?"
 
 #. Translators: A sequence of numbers 1, 2, 3, etc.
-#: ../src/Games/Logic/PuzzleCountSeries.cs:86
+#: ../src/Games/Logic/PuzzleCountSeries.cs:84
 #, csharp-format
 msgid "{0}, {1}"
 msgstr "{0}, {1}"
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:89
+#: ../src/Games/Logic/PuzzleCountSeries.cs:87
 #, csharp-format
 msgid "The numbers are: {0}."
 msgstr "Numerele sunt: {0}."
 
-#: ../src/Games/Logic/PuzzleCountSeries.cs:94
+#: ../src/Games/Logic/PuzzleCountSeries.cs:92
 msgid "Notice that 99 contains two numbers '9'."
 msgstr "Observați că 99 conține două cifre de „9”."
 
-#: ../src/Games/Logic/PuzzleCoverPercentage.cs:35
+#: ../src/Games/Logic/PuzzleCoverPercentage.cs:33
 msgid "Cover percentage"
 msgstr "Procentul acoperit"
 
-#: ../src/Games/Logic/PuzzleCoverPercentage.cs:39
+#: ../src/Games/Logic/PuzzleCoverPercentage.cs:37
 msgid "What percentage of the figure is colored?"
 msgstr "Ce procent din figură este colorat?"
 
-#: ../src/Games/Logic/PuzzleCube.cs:49
+#: ../src/Games/Logic/PuzzleCube.cs:47
 #, csharp-format
 msgid ""
 "When you fold the figure below as a cube, which face on the figure is "
@@ -4287,7 +4339,7 @@ msgstr ""
 "Când îndoiți figura de mai jos în formă de cub, care față este opusă feței "
 "cu numărul {0} desenat pe ea? Răspundeți folosind numărul scris pe acea față."
 
-#: ../src/Games/Logic/PuzzleDice.cs:54
+#: ../src/Games/Logic/PuzzleDice.cs:52
 msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
@@ -4296,11 +4348,11 @@ msgstr ""
 "aruncare a unui zar cu șase fețe nemodificat? Răspundeți folosind o fracție "
 "(ex: 1/2)."
 
-#: ../src/Games/Logic/PuzzleDice.cs:56
+#: ../src/Games/Logic/PuzzleDice.cs:54
 msgid "There are 2 of 6 possibilities."
 msgstr "Sunt 2 din 6 posibilități."
 
-#: ../src/Games/Logic/PuzzleDice.cs:58
+#: ../src/Games/Logic/PuzzleDice.cs:56
 msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
@@ -4308,11 +4360,11 @@ msgstr ""
 "Care este probabilitatea de a nu obține un „5” dintr-o singură aruncare a "
 "unui zar cu șase fețe nemodificat? Răspundeți folosind o fracție (ex: 1/2)."
 
-#: ../src/Games/Logic/PuzzleDice.cs:60
+#: ../src/Games/Logic/PuzzleDice.cs:58
 msgid "There are 5 of 6 possibilities."
 msgstr "Sunt 5 din 6 posibilități."
 
-#: ../src/Games/Logic/PuzzleDice.cs:62
+#: ../src/Games/Logic/PuzzleDice.cs:60
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
@@ -4321,11 +4373,11 @@ msgstr ""
 "probabilitatea de a obține două numere pare? Răspundeți folosind o fracție "
 "(ex: 1/2)."
 
-#: ../src/Games/Logic/PuzzleDice.cs:64
+#: ../src/Games/Logic/PuzzleDice.cs:62
 msgid "There are 9 of 36 possibilities of getting two even numbers."
 msgstr "Sunt 9 din 36 de posibilități să obținem două numere pare."
 
-#: ../src/Games/Logic/PuzzleDice.cs:66
+#: ../src/Games/Logic/PuzzleDice.cs:64
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
@@ -4334,7 +4386,7 @@ msgstr ""
 "probabilitatea de a obține doi de „6”? Răspundeți folosind o fracție (ex: "
 "1/2)."
 
-#: ../src/Games/Logic/PuzzleDice.cs:68
+#: ../src/Games/Logic/PuzzleDice.cs:66
 msgid ""
 "There is 1 of 6 possibilities of getting a '6' on the first die and the same "
 "for the second die."
@@ -4342,15 +4394,15 @@ msgstr ""
 "Sunt 1 din 6 probabilități să obținem „6” la primul zar și la fel și pentru "
 "cel de-al doilea."
 
-#: ../src/Games/Logic/PuzzleDice.cs:73
+#: ../src/Games/Logic/PuzzleDice.cs:71
 msgid "Dice"
 msgstr "Zarul"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:45
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:43
 msgid "Divide circles"
 msgstr "Împărțirea cercurilor"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:49
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:47
 msgid ""
 "In the last figure, in how many regions is the circle divided into when all "
 "dots are connected?"
@@ -4358,7 +4410,7 @@ msgstr ""
 "În ultima figură, în câte regiuni este cercul împărțit când toate punctele "
 "sunt unite?"
 
-#: ../src/Games/Logic/PuzzleDivideCircle.cs:176
+#: ../src/Games/Logic/PuzzleDivideCircle.cs:174
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
@@ -4366,15 +4418,15 @@ msgstr[0] "Are o regiune"
 msgstr[1] "Are {0} regiuni"
 msgstr[2] "Are {0} de regiuni"
 
-#: ../src/Games/Logic/PuzzleEquation.cs:33
+#: ../src/Games/Logic/PuzzleEquation.cs:31
 msgid "Equation"
 msgstr "Ecuația"
 
-#: ../src/Games/Logic/PuzzleEquation.cs:37
+#: ../src/Games/Logic/PuzzleEquation.cs:35
 msgid "What is the result of the equation below?"
 msgstr "Care este rezultatul ecuației de mai jos?"
 
-#: ../src/Games/Logic/PuzzleEquation.cs:42
+#: ../src/Games/Logic/PuzzleEquation.cs:40
 msgid ""
 "The order of arithmetical operations is always as follows: exponents and "
 "roots, multiplication and division, addition and subtraction."
@@ -4382,11 +4434,11 @@ msgstr ""
 "Ordinea operațiilor aritmetice este întotdeauna aceeași: exponenții și "
 "radicalii, înmulțirea și împărțirea, adunarea și scăderea."
 
-#: ../src/Games/Logic/PuzzleExtraCircle.cs:53
+#: ../src/Games/Logic/PuzzleExtraCircle.cs:51
 msgid "Extra circle"
 msgstr "Cercul suplimentar"
 
-#: ../src/Games/Logic/PuzzleExtraCircle.cs:62
+#: ../src/Games/Logic/PuzzleExtraCircle.cs:60
 #, csharp-format
 msgid ""
 "Which circle does not belong to the group? It is not a sequence of elements. "
@@ -4395,33 +4447,33 @@ msgstr ""
 "Care cerc nu aparține grupului? Nu este o secvență a elementelor. Răspundeți "
 "folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzleExtraCircle.cs:67
+#: ../src/Games/Logic/PuzzleExtraCircle.cs:65
 msgid "All circles share a common property except for one."
 msgstr "Toate cercurile au o proprietate comună, cu excepția unuia."
 
-#: ../src/Games/Logic/PuzzleExtraCircle.cs:72
+#: ../src/Games/Logic/PuzzleExtraCircle.cs:70
 msgid ""
 "In all circles the color slices follow the same order except for this one."
 msgstr ""
 "În toate cercurile părțile colorate urmează aceeași ordine, cu excepția "
 "acestuia."
 
-#: ../src/Games/Logic/PuzzleFigureLetter.cs:40
+#: ../src/Games/Logic/PuzzleFigureLetter.cs:38
 msgid "Figures and text"
 msgstr "Figuri și text"
 
-#: ../src/Games/Logic/PuzzleFigureLetter.cs:44
+#: ../src/Games/Logic/PuzzleFigureLetter.cs:42
 msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
 "Figurile și textele au legătură. Ce text ar trebui să fie sub ultima figură?"
 
-#: ../src/Games/Logic/PuzzleFigureLetter.cs:48
+#: ../src/Games/Logic/PuzzleFigureLetter.cs:46
 msgid "Every character of the text represents a property of the figure."
 msgstr "Fiecare caracter al textului reprezintă o proprietate a figurii."
 
-#: ../src/Games/Logic/PuzzleFigureLetter.cs:53
+#: ../src/Games/Logic/PuzzleFigureLetter.cs:51
 msgid ""
 "'A' indicates that the figures overlap, 'B' that are squares, 'C' that are "
 "circles, 'D' that the figures are separated, 'E' that there are three "
@@ -4431,18 +4483,18 @@ msgstr ""
 "indică faptul că sunt cercuri, „D” indică faptul că figurile sunt separate, "
 "„E” indică faptul că sunt 3 figuri și „F” indică faptul că sunt două figuri."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:44
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:42
 msgid "Figure pattern"
 msgstr "Modelul figurii"
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:49
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:47
 #, csharp-format
 msgid "What figure should replace the question mark? Answer {0}, {1} or {2}."
 msgstr ""
 "Ce figură ar trebui să înlocuiască semnul de întrebare? Răspundeți folosind "
 "{0}, {1} sau {2}."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:54
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:52
 msgid ""
 "The third figure of every row involves somehow combining the first two "
 "figures."
@@ -4450,7 +4502,7 @@ msgstr ""
 "A treia figură de pe fiecare rând implică cumva combinarea primelor două "
 "figuri."
 
-#: ../src/Games/Logic/PuzzleFigurePattern.cs:59
+#: ../src/Games/Logic/PuzzleFigurePattern.cs:57
 msgid ""
 "Superpose the first and second figures and remove the lines that they have "
 "in common, then rotate the resulting figure 45 degrees."
@@ -4458,11 +4510,11 @@ msgstr ""
 "Suprapuneți prima și a doua figură și eliminați liniile comune, apoi rotiți "
 "figura rezultată la 45 de grade."
 
-#: ../src/Games/Logic/PuzzleFigures.cs:58
+#: ../src/Games/Logic/PuzzleFigures.cs:56
 msgid "Figures"
 msgstr "Figuri"
 
-#: ../src/Games/Logic/PuzzleFigures.cs:62
+#: ../src/Games/Logic/PuzzleFigures.cs:60
 #, csharp-format
 msgid ""
 "What is the next logical sequence of objects in the last column? Answer {0}, "
@@ -4471,7 +4523,7 @@ msgstr ""
 "Care este următoarea secvență de obiecte din ultima coloană? Răspundeți "
 "folosind {0}, {1} sau {2}."
 
-#: ../src/Games/Logic/PuzzleFigures.cs:68
+#: ../src/Games/Logic/PuzzleFigures.cs:66
 msgid ""
 "It is the only combination that you can build with the given elements "
 "without repeating them."
@@ -4479,11 +4531,11 @@ msgstr ""
 "Este singura combinație pe care o puteți construi cu elementele date, fără a "
 "le repeta."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:45
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:43
 msgid "Find the number"
 msgstr "Găsește numărul"
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:53
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:51
 #, csharp-format
 msgid ""
 "Looking horizontally and vertically to the lines of the grid below, which is "
@@ -4506,12 +4558,12 @@ msgstr[2] ""
 "numărul la {0} de locuri distanță de el însuși multiplicat cu 2 și la {1} "
 "locuri distanță de el însuși plus 2?"
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:62
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
 #, csharp-format
 msgid "The number is located at row {0}, column {1}."
 msgstr "Numărul este locat la rândul {0}, coloana {1}."
 
-#: ../src/Games/Logic/PuzzleFindTheNumber.cs:71
+#: ../src/Games/Logic/PuzzleFindTheNumber.cs:69
 #, csharp-format
 msgid "The number is located within the first {0} row of the grid."
 msgid_plural "The number is located within the first {0} rows of the grid."
@@ -4519,46 +4571,46 @@ msgstr[0] "Numărul este locat în primul {0} rând al careului."
 msgstr[1] "Numărul este locat în primele {0} rânduri ale careului."
 msgstr[2] "Numărul este locat în primele {0} de rânduri ale careului."
 
-#: ../src/Games/Logic/PuzzleFourSided.cs:32
+#: ../src/Games/Logic/PuzzleFourSided.cs:30
 msgid "Four sided"
 msgstr "Patru laturi"
 
-#: ../src/Games/Logic/PuzzleFourSided.cs:36
+#: ../src/Games/Logic/PuzzleFourSided.cs:34
 msgid "How many four sided figures do you count in the figure below?"
 msgstr "Câte patrulatere vedeți în figura de mai jos?"
 
-#: ../src/Games/Logic/PuzzleFourSided.cs:40
+#: ../src/Games/Logic/PuzzleFourSided.cs:38
 msgid "A four sided figure can be embedded inside another figure."
 msgstr "O figură cu patru laturi poate fi înglobată într-o altă figură."
 
-#: ../src/Games/Logic/PuzzleFourSided.cs:45
+#: ../src/Games/Logic/PuzzleFourSided.cs:43
 #, csharp-format
 msgid "The four sided figures are made by connecting the following points: {0}"
 msgstr "Patrulaterele sunt construite unind următoarele puncte: {0}"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:42
+#: ../src/Games/Logic/PuzzleGridCircles.cs:40
 msgid "Circles in a grid"
 msgstr "Cercurile dintr-o grilă"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:46
+#: ../src/Games/Logic/PuzzleGridCircles.cs:44
 msgid "One of the numbers in the grid must be circled. Which one?"
 msgstr "Unul din numerele din grilă trebuie încercuit. Care din ele?"
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:50
+#: ../src/Games/Logic/PuzzleGridCircles.cs:48
 msgid "All circled numbers share an arithmetical property."
 msgstr "Toate numerele încercuite au o proprietate aritmetică."
 
-#: ../src/Games/Logic/PuzzleGridCircles.cs:55
+#: ../src/Games/Logic/PuzzleGridCircles.cs:53
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
 msgstr "Fiecare număr încercuit poate fi împărțit la {0}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:205
+#: ../src/Games/Logic/PuzzleGridDots.cs:203
 msgid "Square with dots"
 msgstr "Pătratul cu puncte"
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:210
-#: ../src/Games/Logic/PuzzleNextFigure.cs:58
+#: ../src/Games/Logic/PuzzleGridDots.cs:208
+#: ../src/Games/Logic/PuzzleNextFigure.cs:56
 #, csharp-format
 msgid ""
 "Which is the next logical figure in the sequence? Answer {0}, {1} or {2}."
@@ -4566,7 +4618,7 @@ msgstr ""
 "Care este următoarea figură logică în secvența următoare? Răspundeți "
 "folosind {0}, {1} sau {2}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:219
+#: ../src/Games/Logic/PuzzleGridDots.cs:217
 msgid ""
 "From the top-left figure, the top-left circle moves down, the bottom-left "
 "circle moves up, the bottom-right moves diagonally up-left and the top-right "
@@ -4576,18 +4628,18 @@ msgstr ""
 "stânga jos se mută în sus, cel din dreapta jos mută pe diagonală în stânga "
 "sus și cel din dreapta sus se mută pe diagonală în stânga jos."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:222
+#: ../src/Games/Logic/PuzzleGridDots.cs:220
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
 msgstr ""
 "De la figura din stânga sus, figura este rotită în sens antiorar cu 90 de "
 "grade."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:44
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:42
 msgid "Numbers in a grid"
 msgstr "Numere dintr-o grilă"
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:48
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:46
 msgid ""
 "The numbers in the grid below follow a pattern. Which number should replace "
 "the question mark?"
@@ -4595,16 +4647,16 @@ msgstr ""
 "Numerele din grila de mai jos urmează un tipar. Ce număr ar trebui să "
 "înlocuiască semnul de întrebare?"
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:54
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:52
 msgid "The pattern is arithmetical and works vertically."
 msgstr "Modelul este aritmetic și funcționează pe verticală."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:56
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:166
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:54
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:164
 msgid "The pattern is arithmetical and works horizontally."
 msgstr "Modelul este aritmetic și funcționează pe orizontală."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:65
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:63
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and adding "
 "the third."
@@ -4612,7 +4664,7 @@ msgstr ""
 "Rândul patru este calculat înmulțind primele două linii și adunând-o pe a "
 "treia."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:67
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:65
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "adding the third."
@@ -4620,7 +4672,7 @@ msgstr ""
 "A patra coloană este calculată înmulțind primele două coloane și adunând-o "
 "pe a treia."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:71
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:69
 msgid ""
 "The fourth row is calculated by multiplying the first two rows and "
 "subtracting the third."
@@ -4628,7 +4680,7 @@ msgstr ""
 "Rândul patru este calculat înmulțind primele două linii și scăzând-o pe a "
 "treia."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:73
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:71
 msgid ""
 "The fourth column is calculated by multiplying the first two columns and "
 "subtracting the third."
@@ -4636,7 +4688,7 @@ msgstr ""
 "A patra coloană este calculată înmulțind primele două coloane și scăzând-o "
 "pe a treia."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:77
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:75
 msgid ""
 "The fourth row is calculated by adding the first two rows and subtracting "
 "the third."
@@ -4644,7 +4696,7 @@ msgstr ""
 "Rândul patru este calculat adunând primele două linii și scăzând-o pe a "
 "treia."
 
-#: ../src/Games/Logic/PuzzleGridNumbers.cs:79
+#: ../src/Games/Logic/PuzzleGridNumbers.cs:77
 msgid ""
 "The fourth column is calculated by adding the first two columns and "
 "subtracting the third."
@@ -4652,11 +4704,11 @@ msgstr ""
 "A patra coloană este calculată adunând primele două coloane și scăzând-o pe "
 "a treia."
 
-#: ../src/Games/Logic/PuzzleHandshakes.cs:32
+#: ../src/Games/Logic/PuzzleHandshakes.cs:30
 msgid "Handshakes"
 msgstr "Strângeri de mâini"
 
-#: ../src/Games/Logic/PuzzleHandshakes.cs:37
+#: ../src/Games/Logic/PuzzleHandshakes.cs:35
 #, csharp-format
 msgid ""
 "All attendees to a party are introduced to one another. {0} handshakes are "
@@ -4665,14 +4717,14 @@ msgstr ""
 "Toți participanții unei petreceri sunt introduși unul altuia. {0} strângeri "
 "de mână sunt făcute în total. Câți oameni participă la petrecere?"
 
-#: ../src/Games/Logic/PuzzleHandshakes.cs:42
+#: ../src/Games/Logic/PuzzleHandshakes.cs:40
 msgid ""
 "Try to imagine a situation in which you are meeting a small number of people."
 msgstr ""
 "Încercați să vă imaginați o situație în care întâlniți un număr mic de "
 "oameni."
 
-#: ../src/Games/Logic/PuzzleHandshakes.cs:46
+#: ../src/Games/Logic/PuzzleHandshakes.cs:44
 msgid ""
 "Using n as the total number of people, the first person handshakes n-1 "
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
@@ -4682,11 +4734,11 @@ msgstr ""
 "oameni, a două persoană cu n-2 oameni, etc. Rezultatul este suma primelor "
 "n-1 numere consecutive: 1+2+3+...+(n-1)."
 
-#: ../src/Games/Logic/PuzzleLargerShape.cs:113
+#: ../src/Games/Logic/PuzzleLargerShape.cs:111
 msgid "Larger shape"
 msgstr "Forma mai mare"
 
-#: ../src/Games/Logic/PuzzleLargerShape.cs:122
+#: ../src/Games/Logic/PuzzleLargerShape.cs:120
 #, csharp-format
 msgid ""
 "Which larger shape can you make combining the first two figures? Answer {0}, "
@@ -4695,11 +4747,11 @@ msgstr ""
 "Care formă mare se poate construi combinând primele două figuri? Răspundeți "
 "folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:241
+#: ../src/Games/Logic/PuzzleLargestArea.cs:239
 msgid "Largest area"
 msgstr "Cea mai mare suprafață"
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:246
+#: ../src/Games/Logic/PuzzleLargestArea.cs:244
 #, csharp-format
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
@@ -4708,11 +4760,11 @@ msgstr ""
 "Care dintre următoarele figuri are cea mai mare suprafață? Răspundeți "
 "folosind {0}, {1}, {2} or {3}."
 
-#: ../src/Games/Logic/PuzzleLargestDiameter.cs:46
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:44
 msgid "Largest diameter"
 msgstr "Cel mai mare diametru"
 
-#: ../src/Games/Logic/PuzzleLargestDiameter.cs:51
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:49
 #, csharp-format
 msgid ""
 "If the circles represented by the arcs below were completed, which circle "
@@ -4721,20 +4773,20 @@ msgstr ""
 "Dacă cercurile reprezentate de arcurile de mai jos ar fi complete, care cerc "
 "ar avea cel mai mare diametru? Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzleLargestDiameter.cs:58
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:56
 msgid "Less curved is the arc, the larger the circle is."
 msgstr "Cu cât mai puțin curbat este arcul, cu atât mai mare este cercul."
 
-#: ../src/Games/Logic/PuzzleLargestDiameter.cs:101
+#: ../src/Games/Logic/PuzzleLargestDiameter.cs:99
 #, csharp-format
 msgid "Arc {0}"
 msgstr "Arc {0}"
 
-#: ../src/Games/Logic/PuzzleLines.cs:34
+#: ../src/Games/Logic/PuzzleLines.cs:32
 msgid "Lines"
 msgstr "Linii"
 
-#: ../src/Games/Logic/PuzzleLines.cs:38
+#: ../src/Games/Logic/PuzzleLines.cs:36
 msgid ""
 "How many line segments in total are in the figures below? A line segment is "
 "a line between two points with no crossing lines."
@@ -4742,7 +4794,7 @@ msgstr ""
 "Câte segmente există în figurile de mai jos? Un segment este o linie dintre "
 "două puncte, care nu se intersectează cu nicio altă linie."
 
-#: ../src/Games/Logic/PuzzleLines.cs:44
+#: ../src/Games/Logic/PuzzleLines.cs:42
 #, csharp-format
 msgid ""
 "There is {0} line in the figure to the left and {1} in the figure to the "
@@ -4757,26 +4809,26 @@ msgstr[1] ""
 msgstr[2] ""
 "Există {0} de segmente în figura din stânga și {1} în figura din dreapta."
 
-#: ../src/Games/Logic/PuzzleLines.cs:52
+#: ../src/Games/Logic/PuzzleLines.cs:50
 msgid "It is an easy exercise if you systematically count the lines."
 msgstr "Este un exercițiu ușor dacă numărați sistematic segmentele."
 
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:35
+#: ../src/Games/Logic/PuzzleMissingPiece.cs:33
 msgid "Missing piece"
 msgstr "Piesa lipsă"
 
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:40
+#: ../src/Games/Logic/PuzzleMissingPiece.cs:38
 #, csharp-format
 msgid "Which square completes the figure below? Answer {0}, {1} or {2}."
 msgstr ""
 "Care pătrat completează figura de mai jos? Răspundeți folosind {0}, {1} sau "
 "{2}."
 
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:45
+#: ../src/Games/Logic/PuzzleMissingPiece.cs:43
 msgid "The logic works at row level."
 msgstr "Logica funcționează la nivel de rând."
 
-#: ../src/Games/Logic/PuzzleMissingPiece.cs:50
+#: ../src/Games/Logic/PuzzleMissingPiece.cs:48
 msgid ""
 "In every row the third square is made by flipping the first square and "
 "superimposing it on the second square, followed by removing the matching "
@@ -4786,11 +4838,11 @@ msgstr ""
 "și suprapunându-l peste cel de-al doilea pătrat, urmând eliminarea liniilor "
 "comune."
 
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:62
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:60
 msgid "Missing slice"
 msgstr "Secțiunea lipsă"
 
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:67
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:65
 #, csharp-format
 msgid ""
 "The slices below have some kind of relation. Which is the missing slice in "
@@ -4799,11 +4851,11 @@ msgstr ""
 "Unele secțiuni sunt într-un fel de relație. Care este secțiunea lipsă din "
 "cercul de mai jos? Răspundeți folosind {0}, {1} sau {2}."
 
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:72
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:70
 msgid "Each slice is related to the opposite one."
 msgstr "Fiecare secțiune are o legătură cu piesa opusă."
 
-#: ../src/Games/Logic/PuzzleMissingSlice.cs:77
+#: ../src/Games/Logic/PuzzleMissingSlice.cs:75
 #, csharp-format
 msgid ""
 "All numbers of each slice, when added to the ones of the opposite slice, add "
@@ -4812,11 +4864,11 @@ msgstr ""
 "Suma numerelor de pe fiecare secțiune cu cele de pe secțiunea opusă este "
 "întotdeauna {0}."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:77
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:75
 msgid "Most in common"
 msgstr "Au cele mai multe în comun"
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:82
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:80
 #, csharp-format
 msgid ""
 "Which of the possible answers have the most in common with the four given "
@@ -4825,16 +4877,16 @@ msgstr ""
 "Care dintre răspunsurile posibile are cele mai multe elemente în comun cu "
 "cele patru figuri date? Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:87
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:85
 msgid "Think of the common elements that the given figures have inside them."
 msgstr "Gândiți-vă la elementele comune pe care figurile date le conțin."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:93
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:91
 msgid ""
 "It has the same number of elements inside the figure as the given figures."
 msgstr "Au același număr de elemente în interiorul figurii ca figurile date."
 
-#: ../src/Games/Logic/PuzzleMostInCommon.cs:95
+#: ../src/Games/Logic/PuzzleMostInCommon.cs:93
 msgid ""
 "It is the figure with the most elements in common compared to the given "
 "figures."
@@ -4842,11 +4894,11 @@ msgstr ""
 "Este figura cu cele mai multe elemente în comun în comparație cu figurile "
 "date."
 
-#: ../src/Games/Logic/PuzzleMoveFigure.cs:33
+#: ../src/Games/Logic/PuzzleMoveFigure.cs:31
 msgid "Move figure"
 msgstr "Mutarea figurii"
 
-#: ../src/Games/Logic/PuzzleMoveFigure.cs:37
+#: ../src/Games/Logic/PuzzleMoveFigure.cs:35
 msgid ""
 "What is the minimum number of circles to be moved in order to convert the "
 "left figure into the right figure?"
@@ -4854,7 +4906,7 @@ msgstr ""
 "Care este numărul minim de cercuri de mutat pentru a converti figura din "
 "stânga în figura din dreapta?"
 
-#: ../src/Games/Logic/PuzzleMoveFigure.cs:44
+#: ../src/Games/Logic/PuzzleMoveFigure.cs:42
 msgid ""
 "Move the circle from the first line to the second and move two circles from "
 "the fourth line to the second and the fifth lines."
@@ -4862,7 +4914,7 @@ msgstr ""
 "Mutați cercul din prima linie pe a doua și mutați două cercuri de pe a patra "
 "linie pe a doua și a cincea."
 
-#: ../src/Games/Logic/PuzzleMoveFigure.cs:46
+#: ../src/Games/Logic/PuzzleMoveFigure.cs:44
 msgid ""
 "Move the first line to the seventh; move the two circles of the second line "
 "to third; and move first and last circles of the fifth line to the sixth."
@@ -4871,11 +4923,11 @@ msgstr ""
 "a doua pe cea de-a treia linia; și mutați primul și ultimul cerc al liniei a "
 "cincea pe cea de-a șasea."
 
-#: ../src/Games/Logic/PuzzleNextFigure.cs:53
+#: ../src/Games/Logic/PuzzleNextFigure.cs:51
 msgid "Next figure"
 msgstr "Figura următoare"
 
-#: ../src/Games/Logic/PuzzleNextFigure.cs:65
+#: ../src/Games/Logic/PuzzleNextFigure.cs:63
 msgid ""
 "From first figure, the top circle advances by two positions clockwise, while "
 "the left circle goes backwards one position."
@@ -4884,25 +4936,25 @@ msgstr ""
 "ceasornicului, în timp ce cercul din stânga avansează cu o poziție în sensul "
 "invers ceasornicului."
 
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:46
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:44
 msgid "Numeric relation"
 msgstr "Relații numerice"
 
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:50
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:48
 msgid "What number should replace the question mark?"
 msgstr "Ce număr ar trebui să înlocuiască semnul de întrebare?"
 
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:54
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:52
 msgid "The numbers are related arithmetically."
 msgstr "Numerele au legătură din punct de vedere aritmetic."
 
 #. Translators: {0} is always replaced by the number 3
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:62
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:60
 #, csharp-format
 msgid "Every group of {0} numbers sums exactly {1}."
 msgstr "Fiecare grup de câte {0} numere, adunate dau exact {1}."
 
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:64
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:62
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by multiplying by the two previous ones."
@@ -4910,7 +4962,7 @@ msgstr ""
 "Împărțiți secvența în grupuri de trei numere. Fiecare al treilea număr este "
 "calculat prin înmulțirea celor două numere precedente."
 
-#: ../src/Games/Logic/PuzzleNumericRelation.cs:66
+#: ../src/Games/Logic/PuzzleNumericRelation.cs:64
 msgid ""
 "Divide the sequence in groups of three numbers. Every third number is "
 "calculated by subtracting the second number from the first."
@@ -4918,11 +4970,11 @@ msgstr ""
 "Împărțiți secvența în grupuri de trei numere. Fiecare al treilea număr este "
 "calculat prin scăderea celui de-al doilea număr din numărul precedent."
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:42
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:40
 msgid "Numeric sequence"
 msgstr "Secvențe numerice"
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:46
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:44
 msgid ""
 "The next sequence follows a logic. What number should replace the question "
 "mark?"
@@ -4930,11 +4982,11 @@ msgstr ""
 "Următoarea secvență urmează o logică. Ce număr ar trebui să înlocuiască "
 "semnul de întrebare?"
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:50
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:48
 msgid "Every number in the sequence is related to the previous one."
 msgstr "Fiecare număr din secvență are legătură cu precedentul său."
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:57
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:55
 msgid ""
 "Every number in the sequence is the result of subtracting 1 from the "
 "previous number and multiplying it by 2."
@@ -4942,7 +4994,7 @@ msgstr ""
 "Fiecare număr din secvență este rezultatul scăderii numărului 1 din numărul "
 "precedent și înmulțindu-l cu 2."
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:59
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:57
 msgid ""
 "Every number in the sequence is the result of adding 1 to the previous "
 "number and multiplying it by 3."
@@ -4950,7 +5002,7 @@ msgstr ""
 "Fiecare număr din secvență este rezultatul adunării numărului 1 numărului "
 "precedent și înmulțindu-l cu 3."
 
-#: ../src/Games/Logic/PuzzleNumericSequence.cs:61
+#: ../src/Games/Logic/PuzzleNumericSequence.cs:59
 msgid ""
 "Every number in the sequence is the result of subtracting 2 from the "
 "previous number and multiplying it by -2."
@@ -4958,11 +5010,11 @@ msgstr ""
 "Fiecare număr din secvență este rezultatul scăderii numărului 2 din numărul "
 "precedent și înmulțindu-l cu -2."
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:53
+#: ../src/Games/Logic/PuzzleOstracism.cs:51
 msgid "Ostracism"
 msgstr "Ostracism"
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:58
+#: ../src/Games/Logic/PuzzleOstracism.cs:56
 #, csharp-format
 msgid ""
 "Which element does not belong to the group? It is not related to any "
@@ -4971,14 +5023,14 @@ msgstr ""
 "Care element nu aparține grupului? Nu are legătură cu aritmetica numerelor. "
 "Răspundeți cu {0}, {1}, {2}, {3} sau {4}."
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:66
+#: ../src/Games/Logic/PuzzleOstracism.cs:64
 msgid ""
 "The criteria for deciding if an equation belongs to the group is not "
 "arithmetical."
 msgstr ""
 "Criteriul pentru a decide dacă o ecuație aparține grupului nu este aritmetic."
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:68
+#: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
 "Consider that every number that belongs to the group has two parts that are "
 "related."
@@ -4986,7 +5038,7 @@ msgstr ""
 "Considerați că fiecare număr care aparține grupului are două părți care sunt "
 "în legătură."
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:79
+#: ../src/Games/Logic/PuzzleOstracism.cs:77
 msgid ""
 "In all the other equations the digits from the left side also appear on the "
 "right side."
@@ -4994,18 +5046,18 @@ msgstr ""
 "În toate celelalte ecuații cifrele din partea stângă apar și în partea "
 "dreaptă."
 
-#: ../src/Games/Logic/PuzzleOstracism.cs:81
+#: ../src/Games/Logic/PuzzleOstracism.cs:79
 msgid ""
 "In all the other numbers the last three digits are the square of the first "
 "two digits."
 msgstr ""
 "În toate celelalte numere ultimele trei cifre sunt pătratul primelor două."
 
-#: ../src/Games/Logic/PuzzlePencil.cs:38
+#: ../src/Games/Logic/PuzzlePencil.cs:36
 msgid "Pencil"
 msgstr "Creionul"
 
-#: ../src/Games/Logic/PuzzlePencil.cs:43
+#: ../src/Games/Logic/PuzzlePencil.cs:41
 #, csharp-format
 msgid ""
 "Which of the following figures cannot be drawn without crossing any previous "
@@ -5015,11 +5067,11 @@ msgstr ""
 "precedentă sau ridica creionul? Răspundeți folosind {0}, {1}, {2}, {3} sau "
 "{4}."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:45
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:43
 msgid "People at a table"
 msgstr "Oameni la masă"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:49
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:47
 #, csharp-format
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
@@ -5028,7 +5080,7 @@ msgstr ""
 "Un grup de oameni, la o distanță egală, stau la o masă rotundă. Câți oameni "
 "sunt la masă dacă a {0}-a persoană stă în fața celei de-a {1}-a persoană?"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:54
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:52
 msgid ""
 "Subtracting the two positions you find out how many people are seated half "
 "way around the table. Doubling this number leaves you with the total amount "
@@ -5037,39 +5089,39 @@ msgstr ""
 "Scăzând cele două poziții aflați câți oameni sunt așezați la o jumătate de "
 "masă. Dublând acest număr aflați numărul total de oameni așezați la masă."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:62
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:60
 msgid "5th"
 msgstr "5-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:63
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:61
 msgid "19th"
 msgstr "19-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:67
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:65
 msgid "4th"
 msgstr "4-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:68
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:66
 msgid "12th"
 msgstr "12-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:72
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:70
 msgid "9th"
 msgstr "9-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:73
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:71
 msgid "22nd"
 msgstr "22-a"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:85
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:83
 msgid "Two people in the table sitting across from each other"
 msgstr "Două persoane de la masă stau față-în-față"
 
-#: ../src/Games/Logic/PuzzlePercentage.cs:41
+#: ../src/Games/Logic/PuzzlePercentage.cs:39
 msgid "Percentage"
 msgstr "Procentul"
 
-#: ../src/Games/Logic/PuzzlePercentage.cs:75
+#: ../src/Games/Logic/PuzzlePercentage.cs:73
 #, csharp-format
 msgid ""
 "After getting {0}% discount you have paid {1} monetary unit for a TV set. "
@@ -5087,7 +5139,7 @@ msgstr[2] ""
 "După ce ați obținut o reducere de {0}% ați plătit {1} de unități monetare "
 "pentru un televizor. Care a fost prețul original al televizorului?"
 
-#: ../src/Games/Logic/PuzzlePercentage.cs:96
+#: ../src/Games/Logic/PuzzlePercentage.cs:94
 #, csharp-format
 msgid ""
 "John's shop had sales of {0} monetary unit. This was an increase of {1}% "
@@ -5106,7 +5158,7 @@ msgstr[2] ""
 "vânzări s-au mărit cu {1}% față de luna trecută. Care au fost vânzările "
 "lunii trecute?"
 
-#: ../src/Games/Logic/PuzzlePercentage.cs:114
+#: ../src/Games/Logic/PuzzlePercentage.cs:112
 #, csharp-format
 msgid ""
 "The amount of water in a bucket decreases by {0}%. By what percentage must "
@@ -5115,11 +5167,11 @@ msgstr ""
 "Cantitatea de apă dintr-o găleată scade cu {0}%. Cu ce procent trebuie să "
 "crească cantitatea de apă pentru a ajunge la valoarea sa inițială?"
 
-#: ../src/Games/Logic/PuzzlePercentage.cs:117
+#: ../src/Games/Logic/PuzzlePercentage.cs:115
 msgid "The objective is to obtain the same total amount."
 msgstr "Obiectivul este obținerea aceleiași sume totale."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:59
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:57
 #, csharp-format
 msgid ""
 "If all painters are artists and some citizens of Barcelona are artists. "
@@ -5129,26 +5181,26 @@ msgstr ""
 "Care dintre următoarele concluzii este corectă? Răspundeți folosind {0}, "
 "{1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:59
 msgid "Some citizens of Barcelona are painters"
 msgstr "Unii cetățeni ai Barcelonei sunt pictori"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:62
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:60
 msgid "All citizens of Barcelona are painters"
 msgstr "Toți cetățenii Barcelonei sunt pictori"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:63
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 msgid "No citizen of Barcelona is a painter"
 msgstr "Niciun cetățean al Barcelonei nu este pictor"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:64
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:72
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:80
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:88
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:62
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:78
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:86
 msgid "None of the other options"
 msgstr "Niciuna dintre celelalte opțiuni"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:65
 #, csharp-format
 msgid ""
 "If no ill artist is happy and some artists are happy. Which of the following "
@@ -5158,19 +5210,19 @@ msgstr ""
 "Care dintre următoarele concluzii este corectă? Răspundeți folosind {0}, "
 "{1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
 msgid "Some artists are not ill"
 msgstr "Unii artiști nu sunt bolnavi"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:68
 msgid "Some painters are not artists"
 msgstr "Unii pictori nu sunt artiști"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:71
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
 msgid "All artists are happy"
 msgstr "Toți artiștii sunt fericiți"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:75
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:73
 #, csharp-format
 msgid ""
 "People that travel always buy a map. You are not going to travel. Which of "
@@ -5180,19 +5232,19 @@ msgstr ""
 "dintre următoarele concluzii este corectă? Răspundeți cu {0}, {1}, {2} sau "
 "{3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:75
 msgid "You do not have any map"
 msgstr "Nu ai o hartă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:78
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:76
 msgid "You do not buy a map"
 msgstr "Nu cumperi o hartă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:79
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:77
 msgid "All people have a map"
 msgstr "Toți oamenii au câte o hartă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:81
 #, csharp-format
 msgid ""
 "If you whistle if you are happy and you always smile when you whistle, which "
@@ -5202,19 +5254,19 @@ msgstr ""
 "care dintre următoarele concluzii este corectă? Răspundeți folosind {0}, "
 "{1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
 msgid "You smile if you are happy"
 msgstr "Zâmbești dacă ești fericit"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:86
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:84
 msgid "You are only happy if you whistle"
 msgstr "Ești fericit numai dacă fluieri"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:87
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 msgid "You whistle if you are not happy"
 msgstr "Fluieri dacă nu ești fericit"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:89
 #, csharp-format
 msgid ""
 "If your course is always honest and your course is always the best policy, "
@@ -5224,23 +5276,23 @@ msgstr ""
 "tot timpul este cel mai bun, care dintre următoarele concluzii este corectă? "
 "Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
 msgid "Honesty is sometimes the best policy"
 msgstr "Onestitatea este uneori cea mai bună metodă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:92
 msgid "Honesty is always the best policy"
 msgstr "Onestitatea este întotdeauna cea mai bună metodă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:95
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is not always the best policy"
 msgstr "Onestitatea nu este întotdeauna cea mai bună metodă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:96
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
 msgid "Some of the best policies are dishonest"
 msgstr "Unele dintre cele mai bune metode nu sunt oneste"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:97
 #, csharp-format
 msgid ""
 "If no old misers are cheerful and some old misers are thin, which of the "
@@ -5250,23 +5302,23 @@ msgstr ""
 "dintre următoarele concluzii este corectă? Răspundeți folosind {0}, {1}, {2} "
 "sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
 msgid "Some thin people are not cheerful"
 msgstr "Unii oameni slabi nu sunt veseli"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:102
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:100
 msgid "Thin people are not cheerful"
 msgstr "Oamenii slabi nu sunt veseli"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:103
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Cheerful people are not thin"
 msgstr "Oamenii veseli nu sunt slabi"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:104
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:102
 msgid "Some cheerful people are not thin"
 msgstr "Unii oameni veseli nu sunt slabi"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:105
 #, csharp-format
 msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
@@ -5276,23 +5328,23 @@ msgstr ""
 "dintre următoarele concluzii este corectă? Răspundeți folosind {0}, {1}, {2} "
 "sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
 msgid "All animals fed on barley-water are non pigs"
 msgstr "Toate animalele care sunt hrănite cu orz și apă nu sunt porci"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:108
 msgid "No pigs are fed on barley-water"
 msgstr "Niciun porc nu este hrănit cu orz și apă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:111
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "Pigs are not fed on barley-water"
 msgstr "Porcii nu sunt hrăniți cu orz și apă"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:112
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
 msgid "All the other options"
 msgstr "Toate celelalte opțiuni"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:113
 #, csharp-format
 msgid ""
 "If some pictures are first attempts and no first attempts are really good, "
@@ -5302,23 +5354,23 @@ msgstr ""
 "chiar așa de bună, care dintre următoarele concluzii este corectă? "
 "Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
 msgid "Some bad pictures are not first attempts"
 msgstr "Unele picturi urâte nu sunt prime încercări"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:118
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:116
 msgid "Some pictures are not really good"
 msgstr "Unele picturi nu sunt chiar bune"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:119
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 msgid "All bad pictures are first attempts"
 msgstr "Toate picturile urâte sunt primele încercări"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:120
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:118
 msgid "All the others"
 msgstr "Toate celelalte"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:121
 #, csharp-format
 msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
@@ -5327,31 +5379,31 @@ msgstr ""
 "Dacă ați fost la plimbare și vă simțiți mai bine, care dintre următoarele "
 "concluzii este corectă? Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
 msgid "To feel better, you must go out for a walk"
 msgstr "Pentru a vă simți mai bine, trebuie sa mergeți la plimbare"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:124
 msgid "If you go out for a walk, you will feel better"
 msgstr "Daca mergeți la plimbare, vă veți simți mai bine"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:127
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "Some who go out for a walk feel better"
 msgstr "Unii care merg la plimbari se simt mai bine"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:128
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
 msgid "No one feels better who does not go out for a walk"
 msgstr "Nimeni care nu merge la plimbari nu se simte mai bine"
 
-#: ../src/Games/Logic/PuzzlePredicateLogic.cs:134
+#: ../src/Games/Logic/PuzzlePredicateLogic.cs:132
 msgid "Predicate logic"
 msgstr "Logica afirmației"
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:43
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:41
 msgid "Quadrilaterals"
 msgstr "Patrulaterele"
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:48
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:46
 #, csharp-format
 msgid ""
 "Which of the following figures does not belong to the group? Answer {0}, "
@@ -5360,20 +5412,20 @@ msgstr ""
 "Care dintre următoarele figuri nu aparțin grupului? Răspundeți folosind {0}, "
 "{1}, {2}, {3}, {4} sau {5}."
 
-#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:55
+#: ../src/Games/Logic/PuzzleQuadrilaterals.cs:53
 msgid "It is the only figure with all lines of equal length."
 msgstr "Este singura figură cu toate liniile de lungime egală."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:158
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:156
 msgid "Related numbers"
 msgstr "Numere conexe"
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:162
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:160
 msgid "In the grid below, which number should replace the question mark?"
 msgstr ""
 "În grila de mai jos, ce număr ar trebui să înlocuiască semnul de întrebare?"
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:171
 msgid ""
 "The number in the middle of every row is half of the sum of the other "
 "numbers in the row."
@@ -5381,14 +5433,14 @@ msgstr ""
 "Numărul din mijlocul fiecărui rând este jumătate din suma celorlalte numere "
 "ale rândului."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:173
 msgid ""
 "The number in the middle of every row is the sum of the other numbers in the "
 "row."
 msgstr ""
 "Numărul din mijlocul fiecărui rând este suma celorlalte numere ale rândului."
 
-#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:177
+#: ../src/Games/Logic/PuzzleRelatedNumbers.cs:175
 msgid ""
 "The number in the middle of every row is the double of the sum of the other "
 "numbers in the row."
@@ -5396,11 +5448,11 @@ msgstr ""
 "Numărul din mijlocul fiecărui rând este dublul sumei celorlalte numere ale "
 "rândului."
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:34
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:32
 msgid "Squares and letters"
 msgstr "Pătrate și litere"
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:38
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:36
 msgid ""
 "The letters around the squares follow a pattern. Which letter should replace "
 "the question mark in the last square?"
@@ -5408,7 +5460,7 @@ msgstr ""
 "Literele din jurul pătratelor urmează un model. Care literă ar trebui să "
 "înlocuiască semnul de întrebare de la ultimul pătrat?"
 
-#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:43
+#: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:41
 #, csharp-format
 msgid ""
 "Every letter is calculated by taking the alphabetical position of the "
@@ -5418,15 +5470,15 @@ msgstr ""
 "Fiecare literă este calculată luând poziția alfabetică a caracterului "
 "anterior și adunând {0} la ea pentru a obține poziția literei următoare."
 
-#: ../src/Games/Logic/PuzzleSquares.cs:30
+#: ../src/Games/Logic/PuzzleSquares.cs:28
 msgid "Squares"
 msgstr "Pătrate"
 
-#: ../src/Games/Logic/PuzzleSquares.cs:34
+#: ../src/Games/Logic/PuzzleSquares.cs:32
 msgid "How many squares of any size do you count in the figure below?"
 msgstr "Câte pătrate de orice dimensiune sunt în figura de mai jos?"
 
-#: ../src/Games/Logic/PuzzleSquares.cs:38
+#: ../src/Games/Logic/PuzzleSquares.cs:36
 msgid ""
 "A square is a rectangle with sides of equal length. A square can also be "
 "built from other squares."
@@ -5434,7 +5486,7 @@ msgstr ""
 "Un pătrat este un patrulater cu laturile egale. Un pătrat poate fi construit "
 "din alte pătrate."
 
-#: ../src/Games/Logic/PuzzleSquares.cs:45
+#: ../src/Games/Logic/PuzzleSquares.cs:43
 msgid ""
 "There are 16 single squares, 9 squares made by 4 single squares, 4 squares "
 "made by 9 single squares and 1 square made by 16 single squares."
@@ -5443,7 +5495,7 @@ msgstr ""
 "pătrate construide din 9 pătrate separate și 1 pătrat construit din 16 "
 "pătrate separate."
 
-#: ../src/Games/Logic/PuzzleSquares.cs:47
+#: ../src/Games/Logic/PuzzleSquares.cs:45
 msgid ""
 "There are 9 single squares, 4 squares made by 4 single squares and 1 square "
 "made by 9 single squares."
@@ -5451,11 +5503,11 @@ msgstr ""
 "Sunt 9 pătrate separate, 4 pătrate construite din 4 pătrate separate și 1 "
 "pătrat construit din 9 pătrate separate."
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:29
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:27
 msgid "Square sheets"
 msgstr "Foi pătrate"
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:33
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:31
 msgid ""
 "What is the minimum number of square sheets of paper of any size required to "
 "create the figure? Lines indicate frontiers between different sheets."
@@ -5464,12 +5516,12 @@ msgstr ""
 "pentru a crea figura următoare? Liniile indică frontierele dintre foi "
 "diferite."
 
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:37
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:35
 msgid "The sheets should overlap."
 msgstr "Foile ar trebui să se suprapună."
 
 #. Translators: the translated version should not take more characters that the English original
-#: ../src/Games/Logic/PuzzleSquareSheets.cs:43
+#: ../src/Games/Logic/PuzzleSquareSheets.cs:41
 msgid ""
 "A full sized square of paper (yellow), a 3/4 of the whole size square of "
 "paper (blue) in the bottom right corner, another 3/4 square of paper (green) "
@@ -5481,17 +5533,17 @@ msgstr ""
 "altă bucată de 3/4 din dimensiunea întreagă a unui pătrat de hârtie (verde) "
 "în colțul din stânga sus și o bucată de 1/4 (roșu) în colțul din stânga sus."
 
-#: ../src/Games/Logic/PuzzleTetris.cs:34
+#: ../src/Games/Logic/PuzzleTetris.cs:32
 msgid "Tetris"
 msgstr "Tetris"
 
-#: ../src/Games/Logic/PuzzleTetris.cs:39
+#: ../src/Games/Logic/PuzzleTetris.cs:37
 #, csharp-format
 msgid "What figure completes the set below? Answer {0}, {1} or {2}."
 msgstr ""
 "Ce figură completează setul de mai jos? Răspundeți folosind {0}, {1} sau {2}."
 
-#: ../src/Games/Logic/PuzzleTetris.cs:45
+#: ../src/Games/Logic/PuzzleTetris.cs:43
 msgid ""
 "It is the figure that completes all possible combinations with four blocks "
 "without taking into account rotations."
@@ -5500,11 +5552,11 @@ msgstr ""
 "fără a lua în calcul rotațiile."
 
 #. Translators: this the name of a game
-#: ../src/Games/Logic/PuzzleTimeNow.cs:34
+#: ../src/Games/Logic/PuzzleTimeNow.cs:32
 msgid "Time now"
 msgstr "Ora actuală"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:45
+#: ../src/Games/Logic/PuzzleTimeNow.cs:43
 #, csharp-format
 msgid ""
 "{0} hour ago it was as long after {1:h tt} as it was before {2:h tt} on the "
@@ -5525,7 +5577,7 @@ msgstr[2] ""
 "înaintea {2:%H} în aceeași zi. Cât este ceasul acum? Răspundeți folosind ora "
 "(de ex.: {3:%H})"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:54
+#: ../src/Games/Logic/PuzzleTimeNow.cs:52
 #, csharp-format
 msgid ""
 "Determine the hour half way between the given times, and then add {0} hour "
@@ -5551,27 +5603,27 @@ msgstr[2] ""
 #. http://msdn.microsoft.com/en-us/library/system.globalization.datetimeformatinfo.aspx
 #. For 12-hour clock format use {0:%h} and for 24-hour clock format use {0:%H}. The date formats {0:h} and {0:H} are invalid.
 #. 'tt' is the A.M./P.M. designator
-#: ../src/Games/Logic/PuzzleTimeNow.cs:86
+#: ../src/Games/Logic/PuzzleTimeNow.cs:84
 #, csharp-format
 msgid "{0:h tt}"
 msgstr "{0:%H tt}"
 
-#: ../src/Games/Logic/PuzzleTimeNow.cs:96
+#: ../src/Games/Logic/PuzzleTimeNow.cs:94
 msgid "Sample clock"
 msgstr "Șablon ceas"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:40
+#: ../src/Games/Logic/PuzzleTrains.cs:38
 msgid "Trains"
 msgstr "Trenuri"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:52
+#: ../src/Games/Logic/PuzzleTrains.cs:50
 msgid "The distance formula is 'distance = rate x time'."
 msgstr "Formula distanței este „distanța = viteza x timp”."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
 #. - The translated string should not use more characters than the original sentence
-#: ../src/Games/Logic/PuzzleTrains.cs:81
+#: ../src/Games/Logic/PuzzleTrains.cs:79
 #, csharp-format
 msgid ""
 "A train leaves the station traveling at {0} mph. {1} hour later a second "
@@ -5596,7 +5648,7 @@ msgstr[2] ""
 "doilea tren părăsește gara în aceeași direcție cu viteza de {2} km/h. Câte "
 "ore îi va trebui celui de-al doilea tren să-l întreacă pe primul?"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:85
+#: ../src/Games/Logic/PuzzleTrains.cs:83
 msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
@@ -5606,7 +5658,7 @@ msgstr ""
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
-#: ../src/Games/Logic/PuzzleTrains.cs:101
+#: ../src/Games/Logic/PuzzleTrains.cs:99
 #, csharp-format
 msgid ""
 "Two trains separated by {0} mile are heading towards each other on straight "
@@ -5629,8 +5681,8 @@ msgstr[2] ""
 "paralele. Primul merge cu viteza de {1} km/h și al doilea cu {2} km/h. În "
 "câte ore se vor întâlni?"
 
-#: ../src/Games/Logic/PuzzleTrains.cs:106
-#: ../src/Games/Logic/PuzzleTrains.cs:128
+#: ../src/Games/Logic/PuzzleTrains.cs:104
+#: ../src/Games/Logic/PuzzleTrains.cs:126
 msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
@@ -5638,7 +5690,7 @@ msgstr "Puteți calcula răspunsul împărțind distanța la suma celor două vi
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
-#: ../src/Games/Logic/PuzzleTrains.cs:123
+#: ../src/Games/Logic/PuzzleTrains.cs:121
 #, csharp-format
 msgid ""
 "Two trains on straight parallel tracks leave from the same point and time "
@@ -5661,47 +5713,47 @@ msgstr[2] ""
 "timp în direcții opuse cu o viteză de {0} și respectiv {1} de km/h. În câte "
 "ore vor fi la o distanță de {2} de mile, unul față de celălalt?"
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:31
+#: ../src/Games/Logic/PuzzleTriangles.cs:29
 msgid "Triangles"
 msgstr "Triunghiuri"
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:35
+#: ../src/Games/Logic/PuzzleTriangles.cs:33
 msgid "How many triangles of any size do you count in the figure below?"
 msgstr "Câte triunghiuri de orice dimensiune sunt în figura de mai jos?"
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:39
+#: ../src/Games/Logic/PuzzleTriangles.cs:37
 msgid "A triangle can be embedded inside another triangle."
 msgstr "Un triunghi poate fi cuprins în interiorul altui triunghi."
 
-#: ../src/Games/Logic/PuzzleTriangles.cs:44
+#: ../src/Games/Logic/PuzzleTriangles.cs:42
 #, csharp-format
 msgid "The triangles are made by connecting the following points: {0}"
 msgstr "Triunghiurile sunt construite unind următoarele puncte: {0}"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:57
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:55
 msgid "Triangles with numbers"
 msgstr "Triunghiuri cu numere"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:61
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:59
 msgid "Which number should replace the question mark below?"
 msgstr "Ce număr ar trebui să înlocuiască semnul de întrebare de mai jos?"
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:66
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:64
 msgid "All the triangles share a property and are independent of the rest."
 msgstr ""
 "Toate triunghiurile au o proprietate comună și sunt independente de restul "
 "corpurilor."
 
-#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:71
+#: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:69
 #, csharp-format
 msgid "The result of multiplying the two numbers inside every triangle is {0}."
 msgstr "Rezultatul înmulțirii celor două numere din fiecare triunghi este {0}."
 
-#: ../src/Games/Memory/MemoryColouredFigures.cs:50
+#: ../src/Games/Memory/MemoryColouredFigures.cs:48
 msgid "Colored figures"
 msgstr "Figurile colorate"
 
-#: ../src/Games/Memory/MemoryColouredFigures.cs:59
+#: ../src/Games/Memory/MemoryColouredFigures.cs:57
 #, csharp-format
 msgid ""
 "Which of these figures was previously shown? Answer {0}, {1}, {2} or {3}."
@@ -5709,21 +5761,21 @@ msgstr ""
 "Care dintre următoarele figuri a fost afișată precedent? Răspundeți folosind "
 "{0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Memory/MemoryColouredText.cs:35
+#: ../src/Games/Memory/MemoryColouredText.cs:33
 msgid "Colored text"
 msgstr "Textul colorat"
 
-#: ../src/Games/Memory/MemoryColouredText.cs:44
+#: ../src/Games/Memory/MemoryColouredText.cs:42
 #, csharp-format
 msgid "What was the color of the text that said '{0}'?"
 msgstr "Cu ce culoare a fost scris texul „{0}”?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:41
+#: ../src/Games/Memory/MemoryCountDots.cs:39
 msgid "Counting dots"
 msgstr "Numărați punctele"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:52
+#: ../src/Games/Memory/MemoryCountDots.cs:50
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
@@ -5731,11 +5783,11 @@ msgstr ""
 "Câte puncte de culoare {0} au fost afișate în imaginea precedentă? "
 "Răspundeți folosind numere."
 
-#: ../src/Games/Memory/MemoryFaces.cs:52
+#: ../src/Games/Memory/MemoryFaces.cs:50
 msgid "Memorize faces"
 msgstr "Memorați fețele"
 
-#: ../src/Games/Memory/MemoryFaces.cs:57
+#: ../src/Games/Memory/MemoryFaces.cs:55
 msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
@@ -5743,13 +5795,13 @@ msgstr ""
 "În care celulă se află cealaltă față asemănătoare celei de mai jos? "
 "Răspundeți cu numărul celulei."
 
-#: ../src/Games/Memory/MemoryFacts.cs:48
+#: ../src/Games/Memory/MemoryFacts.cs:46
 msgid "Memorize facts"
 msgstr "Memorați faptele"
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #. Day in English does not need to be plural
-#: ../src/Games/Memory/MemoryFacts.cs:106
+#: ../src/Games/Memory/MemoryFacts.cs:104
 #, csharp-format
 msgid ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
@@ -5767,16 +5819,16 @@ msgstr[2] ""
 "Fabrica Mașinilor Strălucitoare a anunțat deja întreruperea producției "
 "pentru {0} de zile, dar înainte de asta nu a mai întrerupt producția din {1}."
 
-#: ../src/Games/Memory/MemoryFacts.cs:110
+#: ../src/Games/Memory/MemoryFacts.cs:108
 msgid "How many days did Shiny Cars halt its production for?"
 msgstr "Pentru câte zile s-a oprit producția Mașinilor Strălucitoare?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:111
+#: ../src/Games/Memory/MemoryFacts.cs:109
 msgid "In what year did Shiny Cars last halt its production?"
 msgstr "În ce an s-a oprit ultima dată producția Mașinilor Strălucitoare?"
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
-#: ../src/Games/Memory/MemoryFacts.cs:119
+#: ../src/Games/Memory/MemoryFacts.cs:117
 #, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
@@ -5784,11 +5836,11 @@ msgstr ""
 "Vânzările Mașinilor Strălucitoare au scăzut cu {0}% în luna Decembrie, cel "
 "mai rău declin din {1}."
 
-#: ../src/Games/Memory/MemoryFacts.cs:121
+#: ../src/Games/Memory/MemoryFacts.cs:119
 msgid "By how much did company sales fall last December?"
 msgstr "Cu cât au scăzut vânzările companiei în Decembrie?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:123
+#: ../src/Games/Memory/MemoryFacts.cs:121
 #, csharp-format
 msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
@@ -5797,21 +5849,21 @@ msgstr ""
 "Vânzările Mașinilor Strălucitoare au scăzut cu {0}% în ultima lună de "
 "Decembrie. Din ce an este acesta cel mai rău declin?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:129
+#: ../src/Games/Memory/MemoryFacts.cs:127
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr ""
 "Aproximativ {0}% din Mașinile Strălucitoare produse în întrega lume sunt "
 "vândute în Europa."
 
-#: ../src/Games/Memory/MemoryFacts.cs:131
+#: ../src/Games/Memory/MemoryFacts.cs:129
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr ""
 "Ce procent din Mașinile Strălucitoare produse în întreaga lume sunt vândute "
 "în Europa?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:137
+#: ../src/Games/Memory/MemoryFacts.cs:135
 #, csharp-format
 msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
@@ -5820,27 +5872,23 @@ msgstr ""
 "Aproximativ {0}% din Mașinile Strălucitoare folosesc diesel, {1}% folosesc "
 "benzină și restul folosesc curent electric."
 
-#: ../src/Games/Memory/MemoryFacts.cs:139
+#: ../src/Games/Memory/MemoryFacts.cs:137
 msgid "What percentage of Shiny Cars use diesel?"
 msgstr "Ce procent din Mașinile Strălucitoare folosesc diesel?"
 
-#: ../src/Games/Memory/MemoryFacts.cs:140
+#: ../src/Games/Memory/MemoryFacts.cs:138
 msgid "What percentage of Shiny Cars use gasoline?"
 msgstr "Ce procent din Mașinile Strălucitoare folosesc benzină?"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:67
-msgid "Square"
-msgstr "Pătrat"
-
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:71
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:69
 msgid "Circle"
 msgstr "Cerc"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:79
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:77
 msgid "Memorize figures and text"
 msgstr "Memorați figurile și textul"
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:84
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:82
 #, csharp-format
 msgid ""
 "The list below enumerates the figures shown in the previous image except for "
@@ -5849,15 +5897,15 @@ msgstr ""
 "Lista de mai jos enumeră figurile afișate în imaginea precedentă, cu "
 "excepția uneia. Care este figura lipsă? Răspundeți cu {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Memory/MemoryFiguresAndText.cs:222
+#: ../src/Games/Memory/MemoryFiguresAndText.cs:220
 msgid "List of images shown before"
 msgstr "Lista imaginilor afișate mai devreme"
 
-#: ../src/Games/Memory/MemoryFiguresNumbers.cs:38
+#: ../src/Games/Memory/MemoryFiguresNumbers.cs:36
 msgid "Figures with numbers"
 msgstr "Figurile cu cifre"
 
-#: ../src/Games/Memory/MemoryFiguresNumbers.cs:43
+#: ../src/Games/Memory/MemoryFiguresNumbers.cs:41
 #, csharp-format
 msgid ""
 "Which one of these squares was previously shown? Answer {0}, {1}, {2} or {3}."
@@ -5865,37 +5913,37 @@ msgstr ""
 "Care dintre aceste pătrate a fost afișat anterior? Răspundeți folosind {0}, "
 "{1}, {2} sau {3}."
 
-#: ../src/Games/Memory/MemoryIndications.cs:133
+#: ../src/Games/Memory/MemoryIndications.cs:131
 #, csharp-format
 msgid "Start at point number {0}"
 msgstr "Începeți de la punctul {0}"
 
-#: ../src/Games/Memory/MemoryIndications.cs:137
+#: ../src/Games/Memory/MemoryIndications.cs:135
 msgid "Move right"
 msgstr "Mutați la dreapta"
 
-#: ../src/Games/Memory/MemoryIndications.cs:139
+#: ../src/Games/Memory/MemoryIndications.cs:137
 msgid "Move left"
 msgstr "Mutați la stânga"
 
-#: ../src/Games/Memory/MemoryIndications.cs:141
+#: ../src/Games/Memory/MemoryIndications.cs:139
 msgid "Move up"
 msgstr "Mutați în sus"
 
-#: ../src/Games/Memory/MemoryIndications.cs:143
+#: ../src/Games/Memory/MemoryIndications.cs:141
 msgid "Move down"
 msgstr "Mutați în jos"
 
-#: ../src/Games/Memory/MemoryIndications.cs:148
+#: ../src/Games/Memory/MemoryIndications.cs:146
 #, csharp-format
 msgid "End at point {0}"
 msgstr "Finalizați la punctul {0}"
 
-#: ../src/Games/Memory/MemoryIndications.cs:162
+#: ../src/Games/Memory/MemoryIndications.cs:160
 msgid "Memorize indications"
 msgstr "Memorați indicațiile"
 
-#: ../src/Games/Memory/MemoryIndications.cs:168
+#: ../src/Games/Memory/MemoryIndications.cs:166
 #, csharp-format
 msgid ""
 "Which of the following graphics represents the indications previously given? "
@@ -5904,18 +5952,18 @@ msgstr ""
 "Care dintre următoarele grafice reprezintă indicațiile date anterior? "
 "Răspundeți folosind {0}, {1}, {2} sau {3}."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:65
+#: ../src/Games/Memory/MemoryNumbers.cs:63
 msgid "How many odd numbers were in the previous image? Answer using numbers."
 msgstr ""
 "Câte numere impare au fost în imaginea precedentă? Răspundeți folosind "
 "numere."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:90
+#: ../src/Games/Memory/MemoryNumbers.cs:88
 msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr ""
 "Câte numere pare au fost în imaginea precedentă? Răspundeți folosind numere."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:115
+#: ../src/Games/Memory/MemoryNumbers.cs:113
 msgid ""
 "How many numbers with more than one digit were in the previous image? Answer "
 "using numbers."
@@ -5923,168 +5971,168 @@ msgstr ""
 "Câte numere cu mai mult de o cifră au fost în imaginea precedentă? "
 "Răspundeți folosind numere."
 
-#: ../src/Games/Memory/MemoryNumbers.cs:132
+#: ../src/Games/Memory/MemoryNumbers.cs:130
 msgid "Memorize numbers"
 msgstr "Memorați numerele"
 
-#: ../src/Games/Memory/MemoryWords.cs:35
+#: ../src/Games/Memory/MemoryWords.cs:33
 msgid "Memorize words"
 msgstr "Memorați cuvintele"
 
-#: ../src/Games/Memory/MemoryWords.cs:40
+#: ../src/Games/Memory/MemoryWords.cs:38
 msgid ""
 "There is a missing word from the previous list. Which one is the missing "
 "word?"
 msgstr "Lipsește un cuvânt din lista precedentă. Care este cuvântul lipsă?"
 
 #. Body parts
-#: ../src/Games/Memory/MemoryWords.cs:49
+#: ../src/Games/Memory/MemoryWords.cs:47
 msgid "wrist"
 msgstr "mână"
 
-#: ../src/Games/Memory/MemoryWords.cs:50
+#: ../src/Games/Memory/MemoryWords.cs:48
 msgid "elbow"
 msgstr "cot"
 
-#: ../src/Games/Memory/MemoryWords.cs:51
+#: ../src/Games/Memory/MemoryWords.cs:49
 msgid "armpit"
 msgstr "subsuoară"
 
-#: ../src/Games/Memory/MemoryWords.cs:52
+#: ../src/Games/Memory/MemoryWords.cs:50
 msgid "hand"
 msgstr "mână"
 
-#: ../src/Games/Memory/MemoryWords.cs:53
+#: ../src/Games/Memory/MemoryWords.cs:51
 msgid "chest"
 msgstr "piept"
 
 #. Fishes
-#: ../src/Games/Memory/MemoryWords.cs:56
+#: ../src/Games/Memory/MemoryWords.cs:54
 msgid "sardine"
 msgstr "sardine"
 
-#: ../src/Games/Memory/MemoryWords.cs:57
+#: ../src/Games/Memory/MemoryWords.cs:55
 msgid "trout"
 msgstr "păstrăv"
 
-#: ../src/Games/Memory/MemoryWords.cs:58
+#: ../src/Games/Memory/MemoryWords.cs:56
 msgid "monkfish"
 msgstr "lophius"
 
-#: ../src/Games/Memory/MemoryWords.cs:59
+#: ../src/Games/Memory/MemoryWords.cs:57
 msgid "cod"
 msgstr "cod"
 
-#: ../src/Games/Memory/MemoryWords.cs:60
+#: ../src/Games/Memory/MemoryWords.cs:58
 msgid "salmon"
 msgstr "somon"
 
 #. Vegetables
-#: ../src/Games/Memory/MemoryWords.cs:63
+#: ../src/Games/Memory/MemoryWords.cs:61
 msgid "potato"
 msgstr "cartof"
 
-#: ../src/Games/Memory/MemoryWords.cs:64
+#: ../src/Games/Memory/MemoryWords.cs:62
 msgid "ginger"
 msgstr "ghimbir"
 
-#: ../src/Games/Memory/MemoryWords.cs:65
+#: ../src/Games/Memory/MemoryWords.cs:63
 msgid "pepper"
 msgstr "piper"
 
-#: ../src/Games/Memory/MemoryWords.cs:66
+#: ../src/Games/Memory/MemoryWords.cs:64
 msgid "garlic"
 msgstr "usturoi"
 
-#: ../src/Games/Memory/MemoryWords.cs:67
+#: ../src/Games/Memory/MemoryWords.cs:65
 msgid "pumpkin"
 msgstr "dovleac"
 
 #. Bicycle
-#: ../src/Games/Memory/MemoryWords.cs:70
+#: ../src/Games/Memory/MemoryWords.cs:68
 msgid "brake"
 msgstr "frână"
 
-#: ../src/Games/Memory/MemoryWords.cs:71
+#: ../src/Games/Memory/MemoryWords.cs:69
 msgid "pedal"
 msgstr "pedală"
 
-#: ../src/Games/Memory/MemoryWords.cs:72
+#: ../src/Games/Memory/MemoryWords.cs:70
 msgid "chain"
 msgstr "lanț"
 
-#: ../src/Games/Memory/MemoryWords.cs:73
+#: ../src/Games/Memory/MemoryWords.cs:71
 msgid "wheel"
 msgstr "volan"
 
-#: ../src/Games/Memory/MemoryWords.cs:74
+#: ../src/Games/Memory/MemoryWords.cs:72
 msgid "handlebar"
 msgstr "ghidon"
 
 #. Music
-#: ../src/Games/Memory/MemoryWords.cs:77
+#: ../src/Games/Memory/MemoryWords.cs:75
 msgid "drummer"
 msgstr "toboșar"
 
-#: ../src/Games/Memory/MemoryWords.cs:78
+#: ../src/Games/Memory/MemoryWords.cs:76
 msgid "speaker"
 msgstr "vorbitor"
 
-#: ../src/Games/Memory/MemoryWords.cs:79
+#: ../src/Games/Memory/MemoryWords.cs:77
 msgid "lyrics"
 msgstr "versuri"
 
-#: ../src/Games/Memory/MemoryWords.cs:80
+#: ../src/Games/Memory/MemoryWords.cs:78
 msgid "beat"
 msgstr "ritm"
 
-#: ../src/Games/Memory/MemoryWords.cs:81
+#: ../src/Games/Memory/MemoryWords.cs:79
 msgid "song"
 msgstr "melodie"
 
 #. Weather
-#: ../src/Games/Memory/MemoryWords.cs:84
+#: ../src/Games/Memory/MemoryWords.cs:82
 msgid "cloud"
 msgstr "nor"
 
-#: ../src/Games/Memory/MemoryWords.cs:85
+#: ../src/Games/Memory/MemoryWords.cs:83
 msgid "rain"
 msgstr "ploaie"
 
-#: ../src/Games/Memory/MemoryWords.cs:86
+#: ../src/Games/Memory/MemoryWords.cs:84
 msgid "storm"
 msgstr "furtună"
 
-#: ../src/Games/Memory/MemoryWords.cs:87
+#: ../src/Games/Memory/MemoryWords.cs:85
 msgid "fog"
 msgstr "ceață"
 
-#: ../src/Games/Memory/MemoryWords.cs:88
+#: ../src/Games/Memory/MemoryWords.cs:86
 msgid "rainbow"
 msgstr "curcubeu"
 
 #. Animals
-#: ../src/Games/Memory/MemoryWords.cs:91
+#: ../src/Games/Memory/MemoryWords.cs:89
 msgid "rabbit"
 msgstr "iepure"
 
-#: ../src/Games/Memory/MemoryWords.cs:92
+#: ../src/Games/Memory/MemoryWords.cs:90
 msgid "mouse"
 msgstr "șoarece"
 
-#: ../src/Games/Memory/MemoryWords.cs:93
+#: ../src/Games/Memory/MemoryWords.cs:91
 msgid "monkey"
 msgstr "maimuță"
 
-#: ../src/Games/Memory/MemoryWords.cs:94
+#: ../src/Games/Memory/MemoryWords.cs:92
 msgid "bear"
 msgstr "urs"
 
-#: ../src/Games/Memory/MemoryWords.cs:95
+#: ../src/Games/Memory/MemoryWords.cs:93
 msgid "wolf"
 msgstr "lup"
 
-#: ../tools/GameXmlGetString.cs:29
+#: ../tools/GameXmlGetString.cs:27
 msgid ""
 "How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
 msgid_plural ""
@@ -6099,7 +6147,7 @@ msgstr[2] ""
 "Câte grade se rotește limba care indică minutele unui ceas în 2 ore și [num] "
 "de minute?"
 
-#: ../tools/GameXmlGetString.cs:33
+#: ../tools/GameXmlGetString.cs:31
 msgid ""
 "John is 46 years old. His son is [difference] year younger than half of "
 "John's age. How old is John's son?"
@@ -6116,7 +6164,7 @@ msgstr[2] ""
 "John are 46 de ani. Fiul lui este cu [difference] de ani mai tânăr decât "
 "jumătatea vârstei lui John. Câți ani are fiul lui John?"
 
-#: ../tools/GameXmlGetString.cs:37
+#: ../tools/GameXmlGetString.cs:35
 msgid ""
 "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
 "[proportion] times as old as his son. How old is John's son nowadays?"
@@ -6136,7 +6184,7 @@ msgstr[2] ""
 "său. În urmă cu [ago] de ani, John a fost de [proportion] de ori mai bătrân "
 "decât fiul său. Ce vârstă are fiul lui John în prezent?"
 
-#: ../tools/GameXmlGetString.cs:41
+#: ../tools/GameXmlGetString.cs:39
 msgid ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
 "is x = 2y, and [ago] year ago, John was [proportion] times as old as his "
@@ -6161,7 +6209,7 @@ msgstr[2] ""
 "[ago] de ani, John a fost cu [proportion] mai bătrân decât fiul său: x - "
 "[ago] = (y - [ago]) * [proportion]."
 
-#: ../tools/GameXmlGetString.cs:45
+#: ../tools/GameXmlGetString.cs:43
 msgid ""
 "A file is protected by a password formed by a [digits] digit number "
 "represented in base 10 (ranging from 0 to 9). How many different passwords "
@@ -6183,7 +6231,7 @@ msgstr[2] ""
 "cifre reprezentate în baza 10 (variind de la 0 la 9). Câte parole diferite "
 "puteți avea?"
 
-#: ../tools/GameXmlGetString.cs:49
+#: ../tools/GameXmlGetString.cs:47
 msgid ""
 "A file is protected by a password formed by a [digits] digit represented in "
 "base 8 (ranging from 0 to 7). How many different passwords can you have?"
@@ -6203,7 +6251,7 @@ msgstr[2] ""
 "baza 8 cu [digits] de cifre (variind de la 0 la 7). Câte parole diferite "
 "puteți avea?"
 
-#: ../tools/GameXmlGetString.cs:53
+#: ../tools/GameXmlGetString.cs:51
 msgid ""
 "There is [games] tennis game played simultaneously. How many different "
 "forecasts are possible?"
@@ -6218,7 +6266,7 @@ msgstr[2] ""
 "Se joacă [games] de partide de tenis simultan. Câte prognoze diferite se pot "
 "face?"
 
-#: ../tools/GameXmlGetString.cs:57
+#: ../tools/GameXmlGetString.cs:55
 msgid ""
 "In a tennis tournament, in every match a player is eliminated after losing "
 "to a single opponent. How many matches does it take to determine the winner "
@@ -6243,7 +6291,7 @@ msgstr[2] ""
 "pentru a determina câștigătorul de un turneu de tenis, care începe cu "
 "[players] de jucători?"
 
-#: ../tools/GameXmlGetString.cs:61
+#: ../tools/GameXmlGetString.cs:59
 msgid ""
 "You have [money] monetary unit in your bank account at 10% interest "
 "compounded annually. How much money will you have at the end of 2 years?"
@@ -6260,7 +6308,7 @@ msgstr[2] ""
 "Aveți [money] de unități monetare în contul bancar la o dobândă compusă de "
 "10% compusă anual. Câți bani veți avea după 2 ani?"
 
-#: ../tools/GameXmlGetString.cs:69
+#: ../tools/GameXmlGetString.cs:67
 msgid ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hour."
@@ -6277,7 +6325,7 @@ msgstr[2] ""
 "John curăță la viteza de 1 / [john_time] pe oră și prietenul său la 1 / "
 "[friend]. Împreună aceștia vor avea nevoie de [answer_a] de ore."
 
-#: ../tools/GameXmlGetString.cs:73
+#: ../tools/GameXmlGetString.cs:71
 msgid ""
 "John needs [john_time] hour to clean a warehouse and his friend needs half "
 "as many. How many hours would it take them to clean up the warehouse if they "
@@ -6299,7 +6347,7 @@ msgstr[2] ""
 "prietenul său are nevoie de jumătate din atâtea. Cât de multe ore le-ar lua "
 "pentru a curăța depozitul dacă aceștia au lucrat împreună? [option_answers]"
 
-#: ../tools/GameXmlGetString.cs:77
+#: ../tools/GameXmlGetString.cs:75
 msgid ""
 "John needs [john_time] hour to clean a warehouse and his friend needs twice "
 "as many. How many hours would it take them to clean up the warehouse if they "
