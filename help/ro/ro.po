@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the gbrainy package.
 # Daniel Șerbănescu <cyber19rider@gmail.com>, 2010, 2011.
 # Daniel Șerbănescu <daniel@serbanescu.tk>, 2012.
-# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2017.
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
-"POT-Creation-Date: 2017-02-27 17:46+0000\n"
-"PO-Revision-Date: 2017-08-04 21:14+0200\n"
+"POT-Creation-Date: 2018-01-28 17:44+0000\n"
+"PO-Revision-Date: 2018-02-21 08:08+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -20,10 +20,9 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-#| msgid "translator-credits"
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2010, 2017"
+msgstr "Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2010, 2017, 2018"
 
 #. (itstool) path: info/desc
 #: C/customgame.page:9
@@ -66,16 +65,13 @@ msgstr "Pentru a face asta, procedați după cum urmează:"
 
 #. (itstool) path: item/p
 #: C/customgame.page:29
-#| msgid ""
-#| "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
-#| "Game</gui><gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
 "Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
 msgstr ""
 "Selectați <guiseq><gui style=\"menu\">Joc</gui><gui style=\"menuitem\">Joc "
-"nou</gui> <gui style=\"menuitem\">Selectare personalizată a "
-"jocului</gui></guiseq>."
+"nou</gui> <gui style=\"menuitem\">Selectare personalizată a jocului</gui></"
+"guiseq>."
 
 #. (itstool) path: item/p
 #: C/customgame.page:35
@@ -97,7 +93,6 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
-#| msgid "3"
 msgctxt "sort"
 msgid "3"
 msgstr "3"
@@ -267,20 +262,24 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/license.page:51
+#| msgid ""
+#| "For the full text of the license, see the <link href=\"http://"
+#| "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons "
+#| "website</link>, or read the full <link href=\"http://creativecommons.org/"
+#| "licenses/by-sa/3.0/\">Commons Deed</link>."
 msgid ""
-"For the full text of the license, see the <link href=\"http://"
+"For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"Pentru întregul conținut al licenței, consultați <link href=\"http://"
-"creativecommons.org/licenses/by-sa/3.0/legalcode\">pagina web "
-"CreativeCommons</link>, sau citiți în întregime <link href=\"http://"
-"creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
+"Pentru întregul conținut al licenței, consultați <link href=\""
+"https://creativecommons.org/licenses/by-sa/3.0/legalcode\">pagina web "
+"CreativeCommons</link>, sau citiți în întregime <link href=\""
+"https://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
 
 #. (itstool) path: info/title
 #: C/pause.page:6
-#| msgid "4"
 msgctxt "sort"
 msgid "4"
 msgstr "4"
@@ -402,7 +401,6 @@ msgstr "Această funcționalitate nu este disponibilă pentru unele jocuri."
 
 #. (itstool) path: info/title
 #: C/difficulty.page:6
-#| msgid "2"
 msgctxt "sort"
 msgid "2"
 msgstr "2"
@@ -477,9 +475,6 @@ msgstr "Vizualizează istoricul jocurilor"
 
 #. (itstool) path: section/p
 #: C/history.page:26
-#| msgid ""
-#| "To access your personal game history, choose <guiseq><gui style=\"menu"
-#| "\">View</gui><gui style=\"menuitem\">Player's Game History</gui></guiseq>."
 msgid ""
 "To access your personal game history, choose <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
@@ -806,14 +801,14 @@ msgstr ""
 #| "You can choose different difficulty levels making <app>gbrainy</app> "
 #| "enjoyable for kids, adults or senior citizens. It also features a game "
 #| "history, personal records, tips and fullscreen mode support. "
-#| "<app>gbrainy</app> can also be <link href=\"http://live.gnome.org/gbrainy/"
-#| "Extending\">extended</link> easily with new games developed by third "
-#| "parties."
+#| "<app>gbrainy</app> can also be <link href=\"https://wiki.gnome.org/Apps/"
+#| "gbrainy/Extending\">extended</link> easily with new games developed by "
+#| "third parties."
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Puteți alege diferite niveluri de dificultate făcând ca <app>gbrainy</app> "
@@ -825,19 +820,25 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
+#| msgid ""
+#| "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
+#| "ranging from classic puzzles from ancient times to more recent works like "
+#| "<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
+#| "Stickels'</link> puzzles or the classic <link href=\"http://en.wikipedia."
+#| "org/wiki/Dr._Brain\">Dr. Brain</link> game."
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
-"link> puzzles or the classic <link href=\"http://en.wikipedia.org/wiki/Dr."
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
 "_Brain\">Dr. Brain</link> game."
 msgstr ""
 "<app>gbrainy</app> se bazează foarte mult pe activitatea maeștrilor în "
 "jocuri de tip puzzle din trecut, puzzle-urile variind de la clasice la cele "
-"din cele mai vechi timpuri la lucrări mai recente cum ar fi cele ale lui "
-"<link href=\"http://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels</"
-"link> sau clasicul joc <link href=\"http://en.wikipedia.org/wiki/Dr._Brain"
-"\">Dr. Brain</link>."
+"din cele mai vechi timpuri la lucrări mai recente cum ar fi cele ale lui <"
+"link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry "
+"Stickels</link> sau clasicul joc <link href=\""
+"https://en.wikipedia.org/wiki/Dr._Brain\">Dr. Brain</link>."
 
 #. (itstool) path: note/p
 #: C/gameplay.page:45
@@ -855,14 +856,12 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: C/index.page:8 C/index.page:12
-#| msgid "gbrainy"
 msgctxt "link"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/title
 #: C/index.page:9
-#| msgid "gbrainy"
 msgctxt "text"
 msgid "gbrainy"
 msgstr "gbrainy"
@@ -894,7 +893,6 @@ msgstr "Sfaturi și trucuri"
 
 #. (itstool) path: info/title
 #: C/newgame.page:7
-#| msgid "1"
 msgctxt "sort"
 msgid "1"
 msgstr "1"
