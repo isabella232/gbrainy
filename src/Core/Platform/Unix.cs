@@ -37,7 +37,7 @@ namespace gbrainy.Core.Platform
 		[DllImport ("libc")] // BSD
 		static extern void setproctitle (byte [] fmt, byte [] str_arg);
 
-		[DllImport("libgtk-win32-2.0-0.dll")]
+		[DllImport("libgtk-3-0.dll")]
 		static extern unsafe bool gtk_show_uri(IntPtr screen, IntPtr uri, uint timestamp, out IntPtr error);
 
 		[DllImport ("libcanberra-gtk3.so.0")]
