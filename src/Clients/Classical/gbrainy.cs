@@ -719,7 +719,7 @@ namespace gbrainy.Clients.Classical
 
 		void OnExtending (object sender, EventArgs args)
 		{
-			Process.Start ("https://wiki.gnome.org/gbrainy/Extending");
+			Process.Start ("https://wiki.gnome.org/Apps/gbrainy/Extending");
 		}
 
 		static void InitCoreLibraries ()
