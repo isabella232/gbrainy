@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 09:04+0100\n"
+"POT-Creation-Date: 2018-03-08 07:18+0100\n"
 "PO-Revision-Date: 2018-01-28 09:11+0100\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -714,7 +714,7 @@ msgid "Notebook"
 msgstr "Llibreta"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -3357,15 +3357,30 @@ msgstr[1] "Les possibles respostes correctes són {0}."
 msgid "Extensions database:"
 msgstr "Base de dades d'extensions:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:256
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} jocs registrats: {1} trencaclosques lògics, {2} entrenadors de càlcul "
-"mental, {3} entrenadors de memòria, {4} analogies verbals"
+msgid "{0} games registered:"
+msgstr "{0} jocs registrats:"
+
+#: ../src/Core/Main/GameManager.cs:257
+#, csharp-format
+msgid " - {0} logic puzzles"
+msgstr " - {0} trencaclosques lògics"
+
+#: ../src/Core/Main/GameManager.cs:258
+#, csharp-format
+msgid " - {0} calculation trainers"
+msgstr " - {0} entrenadors de càlcul"
+
+#: ../src/Core/Main/GameManager.cs:259
+#, csharp-format
+msgid " - {0} memory trainers"
+msgstr " - {0} entrenadors de memòria"
+
+#: ../src/Core/Main/GameManager.cs:260
+#, csharp-format
+msgid " - {0} verbal analogies"
+msgstr " - {0} analogies verbals"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -6223,3 +6238,10 @@ msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
+
+#~ msgid ""
+#~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
+#~ "memory trainers, {4} verbal analogies"
+#~ msgstr ""
+#~ "{0} jocs registrats: {1} trencaclosques lògics, {2} entrenadors de càlcul "
+#~ "mental, {3} entrenadors de memòria, {4} analogies verbals"
