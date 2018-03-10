@@ -8,7 +8,7 @@ Summary:        A brain teaser game
 
 Group:          Amusements/Games
 License:        GPLv2+
-URL:            http://live.gnome.org/gbrainy
+URL:            https://wiki.gnome.org/Apps/gbrainy
 Source0:        http://www.softcatala.org/~jmas/gbrainy/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 

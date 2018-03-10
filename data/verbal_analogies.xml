@@ -16,7 +16,7 @@
 
 	<analogy>
 		<!--
-			Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
+			Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 		-->
 		<_question type = "MultipleOptions">Which of the following sports does not belong in this group?</_question>
 		<_tip>Think of the items used in the game.</_tip>

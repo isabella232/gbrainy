@@ -18,7 +18,7 @@ License:        GPL v2 or later
 Source:         %{name}-%{version}.tar.gz
 Autoreqprov:    on
 PreReq:         filesystem
-URL:            http://live.gnome.org/gbrainy
+URL:            https://wiki.gnome.org/Apps/gbrainy
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  mono-devel gtk-sharp2 perl-XML-Parser intltool mono-core
 Group:          Games

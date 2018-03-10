@@ -6,7 +6,7 @@
 <img src = "http://gent.softcatala.org/jmas/gbrainy/gbrainy_memory.png" width = "400" height = "400"/>
 <p>You can download gbrainy from the following links:</p>
 <ul>
-<li><a href="http://live.gnome.org/gbrainy#Download">Linux</a></li>
+<li><a href="https://wiki.gnome.org/Apps/gbrainy#Download">Linux</a></li>
 <li><a href="https://sourceforge.net/projects/gbrainy/files/gbrainy/">Windows</a></li>
 </ul>
 </asp:Content> 

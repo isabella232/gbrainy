@@ -3,7 +3,7 @@
 ; HM NIS Edit Wizard helper defines
 !define PRODUCT_NAME "gbrainy"
 !define PRODUCT_VERSION "1.20"
-!define PRODUCT_WEB_SITE "http://live.gnome.org/gbrainy"
+!define PRODUCT_WEB_SITE "https://wiki.gnome.org/Apps/gbrainy"
 !define PRODUCT_DIR_REGKEY "Software\Microsoft\Windows\CurrentVersion\App Paths\gbrainy.exe"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"

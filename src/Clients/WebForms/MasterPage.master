@@ -41,7 +41,7 @@
     <asp:contentplaceholder id="main_placeholder" runat="server" />
 </div>
 <p class="Footer">
-	This web site is based on in the open source project called <a href="http://live.gnome.org/gbrainy">gbrainy</a>. Contact e-mail address: jmas at softcatala dot org
+	This web site is based on in the open source project called <a href="https://wiki.gnome.org/Apps/gbrainy">gbrainy</a>. Contact e-mail address: jmas at softcatala dot org
 </p>
 </form>
 </body>
