@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 07:18+0100\n"
+"POT-Creation-Date: 2018-03-10 07:26+0100\n"
 "PO-Revision-Date: 2018-01-28 09:11+0100\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -3353,34 +3353,44 @@ msgid_plural "The possible correct answers are {0}."
 msgstr[0] "La resposta correcta és {0}."
 msgstr[1] "Les possibles respostes correctes són {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Base de dades d'extensions:"
 
-#: ../src/Core/Main/GameManager.cs:256
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid "{0} games registered:"
-msgstr "{0} jocs registrats:"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} joc registrats:"
+msgstr[1] "{0} jocs registrats:"
 
-#: ../src/Core/Main/GameManager.cs:257
+#: ../src/Core/Main/GameManager.cs:262
 #, csharp-format
-msgid " - {0} logic puzzles"
-msgstr " - {0} trencaclosques lògics"
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} trencaclosques lògic"
+msgstr[1] "{0} trencaclosques lògics"
 
-#: ../src/Core/Main/GameManager.cs:258
+#: ../src/Core/Main/GameManager.cs:263
 #, csharp-format
-msgid " - {0} calculation trainers"
-msgstr " - {0} entrenadors de càlcul"
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} entrenador de càlcul"
+msgstr[1] "{0} entrenadors de càlcul"
 
-#: ../src/Core/Main/GameManager.cs:259
+#: ../src/Core/Main/GameManager.cs:264
 #, csharp-format
-msgid " - {0} memory trainers"
-msgstr " - {0} entrenadors de memòria"
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} entrenador de memòria"
+msgstr[1] "{0} entrenadors de memòria"
 
-#: ../src/Core/Main/GameManager.cs:260
+#: ../src/Core/Main/GameManager.cs:265
 #, csharp-format
-msgid " - {0} verbal analogies"
-msgstr " - {0} analogies verbals"
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} analogia verbals"
+msgstr[1] "{0} analogies verbals"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
