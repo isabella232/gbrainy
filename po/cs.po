@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-01-21 08:31+0000\n"
-"PO-Revision-Date: 2018-01-27 19:04+0100\n"
+"POT-Creation-Date: 2018-03-10 06:30+0000\n"
+"PO-Revision-Date: 2018-03-10 08:34+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -715,7 +715,7 @@ msgid "Notebook"
 msgstr "Poznámkový blok"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2890,11 +2890,11 @@ msgstr "Všechny hry a cvičení (logické, početní, paměťové a slovní ana
 
 #: ../src/Clients/Classical/gbrainy.ui.h:5
 msgid "Logic Puzzles Only"
-msgstr "Jen logické obrazce"
+msgstr "Jen logické hlavolamy"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:6
 msgid "Mental Calculation Only"
-msgstr "Jen cvičení na počítání z hlavy"
+msgstr "Jen početní úlohy"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:7
 msgid "Memory Trainers Only"
@@ -3343,19 +3343,49 @@ msgstr[0] "Správná odpověď je {0}."
 msgstr[1] "Možné správné odpovědi jsou {0}."
 msgstr[2] "Možné správné odpovědi jsou {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Databáze rozšíření:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"Registrováno {0} her: {1} logické hlavolamy, {2} početní úlohy, {3} trénink "
-"paměti, {4} slovní analogie"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} zaregistrovaná hra:"
+msgstr[1] "{0} zaregistrované hry:"
+msgstr[2] "{0} zaregistrovaných her:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} logický hlavolam"
+msgstr[1] "{0} logické hlavolamy"
+msgstr[2] "{0} logických hlavolamů"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} početní úloha"
+msgstr[1] "{0} početní úlohy"
+msgstr[2] "{0} početních úloh"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} paměťové cvičení"
+msgstr[1] "{0} paměťová cvičení"
+msgstr[2] "{0} paměťových cvičení"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} slovní analogie"
+msgstr[1] "{0} slovní analogie"
+msgstr[2] "{0} slovních analogií"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -3455,7 +3485,8 @@ msgstr ""
 
 #: ../src/Core/Main/GameTips.cs:73 ../src/Core/Views/WelcomeView.cs:149
 msgid "Use the Settings to adjust the difficulty level of the game."
-msgstr "Prostřednictvím dialogu Nastavení můžete nastavit obtížnost hry."
+msgstr ""
+"Prostřednictvím dialogového okna Nastavení můžete nastavit obtížnost hry."
 
 #: ../src/Core/Main/GameTips.cs:75
 msgid "Association of elements is a common technique for remembering things."
@@ -3683,23 +3714,23 @@ msgstr "Čas"
 #: ../src/Core/Views/WelcomeView.cs:62
 msgid "Logic puzzles. Challenge your reasoning and thinking skills."
 msgstr ""
-"Logické hlavolamy. Výzva vašemu logickému myšlení a rozumovým schopnostem."
+"Logické hlavolamy – výzva vašemu logickému myšlení a rozumovým schopnostem."
 
 #: ../src/Core/Views/WelcomeView.cs:83
 msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
 msgstr ""
-"Počítání z hlavy. Aritmetické výpočty, které otestují vaše dovednosti "
+"Početní úlohy – aritmetické výpočty, které otestují vaše dovednosti "
 "počítat z hlavy."
 
 #: ../src/Core/Views/WelcomeView.cs:104
 msgid "Memory trainers. To prove your short term memory."
-msgstr "Paměťová cvičení. Na zdokonalení vaší krátkodobé paměti."
+msgstr "Paměťová cvičení – na zdokonalení vaší krátkodobé paměti."
 
 #: ../src/Core/Views/WelcomeView.cs:125
 msgid "Verbal analogies. Challenge your verbal aptitude."
-msgstr "Slovní analogie. Výzva pro vaši slovní zásobu."
+msgstr "Slovní analogie – výzva pro vaši slovní zásobu."
 
 #. Translators: {0} is the version number of the program
 #: ../src/Core/Views/WelcomeView.cs:141
