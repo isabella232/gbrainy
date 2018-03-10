@@ -242,6 +242,11 @@ namespace gbrainy.Core.Main
 			available_games.Clear ();
 		}
 
+		private String AddString(String str)
+		{
+			return " - " + str + Environment.NewLine;
+		}
+
 		public string GetGamesSummary (ITranslations translations)
 		{
 			String s = string.Empty;
@@ -253,11 +258,11 @@ namespace gbrainy.Core.Main
 	#endif
 			// Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
             int total = cnt_logic + cnt_memory + cnt_calculation + cnt_verbal;
-            s += String.Format (translations.GetString ("{0} games registered:") +  Environment.NewLine , total);
-            s += String.Format (translations.GetString (" - {0} logic puzzles") +  Environment.NewLine , cnt_logic);
-            s += String.Format (translations.GetString (" - {0} calculation trainers") +  Environment.NewLine , cnt_calculation);
-            s += String.Format (translations.GetString (" - {0} memory trainers") +  Environment.NewLine , cnt_memory);
-            s += String.Format (translations.GetString (" - {0} verbal analogies"), cnt_verbal);
+            s += String.Format (translations.GetPluralString ("{0} game registered:", "{0} games registered:", total) +  Environment.NewLine, total);
+            s += AddString (String.Format (translations.GetPluralString ("{0} logic puzzle", "{0} logic puzzles", cnt_logic), cnt_logic));
+            s += AddString (String.Format (translations.GetPluralString ("{0} calculation trainer", "{0} calculation trainers", cnt_calculation), cnt_calculation));
+            s += AddString (String.Format (translations.GetPluralString ("{0} memory trainer", "{0} memory trainers", cnt_memory), cnt_memory));
+            s += AddString (String.Format (translations.GetPluralString ("{0} verbal analogy", "{0} verbal analogies", cnt_verbal), cnt_verbal));
 			return s;
 		}
 
