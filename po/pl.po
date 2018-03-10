@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-21 17:24+0100\n"
-"PO-Revision-Date: 2018-01-21 17:25+0100\n"
+"POT-Creation-Date: 2018-03-10 17:59+0100\n"
+"PO-Revision-Date: 2018-03-10 18:00+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -3373,19 +3373,49 @@ msgstr[0] "Prawidłowa odpowiedź to {0}."
 msgstr[1] "Możliwe prawidłowe odpowiedzi to {0}."
 msgstr[2] "Możliwe prawidłowe odpowiedzi to {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Baza danych rozszerzeń:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} dostępnych gier: {1} zagadki logiczne, {2} ćwiczenia obliczeniowe, {3} "
-"ćwiczenia pamięci, {4} analogie słowne"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} dostępna gra:"
+msgstr[1] "{0} dostępne gry:"
+msgstr[2] "{0} dostępnych gier:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} zagadka logiczna"
+msgstr[1] "{0} zagadki logiczne"
+msgstr[2] "{0} zagadek logicznych"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} ćwiczenie obliczeniowe"
+msgstr[1] "{0} ćwiczenia obliczeniowe"
+msgstr[2] "{0} ćwiczeń obliczeniowych"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} ćwiczenie pamięci"
+msgstr[1] "{0} ćwiczenia pamięci"
+msgstr[2] "{0} ćwiczeń pamięci"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} analogia słowna"
+msgstr[1] "{0} analogie słowne"
+msgstr[2] "{0} analogii słownych"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
