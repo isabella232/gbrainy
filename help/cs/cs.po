@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-28 17:44+0000\n"
-"PO-Revision-Date: 2018-01-29 09:44+0100\n"
+"POT-Creation-Date: 2018-03-10 16:55+0000\n"
+"PO-Revision-Date: 2018-03-11 06:04+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -24,32 +24,50 @@ msgid "translator-credits"
 msgstr "Marek Černocký <marek@manet.cz>, 2009 – 2011"
 
 #. (itstool) path: info/desc
-#: C/customgame.page:9
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:9
 msgid "Start a custom games selection."
 msgstr "Jak spustit vlastní výběr her."
 
 #. (itstool) path: credit/name
-#: C/customgame.page:12 C/pause.page:12 C/tips.page:12 C/difficulty.page:12
-#: C/history.page:9 C/multiplayer.page:11 C/score.page:11 C/gameplay.page:12
-#: C/index.page:15 C/newgame.page:14 C/times.page:11 C/export.page:10
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:9
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/multiplayer.page:11
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:11
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:15
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:14
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:11
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:10
 msgid "Milo Casagrande"
 msgstr "Milo Casagrande"
 
 #. (itstool) path: license/p
-#: C/customgame.page:16 C/gametypes.page:13 C/pause.page:16 C/tips.page:16
-#: C/difficulty.page:16 C/history.page:13 C/multiplayer.page:15 C/score.page:15
-#: C/gameplay.page:16 C/index.page:19 C/newgame.page:18 C/times.page:15
-#: C/export.page:14
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:13
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:13
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/multiplayer.page:15
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:15
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:19
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:18
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:15
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:14
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
 #. (itstool) path: page/title
-#: C/customgame.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:20
 msgid "Custom games selection"
 msgstr "Vlastní výběr her"
 
 #. (itstool) path: page/p
-#: C/customgame.page:21
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:21
 msgid ""
 "It is possible to play a custom selection of all the games in <app>gbrainy</"
 "app>."
@@ -57,12 +75,12 @@ msgstr ""
 "A aplikaci <app>gbrainy</app> je možné hrát i vlastní výběr ze všech her."
 
 #. (itstool) path: page/p
-#: C/customgame.page:24
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:24
 msgid "To do so, proceed as follows:"
 msgstr "Udělá se to následovně:"
 
 #. (itstool) path: item/p
-#: C/customgame.page:29
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:29
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
 "Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
@@ -72,7 +90,7 @@ msgstr ""
 "guiseq>."
 
 #. (itstool) path: item/p
-#: C/customgame.page:35
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:35
 msgid ""
 "In the <gui>Custom Game</gui> dialog, select the games that you would like "
 "to play by clicking on the check box next to the name of the game."
@@ -81,7 +99,7 @@ msgstr ""
 "pole vedle názvů her ty hry, které byste chtěli hrát"
 
 #. (itstool) path: item/p
-#: C/customgame.page:41
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/customgame.page:41
 msgid ""
 "Once you are done, click on <gui style=\"button\">Start</gui> to start "
 "playing your custom games selection."
@@ -90,34 +108,35 @@ msgstr ""
 "začnete hrát svůj vlastní výběr her."
 
 #. (itstool) path: info/title
-#: C/gametypes.page:6
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:6
 msgctxt "sort"
 msgid "3"
 msgstr "3"
 
 #. (itstool) path: info/desc
-#: C/gametypes.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:7
 msgid "What types of game you can play."
 msgstr "Jaké typy her můžete hrát."
 
 #. (itstool) path: page/title
-#: C/gametypes.page:16
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:16
 msgid "Game types"
 msgstr "Typy her"
 
 #. (itstool) path: page/p
-#: C/gametypes.page:18
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:18
 msgid "<app>gbrainy</app> provides the following types of games:"
 msgstr "Aplikace <app>gbrainy</app> nabízí následující typy her:"
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
-#: C/gametypes.page:27 C/score.page:39
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:27
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:39
 msgid "Logic puzzles"
 msgstr "Logické hlavolamy"
 
 #. (itstool) path: item/p
-#: C/gametypes.page:28
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:28
 msgid ""
 "Games designed to challenge your reasoning and thinking skills. These games "
 "are based on sequences of elements, visual and spatial reasoning or "
@@ -128,12 +147,12 @@ msgstr ""
 "vztazích mezi prvky."
 
 #. (itstool) path: item/title
-#: C/gametypes.page:48
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:48
 msgid "Mental calculations"
 msgstr "Výpočty z hlavy"
 
 #. (itstool) path: item/p
-#: C/gametypes.page:49
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:49
 msgid ""
 "Games based on arithmetical operations designed to improve your mental "
 "calculation skills. Games that require the player to use multiplication, "
@@ -145,12 +164,13 @@ msgstr ""
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
-#: C/gametypes.page:69 C/score.page:51
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:69
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:51
 msgid "Memory trainers"
 msgstr "Trénování paměti"
 
 #. (itstool) path: item/p
-#: C/gametypes.page:70
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:70
 msgid ""
 "Games designed to challenge your short-term memory. These games show "
 "collections of objects and ask the player to recall them, sometimes "
@@ -162,12 +182,13 @@ msgstr ""
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
-#: C/gametypes.page:90 C/score.page:57
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:90
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:57
 msgid "Verbal analogies"
 msgstr "Slovní analogie"
 
 #. (itstool) path: item/p
-#: C/gametypes.page:91
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gametypes.page:91
 msgid ""
 "Games that challenge your verbal aptitude. These games ask the player to "
 "identify cause and effect, use synonyms or antonyms, and use their "
@@ -177,17 +198,17 @@ msgstr ""
 "určit věci a jevy pomocí synonym nebo antonym a se zapojením jeho slovníku."
 
 #. (itstool) path: info/desc
-#: C/license.page:8
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:8
 msgid "Legal information."
 msgstr "Právní informace."
 
 #. (itstool) path: page/title
-#: C/license.page:11
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:11
 msgid "License"
 msgstr "Licence"
 
 #. (itstool) path: page/p
-#: C/license.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:12
 msgid ""
 "This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
 "Unported license."
@@ -196,42 +217,42 @@ msgstr ""
 "Unported license."
 
 #. (itstool) path: page/p
-#: C/license.page:18
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:18
 msgid "You are free:"
 msgstr "Můžete volně:"
 
 #. (itstool) path: item/title
-#: C/license.page:23
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:23
 msgid "To share"
 msgstr "Sdílet"
 
 #. (itstool) path: item/p
-#: C/license.page:24
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:24
 msgid "To copy, distribute and transmit the work."
 msgstr "Kopírovat, šířit a rozesílat dílo."
 
 #. (itstool) path: item/title
-#: C/license.page:27
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:27
 msgid "To remix"
 msgstr "Měnit"
 
 #. (itstool) path: item/p
-#: C/license.page:28
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:28
 msgid "To adapt the work."
 msgstr "Přizpůsobovat dílo."
 
 #. (itstool) path: page/p
-#: C/license.page:31
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:31
 msgid "Under the following conditions:"
 msgstr "Za následujících podmínek:"
 
 #. (itstool) path: item/title
-#: C/license.page:36
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:36
 msgid "Attribution"
 msgstr "Označení"
 
 #. (itstool) path: item/p
-#: C/license.page:37
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:37
 msgid ""
 "You must attribute the work in the manner specified by the author or "
 "licensor (but not in any way that suggests that they endorse you or your use "
@@ -241,12 +262,12 @@ msgstr ""
 "způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
 
 #. (itstool) path: item/title
-#: C/license.page:44
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:44
 msgid "Share Alike"
 msgstr "Sdílení stejně"
 
 #. (itstool) path: item/p
-#: C/license.page:45
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:45
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
@@ -255,7 +276,7 @@ msgstr ""
 "této práce šířit pouze pod stejnou, podobnou nebo kompatibilní licencí."
 
 #. (itstool) path: page/p
-#: C/license.page:51
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/license.page:51
 msgid ""
 "For the full text of the license, see the <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
@@ -268,28 +289,28 @@ msgstr ""
 "\">výtah dokumentu pro neprávníky</link>."
 
 #. (itstool) path: info/title
-#: C/pause.page:6
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:6
 msgctxt "sort"
 msgid "4"
 msgstr "4"
 
 #. (itstool) path: info/desc
-#: C/pause.page:9
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:9
 msgid "How to pause or end a game."
 msgstr "Jak pozastavit nebo skončit hru."
 
 #. (itstool) path: page/title
-#: C/pause.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:20
 msgid "Pause/End a game"
 msgstr "Pozastavení/skončení hry"
 
 #. (itstool) path: section/title
-#: C/pause.page:23
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:23
 msgid "Pause and resume a game"
 msgstr "Jak pozastavit a znovu rozjet hru"
 
 #. (itstool) path: section/p
-#: C/pause.page:24
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:24
 msgid ""
 "To pause a game so that you can resume it at the same point at a later time, "
 "perform one of the following:"
@@ -298,7 +319,8 @@ msgstr ""
 "pokračovat, proveďte následující:"
 
 #. (itstool) path: item/p
-#: C/pause.page:30 C/pause.page:45
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:30
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:45
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Pause "
 "Game</gui></guiseq>."
@@ -307,14 +329,14 @@ msgstr ""
 "\">Pozastavit hru</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/pause.page:35
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:35
 msgid "Click on the <gui style=\"button\">Pause</gui> button in the toolbar."
 msgstr ""
 "Klikněte na panelu nástrojů na tlačítko <gui style=\"button\">Přestávka</"
 "gui>."
 
 #. (itstool) path: section/p
-#: C/pause.page:40
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:40
 msgid ""
 "In order to resume the game after you paused it, perform one of the "
 "following:"
@@ -322,24 +344,24 @@ msgstr ""
 "Když chcete v pozastavené hře dále řádně pokračovat, proveďte následující:"
 
 #. (itstool) path: item/p
-#: C/pause.page:50
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:50
 msgid "Click on the <gui style=\"button\">Resume</gui> button in the toolbar."
 msgstr ""
 "Klikněte na panelu nástrojů na tlačítko <gui style=\"button\">Pokračovat</"
 "gui>."
 
 #. (itstool) path: section/title
-#: C/pause.page:58
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:58
 msgid "End a game"
 msgstr "Jak skončit hru"
 
 #. (itstool) path: section/p
-#: C/pause.page:59
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:59
 msgid "To end a game, perform one of the following:"
 msgstr "Když chcete ukončit hru, udělejte jednu z následujících věcí:"
 
 #. (itstool) path: item/p
-#: C/pause.page:64
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:64
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">End "
 "Game</gui></guiseq>."
@@ -348,23 +370,23 @@ msgstr ""
 "hru</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/pause.page:69
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/pause.page:69
 msgid "Click on the <gui style=\"button\">End</gui> button in the toolbar."
 msgstr ""
 "Klikněte na liště nástrojů na tlačítko <gui style=\"button\">Skončit</gui>."
 
 #. (itstool) path: info/desc
-#: C/tips.page:8
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:8
 msgid "Use the tips to solve a puzzle."
 msgstr "Jak použít pomůcky k řešení hlavolamu."
 
 #. (itstool) path: page/title
-#: C/tips.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:20
 msgid "Tips"
 msgstr "Pomůcky"
 
 #. (itstool) path: page/p
-#: C/tips.page:21
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:21
 msgid ""
 "With some of the games you can play, it is possible to get simple tips that "
 "can help you to solve the problem."
@@ -373,7 +395,7 @@ msgstr ""
 "pomůcku, která vám pomůže problém vyřešit."
 
 #. (itstool) path: page/p
-#: C/tips.page:25
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:25
 msgid ""
 "When playing a game, click on the <gui style=\"button\">Tip</gui> button at "
 "the bottom of the window (next to the <gui style=\"input\">Answer</gui> text "
@@ -383,33 +405,34 @@ msgstr ""
 "části okna (vedle textového pole <gui style=\"input\">Odpověď</gui>)."
 
 #. (itstool) path: note/p
-#: C/tips.page:29
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/tips.page:29
 msgid "This feature is not available for some of the games."
 msgstr "Tato funkce není u některých her dostupná."
 
 #. (itstool) path: info/title
-#: C/difficulty.page:6
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:6
 msgctxt "sort"
 msgid "2"
 msgstr "2"
 
 #. (itstool) path: info/desc
-#: C/difficulty.page:8
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:8
 msgid "Change the difficulty level of the games."
 msgstr "Jak změnit náročnost her."
 
 #. (itstool) path: page/title
-#: C/difficulty.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:20
 msgid "Difficulty levels"
 msgstr "Úrovně náročnosti"
 
 #. (itstool) path: page/p
-#: C/difficulty.page:21
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:21
 msgid "To change the difficulty level of the game, proceed as follows:"
 msgstr "Když chcete změnit náročnost hry, postupujte následovně:"
 
 #. (itstool) path: item/p
-#: C/difficulty.page:26 C/times.page:26
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:26
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:26
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem"
 "\">Preferences</gui></guiseq>."
@@ -418,12 +441,12 @@ msgstr ""
 "\">Předvolby</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/difficulty.page:31
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:31
 msgid "In the <gui>Difficulty Level</gui> section, select the desired level."
 msgstr "V části <gui>Náročnost</gui> vyberte požadovanou úroveň."
 
 #. (itstool) path: item/p
-#: C/difficulty.page:34
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/difficulty.page:34
 msgid ""
 "You can choose from three different levels: <gui style=\"radiobutton\">Easy</"
 "gui>, <gui style=\"radiobutton\">Medium</gui>, and <gui style=\"radiobutton"
@@ -436,17 +459,17 @@ msgstr ""
 "\">Střední</gui>."
 
 #. (itstool) path: info/desc
-#: C/history.page:6
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:6
 msgid "Access your personal game history."
 msgstr "Jak si zobrazit historii svých her."
 
 #. (itstool) path: page/title
-#: C/history.page:17
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:17
 msgid "Personal game history"
 msgstr "Osobní historie her"
 
 #. (itstool) path: page/p
-#: C/history.page:19
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:19
 msgid ""
 "The <gui>Player's Game History</gui> dialog shows your performance in every "
 "game type during the last few game sessions."
@@ -455,12 +478,12 @@ msgstr ""
 "jednotlivých typech her během několika posledních herních sezeních."
 
 #. (itstool) path: section/title
-#: C/history.page:25
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:25
 msgid "View the games history"
 msgstr "Jak zobrazit historii her"
 
 #. (itstool) path: section/p
-#: C/history.page:26
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:26
 msgid ""
 "To access your personal game history, choose <guiseq><gui style=\"menu"
 "\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
@@ -470,12 +493,12 @@ msgstr ""
 "gui></guiseq>."
 
 #. (itstool) path: section/title
-#: C/history.page:33
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:33
 msgid "Select which results to show"
 msgstr "Jak vybrat, které výsledky zobrazit"
 
 #. (itstool) path: section/p
-#: C/history.page:34
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:34
 msgid ""
 "To select the results that will be shown in the graphic, use the different "
 "check boxes located under the graph."
@@ -484,12 +507,12 @@ msgstr ""
 "zaškrtávací pole umístěná pod grafem."
 
 #. (itstool) path: section/title
-#: C/history.page:41
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:41
 msgid "Change the number of saved games"
 msgstr "Jak změnit počet uložených her"
 
 #. (itstool) path: section/p
-#: C/history.page:42
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:42
 msgid ""
 "<app>gbrainy</app> saves the player's scores so it can track how they evolve."
 msgstr ""
@@ -497,7 +520,7 @@ msgstr ""
 "sledovat, jak se rozvíjel."
 
 #. (itstool) path: section/p
-#: C/history.page:45
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:45
 msgid ""
 "In order to change the number of sessions recorded or how many games will be "
 "stored in the history, proceed as follows:"
@@ -506,7 +529,7 @@ msgstr ""
 "uchovány v historii, postupujte takto:"
 
 #. (itstool) path: item/p
-#: C/history.page:51
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:51
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem\"> "
 "Preferences</gui></guiseq>."
@@ -515,12 +538,12 @@ msgstr ""
 "Předvolby</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/history.page:57
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:57
 msgid "In the <gui>Player's Game History</gui> section:"
 msgstr "V části <gui>Historie her hráče</gui>:"
 
 #. (itstool) path: item/p
-#: C/history.page:62
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:62
 msgid ""
 "Use the first spin box to change how many game sessions need to be recorded "
 "before you can start to see the results in the history graphic."
@@ -529,7 +552,7 @@ msgstr ""
 "vám výsledky zobrazí v grafu historie."
 
 #. (itstool) path: item/p
-#: C/history.page:68
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/history.page:68
 msgid ""
 "Use the second spin box to change how many game sessions will be shown in "
 "the history graphic."
@@ -538,17 +561,17 @@ msgstr ""
 "zobrazit v grafu historie."
 
 #. (itstool) path: info/desc
-#: C/multiplayer.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/multiplayer.page:7
 msgid "How to play with other people."
 msgstr "Jak hrát s ostatními lidmi."
 
 #. (itstool) path: page/title
-#: C/multiplayer.page:19
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/multiplayer.page:19
 msgid "Play with other people"
 msgstr "Hraní s ostatními lidmi"
 
 #. (itstool) path: page/p
-#: C/multiplayer.page:21
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/multiplayer.page:21
 msgid ""
 "It is not possible to play against other people over the Internet or a local "
 "network with <app>gbrainy</app>."
@@ -557,23 +580,23 @@ msgstr ""
 "Internet nebo místní síť."
 
 #. (itstool) path: info/desc
-#: C/score.page:8
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:8
 msgid "How the player scores are calculated."
 msgstr "Jak se počítá hodnocení hráče."
 
 #. (itstool) path: page/title
-#: C/score.page:19
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:19
 msgid "Game score and timings"
 msgstr "Hodnocení hry a měření času"
 
 #. (itstool) path: page/p
-#: C/score.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:20
 msgid "If you answer a puzzle incorrectly, you will not get any score for it."
 msgstr ""
 "Pokud jste hlavolam nevyřešili správně, nedostanete za něj žádné hodnocení."
 
 #. (itstool) path: page/p
-#: C/score.page:23
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:23
 msgid ""
 "If you answer a puzzle correctly, you will get a score which depends on the "
 "time taken to resolve the problem and whether you used the tip during the "
@@ -584,7 +607,7 @@ msgstr ""
 "použít pomůcku."
 
 #. (itstool) path: page/p
-#: C/score.page:27
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:27
 msgid ""
 "The following table summarizes the different game durations (in seconds) "
 "based on the difficulty level."
@@ -593,72 +616,75 @@ msgstr ""
 "sekundách) pro jednotlivé náročnosti."
 
 #. (itstool) path: td/p
-#: C/score.page:34
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:34
 msgid "Easy"
 msgstr "Lehká"
 
 #. (itstool) path: td/p
-#: C/score.page:35
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:35
 msgid "Medium"
 msgstr "Střední"
 
 #. (itstool) path: td/p
-#: C/score.page:36
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:36
 msgid "Master"
 msgstr "Těžká"
 
 #. (itstool) path: td/p
-#: C/score.page:40
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:40
 msgid "156"
 msgstr "156"
 
 #. (itstool) path: td/p
-#: C/score.page:41
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:41
 msgid "120"
 msgstr "120"
 
 #. (itstool) path: td/p
-#: C/score.page:42
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:42
 msgid "110"
 msgstr "110"
 
 #. (itstool) path: td/p
-#: C/score.page:45
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:45
 msgid "Mental calculation"
 msgstr "Výpočty z hlavy"
 
 #. (itstool) path: td/p
-#: C/score.page:46
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:46
 msgid "78"
 msgstr "78"
 
 #. (itstool) path: td/p
-#: C/score.page:47
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:47
 msgid "60"
 msgstr "60"
 
 #. (itstool) path: td/p
-#: C/score.page:48
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:48
 msgid "55"
 msgstr "55"
 
 #. (itstool) path: td/p
-#: C/score.page:52 C/score.page:58
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:52
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:58
 msgid "39"
 msgstr "39"
 
 #. (itstool) path: td/p
-#: C/score.page:53 C/score.page:59
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:53
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:59
 msgid "30"
 msgstr "30"
 
 #. (itstool) path: td/p
-#: C/score.page:54 C/score.page:60
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:54
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:60
 msgid "27"
 msgstr "27"
 
 #. (itstool) path: page/p
-#: C/score.page:63
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:63
 msgid ""
 "With the expected time for the chosen difficulty level and the time you take "
 "to complete the game, the following logic is applied:"
@@ -667,7 +693,7 @@ msgstr ""
 "skutečnosti potřeboval k vyřešení, se použije následující logika:"
 
 #. (itstool) path: item/p
-#: C/score.page:69
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:69
 msgid ""
 "If you take less than the time expected to complete the game, you score 10 "
 "points."
@@ -676,7 +702,7 @@ msgstr ""
 "hodnocení 10 bodů."
 
 #. (itstool) path: item/p
-#: C/score.page:74
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:74
 msgid ""
 "If you take more than the time expected to complete the game, you score 8 "
 "points."
@@ -685,7 +711,7 @@ msgstr ""
 "hodnocení 8."
 
 #. (itstool) path: item/p
-#: C/score.page:79
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:79
 msgid ""
 "If you take more than 2x the time expected to complete the game, you score 7 "
 "points."
@@ -694,7 +720,7 @@ msgstr ""
 "hodnocení 7 bodů."
 
 #. (itstool) path: item/p
-#: C/score.page:85
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:85
 msgid ""
 "If you take more than 3x the time expected to complete the game, you score 6 "
 "points."
@@ -703,19 +729,19 @@ msgstr ""
 "hodnocení 6 bodů."
 
 #. (itstool) path: item/p
-#: C/score.page:91
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:91
 msgid "If you use a tip, you score only the 80% of the original score."
 msgstr ""
 "Pokud jste použili pomůcku, bude vaše hodnocení pouze 80 % původního "
 "hodnocení."
 
 #. (itstool) path: section/title
-#: C/score.page:98
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:98
 msgid "Computing the totals"
 msgstr "Výpočet celkového hodnocení"
 
 #. (itstool) path: section/p
-#: C/score.page:99
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:99
 msgid ""
 "<app>gbrainy</app> keeps track of the different games types played. To "
 "compute the final score of every set of game types it sums all the results "
@@ -730,7 +756,7 @@ msgstr ""
 "náročnost."
 
 #. (itstool) path: section/p
-#: C/score.page:106
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:106
 msgid ""
 "This means that when playing at medium difficulty level, to get a score of "
 "100 points you need to score 10 points on at least 20 games of every game "
@@ -741,7 +767,7 @@ msgstr ""
 "hry."
 
 #. (itstool) path: section/p
-#: C/score.page:110
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/score.page:110
 msgid ""
 "This may sound challenging, but it allows players to compare game scores "
 "from different sessions (in the player's game history) and allows better "
@@ -752,17 +778,17 @@ msgstr ""
 "zlepšování hráče během všech her, co odehrál."
 
 #. (itstool) path: info/desc
-#: C/gameplay.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:7
 msgid "Introduction to <app>gbrainy</app>."
 msgstr "Úvod do aplikace <app>gbrainy</app>."
 
 #. (itstool) path: page/title
-#: C/gameplay.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:20
 msgid "Gameplay"
 msgstr "Hraní her"
 
 #. (itstool) path: page/p
-#: C/gameplay.page:22
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:22
 msgid ""
 "<app>gbrainy</app> is a brain teaser game; the aim of the game is to have "
 "fun and keep your brain trained."
@@ -771,7 +797,7 @@ msgstr ""
 "vám zábavu a přitom udržovat váš mozek v kondici."
 
 #. (itstool) path: page/p
-#: C/gameplay.page:26
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:26
 msgid ""
 "It features different game types like logic puzzles, mental calculation "
 "games, memory trainers and verbal analogies, designed to test different "
@@ -782,23 +808,22 @@ msgstr ""
 "znalostní schopnosti."
 
 #. (itstool) path: page/p
-#: C/gameplay.page:30
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:30
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Můžete si vybrat různou náročnost, což dělá aplikaci <app>gbrainy</app> "
 "zábavnou pro děti, dospělé i seniory. Obsahuje také historii her, osobní "
 "záznamy hráče, pomůcky pro hráče a podporu režimu celé obrazovky. Aplikaci "
-"<app>gbrainy</app> lze také jednoduše <link href=\"https://wiki.gnome.org/"
-"gbrainy/Extending\">rozšiřovat</link> o nové hry vyvinuté třetími "
-"stranami."
+"<app>gbrainy</app> lze také jednoduše <link href=\"https://wiki.gnome.org/Apps"
+"/gbrainy/Extending\">rozšiřovat</link> o nové hry vyvinuté třetími stranami."
 
 #. (itstool) path: page/p
-#: C/gameplay.page:37
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:37
 msgid ""
 "<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
 "ranging from classic puzzles from ancient times to more recent works like "
@@ -813,7 +838,7 @@ msgstr ""
 "wikipedia.org/wiki/Dr._Brain\">Dr. Brain</link>."
 
 #. (itstool) path: note/p
-#: C/gameplay.page:45
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/gameplay.page:45
 msgid ""
 "There have been recent discussions in the scientific community regarding "
 "whether brain training software improves cognitive performance. Most of the "
@@ -826,70 +851,71 @@ msgstr ""
 "jako je <app>gbrany</app> strávit příjemně čas."
 
 #. (itstool) path: info/title
-#: C/index.page:8 C/index.page:12
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:8
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:12
 msgctxt "link"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/title
-#: C/index.page:9
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:9
 msgctxt "text"
 msgid "gbrainy"
 msgstr "gbrainy"
 
 #. (itstool) path: info/desc
-#: C/index.page:13
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:13
 msgid "The <app>gbrainy</app> help."
 msgstr "Nápověda aplikace <app>gbrainy</app>."
 
 #. (itstool) path: page/title
-#: C/index.page:23
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:23
 msgid "<_:media-1/> gbrainy"
 msgstr "<_:media-1/> gbrainy"
 
 #. (itstool) path: section/title
-#: C/index.page:29
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:29
 msgid "Basic Gameplay &amp; Usage"
 msgstr "Základy hraní a používání"
 
 #. (itstool) path: section/title
-#: C/index.page:33
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:33
 msgid "Multiplayer Game"
 msgstr "Hra pro více hráčů"
 
 #. (itstool) path: section/title
-#: C/index.page:37
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/index.page:37
 msgid "Tips &amp; Tricks"
 msgstr "Tipy a triky"
 
 #. (itstool) path: info/title
-#: C/newgame.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:7
 msgctxt "sort"
 msgid "1"
 msgstr "1"
 
 #. (itstool) path: info/desc
-#: C/newgame.page:10
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:10
 msgid "Start and play a game."
 msgstr "Jak spustit a hrát hru."
 
 #. (itstool) path: page/title
-#: C/newgame.page:22
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:22
 msgid "Game session"
 msgstr "Herní sezení"
 
 #. (itstool) path: section/title
-#: C/newgame.page:25
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:25
 msgid "Start a new session"
 msgstr "Jak spustit nové sezení"
 
 #. (itstool) path: section/p
-#: C/newgame.page:26
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:26
 msgid "To start a new game, do one of the following:"
 msgstr "Když chcete spustit novou hru, udělejte jednu z následujících věcí:"
 
 #. (itstool) path: item/p
-#: C/newgame.page:31
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:31
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
 "Game</gui></guiseq>, and select the type of game to play."
@@ -898,68 +924,68 @@ msgstr ""
 "hra</gui></guiseq> a vyberte typ hry, který chcete hrát."
 
 #. (itstool) path: item/p
-#: C/newgame.page:37
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:37
 msgid "Click on one of the buttons in the toolbar."
 msgstr "Klikněte na jedno z tlačítek na panelu nástrojů."
 
 #. (itstool) path: section/p
-#: C/newgame.page:42
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:42
 msgid "The toolbar buttons have the following meanings:"
 msgstr "Jednotlivá tlačítka na panelu nástrojů mají následující význam:"
 
 #. (itstool) path: item/title
-#: C/newgame.page:50
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:50
 msgid "All"
 msgstr "Všechny"
 
 #. (itstool) path: item/p
-#: C/newgame.page:51
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:51
 msgid "Starts a new game playing all the available game types."
 msgstr "Spustí novou hru, ve které budete hrát všechny dostupné typy her."
 
 #. (itstool) path: item/title
-#: C/newgame.page:69
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:69
 msgid "Logic"
 msgstr "Logické"
 
 #. (itstool) path: item/p
-#: C/newgame.page:70
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:70
 msgid "Start a new game playing only logic games."
 msgstr "Spustí novou hru, ve které budete hrát pouze logické hry."
 
 #. (itstool) path: item/title
-#: C/newgame.page:88
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:88
 msgid "Calculation"
 msgstr "Početní"
 
 #. (itstool) path: item/p
-#: C/newgame.page:89
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:89
 msgid "Starts a new game playing only calculation games."
 msgstr "Spustí novou hru, ve které budete hrát pouze početní hry."
 
 #. (itstool) path: item/title
-#: C/newgame.page:107
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:107
 msgid "Memory"
 msgstr "Paměťové"
 
 #. (itstool) path: item/p
-#: C/newgame.page:108
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:108
 msgid "Starts a new game playing only memory games."
 msgstr "Spustí novou hru, ve které budete hrát pouze paměťové hry."
 
 #. (itstool) path: item/title
-#: C/newgame.page:126
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:126
 msgid "Verbal"
 msgstr "Slovní"
 
 #. (itstool) path: item/p
-#: C/newgame.page:127
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:127
 msgid "Starts a new game playing only verbal analogy games."
 msgstr ""
 "Spustí novou hru, ve které budete hrát pouze hry se slovními analogiemi."
 
 #. (itstool) path: note/p
-#: C/newgame.page:143
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:143
 msgid ""
 "These descriptions also apply to the game types that you can select from the "
 "<gui style=\"menu\">Game</gui> menu."
@@ -968,17 +994,17 @@ msgstr ""
 "style=\"menu\">Hra</gui>."
 
 #. (itstool) path: section/title
-#: C/newgame.page:150
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:150
 msgid "Play a session"
 msgstr "Jak hrát sezení"
 
 #. (itstool) path: note/p
-#: C/newgame.page:152
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:152
 msgid "When you play a game, always read the instructions carefully!"
 msgstr "Když hrajete hru, vždy si pozorně přečtěte instrukce!"
 
 #. (itstool) path: section/p
-#: C/newgame.page:156
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:156
 msgid ""
 "The game session begins by showing you the problem and then asking for the "
 "answer. At the bottom of the window is the main set of controls that you can "
@@ -988,7 +1014,7 @@ msgstr ""
 "okna jsou hlavní ovládací prvky, které muže použít ke komunikaci s hrou."
 
 #. (itstool) path: section/p
-#: C/newgame.page:160
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:160
 msgid ""
 "Once you know the answer to the problem, type it in the <gui style=\"input"
 "\">Answer</gui> text entry and press <gui style=\"button\">OK</gui>."
@@ -997,13 +1023,13 @@ msgstr ""
 "\"input\">Odpověď</gui> a stiskněte <gui style=\"button\">OK</gui>."
 
 #. (itstool) path: section/p
-#: C/newgame.page:164
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:164
 msgid "To proceed to the next game, click <gui style=\"button\">Next</gui>."
 msgstr ""
 "Pro pokračování s další hrou klikněte na <gui style=\"button\">Další</gui>."
 
 #. (itstool) path: note/p
-#: C/newgame.page:168
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/newgame.page:168
 msgid ""
 "If you click <gui style=\"button\">Next</gui> before completing the game, or "
 "without providing an answer, that game will be counted in your results."
@@ -1012,17 +1038,17 @@ msgstr ""
 "bez poskytnutí odpovědi, bude hra započítána do výsledků."
 
 #. (itstool) path: info/desc
-#: C/times.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:7
 msgid "Change the challenge presentation time in memory games."
 msgstr "Jak změnit dobu zobrazení úkolu v paměťových hrách."
 
 #. (itstool) path: page/title
-#: C/times.page:19
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:19
 msgid "Change the challenge duration"
 msgstr "Změna doby zobrazení úkolu"
 
 #. (itstool) path: page/p
-#: C/times.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:20
 msgid ""
 "To change the number of seconds you are given to memorize the challenge when "
 "playing memory games, proceed as follows:"
@@ -1031,7 +1057,7 @@ msgstr ""
 "když hrajete paměťové hry, postupujte následovně:"
 
 #. (itstool) path: item/p
-#: C/times.page:31
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:31
 msgid ""
 "In the <gui>Memory Games</gui> section, use the spin box to increase or "
 "decrease the number of seconds that the challenge will be visible for."
@@ -1040,22 +1066,22 @@ msgstr ""
 "počtu sekund, po které je úkol zobrazen."
 
 #. (itstool) path: item/p
-#: C/times.page:35
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/times.page:35
 msgid "The default value is 6 seconds."
 msgstr "Výchozí hodnota je 6 sekund."
 
 #. (itstool) path: info/desc
-#: C/export.page:7
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:7
 msgid "Export the games for playing off-line."
 msgstr "Jak exportovat hry pro hraní bez počítače."
 
 #. (itstool) path: page/title
-#: C/export.page:20
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:20
 msgid "Export the games"
 msgstr "Export her"
 
 #. (itstool) path: page/p
-#: C/export.page:21
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:21
 msgid ""
 "It is possible to export and then print the games provided by the app for "
 "playing while not at the computer."
@@ -1064,18 +1090,18 @@ msgstr ""
 "je mohli hrát, i když nejste u počítače."
 
 #. (itstool) path: page/p
-#: C/export.page:25
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:25
 msgid ""
 "The games will be saved in a <file>PDF</file> file in the selected folder."
 msgstr "Hry budou uloženy v souboru <file>PDF</file> ve vybrané složce."
 
 #. (itstool) path: page/p
-#: C/export.page:28
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:28
 msgid "To export the games:"
 msgstr "Pokud chcete hru vyexportovat:"
 
 #. (itstool) path: item/p
-#: C/export.page:33
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:33
 msgid ""
 "Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Export "
 "Games to PDF for Off-Line Playing</gui></guiseq>."
@@ -1084,7 +1110,7 @@ msgstr ""
 "her do PDF na hraní off-line</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/export.page:38
+#: /var/www/gnomeweb/scratchdir/git/gbrainy/help/C/export.page:38
 msgid ""
 "Select the type of games, the difficulty level, and how many games to "
 "export. When done click <gui style=\"button\">Save</gui>."
