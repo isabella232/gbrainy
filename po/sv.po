@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the gbrainy package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018.
-# Josef Andersson <josef.andersson@fripost.org>, 2015, 2017.
+# Josef Andersson <josef.andersson@fripost.org>, 2015, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-01-21 08:31+0000\n"
-"PO-Revision-Date: 2018-01-28 23:16+0100\n"
+"POT-Creation-Date: 2018-03-10 06:30+0000\n"
+"PO-Revision-Date: 2018-03-11 19:39+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -705,7 +705,7 @@ msgid "Notebook"
 msgstr "Anteckningsbok"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -3326,19 +3326,44 @@ msgid_plural "The possible correct answers are {0}."
 msgstr[0] "Det rätta svaret är {0}."
 msgstr[1] "De möjliga rätta svaren är {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Tilläggsdatabas:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} registrerade spel: {1} logiska pussel, {2} beräkningstränare, {3} "
-"minnestränare, {4} verbala analogier"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} spel registrerat:"
+msgstr[1] "{0} spel registrerade:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} logiskt pussel"
+msgstr[1] "{0} logiska pussel"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} huvudräkningsträning"
+msgstr[1] "{0} huvudräkningsträningar"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} minnesträning"
+msgstr[1] "{0} minnesträningar"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} verbal analogi"
+msgstr[1] "{0} verbala analogier"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -6167,6 +6192,13 @@ msgstr[1] ""
 "behöver dubbelt så lång tid som Johan. Hur många timmar skulle det ta för "
 "dem att städa butiken om de arbetade tillsammans? [option_answers]"
 
+#~ msgid ""
+#~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
+#~ "memory trainers, {4} verbal analogies"
+#~ msgstr ""
+#~ "{0} registrerade spel: {1} logiska pussel, {2} beräkningstränare, {3} "
+#~ "minnestränare, {4} verbala analogier"
+
 #~ msgid "coins"
 #~ msgstr "mynt"
 
@@ -6181,9 +6213,6 @@ msgstr[1] ""
 
 #~ msgid "Memorize figures"
 #~ msgstr "Memorera figurer"
-
-#~ msgid "Mental Calculation Trainers Only"
-#~ msgstr "Endast träning av huvudräkning"
 
 #~ msgid "{0}) "
 #~ msgstr "{0}) "
@@ -6373,9 +6402,6 @@ msgstr[1] ""
 
 #~ msgid "John's father's sister's sister-in-law is also?"
 #~ msgstr "Johans faders systers svägerska är även?"
-
-#~ msgid "Verbal analogies"
-#~ msgstr "Verbala analogier"
 
 #~ msgid "Read {0} verbal analogies of type {1}"
 #~ msgstr "Läs {0} verbala analogier av typen {1}"
