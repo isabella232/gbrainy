@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the grainy package.
 # Jonh Wendell <wendell@bani.com.br>, 2009.
 # Djavan Fagundes <djavan@comum.org>, 2010.
-# Flamarion Jorge <jorge.flamarion@gmail.com>, 2009, 2010, 2011.
+# Flamarion Jorge <jorge.flamarion@gmail.com>, 2009-2011.
 # Gabriel Speckhahn <gabspeck@gmail.com>, 2011, 2012.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016, 2018.
 # Enrico Nicoletto <liverig@gmail.com>, 2009, 2010, 2013, 2015, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: grainy 1.50\n"
+"Project-Id-Version: grainy master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
 "y&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-01-21 08:31+0000\n"
-"PO-Revision-Date: 2018-01-27 15:34-0200\n"
+"POT-Creation-Date: 2018-03-10 06:30+0000\n"
+"PO-Revision-Date: 2018-03-11 02:25-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -712,7 +712,7 @@ msgid "Notebook"
 msgstr "Caderno"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -3357,19 +3357,46 @@ msgid_plural "The possible correct answers are {0}."
 msgstr[0] "A resposta correta é {0}."
 msgstr[1] "As possíveis respostas corretas são {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Banco de dados de extensões:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} jogos registrados: {1} quebra-cabeças lógicos, {2} treinamentos de "
-"cálculos, {3} treinamentos de memória, {4} analogias verbais"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} jogo registrado:"
+msgstr[1] "{0} jogos registrados:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} quebra-cabeça lógico"
+msgstr[1] "{0} quebra-cabeças lógicos"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} treinamento de cálculo"
+msgstr[1] "{0} treinamentos de cálculo"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+#| msgid "Memory Trainers Only"
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} treinamento de memória"
+msgstr[1] "{0} treinamentos de memória"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+#| msgid "Verbal Analogies Only"
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} analogia verbal"
+msgstr[1] "{0} analogias verbais"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -6223,6 +6250,13 @@ msgstr[1] ""
 "John precisa de [john_time] horas para limpar um armazém e seu amigo precisa "
 "de duas vezes o tempo de John. Quantas horas eles levariam para limpar o "
 "armazém se trabalhassem juntos? [option_answers]"
+
+#~ msgid ""
+#~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
+#~ "memory trainers, {4} verbal analogies"
+#~ msgstr ""
+#~ "{0} jogos registrados: {1} quebra-cabeças lógicos, {2} treinamentos de "
+#~ "cálculos, {3} treinamentos de memória, {4} analogias verbais"
 
 #~ msgid "coins"
 #~ msgstr "moedas"
