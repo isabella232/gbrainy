@@ -595,19 +595,19 @@
 		<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
 
 		<option x = "0.3" y = "0.3" width ="0.45" height ="0.1" order ="randomized" correct = "yes">
-			<string _text = "[option_prefix] [answer_a]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_a]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.4" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.5" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<rationale>John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / [friend]. Together they will need [answer_a] hour.</rationale>
@@ -639,19 +639,19 @@
 		<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
 
 		<option x = "0.3" y = "0.3" width ="0.45" height ="0.1" order ="randomized" correct = "yes">
-			<string _text = "[option_prefix] [answer_a]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_a]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.4" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.5" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 
 		<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
-			<string _text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
+			<string text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
 		</option>
 		<_rationale>The heavier truck weights [heavier] and the lighter [lighter].</_rationale>
 		<answer>[answer_a]</answer>
@@ -739,19 +739,19 @@
 			<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
 
 			<option x = "0.3" y = "0.3" width ="0.45" height ="0.1" order ="randomized" correct = "yes">
-				<string _text = "[option_prefix] [answer_a]"  x = "0.05"  y = "0.02" size = "large"/>
+				<string text = "[option_prefix] [answer_a]"  x = "0.05"  y = "0.02" size = "large"/>
 			</option>
 
 			<option x = "0.3" y = "0.4" width ="0.45" height ="0.1" order ="randomized">
-				<string _text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
+				<string text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
 			</option>
 
 			<option x = "0.3" y = "0.5" width ="0.45" height ="0.1" order ="randomized">
-				<string _text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
+				<string text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
 			</option>
 
 			<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
-				<string _text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
+				<string text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
 			</option>
 
 			<_rationale>It is the result of the operation: ([three] * 3) - ([two] * 2).</_rationale>
