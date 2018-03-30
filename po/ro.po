@@ -10,10 +10,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
-"y&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-01-21 08:31+0000\n"
-"PO-Revision-Date: 2018-02-21 08:15+0200\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/"
+"enter_bug.cgi?product=gbrainy&keywords=I18N+L10N&component=gbrainy "
+"application\n"
+"POT-Creation-Date: 2018-03-12 19:53+0000\n"
+"PO-Revision-Date: 2018-03-30 12:51+0200\n"
 "Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
@@ -515,26 +516,10 @@ msgid "Warehouse"
 msgstr "Depozit"
 
 #: ../data/games.xml.h:92
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:93
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:95
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:96
 msgid "Two trucks"
 msgstr "Două camioane"
 
-#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:79
+#: ../data/games.xml.h:93 ../tools/GameXmlGetString.cs:79
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -559,15 +544,15 @@ msgstr[2] ""
 "greutatea totală a camionului mai greu, care este greutatea camionului mai "
 "ușor? [option_answers]"
 
-#: ../data/games.xml.h:98
+#: ../data/games.xml.h:94
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
 msgstr "Camionul mai greu cântărește [heavier] și cel mai ușor [lighter]."
 
-#: ../data/games.xml.h:99
+#: ../data/games.xml.h:95
 msgid "Family relations"
 msgstr "Relații familiale"
 
-#: ../data/games.xml.h:100
+#: ../data/games.xml.h:96
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
@@ -575,33 +560,33 @@ msgstr ""
 "Cumnata sorei tatălui lui John este de asemenea și ...? Nu presupuneți că "
 "John are orice altă rudă decât cele menționate. [option_answers]"
 
-#: ../data/games.xml.h:101
+#: ../data/games.xml.h:97
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Mama sa"
 
-#: ../data/games.xml.h:102
+#: ../data/games.xml.h:98
 msgid "[option_prefix] Has no relation"
 msgstr "[option_prefix] Nu are nicio relație"
 
-#: ../data/games.xml.h:103
+#: ../data/games.xml.h:99
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Vărul său"
 
-#: ../data/games.xml.h:104
+#: ../data/games.xml.h:100
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Ginerele său"
 
-#: ../data/games.xml.h:105
+#: ../data/games.xml.h:101
 msgid "His mother"
 msgstr "Mama lui"
 
-#: ../data/games.xml.h:106
+#: ../data/games.xml.h:102
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr "Cumnata sorei este soția tatălui lui Ion, adică mama lui Ion."
 
-#: ../data/games.xml.h:107
+#: ../data/games.xml.h:103
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
@@ -609,30 +594,30 @@ msgstr ""
 "Cumnatul fratelui mamei lui John este de asemenea și ...? Nu presupuneți că "
 "John are orice altă rudă decât cele menționate. [option_answers]"
 
-#: ../data/games.xml.h:108
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His father"
 msgstr "[option_prefix] Tatăl său"
 
-#: ../data/games.xml.h:109
+#: ../data/games.xml.h:105
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Vărul său"
 
-#: ../data/games.xml.h:110
+#: ../data/games.xml.h:106
 msgid "His father"
 msgstr "Tatăl lui"
 
-#: ../data/games.xml.h:111
+#: ../data/games.xml.h:107
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
 msgstr "Cumnatul fratelui este soțul mamei lui Ion, adică tatăl lui Ion."
 
-#: ../data/games.xml.h:112
+#: ../data/games.xml.h:108
 msgid "Third number"
 msgstr "Al treilea număr"
 
-#: ../data/games.xml.h:113
+#: ../data/games.xml.h:109
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
@@ -640,15 +625,15 @@ msgstr ""
 "Media celor trei numere este [three]. Media a două dintre aceste numere este "
 "[two]. Cât este al treilea număr? [option_answers]"
 
-#: ../data/games.xml.h:114
+#: ../data/games.xml.h:110
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Este rezultatul operației: ([three] * 3) - ([two] * 2)."
 
-#: ../data/games.xml.h:115
+#: ../data/games.xml.h:111
 msgid "Birthday"
 msgstr "Zi de naștere"
 
-#: ../data/games.xml.h:116
+#: ../data/games.xml.h:112
 msgid ""
 "A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
 "years old. Can this be true? [option_answers]"
@@ -656,22 +641,19 @@ msgstr ""
 "O fată a spus: acum 2 zile aveam 18 ani. Anul următor voi avea 21 de ani. "
 "Poate fi afirmația adevărată? [option_answers]"
 
-#: ../data/games.xml.h:117
+#: ../data/games.xml.h:113
 msgid "[option_prefix] Yes"
 msgstr "[option_prefix] Da"
 
-#: ../data/games.xml.h:118
+#: ../data/games.xml.h:114
 msgid "[option_prefix] No"
 msgstr "[option_prefix] Nu"
 
-#: ../data/games.xml.h:119
+#: ../data/games.xml.h:115
 msgid "She was born 31st of December and she said this on 1st of January."
 msgstr "Ea a fost născută pe 31 Decembrie și a spus aste pe 1 Ianuarie."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
-#| msgid ""
-#| "gbrainy is a game to train memory, arithmetical and logical capabilities "
-#| "with many sorts of exercises of different difficulty levels."
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels"
@@ -1673,7 +1655,6 @@ msgid "Rhombus"
 msgstr "Romb"
 
 #: ../data/verbal_analogies.xml.h:252
-#| msgid "It is the only one that does not have roots."
 msgid "Triangle is the only one that does not have four sides."
 msgstr "Triunghiul este singurul care nu are patru laturi."
 
@@ -2595,10 +2576,6 @@ msgstr ""
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with this program; if not, write to the Free Software Foundation, Inc., "
-#| "59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, see <http://www.gnu.org/licenses/>."
@@ -3386,19 +3363,51 @@ msgstr[0] "Răspunsul corect este {0}."
 msgstr[1] "Posibilele răspunsuri corecte sunt {0}."
 msgstr[2] "Posibilele răspunsuri corecte sunt {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Baza de date a extensiilor:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"{0} jocuri înregistrate: {1} puzzle-uri logice, {2} jocuri de calculat, {3} "
-"jocuri de memorie, {4} analogii verbale"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} joc înregistrat:"
+msgstr[1] "{0} jocuri înregistrate:"
+msgstr[2] "{0} de jocuri înregistrate:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} puzzle logic"
+msgstr[1] "{0} puzzle-uri logice"
+msgstr[2] "{0} de puzzle-uri logice"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} joc de calcule"
+msgstr[1] "{0} jocuri de calcule"
+msgstr[2] "{0} de jocuri de calcule"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+#| msgid "Memory Trainers Only"
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} joc de memorie"
+msgstr[1] "{0} jocuri de memorie"
+msgstr[2] "{0} de jocuri de memorie"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+#| msgid "Verbal Analogies Only"
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} analogie verbală"
+msgstr[1] "{0} analogii verbale"
+msgstr[2] "{0} de analogii verbale"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -6368,6 +6377,25 @@ msgstr[2] ""
 "John are nevoie de [john_time] de ore pentru a curăța un depozit și "
 "prietenul său are nevoie de dublu față de atâtea. Cât de multe ore le-ar lua "
 "pentru a curăța depozitul dacă aceștia au lucrat împreună? [option_answers]"
+
+#~ msgid "[option_prefix] [answer_a]"
+#~ msgstr "[option_prefix] [answer_a]"
+
+#~ msgid "[option_prefix] [answer_b]"
+#~ msgstr "[option_prefix] [answer_b]"
+
+#~ msgid "[option_prefix] [answer_c]"
+#~ msgstr "[option_prefix] [answer_c]"
+
+#~ msgid "[option_prefix] [answer_d]"
+#~ msgstr "[option_prefix] [answer_d]"
+
+#~ msgid ""
+#~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
+#~ "memory trainers, {4} verbal analogies"
+#~ msgstr ""
+#~ "{0} jocuri înregistrate: {1} puzzle-uri logice, {2} jocuri de calculat, "
+#~ "{3} jocuri de memorie, {4} analogii verbale"
 
 #~ msgid "coins"
 #~ msgstr "monede"
