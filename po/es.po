@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-01-21 08:31+0000\n"
-"PO-Revision-Date: 2018-01-29 08:29+0100\n"
+"POT-Creation-Date: 2018-03-12 19:53+0000\n"
+"PO-Revision-Date: 2018-04-03 11:22+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
 "Language: es\n"
@@ -510,26 +510,10 @@ msgid "Warehouse"
 msgstr "Almacén"
 
 #: ../data/games.xml.h:92
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:93
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:95
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:96
 msgid "Two trucks"
 msgstr "Dos camiones"
 
-#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:79
+#: ../data/games.xml.h:93 ../tools/GameXmlGetString.cs:79
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -547,15 +531,15 @@ msgstr[1] ""
 "ligero pesa 15 unidades menos que la mitad del peso del camión más pesado, "
 "¿cuánto pesa el camión más ligero? [option_answers]"
 
-#: ../data/games.xml.h:98
+#: ../data/games.xml.h:94
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
 msgstr "El camión más pesado pesa [heavier] y el más ligero pesa [lighter]."
 
-#: ../data/games.xml.h:99
+#: ../data/games.xml.h:95
 msgid "Family relations"
 msgstr "Relaciones familiares"
 
-#: ../data/games.xml.h:100
+#: ../data/games.xml.h:96
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
@@ -563,34 +547,34 @@ msgstr ""
 "¿La cuñada de la hermana del padre de Juan también es? No asumas que Juan "
 "tiene algún pariente que no se ha mencionado. [option_answers]"
 
-#: ../data/games.xml.h:101
+#: ../data/games.xml.h:97
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Su madre"
 
-#: ../data/games.xml.h:102
+#: ../data/games.xml.h:98
 msgid "[option_prefix] Has no relation"
 msgstr "[option_prefix] No tiene relación"
 
-#: ../data/games.xml.h:103
+#: ../data/games.xml.h:99
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Su primo"
 
-#: ../data/games.xml.h:104
+#: ../data/games.xml.h:100
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Su yerno"
 
-#: ../data/games.xml.h:105
+#: ../data/games.xml.h:101
 msgid "His mother"
 msgstr "Su madre"
 
-#: ../data/games.xml.h:106
+#: ../data/games.xml.h:102
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr ""
 "La cuñada de la hermana es la mujer del padre de Juan, es decir, su madre."
 
-#: ../data/games.xml.h:107
+#: ../data/games.xml.h:103
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
@@ -598,31 +582,31 @@ msgstr ""
 "¿El cuñado del hermano de la madre de Juan también es? No asumas que Juan "
 "tiene algún pariente que no se ha mencionado. [option_answers]"
 
-#: ../data/games.xml.h:108
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His father"
 msgstr "[option_prefix] Su padre"
 
-#: ../data/games.xml.h:109
+#: ../data/games.xml.h:105
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Su primo"
 
-#: ../data/games.xml.h:110
+#: ../data/games.xml.h:106
 msgid "His father"
 msgstr "Su padre"
 
-#: ../data/games.xml.h:111
+#: ../data/games.xml.h:107
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
 msgstr ""
 "El cuñado del hermano es el marido de la madre de Juan, es decir, su padre."
 
-#: ../data/games.xml.h:112
+#: ../data/games.xml.h:108
 msgid "Third number"
 msgstr "Tercer número"
 
-#: ../data/games.xml.h:113
+#: ../data/games.xml.h:109
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
@@ -630,15 +614,15 @@ msgstr ""
 "La media de tres números es [three]. La media de dos de estos números es  "
 "[two]. ¿Cuál es el tercer número? [option_answers]"
 
-#: ../data/games.xml.h:114
+#: ../data/games.xml.h:110
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Es el resultado de la operación: ([three] * 3) - ([two] * 2)."
 
-#: ../data/games.xml.h:115
+#: ../data/games.xml.h:111
 msgid "Birthday"
 msgstr "Cumpleaños"
 
-#: ../data/games.xml.h:116
+#: ../data/games.xml.h:112
 msgid ""
 "A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
 "years old. Can this be true? [option_answers]"
@@ -646,22 +630,19 @@ msgstr ""
 "Una niña dijo una vez: hace 2 días yo tenía 18 años. El año que viene tendré "
 "21 años. ¿Puede ser esto cierto? [option_answers]"
 
-#: ../data/games.xml.h:117
+#: ../data/games.xml.h:113
 msgid "[option_prefix] Yes"
 msgstr "[option_prefix] Sí"
 
-#: ../data/games.xml.h:118
+#: ../data/games.xml.h:114
 msgid "[option_prefix] No"
 msgstr "[option_prefix] No"
 
-#: ../data/games.xml.h:119
+#: ../data/games.xml.h:115
 msgid "She was born 31st of December and she said this on 1st of January."
 msgstr "Ella nació el 31 de diciembre, y dijo esto el 1 de enero."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
-#| msgid ""
-#| "gbrainy is a game to train memory, arithmetical and logical capabilities "
-#| "with many sorts of exercises of different difficulty levels."
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels"
@@ -1671,7 +1652,6 @@ msgid "Rhombus"
 msgstr "Rombo"
 
 #: ../data/verbal_analogies.xml.h:252
-#| msgid "It is the only one that does not have roots."
 msgid "Triangle is the only one that does not have four sides."
 msgstr "El triángulo es el único que no tiene cuatro lados."
 
@@ -2595,10 +2575,6 @@ msgstr ""
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with this program; if not, write to the Free Software Foundation, Inc., "
-#| "59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, see <http://www.gnu.org/licenses/>."
@@ -3384,19 +3360,47 @@ msgid_plural "The possible correct answers are {0}."
 msgstr[0] "La respuesta correcta es {0}."
 msgstr[1] "Las respuestas correctas posibles son {0}."
 
-#: ../src/Core/Main/GameManager.cs:249
+#: ../src/Core/Main/GameManager.cs:254
 msgid "Extensions database:"
 msgstr "Base de datos de extensiones:"
 
-#. Translators: 'Games registered' is the games know to gbrainy (build-in and load from addins-in and external files)
-#: ../src/Core/Main/GameManager.cs:255
+#: ../src/Core/Main/GameManager.cs:261
 #, csharp-format
-msgid ""
-"{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
-"memory trainers, {4} verbal analogies"
-msgstr ""
-"Juegos registrados: {0}: {1} puzles lógicos, {2} entrenadores de cálculo, "
-"{3} entrenadores de memoria, {4} analogías verbales"
+msgid "{0} game registered:"
+msgid_plural "{0} games registered:"
+msgstr[0] "{0} juego registrado:"
+msgstr[1] "{0} juegos registrados:"
+
+#: ../src/Core/Main/GameManager.cs:262
+#, csharp-format
+msgid "{0} logic puzzle"
+msgid_plural "{0} logic puzzles"
+msgstr[0] "{0} puzle lógico"
+msgstr[1] "{0} puzles lógicos"
+
+#: ../src/Core/Main/GameManager.cs:263
+#, csharp-format
+#| msgid "Mental Calculation Trainers Only"
+msgid "{0} calculation trainer"
+msgid_plural "{0} calculation trainers"
+msgstr[0] "{0} entrenador de cálculo mental"
+msgstr[1] "{0} entrenadores de cálculo mental"
+
+#: ../src/Core/Main/GameManager.cs:264
+#, csharp-format
+#| msgid "Memory Trainers Only"
+msgid "{0} memory trainer"
+msgid_plural "{0} memory trainers"
+msgstr[0] "{0} entrenador de memoria"
+msgstr[1] "{0} entrenadores de memoria"
+
+#: ../src/Core/Main/GameManager.cs:265
+#, csharp-format
+#| msgid "Verbal analogies"
+msgid "{0} verbal analogy"
+msgid_plural "{0} verbal analogies"
+msgstr[0] "{0} analogía verbal"
+msgstr[1] "{0} analogías verbales"
 
 #: ../src/Core/Main/GameSession.cs:181
 #, csharp-format
@@ -6243,6 +6247,25 @@ msgstr[1] ""
 "doble de tiempo. ¿Cuántas horas tardarán en limpiar el almacén si trabajan "
 "juntos? [option_answers]"
 
+#~ msgid "[option_prefix] [answer_a]"
+#~ msgstr "[option_prefix] [answer_a]"
+
+#~ msgid "[option_prefix] [answer_b]"
+#~ msgstr "[option_prefix] [answer_b]"
+
+#~ msgid "[option_prefix] [answer_c]"
+#~ msgstr "[option_prefix] [answer_c]"
+
+#~ msgid "[option_prefix] [answer_d]"
+#~ msgstr "[option_prefix] [answer_d]"
+
+#~ msgid ""
+#~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
+#~ "memory trainers, {4} verbal analogies"
+#~ msgstr ""
+#~ "Juegos registrados: {0}: {1} puzles lógicos, {2} entrenadores de cálculo, "
+#~ "{3} entrenadores de memoria, {4} analogías verbales"
+
 #~ msgid "coins"
 #~ msgstr "monedas"
 
@@ -6263,9 +6286,6 @@ msgstr[1] ""
 #~ msgstr ""
 #~ "¿En qué año las ventas totales de Coches Brillantes fueron peores que el "
 #~ "pasado diciembre?"
-
-#~ msgid "Mental Calculation Trainers Only"
-#~ msgstr "Sólo entrenadores de cálculo mental"
 
 #~ msgid "{0}) "
 #~ msgstr "{0}) "
@@ -6516,9 +6536,6 @@ msgstr[1] ""
 #~ "  --norandom \t\t\tLa lista de juegos proporcionada no se convertirá en "
 #~ "aleatoria.\n"
 #~ "  --versions \t\t\tMostrar dependencias.\n"
-
-#~ msgid "Verbal analogies"
-#~ msgstr "Analogías verbales"
 
 #~ msgid ""
 #~ "Which element does not belong to the group? Answer {0}, {1}, {2}, {3} or "
