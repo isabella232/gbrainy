@@ -1,5 +1,11 @@
 gbrainy NEWS
 
+
+Version 2.3.5
+* Updated translations
+* Removed dependencies to GTK 2.0
+* 3 small bug fixes
+
 Version 2.3.4
 * Updated translations
 * 2 new games
