@@ -655,6 +655,15 @@
 		<_answer>Wood</_answer>
 	</analogy>
 
+	<analogy>
+		<_question type = "PairOfWordsOptions">doctor / stethoscope | painter</_question>
+		<_answer correct ="yes">Brush</_answer>
+		<_answer>Art</_answer>
+		<_answer>Gallery</_answer>
+		<!-- Translator: meaning a painted picture -->
+		<_answer>Painting</_answer>
+	</analogy>
+
 	<!--- Pair of words compare  -->
 
 	<analogy>

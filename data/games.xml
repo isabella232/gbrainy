@@ -778,4 +778,75 @@
 		<answer>[answer_a]</answer>
 	</game>
 
+	<game>
+		<_name>Direction</_name>
+		<type>Logic</type>
+		<difficulty>All</difficulty>
+		<answer_checkattributes>MultiOption | IgnoreSpaces</answer_checkattributes>
+		<_question>I go south on an evening when the sun shines. To which side of me will my shadow fall? [option_answers]</_question>
+		<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
+
+			<option x = "0.3" y = "0.3" width ="0.45" height ="0.1" order ="randomized" correct = "yes">
+				<string _text = "[option_prefix] To my left"  x = "0.05"  y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.4" width ="0.45" height ="0.1" order ="randomized">
+				<string _text = "[option_prefix] To my right" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.5" width ="0.45" height ="0.1" order ="randomized">
+				<string _text = "[option_prefix] Behind me" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
+				<string _text = "[option_prefix] In front of me" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+        <_rationale>If I go south then east is to my left and in the evening the shadow falls east.</_rationale>
+		<answer>To my left</answer>
+	</game>
+
+	<game>
+		<_name>Two men</_name>
+		<type>Logic</type>
+		<difficulty>All</difficulty>
+		<answer_checkattributes>MultiOption | IgnoreSpaces</answer_checkattributes>
+		<variables>
+				int [] dists_a = new int [] {3, 8, 12};
+				int [] dists_b = new int [] {4, 6, 9};
+				int [] dists_c = new int [] {5, 10, 15};
+
+				int index = random.Next (dists_a.Length);
+				int dist_a = dists_a[index];
+				int dist_b = dists_b[index];
+
+				int answer_a = dists_c[index];
+				int answer_b = dists_c[index] + 2 + random.Next (10);
+				int answer_c = answer_b + 2 + random.Next (5); // Based on answer_b to avoid duplicated answers
+				int answer_d = dists_c[index] - 2;
+		</variables>
+
+		<!-- Translators: Adapt 'feet' to the right unit of length for your locale. -->
+		<_question>Two men starting at the same point walk in opposite directions for [dist_a] feet. Both turn left and walk another [dist_b] feet. What is the distance between them? [option_answers]</_question>
+
+		<string _text = "Choose one of the following:" x = "0.1" y = "0.15" size = "large"/>
+
+			<option x = "0.3" y = "0.3" width ="0.45" height ="0.1" order ="randomized" correct = "yes">
+				<string text = "[option_prefix] [answer_a]"  x = "0.05"  y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.4" width ="0.45" height ="0.1" order ="randomized">
+				<string text = "[option_prefix] [answer_b]" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.5" width ="0.45" height ="0.1" order ="randomized">
+				<string text = "[option_prefix] [answer_c]" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+
+			<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
+				<string text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
+			</option>
+        <_rationale>Using the Pythagorean theorem, the solution is 2 by the square root of ([dist_a]^2 + [dist_b]^2). </_rationale>
+		<answer>[answer_a]</answer>
+	</game>
+
 </games>
