@@ -22,8 +22,8 @@
 
   <repository>
     <GitRepository>
-      <browse rdf:resource="https://git.gnome.org/cgit/gbrainy" />
-      <location rdf:resource="git://git.gnome.org/gbrainy" />
+      <browse rdf:resource="https://gitlab.gnome.org/GNOME/gbrainy" />
+      <location rdf:resource="https://gitlab.gnome.org/GNOME/gbrainy.git" />
     </GitRepository>
   </repository>
 
