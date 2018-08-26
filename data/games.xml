@@ -845,7 +845,7 @@
 			<option x = "0.3" y = "0.6" width ="0.45" height ="0.1" order ="randomized">
 				<string text = "[option_prefix] [answer_d]" x = "0.05" y = "0.02" size = "large"/>
 			</option>
-        <_rationale>Using the Pythagorean theorem, the solution is 2 by the square root of ([dist_a]^2 + [dist_b]^2). </_rationale>
+        <_rationale>Using the Pythagorean theorem, the solution is 2 by the square root of ([dist_a]^2 + [dist_b]^2).</_rationale>
 		<answer>[answer_a]</answer>
 	</game>
 
