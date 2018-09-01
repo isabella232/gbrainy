@@ -10,10 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grainy master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gbrain"
-"y&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-03-10 06:30+0000\n"
-"PO-Revision-Date: 2018-03-11 02:25-0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
+"POT-Creation-Date: 2018-08-09 05:42+0000\n"
+"PO-Revision-Date: 2018-09-01 17:43-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -83,7 +82,7 @@ msgid ""
 "Every digit has 8 possibilities. The total number of possibilities is 8 at "
 "the power of [digits]."
 msgstr ""
-"Cada dígito tem 8 possibilidades. O número total de possibilidades é de 8 à "
+"Cada dígito tem 8 possibilidades. O número total de possibilidades é de 8 à "
 "potência de [digits]."
 
 #: ../data/games.xml.h:11
@@ -132,7 +131,7 @@ msgstr "x + [num_a] = [num_b]"
 
 #: ../data/games.xml.h:19
 msgid "It is the result of the operation [num_b] - [num_a]."
-msgstr "É o resultado da operação [num_b] - [num_a]."
+msgstr "É o resultado da operação [num_b] - [num_a]."
 
 #: ../data/games.xml.h:20
 msgid "What number minus [num_a] equals [num_b]?"
@@ -156,7 +155,7 @@ msgstr "x * [num_a] = [num_b]"
 
 #: ../data/games.xml.h:25
 msgid "It is the result of the operation [num_b] / [num_a]."
-msgstr "É o resultado da operação [num_b] / [num_a]."
+msgstr "É o resultado da operação [num_b] / [num_a]."
 
 #: ../data/games.xml.h:26
 msgid "What number divided by [num_a] equals [num_b]?"
@@ -291,8 +290,8 @@ msgid ""
 "Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
 "and a place to stand and I can move the Earth'."
 msgstr ""
-"Considere a frase atribuída a Arquimedes: “Dê-me uma alavanca longa o "
-"bastante e um lugar para apoiá-la e eu poderei mover a Terra”."
+"Considere a frase atribuída a Arquimedes: “Dê-me uma alavanca e um ponto de "
+"apoio e levantarei o mundo”."
 
 #: ../data/games.xml.h:49
 msgid ""
@@ -507,26 +506,10 @@ msgid "Warehouse"
 msgstr "Armazém"
 
 #: ../data/games.xml.h:92
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:93
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:95
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:96
 msgid "Two trucks"
 msgstr "Dois caminhões"
 
-#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:79
+#: ../data/games.xml.h:93 ../tools/GameXmlGetString.cs:79
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -544,15 +527,15 @@ msgstr[1] ""
 "caminhão mais leve pesa 15 unidades a menos do que a metade do peso do "
 "caminhão mais pesado, qual é o peso do caminhão mais leve? [option_answers]"
 
-#: ../data/games.xml.h:98
+#: ../data/games.xml.h:94
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
 msgstr "O caminhão mais pesado pesa [heavier] e o mais leve [lighter]."
 
-#: ../data/games.xml.h:99
+#: ../data/games.xml.h:95
 msgid "Family relations"
 msgstr "Relações familiares"
 
-#: ../data/games.xml.h:100
+#: ../data/games.xml.h:96
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
@@ -560,33 +543,33 @@ msgstr ""
 "A cunhada da irmã do pai de John também é? Não assuma que John possua "
 "qualquer parente que não tenha sido mencionado. [option_answers]"
 
-#: ../data/games.xml.h:101
+#: ../data/games.xml.h:97
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] Sua mãe"
 
-#: ../data/games.xml.h:102
+#: ../data/games.xml.h:98
 msgid "[option_prefix] Has no relation"
 msgstr "[option_prefix] Não possui relação"
 
-#: ../data/games.xml.h:103
+#: ../data/games.xml.h:99
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Seu primo"
 
-#: ../data/games.xml.h:104
+#: ../data/games.xml.h:100
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] Seu genro"
 
-#: ../data/games.xml.h:105
+#: ../data/games.xml.h:101
 msgid "His mother"
 msgstr "Sua mãe"
 
-#: ../data/games.xml.h:106
+#: ../data/games.xml.h:102
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr "A cunhada da irmã é a esposa do pai de John, ou seja, a mãe de John."
 
-#: ../data/games.xml.h:107
+#: ../data/games.xml.h:103
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
@@ -594,30 +577,30 @@ msgstr ""
 "O cunhado do irmão da mãe de John também é? Não assuma que John possua "
 "qualquer parente que não tenha sido mencionado. [option_answers]"
 
-#: ../data/games.xml.h:108
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His father"
 msgstr "[option_prefix] Seu pai"
 
-#: ../data/games.xml.h:109
+#: ../data/games.xml.h:105
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] Seu primo"
 
-#: ../data/games.xml.h:110
+#: ../data/games.xml.h:106
 msgid "His father"
 msgstr "Seu pai"
 
-#: ../data/games.xml.h:111
+#: ../data/games.xml.h:107
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
 msgstr "O cunhado do irmão é o marido da mãe de John, ou seja, o pai de John."
 
-#: ../data/games.xml.h:112
+#: ../data/games.xml.h:108
 msgid "Third number"
 msgstr "Terceiro número"
 
-#: ../data/games.xml.h:113
+#: ../data/games.xml.h:109
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
@@ -625,15 +608,15 @@ msgstr ""
 "A média de três números é [three]. A média de dois desses números é [two]. "
 "Qual é o terceiro número? [option_answers]"
 
-#: ../data/games.xml.h:114
+#: ../data/games.xml.h:110
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "É o resultado da operação: ([three] * 3) - ([two] * 2)."
 
-#: ../data/games.xml.h:115
+#: ../data/games.xml.h:111
 msgid "Birthday"
 msgstr "Aniversário"
 
-#: ../data/games.xml.h:116
+#: ../data/games.xml.h:112
 msgid ""
 "A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
 "years old. Can this be true? [option_answers]"
@@ -641,17 +624,81 @@ msgstr ""
 "Uma vez uma menina disse: 2 dias atrás eu tinha 18 anos. Ano que vem terei "
 "21 anos. Isso pode ser verdadeiro? [option_answers]"
 
-#: ../data/games.xml.h:117
+#: ../data/games.xml.h:113
 msgid "[option_prefix] Yes"
 msgstr "[option_prefix] Sim"
 
-#: ../data/games.xml.h:118
+#: ../data/games.xml.h:114
 msgid "[option_prefix] No"
 msgstr "[option_prefix] Não"
 
-#: ../data/games.xml.h:119
+#: ../data/games.xml.h:115
 msgid "She was born 31st of December and she said this on 1st of January."
 msgstr "Ela nasceu em 31 de Dezembro e ela disse isso em primeiro de Janeiro."
+
+#: ../data/games.xml.h:116 ../data/verbal_analogies.xml.h:376
+msgid "Direction"
+msgstr "Direção"
+
+#: ../data/games.xml.h:117
+msgid ""
+"I go south on an evening when the sun shines. To which side of me will my "
+"shadow fall? [option_answers]"
+msgstr ""
+"Eu vou para o sul em um final de tarde quando o sol brilha. Para qual lado "
+"minha sobra vai cair? [option_answers]"
+
+#: ../data/games.xml.h:118
+#| msgid "[option_prefix] No"
+msgid "[option_prefix] To my left"
+msgstr "[option_prefix] Para minha esquerda"
+
+#: ../data/games.xml.h:119
+#| msgid "[option_prefix] p < r"
+msgid "[option_prefix] To my right"
+msgstr "[option_prefix] Para minha direita"
+
+#: ../data/games.xml.h:120
+#| msgid "[option_prefix] His mother"
+msgid "[option_prefix] Behind me"
+msgstr "[option_prefix] Atrás de mim"
+
+#: ../data/games.xml.h:121
+#| msgid "[option_prefix] r < q"
+msgid "[option_prefix] In front of me"
+msgstr "[option_prefix] Na minha frente"
+
+#: ../data/games.xml.h:122
+msgid ""
+"If I go south then east is to my left and in the evening the shadow falls "
+"east."
+msgstr ""
+"Se eu for para o sul, então o leste fica a minha esquerda e, no final da "
+"tarde, a sombra cai para o leste."
+
+#: ../data/games.xml.h:123
+#| msgid "Two numbers"
+msgid "Two men"
+msgstr "Dois homens"
+
+#. Translators: Adapt 'feet' to the right unit of length for your locale.
+#: ../data/games.xml.h:125
+msgid ""
+"Two men starting at the same point walk in opposite directions for [dist_a] "
+"feet. Both turn left and walk another [dist_b] feet. What is the distance "
+"between them? [option_answers]"
+msgstr ""
+"Dois homens, começam no mesmo ponto, andam em direções opostas por [dist_a] "
+"metros. Ambos viram à esquerda e andam mais [dist_b] metros. Qual é a "
+"distância entre eles? [option_answers]"
+
+#: ../data/games.xml.h:126
+msgid ""
+"Using the Pythagorean theorem, the solution is 2 by the square root of "
+"([dist_a]^2 + [dist_b]^2)."
+msgstr ""
+"Usando o teorema de Pitágoras, a solução é 2 pela raiz quadrada de ([dist_a]^"
+"2 + [dist_b]^2)."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
@@ -712,7 +759,7 @@ msgid "Notebook"
 msgstr "Caderno"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2131,10 +2178,6 @@ msgstr "Duvidoso"
 msgid "thermometer / temperature | compass"
 msgstr "termômetro / temperatura | bússola"
 
-#: ../data/verbal_analogies.xml.h:376
-msgid "Direction"
-msgstr "Direção"
-
 #: ../data/verbal_analogies.xml.h:377
 msgid "Elevation"
 msgstr "Elevação"
@@ -2172,314 +2215,338 @@ msgid "Wood"
 msgstr "Madeira"
 
 #: ../data/verbal_analogies.xml.h:386
+msgid "doctor / stethoscope | painter"
+msgstr "doutor / estatoscópio | pintor"
+
+#: ../data/verbal_analogies.xml.h:387
+msgid "Brush"
+msgstr "Pincel"
+
+#: ../data/verbal_analogies.xml.h:388
+#| msgid "Air"
+msgid "Art"
+msgstr "Arte"
+
+#: ../data/verbal_analogies.xml.h:389
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
+msgid "Gallery"
+msgstr "Galeria"
+
+#. Translator: meaning a painted picture
+#: ../data/verbal_analogies.xml.h:391
+#| msgid "Pain"
+msgid "Painting"
+msgstr "Pintura"
+
+#: ../data/verbal_analogies.xml.h:392
 msgid "hungry / eat | tired"
 msgstr "fome / comer | cansado"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:393
 msgid "sleep | rest"
 msgstr "sono | repouso"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:395
 msgid "box / open | banana"
 msgstr "caixa / abrir | banana"
 
-#: ../data/verbal_analogies.xml.h:390
+#: ../data/verbal_analogies.xml.h:396
 msgid "peel"
 msgstr "descascar"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:398
 msgid "shovel / dig | axe"
 msgstr "pá / cavar | machado"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:400
 msgid "chop"
 msgstr "cortar"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:402
 msgid "glass / break | paper"
 msgstr "vidro / quebrar | papel"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:404
 msgid "tear | rip"
 msgstr "rasgar | romper"
 
 #. Translators: the concept 'toe' (https://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:406
 msgid "feet / two | toes"
 msgstr "pés / dois | dedos dos pés"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:408
 msgid "ten | 10"
 msgstr "dez | 10"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:409
 msgid "fish / aquarium | monkey"
 msgstr "peixe / aquário | macaco"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:410
 msgid "cage | zoo | zoological garden"
 msgstr "gaiola | zoológico | jardim zoológico"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:411
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Um peixe em um aquário vive em cativeiro."
 
-#: ../data/verbal_analogies.xml.h:406
+#: ../data/verbal_analogies.xml.h:412
 msgid "ring / finger | bracelet"
 msgstr "anel / dedo | bracelete"
 
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:413
 msgid "wrist | arm"
 msgstr "pulso | braço"
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:414
 msgid "seal / flippers | bird"
 msgstr "foca / nadadeiras | pássaro"
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:415
 msgid "wings"
 msgstr "asas"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:417
 msgid "stick / float | stone"
 msgstr "bastão / flutuar | pedra"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:418
 msgid "sink"
 msgstr "afundar"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:419
 msgid "leopard / spots | tiger"
 msgstr "leopardo / manchas | tigre"
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:420
 msgid "stripes"
 msgstr "listras | listas"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:422
 msgid "fish / submarine | bird"
 msgstr "peixe / submarino | pássaro"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:423
 msgid "airplane | aeroplane | plane"
 msgstr "avião | aeronave | planador"
 
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:424
 msgid "tears / eyes | sweat"
 msgstr "lágrimas / olhos | suor"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:425
 msgid "body | skin"
 msgstr "corpo | pele"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:426
 msgid "bridge / over | tunnel"
 msgstr "ponte / sobre | túnel"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:427
 msgid "in | under | through"
 msgstr "em | debaixo | através"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:429
 msgid "toy / play | tool"
 msgstr "brinquedo / jogar | ferramenta"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:431
 msgid "work"
 msgstr "funcionar | consertar"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:433
 msgid "error / (to) correct | damage"
 msgstr "erro / corrigir | dano"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:434
 msgid "repair | fix"
 msgstr "reparo | conserto"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:435
 msgid "orange / fruit | spinach"
 msgstr "laranja / fruta | espinafre"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:436
 msgid "vegetable"
 msgstr "verdura"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:437
 msgid "hands / grab | teeth"
 msgstr "mãos / agarrar | dentes"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:438
 msgid "bite"
 msgstr "morder"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:439
 msgid "Grab and bite are finite actions."
 msgstr "Agarrar e morder são ações finitas."
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:440
 msgid "puzzle / solve | game"
 msgstr "quebra-cabeça / resolver | jogo"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:441
 msgid "win | play"
 msgstr "vitória | jogo"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:442
 msgid "eyebrow / eye | mustache"
 msgstr "sobrancelha / olho | bigode"
 
-#: ../data/verbal_analogies.xml.h:437
+#: ../data/verbal_analogies.xml.h:443
 msgid "lip | upper lip | mouth"
 msgstr "lábio | lábio superior | boca"
 
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:444
 msgid "ice / slippery | glue"
 msgstr "gelo / escorregadio | cola"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:445
 msgid "sticky"
 msgstr "pegajosa | grudenta"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:446
 msgid "whirlpool / water | tornado"
 msgstr "redemoinho / água | tornado"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:447
 msgid "wind | air"
 msgstr "vento | ar"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:448
 msgid "fox / den | bird"
 msgstr "raposa / toca ou covil | pássaro"
 
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:449
 msgid "nest"
 msgstr "ninho"
 
-#: ../data/verbal_analogies.xml.h:444
+#: ../data/verbal_analogies.xml.h:450
 msgid "dog / tame | wolf"
 msgstr "cão / domesticado | lobo"
 
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:451
 msgid "wild | savage"
 msgstr "selvagem | violento"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:452
 msgid "sugar / sweet | vinegar"
 msgstr "açúcar / doce | vinagre"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:453
 msgid "sour"
 msgstr "ácido"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:454
 msgid "tennis / sport | ballet"
 msgstr "tênis / esporte | balé"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:450
+#: ../data/verbal_analogies.xml.h:456
 msgid "dance"
 msgstr "dançar"
 
 # Bufar pode causar erro de compreensão em diversos estados brasileiros.
-#: ../data/verbal_analogies.xml.h:451
+#: ../data/verbal_analogies.xml.h:457
 msgid "slurp / tongue | snort"
 msgstr "comer fazendo barulho / língua | roncar"
 
-#: ../data/verbal_analogies.xml.h:452
+#: ../data/verbal_analogies.xml.h:458
 msgid "nose"
 msgstr "nariz"
 
-#: ../data/verbal_analogies.xml.h:453
+#: ../data/verbal_analogies.xml.h:459
 msgid "elbow / knee | wrist"
 msgstr "cotovelo / joelho | pulso"
 
-#: ../data/verbal_analogies.xml.h:454
+#: ../data/verbal_analogies.xml.h:460
 msgid "ankle"
 msgstr "tornozelo"
 
-#: ../data/verbal_analogies.xml.h:455
+#: ../data/verbal_analogies.xml.h:461
 msgid "novel / author | song"
 msgstr "romance / autor | canção"
 
-#: ../data/verbal_analogies.xml.h:456
+#: ../data/verbal_analogies.xml.h:462
 msgid "composer | songwriter | lyricist"
 msgstr "compositor | letrista"
 
-#: ../data/verbal_analogies.xml.h:457
+#: ../data/verbal_analogies.xml.h:463
 msgid "car / road | train"
 msgstr "carro / estrada | trem"
 
-#: ../data/verbal_analogies.xml.h:458
+#: ../data/verbal_analogies.xml.h:464
 msgid "track | railway | rails | railroad"
 msgstr "trilho | ferrovia | trilhos | estrada de ferro"
 
-#: ../data/verbal_analogies.xml.h:459
+#: ../data/verbal_analogies.xml.h:465
 msgid "pediatrics / children | numismatics"
 msgstr "pediatra / criança | numismática"
 
-#: ../data/verbal_analogies.xml.h:460
+#: ../data/verbal_analogies.xml.h:466
 msgid "coins | currency | money"
 msgstr "moedas | unidade monetária | dinheiro"
 
-#: ../data/verbal_analogies.xml.h:461
+#: ../data/verbal_analogies.xml.h:467
 msgid "thermometer / temperature | clock"
 msgstr "termômetro / temperatura | relógio"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:463
+#: ../data/verbal_analogies.xml.h:469
 msgid "time"
 msgstr "tempo"
 
-#: ../data/verbal_analogies.xml.h:464
+#: ../data/verbal_analogies.xml.h:470
 msgid "poems / anthology | maps"
 msgstr "poemas / antologia | mapas"
 
-#: ../data/verbal_analogies.xml.h:465
+#: ../data/verbal_analogies.xml.h:471
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:466
+#: ../data/verbal_analogies.xml.h:472
 msgid "letter / word | page"
 msgstr "letra / palavra | página"
 
-#: ../data/verbal_analogies.xml.h:467
+#: ../data/verbal_analogies.xml.h:473
 msgid "book | magazine | document"
 msgstr "livro | revista | documento"
 
-#: ../data/verbal_analogies.xml.h:468
+#: ../data/verbal_analogies.xml.h:474
 msgid "hour / minute | minute"
 msgstr "hora / minuto | minuto"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:470
+#: ../data/verbal_analogies.xml.h:476
 msgid "second"
 msgstr "segundo"
 
-#: ../data/verbal_analogies.xml.h:471
+#: ../data/verbal_analogies.xml.h:477
 msgid "tiger / carnivore | cow"
 msgstr "tigre / carnívoro | vaca"
 
-#: ../data/verbal_analogies.xml.h:472
+#: ../data/verbal_analogies.xml.h:478
 msgid "herbivorous | herbivore"
 msgstr "herbívoros | herbívoro"
 
-#: ../data/verbal_analogies.xml.h:473
+#: ../data/verbal_analogies.xml.h:479
 msgid "constellation / stars | archipelago"
 msgstr "constelação / estrelas | arquipélago"
 
-#: ../data/verbal_analogies.xml.h:474
+#: ../data/verbal_analogies.xml.h:480
 msgid "islands"
 msgstr "ilhas"
 
@@ -3146,10 +3213,6 @@ msgstr "Instalados"
 msgid "Updates"
 msgstr "Atualizações"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
-msgid "Gallery"
-msgstr "Galeria"
-
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:69
 msgid "Repository:"
 msgstr "Repositório:"
@@ -3384,7 +3447,6 @@ msgstr[1] "{0} treinamentos de cálculo"
 
 #: ../src/Core/Main/GameManager.cs:264
 #, csharp-format
-#| msgid "Memory Trainers Only"
 msgid "{0} memory trainer"
 msgid_plural "{0} memory trainers"
 msgstr[0] "{0} treinamento de memória"
@@ -3392,7 +3454,6 @@ msgstr[1] "{0} treinamentos de memória"
 
 #: ../src/Core/Main/GameManager.cs:265
 #, csharp-format
-#| msgid "Verbal Analogies Only"
 msgid "{0} verbal analogy"
 msgid_plural "{0} verbal analogies"
 msgstr[0] "{0} analogia verbal"
@@ -6250,6 +6311,18 @@ msgstr[1] ""
 "John precisa de [john_time] horas para limpar um armazém e seu amigo precisa "
 "de duas vezes o tempo de John. Quantas horas eles levariam para limpar o "
 "armazém se trabalhassem juntos? [option_answers]"
+
+#~ msgid "[option_prefix] [answer_a]"
+#~ msgstr "[option_prefix] [answer_a]"
+
+#~ msgid "[option_prefix] [answer_b]"
+#~ msgstr "[option_prefix] [answer_b]"
+
+#~ msgid "[option_prefix] [answer_c]"
+#~ msgstr "[option_prefix] [answer_c]"
+
+#~ msgid "[option_prefix] [answer_d]"
+#~ msgstr "[option_prefix] [answer_d]"
 
 #~ msgid ""
 #~ "{0} games registered: {1} logic puzzles, {2} calculation trainers, {3} "
