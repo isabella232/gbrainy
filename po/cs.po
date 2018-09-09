@@ -10,10 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gbrainy&keywords=I18N+L10N&component=gbrainy application\n"
-"POT-Creation-Date: 2018-03-10 06:30+0000\n"
-"PO-Revision-Date: 2018-03-10 08:34+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
+"POT-Creation-Date: 2018-08-09 05:42+0000\n"
+"PO-Revision-Date: 2018-09-09 11:08+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -508,26 +507,10 @@ msgid "Warehouse"
 msgstr "Sklad"
 
 #: ../data/games.xml.h:92
-msgid "[option_prefix] [answer_a]"
-msgstr "[option_prefix] [answer_a]"
-
-#: ../data/games.xml.h:93
-msgid "[option_prefix] [answer_b]"
-msgstr "[option_prefix] [answer_b]"
-
-#: ../data/games.xml.h:94
-msgid "[option_prefix] [answer_c]"
-msgstr "[option_prefix] [answer_c]"
-
-#: ../data/games.xml.h:95
-msgid "[option_prefix] [answer_d]"
-msgstr "[option_prefix] [answer_d]"
-
-#: ../data/games.xml.h:96
 msgid "Two trucks"
 msgstr "Dva kamióny"
 
-#: ../data/games.xml.h:97 ../tools/GameXmlGetString.cs:79
+#: ../data/games.xml.h:93 ../tools/GameXmlGetString.cs:79
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
@@ -549,15 +532,15 @@ msgstr[2] ""
 "15 tun méně než je polovina váhy těžšího kamiónu, kolik ten lehčí kamión "
 "váží? [option_answers]"
 
-#: ../data/games.xml.h:98
+#: ../data/games.xml.h:94
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
 msgstr "Těžší kamión váží [heavier] t a lehčí [lighter] t."
 
-#: ../data/games.xml.h:99
+#: ../data/games.xml.h:95
 msgid "Family relations"
 msgstr "Rodinné vztahy"
 
-#: ../data/games.xml.h:100
+#: ../data/games.xml.h:96
 msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
@@ -565,33 +548,33 @@ msgstr ""
 "Švagrová sestry Honzova otce je také? Nepředpokládejte, že Honza má nějakého "
 "příbuzného, který nebyl zmíněn. [option_answers]"
 
-#: ../data/games.xml.h:101
+#: ../data/games.xml.h:97
 msgid "[option_prefix] His mother"
 msgstr "[option_prefix] jeho matka"
 
-#: ../data/games.xml.h:102
+#: ../data/games.xml.h:98
 msgid "[option_prefix] Has no relation"
 msgstr "[option_prefix] nemají příbuzenský vztah"
 
-#: ../data/games.xml.h:103
+#: ../data/games.xml.h:99
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] jeho sestřenice"
 
-#: ../data/games.xml.h:104
+#: ../data/games.xml.h:100
 msgid "[option_prefix] His son-in-law"
 msgstr "[option_prefix] jeho zeť"
 
-#: ../data/games.xml.h:105
+#: ../data/games.xml.h:101
 msgid "His mother"
 msgstr "jeho matka"
 
-#: ../data/games.xml.h:106
+#: ../data/games.xml.h:102
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
 msgstr "Sestřina švagrová je ženou Honzova otce, takže je Honzova matka."
 
-#: ../data/games.xml.h:107
+#: ../data/games.xml.h:103
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
@@ -599,30 +582,30 @@ msgstr ""
 "Švagr bratra Honzovy matky je také? Nepředpokládejte, že Honza má nějakého "
 "příbuzného, který nebyl zmíněn. [option_answers]"
 
-#: ../data/games.xml.h:108
+#: ../data/games.xml.h:104
 msgid "[option_prefix] His father"
 msgstr "[option_prefix] jeho otec"
 
-#: ../data/games.xml.h:109
+#: ../data/games.xml.h:105
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
 msgstr "[option_prefix] jeho bratranec"
 
-#: ../data/games.xml.h:110
+#: ../data/games.xml.h:106
 msgid "His father"
 msgstr "jeho otec"
 
-#: ../data/games.xml.h:111
+#: ../data/games.xml.h:107
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
 msgstr "Bratrův švagr je manželem Honzovy matky, takže je Honzův otec."
 
-#: ../data/games.xml.h:112
+#: ../data/games.xml.h:108
 msgid "Third number"
 msgstr "Třetí číslo"
 
-#: ../data/games.xml.h:113
+#: ../data/games.xml.h:109
 msgid ""
 "The average of three numbers is [three]. The average of two of these numbers "
 "is [two]. What is the third number? [option_answers]"
@@ -630,15 +613,15 @@ msgstr ""
 "Průměrná hodnota ze tří čísel je  [three]. Průměrná hodnota ze dvou z těchto "
 "čísel je [two]. Jaké je třetí číslo? [option_answers]"
 
-#: ../data/games.xml.h:114
+#: ../data/games.xml.h:110
 msgid "It is the result of the operation: ([three] * 3) - ([two] * 2)."
 msgstr "Je to výsledek operace  ([three] . 3) - ([two] . 2)."
 
-#: ../data/games.xml.h:115
+#: ../data/games.xml.h:111
 msgid "Birthday"
 msgstr "Narozeniny"
 
-#: ../data/games.xml.h:116
+#: ../data/games.xml.h:112
 msgid ""
 "A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
 "years old. Can this be true? [option_answers]"
@@ -646,17 +629,76 @@ msgstr ""
 "Dívka řekla: před dvěma dny mi bylo 18. Příští rok mi bude 21. Může to být "
 "pravdivé? [option_answers]"
 
-#: ../data/games.xml.h:117
+#: ../data/games.xml.h:113
 msgid "[option_prefix] Yes"
 msgstr "[option_prefix] Ano"
 
-#: ../data/games.xml.h:118
+#: ../data/games.xml.h:114
 msgid "[option_prefix] No"
 msgstr "[option_prefix] Ne"
 
-#: ../data/games.xml.h:119
+#: ../data/games.xml.h:115
 msgid "She was born 31st of December and she said this on 1st of January."
 msgstr "Řekla to 31. prosince a řekla to 1. ledna."
+
+#: ../data/games.xml.h:116 ../data/verbal_analogies.xml.h:376
+msgid "Direction"
+msgstr "směr"
+
+#: ../data/games.xml.h:117
+msgid ""
+"I go south on an evening when the sun shines. To which side of me will my "
+"shadow fall? [option_answers]"
+msgstr ""
+"Večer, ještě když svítí slunce, jdu na jih. Na kterou stranu bude vržen můj "
+"stín? [option_answers]"
+
+#: ../data/games.xml.h:118
+msgid "[option_prefix] To my left"
+msgstr "[option_prefix] Nalevo ode mne"
+
+#: ../data/games.xml.h:119
+msgid "[option_prefix] To my right"
+msgstr "[option_prefix] Napravo ode mne"
+
+#: ../data/games.xml.h:120
+msgid "[option_prefix] Behind me"
+msgstr "[option_prefix] Za mne"
+
+#: ../data/games.xml.h:121
+msgid "[option_prefix] In front of me"
+msgstr "[option_prefix] Přede mne"
+
+#: ../data/games.xml.h:122
+msgid ""
+"If I go south then east is to my left and in the evening the shadow falls "
+"east."
+msgstr ""
+"Když jdu na jih, tak východ je po mé levé straně a večer jsou stíny vrhané "
+"na východ."
+
+#: ../data/games.xml.h:123
+msgid "Two men"
+msgstr "Dva muži"
+
+#. Translators: Adapt 'feet' to the right unit of length for your locale.
+#: ../data/games.xml.h:125
+msgid ""
+"Two men starting at the same point walk in opposite directions for [dist_a] "
+"feet. Both turn left and walk another [dist_b] feet. What is the distance "
+"between them? [option_answers]"
+msgstr ""
+"Dva muži vyrazili pěšky ze stejného bodu v opačných směrech do vzdálenosti "
+"[dist_a] metrů. Po té oba zahnuli doleva a ušli dalších [dist_b] metrů. Jaká "
+"je teď mezi nimi vzdálenost? [option_answers]"
+
+#: ../data/games.xml.h:126
+msgid ""
+"Using the Pythagorean theorem, the solution is 2 by the square root of "
+"([dist_a]^2 + [dist_b]^2)."
+msgstr ""
+"S použitím Pythagorovy věty je řešením 2 krát délka odvěsny, tj. √([dist_a]² "
+"+ [dist_b]²)."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
@@ -715,7 +757,7 @@ msgid "Notebook"
 msgstr "Poznámkový blok"
 
 #.
-#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/gbrainy/Localizing
+#. Translators, please check these recommendations when translating gbrainy: https://wiki.gnome.org/Apps/gbrainy/Localizing
 #.
 #: ../data/verbal_analogies.xml.h:4
 msgid "Which of the following sports does not belong in this group?"
@@ -2117,10 +2159,6 @@ msgstr "podezřelý"
 msgid "thermometer / temperature | compass"
 msgstr "teploměr / teplota | buzola"
 
-#: ../data/verbal_analogies.xml.h:376
-msgid "Direction"
-msgstr "směr"
-
 #: ../data/verbal_analogies.xml.h:377
 msgid "Elevation"
 msgstr "nadmořská výška"
@@ -2158,313 +2196,335 @@ msgid "Wood"
 msgstr "dřevo"
 
 #: ../data/verbal_analogies.xml.h:386
+msgid "doctor / stethoscope | painter"
+msgstr "doktor / stetoskop | malíř"
+
+#: ../data/verbal_analogies.xml.h:387
+msgid "Brush"
+msgstr "štětec"
+
+#: ../data/verbal_analogies.xml.h:388
+msgid "Art"
+msgstr "umění"
+
+#: ../data/verbal_analogies.xml.h:389
+#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
+msgid "Gallery"
+msgstr "galerie"
+
+#. Translator: meaning a painted picture
+#: ../data/verbal_analogies.xml.h:391
+msgid "Painting"
+msgstr "obraz"
+
+#: ../data/verbal_analogies.xml.h:392
 msgid "hungry / eat | tired"
 msgstr "hladový / jíst | unavený"
 
-#: ../data/verbal_analogies.xml.h:387
+#: ../data/verbal_analogies.xml.h:393
 msgid "sleep | rest"
 msgstr "spát | odpočívat"
 
 #. Translators: 'open' is used as a verb (open a box)
-#: ../data/verbal_analogies.xml.h:389
+#: ../data/verbal_analogies.xml.h:395
 msgid "box / open | banana"
 msgstr "krabice / otevřít | banán"
 
-#: ../data/verbal_analogies.xml.h:390
+#: ../data/verbal_analogies.xml.h:396
 msgid "peel"
 msgstr "oloupat"
 
 #. Translators: 'dig' is used as a verb (to dig)
-#: ../data/verbal_analogies.xml.h:392
+#: ../data/verbal_analogies.xml.h:398
 msgid "shovel / dig | axe"
 msgstr "lopata / díra | pila"
 
 #. Translators: 'chop' is used as a verb (to chop)
-#: ../data/verbal_analogies.xml.h:394
+#: ../data/verbal_analogies.xml.h:400
 msgid "chop"
 msgstr "řez | zářez"
 
 #. Translators: 'break' is used as a verb (to break)
-#: ../data/verbal_analogies.xml.h:396
+#: ../data/verbal_analogies.xml.h:402
 msgid "glass / break | paper"
 msgstr "sklo / rozbít | papír"
 
 #. Translators: 'tear' and 'rip' are used as verbs (to tear / to rip). Tear as in "To pull apart or into pieces by force" (not lacrimation)
-#: ../data/verbal_analogies.xml.h:398
+#: ../data/verbal_analogies.xml.h:404
 msgid "tear | rip"
 msgstr "trhat | roztrhat | roztrhnout | rozcupovat"
 
 #. Translators: the concept 'toe' (https://en.wikipedia.org/wiki/Toe) does not exist in all languages. It means 'digits of the foot'. Feel free to change it to 'fingers' and adapt the answer accordingly
-#: ../data/verbal_analogies.xml.h:400
+#: ../data/verbal_analogies.xml.h:406
 msgid "feet / two | toes"
 msgstr "chodidlo / dvě | prst"
 
 #. Translators: referred to 'feet / two | toes'
-#: ../data/verbal_analogies.xml.h:402
+#: ../data/verbal_analogies.xml.h:408
 msgid "ten | 10"
 msgstr "dvacet | 20"
 
-#: ../data/verbal_analogies.xml.h:403
+#: ../data/verbal_analogies.xml.h:409
 msgid "fish / aquarium | monkey"
 msgstr "ryba / akvárium | opice"
 
-#: ../data/verbal_analogies.xml.h:404
+#: ../data/verbal_analogies.xml.h:410
 msgid "cage | zoo | zoological garden"
 msgstr "klec | zoo | zoologická zahrada"
 
-#: ../data/verbal_analogies.xml.h:405
+#: ../data/verbal_analogies.xml.h:411
 msgid "A fish in an aquarium lives in captivity."
 msgstr "Rybičky v akváriu žijí v zajetí."
 
-#: ../data/verbal_analogies.xml.h:406
+#: ../data/verbal_analogies.xml.h:412
 msgid "ring / finger | bracelet"
 msgstr "prsten / prst | náramek"
 
-#: ../data/verbal_analogies.xml.h:407
+#: ../data/verbal_analogies.xml.h:413
 msgid "wrist | arm"
 msgstr "zápěstí"
 
-#: ../data/verbal_analogies.xml.h:408
+#: ../data/verbal_analogies.xml.h:414
 msgid "seal / flippers | bird"
 msgstr "tuleň / ploutve | pták"
 
-#: ../data/verbal_analogies.xml.h:409
+#: ../data/verbal_analogies.xml.h:415
 msgid "wings"
 msgstr "křídla"
 
 #. Translators: stick refers to a piece of wood
-#: ../data/verbal_analogies.xml.h:411
+#: ../data/verbal_analogies.xml.h:417
 msgid "stick / float | stone"
 msgstr "větev / plavat | kámen"
 
-#: ../data/verbal_analogies.xml.h:412
+#: ../data/verbal_analogies.xml.h:418
 msgid "sink"
 msgstr "potopit se"
 
-#: ../data/verbal_analogies.xml.h:413
+#: ../data/verbal_analogies.xml.h:419
 msgid "leopard / spots | tiger"
 msgstr "leopard / skvrny | tigr"
 
-#: ../data/verbal_analogies.xml.h:414
+#: ../data/verbal_analogies.xml.h:420
 msgid "stripes"
 msgstr "pruhy"
 
 #. Translators: 'submarine' is used as a noun
-#: ../data/verbal_analogies.xml.h:416
+#: ../data/verbal_analogies.xml.h:422
 msgid "fish / submarine | bird"
 msgstr "ryba / ponorka | pták"
 
-#: ../data/verbal_analogies.xml.h:417
+#: ../data/verbal_analogies.xml.h:423
 msgid "airplane | aeroplane | plane"
 msgstr "letadlo | kluzák"
 
-#: ../data/verbal_analogies.xml.h:418
+#: ../data/verbal_analogies.xml.h:424
 msgid "tears / eyes | sweat"
 msgstr "slzy / oči | pot"
 
-#: ../data/verbal_analogies.xml.h:419
+#: ../data/verbal_analogies.xml.h:425
 msgid "body | skin"
 msgstr "tělo | kůže"
 
-#: ../data/verbal_analogies.xml.h:420
+#: ../data/verbal_analogies.xml.h:426
 msgid "bridge / over | tunnel"
 msgstr "most / přes | tunel"
 
-#: ../data/verbal_analogies.xml.h:421
+#: ../data/verbal_analogies.xml.h:427
 msgid "in | under | through"
 msgstr "v | do | pod | skrz"
 
 #. Translators: 'play' is used as a verb (to play)
-#: ../data/verbal_analogies.xml.h:423
+#: ../data/verbal_analogies.xml.h:429
 msgid "toy / play | tool"
 msgstr "hračka / hrát si | nástroj"
 
 #. Translators: 'work' is used as a verb (to work)
-#: ../data/verbal_analogies.xml.h:425
+#: ../data/verbal_analogies.xml.h:431
 msgid "work"
 msgstr "pracovat"
 
 #. 'correct' can be used as verb or adjective
-#: ../data/verbal_analogies.xml.h:427
+#: ../data/verbal_analogies.xml.h:433
 msgid "error / (to) correct | damage"
 msgstr "rozbitý / opravit | ohnutý"
 
-#: ../data/verbal_analogies.xml.h:428
+#: ../data/verbal_analogies.xml.h:434
 msgid "repair | fix"
 msgstr "narovnat"
 
-#: ../data/verbal_analogies.xml.h:429
+#: ../data/verbal_analogies.xml.h:435
 msgid "orange / fruit | spinach"
 msgstr "pomeranč / ovoce | špenát"
 
-#: ../data/verbal_analogies.xml.h:430
+#: ../data/verbal_analogies.xml.h:436
 msgid "vegetable"
 msgstr "zelenina"
 
-#: ../data/verbal_analogies.xml.h:431
+#: ../data/verbal_analogies.xml.h:437
 msgid "hands / grab | teeth"
 msgstr "ruce / chytat | zuby"
 
-#: ../data/verbal_analogies.xml.h:432
+#: ../data/verbal_analogies.xml.h:438
 msgid "bite"
 msgstr "kousat"
 
-#: ../data/verbal_analogies.xml.h:433
+#: ../data/verbal_analogies.xml.h:439
 msgid "Grab and bite are finite actions."
 msgstr "Chytání a kousání jsou výsledné akce."
 
-#: ../data/verbal_analogies.xml.h:434
+#: ../data/verbal_analogies.xml.h:440
 msgid "puzzle / solve | game"
 msgstr "hlavolam / vyřešit | hra"
 
-#: ../data/verbal_analogies.xml.h:435
+#: ../data/verbal_analogies.xml.h:441
 msgid "win | play"
 msgstr "vyhrát"
 
-#: ../data/verbal_analogies.xml.h:436
+#: ../data/verbal_analogies.xml.h:442
 msgid "eyebrow / eye | mustache"
 msgstr "obočí / oko | knír"
 
-#: ../data/verbal_analogies.xml.h:437
+#: ../data/verbal_analogies.xml.h:443
 msgid "lip | upper lip | mouth"
 msgstr "ret | horní ret | rty | pusa | ústa"
 
-#: ../data/verbal_analogies.xml.h:438
+#: ../data/verbal_analogies.xml.h:444
 msgid "ice / slippery | glue"
 msgstr "led / kluzký | med"
 
-#: ../data/verbal_analogies.xml.h:439
+#: ../data/verbal_analogies.xml.h:445
 msgid "sticky"
 msgstr "lepivý | lepkavý"
 
-#: ../data/verbal_analogies.xml.h:440
+#: ../data/verbal_analogies.xml.h:446
 msgid "whirlpool / water | tornado"
 msgstr "vlny / voda | vítr"
 
-#: ../data/verbal_analogies.xml.h:441
+#: ../data/verbal_analogies.xml.h:447
 msgid "wind | air"
 msgstr "vítr | vzduch"
 
-#: ../data/verbal_analogies.xml.h:442
+#: ../data/verbal_analogies.xml.h:448
 msgid "fox / den | bird"
 msgstr "liška / doupě | pták"
 
-#: ../data/verbal_analogies.xml.h:443
+#: ../data/verbal_analogies.xml.h:449
 msgid "nest"
 msgstr "hnízdo"
 
-#: ../data/verbal_analogies.xml.h:444
+#: ../data/verbal_analogies.xml.h:450
 msgid "dog / tame | wolf"
 msgstr "pes / ochočený | vlk"
 
-#: ../data/verbal_analogies.xml.h:445
+#: ../data/verbal_analogies.xml.h:451
 msgid "wild | savage"
 msgstr "divoký"
 
-#: ../data/verbal_analogies.xml.h:446
+#: ../data/verbal_analogies.xml.h:452
 msgid "sugar / sweet | vinegar"
 msgstr "cukr / sladký | ocet"
 
-#: ../data/verbal_analogies.xml.h:447
+#: ../data/verbal_analogies.xml.h:453
 msgid "sour"
 msgstr "kyselý"
 
-#: ../data/verbal_analogies.xml.h:448
+#: ../data/verbal_analogies.xml.h:454
 msgid "tennis / sport | ballet"
 msgstr "tenis / sport | balet"
 
 #. Translators: 'dance' is used as a noun
-#: ../data/verbal_analogies.xml.h:450
+#: ../data/verbal_analogies.xml.h:456
 msgid "dance"
 msgstr "tanec | kultura"
 
-#: ../data/verbal_analogies.xml.h:451
+#: ../data/verbal_analogies.xml.h:457
 msgid "slurp / tongue | snort"
 msgstr "usrkávat / jazyk | frkat"
 
-#: ../data/verbal_analogies.xml.h:452
+#: ../data/verbal_analogies.xml.h:458
 msgid "nose"
 msgstr "nos"
 
-#: ../data/verbal_analogies.xml.h:453
+#: ../data/verbal_analogies.xml.h:459
 msgid "elbow / knee | wrist"
 msgstr "loket / koleno | zápěstí"
 
-#: ../data/verbal_analogies.xml.h:454
+#: ../data/verbal_analogies.xml.h:460
 msgid "ankle"
 msgstr "kotník"
 
-#: ../data/verbal_analogies.xml.h:455
+#: ../data/verbal_analogies.xml.h:461
 msgid "novel / author | song"
 msgstr "román / spisovatel | píseň"
 
-#: ../data/verbal_analogies.xml.h:456
+#: ../data/verbal_analogies.xml.h:462
 msgid "composer | songwriter | lyricist"
 msgstr "skladatel | textař"
 
-#: ../data/verbal_analogies.xml.h:457
+#: ../data/verbal_analogies.xml.h:463
 msgid "car / road | train"
 msgstr "auto / silnice | vlak"
 
-#: ../data/verbal_analogies.xml.h:458
+#: ../data/verbal_analogies.xml.h:464
 msgid "track | railway | rails | railroad"
 msgstr "koleje | trať | železniční trať"
 
-#: ../data/verbal_analogies.xml.h:459
+#: ../data/verbal_analogies.xml.h:465
 msgid "pediatrics / children | numismatics"
 msgstr "pediatrie / dítě | numismatika"
 
-#: ../data/verbal_analogies.xml.h:460
+#: ../data/verbal_analogies.xml.h:466
 msgid "coins | currency | money"
 msgstr "mince | měna | měny | peníze"
 
-#: ../data/verbal_analogies.xml.h:461
+#: ../data/verbal_analogies.xml.h:467
 msgid "thermometer / temperature | clock"
 msgstr "teploměr / teplota | hodiny"
 
 #. Translators: time as duration of an event. What a clock measures
-#: ../data/verbal_analogies.xml.h:463
+#: ../data/verbal_analogies.xml.h:469
 msgid "time"
 msgstr "čas"
 
-#: ../data/verbal_analogies.xml.h:464
+#: ../data/verbal_analogies.xml.h:470
 msgid "poems / anthology | maps"
 msgstr "básně / sbírka | mapy"
 
-#: ../data/verbal_analogies.xml.h:465
+#: ../data/verbal_analogies.xml.h:471
 msgid "atlas"
 msgstr "atlas"
 
-#: ../data/verbal_analogies.xml.h:466
+#: ../data/verbal_analogies.xml.h:472
 msgid "letter / word | page"
 msgstr "písmeno / slovo | stránka"
 
-#: ../data/verbal_analogies.xml.h:467
+#: ../data/verbal_analogies.xml.h:473
 msgid "book | magazine | document"
 msgstr "kniha | časopis | dokument | sešit"
 
-#: ../data/verbal_analogies.xml.h:468
+#: ../data/verbal_analogies.xml.h:474
 msgid "hour / minute | minute"
 msgstr "hodina / minuta | minuta"
 
 #. Translators: refers to the unit of time
-#: ../data/verbal_analogies.xml.h:470
+#: ../data/verbal_analogies.xml.h:476
 msgid "second"
 msgstr "sekunda | vteřina"
 
-#: ../data/verbal_analogies.xml.h:471
+#: ../data/verbal_analogies.xml.h:477
 msgid "tiger / carnivore | cow"
 msgstr "tygr / masožravec | kráva"
 
-#: ../data/verbal_analogies.xml.h:472
+#: ../data/verbal_analogies.xml.h:478
 msgid "herbivorous | herbivore"
 msgstr "býložravec"
 
-#: ../data/verbal_analogies.xml.h:473
+#: ../data/verbal_analogies.xml.h:479
 msgid "constellation / stars | archipelago"
 msgstr "souhvězdí / hvězdy | archipel"
 
-#: ../data/verbal_analogies.xml.h:474
+#: ../data/verbal_analogies.xml.h:480
 msgid "islands"
 msgstr "ostrovy"
 
@@ -3130,10 +3190,6 @@ msgstr "Nainstalováno"
 msgid "Updates"
 msgstr "Aktualizace"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
-msgid "Gallery"
-msgstr "Galerie"
-
 #: ../src/Clients/Classical/MonoAddinsStrings.cs:69
 msgid "Repository:"
 msgstr "Repozitář:"
@@ -3721,8 +3777,8 @@ msgid ""
 "Mental calculation. Arithmetical operations that test your mental "
 "calculation abilities."
 msgstr ""
-"Početní úlohy – aritmetické výpočty, které otestují vaše dovednosti "
-"počítat z hlavy."
+"Početní úlohy – aritmetické výpočty, které otestují vaše dovednosti počítat "
+"z hlavy."
 
 #: ../src/Core/Views/WelcomeView.cs:104
 msgid "Memory trainers. To prove your short term memory."
