@@ -1,4 +1,4 @@
-# Hungarian translation for gbrainy_help.
+# Hungarian translation for gbrainy help.
 # Copyright (C) 2011, 2014, 2016, 2018 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 #
@@ -6,9 +6,9 @@
 # Balázs Úr <urbalazs at gmail dot com>, 2016, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: gbrainy_help master\n"
-"POT-Creation-Date: 2018-01-28 17:44+0000\n"
-"PO-Revision-Date: 2018-01-28 21:04+0100\n"
+"Project-Id-Version: gbrainy-help master\n"
+"POT-Creation-Date: 2018-06-10 16:10+0000\n"
+"PO-Revision-Date: 2018-09-13 23:40+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at googlegroups dot com>\n"
 "Language: hu\n"
@@ -269,8 +269,8 @@ msgid ""
 msgstr ""
 "A licenc teljes szövegéért lásd a <link href=\"https://creativecommons.org/"
 "licenses/by-sa/3.0/legalcode\">CreativeCommons weboldalát</link>, vagy a "
-"teljes <link href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons "
-"összefoglalót</link>."
+"teljes <link href=\"https://creativecommons.org/licenses/by-sa/3.0/"
+"\">Commons összefoglalót</link>."
 
 #. (itstool) path: info/title
 #: C/pause.page:6
@@ -777,19 +777,26 @@ msgstr ""
 
 #. (itstool) path: page/p
 #: C/gameplay.page:30
+#| msgid ""
+#| "You can choose different difficulty levels making <app>gbrainy</app> "
+#| "enjoyable for kids, adults or senior citizens. It also features a game "
+#| "history, personal records, tips and fullscreen mode support. "
+#| "<app>gbrainy</app> can also be <link href=\"https://wiki.gnome.org/"
+#| "gbrainy/Extending\">extended</link> easily with new games developed by "
+#| "third parties."
 msgid ""
 "You can choose different difficulty levels making <app>gbrainy</app> "
 "enjoyable for kids, adults or senior citizens. It also features a game "
 "history, personal records, tips and fullscreen mode support. <app>gbrainy</"
-"app> can also be <link href=\"https://wiki.gnome.org/gbrainy/Extending"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
 "\">extended</link> easily with new games developed by third parties."
 msgstr ""
 "Több nehézségi szint közül választhat, így a <app>gbrainy</app> egyaránt "
 "élvezhető gyerekek, felnőttek vagy idősek számára is. Tartalmaz "
 "játékelőzményeket, egyéni rekordokat, tippeket és a teljes képernyős mód is "
 "támogatott. A <app>gbrainy</app> egyszerűen <link href=\"https://wiki.gnome."
-"org/gbrainy/Extending\">kibővíthető</link> harmadik felek által készített új "
-"játékokkal."
+"org/Apps/gbrainy/Extending\">kibővíthető</link> harmadik felek által "
+"készített új játékokkal."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
