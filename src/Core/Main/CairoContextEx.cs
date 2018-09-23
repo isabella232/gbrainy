@@ -71,7 +71,8 @@ namespace gbrainy.Core.Main
 
 				Save ();
 				Rectangle (0, 0, 1, 1);
-				Scale (0.999 / image.Width, 0.999 / image.Height);
+                Stroke ();
+				Scale (0.999999 / image.Width, 0.999999 / image.Height);
 				image.RenderToCairo (Handle);
 				Restore ();
 			}
