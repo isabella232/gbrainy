@@ -1596,7 +1596,7 @@ msgstr "Tomàquet"
 
 #: ../data/verbal_analogies.xml.h:226
 msgid "It is the only one that does not have roots."
-msgstr "És l'única que no té arrels."
+msgstr "És l'únic que no té arrels."
 
 #. Translator: Organ as a musical instrument
 #: ../data/verbal_analogies.xml.h:228
@@ -3545,8 +3545,8 @@ msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
 msgstr ""
-"Utilitzeu la «selecció de la partida personalitzada» per a escollir "
-"exactament quins jocs voleu entrenar."
+"Utilitzeu la «Selecció de la partida personalitzada» per a escollir "
+"exactament quins jocs voleu jugar."
 
 #
 #: ../src/Core/Main/GameTips.cs:73 ../src/Core/Views/WelcomeView.cs:149
