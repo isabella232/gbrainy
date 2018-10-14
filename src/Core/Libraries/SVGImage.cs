@@ -31,7 +31,7 @@ namespace gbrainy.Core.Libraries
 		static extern void rsvg_handle_render_cairo (IntPtr Rsvghandle, IntPtr cairo_t);
 
 		[DllImport("rsvg-2")]
-		static extern IntPtr rsvg_handle_new_from_file (string file_name, out int error);
+		static extern IntPtr rsvg_handle_new_from_file (string file_name, out GError error);
 
 		[DllImport("rsvg-2")]
 		static extern void rsvg_handle_free (IntPtr handle);
@@ -40,7 +40,7 @@ namespace gbrainy.Core.Libraries
 		static extern void rsvg_handle_get_dimensions (IntPtr handle, ref RsvgDimensionData dimension);
 
 		[DllImport("rsvg-2")]
-		static extern IntPtr rsvg_handle_new_from_data (byte[] data, int len, out int error);
+		static extern IntPtr rsvg_handle_new_from_data (byte[] data, int len, out GError error);
 
 		[StructLayout(LayoutKind.Sequential)]
 		struct RsvgDimensionData
@@ -51,6 +51,13 @@ namespace gbrainy.Core.Libraries
 			public double ex;
 		}
 
+                struct GError
+                {
+			public int Domain;
+			public int Code;
+			public IntPtr Msg;
+                }
+
 		RsvgDimensionData dimension;
 		IntPtr handle;
 
@@ -59,7 +66,7 @@ namespace gbrainy.Core.Libraries
 			try {
 				byte[] array;
 				Stream stream;
-				int error = 0;
+				GError error;
 
 				stream =  _assembly.GetManifestResourceStream (resource);
 				array = new byte [stream.Length];
@@ -82,7 +89,7 @@ namespace gbrainy.Core.Libraries
 	
 		public SVGImage (string file)
 		{
-			int error = 0;
+			GError error;
 			dimension = new RsvgDimensionData ();
 
 			try {
