@@ -335,8 +335,9 @@
 			<_rationale>Every person has two legs and every horse four (2 * [men] + [horses] * 4). Every person and every horse have also two eyes (2 * [men] + 2 * [horses]).</_rationale>
 		</variant>
 	</game>
-
-	<game>
+<!--
+        Disabled due to a rendering problem with rsvg and lever.svg
+        <game>
 		<_name>Lever</_name>
 		<type>Logic</type>
 		<difficulty>All</difficulty>
@@ -370,7 +371,7 @@
 			<answer>[right_weight]</answer>
 		</variant>
 	</game>
-
+-->
 	<game>
 		<_name>Multiple number</_name>
 		<type>Calculation</type>
