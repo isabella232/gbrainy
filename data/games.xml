@@ -812,7 +812,7 @@
 		<variables>
 				int [] dists_a = new int [] {3, 8, 12};
 				int [] dists_b = new int [] {4, 6, 9};
-				int [] dists_c = new int [] {5, 10, 15};
+				int [] dists_c = new int [] {10, 20, 30};
 
 				int index = random.Next (dists_a.Length);
 				int dist_a = dists_a[index];
