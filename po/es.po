@@ -693,7 +693,7 @@ msgid ""
 "feet. Both turn left and walk another [dist_b] feet. What is the distance "
 "between them? [option_answers]"
 msgstr ""
-"Dos hombres empiezan a andar en el mismo punto en direcciones opuestas "
+"Dos hombres empiezan a andar en el mismo punto en direcciones opuestas durante "
 "[dist_a] metros. Ambos giran a la izquierda y caminan otros [dist_b] metros. "
 "¿Cuál es la distancia entre ambos hombres? [option_answers]"
 
@@ -1651,7 +1651,7 @@ msgstr "Serpiente"
 
 #: ../data/verbal_analogies.xml.h:237
 msgid "It is the only animal that does not have legs and it is not a mammal."
-msgstr "Es el único anila que no tiene piernas y no es mamífero."
+msgstr "Es el único animal que no tiene piernas y no es mamífero."
 
 #: ../data/verbal_analogies.xml.h:238
 msgid "Heptagon"
@@ -4793,7 +4793,7 @@ msgid ""
 "{3}."
 msgstr ""
 "¿Cuál de las siguientes figuras tiene el área más grande? Responde {0}, {1}, "
-"{2} o{3}."
+"{2} o {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:44
 msgid "Largest diameter"
@@ -5110,7 +5110,7 @@ msgid ""
 "people are there if the {0} person sits directly across from the {1}?"
 msgstr ""
 "Un grupo de personas está sentada en una mesa redonda y separadas por la "
-"misma distancia. ¿Cuántas personas hay si la persona {0} está en frente de "
+"misma distancia. ¿Cuántas personas hay si la {0} persona está en frente de "
 "{1}?"
 
 #: ../src/Games/Logic/PuzzlePeopleTable.cs:52
@@ -5676,12 +5676,12 @@ msgid_plural ""
 "parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
 "many hours will they meet?"
 msgstr[0] ""
-"Dos trenes separados {0} kilómetro van en la misma dirección, uno hacia el "
-"otro, en vías rectas paralelas. Uno viaja a {1} km/h y el otro a {2} km/h. "
+"Dos trenes separados {0} kilómetro se dirigen uno hacia el otro en "
+"en vías rectas paralelas. Uno viaja a {1} km/h y el otro a {2} km/h. "
 "¿En cuántas horas se encontrarán?"
 msgstr[1] ""
-"Dos trenes separados {0} kilómetros van en la misma dirección, uno hacia el "
-"otro, en vías rectas paralelas. Uno viaja a {1} km/h y el otro a {2} km/h. "
+"Dos trenes separados {0} kilómetros se dirigen uno hacia el otro en "
+"en vías rectas paralelas. Uno viaja a {1} km/h y el otro a {2} km/h. "
 "¿En cuántas horas se encontrarán?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:104
