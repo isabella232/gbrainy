@@ -571,7 +571,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/score.page:8
 msgid "How the player scores are calculated."
-msgstr "Cómo se calculan las puntaciones del jugados."
+msgstr "Cómo se calculan las puntuaciones del jugados."
 
 #. (itstool) path: page/title
 #: C/score.page:19
@@ -582,7 +582,7 @@ msgstr "Puntuaciones de las partidas y tiempos"
 #: C/score.page:20
 msgid "If you answer a puzzle incorrectly, you will not get any score for it."
 msgstr ""
-"Si respondes incorrectamente a un puzle no obtendrás ninguna puntación."
+"Si respondes incorrectamente a un puzle no obtendrás ninguna puntuación."
 
 #. (itstool) path: page/p
 #: C/score.page:23
