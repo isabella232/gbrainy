@@ -14,9 +14,9 @@
 
   <release>
     <Version>
-      <revision>2.3.8</revision>
-      <created>2018-10-15</created>
-      <file-release rdf:resource="https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.3.8.tar.gz"/>
+      <revision>2.3.9</revision>
+      <created>2018-11-21</created>
+      <file-release rdf:resource="https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.3.9.tar.gz"/>
     </Version>
   </release>
 
