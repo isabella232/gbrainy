@@ -1,5 +1,9 @@
 gbrainy NEWS
 
+Version 2.3.9
+* 2 bug fixes in games
+* Updated translations
+
 Version 2.3.8
 * Fixes bug with librsvg that prevented gbrainy from getting started
 
