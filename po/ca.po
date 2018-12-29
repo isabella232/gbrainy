@@ -687,7 +687,7 @@ msgid ""
 "between them? [option_answers]"
 msgstr ""
 "Dos homes començant al mateix punt caminen en direccions oposades durant "
-"[dist_a]km. Els dos giren cap a l'esquerra i caminen un altres [dist_b] km. "
+"[dist_a] km. Els dos giren cap a l'esquerra i caminen uns altres [dist_b] km. "
 "Quina distància hi ha entre ells? [option_answers]"
 
 #: ../data/games.xml.h:126
