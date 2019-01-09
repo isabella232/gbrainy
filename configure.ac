@@ -42,8 +42,12 @@ if test ! -x "$CSC"; then
 fi
 
 dnl -- Initialize docs
-
+enable_documentation=no
+m4_ifdef([YELP_HELP_INIT],[
 YELP_HELP_INIT
+enable_documentation=yes
+])
+AM_CONDITIONAL(ENABLE_DOCUMENTATION, test x$enable_documentation = xyes)
 
 dnl -- Check for mono pc file
 
