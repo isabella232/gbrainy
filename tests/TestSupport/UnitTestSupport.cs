@@ -17,6 +17,7 @@
 
 using System;
 using NUnit.Framework;
+using System.IO;
 
 using gbrainy.Core.Main;
 using gbrainy.Core.Services;
@@ -36,7 +37,8 @@ namespace gbrainy.Test
 				mono_path = ".";
 
 			// Configuration
-			ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, mono_path);
+            mono_path = Path.GetFullPath(mono_path);
+ 			ServiceLocator.Instance.GetService <IConfiguration> ().Set (ConfigurationKeys.AssembliesDir, mono_path);
 		}
 	}
 }
