@@ -125,7 +125,7 @@ public class GamesStatistics
 		GameSession session = new GameSession (translations);
 		GameManagerPreload (session.GameManager);
 
-		Console.WriteLine ("gbrainy {0} (built on {1})", Defines.VERSION, Defines.BUILD_TIME);
+		Console.WriteLine ("gbrainy {0}", Defines.VERSION);
 		Console.WriteLine (session.GameManager.GetGamesSummary (translations));
 		Console.WriteLine ("");
 		GetStatistics (session.GameManager, translations);

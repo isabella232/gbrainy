@@ -22,7 +22,6 @@ public static class Defines
 	public const string VERSION = "@VERSION@";
         public const string GNOME_LOCALE_DIR = "@prefix@/share/locale";
 	public const string DATA_DIR = "@prefix@/share/games/gbrainy/";
-	public const string BUILD_TIME = "@BUILD_TIME@";
 
 	public const string VERBAL_ANALOGIES = "verbal_analogies.xml";
 	public const string GAME_ASSEMBLY = "gbrainy.Games.dll";

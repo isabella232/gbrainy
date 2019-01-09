@@ -160,9 +160,6 @@ fi
 
 dnl --- Assembly information
 
-BUILD_TIME=`date +"%F %T %Z"`
-AC_SUBST(BUILD_TIME)
-
 COPYRIGHT="(c) 2007-2018 Jordi Mas i Hernandez"
 AC_SUBST(COPYRIGHT)
 
