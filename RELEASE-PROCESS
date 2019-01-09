@@ -22,10 +22,10 @@ See tests/README
 
 * Do a smoke test to verify that gbrainy has been built properly
 
-* Tag the gbrainy git repository naming the tag label GBRAINY_X_Y_Z, where X and Y are the major versions and Z the revision number.
+* Tag the gbrainy git repository naming the tag label X.Y.Z, where X and Y are the major versions and Z the revision number.
 
-  git tag -m "gbrainy X_Y_Z tag" -a GBRAINY_X_Y_Z
-  git push origin GBRAINY_X_Y_Z
+  git tag -m "gbrainy X.Y.Z tag" -a X.Y.Z
+  git push origin X.Y.Z
 
 * Upload the final tar.gz to a public location
 
