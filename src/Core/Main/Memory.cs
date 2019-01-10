@@ -189,13 +189,13 @@ namespace gbrainy.Core.Main
 				if (alpha > 0)
 					alpha -= (1 / (double) shading_time);
 
-				gr.Color = new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha);
+				gr.SetSourceColor (new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha));
 				DrawObjectToMemorize (gr, area_width, area_height, rtl);
 				return;
 			}
 		
 			alpha = 1;
-			gr.Color = new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha);
+			gr.SetSourceColor (new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha));
 			if (request_answer && Answer.Draw == false) {
 				DrawPossibleAnswers (gr, area_width, area_height, rtl);
 			} else {
@@ -206,7 +206,7 @@ namespace gbrainy.Core.Main
 		public override void DrawPreview (CairoContextEx gr, int width, int height, bool rtl)
 		{
 			gr.Scale (width, height);
-			gr.Color = new Cairo.Color (0, 0, 0);
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0));
 			gr.LineWidth = LineWidth;
 			DrawObjectToMemorize (gr, width, height, rtl);
 		}
@@ -237,7 +237,7 @@ namespace gbrainy.Core.Main
 			gr.Stroke ();
 
 			gr.Save ();
-			gr.Color = new Color (0, 0, 0);	
+			gr.SetSourceColor (new Color (0, 0, 0));
 			gr.MoveTo (x, y);
 			gr.LineTo (x, y + height);
 			gr.LineTo (x + width, y + height);
@@ -258,7 +258,7 @@ namespace gbrainy.Core.Main
 				gradient.AddColorStop (1, new Color (0.2, 0, 0, 1));
 			}
 
-			gr.Source = gradient;			
+			gr.SetSource (gradient);
 			gr.MoveTo (x, y);
 			gr.LineTo (x, y + height);
 			gr.LineTo (x + width, y + height);

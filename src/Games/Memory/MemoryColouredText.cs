@@ -97,7 +97,7 @@ namespace gbrainy.Games.Memory
 			for (int i = 0; i < colors_shown; i++)
 			{
 				idx = color_order [i];
-				gr.Color = palette.Cairo (idx);
+				gr.SetSourceColor (palette.Cairo (idx));
 				gr.MoveTo (x, y);
 				gr.ShowPangoText (palette.Name (i));
 				gr.Stroke ();

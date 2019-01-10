@@ -79,13 +79,13 @@ namespace gbrainy.Games.Logic
 			gr.Save ();
 
 			// A full sized square of paper
-			gr.Color = palette.Cairo (ColorPalette.Id.Yellow);
+			gr.SetSourceColor (palette.Cairo (ColorPalette.Id.Yellow));
 			gr.Rectangle (x, y, width, height);
 			gr.Fill ();
 			gr.Stroke ();
 
 			// 3/4 of the whole size square of paper in the bottom right corner
-			gr.Color = palette.Cairo (ColorPalette.Id.Blue);
+			gr.SetSourceColor (palette.Cairo (ColorPalette.Id.Blue));
 			double w = 3d/4d * width;
 			double h = 3d/4d * height;
 			gr.Rectangle (x + (width - w), y + (height - h), w, h);
@@ -93,13 +93,13 @@ namespace gbrainy.Games.Logic
 			gr.Stroke ();
 
 			// 3/4 square of paper in the top left corner
-			gr.Color = palette.Cairo (ColorPalette.Id.Green);
+			gr.SetSourceColor (palette.Cairo (ColorPalette.Id.Green));
 			gr.Rectangle (x, y, 3d/4d * width, 3d/4d * height);
 			gr.Fill ();
 			gr.Stroke ();
 			
 			// 1/4 square of paper in the top left corner
-			gr.Color = palette.Cairo (ColorPalette.Id.Red);
+			gr.SetSourceColor (palette.Cairo (ColorPalette.Id.Red));
 			gr.Rectangle (x, y, 1d/4d * width, 1d/4d * height);
 			gr.Fill ();
 			gr.Stroke ();

@@ -185,7 +185,7 @@ namespace gbrainy.Games.Memory
 		{
 			double x= DrawAreaX, y = DrawAreaY + 0.085;
 			int pos = 0;
-			gr.Color = new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, 1);
+			gr.SetSourceColor (new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, 1));
 
 			if (Answer.Draw ==  true) {
 				DrawAllFigures (gr, start_x_ans, start_y);
@@ -233,7 +233,7 @@ namespace gbrainy.Games.Memory
 			double org_x = x;
 
 			DrawGrid (gr, x, y);
-			gr.Color = new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha);
+			gr.SetSourceColor (new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha));
 			for (int figure = 0; figure < figures.Length; figure++, col++)
 			{
 				fig = figures[figure];
@@ -281,7 +281,7 @@ namespace gbrainy.Games.Memory
 
 		void DrawGrid (CairoContextEx gr, double x, double y)
 		{
-			gr.Color = new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha);
+			gr.SetSourceColor (new Color (DefaultDrawingColor.R, DefaultDrawingColor.G, DefaultDrawingColor.B, alpha));
 			for (int column = 0; column < columns; column++) {
 				for (int row = 0; row < rows; row++) {
 					gr.Rectangle (x + column * rect_w, y + row * rect_h, rect_w, rect_h);

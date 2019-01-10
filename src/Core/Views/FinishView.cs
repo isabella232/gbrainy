@@ -50,7 +50,7 @@ namespace gbrainy.Core.Views
 		{
 			gr.Save ();
 			gr.Rectangle (x, y, 1 - 0.06, 0.06);
-			gr.Color = new Cairo.Color (0, 0, 0.2, 0.2);
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0.2, 0.2));
 			gr.Fill ();
 			gr.Restore ();		
 		}
@@ -64,7 +64,7 @@ namespace gbrainy.Core.Views
 			gr.DrawTextCentered (x + w / 2, (y - 0.03) - h * per, String.Format ("{0}", percentage));
 
 			gr.Save ();
-			gr.Color = new Cairo.Color (0, 0, 0);	
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0));
 			gr.MoveTo (x, y);
 			gr.LineTo (x, y - h * per);
 			gr.LineTo (x + w, y - h * per);
@@ -137,7 +137,7 @@ namespace gbrainy.Core.Views
 			double width, height;
 
 			gr.Scale (area_width, area_height);
-			gr.Color = new Cairo.Color (0, 0, 0, 1);
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0, 1));
 
 			gr.MoveTo (x, y);
 			gr.ShowPangoText (Translations.GetString ("Score"), false, -1, 0);

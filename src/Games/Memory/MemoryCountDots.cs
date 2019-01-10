@@ -99,7 +99,7 @@ namespace gbrainy.Games.Memory
 			palette.Alpha = alpha;
 			double x = DrawAreaX + 0.15, y = DrawAreaY + 0.1;
 
-			gr.Color = palette.Cairo (ColorPalette.Id.Black);
+			gr.SetSourceColor (palette.Cairo (ColorPalette.Id.Black));
 			double pos_x = x, pos_y = y;
 			const double figure_size = 0.6;
 			const double square_size = figure_size / NUMCOLUMNS ;

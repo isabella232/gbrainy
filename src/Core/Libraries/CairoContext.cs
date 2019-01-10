@@ -35,7 +35,7 @@ namespace gbrainy.Core.Libraries
 		const double def_linespace = 0.018;
 		const double width_margin = 0.04;
 
-		public CairoContext (IntPtr handle) : base (handle)
+		public CairoContext (IntPtr handle) : base (handle, true)
 		{
 			layout = Pango.CairoHelper.CreateLayout (this);
 			FontLineSpace = def_linespace;
@@ -264,7 +264,7 @@ namespace gbrainy.Core.Libraries
 			LinearGradient shadow = new LinearGradient (x, y, x + w, y + h);
 			shadow.AddColorStop (0, new Cairo.Color (color.R, color.G, color.B, color.A));
 			shadow.AddColorStop (0.5, new Cairo.Color (color.R, color.G, color.B, color.A * 0.7));
-			Source = shadow;
+			SetSource (shadow);
 			Fill ();
 			Restore ();
 			((IDisposable)shadow).Dispose ();

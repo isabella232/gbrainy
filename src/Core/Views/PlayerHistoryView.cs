@@ -59,7 +59,7 @@ namespace gbrainy.Core.Views
 		void DrawAxisDescription (CairoContextEx cr, double x, double y, string description)
 		{
 			cr.Save ();
-			cr.Color = desc_color;
+			cr.SetSourceColor (desc_color);
 			cr.MoveTo (x, y);
 			cr.ShowPangoText (description);
 			cr.Stroke ();
@@ -74,49 +74,49 @@ namespace gbrainy.Core.Views
 			old_width = cr.LineWidth;
 			cr.LineWidth = 0.01;
 
-			cr.Color = total_color;
+			cr.SetSourceColor (total_color);
 			cr.MoveTo (x, y);
 			cr.LineTo (x + line_size, y);
 			cr.Stroke ();
-			cr.Color = text_color;
+			cr.SetSourceColor (text_color);
 			cr.MoveTo (x + line_size + offset_x, y - 0.01);
 			cr.ShowPangoText (Translations.GetString ("Total"));
 			cr.Stroke ();
 
-			cr.Color = logic_color;
+			cr.SetSourceColor (logic_color);
 			cr.MoveTo (x, y + second_row);
 			cr.LineTo (x + line_size, y + second_row);
 			cr.Stroke ();
-			cr.Color = text_color;
+			cr.SetSourceColor (text_color);
 			cr.MoveTo (x + line_size + offset_x, y - 0.01 + second_row);
 			cr.ShowPangoText (GameTypesDescription.GetLocalized (Translations, GameTypes.LogicPuzzle));
 			cr.Stroke ();
 
 			x += space_hor;
-			cr.Color = memory_color;
+			cr.SetSourceColor (memory_color);
 			cr.MoveTo (x, y);
 			cr.LineTo (x + line_size, y);
 			cr.Stroke ();
-			cr.Color = text_color;
+			cr.SetSourceColor (text_color);
 			cr.MoveTo (x + line_size + offset_x, y - 0.01);
 			cr.ShowPangoText (GameTypesDescription.GetLocalized (Translations, GameTypes.Memory));
 			cr.Stroke ();
 
-			cr.Color = math_color;
+			cr.SetSourceColor (math_color);
 			cr.MoveTo (x, y + second_row);
 			cr.LineTo (x + line_size, y + second_row);
 			cr.Stroke ();
-			cr.Color = text_color;
+			cr.SetSourceColor (text_color);
 			cr.MoveTo (x + line_size + offset_x, y - 0.01 + second_row);
 			cr.ShowPangoText (GameTypesDescription.GetLocalized (Translations, GameTypes.Calculation));
 			cr.Stroke ();
 
 			x += space_hor;
-			cr.Color = verbal_color;
+			cr.SetSourceColor (verbal_color);
 			cr.MoveTo (x, y);
 			cr.LineTo (x + line_size, y);
 			cr.Stroke ();
-			cr.Color = text_color;
+			cr.SetSourceColor (text_color);
 			cr.MoveTo (x + line_size + offset_x, y - 0.01);
 			cr.ShowPangoText (GameTypesDescription.GetLocalized (Translations, GameTypes.VerbalAnalogy));
 			cr.Stroke ();
@@ -136,7 +136,7 @@ namespace gbrainy.Core.Views
 			ratio = grid_width / (history.Games.Count - 1);
 
 			if (ShowLogic) {
-				cr.Color = logic_color;
+				cr.SetSourceColor (logic_color);
 				cr.MoveTo (x, grid_height - (grid_height * history.Games[0].LogicScore / 100));
 
 				pos = 1;
@@ -154,7 +154,7 @@ namespace gbrainy.Core.Views
 			}
 
 			if (ShowCalculation) {
-				cr.Color = math_color;
+				cr.SetSourceColor (math_color);
 				cr.MoveTo (x, grid_height - (grid_height * history.Games[0].MathScore / 100));
 
 				pos = 1;
@@ -172,7 +172,7 @@ namespace gbrainy.Core.Views
 			}
 
 			if (ShowMemory) {
-				cr.Color = memory_color;
+				cr.SetSourceColor (memory_color);
 				cr.MoveTo (x, grid_height - (grid_height * history.Games[0].MemoryScore / 100));
 
 				pos = 1;
@@ -190,7 +190,7 @@ namespace gbrainy.Core.Views
 			}
 
 			if (ShowVerbal) {
-				cr.Color = verbal_color;
+				cr.SetSourceColor (verbal_color);
 				cr.MoveTo (x, grid_height - (grid_height * history.Games[0].VerbalScore / 100));
 
 				pos = 1;
@@ -208,7 +208,7 @@ namespace gbrainy.Core.Views
 			}
 
 			if (ShowTotal) {
-				cr.Color = total_color;
+				cr.SetSourceColor (total_color);
 				cr.MoveTo (x, grid_height - (grid_height * history.Games[0].TotalScore / 100));
 
 				pos = 1;
@@ -235,7 +235,7 @@ namespace gbrainy.Core.Views
 			cr.Stroke ();
 
 			cr.Save ();
-			cr.Color = axis_color;
+			cr.SetSourceColor (axis_color);
 			cr.LineWidth = 0.001;
 
 			for (double line_y = y; line_y < grid_height + y; line_y += grid_height / 10) {
@@ -259,7 +259,7 @@ namespace gbrainy.Core.Views
 			double x = 0, y = 0;
 
 			// Background
-			cr.Color = new Cairo.Color (1, 1, 1);
+			cr.SetSourceColor (new Cairo.Color (1, 1, 1));
 			cr.Paint ();
 			cr.Stroke ();
 

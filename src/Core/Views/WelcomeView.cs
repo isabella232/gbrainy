@@ -134,7 +134,7 @@ namespace gbrainy.Core.Views
 			gr.Scale (area_width, area_height);
 			gr.LineWidth = 0.005;
 
-			gr.Color = new Cairo.Color (0, 0, 0, 1);
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0, 1));
 
 			gr.MoveTo (0.05, y);
 			// Translators: {0} is the version number of the program

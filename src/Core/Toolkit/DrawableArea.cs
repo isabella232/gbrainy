@@ -65,7 +65,7 @@ namespace gbrainy.Core.Toolkit
 
 				gr.Save ();
 
-				gr.Color = new Cairo.Color (0.5, 0.5, 0.5, 1);
+				gr.SetSourceColor (new Cairo.Color (0.5, 0.5, 0.5, 1));
 				gr.SetDash (dashes, 0);
 
 				if (SelectedArea.Width == 0 && SelectedArea.Height == 0)

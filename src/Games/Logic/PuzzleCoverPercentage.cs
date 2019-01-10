@@ -94,7 +94,6 @@ namespace gbrainy.Games.Logic
 			gr.Stroke ();
 
 			gr.Save ();
-			gr.Color = new Cairo.Color (0.90, 0.90, 0.90);
 			for (int i = 0; i < partial_zones; i++) {
 				Fill (gr, x + line_width, line_width + y, 
 					(w / 2) - (line_width * 2) , (h / 5) - (line_width * 2));

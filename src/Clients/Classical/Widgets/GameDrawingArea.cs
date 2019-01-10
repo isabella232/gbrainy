@@ -130,7 +130,7 @@ namespace gbrainy.Clients.Classical.Widgets
 				// Draw the game area
 				cr.Translate (OffsetX, OffsetY);
 				cr.SetPangoNormalFontSize ();
-				cr.Color = new Cairo.Color (1, 1, 1, 0.5);
+				cr.SetSourceColor (new Cairo.Color (1, 1, 1, 0.5));
 				Drawable.Draw (cr, DrawingSquare, DrawingSquare, Direction == Gtk.TextDirection.Rtl);
 				cr.Stroke ();
 			}
@@ -197,7 +197,7 @@ namespace gbrainy.Clients.Classical.Widgets
 			box_height_scaled = Math.Max (height_str, (double) solution_high / (double) height);
 
 			// Draw black box
-			cr.Color = new Cairo.Color (0.1, 0.1, 0.1);
+			cr.SetSourceColor (new Cairo.Color (0.1, 0.1, 0.1));
 
 			cr.Rectangle (text_margin,
 				1 - box_height_scaled - text_margin,
@@ -207,7 +207,7 @@ namespace gbrainy.Clients.Classical.Widgets
 			cr.Stroke ();
 
 			// Draw text and icon
-			cr.Color = new Cairo.Color (1, 1, 1);
+			cr.SetSourceColor (new Cairo.Color (1, 1, 1));
 
 			if (Direction == Gtk.TextDirection.Rtl)
 			{

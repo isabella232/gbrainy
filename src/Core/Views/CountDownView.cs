@@ -72,7 +72,7 @@ namespace gbrainy.Core.Views
 			gr.Scale (area_width, area_height);
 
 			gr.LineWidth = 0.01;
-			gr.Color = new Cairo.Color (0, 0, 0, 1);
+			gr.SetSourceColor (new Cairo.Color (0, 0, 0, 1));
 
 			gr.SetPangoLargeFontSize ();
 			gr.DrawTextCentered (0.5, 0.1, Translations.GetString ("Get ready to memorize the next objects..."));

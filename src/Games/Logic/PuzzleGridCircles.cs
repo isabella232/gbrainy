@@ -124,7 +124,7 @@ namespace gbrainy.Games.Logic
 					{
 						Number num = (Number) e.Data;
 
-						e.Context.Color = DefaultDrawingColor;
+						e.Context.SetSourceColor (DefaultDrawingColor);
 						e.Context.Rectangle (0, 0, e.Width, e.Height);
 						e.Context.Stroke ();
 

@@ -129,7 +129,7 @@ namespace gbrainy.Core.Main
 			LinearGradient shadow = new LinearGradient (x, y, x + w, y + h);
 			shadow.AddColorStop (0, new Cairo.Color (0, 0, 0, 0.3));
 			shadow.AddColorStop (0.5, new Cairo.Color (0, 0, 0, 0.1));
-			Source = shadow;
+			SetSource(shadow);
 			Fill ();
 			Restore ();
 			((IDisposable)shadow).Dispose ();
