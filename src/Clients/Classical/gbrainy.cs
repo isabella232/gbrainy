@@ -28,6 +28,7 @@ using gbrainy.Core.Services;
 using gbrainy.Core.Libraries;
 using gbrainy.Clients.Classical.Dialogs;
 using gbrainy.Clients.Classical.Widgets;
+using GLib;
 
 #if MONO_ADDINS
 using Mono.Addins;
@@ -39,7 +40,7 @@ namespace gbrainy.Clients.Classical
 	public class GtkClient
 	{
 		[Builder.Object("gbrainy")] Gtk.Window app_window;
-		[Builder.Object] Gtk.CheckMenuItem showtoolbar_menuitem;
+///		[Builder.Object] Gtk.CheckMenuItem showtoolbar_menuitem;
 		[Builder.Object] Box drawing_vbox;
 		[Builder.Object] Gtk.Box main_hbox;
 		[Builder.Object] Gtk.Box framework_vbox;
@@ -49,19 +50,25 @@ namespace gbrainy.Clients.Classical
 		[Builder.Object] Gtk.Button tip_button;
 		[Builder.Object] Gtk.Button next_button;
 		[Builder.Object] Gtk.Statusbar statusbar;
-		[Builder.Object] Gtk.MenuBar menubar;
-		[Builder.Object] Gtk.MenuItem pause_menuitem;
-		[Builder.Object] Gtk.MenuItem finish_menuitem;
-		[Builder.Object] Gtk.MenuItem newgame_menuitem;
-		[Builder.Object] Gtk.MenuItem allgames_menuitem;
-		[Builder.Object] Gtk.MenuItem logic_menuitem;
-		[Builder.Object] Gtk.MenuItem calculation_menuitem;
-		[Builder.Object] Gtk.MenuItem memory_menuitem;
-		[Builder.Object] Gtk.MenuItem verbal_menuitem;
-		[Builder.Object] Gtk.MenuItem extensions_menuitem;
-		[Builder.Object] Gtk.RadioMenuItem vertical_radiomenuitem;
-		[Builder.Object] Gtk.RadioMenuItem horizontal_radiomenuitem;
-		[Builder.Object] Gtk.MenuItem toolbar_orientation_menuitem;
+
+/*
+        Next steps:
+            - How to build the action to the menu
+            - How to enable / disable it
+*/
+		//[Builder.Object] Gtk.MenuBar menubar;
+		//[Builder.Object] Gtk.MenuItem pause_menuitem;
+		//[Builder.Object] Gtk.MenuItem finish_menuitem;
+//		[Builder.Object] SimpleAction newgame_menuitem;
+		//[Builder.Object] Gtk.MenuItem allgames_menuitem;
+		//[Builder.Object] Gtk.MenuItem logic_menuitem;
+		//[Builder.Object] Gtk.MenuItem calculation_menuitem;
+		//[Builder.Object] Gtk.MenuItem memory_menuitem;
+		//[Builder.Object] Gtk.MenuItem verbal_menuitem;
+		//[Builder.Object] Gtk.MenuItem extensions_menuitem;
+		//[Builder.Object] Gtk.RadioMenuItem vertical_radiomenuitem;
+		//[Builder.Object] Gtk.RadioMenuItem horizontal_radiomenuitem;
+		//[Builder.Object] Gtk.MenuItem toolbar_orientation_menuitem;
 
 		Widgets.Toolbar toolbar;
 
@@ -171,7 +178,7 @@ namespace gbrainy.Clients.Classical
 
 			app_window.ShowAll ();
 
-			toolbar_orientation_menuitem.Sensitive = toolbar.Visible;
+			/*toolbar_orientation_menuitem.Sensitive = toolbar.Visible;
 
 			// Check default radio button
 			switch (toolbar.Orientation) {
@@ -205,8 +212,9 @@ namespace gbrainy.Clients.Classical
 			extensions_menuitem.Visible = false;
 		#endif
 			ActiveInputControls (false);
-		}
-
+		
+*/
+        }
 		public void ProcessDefaults ()
 		{
 			if (InitialSessionType != GameSession.Types.None)
@@ -310,7 +318,7 @@ namespace gbrainy.Clients.Classical
 			answer_label.Sensitive = answer;
 			next_button.Sensitive = next;
 			tip_button.Sensitive = tip;
-			pause_menuitem.Sensitive = toolbar.PauseButton.Sensitive = can_pause;
+			//pause_menuitem.Sensitive = toolbar.PauseButton.Sensitive = can_pause;
 
 			if (answer == true)
 				answer_entry.GrabFocus ();
@@ -345,6 +353,9 @@ namespace gbrainy.Clients.Classical
 
 			available = session.AvailableGames;
 
+            SimpleAction action = new SimpleAction("newgame_menuitem", VariantType.Boolean);
+            action.Enabled = true;
+/*
 			if (playing == false && ((available & GameTypes.LogicPuzzle) == GameTypes.LogicPuzzle))
 				logic_menuitem.Sensitive = toolbar.LogicButton.Sensitive = true;
 			else
@@ -371,7 +382,7 @@ namespace gbrainy.Clients.Classical
 				allgames_menuitem.Sensitive = toolbar.AllButton.Sensitive = false;
 
 			finish_menuitem.Sensitive = playing;
-			newgame_menuitem.Sensitive = !playing;
+			newgame_menuitem.Sensitive = !playing;*/
 		}
 
 		private void GetNextGame ()
@@ -656,7 +667,7 @@ namespace gbrainy.Clients.Classical
 			if (toolbar.Visible)
 				toolbar.ShowArrow = false;
 
-			toolbar_orientation_menuitem.Sensitive = toolbar.Visible;
+			//toolbar_orientation_menuitem.Sensitive = toolbar.Visible;
 
 			if (Preferences.Get <bool> (Preferences.ToolbarShowKey) != toolbar.Visible)
 			{
@@ -719,7 +730,7 @@ namespace gbrainy.Clients.Classical
 
 		void OnExtending (object sender, EventArgs args)
 		{
-			Process.Start ("https://wiki.gnome.org/Apps/gbrainy/Extending");
+			System.Diagnostics.Process.Start ("https://wiki.gnome.org/Apps/gbrainy/Extending");
 		}
 
 		static void InitCoreLibraries ()
@@ -746,7 +757,7 @@ namespace gbrainy.Clients.Classical
 				Console.WriteLine ("gbrainy.Main. Could not set process name. Error {0}", e);
 			}
 
-			DateTime start_time = DateTime.Now;
+			System.DateTime start_time = System.DateTime.Now;
 			ITranslations translations = new TranslationsCatalog ();
 
 			InitCoreLibraries ();
@@ -772,7 +783,7 @@ namespace gbrainy.Clients.Classical
 			app.ProcessDefaults ();
 			ThemeManager.Load ();
 
-			TimeSpan span = DateTime.Now - start_time;
+			TimeSpan span = System.DateTime.Now - start_time;
 			Console.WriteLine (Catalog.GetString ("Startup time {0}"), span);
 			Gtk.Application.Run ();
 		}
