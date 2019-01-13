@@ -50,6 +50,7 @@ namespace gbrainy.Clients.Classical
 		[Builder.Object] Gtk.Button tip_button;
 		[Builder.Object] Gtk.Button next_button;
 		[Builder.Object] Gtk.Statusbar statusbar;
+        [Builder.Object] GLib.InitiallyUnowned primarymenu2;
 
 /*
         Next steps:

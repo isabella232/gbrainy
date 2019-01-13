@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.18.3 -->
 <interface>
   <requires lib="gtk+" version="3.10"/>
-  <menu id="primary-menu">
+  <menu id="primarymenu">
     <section>
 			<item>
 				<attribute name="id">newgame_menuitem</attribute>
@@ -12,6 +12,18 @@
 			</item>
     </section>
   </menu>
+
+ <menu id="primarymenu2">
+    <section>
+			<item>
+				<attribute name="id">newgame_menuitem</attribute>
+				<attribute name="label" translatable="yes">_New Game</attribute>
+				<attribute name="accel">&lt;Primary&gt;n</attribute>
+                <attribute name="action">OnAllGames</attribute>
+			</item>
+    </section>
+  </menu>
+
   <object class="GtkAdjustment" id="adjustment1">
     <property name="lower">4</property>
     <property name="upper">60</property>
@@ -69,7 +81,7 @@
 						<property name="valign">center</property>
 						<property name="can_focus">True</property>
 						<property name="focus_on_click">False</property>
-						<property name="menu_model">primary-menu</property>
+						<property name="menu_model">primarymenu</property>
 						<style>
 							<class name="image-button" />
 						</style>
