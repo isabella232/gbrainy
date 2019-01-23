@@ -62,7 +62,7 @@ namespace gbrainy.Games.Calculation
 				max_operand = 100;
 				break;
 			case GameDifficulty.Master:
-				max_operations = 5;
+				max_operations = 4;
 				max_operand = 500;
 				break;
 			}
@@ -110,7 +110,7 @@ namespace gbrainy.Games.Calculation
 			for (int i = 0; i < operands.Length - 1; i++)
 			{
 				gr.DrawTextAlignedRight (aligned_pos, operand_y, operands[i].ToString ());
-				gr.MoveTo (DrawAreaX + 0.2, operand_y + 0.03);	
+				gr.MoveTo (DrawAreaX + 0.3, operand_y + 0.03);
 
 				switch (operation) {
 				case Operation.Addition:
@@ -129,8 +129,8 @@ namespace gbrainy.Games.Calculation
 
 			gr.DrawTextAlignedRight (aligned_pos, operand_y, operands[operands.Length - 1].ToString ());
 
-			operand_y += 0.08;
-			gr.MoveTo (DrawAreaX + 0.2, operand_y);
+			operand_y += 0.13;
+			gr.MoveTo (DrawAreaX + 0.3, operand_y);
 			gr.LineTo (DrawAreaX + 0.5, operand_y);
 			gr.Stroke ();
 

@@ -118,16 +118,16 @@ namespace gbrainy.Games.Calculation
 			gr.DrawTextAlignedRight (aligned_pos, DrawAreaY + 0.3, number_b.ToString ());
 			gr.DrawTextAlignedRight (aligned_pos, DrawAreaY + 0.4, number_c.ToString ());
 
-			gr.MoveTo (DrawAreaX + 0.2, DrawAreaY + 0.5);
+			gr.MoveTo (DrawAreaX + 0.3, DrawAreaY + 0.5);
 			gr.LineTo (DrawAreaX + 0.5, DrawAreaY + 0.5);
 			gr.Stroke ();
 
 			gr.DrawTextAlignedRight (aligned_pos, DrawAreaY + 0.55, total.ToString ());
 
-			gr.MoveTo (DrawAreaX + 0.2, DrawAreaY + 0.25);
+			gr.MoveTo (DrawAreaX + 0.3, DrawAreaY + 0.25);
 			gr.ShowPangoText ((Answer.Draw == true) ? oper1.ToString () : "?");
 
-			gr.MoveTo (DrawAreaX + 0.2, DrawAreaY + 0.35);
+			gr.MoveTo (DrawAreaX + 0.3, DrawAreaY + 0.35);
 			gr.ShowPangoText ((Answer.Draw == true) ?  oper2.ToString () : "?");
 
 		}
