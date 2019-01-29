@@ -46,7 +46,7 @@ namespace gbrainy.Games.Logic
 			get {
 				// Translators: {0} is replaced by 'Figure X'
 				return String.Format (Translations.GetString (
-					"Starting from the first clock, add {1} to the number obtained by appending the values to which the hands point. For example, the values of the hands for '{0}' are {3} ({2} + {1})."),
+					"Starting from the first clock, add {1} to the number obtained by appending the values to which the hands point. For example, the value of the hands for '{0}' is {3} ({2} + {1})."),
 					Answer.GetFigureName (3), addition, handles [4].ToString () + handles [5].ToString (), handles [6].ToString () + handles [7].ToString ());
 			}
 		}
