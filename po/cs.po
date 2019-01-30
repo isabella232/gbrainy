@@ -5,14 +5,14 @@
 # Jaroslav Ryník <jrynik@yahoo.co.uk>, 2009. (original Slovak translation).
 # Lucas Lommer <llommer@svn.gnome.org>, 2009. (based on Mr. Rynik's work).
 # Petr Kovar <pknbe@volny.cz>, 2010.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2018-08-09 05:42+0000\n"
-"PO-Revision-Date: 2018-09-09 11:08+0200\n"
+"POT-Creation-Date: 2019-01-29 20:16+0000\n"
+"PO-Revision-Date: 2019-01-30 10:00+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -2533,46 +2533,40 @@ msgstr "ostrovy"
 msgid "Unknown command line parameter {0}"
 msgstr "Neznámý přepínač {0} v příkazové řádce"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(sestaveno {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Seznam dostupných her"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Použití: gbrainy [přepínače]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tVypsat informace o verzi."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tVypsat tento návod k použití."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tZobrazit seznam dostupných her."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
 msgstr ""
 "  --customgame [hra1, hraN]\tDefinuje seznam her pro hraní vlastní hry."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr ""
 "  --norandom \t\t\tU zadaného vlastního seznamu her nebude náhodné pořadí."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tZobrazit závislosti."
 
@@ -4170,8 +4164,8 @@ msgstr ""
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
 "V pořadí od prvních hodin, přičtěte {1} k číslu vzniklému sečtením hodnot, "
 "na které ukazují ručičky. Například pro „{0}“ je to {3} ({2} + {1})."
