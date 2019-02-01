@@ -1,19 +1,19 @@
 # Polish translation for gbrainy.
-# Copyright © 2010-2018 the gbrainy authors.
+# Copyright © 2010-2019 the gbrainy authors.
 # This file is distributed under the same license as the gbrainy package.
 # Konrad Boroń <konradmb@o2.pl>, 2010.
 # Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010.
 # Piotr Sokół <psokol@jabster.pl>, 2012.
 # Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013.
-# Piotr Drąg <piotrdrag@gmail.com>, 2014-2018.
-# Aviary.pl <community-poland@mozilla.org>, 2012-2018.
+# Piotr Drąg <piotrdrag@gmail.com>, 2014-2019.
+# Aviary.pl <community-poland@mozilla.org>, 2012-2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-12 20:15+0200\n"
-"PO-Revision-Date: 2018-08-12 20:17+0200\n"
+"POT-Creation-Date: 2019-02-01 19:20+0100\n"
+"PO-Revision-Date: 2019-02-01 19:21+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -2563,33 +2563,27 @@ msgstr "wyspy"
 msgid "Unknown command line parameter {0}"
 msgstr "Nieznany parametr wiersza poleceń {0}"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(skompilowano {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Lista dostępnych łamigłówek"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Użycie: gbrainy [opcje]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tWyświetla informacje o wersji."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tWyświetla komunikat pomocy."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tWyświetla listę dostępnych gier."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2597,12 +2591,12 @@ msgstr ""
 "  --customgame [game1, gameN]\tOkreśla własną listę łamigłówek do "
 "rozwiązania."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tPomija losowanie łamigłówek z własnej listy."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tWyświetla zależności."
 
@@ -2626,8 +2620,8 @@ msgstr ""
 "Bartosz Kosiorek <gang65@poczta.onet.pl>, 2010\n"
 "Piotr Sokół <psokol@jabster.pl>, 2012\n"
 "Mateusz Kacprzak <mateusz.kacprzak@yandex.ru>, 2012-2013\n"
-"Piotr Drąg <piotrdrag@gmail.com>, 2014-2018\n"
-"Aviary.pl <community-poland@mozilla.org>, 2012-2018"
+"Piotr Drąg <piotrdrag@gmail.com>, 2014-2019\n"
+"Aviary.pl <community-poland@mozilla.org>, 2012-2019"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:64
 msgid ""
@@ -4204,8 +4198,8 @@ msgstr ""
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
 "Aby wyznaczyć odpowiedź, należy do liczby wskazywanej na tarczy poprzedniego "
 "zegara, dodać liczbę {1}. Liczba wskazywana na tarczy zegara z podpisem "
