@@ -1,13 +1,13 @@
 # This file is distributed under the same license as the PACKAGE package.
-# (c) 2007-2018 Jordi Mas i Hernandez
+# (c) 2007-2019 Jordi Mas i Hernandez
 # Correccions per Gil Forcada, Sílvia Miranda, David Planella, Albert Juhé, Siegfried-Angel Gevatter i Pau Iranzo.
 # N.T.:
 # - Segons el context traduïm "Game" com a joc o partida.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-09 08:09+0200\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
+"POT-Creation-Date: 2019-01-29 20:16+0000\n"
 "PO-Revision-Date: 2018-01-28 09:11+0100\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -687,8 +687,8 @@ msgid ""
 "between them? [option_answers]"
 msgstr ""
 "Dos homes començant al mateix punt caminen en direccions oposades durant "
-"[dist_a] km. Els dos giren cap a l'esquerra i caminen uns altres [dist_b] km. "
-"Quina distància hi ha entre ells? [option_answers]"
+"[dist_a] km. Els dos giren cap a l'esquerra i caminen uns altres [dist_b] "
+"km. Quina distància hi ha entre ells? [option_answers]"
 
 #: ../data/games.xml.h:126
 msgid ""
@@ -2541,33 +2541,27 @@ msgstr "illes"
 msgid "Unknown command line parameter {0}"
 msgstr "El paràmetre de la línia d'ordres {0} és desconegut"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(muntat al {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Llista de jocs disponibles"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Ús: gbrainy [opcions]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tMostra informació sobre la versió."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tImprimeix aquest missatge."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tMostra la llista de jocs disponibles."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2575,14 +2569,14 @@ msgstr ""
 "  --customgame [game1, gameN]\tEspecifica la llista de jocs personalitzada "
 "per a una sessió."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr ""
 "  --norandom \t\t\tLa llista personalitzada de jocs proporcionada no serà "
 "generada aleatòriament."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tMostra les dependències."
 
@@ -4178,11 +4172,11 @@ msgstr ""
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
 "Començant des del primer rellotge, sumeu {1} al nombre que s'obté d'afegir "
-"els valors als quals apunten les manetes. Per exemple, els valors de les "
+"els valors als quals apunten les manetes. Per exemple, el valor de les "
 "manetes per «{0}» és {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:55
@@ -6305,3 +6299,4 @@ msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
+
