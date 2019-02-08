@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 19:20+0100\n"
-"PO-Revision-Date: 2019-02-01 19:21+0100\n"
+"POT-Creation-Date: 2019-02-08 20:04+0100\n"
+"PO-Revision-Date: 2019-02-08 20:05+0100\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -755,8 +755,10 @@ msgid ""
 msgstr "Gry logiczne, językowe, obliczeniowe i pamięciowe"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "gra;logiczna;pamięć;ćwiczenia;trening;zabawa;mózg;"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr ""
+"gra;logika;logiczna;pamięć;pamięciowe;ćwiczenia;trening;zabawa;mózg;rozum;"
+"językowe;obliczenia;obliczeniowe;liczenie;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
