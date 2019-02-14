@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2019-01-29 20:16+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-14 16:20+0100\n"
 "PO-Revision-Date: 2018-01-28 09:11+0100\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Softcatalà\n"
@@ -745,8 +745,8 @@ msgstr ""
 "verbals, de càlcul i memòria"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "joc;lògica;memòria;enginy;cervell;"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr "joc;lògica;memòria;enginy;cervell;verbal;càlcul;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -6299,4 +6299,3 @@ msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
 "el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
 "treballen junts? [option_answers]"
-
