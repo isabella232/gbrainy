@@ -1,16 +1,16 @@
 # Swedish translation for gbrainy.
-# Copyright © 2007, 2008, 2009, 2010, 2011, 2015, 2016, 2017, 2018 Free Software Foundation, Inc.
+# Copyright © 2007-2011, 2015-2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gbrainy package.
 # Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009, 2010, 2011.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019.
 # Josef Andersson <josef.andersson@fripost.org>, 2015, 2017, 2018.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2018-08-09 05:42+0000\n"
-"PO-Revision-Date: 2018-08-25 16:56+0200\n"
+"POT-Creation-Date: 2019-02-08 15:15+0000\n"
+"PO-Revision-Date: 2019-02-14 22:17+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -735,8 +735,8 @@ msgstr ""
 "Spela spel som utmanar dina logiska, verbala, räkne- och minnesfärdigheter"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "spel;logik;minne;tankenöt;hjärna;"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr "spel;logik;minne;tankenöt;hjärna;verbal;beräkning;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2520,33 +2520,27 @@ msgstr "öar"
 msgid "Unknown command line parameter {0}"
 msgstr "Okänd kommandoradsparameter {0}"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(byggdes {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Lista över tillgängliga spel"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Användning: gbrainy [flaggor]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tSkriv ut versionsinformation."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tSkriv ut detta användningsmeddelande."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tVisar listan över tillgängliga spel."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2554,12 +2548,12 @@ msgstr ""
 "  --customgame [spel1, spelN]\tAnge en lista över spel att spela under en "
 "anpassad spelomgång."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tDen anpassade spellistan ska inte slumpas fram."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tVisa beroenden."
 
@@ -4138,11 +4132,11 @@ msgstr ""
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
 "Starta från första klockan, lägg till {1} till talet som fås av att lägga "
-"till värdena som indikeras av visarna. Till exempel, värdena för visarna för "
+"till värdena som indikeras av visarna. Till exempel, värdet för visarna för "
 "”{0}” är {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:55
@@ -6247,6 +6241,9 @@ msgstr[1] ""
 "Johan behöver [john_time] timmar för att städa en lagerbyggnad och hans vän "
 "behöver dubbelt så lång tid som Johan. Hur många timmar skulle det ta för "
 "dem att städa butiken om de arbetade tillsammans? [option_answers]"
+
+#~ msgid "(built on {0})"
+#~ msgstr "(byggdes {0})"
 
 #~ msgid "[option_prefix] [answer_a]"
 #~ msgstr "[option_prefix] [answer_a]"
