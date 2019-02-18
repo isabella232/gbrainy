@@ -4,15 +4,15 @@
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013.
 # Richard Somloi <ricsipontaz at googlemail dot com>, 2010.
-# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015, 2016, 2017, 2019.
-# Balázs Meskó <mesko dot balazs at fsf dot hu>, 2018.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2014, 2015, 2016, 2017, 2019.
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2019-01-29 20:16+0000\n"
-"PO-Revision-Date: 2019-01-31 08:02+0100\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"POT-Creation-Date: 2019-02-08 15:15+0000\n"
+"PO-Revision-Date: 2019-02-18 17:07+0100\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -732,8 +732,8 @@ msgid ""
 msgstr "Tedd próbára logikai, emlékező, verbális és fejszámoló képességeid"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "játék;logika;memória;fejtörő;agy;"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr "játék;logika;memória;fejtörő;agy;szóbeli;számítás;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
