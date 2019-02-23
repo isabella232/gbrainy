@@ -1,5 +1,5 @@
 # Danish translation for gbrainy.
-# Copyright (C) 2018 gbrainy's COPYRIGHT HOLDER.
+# Copyright (C) 2019 gbrainy's COPYRIGHT HOLDER.
 # This file is distributed under the same license as the gbrainy package.
 #
 # monetary unit -> krone (kr.)
@@ -9,7 +9,7 @@
 # wrist -> håndled
 # * -> *
 #
-# Joe Hansen (joedalton2@yahoo.dk), 2009, 2010, 2011, 2012, 2015, 2016, 2018.
+# Joe Hansen (joedalton2@yahoo.dk), 2009, 2010, 2011, 2012, 2015, 2016, 2018, 2019.
 # Alan Mortensen <alanmotensen.am@gmail.com>, 2018.
 # Byrial Ole Jensen <byrial@vip.cybercity.dk>, 2012.
 # Korrekturlæst Torben Grøn Helligsø, 2009.
@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2018-10-25 06:24+0000\n"
+"POT-Creation-Date: 2019-02-08 15:15+0000\n"
 "PO-Revision-Date: 2018-11-06 20:05+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -746,8 +746,8 @@ msgstr ""
 "hukommelsesevner"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "spil;logik;hukommelse;drilleopgave;hjerne"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr "spil;logik;hukommelse;drilleopgave;hjerne;verbal;sproglig;beregning"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -2617,33 +2617,27 @@ msgstr "øer"
 msgid "Unknown command line parameter {0}"
 msgstr "Ukendt kommandolinjeparameter {0}"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(kompileret {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Liste over tilgængelige spil"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Brug: gbrainy [tilvalg]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tVis versionsinformation."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tVis denne brugsbesked."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tViser listen over tilgængelige spil."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2651,14 +2645,14 @@ msgstr ""
 "  --customgame [spil1, spilN]\tAngiver en liste af spil som skal spilles i "
 "et brugerdefineret spil."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr ""
 "  --norandom \t\t\tDen angivne brugerdefinerede spilliste vil ikke blive "
 "udført tilfældigt."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tVis afhængigheder."
 
@@ -4255,12 +4249,12 @@ msgstr "Hvilket tal skal den store viser på uret '{0}' pege på? Svar med tal."
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
-"Start fra det første ur. Læg {1} til værdien som opnås ved at sætte de 2 tal "
-"som et urs visere peger på, sammen for at få værdien for det næste ur, for "
-"eksempel er værdien for  viserne på '{0}' {3} ({2} + {1})."
+"Start fra det første ur. Læg {1} til værdien som opnås ved at tilføje de "
+"værdier, som hænderne peger på. For eksempel er værdien for hænderne for "
+"'{0}' lig med {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:55
 msgid "The clocks do not follow the time logic."
@@ -6355,6 +6349,9 @@ msgstr[1] ""
 "John skal bruge [john_time] timer til at rengøre lageret og hans ven skal "
 "bruge det dobbelte. Hvor mange timer vil det tage dem at gøre rent op på "
 "lageret, hvis de arbejder sammen? [option_answers]"
+
+#~ msgid "(built on {0})"
+#~ msgstr "(kompileret {0})"
 
 #~ msgid "[option_prefix] [answer_a]"
 #~ msgstr "[option_prefix] [answer_a]"
