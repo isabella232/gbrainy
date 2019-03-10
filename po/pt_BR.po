@@ -1,26 +1,27 @@
-# Brazilian portuguese translation of gbrainy.
-# Copyright (C) 2009-2018 the gbrainy'S COPYRIGHT HOLDER
+# Brazilian Portuguese translation of gbrainy.
+# Copyright (C) 2019 the gbrainy'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the grainy package.
 # Jonh Wendell <wendell@bani.com.br>, 2009.
 # Djavan Fagundes <djavan@comum.org>, 2010.
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2009-2011.
 # Gabriel Speckhahn <gabspeck@gmail.com>, 2011, 2012.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2016, 2018.
 # Enrico Nicoletto <liverig@gmail.com>, 2009, 2010, 2013, 2015, 2017.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2019.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: grainy master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2018-08-09 05:42+0000\n"
-"PO-Revision-Date: 2018-09-01 17:43-0200\n"
+"POT-Creation-Date: 2019-02-08 15:15+0000\n"
+"PO-Revision-Date: 2019-03-10 09:13-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language-Team: Portuguese - Brazil <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.31.90\n"
 "X-Project-Style: gnome\n"
 
 #: ../data/games.xml.h:1
@@ -649,22 +650,18 @@ msgstr ""
 "minha sobra vai cair? [option_answers]"
 
 #: ../data/games.xml.h:118
-#| msgid "[option_prefix] No"
 msgid "[option_prefix] To my left"
 msgstr "[option_prefix] Para minha esquerda"
 
 #: ../data/games.xml.h:119
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] To my right"
 msgstr "[option_prefix] Para minha direita"
 
 #: ../data/games.xml.h:120
-#| msgid "[option_prefix] His mother"
 msgid "[option_prefix] Behind me"
 msgstr "[option_prefix] Atrás de mim"
 
 #: ../data/games.xml.h:121
-#| msgid "[option_prefix] r < q"
 msgid "[option_prefix] In front of me"
 msgstr "[option_prefix] Na minha frente"
 
@@ -677,7 +674,6 @@ msgstr ""
 "tarde, a sombra cai para o leste."
 
 #: ../data/games.xml.h:123
-#| msgid "Two numbers"
 msgid "Two men"
 msgstr "Dois homens"
 
@@ -697,8 +693,8 @@ msgid ""
 "Using the Pythagorean theorem, the solution is 2 by the square root of "
 "([dist_a]^2 + [dist_b]^2)."
 msgstr ""
-"Usando o teorema de Pitágoras, a solução é 2 pela raiz quadrada de ([dist_a]^"
-"2 + [dist_b]^2)."
+"Usando o teorema de Pitágoras, a solução é 2 pela raiz quadrada de "
+"([dist_a]^2 + [dist_b]^2)."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
 msgid ""
@@ -747,8 +743,9 @@ msgstr ""
 "memória"
 
 #: ../data/gbrainy.desktop.in.h:4
-msgid "game;logic;memory;teaser;brain;"
-msgstr "jogo;lógica;memória;cérebro;quebra-cabeça"
+#| msgid "game;logic;memory;teaser;brain;"
+msgid "game;logic;memory;teaser;brain;verbal;calculation;"
+msgstr "jogo;lógica;memória;cérebro;quebra-cabeça;verbal;cálculo;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
@@ -815,7 +812,7 @@ msgstr "Cachorro e cavalo são espécies e terrier e pônei são raças."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "A palavra 'taxidermista' é usada para definir uma pessoa que?"
+msgstr "A palavra “taxidermista” é usada para definir uma pessoa que?"
 
 #: ../data/verbal_analogies.xml.h:18
 msgid "Works with dead animals"
@@ -857,7 +854,7 @@ msgstr "Heterodoxo"
 msgid "Which of the following words is the closest in meaning to 'censure'?"
 msgstr ""
 "Qual das seguintes palavras tem o significado mais próximo à palavra "
-"'censura'?"
+"“censura”?"
 
 #: ../data/verbal_analogies.xml.h:28
 msgid "Condemn"
@@ -899,7 +896,7 @@ msgstr "Mártir"
 
 #: ../data/verbal_analogies.xml.h:39
 msgid "Which of the following sentences defines better an 'ostracized' person?"
-msgstr "Qual das seguintes frases define melhor uma pessoa 'ostracizada'?"
+msgstr "Qual das seguintes frases define melhor uma pessoa “ostracizada”?"
 
 #: ../data/verbal_analogies.xml.h:40
 msgid "Person expelled from society"
@@ -981,7 +978,7 @@ msgstr "É o único que não é um instrumento de sopro."
 
 #: ../data/verbal_analogies.xml.h:62
 msgid "What is a 'halberd'?"
-msgstr "O que é uma 'alabarda'?"
+msgstr "O que é uma “alabarda”?"
 
 #: ../data/verbal_analogies.xml.h:63
 msgid "Weapon"
@@ -1103,7 +1100,7 @@ msgstr "É o único que não é carnívoro."
 #: ../data/verbal_analogies.xml.h:93
 msgid "Which of the following words is closest to the meaning of 'hedonism'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de 'hedonismo'?"
+"Qual das seguintes palavras é mais parecida com o significado de “hedonismo”?"
 
 #: ../data/verbal_analogies.xml.h:94
 msgid "Pleasure"
@@ -1131,7 +1128,7 @@ msgstr ""
 #: ../data/verbal_analogies.xml.h:99
 msgid "Which of the following words is closest to the meaning of 'asceticism'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de 'ascetismo'?"
+"Qual das seguintes palavras é mais parecida com o significado de “ascetismo”?"
 
 #: ../data/verbal_analogies.xml.h:100
 msgid "Positivism"
@@ -1148,7 +1145,7 @@ msgstr ""
 #: ../data/verbal_analogies.xml.h:102
 msgid "Which of the following words is closest to the meaning of 'oxymoron'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de 'paradoxo'?"
+"Qual das seguintes palavras é mais parecida com o significado de “paradoxo”?"
 
 #: ../data/verbal_analogies.xml.h:103
 msgid "Contradictory"
@@ -1250,7 +1247,7 @@ msgstr "É a única que não é uma especialidade médica."
 msgid "Which of the following words is closest to the meaning of 'negligent'?"
 msgstr ""
 "Qual das seguintes palavras é mais parecida com o significado de "
-"'negligente'?"
+"“negligente”?"
 
 #. Translator: Used as an adjective in English. Possible answer to: Which of the following words is closest to the meaning of 'negligent'
 #: ../data/verbal_analogies.xml.h:129
@@ -1303,7 +1300,7 @@ msgstr "As outras palavras têm a conotação de não ocorrer com frequência."
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
 msgstr ""
 "Qual das seguintes palavras é mais parecida com o significado de "
-"'desconcertante'?"
+"“desconcertante”?"
 
 #. Translator: As synonymous of 'perplexing'
 #: ../data/verbal_analogies.xml.h:145
@@ -1325,7 +1322,7 @@ msgstr "Trivial"
 #: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de 'infeliz'?"
+"Qual das seguintes palavras é mais parecida com o significado de “infeliz”?"
 
 #: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
@@ -1363,7 +1360,7 @@ msgstr "As outras palavras têm a conotação de distinto."
 msgid "Which of the following words is closest to the meaning of 'specific'?"
 msgstr ""
 "Qual das seguintes palavras é mais parecida com o significado de "
-"'específico'?"
+"“específico”?"
 
 #. Translator: Pertaining to a single or specific person or thing
 #: ../data/verbal_analogies.xml.h:160
@@ -1419,7 +1416,7 @@ msgstr "É a única que não é uma noz."
 #: ../data/verbal_analogies.xml.h:174
 msgid "Which of the following words is closest to the meaning of 'acclaim'?"
 msgstr ""
-"Qual das seguintes palavras é mais parecida com o significado de 'aclamar'?"
+"Qual das seguintes palavras é mais parecida com o significado de “aclamar”?"
 
 #: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
@@ -1465,7 +1462,7 @@ msgstr "Risco"
 msgid "Which of the following words is closest to the meaning of 'phlegmatic'?"
 msgstr ""
 "Qual das seguintes palavras é mais parecida com o significado de "
-"'fleumático'?"
+"“fleumático”?"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
@@ -1673,7 +1670,7 @@ msgstr "É o único que é um objeto sólido tridimensional."
 msgid "Which of the following words is the closest in meaning to 'intrinsic'?"
 msgstr ""
 "Qual das seguintes palavras tem o significado mais próximo à palavra "
-"'intrínseco'?"
+"“intrínseco”?"
 
 #: ../data/verbal_analogies.xml.h:244
 msgid "Inherent"
@@ -2223,7 +2220,6 @@ msgid "Brush"
 msgstr "Pincel"
 
 #: ../data/verbal_analogies.xml.h:388
-#| msgid "Air"
 msgid "Art"
 msgstr "Arte"
 
@@ -2234,7 +2230,6 @@ msgstr "Galeria"
 
 #. Translator: meaning a painted picture
 #: ../data/verbal_analogies.xml.h:391
-#| msgid "Pain"
 msgid "Painting"
 msgstr "Pintura"
 
@@ -2555,33 +2550,27 @@ msgstr "ilhas"
 msgid "Unknown command line parameter {0}"
 msgstr "Parâmetro de linha de comando {0} desconhecido"
 
-#. Translators: {0} is a date
-#: ../src/Clients/Classical/CommandLine.cs:108
-#, csharp-format
-msgid "(built on {0})"
-msgstr "(compilado no {0})"
-
-#: ../src/Clients/Classical/CommandLine.cs:119
+#: ../src/Clients/Classical/CommandLine.cs:117
 msgid "List of available games"
 msgstr "Lista de jogos disponíveis"
 
-#: ../src/Clients/Classical/CommandLine.cs:170
+#: ../src/Clients/Classical/CommandLine.cs:168
 msgid "Usage: gbrainy [options]"
 msgstr "Uso: gbrainy [opções]"
 
-#: ../src/Clients/Classical/CommandLine.cs:171
+#: ../src/Clients/Classical/CommandLine.cs:169
 msgid "  --version\t\t\tPrint version information."
 msgstr "  --version\t\t\tExibe as informações da versão."
 
-#: ../src/Clients/Classical/CommandLine.cs:172
+#: ../src/Clients/Classical/CommandLine.cs:170
 msgid "  --help\t\t\tPrint this usage message."
 msgstr "  --help\t\t\tExibe o uso desta mensagem."
 
-#: ../src/Clients/Classical/CommandLine.cs:173
+#: ../src/Clients/Classical/CommandLine.cs:171
 msgid "  --gamelist\t\t\tShows the list of available games."
 msgstr "  --gamelist\t\t\tExibe a lista de jogos disponíveis."
 
-#: ../src/Clients/Classical/CommandLine.cs:174
+#: ../src/Clients/Classical/CommandLine.cs:172
 msgid ""
 "  --customgame [game1, gameN]\tSpecifies a list of games to play during a "
 "custom game."
@@ -2589,12 +2578,12 @@ msgstr ""
 "  --customgame [game1, gameN]\tEspecifica a lista de jogos a serem jogados "
 "durante uma partida customizada."
 
-#: ../src/Clients/Classical/CommandLine.cs:175
+#: ../src/Clients/Classical/CommandLine.cs:173
 msgid ""
 "  --norandom \t\t\tThe custom game list provided will not be randomized."
 msgstr "  --norandom \t\t\tA partida customizada não irá ser randômica."
 
-#: ../src/Clients/Classical/CommandLine.cs:176
+#: ../src/Clients/Classical/CommandLine.cs:174
 msgid "  --versions \t\t\tShow dependencies."
 msgstr "  --versions \t\t\tExibe as dependências."
 
@@ -3556,7 +3545,7 @@ msgid ""
 "Use the 'Custom Game Selection' to choose exactly which games you want to "
 "play."
 msgstr ""
-"Use a 'Seleção de jogo personalizado' para escolher exatamente quais jogos "
+"Use a “Seleção de jogo personalizado” para escolher exatamente quais jogos "
 "você deseja jogar."
 
 #: ../src/Core/Main/GameTips.cs:73 ../src/Core/Views/WelcomeView.cs:149
@@ -3668,7 +3657,7 @@ msgid ""
 "relationship to '{0}'?"
 msgstr ""
 "Dado o relacionamento entre as duas palavras abaixo, qual palavra tem a "
-"mesma relação com '{0}'?"
+"mesma relação com “{0}”?"
 
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:110
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsOptions.cs:123
@@ -3927,7 +3916,7 @@ msgstr "O primeiro operador é {0}."
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
 msgstr ""
-"Quais operadores fazem {0}, {1}, e {2} iguais a {3}? Responda usando '+-/*'."
+"Quais operadores fazem {0}, {1}, e {2} iguais a {3}? Responda usando “+-/*”."
 
 #: ../src/Games/Calculation/CalculationOperator.cs:107
 #: ../src/Games/Calculation/CalculationRatio.cs:84
@@ -4001,7 +3990,7 @@ msgid ""
 "that for every 'a' parts you have 'b' parts."
 msgstr ""
 "Uma razão especifica uma proporção entre dois números. Uma razão de a:b "
-"significa que a cada 'a' partes você tem 'b' partes."
+"significa que a cada “a” partes você tem “b” partes."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:96
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:112
@@ -4177,19 +4166,19 @@ msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
 "using numbers."
 msgstr ""
-"Para qual número o ponteiro grande do relógio '{0}' deve apontar? Responda "
+"Para qual número o ponteiro grande do relógio “{0}” deve apontar? Responda "
 "utilizando números."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:49
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
-"the values to which the hands point. For example, the values of the hands "
-"for '{0}' are {3} ({2} + {1})."
+"the values to which the hands point. For example, the value of the hands for "
+"'{0}' is {3} ({2} + {1})."
 msgstr ""
 "Começando do primeiro relógio, adicione {1} ao número obtido pelo acréscimo "
 "dos valores aos quais os ponteiros apontam. Por exemplo, os valores dos "
-"ponteiros para '{0}' são {3} ({2} + {1})."
+"ponteiros para “{0}” são {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:55
 msgid "The clocks do not follow the time logic."
@@ -4314,7 +4303,7 @@ msgstr "Séries de contagem"
 msgid ""
 "How many numbers '9' are required to represent the numbers between 10 to 100?"
 msgstr ""
-"Quantos números '9' são necessários para representar os números entre 10 e "
+"Quantos números “9” são necessários para representar os números entre 10 e "
 "100?"
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:66
@@ -4371,7 +4360,7 @@ msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Qual é a probabilidade de obter um '2' ou um '6' em um lance único de um "
+"Qual é a probabilidade de obter um “2” ou um “6” em um lance único de um "
 "dado sem modificações de 6 lados? Responda usando uma fração (ex.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
@@ -4383,7 +4372,7 @@ msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
-"Qual é a probabilidade de não obter um '5' em um lance único de um dado sem "
+"Qual é a probabilidade de não obter um “5” em um lance único de um dado sem "
 "modificações de 6 lados? Responda usando uma fração (ex.: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:58
@@ -4409,7 +4398,7 @@ msgid ""
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
 "Dois dados sem modificações de 6 lados são jogados simultaneamente. Qual a "
-"probabilidade de obter dois números '6'? Responda usando uma fração (ex.: "
+"probabilidade de obter dois números “6”? Responda usando uma fração (ex.: "
 "1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:66
@@ -4417,7 +4406,7 @@ msgid ""
 "There is 1 of 6 possibilities of getting a '6' on the first die and the same "
 "for the second die."
 msgstr ""
-"Existe 1 de 6 possibilidades de obter um '6' no primeiro dado e o mesmo para "
+"Existe 1 de 6 possibilidades de obter um “6” no primeiro dado e o mesmo para "
 "o segundo dado."
 
 #: ../src/Games/Logic/PuzzleDice.cs:71
@@ -4504,9 +4493,9 @@ msgid ""
 "circles, 'D' that the figures are separated, 'E' that there are three "
 "figures and 'F' that there are two figures."
 msgstr ""
-"'A' indica que as figuras estão sobrepostas, 'B' que são quadrados, 'C' que "
-"são círculos, 'D' que as figuras estão separadas, 'E' que são três figuras e "
-"'F' que são duas figuras."
+"“A” indica que as figuras estão sobrepostas, “B” que são quadrados, “C” que "
+"são círculos, “D” que as figuras estão separadas, “E” que são três figuras e "
+"“F” que são duas figuras."
 
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:42
 msgid "Figure pattern"
@@ -5614,7 +5603,7 @@ msgstr "Trens"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:50
 msgid "The distance formula is 'distance = rate x time'."
-msgstr "A fórmula da distância é 'distância = razão x tempo'."
+msgstr "A fórmula da distância é “distância = razão x tempo”."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
@@ -5759,7 +5748,7 @@ msgstr "Texto colorido"
 #: ../src/Games/Memory/MemoryColouredText.cs:42
 #, csharp-format
 msgid "What was the color of the text that said '{0}'?"
-msgstr "Qual era a cor do texto escrito '{0}'?"
+msgstr "Qual era a cor do texto escrito “{0}”?"
 
 #: ../src/Games/Memory/MemoryCountDots.cs:39
 msgid "Counting dots"
@@ -6311,6 +6300,9 @@ msgstr[1] ""
 "John precisa de [john_time] horas para limpar um armazém e seu amigo precisa "
 "de duas vezes o tempo de John. Quantas horas eles levariam para limpar o "
 "armazém se trabalhassem juntos? [option_answers]"
+
+#~ msgid "(built on {0})"
+#~ msgstr "(compilado no {0})"
 
 #~ msgid "[option_prefix] [answer_a]"
 #~ msgstr "[option_prefix] [answer_a]"
