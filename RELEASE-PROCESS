@@ -35,3 +35,4 @@ See tests/README
 
 * Review developer's documentation https://wiki.gnome.org/Apps/gbrainy/Extending
 
+* Update version and checksum at https://github.com/flathub/org.gnome.gbrainy and check build at https://flathub.org/builds/
