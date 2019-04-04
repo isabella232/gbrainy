@@ -1,4 +1,4 @@
-EXTRAFLAGS =  -unsafe -nowarn:0169 $(CSC_DEFINES) 
+EXTRAFLAGS = -nowarn:0169 $(CSC_DEFINES)
 
 WRAPPER = gbrainy
 TARGET_CFG = ../../gbrainy.exe.config

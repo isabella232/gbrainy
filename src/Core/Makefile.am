@@ -1,4 +1,4 @@
-CSFLAGS = -unsafe -target:library $(CSC_DEFINES)
+CSFLAGS = -target:library $(CSC_DEFINES)
 
 #Active when designing games
 #CSFLAGS += -D:DESIGN_MODE

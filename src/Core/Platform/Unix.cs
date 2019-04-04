@@ -38,7 +38,7 @@ namespace gbrainy.Core.Platform
 		static extern void setproctitle (byte [] fmt, byte [] str_arg);
 
 		[DllImport("libgtk-3-0.dll")]
-		static extern unsafe bool gtk_show_uri(IntPtr screen, IntPtr uri, uint timestamp, out IntPtr error);
+		static extern bool gtk_show_uri(IntPtr screen, IntPtr uri, uint timestamp, out IntPtr error);
 
 		[DllImport ("libcanberra-gtk3.so.0")]
 		static extern void ca_gtk_play_for_widget (IntPtr widget, uint id, string name1, string prop1, string name2, string prop2, IntPtr nil);
@@ -103,7 +103,7 @@ namespace gbrainy.Core.Platform
 			}
 		}
 
-		public static unsafe bool ShowUri (Gdk.Screen screen, string uri, uint timestamp)
+		public static bool ShowUri (Gdk.Screen screen, string uri, uint timestamp)
 		{
 
 			bool rslt = false;
