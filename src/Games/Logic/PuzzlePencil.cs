@@ -27,7 +27,7 @@ namespace gbrainy.Games.Logic
 	public class PuzzlePencil : Game
 	{
 		private ArrayListIndicesRandom random_indices;
-		private const double figure_width = 0.1, figure_height = 0.1, space_width = 0.1, space_height = 0.15;
+		private const double figure_height = 0.1, space_width = 0.1, space_height = 0.15;
 		private const double figure_size = 0.2;
 		private const int figures = 5;
 		private const int answer_index = 4;

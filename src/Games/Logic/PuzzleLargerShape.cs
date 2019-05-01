@@ -26,7 +26,7 @@ namespace gbrainy.Games.Logic
 {
 	public class PuzzleLargerShape : Game
 	{
-		private const double rect_witdh = 0.04, rect_height = 0.04, space_figures = 0.22;
+		private const double rect_witdh = 0.04, rect_height = 0.04;
 		private ArrayListIndicesRandom random_indices;
 		private const int answers = 4;
 		private char[] quest1, quest2, answer;

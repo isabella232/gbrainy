@@ -25,7 +25,6 @@ namespace gbrainy.Games.Logic
 	public class PuzzleClocks : Game
 	{
 		private const double figure_size = 0.3;
-		private const double radian = Math.PI / 180;
 		private int addition;
 		private int []handles;
 		private const int clocks = 4;

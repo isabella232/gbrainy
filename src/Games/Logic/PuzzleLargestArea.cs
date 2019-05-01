@@ -132,8 +132,6 @@ namespace gbrainy.Games.Logic
 		internal abstract class Figure
 		{
 			Random random = new Random ();
-			const double figure_size = 0.3;
-			const double margin = 0.005;
 
 			public double GetRandom (double max)
 			{

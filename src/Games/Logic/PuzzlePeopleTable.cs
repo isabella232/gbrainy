@@ -24,21 +24,8 @@ namespace gbrainy.Games.Logic
 {
 	public class PuzzlePeopleTable : Game
 	{
-		private const double figure_size = 0.15;
 		private string ques1, ques2;
 	
-		private class Circle
-		{	
-			public double x;
-			public double y;
-
-			public Circle (double x, double y) 
-			{
-				this.x = x;
-				this.y = y;
-			}
-		}
-
 		public override string Name {
 			get {return Translations.GetString ("People at a table");}
 		}

@@ -41,7 +41,7 @@ namespace gbrainy.Games.Logic
 			2,2,3,0,0,	0,0,0,0,0,
 		};
 
-		private const double figure_width = 0.1, figure_height = 0.1, space_width = 0.05, space_height = 0;
+		private const double figure_height = 0.1, space_width = 0.05, space_height = 0;
 
 		public override string Name {
 			get {return Translations.GetString ("Balance");}

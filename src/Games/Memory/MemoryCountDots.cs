@@ -26,7 +26,6 @@ namespace gbrainy.Games.Memory
 	{
 		private const int NUMCOLUMNS = 7;
 		private const int MINDOTS = 1;
-		private const int MAXDOTS = 25;
 		private int maxdotscolor;
 		private int question_color;
 

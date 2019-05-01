@@ -29,7 +29,6 @@ namespace gbrainy.Games.Logic
 		const double figure_size = 0.25;
 		const int lines = 6;
 		const int columns = 6;
-		const int figures = 6;
 		static bool X = true;
 		static bool O = false;
 		const double space_figures = 0.05;
