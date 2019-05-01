@@ -719,7 +719,7 @@ msgid ""
 msgstr ""
 "gbrainy este un joc pentru antrenamentul memoriei, aritmeticii și a "
 "capabilităților logice cu multe tipuri de exerciții de diferite nivele de "
-"dificultate."
+"dificultate"
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""

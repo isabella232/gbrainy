@@ -715,7 +715,7 @@ msgid ""
 "with many sorts of exercises of different difficulty levels"
 msgstr ""
 "gbrainy ir atmiņas trenēšanas, aritmētikas un loģikas spēju spēle ar "
-"daudziem uzdevumiem ar dažādām grūtības pakāpēm."
+"daudziem uzdevumiem ar dažādām grūtības pakāpēm"
 
 #: ../data/gbrainy.appdata.xml.in.h:2
 msgid ""
@@ -723,7 +723,7 @@ msgid ""
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
 "gbrainy ir atmiņas trenēšanas, aritmētikas un loģikas spēju spēle ar "
-"daudziem uzdevumiem ar dažādām grūtības pakāpēm."
+"daudziem uzdevumiem ar dažādām grūtības pakāpēm"
 
 #: ../data/gbrainy.appdata.xml.in.h:3
 msgid ""
