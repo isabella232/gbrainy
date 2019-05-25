@@ -82,7 +82,6 @@ PKG_CHECK_MODULES(GBRAINY_CORE, mono >= $MONO_REQUIRED)
 
 PKG_CHECK_MODULES(GBRAINY, gtk-sharp-3.0 >= $GTKSHARP_REQUIRED)
 PKG_CHECK_MODULES(GBRAINY, libcanberra-gtk-3-0  >= $CANBERRA_GTK_REQUIRED)
-AC_SUBST(GBRAINY_LIBS)
 
 AC_ARG_ENABLE(addins, AC_HELP_STRING([--disable-addins], [Disable mono-addins support]), , enable_addins="no")
 
@@ -99,7 +98,6 @@ if test "x$enable_addins" = "xyes" -a "x$enable_addins_sharp" = "xno"; then
 fi
 
 if test "x$enable_addins" = "xyes"; then
-	AC_SUBST(MONO_ADDINS_LIBS)
 	CSC_DEFINES="$CSC_DEFINES -d:MONO_ADDINS"
 fi
 
@@ -128,7 +126,6 @@ else
 	PKG_CHECK_MODULES(NUNIT, nunit >= $NUNIT_REQUIRED,
 		do_tests="yes", do_tests="no")
 
-	AC_SUBST(NUNIT_LIBS)
 	AC_PATH_PROG(NUNIT, nunit-console)
 
 	if test ! -x "$NUNIT"; then
@@ -141,7 +138,6 @@ else
 		PKG_CHECK_MODULES(NUNIT, mono-nunit >= 2.4,
 			do_tests="yes", do_tests="no")
 
-		AC_SUBST(NUNIT_LIBS)
 		AM_CONDITIONAL(ENABLE_TESTS, test "x$do_tests" = "xyes")
 
 		if test "x$do_tests" = "xno"; then
@@ -169,22 +165,12 @@ AC_SUBST(COPYRIGHT)
 
 dnl --- Prologue
 
-AC_SUBST(CFLAGS)
-AC_SUBST(CPPFLAGS)
-AC_SUBST(LDFLAGS)
-
-AC_SUBST(CSC)
-AC_SUBST(CSC_DEFINES)
-
 expanded_libdir=`( case $prefix in NONE) prefix=$ac_default_prefix ;; *) ;; esac
 		   case $exec_prefix in NONE) exec_prefix=$prefix ;; *) ;; esac
 		   eval echo $libdir )`
 AC_SUBST(expanded_libdir)
 
 AC_CONFIG_FILES([src/Clients/Classical/gbrainy],[chmod +x src/Clients/Classical/gbrainy])
-
-GNOME_ICON_THEME_PREFIX=`$PKG_CONFIG --variable=prefix gnome-icon-theme`
-AC_SUBST(GNOME_ICON_THEME_PREFIX)
 
 AC_OUTPUT([
 src/Core/Main/Defines.cs
