@@ -18,6 +18,10 @@
     memory exercises, etc.
     </_p>
   </description>
+  <releases>
+     <release version="2.4.0" type="stable" date="2019-3-20">
+    </release>
+  </releases>
   <screenshots>
     <screenshot height="705" width="632">
       <image>https://gent.softcatala.org/jmas/gbrainy/gbrainy-screenshot-appdata.png</image>
