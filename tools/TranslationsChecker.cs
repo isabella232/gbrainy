@@ -23,7 +23,7 @@ using System.Collections.Generic;
 using MonoDevelop.Gettext;
 using System.Text.RegularExpressions;
 
-public class GameXmlToGetString
+public class TranslationsChecker
 {
 	public class Parser : CatalogParser
 	{
