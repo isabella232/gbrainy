@@ -15,7 +15,7 @@
   <release>
     <Version>
       <revision>2.4.0</revision>
-      <created>2018-3-20</created>
+      <created>2019-3-20</created>
       <file-release rdf:resource="https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.4.0.tar.gz"/>
     </Version>
   </release>
