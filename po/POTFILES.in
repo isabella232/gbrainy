@@ -116,4 +116,3 @@ src/Games/Memory/MemoryFiguresNumbers.cs
 src/Games/Memory/MemoryIndications.cs
 src/Games/Memory/MemoryNumbers.cs
 src/Games/Memory/MemoryWords.cs
-tools/GameXmlGetString.cs
