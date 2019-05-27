@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-08 20:04+0100\n"
-"PO-Revision-Date: 2019-02-08 20:05+0100\n"
+"POT-Creation-Date: 2019-05-27 18:32+0200\n"
+"PO-Revision-Date: 2019-05-27 18:33+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <community-poland@mozilla.org>\n"
 "Language: pl\n"
@@ -251,22 +251,13 @@ msgstr ""
 msgid "Horse race"
 msgstr "Wyścigi konne"
 
-#: ../data/games.xml.h:44 ../tools/GameXmlGetString.cs:63
+#: ../data/games.xml.h:44
 msgid ""
 "In a horse race there are people and horses. You count [eyes] eye and [legs] "
 "leg. How many horses are present?"
-msgid_plural ""
-"In a horse race there are people and horses. You count [eyes] eyes and "
-"[legs] legs. How many horses are present?"
-msgstr[0] ""
+msgstr ""
 "Na wyścigach konnych znajdują się ludzie i konie. Zliczono [eyes] oko "
 "i [legs] nogę. Ile koni znajduje się na torze?"
-msgstr[1] ""
-"Na wyścigach konnych znajdują się ludzie i konie. Zliczono [eyes] oczu "
-"i [legs] nogi. Ile koni znajduje się na torze?"
-msgstr[2] ""
-"Na wyścigach konnych znajdują się ludzie i konie. Zliczono [eyes] oczu "
-"i [legs] nóg. Ile koni znajduje się na torze?"
 
 #: ../data/games.xml.h:45
 msgid ""
@@ -334,7 +325,7 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:242
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:235
 #: ../src/Games/Logic/PuzzleFigures.cs:190
-#: ../src/Games/Logic/PuzzleGridDots.cs:338
+#: ../src/Games/Logic/PuzzleGridDots.cs:337
 #: ../src/Games/Logic/PuzzleLargerShape.cs:301
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:171
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:216
@@ -518,25 +509,13 @@ msgstr "Magazyn"
 msgid "Two trucks"
 msgstr "Dwie ciężarówki"
 
-#: ../data/games.xml.h:93 ../tools/GameXmlGetString.cs:79
+#: ../data/games.xml.h:93
 msgid ""
 "You have two trucks that have a total weight of [add] unit. If the lighter "
 "truck weights 15 units less that half of the weight of the heavier truck, "
 "what is the weight of the lighter truck? [option_answers]"
-msgid_plural ""
-"You have two trucks that have a total weight of [add] units. If the lighter "
-"truck weights 15 units less that half of the weight of the heavier truck, "
-"what is the weight of the lighter truck? [option_answers]"
-msgstr[0] ""
+msgstr ""
 "Dwie ciężarówki ważą razem [add] kilogram. Lżejsza ciężarówka waży 15 "
-"kilogramów mniej niż połowa wagi cięższej ciężarówki. Ile waży lżejsza "
-"ciężarówka? [option_answers] "
-msgstr[1] ""
-"Dwie ciężarówki ważą razem [add] kilogramy. Lżejsza ciężarówka waży 15 "
-"kilogramów mniej niż połowa wagi cięższej ciężarówki. Ile waży lżejsza "
-"ciężarówka? [option_answers] "
-msgstr[2] ""
-"Dwie ciężarówki ważą razem [add] kilogramów. Lżejsza ciężarówka waży 15 "
 "kilogramów mniej niż połowa wagi cięższej ciężarówki. Ile waży lżejsza "
 "ciężarówka? [option_answers] "
 
@@ -4182,12 +4161,12 @@ msgstr "8 jednostek"
 msgid "1 unit"
 msgstr "1 jednostka"
 
-#: ../src/Games/Logic/PuzzleClocks.cs:35
+#: ../src/Games/Logic/PuzzleClocks.cs:34
 msgid "Clocks"
 msgstr "Zegary"
 
 #. Translators: {0} is replaced by 'Figure X'
-#: ../src/Games/Logic/PuzzleClocks.cs:41
+#: ../src/Games/Logic/PuzzleClocks.cs:40
 #, csharp-format
 msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
@@ -4196,7 +4175,7 @@ msgstr ""
 "Na którą godzinę powinna wskazywać duża wskazówka zegara z podpisem „{0}”? "
 "Proszę odpowiedzieć podając liczbę."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:49
+#: ../src/Games/Logic/PuzzleClocks.cs:48
 #, csharp-format
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
@@ -4207,7 +4186,7 @@ msgstr ""
 "zegara, dodać liczbę {1}. Liczba wskazywana na tarczy zegara z podpisem "
 "„{0}” wynosi {3} ({2} + {1})."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:55
+#: ../src/Games/Logic/PuzzleClocks.cs:54
 msgid "The clocks do not follow the time logic."
 msgstr "Zegary nie kierują się logiką czasu."
 
@@ -4668,11 +4647,11 @@ msgstr "Każda liczba zakreślona w kółko ma pewną własność arytmetyczną
 msgid "Every circled number can be divided by {0}."
 msgstr "Każda liczba zaznaczona w kółko jest podzielna przez {0}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:203
+#: ../src/Games/Logic/PuzzleGridDots.cs:202
 msgid "Square with dots"
 msgstr "Kwadrat z kropkami"
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:208
+#: ../src/Games/Logic/PuzzleGridDots.cs:207
 #: ../src/Games/Logic/PuzzleNextFigure.cs:56
 #, csharp-format
 msgid ""
@@ -4681,7 +4660,7 @@ msgstr ""
 "Który kształt pasuje do sekwencji jako następny? Proszę wskazać odpowiedź "
 "{0}, {1} lub {2}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:217
+#: ../src/Games/Logic/PuzzleGridDots.cs:216
 msgid ""
 "From the top-left figure, the top-left circle moves down, the bottom-left "
 "circle moves up, the bottom-right moves diagonally up-left and the top-right "
@@ -4692,7 +4671,7 @@ msgstr ""
 "prawe koło jest przemieszczane po skosie w górę i lewo, a górne-prawe koło "
 "jest przemieszczane po skosie w dół i lewo."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:220
+#: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
 msgstr ""
@@ -4810,11 +4789,11 @@ msgstr ""
 "Który z poniższych kształtów można utworzyć składając ze sobą podane dwa "
 "pierwsze kształty? Proszę wskazać odpowiedź {0}, {1}, {2} lub {3}."
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:239
+#: ../src/Games/Logic/PuzzleLargestArea.cs:237
 msgid "Largest area"
 msgstr "Największa powierzchnia"
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:244
+#: ../src/Games/Logic/PuzzleLargestArea.cs:242
 #, csharp-format
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
@@ -5134,11 +5113,11 @@ msgstr ""
 "Która z poniższych figur nie może być narysowana bez wchodzenia na inne "
 "linie, oraz bez odrywania ręki? Odpowiedz {0}, {1}, {2}, {3} lub {4}."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:43
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:30
 msgid "People at a table"
 msgstr "Ludzie przy stole"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:47
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:34
 #, csharp-format
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
@@ -5147,7 +5126,7 @@ msgstr ""
 "Grupa ludzi siedzi przy okrągłym stole, w równych odległościach od siebie. "
 "Ile osób siedzi przy stole, jeżeli osoba {0} i {1} siedzą naprzeciwko siebie?"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:52
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:39
 msgid ""
 "Subtracting the two positions you find out how many people are seated half "
 "way around the table. Doubling this number leaves you with the total amount "
@@ -5156,31 +5135,31 @@ msgstr ""
 "Odejmując dwie pozycje dowiadujesz się, jak wiele osób siedzi na połowie "
 "drogi wokół stołu. Podwajając tę liczbę, otrzymasz całkowitą liczbę osób."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:60
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:47
 msgid "5th"
 msgstr "piąta"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:61
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:48
 msgid "19th"
 msgstr "dziewiętnasta"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:65
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:52
 msgid "4th"
 msgstr "czwarta"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:66
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:53
 msgid "12th"
 msgstr "dwunasta"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:70
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:57
 msgid "9th"
 msgstr "dziewiąta"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:71
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:58
 msgid "22nd"
 msgstr "dwudziesta druga"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:83
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:70
 msgid "Two people in the table sitting across from each other"
 msgstr "Dwie osoby przy stole siedzą naprzeciwko siebie"
 
@@ -5848,12 +5827,12 @@ msgstr "Kolorowy tekst"
 msgid "What was the color of the text that said '{0}'?"
 msgstr "Jaki był kolor tekstu z napisem „{0}”?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:39
+#: ../src/Games/Memory/MemoryCountDots.cs:38
 msgid "Counting dots"
 msgstr "Liczenie kropek"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:50
+#: ../src/Games/Memory/MemoryCountDots.cs:49
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
@@ -6222,234 +6201,3 @@ msgstr "niedźwiedź"
 #: ../src/Games/Memory/MemoryWords.cs:93
 msgid "wolf"
 msgstr "wilk"
-
-#: ../tools/GameXmlGetString.cs:27
-msgid ""
-"How many degrees rotates the minute hand of a clock in 2 hours [num] minute?"
-msgid_plural ""
-"How many degrees rotates the minute hand of a clock in 2 hours [num] minutes?"
-msgstr[0] ""
-"O ile stopni obraca się wskazówka minutowa zegara przez 2 godziny [num] "
-"minutę?"
-msgstr[1] ""
-"O ile stopni obraca się wskazówka minutowa zegara przez 2 godziny [num] "
-"minuty?"
-msgstr[2] ""
-"O ile stopni obraca się wskazówka minutowa zegara przez 2 godziny [num] "
-"minut?"
-
-#: ../tools/GameXmlGetString.cs:31
-msgid ""
-"John is 46 years old. His son is [difference] year younger than half of "
-"John's age. How old is John's son?"
-msgid_plural ""
-"John is 46 years old. His son is [difference] years younger than half of "
-"John's age. How old is John's son?"
-msgstr[0] ""
-"Jan ma 46 lat. Jego syn jest o [difference] rok młodszy niż połowa wieku "
-"Jana. Ile lat ma syn Jana?"
-msgstr[1] ""
-"Jan ma 46 lat. Jego syn jest o [difference] lata młodszy niż połowa wieku "
-"Jana. Ile lat ma syn Jana?"
-msgstr[2] ""
-"Jan ma 46 lat. Jego syn jest o [difference] lat młodszy niż połowa wieku "
-"Jana. Ile lat ma syn Jana?"
-
-#: ../tools/GameXmlGetString.cs:35
-msgid ""
-"John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-"[proportion] times as old as his son. How old is John's son nowadays?"
-msgid_plural ""
-"John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-"[proportion] times as old as his son. How old is John's son nowadays?"
-msgstr[0] ""
-"Jan ma dzisiaj dwa razy więcej lat niż jego syn. [ago] rok temu Jan był "
-"[proportion] razy starszy niż jego syn. Ile lat ma obecnie syn Jana?"
-msgstr[1] ""
-"Jan ma dzisiaj dwa razy więcej lat niż jego syn. [ago] lata temu Jan był "
-"[proportion] razy starszy niż jego syn. Ile lat ma obecnie syn Jana?"
-msgstr[2] ""
-"Jan ma dzisiaj dwa razy więcej lat niż jego syn. [ago] lat temu Jan był "
-"[proportion] razy starszy niż jego syn. Ile lat ma obecnie syn Jana?"
-
-#: ../tools/GameXmlGetString.cs:39
-msgid ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] year ago, John was [proportion] times as old as his "
-"son: x - [ago] = (y - [ago]) * [proportion]."
-msgid_plural ""
-"John's age (variable x) is nowadays 2 times his son's age (variable y), that "
-"is x = 2y, and [ago] years ago, John was [proportion] times as old as his "
-"son: x - [ago] = (y - [ago]) * [proportion]."
-msgstr[0] ""
-"Wiek Jana (zmienna x) jest aktualnie 2 razy wyższy od wieku jego syna "
-"(zmienna y), co opisuje równanie x = 2y. [ago] rok temu Jan był [proportion] "
-"razy starszy od swojego syna. Drugier równanie będzie zatem mieć następującą "
-"postać: x - [ago] = (y - [ago]) * [proportion]."
-msgstr[1] ""
-"Wiek Jana (zmienna x) jest aktualnie 2 razy wyższy od wieku jego syna "
-"(zmienna y), co opisuje równanie x = 2y. [ago] lata temu Jan był "
-"[proportion] razy starszy od swojego syna. Drugier równanie będzie zatem "
-"mieć następującą postać: x - [ago] = (y - [ago]) * [proportion]."
-msgstr[2] ""
-"Wiek Jana (zmienna x) jest aktualnie 2 razy wyższy od wieku jego syna "
-"(zmienna y), co opisuje równanie x = 2y. [ago] lat temu Jan był [proportion] "
-"razy starszy od swojego syna. Drugie równanie będzie zatem mieć następującą "
-"postać: x - [ago] = (y - [ago]) * [proportion]."
-
-#: ../tools/GameXmlGetString.cs:43
-msgid ""
-"A file is protected by a password formed by a [digits] digit number "
-"represented in base 10 (ranging from 0 to 9). How many different passwords "
-"can you have?"
-msgid_plural ""
-"A file is protected by a password formed by a [digits] digits number "
-"represented in base 10 (ranging from 0 to 9). How many different passwords "
-"can you have?"
-msgstr[0] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 10 (cyfry z zakresu od 0 do 9). Ile jest możliwych różnych haseł?"
-msgstr[1] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 10 (cyfry z zakresu od 0 do 9). Ile jest możliwych różnych haseł?"
-msgstr[2] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 10 (cyfry z zakresu od 0 do 9). Ile jest możliwych różnych haseł?"
-
-#: ../tools/GameXmlGetString.cs:47
-msgid ""
-"A file is protected by a password formed by a [digits] digit represented in "
-"base 8 (ranging from 0 to 7). How many different passwords can you have?"
-msgid_plural ""
-"A file is protected by a password formed by a [digits] digits represented in "
-"base 8 (ranging from 0 to 7). How many different passwords can you have?"
-msgstr[0] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 8 (cyfry z zakresu od 0 do 7). Ile jest możliwych różnych haseł?"
-msgstr[1] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 8 (cyfry z zakresu od 0 do 7). Ile jest możliwych różnych haseł?"
-msgstr[2] ""
-"Plik jest zabezpieczony hasłem określonym jako [digits]-cyfrowa liczba "
-"o podstawie 8 (cyfry z zakresu od 0 do 7). Ile jest możliwych różnych haseł?"
-
-#: ../tools/GameXmlGetString.cs:51
-msgid ""
-"There is [games] tennis game played simultaneously. How many different "
-"forecasts are possible?"
-msgid_plural ""
-"There are [games] tennis games played simultaneously. How many different "
-"forecasts are possible?"
-msgstr[0] ""
-"Jest rozgrywany [games] mecz tenisa. Ile jest możliwych do uzyskania różnych "
-"wyników?"
-msgstr[1] ""
-"Jednocześnie są rozgrywane [games] mecze tenisa. Ile jest możliwych do "
-"uzyskania różnych wyników?"
-msgstr[2] ""
-"Jednocześnie jest rozgrywanych [games] meczy tenisa. Ile jest możliwych do "
-"uzyskania różnych wyników?"
-
-#: ../tools/GameXmlGetString.cs:55
-msgid ""
-"In a tennis tournament, in every match a player is eliminated after losing "
-"to a single opponent. How many matches does it take to determine the winner "
-"of a tennis tournament that starts with [players] player?"
-msgid_plural ""
-"In a tennis tournament, in every match a player is eliminated after losing "
-"to a single opponent. How many matches does it take to determine the winner "
-"of a tennis tournament that starts with [players] players?"
-msgstr[0] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
-"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
-"zwycięzcę turnieju, w którym bierze udział [players] gracz?"
-msgstr[1] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
-"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
-"zwycięzcę turnieju, w którym bierze udział [players] graczy?"
-msgstr[2] ""
-"W turnieju tenisa, w każdym meczu jeden z graczy jest eliminowany po tym, "
-"jak przegra z przeciwnikiem. Ile meczy należy rozegrać, aby wyłonić "
-"zwycięzcę turnieju, w którym bierze udział [players] graczy?"
-
-#: ../tools/GameXmlGetString.cs:59
-msgid ""
-"You have [money] monetary unit in your bank account at 10% interest "
-"compounded annually. How much money will you have at the end of 2 years?"
-msgid_plural ""
-"You have [money] monetary units in your bank account at 10% interest "
-"compounded annually. How much money will you have at the end of 2 years?"
-msgstr[0] ""
-"Oprocentowanie konta bankowego wynosi 10% w skali roku. Na koncie znajduje "
-"się [money] złoty. Ile pieniędzy będzie znajdować się na koncie po 2 latach?"
-msgstr[1] ""
-"Oprocentowanie konta bankowego wynosi 10% w skali roku. Na koncie znajduje "
-"się [money] złote. Ile pieniędzy będzie znajdować się na koncie po 2 latach?"
-msgstr[2] ""
-"Oprocentowanie konta bankowego wynosi 10% w skali roku. Na koncie znajduje "
-"się [money] złotych. Ile pieniędzy będzie znajdować się na koncie po 2 "
-"latach?"
-
-#: ../tools/GameXmlGetString.cs:67
-msgid ""
-"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
-"[friend]. Together they will need [answer_a] hour."
-msgid_plural ""
-"John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
-"[friend]. Together they will need [answer_a] hours."
-msgstr[0] ""
-"Jan sprząta z prędkością 1 / [john_time] na godzinę, a jego przyjaciel "
-"z prędkością 1 / [friend]. Wspólne sprzątanie magazynu zajmie im [answer_a] "
-"godzinę."
-msgstr[1] ""
-"Jan sprząta z prędkością 1 / [john_time] na godzinę, a jego przyjaciel "
-"z prędkością 1 / [friend]. Wspólne sprzątanie magazynu zajmie im [answer_a] "
-"godziny."
-msgstr[2] ""
-"Jan sprząta z prędkością 1 / [john_time] na godzinę, a jego przyjaciel "
-"z prędkością 1 / [friend]. Wspólne sprzątanie magazynu zajmie im [answer_a] "
-"godzin."
-
-#: ../tools/GameXmlGetString.cs:71
-msgid ""
-"John needs [john_time] hour to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
-msgid_plural ""
-"John needs [john_time] hours to clean a warehouse and his friend needs half "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
-msgstr[0] ""
-"Jan potrzebuje [john_time] godzinę, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
-msgstr[1] ""
-"Jan potrzebuje [john_time] godziny, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
-msgstr[2] ""
-"Jan potrzebuje [john_time] godzin, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta w połowę tego czasu. Ile godzin zajęłoby im "
-"posprzątanie magazynu, gdyby pracowali razem? [option_answers]"
-
-#: ../tools/GameXmlGetString.cs:75
-msgid ""
-"John needs [john_time] hour to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
-msgid_plural ""
-"John needs [john_time] hours to clean a warehouse and his friend needs twice "
-"as many. How many hours would it take them to clean up the warehouse if they "
-"worked together? [option_answers]"
-msgstr[0] ""
-"Jan potrzebuje [john_time] godzinę, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu, gdyby pracowali razem? [option_answers]"
-msgstr[1] ""
-"Jan potrzebuje [john_time] godziny, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu, gdyby pracowali razem? [option_answers]"
-msgstr[2] ""
-"Jan potrzebuje [john_time] godzin, aby posprzątać magazyn. Jego przyjaciel "
-"ten sam magazyn sprząta dwa razy dłużej. Ile godzin zajęłoby im posprzątanie "
-"magazynu, gdyby pracowali razem? [option_answers]"
