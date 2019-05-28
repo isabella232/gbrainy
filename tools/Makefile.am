@@ -36,8 +36,6 @@ GameXmlToAssembly.exe: $(GAMEXMLTOASSEMBLY_CSFILES) ../data/games.xml GameTempla
 		   $(CSC) -target:winexe -out:$@ $(EXTRAFLAGS) $(GAMEXMLTOASSEMBLY_CSFILES) $(ASSEMBLIES)
 		   export MONO_PATH=../src && $(MONO) $@
 
-GameXmlGetString.cs: GameXmlToGetString.exe
-
 
 all: GameXmlToGetString.exe
 
