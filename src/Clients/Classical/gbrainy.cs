@@ -112,12 +112,6 @@ namespace gbrainy.Clients.Classical
 			gm.LoadAssemblyGames (Defines.GAME_ASSEMBLY);
 			gm.LoadVerbalAnalogies (System.IO.Path.Combine (Defines.DATA_DIR, Defines.VERBAL_ANALOGIES));
 			gm.LoadGamesFromXml (System.IO.Path.Combine (Defines.DATA_DIR, Defines.GAMES_FILE));
-
-			if (Preferences.Get <bool> (Preferences.LoadPlugginsKey))
-			{			
-				gm.LoadPlugins ();
-				pluggins_loaded = true;
-			}
 		}
 
 		void BuildUI ()
