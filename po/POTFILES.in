@@ -15,7 +15,6 @@ src/Clients/Classical/Dialogs/PreferencesDialog.cs
 [type: gettext/glade]src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui
 src/Clients/Classical/gbrainy.cs
 [type: gettext/glade]src/Clients/Classical/gbrainy.ui
-src/Clients/Classical/MonoAddinsStrings.cs
 src/Clients/Classical/Widgets/BrowseFile.cs
 src/Clients/Classical/Widgets/GameDrawingArea.cs
 src/Clients/Classical/Widgets/Toolbar.cs
