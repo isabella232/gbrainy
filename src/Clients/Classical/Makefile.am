@@ -1,4 +1,4 @@
-EXTRAFLAGS = -nowarn:0169 $(CSC_DEFINES)
+#EXTRAFLAGS = -nowarn:0169 $(CSC_DEFINES)
 
 WRAPPER = gbrainy
 TARGET_CFG = ../../gbrainy.exe.config
@@ -21,7 +21,6 @@ GBRAINY_CSDISTFILES =					\
 
 ASSEMBLIES = \
 	 $(GBRAINY_LIBS)    		\
-	 $(MONO_ADDINS_LIBS)    	\
 	-r:../../gbrainy.Core.dll	\
 	-r:Mono.Posix
 
@@ -68,7 +67,6 @@ all: ../../gbrainy.exe $(TARGET_CFG)
 EXTRA_DIST =					\
 	gbrainy.ui 				\
 	$(srcdir)/gbrainy.exe.config.in 	\
-	$(srcdir)/MonoAddinsStrings.cs	 	\
 	$(srcdir)/gbrainy.ui 			\
 	$(srcdir)/Dialogs/ui/PreferencesDialog.ui \
 	$(srcdir)/Dialogs/ui/PlayerHistoryDialog.ui \

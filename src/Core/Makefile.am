@@ -86,16 +86,13 @@ RES = \
 $(top_srcdir)/data/app-graphics/logic-games.svg		\
 $(top_srcdir)/data/app-graphics/math-games.svg		\
 $(top_srcdir)/data/app-graphics/memory-games.svg	\
-$(top_srcdir)/data/app-graphics/verbal-games.svg	\
-$(srcdir)/gbrainy.addin.xml
-
+$(top_srcdir)/data/app-graphics/verbal-games.svg
 
 REFS =  \
 	-r:System \
 	-r:Mono.Posix			\
 	-r:Mono.CSharp.dll		\
-	 $(GBRAINY_LIBS)    		\
-	 $(MONO_ADDINS_LIBS)
+	 $(GBRAINY_LIBS)
 
 RES_CSFLAGS = $(foreach res, $(RES), -resource:$(res))
 

@@ -29,10 +29,6 @@ using gbrainy.Core.Libraries;
 using gbrainy.Clients.Classical.Dialogs;
 using gbrainy.Clients.Classical.Widgets;
 
-#if MONO_ADDINS
-using Mono.Addins;
-using Mono.Addins.Setup;
-#endif
 
 namespace gbrainy.Clients.Classical
 {
@@ -190,20 +186,7 @@ namespace gbrainy.Clients.Classical
 			if (show_toolbar == false)
 				showtoolbar_menuitem.Active = false;
 
-		#if MONO_ADDINS
-			extensions_menuitem.Activated += delegate (object sender, EventArgs ar) 
-			{
-				if (pluggins_loaded == false)
-				{			
-					session.GameManager.LoadPlugins ();
-				}
-				Mono.Addins.Gui.AddinManagerWindow.Run (app_window);
-				GameManagerPreload (session.GameManager);
-				CustomGameDialog.Clear ();
-			};
-		#else
 			extensions_menuitem.Visible = false;
-		#endif
 			ActiveInputControls (false);
 		}
 
