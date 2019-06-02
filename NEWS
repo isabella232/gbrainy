@@ -1,5 +1,10 @@
 gbrainy NEWS
 
+Version 2.4.1
+* Remove mono-addins dependency
+* Improve gbrainy.appdata.xml.in metadata
+* Remove unused code and scripts variables
+
 Version 2.4.0
 * 2 bug fixes in games
 * Several fixes in the build system
