@@ -10,8 +10,6 @@ Here are the steps to create a new gbrainy release:
 
 * Run all the unit tests and verify that they pass
 
-* Go to the sample_extensions directory and verify that the extensions are built correctly
-
 See tests/README
 
 * Update the file NEWS with the most relevant changes
