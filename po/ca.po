@@ -933,7 +933,7 @@ msgstr "Hipocondria"
 #. Translators: Anthophobia is fear of flowers that poses little or no danger
 #: ../data/verbal_analogies.xml.h:49
 msgid "Anthophobia"
-msgstr "Antrofòbia"
+msgstr "Antofòbia"
 
 #. Translators: Acrophobia is fear of heights
 #: ../data/verbal_analogies.xml.h:51
