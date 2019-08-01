@@ -606,7 +606,7 @@ msgstr "Fàcil"
 #. (itstool) path: td/p
 #: C/score.page:35
 msgid "Medium"
-msgstr "Mestre"
+msgstr "Mitjà"
 
 #. (itstool) path: td/p
 #: C/score.page:36
