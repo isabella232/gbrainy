@@ -3412,7 +3412,7 @@ msgstr "Base de dades d'extensions:"
 #, csharp-format
 msgid "{0} game registered:"
 msgid_plural "{0} games registered:"
-msgstr[0] "{0} joc registrats:"
+msgstr[0] "{0} joc registrat:"
 msgstr[1] "{0} jocs registrats:"
 
 #: ../src/Core/Main/GameManager.cs:262
@@ -3440,7 +3440,7 @@ msgstr[1] "{0} entrenadors de memòria"
 #, csharp-format
 msgid "{0} verbal analogy"
 msgid_plural "{0} verbal analogies"
-msgstr[0] "{0} analogia verbals"
+msgstr[0] "{0} analogia verbal"
 msgstr[1] "{0} analogies verbals"
 
 #: ../src/Core/Main/GameSession.cs:181
@@ -6258,10 +6258,10 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
-"En Joan neteja a una velocitat de 1 / [john_time] per hora i el seu amic a "
+"En Joan neteja a una velocitat d'1 / [john_time] per hora i el seu amic a "
 "1 / [friend]. Junts necessitaran [answer_a] hora."
 msgstr[1] ""
-"En Joan neteja a una velocitat de 1 / [john_time] per hora i el seu amic a "
+"En Joan neteja a una velocitat d'1 / [john_time] per hora i el seu amic a "
 "1 / [friend]. Junts necessitaran [answer_a] hores."
 
 #: ../tools/GameXmlGetString.cs:71
