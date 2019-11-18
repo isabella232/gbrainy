@@ -552,7 +552,7 @@ msgstr "Com jugar amb altres persones."
 #. (itstool) path: page/title
 #: C/multiplayer.page:19
 msgid "Play with other people"
-msgstr "Jugueu amb altres persones"
+msgstr "Jugar amb altres persones"
 
 #. (itstool) path: page/p
 #: C/multiplayer.page:21
@@ -972,7 +972,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/newgame.page:150
 msgid "Play a session"
-msgstr "Jugueu una partida"
+msgstr "Jugar una partida"
 
 #. (itstool) path: note/p
 #: C/newgame.page:152
