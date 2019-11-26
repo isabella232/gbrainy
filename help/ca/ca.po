@@ -463,7 +463,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/history.page:25
 msgid "View the games history"
-msgstr "Visualitza l'historial del jugador"
+msgstr "Visualitzar l'historial del jugador"
 
 #. (itstool) path: section/p
 #: C/history.page:26
@@ -478,7 +478,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/history.page:33
 msgid "Select which results to show"
-msgstr "Seleccioneu quins resultats mostrar"
+msgstr "Seleccionar quins resultats mostrar"
 
 #. (itstool) path: section/p
 #: C/history.page:34
@@ -492,7 +492,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/history.page:41
 msgid "Change the number of saved games"
-msgstr "Canvieu el nombre de jocs desats"
+msgstr "Canviar el nombre de jocs desats"
 
 #. (itstool) path: section/p
 #: C/history.page:42
@@ -1024,7 +1024,7 @@ msgstr "Canvia el temps de presentació del desafiament als jocs de memòria."
 #. (itstool) path: page/title
 #: C/times.page:19
 msgid "Change the challenge duration"
-msgstr "Canvia la durada del desafiament"
+msgstr "Canviar la durada del desafiament"
 
 #. (itstool) path: page/p
 #: C/times.page:20
