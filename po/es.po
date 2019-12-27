@@ -1087,7 +1087,7 @@ msgstr "Hiena"
 
 #: ../data/verbal_analogies.xml.h:90
 msgid "Wolf"
-msgstr "Zorro"
+msgstr "Lobo"
 
 #: ../data/verbal_analogies.xml.h:91
 msgid "Deer"
