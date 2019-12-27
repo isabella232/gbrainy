@@ -1271,7 +1271,7 @@ msgstr "Enfadat"
 msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
-msgstr "No tenir la suficient diligència o cura en un afer."
+msgstr "No tenir la diligència o cura que s'espera en un afer."
 
 #: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
@@ -2062,7 +2062,7 @@ msgstr "Tancar"
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
-msgstr "Per fer funcionar els objectes, cal prémer el botó i girar la clau."
+msgstr "Per fer funcionar els dos objectes, cal prémer el botó i girar la clau."
 
 #: ../data/verbal_analogies.xml.h:346
 msgid "concept / idea | obsession"
@@ -3882,7 +3882,7 @@ msgstr ""
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:34
 msgid "Greatest divisor"
-msgstr "Divisor més gran"
+msgstr "Màxim comú divisor"
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:43
 #, csharp-format
