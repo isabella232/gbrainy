@@ -138,7 +138,7 @@ fi
 
 dnl --- Assembly information
 
-COPYRIGHT="(c) 2007-2019 Jordi Mas i Hernandez"
+COPYRIGHT="(c) 2007-2020 Jordi Mas i Hernandez"
 AC_SUBST(COPYRIGHT)
 
 dnl --- Prologue
