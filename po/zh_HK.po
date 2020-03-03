@@ -3510,7 +3510,7 @@ msgstr "檢視(_V)"
 
 #: ../src/Clients/Classical/mono-addins-strings.xml.h:1
 msgid "<b>Select the add-ins to install and click on Next</b>"
-msgstr "<b>選擇要安裝的增益集，並點擊「下一步」"
+msgstr "<b>選擇要安裝的增益集，並點擊「下一步」</b>"
 
 #: ../src/Clients/Classical/mono-addins-strings.xml.h:2
 msgid "<big><b>Add-in Manager</b></big>"
