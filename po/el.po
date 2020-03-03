@@ -2898,7 +2898,7 @@ msgstr "Σελίδες ανά πλευρά:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:18
 msgid "<b>Output File</b>"
-msgstr "<b> αρχείου εξόδου </ b>"
+msgstr "<b> αρχείου εξόδου </b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PlayerHistoryDialog.ui.h:1
 #: ../src/Clients/Classical/gbrainy.ui.h:19
