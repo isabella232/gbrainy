@@ -1,5 +1,8 @@
 gbrainy NEWS
 
+Version 2.4.2
+* Updated & fixes in translations
+
 Version 2.4.1
 * Remove mono-addins dependency
 * Improve gbrainy.appdata.xml.in metadata
