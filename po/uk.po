@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2020-03-28 17:37+0000\n"
-"PO-Revision-Date: 2020-04-04 11:42+0300\n"
+"POT-Creation-Date: 2020-04-04 08:44+0000\n"
+"PO-Revision-Date: 2020-04-12 22:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -60,6 +60,8 @@ msgid ""
 "John's son age is nowadays half of John's age minus [difference], that is, "
 "([father] / 2) - [difference]."
 msgstr ""
+"Вік сина Джона зараз є половиною віку Джона мінус [difference], тобто,"
+" ([father] / 2) - [difference]."
 
 #: ../data/games.xml.h:8
 msgid "Password"
@@ -110,6 +112,8 @@ msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
 msgstr ""
+"Складені відсотки виплачуються на основну суму разом із усіма накопиченими за"
+" минулий період відсотками."
 
 #: ../data/games.xml.h:16
 msgid "Simple equations"
@@ -198,6 +202,10 @@ msgid ""
 "are the next two consecutive palindromic years after [year_end] with the "
 "same gap? Answer using two numbers (e.g.: [year_start] and [year_end])."
 msgstr ""
+"[year_start] є паліндромним роком, як і [year_end]. Різниця між ними складає"
+" 11. Якими будуть наступні два послідовних паліндромних роки після [year_end]"
+" із такою самою різницею? Дайте відповідь у формі двох чисел (приклад:"
+" [year_start] і [year_end])."
 
 #: ../data/games.xml.h:37
 msgid ""
@@ -215,20 +223,26 @@ msgid ""
 "From year 1000 to year 10000, palindrome years occur at 110 year intervals "
 "except for the end of each millennium that occur at a 11 years interval."
 msgstr ""
+"У період із 1000 до 10000 року паліндромні роки трапляються із інтервалом у"
+" 110 років, окрім випадків завершення тисячоліття, коли між такими роками"
+" лише 11 років."
 
 #: ../data/games.xml.h:40
 msgid "Dartboard"
-msgstr ""
+msgstr "Мішень для дротиків"
 
 #: ../data/games.xml.h:41
 msgid ""
 "On the dartboard below, where would you need to throw the darts to add 120 "
 "points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
 msgstr ""
+"На намальованій нижче мішені слід визначити місця, куди слід влучити"
+" дротиком, щоб отримати 120 очок за 5 кидків. Відповідь слід дати у формі"
+" списку чисел (приклад: 4, 5, 6, 3, 2)"
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
-msgstr ""
+msgstr "Лише 3 з 4 чисел на мішені використовуються для отримання 120 очок."
 
 #: ../data/games.xml.h:43
 msgid "Horse race"
@@ -268,18 +282,24 @@ msgid ""
 "How much weight is needed at the point indicated by the question mark to "
 "balance the lever?"
 msgstr ""
+"Яку вагу слід покласти у вказаній знаком питання точці, щоб урівноважити"
+" важіль?"
 
 #: ../data/games.xml.h:48
 msgid ""
 "Consider the sentence attributed to Archimedes: 'Give me a lever long enough "
 "and a place to stand and I can move the Earth'."
 msgstr ""
+"Зважте на вислів, який приписують Архімеду: «Дайте мені достатньо довгий"
+" важіль і точку прикладання зусиль, і я зможу зрушити Землю»."
 
 #: ../data/games.xml.h:49
 msgid ""
 "A lever is in equilibrium when the objects placed on it are at a distances "
 "reciprocally proportional to their weights."
 msgstr ""
+"Важіль перебуває у рівновазі, якщо об'єкти на ньому розташовано на відстанях"
+" від точки опори, які взаємно пропорційних до їхньої ваги."
 
 #: ../data/games.xml.h:50
 msgid "Multiple number"
@@ -447,6 +467,8 @@ msgid ""
 "Given two integer numbers x and y, if x is even and y odd, which of the "
 "following expressions gives always an odd result? [option_answers]"
 msgstr ""
+"Якщо маємо два цілих числа x та y, при чому x є парним, а y — непарним, які"
+" вирази завжди даватиму непарний результат? [option_answers]"
 
 #: ../data/games.xml.h:86
 msgid "[option_prefix] 2x + y"
@@ -470,6 +492,8 @@ msgid ""
 "multiplied by 2 is even. Adding an odd number (y) to that even number always "
 "produces an odd number."
 msgstr ""
+"Множення на парне число завжди дає парне число, отже x помножене на 2 є"
+" парним. Додавання непарного числа (y) до парного завжди дає непарне число."
 
 #: ../data/games.xml.h:91
 msgid "Warehouse"
@@ -489,12 +513,21 @@ msgid_plural ""
 "truck weights 15 units less that half of the weight of the heavier truck, "
 "what is the weight of the lighter truck? [option_answers]"
 msgstr[0] ""
+"У вас є дві вантажівки із загальною вагою [add] одиниця ваги. Якщо легша"
+" вантажівка важить на 15 одиниць менше за половину ваги важчої вантажівки,"
+" якою є вага легшої вантажівки? [option_answers]"
 msgstr[1] ""
+"У вас є дві вантажівки із загальною вагою [add] одиниці ваги. Якщо легша"
+" вантажівка важить на 15 одиниць менше за половину ваги важчої вантажівки,"
+" якою є вага легшої вантажівки? [option_answers]"
 msgstr[2] ""
+"У вас є дві вантажівки із загальною вагою [add] одиниць ваги. Якщо легша"
+" вантажівка важить на 15 одиниць менше за половину ваги важчої вантажівки,"
+" якою є вага легшої вантажівки? [option_answers]"
 
 #: ../data/games.xml.h:94
 msgid "The heavier truck weights [heavier] and the lighter [lighter]."
-msgstr ""
+msgstr "Важча вантажівка важить [heavier], а легша — [lighter]."
 
 #: ../data/games.xml.h:95
 msgid "Family relations"
@@ -575,27 +608,27 @@ msgstr "Це результат операції: ([three] * 3)-([two] * 2)."
 
 #: ../data/games.xml.h:111
 msgid "Birthday"
-msgstr ""
+msgstr "День народження"
 
 #: ../data/games.xml.h:112
 msgid ""
 "A girl once said: 2 days ago I was 18 years old. Next year I will be 21 "
 "years old. Can this be true? [option_answers]"
 msgstr ""
+"Одного разу дівчина сказала: 2 дні тому мені було 18 років. Наступного року"
+" мені буде 21 рік. Чи може це бути правдою? [option_answers]"
 
 #: ../data/games.xml.h:113
-#| msgid "[option_prefix] s > p"
 msgid "[option_prefix] Yes"
 msgstr "[option_prefix] Так"
 
 #: ../data/games.xml.h:114
-#| msgid "[option_prefix] s > p"
 msgid "[option_prefix] No"
 msgstr "[option_prefix] Ні"
 
 #: ../data/games.xml.h:115
 msgid "She was born 31st of December and she said this on 1st of January."
-msgstr ""
+msgstr "Вона народилася 31 грудня і сказала це 1 січня."
 
 #: ../data/games.xml.h:116 ../data/verbal_analogies.xml.h:376
 msgid "Direction"
@@ -606,24 +639,22 @@ msgid ""
 "I go south on an evening when the sun shines. To which side of me will my "
 "shadow fall? [option_answers]"
 msgstr ""
+"Я йду на південь ввечері, коли ще видно сонце. На який бік від мене падає"
+" тінь? [option_answers]"
 
 #: ../data/games.xml.h:118
-#| msgid "[option_prefix] s > p"
 msgid "[option_prefix] To my left"
 msgstr "[option_prefix] Ліворуч від мене"
 
 #: ../data/games.xml.h:119
-#| msgid "[option_prefix] p < r"
 msgid "[option_prefix] To my right"
 msgstr "[option_prefix] Праворуч від мене"
 
 #: ../data/games.xml.h:120
-#| msgid "[option_prefix] His mother"
 msgid "[option_prefix] Behind me"
 msgstr "[option_prefix] За мною"
 
 #: ../data/games.xml.h:121
-#| msgid "[option_prefix] r < q"
 msgid "[option_prefix] In front of me"
 msgstr "[option_prefix] Переді мною"
 
@@ -632,9 +663,9 @@ msgid ""
 "If I go south then east is to my left and in the evening the shadow falls "
 "east."
 msgstr ""
+"Якщо я йду на південь, схід лишається ліворуч і ввечері тінь падає на схід."
 
 #: ../data/games.xml.h:123
-#| msgid "Two numbers"
 msgid "Two men"
 msgstr "Два чоловіки"
 
@@ -645,17 +676,19 @@ msgid ""
 "feet. Both turn left and walk another [dist_b] feet. What is the distance "
 "between them? [option_answers]"
 msgstr ""
+"Двоє почали рух із однієї точки у протилежних напрямках і пройшли [dist_a]"
+" футів. Обидва повернули ліворуч і пройшли ще [dist_b] футів. Якою є тепер"
+" відстань між ними? [option_answers]"
 
 #: ../data/games.xml.h:126
 msgid ""
 "Using the Pythagorean theorem, the solution is 2 by the square root of "
 "([dist_a]^2 + [dist_b]^2)."
 msgstr ""
+"За теоремою Піфагора, розв'язком є 2 на квадратний корінь з ([dist_a]^2 +"
+" [dist_b]^2)."
 
 #: ../data/gbrainy.appdata.xml.in.h:1
-#| msgid ""
-#| "gbrainy is a game to train memory, arithmetical and logical capabilities "
-#| "with many sorts of exercises of different difficulty levels."
 msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels"
@@ -702,10 +735,12 @@ msgstr ""
 #: ../data/gbrainy.desktop.in.h:4
 msgid "game;logic;memory;teaser;brain;verbal;calculation;"
 msgstr ""
+"game;logic;memory;teaser;brain;verbal;calculation;гра;логіка;пам'ять;мозок;обч"
+"ислення;кмітливість;"
 
 #: ../data/themes/themes.xml.h:1
 msgid "Classic"
-msgstr ""
+msgstr "Класична"
 
 #: ../data/themes/themes.xml.h:2
 msgid "Notebook"
@@ -755,11 +790,11 @@ msgstr "Курча / Папуга"
 
 #: ../data/verbal_analogies.xml.h:13
 msgid "Pony / Horse"
-msgstr "Поні / кінь"
+msgstr "Поні / Кінь"
 
 #: ../data/verbal_analogies.xml.h:14
 msgid "Ant / Vertebrate"
-msgstr ""
+msgstr "Мураха / Хребетна тварина"
 
 #: ../data/verbal_analogies.xml.h:15
 msgid "Dog / Cat"
@@ -767,7 +802,7 @@ msgstr "Пес / Кіт"
 
 #: ../data/verbal_analogies.xml.h:16
 msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr ""
+msgstr "Собака і кінь є видами тварин, а тер'єр і поні — породами."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
@@ -797,36 +832,36 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:23
 msgid "Simplistic"
-msgstr ""
+msgstr "Спрощений"
 
 #: ../data/verbal_analogies.xml.h:24
 msgid "Erroneous"
-msgstr ""
+msgstr "Помилковий"
 
 #: ../data/verbal_analogies.xml.h:25
 msgid "Broken"
-msgstr ""
+msgstr "Пошкоджений"
 
 #: ../data/verbal_analogies.xml.h:26
 msgid "Unorthodox"
-msgstr ""
+msgstr "Незвичний"
 
 #: ../data/verbal_analogies.xml.h:27
 msgid "Which of the following words is the closest in meaning to 'censure'?"
-msgstr "Яке з наступних слів найближче з усіх до значення слова \"цензура\"?"
+msgstr "Яке з наступних слів найближче з усіх до значення слова «цензура»?"
 
 #: ../data/verbal_analogies.xml.h:28
 msgid "Condemn"
-msgstr ""
+msgstr "Засуджувати"
 
 #: ../data/verbal_analogies.xml.h:29
 msgid "Hide"
-msgstr ""
+msgstr "Ховати"
 
 #. Translators: 'obscure' is used as a verb
 #: ../data/verbal_analogies.xml.h:31
 msgid "Obscure"
-msgstr ""
+msgstr "Приховувати"
 
 #: ../data/verbal_analogies.xml.h:32
 msgid "Ignore"
@@ -834,29 +869,29 @@ msgstr "Ігнорувати"
 
 #: ../data/verbal_analogies.xml.h:33
 msgid "An artist whose work has become the defining style of a genre is?"
-msgstr ""
+msgstr "Ким є художник, чия робота визначила стиль жанру?"
 
 #: ../data/verbal_analogies.xml.h:34
 msgid "Pioneer"
-msgstr ""
+msgstr "Піонером"
 
 #. Translators: referred to the life style
 #: ../data/verbal_analogies.xml.h:36
 msgid "Bohemian"
-msgstr ""
+msgstr "Передставником богеми"
 
 #: ../data/verbal_analogies.xml.h:37
 msgid "Misunderstood"
-msgstr ""
+msgstr "Недооціненим митцем"
 
 #: ../data/verbal_analogies.xml.h:38
 msgid "Martyr"
-msgstr ""
+msgstr "Жертвою"
 
 #: ../data/verbal_analogies.xml.h:39
 msgid "Which of the following sentences defines better an 'ostracized' person?"
 msgstr ""
-"Яке з наступних речень краще всього описує \"піддану остракізму\" людину?"
+"Яке з наступних речень краще всього описує «піддану остракізму» людину?"
 
 #: ../data/verbal_analogies.xml.h:40
 msgid "Person expelled from society"
@@ -1227,64 +1262,64 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
-msgstr ""
+msgstr "Регулярний"
 
 #: ../data/verbal_analogies.xml.h:139
 msgid "Occasional"
-msgstr ""
+msgstr "Нечастий"
 
 #: ../data/verbal_analogies.xml.h:140
 msgid "Exceptional"
-msgstr ""
+msgstr "Винятковий"
 
 #: ../data/verbal_analogies.xml.h:141
 msgid "Rare"
-msgstr ""
+msgstr "Рідкісний"
 
 #: ../data/verbal_analogies.xml.h:142
 msgid "The other words have the connotation of not occurring frequently."
-msgstr ""
+msgstr "Інші слова пов'язано із тим, що не трапляється часто."
 
 #: ../data/verbal_analogies.xml.h:143
 msgid "Which of the following words is closest to the meaning of 'perplexing'?"
-msgstr ""
+msgstr "Яке з наведених слів найближче за значенням до слова «загадковий»?"
 
 #. Translator: As synonymous of 'perplexing'
 #: ../data/verbal_analogies.xml.h:145
 msgid "Confusing"
-msgstr ""
+msgstr "Незрозумілий"
 
 #: ../data/verbal_analogies.xml.h:146
 msgid "Interesting"
-msgstr ""
+msgstr "Цікавий"
 
 #: ../data/verbal_analogies.xml.h:147
 msgid "Ordinary"
-msgstr ""
+msgstr "Звичайний"
 
 #: ../data/verbal_analogies.xml.h:148
 msgid "Trivial"
-msgstr ""
+msgstr "Тривіальний"
 
 #: ../data/verbal_analogies.xml.h:149
 msgid "Which of the following words is closest to the meaning of 'unhappy'?"
-msgstr ""
+msgstr "Яке з наведених слів найближче за значенням до слова «нещасливий»?"
 
 #: ../data/verbal_analogies.xml.h:150
 msgid "Sad"
-msgstr ""
+msgstr "Сумний"
 
 #: ../data/verbal_analogies.xml.h:151
 msgid "Unpleasant"
-msgstr ""
+msgstr "Неприязний"
 
 #: ../data/verbal_analogies.xml.h:152
 msgid "Tears"
-msgstr ""
+msgstr "Заплаканий"
 
 #: ../data/verbal_analogies.xml.h:153
 msgid "Incredible"
-msgstr ""
+msgstr "Надзвичайний"
 
 #: ../data/verbal_analogies.xml.h:154
 msgid "Famous"
@@ -1304,38 +1339,37 @@ msgstr ""
 
 #: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
-msgstr ""
+msgstr "Яке з наведених слів найближче за значенням до слова «специфічний»?"
 
 #. Translator: Pertaining to a single or specific person or thing
 #: ../data/verbal_analogies.xml.h:160
 msgid "Particular"
-msgstr ""
+msgstr "Особливий"
 
 #: ../data/verbal_analogies.xml.h:161
 msgid "Obvious"
-msgstr ""
+msgstr "Очевидний"
 
 #: ../data/verbal_analogies.xml.h:162
 msgid "Generic"
-msgstr ""
+msgstr "Типовий"
 
 #: ../data/verbal_analogies.xml.h:163
-#| msgid "Related"
 msgid "Plate"
-msgstr ""
+msgstr "Блюдо"
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:165
 msgid "Bottle"
-msgstr ""
+msgstr "Пляшка"
 
 #: ../data/verbal_analogies.xml.h:166
 msgid "Amphora"
-msgstr ""
+msgstr "Амфора"
 
 #: ../data/verbal_analogies.xml.h:167
 msgid "Bowl"
-msgstr ""
+msgstr "Чаша"
 
 #: ../data/verbal_analogies.xml.h:168
 msgid "It is the only one that is not used to storage liquids."
@@ -1343,12 +1377,12 @@ msgstr "Єдине, що не застосовують для зберіганн
 
 #: ../data/verbal_analogies.xml.h:169
 msgid "Walnut"
-msgstr ""
+msgstr "Грецький горіх"
 
 #. Translator: In reference to the nut
 #: ../data/verbal_analogies.xml.h:171
 msgid "Macadamia"
-msgstr ""
+msgstr "Макадамія"
 
 #: ../data/verbal_analogies.xml.h:172
 msgid "Chestnut"
@@ -1407,11 +1441,11 @@ msgstr "Яке з наведених слів найближче за значе
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:188
 msgid "Calm"
-msgstr ""
+msgstr "Спокійний"
 
 #: ../data/verbal_analogies.xml.h:189
 msgid "Authentic"
-msgstr ""
+msgstr "Автентичний"
 
 #: ../data/verbal_analogies.xml.h:190
 msgid "Clever"
@@ -1419,7 +1453,7 @@ msgstr "Розумний"
 
 #: ../data/verbal_analogies.xml.h:191
 msgid "Tense"
-msgstr ""
+msgstr "Збуджений"
 
 #: ../data/verbal_analogies.xml.h:192
 msgid "Concert"
@@ -1464,23 +1498,23 @@ msgstr "Єдине, що не стосується трикутників."
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:203
 msgid "Necklace"
-msgstr ""
+msgstr "Намисто"
 
 #: ../data/verbal_analogies.xml.h:204
 msgid "Candelabra"
-msgstr ""
+msgstr "Канделябр"
 
 #: ../data/verbal_analogies.xml.h:205
 msgid "Lantern"
-msgstr ""
+msgstr "Ліхтар"
 
 #: ../data/verbal_analogies.xml.h:206
 msgid "Lamp"
-msgstr ""
+msgstr "Лампа"
 
 #: ../data/verbal_analogies.xml.h:207
 msgid "It is the only one that does not produce light."
-msgstr "Єдине, що не випромінює світла"
+msgstr "Єдине, що не випромінює світла."
 
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:209
@@ -1498,7 +1532,7 @@ msgstr "Зброя"
 
 #: ../data/verbal_analogies.xml.h:213
 msgid "Crossbow"
-msgstr ""
+msgstr "Арбалет"
 
 #: ../data/verbal_analogies.xml.h:214
 msgid "It is the only one that is not used for protection."
@@ -1585,7 +1619,6 @@ msgid "It is the only animal that does not have legs and it is not a mammal."
 msgstr "Лише одна з перелічених тварин не має ніг і не є ссавцем."
 
 #: ../data/verbal_analogies.xml.h:238
-#| msgid "Pentagon"
 msgid "Heptagon"
 msgstr "Семикутник"
 
@@ -1604,12 +1637,10 @@ msgid "Cube"
 msgstr "Куб"
 
 #: ../data/verbal_analogies.xml.h:242
-#| msgid "It is the only one that is not a medical specialty."
 msgid "It is the only one that is a three-dimensional solid object."
 msgstr "Це єдина з фігур, яка є просторовим суцільним об'єктом."
 
 #: ../data/verbal_analogies.xml.h:243
-#| msgid "Which of the following words is the closest in meaning to 'censure'?"
 msgid "Which of the following words is the closest in meaning to 'intrinsic'?"
 msgstr "Яке з наступних слів найближче з усіх до значення слова «притаманний»?"
 
@@ -1647,7 +1678,6 @@ msgid "Rhombus"
 msgstr ""
 
 #: ../data/verbal_analogies.xml.h:252
-#| msgid "It is the only one that does not have roots."
 msgid "Triangle is the only one that does not have four sides."
 msgstr "Трикутник — єдина фігура, яка не має чотирьох сторін."
 
@@ -2100,7 +2130,6 @@ msgstr "песимістичний / оптимістичний | підозрі
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:372
-#| msgid "Counting"
 msgid "Trusting"
 msgstr "Довірливий"
 
@@ -2167,7 +2196,6 @@ msgstr "Галерея"
 
 #. Translator: meaning a painted picture
 #: ../data/verbal_analogies.xml.h:391
-#| msgid "Pain"
 msgid "Painting"
 msgstr "Малювання"
 
@@ -2421,7 +2449,6 @@ msgid "car / road | train"
 msgstr "автомобіль / дорога | поїзд"
 
 #: ../data/verbal_analogies.xml.h:464
-#| msgid "track | railway | rails"
 msgid "track | railway | rails | railroad"
 msgstr "колія | залізниця | шпали | рейки | залізниця"
 
@@ -2581,10 +2608,6 @@ msgstr ""
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with this program; if not, write to the Free Software Foundation, Inc., "
-#| "59 Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, see <http://www.gnu.org/licenses/>."
@@ -2683,7 +2706,8 @@ msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
 msgstr ""
-"Якщо ви це зробите, буде втрачено історії попередніх ігор. Бажаєте продовжити?"
+"Якщо ви це зробите, буде втрачено історії попередніх ігор. Бажаєте "
+"продовжити?"
 
 #: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:115
 msgid "_Delete"
@@ -3192,7 +3216,6 @@ msgstr[2] ""
 
 #: ../src/Core/Main/GameManager.cs:204
 #, csharp-format
-#| msgid "Memory Trainers Only"
 msgid "{0} memory trainer"
 msgid_plural "{0} memory trainers"
 msgstr[0] "{0} тренування пам'яті"
@@ -3201,7 +3224,6 @@ msgstr[2] "{0} тренувань пам'яті"
 
 #: ../src/Core/Main/GameManager.cs:205
 #, csharp-format
-#| msgid "Verbal Analogies Only"
 msgid "{0} verbal analogy"
 msgid_plural "{0} verbal analogies"
 msgstr[0] "{0} словесна аналогія"
@@ -3285,9 +3307,6 @@ msgid ""
 msgstr "Не бійтеся помилок, вони є частиною навчального процесу."
 
 #: ../src/Core/Main/GameTips.cs:67
-#| msgid ""
-#| "Do all the problems, even the difficult ones. Improvement comes from "
-#| "practicing."
 msgid ""
 "Do all the problems, even the difficult ones. Improvement comes from "
 "challenging yourself."
@@ -3461,7 +3480,6 @@ msgstr[2] "зіграно {0}"
 
 #: ../src/Core/Views/FinishView.cs:156
 #, csharp-format
-#| msgid "Games won: {0} ({1} played)"
 msgid "Games won: {0} ({1})"
 msgid_plural "Games won: {0} ({1})"
 msgstr[0] "Ігор виграно: {0} ({1})"
@@ -5092,8 +5110,8 @@ msgid ""
 "The letters around the squares follow a pattern. Which letter should replace "
 "the question mark in the last square?"
 msgstr ""
-"Літери у квадратах підібрано за певним правилом. Яка літера має бути "
-"замість знака питання у останньому квадраті?"
+"Літери у квадратах підібрано за певним правилом. Яка літера має бути замість "
+"знака питання у останньому квадраті?"
 
 #: ../src/Games/Logic/PuzzleSquaresAndLetters.cs:41
 #, csharp-format
@@ -5726,12 +5744,6 @@ msgstr[2] ""
 "Джона. Скільки років Джоновому сину?"
 
 #: ../tools/GameXmlGetString.cs:35
-#| msgid ""
-#| "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
-#| msgid_plural ""
-#| "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
 msgid ""
 "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
 "[proportion] times as old as his son. How old is John's son nowadays?"
@@ -5749,12 +5761,6 @@ msgstr[2] ""
 "був в [proportion] рази старшим за сина. Який вік Джонового сина?"
 
 #: ../tools/GameXmlGetString.cs:39
-#| msgid ""
-#| "John's age is nowadays 2 times his son's age. [ago] year ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
-#| msgid_plural ""
-#| "John's age is nowadays 2 times his son's age. [ago] years ago, John was "
-#| "[proportion] times older than his son. How old is John's son nowadays?"
 msgid ""
 "John's age (variable x) is nowadays 2 times his son's age (variable y), that "
 "is x = 2y, and [ago] year ago, John was [proportion] times as old as his "
@@ -5764,17 +5770,17 @@ msgid_plural ""
 "is x = 2y, and [ago] years ago, John was [proportion] times as old as his "
 "son: x - [ago] = (y - [ago]) * [proportion]."
 msgstr[0] ""
-"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А"
-" [ago] рік тому, Джон був "
-"у [proportion] рази старше за сина: x - [ago] = (y - [ago]) * [proportion]."
+"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А "
+"[ago] рік тому, Джон був у [proportion] рази старше за сина: x - [ago] = (y "
+"- [ago]) * [proportion]."
 msgstr[1] ""
-"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А"
-" [ago] роки тому, Джон був "
-"у [proportion] рази старше за сина: x - [ago] = (y - [ago]) * [proportion]."
+"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А "
+"[ago] роки тому, Джон був у [proportion] рази старше за сина: x - [ago] = (y "
+"- [ago]) * [proportion]."
 msgstr[2] ""
-"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А"
-" [ago] років тому, Джон був "
-"у [proportion] рази старше за сина: x - [ago] = (y - [ago]) * [proportion]."
+"На даний момент Джон вдвічі старший за свого сина (змінна y). Тому x=2y. А "
+"[ago] років тому, Джон був у [proportion] рази старше за сина: x - [ago] = "
+"(y - [ago]) * [proportion]."
 
 #: ../tools/GameXmlGetString.cs:43
 msgid ""
