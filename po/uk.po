@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
 "POT-Creation-Date: 2020-04-04 08:44+0000\n"
-"PO-Revision-Date: 2020-04-12 22:09+0300\n"
+"PO-Revision-Date: 2020-04-13 09:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -538,57 +538,61 @@ msgid ""
 "John's father's sister's sister-in-law is also? Do not assume that John has "
 "any relative that has not been mentioned. [option_answers]"
 msgstr ""
+"Ким є невістка сестри джонового батька? Тут ми припускаємо, що згадано усіх"
+" родичів Джона. [option_answers]"
 
 #: ../data/games.xml.h:97
 msgid "[option_prefix] His mother"
-msgstr "[option_prefix] Його матір"
+msgstr "[option_prefix] Його матір'ю"
 
 #: ../data/games.xml.h:98
 msgid "[option_prefix] Has no relation"
-msgstr "[option_prefix] Немає відношення"
+msgstr "[option_prefix] Не є його родичкою"
 
 #: ../data/games.xml.h:99
 msgctxt "John's father's sister's sister-in-law is also?"
 msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Його кузина"
+msgstr "[option_prefix] Його кузиною"
 
 #: ../data/games.xml.h:100
 msgid "[option_prefix] His son-in-law"
-msgstr ""
+msgstr "[option_prefix] Його зятем"
 
 #: ../data/games.xml.h:101
 msgid "His mother"
-msgstr "Його матір"
+msgstr "Його матір'ю"
 
 #: ../data/games.xml.h:102
 msgid ""
 "The sister's sister-in-law is John's father's wife, that is, John's mother."
-msgstr ""
+msgstr "Невістка сестри є жінкою батька Джона, а отже, його матір'ю."
 
 #: ../data/games.xml.h:103
 msgid ""
 "John's mother's brother's brother-in-law is also? Do not assume that John "
 "has any relative that has not been mentioned. [option_answers]"
 msgstr ""
+"Ким є зять брата джонової матері? Тут ми припускаємо, що згадано усіх родичів"
+" Джона. [option_answers]"
 
 #: ../data/games.xml.h:104
 msgid "[option_prefix] His father"
-msgstr "[option_prefix] Його батько"
+msgstr "[option_prefix] Його батьком"
 
 #: ../data/games.xml.h:105
 msgctxt "John's mother's brother's brother-in-law is also?"
 msgid "[option_prefix] His cousin"
-msgstr "[option_prefix] Його кузин"
+msgstr "[option_prefix] Його кузиною"
 
 #: ../data/games.xml.h:106
 msgid "His father"
-msgstr "Його батько"
+msgstr "Його батьком"
 
 #: ../data/games.xml.h:107
 msgid ""
 "The brother's brother-in-law is John's mother's husband, that is, John's "
 "father."
-msgstr ""
+msgstr "Зять брата є чоловіком матері Джона, а отже, батьком Джона."
 
 #: ../data/games.xml.h:108
 msgid "Third number"
@@ -1259,6 +1263,8 @@ msgid ""
 "It is the failure to take such care as may be rightfully or reasonably "
 "expected."
 msgstr ""
+"Помилка, яка полягає у тому, що за чимось не доглядали так, як це варто було"
+" робити."
 
 #: ../data/verbal_analogies.xml.h:138
 msgid "Regular"
@@ -1327,15 +1333,15 @@ msgstr "Знаменитий"
 
 #: ../data/verbal_analogies.xml.h:155
 msgid "Acclaimed"
-msgstr ""
+msgstr "Проголошений"
 
 #: ../data/verbal_analogies.xml.h:156
 msgid "Celebrated"
-msgstr ""
+msgstr "Уславлений"
 
 #: ../data/verbal_analogies.xml.h:157
 msgid "The other words have the meaning of distinguished."
-msgstr ""
+msgstr "Усі слова, окрім цього, мають значення «визначний»."
 
 #: ../data/verbal_analogies.xml.h:158
 msgid "Which of the following words is closest to the meaning of 'specific'?"
@@ -1398,20 +1404,20 @@ msgstr "Яке з наведених слів найближче за значе
 
 #: ../data/verbal_analogies.xml.h:175
 msgid "Applause"
-msgstr "Аплодисменти"
+msgstr "Аплодувати"
 
 #: ../data/verbal_analogies.xml.h:176
 msgid "Commendation"
-msgstr ""
+msgstr "Хвалити"
 
 #: ../data/verbal_analogies.xml.h:177
 msgid "Citation"
-msgstr "Цитування"
+msgstr "Оголошувати подяку"
 
 #. Translator: As a noun (call upon a spirit by invocation)
 #: ../data/verbal_analogies.xml.h:179
 msgid "Conjure"
-msgstr ""
+msgstr "Заклинати"
 
 #: ../data/verbal_analogies.xml.h:180
 msgid "Which of the following words is closest to the meaning of 'grief'?"
@@ -1420,15 +1426,15 @@ msgstr "Яке з наведених слів найближче за значе
 #. Translator: As a noun
 #: ../data/verbal_analogies.xml.h:182
 msgid "Lament"
-msgstr ""
+msgstr "Стогін"
 
 #: ../data/verbal_analogies.xml.h:183
 msgid "Fraud"
-msgstr ""
+msgstr "Шахрайство"
 
 #: ../data/verbal_analogies.xml.h:184
 msgid "Intolerance"
-msgstr ""
+msgstr "Нетерпимість"
 
 #: ../data/verbal_analogies.xml.h:185
 msgid "Risk"
@@ -1465,7 +1471,7 @@ msgstr "Сатира"
 
 #: ../data/verbal_analogies.xml.h:194
 msgid "Proverb"
-msgstr ""
+msgstr "Прислів'я"
 
 #: ../data/verbal_analogies.xml.h:195
 msgid "Epigram"
@@ -1566,11 +1572,11 @@ msgstr "Морква"
 
 #: ../data/verbal_analogies.xml.h:223
 msgid "Beet"
-msgstr ""
+msgstr "Буряк"
 
 #: ../data/verbal_analogies.xml.h:224
 msgid "Radish"
-msgstr ""
+msgstr "Редиска"
 
 #: ../data/verbal_analogies.xml.h:225
 msgid "Tomato"
@@ -1578,7 +1584,7 @@ msgstr "Помідор"
 
 #: ../data/verbal_analogies.xml.h:226
 msgid "It is the only one that does not have roots."
-msgstr "Єдине, що не має коріння."
+msgstr "Єдине, що не має корнеплоду."
 
 #. Translator: Organ as a musical instrument
 #: ../data/verbal_analogies.xml.h:228
@@ -1596,7 +1602,7 @@ msgstr "Акордеон"
 #. Translator: 'keys' as the ones found in a keyboard
 #: ../data/verbal_analogies.xml.h:232
 msgid "It is the only instrument that does not have keys."
-msgstr "Єдиний з інструментів, що не має ключа."
+msgstr "Єдиний з інструментів, що не має клавіш."
 
 #: ../data/verbal_analogies.xml.h:233
 msgid "Cow"
@@ -1675,7 +1681,7 @@ msgstr "Квадрат"
 
 #: ../data/verbal_analogies.xml.h:251
 msgid "Rhombus"
-msgstr ""
+msgstr "Ромб"
 
 #: ../data/verbal_analogies.xml.h:252
 msgid "Triangle is the only one that does not have four sides."
@@ -1727,23 +1733,23 @@ msgstr "Радіус кола є половиною діаметра."
 
 #: ../data/verbal_analogies.xml.h:264
 msgid "talk / yell | dislike"
-msgstr ""
+msgstr "говорити / кричати | огидно"
 
 #: ../data/verbal_analogies.xml.h:265
 msgid "Repugnance"
-msgstr ""
+msgstr "Відраза"
 
 #: ../data/verbal_analogies.xml.h:266
 msgid "Offensive"
-msgstr ""
+msgstr "Образа"
 
 #: ../data/verbal_analogies.xml.h:267
 msgid "Shame"
-msgstr ""
+msgstr "Сором"
 
 #: ../data/verbal_analogies.xml.h:268
 msgid "Ostentation"
-msgstr ""
+msgstr "Хвастощі"
 
 #: ../data/verbal_analogies.xml.h:269
 msgid "write / pen | eat"
@@ -1860,7 +1866,7 @@ msgstr "Риби"
 
 #: ../data/verbal_analogies.xml.h:297
 msgid "thankful / ingratitude | despotism"
-msgstr ""
+msgstr "вдячність / невдячність | деспотія"
 
 #: ../data/verbal_analogies.xml.h:298
 msgid "Democracy"
@@ -1868,32 +1874,32 @@ msgstr "Демократія"
 
 #: ../data/verbal_analogies.xml.h:299
 msgid "Totalitarianism"
-msgstr ""
+msgstr "Тоталітаризм"
 
 #: ../data/verbal_analogies.xml.h:300
 msgid "Oligarchy"
-msgstr ""
+msgstr "Олігархія"
 
 #: ../data/verbal_analogies.xml.h:301
 msgid "Authority"
-msgstr ""
+msgstr "Влада"
 
 #: ../data/verbal_analogies.xml.h:302
 msgid "pessimist / optimist | poor"
-msgstr ""
+msgstr "песиміст / оптиміст | бідний"
 
 #. Translators: Affluent as antonym of poor, that is, somebody that is rich
 #: ../data/verbal_analogies.xml.h:304
 msgid "Affluent"
-msgstr ""
+msgstr "Багатий"
 
 #: ../data/verbal_analogies.xml.h:305
 msgid "Homeless"
-msgstr ""
+msgstr "Бездомний"
 
 #: ../data/verbal_analogies.xml.h:306
 msgid "Property"
-msgstr "Властивість"
+msgstr "Власність"
 
 #: ../data/verbal_analogies.xml.h:307
 msgid "Money"
@@ -1901,27 +1907,27 @@ msgstr "Гроші"
 
 #: ../data/verbal_analogies.xml.h:308
 msgid "five / pentagon | ten"
-msgstr ""
+msgstr "п'ять / п'ятикутник | десять"
 
 #: ../data/verbal_analogies.xml.h:309
 msgid "Decagon"
-msgstr ""
+msgstr "Десятикутник"
 
 #: ../data/verbal_analogies.xml.h:310
 msgid "Enneagram"
-msgstr ""
+msgstr "Еннеаграма"
 
 #: ../data/verbal_analogies.xml.h:311
 msgid "Icosagon"
-msgstr ""
+msgstr "Двадцятикутник"
 
 #: ../data/verbal_analogies.xml.h:312
 msgid "Decimal"
-msgstr ""
+msgstr "Десятковий"
 
 #: ../data/verbal_analogies.xml.h:313
 msgid "parallel / meridian | longitude"
-msgstr ""
+msgstr "паралель / меридіан | довгота"
 
 #: ../data/verbal_analogies.xml.h:314
 msgid "Latitude"
@@ -1929,11 +1935,11 @@ msgstr "Широта"
 
 #: ../data/verbal_analogies.xml.h:315
 msgid "Solstice"
-msgstr ""
+msgstr "Сонцестояння"
 
 #: ../data/verbal_analogies.xml.h:316
 msgid "Pole"
-msgstr ""
+msgstr "Полюс"
 
 #: ../data/verbal_analogies.xml.h:317
 msgid "Azimuth"
@@ -1944,6 +1950,8 @@ msgid ""
 "Parallel and longitude traverse from east to west while meridian and "
 "latitude traverse from north to south."
 msgstr ""
+"Паралелі і довгота відраховуються зі сходу на захід, а меридіани і широка — з"
+" півночі на південь."
 
 #: ../data/verbal_analogies.xml.h:319
 msgid "art / gallery | drama"
@@ -1993,23 +2001,24 @@ msgstr "тарілка / розбити | повітряна куля"
 #. Translators: like 'he burst the balloon'
 #: ../data/verbal_analogies.xml.h:332
 msgid "Burst"
-msgstr ""
+msgstr "Луснути"
 
 #: ../data/verbal_analogies.xml.h:333
 msgid "Bounce"
-msgstr ""
+msgstr "Бити"
 
 #: ../data/verbal_analogies.xml.h:334
 msgid "Float"
-msgstr ""
+msgstr "Плисти"
 
 #: ../data/verbal_analogies.xml.h:335
 msgid "Roll"
-msgstr ""
+msgstr "Котити"
 
 #: ../data/verbal_analogies.xml.h:336
 msgid "Both relate to an action that breaks the related item."
 msgstr ""
+"Обидва пов'язано із дією, яка призводить до пошкодження пов'язаного об'єкта."
 
 #: ../data/verbal_analogies.xml.h:337
 msgid "button / push | key (used in a lock)"
@@ -2039,10 +2048,11 @@ msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
 msgstr ""
+"Щоб обидва об'єкти запрацювали, слід натиснути кнопку і повернути ключ."
 
 #: ../data/verbal_analogies.xml.h:346
 msgid "concept / idea | obsession"
-msgstr ""
+msgstr "поняття / ідея | одержимість"
 
 #. As a synonym of obsession
 #: ../data/verbal_analogies.xml.h:348
@@ -2063,7 +2073,7 @@ msgstr "Інтуїція"
 
 #: ../data/verbal_analogies.xml.h:352
 msgid "The relation between the two words is that they are synonymous."
-msgstr ""
+msgstr "Зв'язок між двома словами полягає у тому, що вони є синонімами."
 
 #: ../data/verbal_analogies.xml.h:353
 msgid "fish / water | bird"
@@ -2108,7 +2118,7 @@ msgstr "Ворог"
 
 #: ../data/verbal_analogies.xml.h:364
 msgid "competitive / cooperative | anxious"
-msgstr ""
+msgstr "змагальний / сумісний | заклопотаний"
 
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:366
@@ -2160,11 +2170,11 @@ msgstr "Перше слово є назвою інструменту, а дру�
 
 #: ../data/verbal_analogies.xml.h:381
 msgid "violin / orchestra | knife"
-msgstr ""
+msgstr "скрипка / оркестр | ніж"
 
 #: ../data/verbal_analogies.xml.h:382
 msgid "Cutlery"
-msgstr ""
+msgstr "Ножові вироби"
 
 #: ../data/verbal_analogies.xml.h:383
 msgid "Metal"
@@ -2180,7 +2190,7 @@ msgstr "Дерево"
 
 #: ../data/verbal_analogies.xml.h:386
 msgid "doctor / stethoscope | painter"
-msgstr ""
+msgstr "доктор / стетоскоп | художник"
 
 #: ../data/verbal_analogies.xml.h:387
 msgid "Brush"
@@ -2188,7 +2198,7 @@ msgstr "Пензель"
 
 #: ../data/verbal_analogies.xml.h:388
 msgid "Art"
-msgstr ""
+msgstr "Мистецтво"
 
 #: ../data/verbal_analogies.xml.h:389
 msgid "Gallery"
@@ -2264,7 +2274,7 @@ msgstr "кільце(обручка) / палець | браслет"
 
 #: ../data/verbal_analogies.xml.h:413
 msgid "wrist | arm"
-msgstr ""
+msgstr "зап'ясток | рука"
 
 #: ../data/verbal_analogies.xml.h:414
 msgid "seal / flippers | bird"
@@ -2329,7 +2339,7 @@ msgstr "робота | працювати | робити"
 #. 'correct' can be used as verb or adjective
 #: ../data/verbal_analogies.xml.h:433
 msgid "error / (to) correct | damage"
-msgstr ""
+msgstr "помилка / виправляти | шкода"
 
 #: ../data/verbal_analogies.xml.h:434
 msgid "repair | fix"
@@ -2353,7 +2363,7 @@ msgstr "кусати"
 
 #: ../data/verbal_analogies.xml.h:439
 msgid "Grab and bite are finite actions."
-msgstr ""
+msgstr "Хапання і кусання є тимчасовими діями."
 
 #: ../data/verbal_analogies.xml.h:440
 msgid "puzzle / solve | game"
@@ -2361,7 +2371,7 @@ msgstr "головоломка / вирішити | гра"
 
 #: ../data/verbal_analogies.xml.h:441
 msgid "win | play"
-msgstr ""
+msgstr "виграти | грати"
 
 #: ../data/verbal_analogies.xml.h:442
 msgid "eyebrow / eye | mustache"
@@ -2369,7 +2379,7 @@ msgstr "брова / око | вуса"
 
 #: ../data/verbal_analogies.xml.h:443
 msgid "lip | upper lip | mouth"
-msgstr ""
+msgstr "губа | верхня губа | рот"
 
 #: ../data/verbal_analogies.xml.h:444
 msgid "ice / slippery | glue"
@@ -2560,7 +2570,7 @@ msgstr "Ґрунтується на ідеях"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:39
 msgid "MENSA works"
-msgstr ""
+msgstr "Роботи MENSA"
 
 #. Translators: Replace by the name of the people that translated the application
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:59
@@ -2662,7 +2672,7 @@ msgstr "Виникла проблема при створенні файлу PDF
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:44
 msgid "The graph below shows the player's game score evolution."
-msgstr ""
+msgstr "На графіку, наведеному нижче, показано динаміку результатів гравця."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:48
 msgid ""
@@ -3194,25 +3204,25 @@ msgstr "Розширення бази даних:"
 #, csharp-format
 msgid "{0} game registered:"
 msgid_plural "{0} games registered:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Зареєстровано {0} гру:"
+msgstr[1] "Зареєстровано {0} гри:"
+msgstr[2] "Зареєстровано {0} ігор:"
 
 #: ../src/Core/Main/GameManager.cs:202
 #, csharp-format
 msgid "{0} logic puzzle"
 msgid_plural "{0} logic puzzles"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{0} логічна головоломка"
+msgstr[1] "{0} логічних головоломки"
+msgstr[2] "{0} логічних головоломок"
 
 #: ../src/Core/Main/GameManager.cs:203
 #, csharp-format
 msgid "{0} calculation trainer"
 msgid_plural "{0} calculation trainers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{0} вправа на обчислення"
+msgstr[1] "{0} вправи на обчислення"
+msgstr[2] "{0} вправ на обчислення"
 
 #: ../src/Core/Main/GameManager.cs:204
 #, csharp-format
@@ -3649,6 +3659,8 @@ msgid ""
 "In the list of single-digit numbers below, there are 5 consecutive numbers "
 "whose sum is {0}. Which numbers are these?"
 msgstr ""
+"У наведеному нижче списку одноцифрових чисел є 5 послідовних чисел, сума яких"
+" дорівнює {0}. Якими є ці числа?"
 
 #: ../src/Games/Calculation/CalculationFractions.cs:59
 msgid "Fractions"
@@ -3659,6 +3671,7 @@ msgid ""
 "What is the result of the given operation? Answer using either a fraction or "
 "a number."
 msgstr ""
+"Яким є результат вказаних дій? Дайте відповідь у формі дробу або числа."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:34
 msgid "Greatest divisor"
@@ -3670,6 +3683,8 @@ msgid ""
 "Which of the possible divisors is the greatest that divides all numbers? "
 "Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Який із можливих дільників є найбільшим дільником усіх чисел? "
+"Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Calculation/CalculationGreatestDivisor.cs:241
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:229
@@ -3693,6 +3708,8 @@ msgstr "Першим оператором є {0}."
 #, csharp-format
 msgid "Which operators make {0}, {1}, and {2} equal {3}? Answer using '+-/*'."
 msgstr ""
+"Які дії дають з {0}, {1} і {2} число, рівне {3}? Дайте відповідь за допомогою"
+" позначок «+-/*»."
 
 #: ../src/Games/Calculation/CalculationOperator.cs:107
 #: ../src/Games/Calculation/CalculationRatio.cs:84
@@ -3721,6 +3738,8 @@ msgid ""
 "If the sum of all digits in a given number is divisible by 3, then so is the "
 "number. For example 15 = 1 + 5 = 6, which is divisible by 3."
 msgstr ""
+"Якщо сума усіх цифр певного числа ділиться на 3, число також ділиться на 3."
+" Наприклад, 15 = 1 + 5 = 6 ділиться на 3."
 
 #: ../src/Games/Calculation/CalculationPrimes.cs:84
 #, csharp-format
@@ -3746,6 +3765,8 @@ msgid ""
 "Which two numbers have a sum of {0} and have a ratio of {1} to {2}? Answer "
 "using two numbers (e.g.: 1 and 2)."
 msgstr ""
+"Які два числа мають суму {0} і відношення {1} до {2}? Дайте відповідь у"
+" форматі двох чисел (приклад: 1 і 2)."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:46
 #, csharp-format
@@ -3753,12 +3774,16 @@ msgid ""
 "The second number can be calculated by multiplying the first number by {0} "
 "and dividing it by {1}."
 msgstr ""
+"Друге число можна обчислити множенням першого числа на {0} і діленням його на"
+" {1}."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:52
 msgid ""
 "A ratio specifies a proportion between two numbers. A ratio of a:b means "
 "that for every 'a' parts you have 'b' parts."
 msgstr ""
+"Відношення є пропорцією між двома числами. Відношення a:b означає, що на"
+" кожні «a» частин у вас є «b» частин."
 
 #: ../src/Games/Calculation/CalculationRatio.cs:96
 #: ../src/Games/Calculation/CalculationTwoNumbers.cs:112
@@ -3851,6 +3876,8 @@ msgid ""
 "Using triangles only, how many triangles are needed in the right part of the "
 "last figure to keep it balanced?"
 msgstr ""
+"Якщо використовувати лише трикутники, скільки трикутників потрібно у правій"
+" частині останньої фігури, щоб її збалансувати?"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:56
 msgid ""
@@ -3964,9 +3991,9 @@ msgstr "Підрахунок"
 #, csharp-format
 msgid "We have a {0} meter piece of fabric."
 msgid_plural "We have a {0} meters piece of fabric."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Маємо відріз у {0} метр тканини."
+msgstr[1] "Маємо відріз у {0} метри тканини."
+msgstr[2] "Маємо відріз у {0} метрів тканини."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:66
 #, csharp-format
@@ -3977,8 +4004,14 @@ msgid_plural ""
 "A machine takes {0} seconds to cut 1 meter of this fabric. How many seconds "
 "does the machine take to cut the entire piece of fabric into 1 meter pieces?"
 msgstr[0] ""
+"Машині потрібна {0} секунда для розрізання 1 метра цієї тканини. Скільки"
+" секунд знадобиться на розрізання усього відрізу на шматки у 1 метр?"
 msgstr[1] ""
+"Машині потрібні {0} секунди для розрізання 1 метра цієї тканини. Скільки"
+" секунд знадобиться на розрізання усього відрізу на шматки у 1 метр?"
 msgstr[2] ""
+"Машині потрібні {0} секунд для розрізання 1 метра цієї тканини. Скільки"
+" секунд знадобиться на розрізання усього відрізу на шматки у 1 метр?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:70
 #, csharp-format
@@ -4490,7 +4523,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:56
 msgid "Less curved is the arc, the larger the circle is."
-msgstr ""
+msgstr "Чи меншою є кривина дуги, тим більшим є коло."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:99
 #, csharp-format
@@ -4946,19 +4979,19 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
 msgid "Honesty is sometimes the best policy"
-msgstr ""
+msgstr "Щирість іноді є найкращою лінією поведінки"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:92
 msgid "Honesty is always the best policy"
-msgstr ""
+msgstr "Щирість завжди є найкращою лінією поведінки"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is not always the best policy"
-msgstr ""
+msgstr "Щирість не завжди є найкращою лінією поведінки"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
 msgid "Some of the best policies are dishonest"
-msgstr ""
+msgstr "Деякі з найкращих ліній поведінки пов'язано із брехнею"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:97
 #, csharp-format
@@ -4969,11 +5002,11 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
 msgid "Some thin people are not cheerful"
-msgstr ""
+msgstr "Деякі худі люди не є веселими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:100
 msgid "Thin people are not cheerful"
-msgstr ""
+msgstr "Худі люди не є веселими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Cheerful people are not thin"
@@ -5596,7 +5629,7 @@ msgstr "форель"
 
 #: ../src/Games/Memory/MemoryWords.cs:56
 msgid "monkfish"
-msgstr ""
+msgstr "морський ангел"
 
 #: ../src/Games/Memory/MemoryWords.cs:57
 msgid "cod"
