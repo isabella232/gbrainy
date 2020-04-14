@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gbrainy\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
 "POT-Creation-Date: 2020-04-04 08:44+0000\n"
-"PO-Revision-Date: 2020-04-13 09:47+0300\n"
+"PO-Revision-Date: 2020-04-14 15:19+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -780,7 +780,7 @@ msgstr "Велоспорт"
 #: ../data/verbal_analogies.xml.h:10
 msgid "It is the only one that does not use a ball in the game."
 msgstr ""
-"Лише в одному з перелічених видів спорту не використовується м’яч для гри."
+"Лише в одному з перелічених видів спорту не використовується м'яч для гри."
 
 #: ../data/verbal_analogies.xml.h:11
 msgid "A terrier is to a dog like a?"
@@ -969,7 +969,7 @@ msgstr "Гобой"
 #: ../data/verbal_analogies.xml.h:61
 msgid "It is the only one that is not a woodwind instrument."
 msgstr ""
-"Лише один з перелічених предметів не є дерев’яним духовим інструментом."
+"Лише один з перелічених предметів не є дерев'яним духовим інструментом."
 
 #: ../data/verbal_analogies.xml.h:62
 msgid "What is a 'halberd'?"
@@ -1636,7 +1636,7 @@ msgstr "Трикутник"
 #: ../data/verbal_analogies.xml.h:240
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:67
 msgid "Pentagon"
-msgstr "П’ятикутник"
+msgstr "П'ятикутник"
 
 #: ../data/verbal_analogies.xml.h:241 ../src/Games/Logic/PuzzleCube.cs:43
 msgid "Cube"
@@ -3934,6 +3934,8 @@ msgid ""
 "Using the above layout {0} units of height are gained per row leaving enough "
 "space for an additional row."
 msgstr ""
+"За допомогою наведеного вище компонування можна заощадити {0} одиниць висоти"
+" у кожному рядку і звільнити місце для додаткового рядка."
 
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:75
 #: ../src/Games/Logic/PuzzleCirclesSquare.cs:94
@@ -3966,6 +3968,10 @@ msgid ""
 "the values to which the hands point. For example, the value of the hands for "
 "'{0}' is {3} ({2} + {1})."
 msgstr ""
+"Починаючи з першого годинника, додайте {1} до числа, яке можна отримати,"
+" дописуючи значення до цифри для кожної зі стрілок. Наприклад, значенням, яке"
+" показують стрілки для "
+"«{0}», є {3} ({2} + {1})."
 
 #: ../src/Games/Logic/PuzzleClocks.cs:54
 msgid "The clocks do not follow the time logic."
@@ -4030,8 +4036,14 @@ msgid_plural ""
 "A fence is built to enclose a square shaped region. {0} fence poles are used "
 "in each side of the square. How many fence poles are used in total?"
 msgstr[0] ""
+"Побудовано огорожу для квадратної ділянки. Для кожної зі сторін квадрата"
+" використано {0} стовпчик. Скільки стовпчиків використано загалом?"
 msgstr[1] ""
+"Побудовано огорожу для квадратної ділянки. Для кожної зі сторін квадрата"
+" використано {0} стовпчики. Скільки стовпчиків використано загалом?"
 msgstr[2] ""
+"Побудовано огорожу для квадратної ділянки. Для кожної зі сторін квадрата"
+" використано {0} стовпчиків. Скільки стовпчиків використано загалом?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:90
 #, csharp-format
@@ -4042,8 +4054,14 @@ msgid_plural ""
 "There are {0} fence poles since the poles on the corners of the square are "
 "shared."
 msgstr[0] ""
+"Загалом {0} стовпчик, оскільки стовпчики у кутах квадрата є спільними для"
+" його сторін."
 msgstr[1] ""
+"Загалом {0} стовпчики, оскільки стовпчики у кутах квадрата є спільними для"
+" його сторін."
 msgstr[2] ""
+"Загалом {0} стовпчиків, оскільки стовпчики у кутах квадрата є спільними для"
+" його сторін."
 
 #: ../src/Games/Logic/PuzzleCounting.cs:103
 #, csharp-format
@@ -4056,8 +4074,17 @@ msgid_plural ""
 "present costs {0} monetary units more than the cost to wrap it. How much "
 "does it cost to both purchase and wrap the present?"
 msgstr[0] ""
+"Загортання подарунка до ювілею коштує одну грошову одиницю. Сам подарунок"
+" коштує на {0} грошову одиницю дорожче за вартість обгортки. Скільки коштує"
+" подарунок разом із обгорткою?"
 msgstr[1] ""
+"Загортання подарунка до ювілею коштує одну грошову одиницю. Сам подарунок"
+" коштує на {0} грошові одиниці дорожче за вартість обгортки. Скільки коштує"
+" подарунок разом із обгорткою?"
 msgstr[2] ""
+"Загортання подарунка до ювілею коштує одну грошову одиницю. Сам подарунок"
+" коштує на {0} грошових одиниць дорожче за вартість обгортки. Скільки коштує"
+" подарунок разом із обгорткою?"
 
 #: ../src/Games/Logic/PuzzleCounting.cs:110
 #, csharp-format
@@ -4068,8 +4095,14 @@ msgid_plural ""
 "It is the cost of the present, {0} monetary units, plus one monetary unit of "
 "the wrapping."
 msgstr[0] ""
+"Це вартість подарунка, {0} грошова одиниця, плюс одна грошова одиниця за"
+" обгортку."
 msgstr[1] ""
+"Це вартість подарунка, {0} грошові одиниці, плюс одна грошова одиниця за"
+" обгортку."
 msgstr[2] ""
+"Це вартість подарунка, {0} грошових одиниці, плюс одна грошова одиниця за"
+" обгортку."
 
 #: ../src/Games/Logic/PuzzleCountSeries.cs:38
 msgid "Count series"
@@ -4126,12 +4159,17 @@ msgid ""
 "opposite the face with a {0} drawn on it? Answer the number written on the "
 "face."
 msgstr ""
+"Якщо ви згорнете намальоване креслення у куб, який бік на кресленні буде"
+" протилежним до боку із намальованим число {0}? Дайте відповідь у формі"
+" числа, яке намальовано на боці куба."
 
 #: ../src/Games/Logic/PuzzleDice.cs:52
 msgid ""
 "What is the probability of getting a '2' or a '6' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
+"Якою є ймовірність отримати «2» або «6» одним кидком незміненої кістки у"
+" формі куба? Дайте відповідь у формі дробу (приклад: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:54
 msgid "There are 2 of 6 possibilities."
@@ -4142,6 +4180,8 @@ msgid ""
 "What is the probability of not getting a '5' in a single throw of an "
 "unmodified 6 sided die? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
+"Якою є ймовірність не отримати «5» одним кидком незміненої кістки у формі"
+" куба? Дайте відповідь у формі дробу (приклад: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:58
 msgid "There are 5 of 6 possibilities."
@@ -4152,24 +4192,28 @@ msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two even numbers? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
+"Одночасно кидають дві незмінені кістки у формі куба. Якою є ймовірність"
+" отримати два парних числа? Дайте відповідь у формі дробу (приклад: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:62
 msgid "There are 9 of 36 possibilities of getting two even numbers."
-msgstr ""
+msgstr "Два парних числа ми отримуємо у 9 випадках із можливих 36."
 
 #: ../src/Games/Logic/PuzzleDice.cs:64
 msgid ""
 "Two unmodified 6 sided dice are thrown simultaneously. What is the "
 "probability of getting two '6'? Answer using a fraction (e.g.: 1/2)."
 msgstr ""
+"Одночасно кидають дві незмінені кістки у формі куба. Якою є ймовірність"
+" отримати дві шістки? Дайте відповідь у формі дробу (приклад: 1/2)."
 
 #: ../src/Games/Logic/PuzzleDice.cs:66
 msgid ""
 "There is 1 of 6 possibilities of getting a '6' on the first die and the same "
 "for the second die."
 msgstr ""
-"Існує 1 з 6 ймовірностей, що випаде \"6\" на першому кубику та те ж саме на "
-"другому кубику."
+"На першому кубику у одному із 6 випадків випаде «6». Те саме на другому"
+" кубику."
 
 #: ../src/Games/Logic/PuzzleDice.cs:71
 msgid "Dice"
@@ -4191,9 +4235,9 @@ msgstr ""
 #, csharp-format
 msgid "Has {0} region"
 msgid_plural "Has {0} regions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "На {0} зону"
+msgstr[1] "На {0} зони"
+msgstr[2] "На {0} зон"
 
 #: ../src/Games/Logic/PuzzleEquation.cs:31
 msgid "Equation"
@@ -4242,7 +4286,7 @@ msgid ""
 "The figures and the texts are related. What text should go under the last "
 "figure?"
 msgstr ""
-"Між фігурами та текстом існує взаємозв’язок. Який текст відповідає останній "
+"Між фігурами та текстом існує взаємозв'язок. Який текст відповідає останній "
 "фігурі?"
 
 #: ../src/Games/Logic/PuzzleFigureLetter.cs:46
@@ -4294,6 +4338,8 @@ msgid ""
 "What is the next logical sequence of objects in the last column? Answer {0}, "
 "{1} or {2}."
 msgstr ""
+"Яким є наступний логічний елемент послідовності об'єктів у останньому"
+" стовпчику? Дайте відповідь {0}, {1} або {2}."
 
 #: ../src/Games/Logic/PuzzleFigures.cs:66
 msgid ""
@@ -4318,8 +4364,17 @@ msgid_plural ""
 "the number {0} places away from itself multiplied by 2 and {1} places away "
 "from itself plus 2?"
 msgstr[0] ""
+"Якщо поглянути на рядки і стовпчики наведеної нижче таблиці, яке з чисел"
+" розташовано за {0} позицію від самого себе помноженого на 2 і за {1} позицію"
+" від самого себе із додаванням 2?"
 msgstr[1] ""
+"Якщо поглянути на рядки і стовпчики наведеної нижче таблиці, яке з чисел"
+" розташовано за {0} позиції від самого себе помноженого на 2 і за {1} позиції"
+" від самого себе із додаванням 2?"
 msgstr[2] ""
+"Якщо поглянути на рядки і стовпчики наведеної нижче таблиці, яке з чисел"
+" розташовано за {0} позицій від самого себе помноженого на 2 і за {1} позицій"
+" від самого себе із додаванням 2?"
 
 #: ../src/Games/Logic/PuzzleFindTheNumber.cs:60
 #, csharp-format
@@ -4349,24 +4404,24 @@ msgstr "Чотирикутник може бути вписаний в іншу 
 #: ../src/Games/Logic/PuzzleFourSided.cs:43
 #, csharp-format
 msgid "The four sided figures are made by connecting the following points: {0}"
-msgstr "Після з’єднання {0} точок були утворені чотирикутники."
+msgstr "Після з'єднання {0} точок були утворені чотирикутники."
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:40
 msgid "Circles in a grid"
-msgstr ""
+msgstr "Обведення у таблиці"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:44
 msgid "One of the numbers in the grid must be circled. Which one?"
-msgstr ""
+msgstr "Одне з чисел у таблиці має бути обведено. Яке?"
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:48
 msgid "All circled numbers share an arithmetical property."
-msgstr "Усі обведені числа мають спільні арифметичні властивості."
+msgstr "Усі обведені числа мають спільну арифметичну властивість."
 
 #: ../src/Games/Logic/PuzzleGridCircles.cs:53
 #, csharp-format
 msgid "Every circled number can be divided by {0}."
-msgstr "Виділіть число, яке ділиться на {0}."
+msgstr "Усі обведені числа діляться на {0}."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:202
 msgid "Square with dots"
@@ -4385,11 +4440,16 @@ msgid ""
 "circle moves up, the bottom-right moves diagonally up-left and the top-right "
 "moves diagonally down-left."
 msgstr ""
+"З рисунка угорі ліворуч, верхнє ліве коло пересувається вниз, нижнє ліве"
+" пересувається вгору, нижче праве пересувається за діагоналлю вгору і"
+" ліворуч, а верхнє праве — за діагоналлю вниз і ліворуч."
 
 #: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
 msgstr ""
+"З рисунка угорі ліворуч, рисунок обертається проти годинникової стрілки на 90"
+" градусів."
 
 #: ../src/Games/Logic/PuzzleGridNumbers.cs:42
 msgid "Numbers in a grid"
@@ -4484,6 +4544,9 @@ msgid ""
 "people, the second n-2 people, etc. The result is the sum of the first n-1 "
 "consecutive numbers: 1+2+3+...+(n-1)."
 msgstr ""
+"Якщо n — загальна кількість людей, перша особа тисне руки n-1 людям, друга —"
+" n-2 людям тощо. Разом, маємо суму послідовності перших n-1 натуральних"
+" чисел: 1+2+3+...+(n-1)."
 
 #: ../src/Games/Logic/PuzzleLargerShape.cs:111
 msgid "Larger shape"
@@ -4495,7 +4558,7 @@ msgid ""
 "Which larger shape can you make combining the first two figures? Answer {0}, "
 "{1}, {2} or {3}."
 msgstr ""
-"Яку більшу фігуру Ви можете отримати об’єднанням перших двох? Відповідь {0}, "
+"Яку більшу фігуру Ви можете отримати об'єднанням перших двох? Відповідь {0}, "
 "{1}, {2} чи {3}"
 
 #: ../src/Games/Logic/PuzzleLargestArea.cs:237
@@ -4520,6 +4583,8 @@ msgid ""
 "If the circles represented by the arcs below were completed, which circle "
 "would have the largest diameter? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо завершити малювання кіл, які показано нижче дугами, яке з кіл матиме"
+" найбільший діаметр? Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzleLargestDiameter.cs:56
 msgid "Less curved is the arc, the larger the circle is."
@@ -4539,8 +4604,9 @@ msgid ""
 "How many line segments in total are in the figures below? A line segment is "
 "a line between two points with no crossing lines."
 msgstr ""
-"Яка загальна кількість відрізків на фігурі знизу? Точки кінців відрізків "
-"утворюються в результаті перетину ліній."
+"Яка загальна кількість відрізків на наведених нижче рисунках? Відрізком"
+" вважаємо частину прямої між двома точками, без розрізання відрізка лініями,"
+" які його перетинають."
 
 #: ../src/Games/Logic/PuzzleLines.cs:42
 #, csharp-format
@@ -4550,13 +4616,13 @@ msgid ""
 msgid_plural ""
 "There are {0} lines in the figure to the left and {1} in the figure to the "
 "right."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "{0} відрізок на рисунку ліворуч і {1} на рисунку праворуч."
+msgstr[1] "{0} відрізки на рисунку ліворуч і {1} на рисунку праворуч."
+msgstr[2] "{0} відрізків на рисунку ліворуч і {1} на рисунку праворуч."
 
 #: ../src/Games/Logic/PuzzleLines.cs:50
 msgid "It is an easy exercise if you systematically count the lines."
-msgstr "Це легка вправа, якщо Ви рахуватимете лінії систематизовано."
+msgstr "Це легка вправа, якщо ви рахуватимете відрізки систематизовано."
 
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:33
 msgid "Missing piece"
@@ -4591,6 +4657,8 @@ msgid ""
 "The slices below have some kind of relation. Which is the missing slice in "
 "the circle below? Answer {0}, {1} or {2}."
 msgstr ""
+"Частини нижче пов'язано між собою. Якої частини не вистачає у колі нижче?"
+" Дайте відповідь {0}, {1} або {2}."
 
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:70
 msgid "Each slice is related to the opposite one."
@@ -4657,7 +4725,7 @@ msgid ""
 "to third; and move first and last circles of the fifth line to the sixth."
 msgstr ""
 "Перемістіть першу лінію на сьому, два кола з другої лінії на третю а також "
-"перше та останнє коло п’ятої лінії перемістіть на шосту лінію."
+"перше та останнє коло п'ятої лінії перемістіть на шосту лінію."
 
 #: ../src/Games/Logic/PuzzleNextFigure.cs:51
 msgid "Next figure"
@@ -4720,7 +4788,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:48
 msgid "Every number in the sequence is related to the previous one."
-msgstr "Кожне число послідовності пов’язане із попереднім."
+msgstr "Кожне число послідовності пов'язане із попереднім."
 
 #: ../src/Games/Logic/PuzzleNumericSequence.cs:55
 msgid ""
@@ -4756,12 +4824,15 @@ msgid ""
 "Which element does not belong to the group? It is not related to any "
 "arithmetical of the numbers. Answer {0}, {1}, {2}, {3} or {4}."
 msgstr ""
+"Який з елементів не належить до групи? Його не пов'язано жодним арифметичним"
+" співвідношенням із іншими числами. Дайте відповідь {0}, {1}, {2}, {3} або"
+" {4}."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:64
 msgid ""
 "The criteria for deciding if an equation belongs to the group is not "
 "arithmetical."
-msgstr "Причина об’єднання рівнянь в групу не арифметична."
+msgstr "Причина об'єднання рівнянь в групу не арифметична."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:66
 msgid ""
@@ -4769,13 +4840,15 @@ msgid ""
 "related."
 msgstr ""
 "Врахуйте, що кожне число, яке належить групі, складається з двох "
-"взаємовз’язаних частин."
+"взаємопов'язаних частин."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:77
 msgid ""
 "In all the other equations the digits from the left side also appear on the "
 "right side."
 msgstr ""
+"В усіх інших рівняння цифри у лівій частині рівняння є також і у правій його"
+" частині."
 
 #: ../src/Games/Logic/PuzzleOstracism.cs:79
 msgid ""
@@ -4859,8 +4932,14 @@ msgid_plural ""
 "After getting {0}% discount you have paid {1} monetary units for a TV set. "
 "What was the original price of the TV set?"
 msgstr[0] ""
+"Після отримання знижки у {0}% вам довелося заплатити {1} грошову одиницю за"
+" телевізор. Якою є початкова ціна телевізора?"
 msgstr[1] ""
+"Після отримання знижки у {0}% вам довелося заплатити {1} грошові одиниці за"
+" телевізор. Якою є початкова ціна телевізора?"
 msgstr[2] ""
+"Після отримання знижки у {0}% вам довелося заплатити {1} грошових одиниць за"
+" телевізор. Якою є початкова ціна телевізора?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:94
 #, csharp-format
@@ -4871,8 +4950,17 @@ msgid_plural ""
 "John's shop had sales of {0} monetary units. This was an increase of {1}% "
 "over last month. What were last month sales?"
 msgstr[0] ""
+"Продажі у крамниці Джона склали {0} грошову одиницю. Вони збільшилися на {1}"
+"%, якщо порівнювати з попереднім місяцем. Якими були продажі у попередньому"
+" місяці?"
 msgstr[1] ""
+"Продажі у крамниці Джона склали {0} грошових одиниці. Вони збільшилися на {1}"
+"%, якщо порівнювати з попереднім місяцем. Якими були продажі у попередньому"
+" місяці?"
 msgstr[2] ""
+"Продажі у крамниці Джона склали {0} грошових одиниць. Вони збільшилися на {1}"
+"%, якщо порівнювати з попереднім місяцем. Якими були продажі у попередньому"
+" місяці?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:112
 #, csharp-format
@@ -4893,18 +4981,20 @@ msgid ""
 "If all painters are artists and some citizens of Barcelona are artists. "
 "Which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Усі художники є митцями, а деякі з мешканців Барселони є митцями. Який із"
+" наступних висновків є правильним? Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:59
 msgid "Some citizens of Barcelona are painters"
-msgstr "Декілька мешканців Барселони являються художниками"
+msgstr "Частина мешканців Барселони є художниками"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:60
 msgid "All citizens of Barcelona are painters"
-msgstr "Всі мешканці Барселони являються художниками"
+msgstr "Всі мешканці Барселони є художниками"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:61
 msgid "No citizen of Barcelona is a painter"
-msgstr "Жоден мешканець Барселони не являється художником"
+msgstr "Жоден мешканець Барселони не є художником"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:62
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:70
@@ -4919,18 +5009,20 @@ msgid ""
 "If no ill artist is happy and some artists are happy. Which of the following "
 "conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Жоден із хворих митців не є щасливим, а деякі митці є щасливими. Який із"
+" наступних висновків є правильним? Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:67
 msgid "Some artists are not ill"
-msgstr "Декілька художників не є хворими"
+msgstr "Частина митців не є хворими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:68
 msgid "Some painters are not artists"
-msgstr "Не всі малярі — художники"
+msgstr "Не всі художники — митці"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:69
 msgid "All artists are happy"
-msgstr "Всі художники щасливі"
+msgstr "Всі митці щасливі"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:73
 #, csharp-format
@@ -4938,6 +5030,9 @@ msgid ""
 "People that travel always buy a map. You are not going to travel. Which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Ті, хто подорожує, завжди купують мапу. Ви не маєте наміру подорожувати. Який"
+" із наведених нижче висновків є правильним? Дайте відповідь {0}, {1}, {2} або"
+" {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:75
 msgid "You do not have any map"
@@ -4957,6 +5052,9 @@ msgid ""
 "If you whistle if you are happy and you always smile when you whistle, which "
 "of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Ви насвистуєте, коли щасливі, і завжди посміхаєтеся, коли насвистуєте. Який"
+" із наведених нижче висновків є правильним? Дайте відповідь {0}, {1}, {2} або"
+" {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:83
 msgid "You smile if you are happy"
@@ -4964,11 +5062,11 @@ msgstr "Ви посміхаєтесь, якщо ви щасливі"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:84
 msgid "You are only happy if you whistle"
-msgstr "При свисті, ви просто щасливі"
+msgstr "Ви щасливі, коли насвистуєте"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:85
 msgid "You whistle if you are not happy"
-msgstr "Свист не приносить вам відчуття щастя"
+msgstr "Ви насвистуєте, коли нещасливі"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:89
 #, csharp-format
@@ -4976,22 +5074,24 @@ msgid ""
 "If your course is always honest and your course is always the best policy, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо ви завжди щирі, а ваша поведінка завжди є правильною, який із наведених"
+" нижче висновків є правильним? Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:91
 msgid "Honesty is sometimes the best policy"
-msgstr "Щирість іноді є найкращою лінією поведінки"
+msgstr "Щирість іноді є правильним підходом"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:92
 msgid "Honesty is always the best policy"
-msgstr "Щирість завжди є найкращою лінією поведінки"
+msgstr "Щирість завжди є правильним підходом"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:93
 msgid "Honesty is not always the best policy"
-msgstr "Щирість не завжди є найкращою лінією поведінки"
+msgstr "Щирість не завжди є правильним підходом"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:94
 msgid "Some of the best policies are dishonest"
-msgstr "Деякі з найкращих ліній поведінки пов'язано із брехнею"
+msgstr "Деякі з правильних підходів пов'язано із брехнею"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:97
 #, csharp-format
@@ -4999,6 +5099,9 @@ msgid ""
 "If no old misers are cheerful and some old misers are thin, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо жоден із старих скнар не є веселим, а деякі зі старих скнар є худими,"
+" який із наведених нижче висновків є правильним? Дайте відповідь {0}, {1},"
+" {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:99
 msgid "Some thin people are not cheerful"
@@ -5010,11 +5113,11 @@ msgstr "Худі люди не є веселими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:101
 msgid "Cheerful people are not thin"
-msgstr ""
+msgstr "Веселі люди не є худими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:102
 msgid "Some cheerful people are not thin"
-msgstr ""
+msgstr "Деякі веселі люди не є худими"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:105
 #, csharp-format
@@ -5022,18 +5125,21 @@ msgid ""
 "If all pigs are fat and nothing that is fed on barley-water is fat, which of "
 "the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо усі свині є товстими, а жодна тварина, яку годують ячмінним відваром, не"
+" є товстою, який із наведених нижче висновків є правильним? Дайте відповідь"
+" {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:107
 msgid "All animals fed on barley-water are non pigs"
-msgstr ""
+msgstr "Усі тварини, яких годують ячмінним відваром, не є свинями"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:108
 msgid "No pigs are fed on barley-water"
-msgstr ""
+msgstr "Усіх тварин, які не є свинями, годують ячмінним відваром"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:109
 msgid "Pigs are not fed on barley-water"
-msgstr ""
+msgstr "Свиней не годують ячмінним відваром"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:110
 msgid "All the other options"
@@ -5045,18 +5151,21 @@ msgid ""
 "If some pictures are first attempts and no first attempts are really good, "
 "which of the following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо деякі знімки зроблено з першої спроби, а жодна перша спроба не є"
+" достатньо якісною, який із наведених нижче висновків є правильним? Дайте"
+" відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:115
 msgid "Some bad pictures are not first attempts"
-msgstr ""
+msgstr "Деякі неякісні знімки не є першими спробами"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:116
 msgid "Some pictures are not really good"
-msgstr ""
+msgstr "Деякі знімки не є достатньо якісними"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:117
 msgid "All bad pictures are first attempts"
-msgstr ""
+msgstr "Усі неякісні знімки є першими спробами"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:118
 msgid "All the others"
@@ -5068,22 +5177,24 @@ msgid ""
 "If you have been out for a walk and you are feeling better, which of the "
 "following conclusions is correct? Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"Якщо ви прогулялися і почуваєтеся краще, який із наведених нижче висновків є"
+" правильним? Дайте відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
 msgid "To feel better, you must go out for a walk"
-msgstr ""
+msgstr "Щоб почуватися краще, вам слід більше гуляти"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:124
 msgid "If you go out for a walk, you will feel better"
-msgstr ""
+msgstr "Якщо ви прогуляєтеся, ви почуватиметеся краще"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:125
 msgid "Some who go out for a walk feel better"
-msgstr ""
+msgstr "Декому, щоб почуватися краще, слід прогулятися"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
 msgid "No one feels better who does not go out for a walk"
-msgstr ""
+msgstr "Ніхто з тих, хто не гуляє, не почувається краще"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:132
 msgid "Predicate logic"
@@ -5153,6 +5264,8 @@ msgid ""
 "previous character and adding {0} to it in order to get the position of the "
 "next letter."
 msgstr ""
+"Номер кожної наступної літери обчислюється додаванням до позиції попередньої"
+" літери у абетці {0}."
 
 #: ../src/Games/Logic/PuzzleSquares.cs:28
 msgid "Squares"
@@ -5211,6 +5324,9 @@ msgid ""
 "in the top left corner and a 1/4 square of paper (red) in the top left "
 "corner."
 msgstr ""
+"Повний квадрат паперу (жовтий), 3/4 повного квадрата паперу (синій) у"
+" нижньому правому куті, ще 3/4 квадрата паперу (зелений) у верхньому лівому"
+" куті і 1/4 квадрата паперу (червоний) у верхньому лівому куті."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:32
 msgid "Tetris"
@@ -5220,6 +5336,7 @@ msgstr "Тетріс"
 #, csharp-format
 msgid "What figure completes the set below? Answer {0}, {1} or {2}."
 msgstr ""
+"Яка фігура завершує набір, наведений нижче? Дайте відповідь {0}, {1} або {2}."
 
 #: ../src/Games/Logic/PuzzleTetris.cs:43
 msgid ""
@@ -5243,8 +5360,17 @@ msgid_plural ""
 "{0} hours ago it was as long after {1:h tt} as it was before {2:h tt} on the "
 "same day. What is the time now? Answer using the hour (e.g.: {3:h tt})"
 msgstr[0] ""
+"{0} годину тому минуло рівно стільки часу від {1:h tt}, скільки лишилося до"
+" {2:h tt} у той самий день. Котра година зараз? Дайте відповідь у годинах"
+" (приклад: {3:h tt})"
 msgstr[1] ""
+"{0} години тому минуло рівно стільки часу від {1:h tt}, скільки лишилося до"
+" {2:h tt} у той самий день. Котра година зараз? Дайте відповідь у годинах"
+" (приклад: {3:h tt})"
 msgstr[2] ""
+"{0} годин тому минуло рівно стільки часу від {1:h tt}, скільки лишилося до"
+" {2:h tt} у той самий день. Котра година зараз? Дайте відповідь у годинах"
+" (приклад: {3:h tt})"
 
 #: ../src/Games/Logic/PuzzleTimeNow.cs:52
 #, csharp-format
@@ -5255,8 +5381,14 @@ msgid_plural ""
 "Determine the hour half way between the given times, and then add {0} hours "
 "to convert it to the present time."
 msgstr[0] ""
+"Знайдіть середнє арифметична для вказаних моментів часу, а потім додайте {0}"
+" годину, щоб отримати поточний час."
 msgstr[1] ""
+"Знайдіть середнє арифметична для вказаних моментів часу, а потім додайте {0}"
+" години, щоб отримати поточний час."
 msgstr[2] ""
+"Знайдіть середнє арифметична для вказаних моментів часу, а потім додайте {0}"
+" годин, щоб отримати поточний час."
 
 #. TimeNow Puzzle. Translators: {0} is used to check the hour answered by the user.
 #. Use the right time format specification for your culture
@@ -5275,11 +5407,11 @@ msgstr "Простий годинник"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:38
 msgid "Trains"
-msgstr "Поїзди"
+msgstr "Потяги"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:50
 msgid "The distance formula is 'distance = rate x time'."
-msgstr "Формула відстані є 'відстань = швидкість х час'."
+msgstr "Формула відстані — «відстань = швидкість х час»."
 
 #. Translators:
 #. - mph (miles per hour). You must localize this using the right unit of speed for your locale
@@ -5297,23 +5429,25 @@ msgid_plural ""
 "many hours does it take the second train, since it starts moving, to "
 "overtake the first train?"
 msgstr[0] ""
-"Поїзд залишив станцію на швидкості {0} км/год. Через {1} годин інший поїзд "
+"Потяг залишив станцію на швидкості {0} км/год. Через {1} годин інший потяг "
 "проїхав дану станцію на швидкості {2} км/год. Через скільки годин другий "
-"поїзд наздожене першого?"
+"потяг наздожене першого?"
 msgstr[1] ""
-"Поїзд покинув станцію на швидкості {0} миль/год. Через {1} годин інший поїзд "
-"проїхав дану станцію на швидкості {2} миль/год. Через скільки годин другий "
-"поїзд наздожене першого?"
+"Потяг покинув станцію на швидкості {0} км/год. Через {1} годин інший потяг "
+"проїхав дану станцію на швидкості {2} км/год. Через скільки годин другий "
+"потяг наздожене першого?"
 msgstr[2] ""
-"Поїзд покинув станцію на швидкості {0} миль/год. Через {1} годину інший "
-"поїзд проїхав дану станцію на швидкості {2} миль/год. Через скільки годин "
-"другий поїзд наздожене першого?"
+"Потягд покинув станцію на швидкості {0} км/год. Через {1} годину інший "
+"потяг проїхав дану станцію на швидкості {2} км/год. Через скільки годин "
+"другий потяг наздожене першого?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:83
 msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
 msgstr ""
+"Ви можете обчислити відповідь помноживши швидкість першого поїзду на час і"
+" поділивши його на різницю швидкостей."
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
@@ -5328,15 +5462,24 @@ msgid_plural ""
 "parallel tracks. One travels at {1} mph and the other at {2} mph. In how "
 "many hours will they meet?"
 msgstr[0] ""
+"Між двома потягами відстань у {0} кілометр, і вони рухаються назустріч"
+" паралельними трасами. Один рухається зі швидкістю {1} км/год., інший — {2}"
+" км/год. За скільки годин вони зустрінуться?"
 msgstr[1] ""
+"Між двома потягами відстань у {0} кілометри, і вони рухаються назустріч"
+" паралельними трасами. Один рухається зі швидкістю {1} км/год., інший — {2}"
+" км/год. За скільки годин вони зустрінуться?"
 msgstr[2] ""
+"Між двома потягами відстань у {0} кілометрів, і вони рухаються назустріч"
+" паралельними трасами. Один рухається зі швидкістю {1} км/год., інший — {2}"
+" км/год. За скільки годин вони зустрінуться?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:104
 #: ../src/Games/Logic/PuzzleTrains.cs:126
 msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
-msgstr ""
+msgstr "Ви можете обчислити відповідь, поділивши відстань на суму швидкостей."
 
 #. Translators:
 #. - mph (miles per hour) and miles must be localized this using the right unit of speed for your locale
@@ -5351,8 +5494,17 @@ msgid_plural ""
 "traveling in opposite directions at {0} and {1} mph respectively. In how "
 "many hours will they be {2} miles apart?"
 msgstr[0] ""
+"Два потяги, які рухаються паралельними прямими шляхами полишають одну станцію"
+" у один момент часу і рухаються у протилежних напрямках зі швидкостями {0} і"
+" {1} км/год., відповідно. За скільки годин між ними буде {2} кілометр?"
 msgstr[1] ""
+"Два потяги, які рухаються паралельними прямими шляхами полишають одну станцію"
+" у один момент часу і рухаються у протилежних напрямках зі швидкостями {0} і"
+" {1} км/год., відповідно. За скільки годин між ними буде {2} кілометри?"
 msgstr[2] ""
+"Два потяги, які рухаються паралельними прямими шляхами полишають одну станцію"
+" у один момент часу і рухаються у протилежних напрямках зі швидкостями {0} і"
+" {1} км/год., відповідно. За скільки годин між ними буде {2} кілометрів?"
 
 #: ../src/Games/Logic/PuzzleTriangles.cs:29
 msgid "Triangles"
@@ -5370,7 +5522,7 @@ msgstr "Трикутник може бути вбудований в інший 
 #: ../src/Games/Logic/PuzzleTriangles.cs:42
 #, csharp-format
 msgid "The triangles are made by connecting the following points: {0}"
-msgstr ""
+msgstr "Трикутники утворено з'єднанням таких точок: {0}"
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:55
 msgid "Triangles with numbers"
@@ -5382,7 +5534,7 @@ msgstr "Яке число має замінити знак питання ниж
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:64
 msgid "All the triangles share a property and are independent of the rest."
-msgstr ""
+msgstr "Усі трикутники мають спільну властивість і є незалежними від решти."
 
 #: ../src/Games/Logic/PuzzleTrianglesWithNumbers.cs:69
 #, csharp-format
@@ -5430,6 +5582,8 @@ msgid ""
 "In which cell is the other face like the one shown below? Answer the cell "
 "number."
 msgstr ""
+"У якій комірці показано те саме обличчя, що і нижче? Дайте відповідь у формі"
+" номера комірки."
 
 #: ../src/Games/Memory/MemoryFacts.cs:46
 msgid "Memorize facts"
@@ -5446,16 +5600,22 @@ msgid_plural ""
 "Shiny Cars had already announced a {0} day production halt next month, but "
 "before then it had not halted production since {1}."
 msgstr[0] ""
+"«Чудові машини» оголосили про припинення виробництва на {0} день наступного"
+" місяця, хоча досі вони не припиняли виробництва з {1} року."
 msgstr[1] ""
+"«Чудові машини» оголосили про припинення виробництва на {0} дні наступного"
+" місяця, хоча досі вони не припиняли виробництва з {1} року."
 msgstr[2] ""
+"«Чудові машини» оголосили про припинення виробництва на {0} днів наступного"
+" місяця, хоча досі вони не припиняли виробництва з {1} року."
 
 #: ../src/Games/Memory/MemoryFacts.cs:108
 msgid "How many days did Shiny Cars halt its production for?"
-msgstr ""
+msgstr "На скільки днів припиняють виробництво «Чудові машини»?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:109
 msgid "In what year did Shiny Cars last halt its production?"
-msgstr ""
+msgstr "У якому році востаннє припиняли виробництво «Чудові машини»?"
 
 #. Translators: {0} is replaced by a number, {1} by a year (like 1940)
 #: ../src/Games/Memory/MemoryFacts.cs:117
@@ -5463,10 +5623,12 @@ msgstr ""
 msgid ""
 "Shiny Cars sales fell {0}% this past December, the worst decline since {1}."
 msgstr ""
+"Останнього грудня продажі «Чудових машин» впали на {0}%. Це найбільше падіння"
+" з {1} року."
 
 #: ../src/Games/Memory/MemoryFacts.cs:119
 msgid "By how much did company sales fall last December?"
-msgstr ""
+msgstr "На скільки впали продажі компанії останнього грудня?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:121
 #, csharp-format
@@ -5474,16 +5636,22 @@ msgid ""
 "Shiny Cars sales fell {0}% this past December. This is the worst decline "
 "since which year?"
 msgstr ""
+"Останнього грудня продажі «Чудових машин» впали на {0}%. З якого року є"
+" найбільшим це падіння?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:127
 #, csharp-format
 msgid "About {0}% of Shiny Cars produced worldwide are sold in Europe."
 msgstr ""
+"Близько {0}% продукції «Чудових машин», виробленої в усьому світі, продається"
+" у Європі."
 
 #: ../src/Games/Memory/MemoryFacts.cs:129
 msgid ""
 "What percentage of all Shiny Cars produced worldwide are sold in Europe?"
 msgstr ""
+"Скільки відсотків продукції «Чудових машин», виробленої в усьому світі,"
+" продається у Європі?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:135
 #, csharp-format
@@ -5491,14 +5659,17 @@ msgid ""
 "About {0}% of Shiny Cars use diesel, {1}% use gasoline and the remainder use "
 "electricity."
 msgstr ""
+"Близько {0}% продукції «Чудових машин» обладнано дизельним двигуном, {1}% —"
+" бензиновим двигуном, а решту — електродвигунами."
 
 #: ../src/Games/Memory/MemoryFacts.cs:137
 msgid "What percentage of Shiny Cars use diesel?"
-msgstr "Скільки відсотків Shiny Cars використовують дизельний двигун?"
+msgstr ""
+"Скільки відсотків продукції «Чудових машин» використовують дизельний двигун?"
 
 #: ../src/Games/Memory/MemoryFacts.cs:138
 msgid "What percentage of Shiny Cars use gasoline?"
-msgstr "Скільки відсотків Shiny Cars використовують бензин?"
+msgstr "Скільки відсотків автомобілів «Чудових машин» використовують бензин?"
 
 #: ../src/Games/Memory/MemoryFiguresAndText.cs:69
 msgid "Circle"
@@ -5560,7 +5731,7 @@ msgstr "Кінець у точці {0}"
 
 #: ../src/Games/Memory/MemoryIndications.cs:160
 msgid "Memorize indications"
-msgstr ""
+msgstr "Запам'ятовування сигналів"
 
 #: ../src/Games/Memory/MemoryIndications.cs:166
 #, csharp-format
@@ -5568,24 +5739,32 @@ msgid ""
 "Which of the following graphics represents the indications previously given? "
 "Answer {0}, {1}, {2} or {3}."
 msgstr ""
+"На якому із наступних графіків показано попередньо показані сигнали? Дайте"
+" відповідь {0}, {1}, {2} або {3}."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:63
 msgid "How many odd numbers were in the previous image? Answer using numbers."
 msgstr ""
+"Скільки непарних чисел було на попередньому зображенні? Дайте відповідь у"
+" формі числа."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:88
 msgid "How many even numbers were in the previous image? Answer using numbers."
 msgstr ""
+"Скільки парних чисел було на попередньому зображенні? Дайте відповідь у формі"
+" числа."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:113
 msgid ""
 "How many numbers with more than one digit were in the previous image? Answer "
 "using numbers."
 msgstr ""
+"Скільки чисел із декількома цифрами було на попередньому зображенні? Дайте"
+" відповідь у формі числа."
 
 #: ../src/Games/Memory/MemoryNumbers.cs:130
 msgid "Memorize numbers"
-msgstr ""
+msgstr "Запам'ятовування чисел"
 
 #: ../src/Games/Memory/MemoryWords.cs:33
 msgid "Memorize words"
@@ -5825,8 +6004,14 @@ msgid_plural ""
 "represented in base 10 (ranging from 0 to 9). How many different passwords "
 "can you have?"
 msgstr[0] ""
+"Файл захищено числовим паролем, що складається із [digits] цифри у десятковій"
+" системі числення (від 0 до 9). Скільки різних паролів може бути у файла?"
 msgstr[1] ""
+"Файл захищено числовим паролем, що складається із [digits] цифр у десятковій"
+" системі числення (від 0 до 9). Скільки різних паролів може бути у файла?"
 msgstr[2] ""
+"Файл захищено числовим паролем, що складається із [digits] цифр у десятковій"
+" системі числення (від 0 до 9). Скільки різних паролів може бути у файла?"
 
 #: ../tools/GameXmlGetString.cs:47
 msgid ""
@@ -5836,8 +6021,14 @@ msgid_plural ""
 "A file is protected by a password formed by a [digits] digits represented in "
 "base 8 (ranging from 0 to 7). How many different passwords can you have?"
 msgstr[0] ""
+"Файл захищено числовим паролем, що складається із [digits] цифри у вісімковій"
+" системі числення (від 0 до 7). Скільки різних паролів може бути у файла?"
 msgstr[1] ""
+"Файл захищено числовим паролем, що складається із [digits] цифр у вісімковій"
+" системі числення (від 0 до 7). Скільки різних паролів може бути у файла?"
 msgstr[2] ""
+"Файл захищено числовим паролем, що складається із [digits] цифр у вісімковій"
+" системі числення (від 0 до 7). Скільки різних паролів може бути у файла?"
 
 #: ../tools/GameXmlGetString.cs:51
 msgid ""
@@ -5886,8 +6077,14 @@ msgid_plural ""
 "You have [money] monetary units in your bank account at 10% interest "
 "compounded annually. How much money will you have at the end of 2 years?"
 msgstr[0] ""
+"На вашому рахунку у банку [money] грошова одиниця. Відсоткова ставка складає"
+" 10% річних. Скільки грошей буде на вашому рахунку за 2 роки?"
 msgstr[1] ""
+"На вашому рахунку у банку [money] грошові одиниці. Відсоткова ставка складає"
+" 10% річних. Скільки грошей буде на вашому рахунку за 2 роки?"
 msgstr[2] ""
+"На вашому рахунку у банку [money] грошових одиниць. Відсоткова ставка складає"
+" 10% річних. Скільки грошей буде на вашому рахунку за 2 роки?"
 
 #: ../tools/GameXmlGetString.cs:67
 msgid ""
@@ -5897,8 +6094,14 @@ msgid_plural ""
 "John cleans at the speed of 1 / [john_time] per hour and his friend at 1 / "
 "[friend]. Together they will need [answer_a] hours."
 msgstr[0] ""
+"Джон прибирає зі швидкістю 1 / [john_time] на годину, а його друг — 1 /"
+" [friend]. Разом їм знадобиться [answer_a] година."
 msgstr[1] ""
+"Джон прибирає зі швидкістю 1 / [john_time] на годину, а його друг — 1 /"
+" [friend]. Разом їм знадобиться [answer_a] години."
 msgstr[2] ""
+"Джон прибирає зі швидкістю 1 / [john_time] на годину, а його друг — 1 /"
+" [friend]. Разом їм знадобиться [answer_a] годин."
 
 #: ../tools/GameXmlGetString.cs:71
 msgid ""
@@ -5910,8 +6113,17 @@ msgid_plural ""
 "as many. How many hours would it take them to clean up the warehouse if they "
 "worked together? [option_answers]"
 msgstr[0] ""
+"Джону потрібна [john_time] година, щоб прибрати майстерню, а його другові —"
+" удвічі менше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
 msgstr[1] ""
+"Джону потрібна [john_time] години, щоб прибрати майстерню, а його другові —"
+" удвічі менше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
 msgstr[2] ""
+"Джону потрібна [john_time] годин, щоб прибрати майстерню, а його другові —"
+" удвічі менше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:75
 msgid ""
@@ -5923,5 +6135,14 @@ msgid_plural ""
 "as many. How many hours would it take them to clean up the warehouse if they "
 "worked together? [option_answers]"
 msgstr[0] ""
+"Джону потрібна [john_time] година, щоб прибрати майстерню, а його другові —"
+" удвічі більше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
 msgstr[1] ""
+"Джону потрібна [john_time] години, щоб прибрати майстерню, а його другові —"
+" удвічі більше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
 msgstr[2] ""
+"Джону потрібна [john_time] годин, щоб прибрати майстерню, а його другові —"
+" удвічі більше. Скільки годин знадобиться їм, щоб прибрати майстерню разом?"
+" [option_answers]"
