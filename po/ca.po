@@ -235,13 +235,13 @@ msgid ""
 "On the dartboard below, where would you need to throw the darts to add 120 "
 "points in 5 throws? Answer using a list of numbers (e.g.: 4, 5, 6, 3, 2)"
 msgstr ""
-"A la diana de sota, on heu de llançar els dards per sumar 120 punts en 5 "
+"A la diana de sota, on heu de llançar els dards per a sumar 120 punts en 5 "
 "tirades? Responeu usant una llista de nombres (p. ex. 4, 5, 6, 3, 2)"
 
 #: ../data/games.xml.h:42
 msgid "Only 3 of the 4 numbers in the dartboard are used to add 120 points."
 msgstr ""
-"Només 3 dels 4 nombres en la diana són necessaris per afegir 120 punts."
+"Només 3 dels 4 nombres en la diana són necessaris per a afegir 120 punts."
 
 #: ../data/games.xml.h:43
 msgid "Horse race"
@@ -279,7 +279,7 @@ msgid ""
 "How much weight is needed at the point indicated by the question mark to "
 "balance the lever?"
 msgstr ""
-"Quant de pes cal en el punt indicat pel signe d'interrogació per equilibrar "
+"Quant de pes cal en el punt indicat pel signe d'interrogació per a equilibrar "
 "la palanca?"
 
 #: ../data/games.xml.h:48
@@ -703,7 +703,7 @@ msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels"
 msgstr ""
-"gbrainy és un joc per exercitar la memòria, i les vostres habilitats "
+"gbrainy és un joc per a exercitar la memòria, i les vostres habilitats "
 "aritmètiques i lògiques amb molts tipus d'exercicis de diferents nivells de "
 "dificultat"
 
@@ -712,7 +712,7 @@ msgid ""
 "gbrainy is a game to train memory, arithmetical and logical capabilities "
 "with many sorts of exercises of different difficulty levels."
 msgstr ""
-"gbrainy és un joc per exercitar la memòria, i les vostres habilitats "
+"gbrainy és un joc per a exercitar la memòria, i les vostres habilitats "
 "aritmètiques i lògiques amb molts tipus d'exercicis de diferents nivells de "
 "dificultat."
 
@@ -725,7 +725,7 @@ msgid ""
 msgstr ""
 "És útil per a totes les edats i propòsits: infants els quals els seus pares "
 "volen que desenvolupin les seves habilitats, adults que volen mantenir la "
-"seva ment en forma o simplement per passar-ho bé, o gent gran que vulgui "
+"seva ment en forma o simplement per a passar-ho bé, o gent gran que vulgui "
 "fer exercicis de memòria."
 
 #: ../data/gbrainy.desktop.in.h:1 ../src/Clients/Classical/gbrainy.ui.h:1
@@ -813,7 +813,7 @@ msgstr "Gos i cavall són especies i terrier i poni són races."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
-msgstr "La paraula «taxidermista» s'usa per definir una persona que?"
+msgstr "La paraula «taxidermista» s'usa per a definir una persona que?"
 
 #: ../data/verbal_analogies.xml.h:18
 msgid "Works with dead animals"
@@ -1787,7 +1787,7 @@ msgstr "Taula"
 
 #: ../data/verbal_analogies.xml.h:274
 msgid "A pen is used to write and a fork is used to eat."
-msgstr "Un bolígraf s'usa per escriure i una forquilla per menjar."
+msgstr "Un bolígraf s'usa per a escriure i una forquilla per a menjar."
 
 #: ../data/verbal_analogies.xml.h:275
 msgid "desert / oasis | sea"
@@ -1909,7 +1909,7 @@ msgstr "Opulent"
 
 #: ../data/verbal_analogies.xml.h:305
 msgid "Homeless"
-msgstr "Sense sostre"
+msgstr "Sensesostre"
 
 #: ../data/verbal_analogies.xml.h:306
 msgid "Property"
@@ -2476,7 +2476,7 @@ msgstr "cotxe / carretera | tren"
 
 #: ../data/verbal_analogies.xml.h:464
 msgid "track | railway | rails | railroad"
-msgstr "via | ferrovia | via fèrria | rail"
+msgstr "via | ferrovia | via fèrria | rail | vies"
 
 #: ../data/verbal_analogies.xml.h:465
 msgid "pediatrics / children | numismatics"
@@ -2622,7 +2622,7 @@ msgstr ""
 "Aquest programa es distribueix amb l'expectativa que serà útil, però SENSE "
 "CAP GARANTIA; fins i tot sense la garantia implícita de COMERCIALITZACIÓ o "
 "ADEQUACIÓ PER A CAP PROPÒSIT EN PARTICULAR. Vegeu la Llicència Pública "
-"General GNU per obtenir-ne més detalls.\n"
+"General GNU per a obtenir-ne més detalls.\n"
 "\n"
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:66
@@ -2636,7 +2636,7 @@ msgstr ""
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:76
 msgid "A brain teaser game for fun and to keep your brain trained."
-msgstr "Un joc per divertir-se i mantenir el vostre cervell en forma."
+msgstr "Un joc per a divertir-se i mantenir el vostre cervell en forma."
 
 #: ../src/Clients/Classical/Dialogs/AboutDialog.cs:78
 msgid "gbrainy project web site"
@@ -2687,7 +2687,7 @@ msgstr "El gràfic de sota mostra l'evolució de la puntuació del jugador."
 msgid ""
 "You need more than one game session recorded to see the score evolution."
 msgstr ""
-"Cal més d'una partida emmagatzemada per veure l'evolució de la puntuació."
+"Cal més d'una partida emmagatzemada per a veure l'evolució de la puntuació."
 
 #: ../src/Clients/Classical/Dialogs/PlayerHistoryDialog.cs:52
 #, csharp-format
@@ -2761,7 +2761,7 @@ msgid ""
 "This option allows to export a set of games in a PDF file. You can complete "
 "the puzzles without a computer."
 msgstr ""
-"Aquesta opció permet exportar un conjunt de jocs a un fitxer PDF per poder-"
+"Aquesta opció permet exportar un conjunt de jocs a un fitxer PDF per a poder-"
 "hi jugar sense un ordinador."
 
 #: ../src/Clients/Classical/Dialogs/ui/PdfExportDialog.ui.h:4
@@ -2873,7 +2873,7 @@ msgstr "<b>Jocs de memòria</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:13
 msgid "Time in seconds to memorize the challenge:"
-msgstr "Temps en segons per memoritzar el repte:"
+msgstr "Temps en segons per a memoritzar el repte:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:14
 msgid "Show a countdown message"
@@ -2982,7 +2982,7 @@ msgstr "_Finalitza la partida"
 
 #: ../src/Clients/Classical/gbrainy.ui.h:12
 msgid "Export Games to PDF for Off-line Playing..."
-msgstr "Exporta jocs a PDF per jugar fora de línia..."
+msgstr "Exporta jocs a PDF per a jugar fora de línia..."
 
 #: ../src/Clients/Classical/gbrainy.ui.h:13
 msgid "_View"
@@ -3546,17 +3546,17 @@ msgstr ""
 #: ../src/Core/Main/GameTips.cs:73 ../src/Core/Views/WelcomeView.cs:149
 msgid "Use the Settings to adjust the difficulty level of the game."
 msgstr ""
-"Utilitzeu les Preferències per ajustar el nivell de dificultat del joc."
+"Utilitzeu les Preferències per a ajustar el nivell de dificultat del joc."
 
 #: ../src/Core/Main/GameTips.cs:75
 msgid "Association of elements is a common technique for remembering things."
-msgstr "L'associació d'elements és una tècnica habitual per recordar coses."
+msgstr "L'associació d'elements és una tècnica habitual per a recordar coses."
 
 #: ../src/Core/Main/GameTips.cs:77
 msgid ""
 "Grouping elements into categories is a common technique for remembering "
 "things."
-msgstr "L'agrupació d'elements és una tècnica habitual per recordar coses."
+msgstr "L'agrupació d'elements és una tècnica habitual per a recordar coses."
 
 #: ../src/Core/Main/GameTips.cs:79
 msgid "Build acronyms using the first letter of each fact to be remembered."
@@ -3679,7 +3679,7 @@ msgstr "Responeu {0}."
 
 #: ../src/Core/Views/CountDownView.cs:78
 msgid "Get ready to memorize the next objects..."
-msgstr "Prepareu-vos per memoritzar els objectes següents..."
+msgstr "Prepareu-vos per a memoritzar els objectes següents..."
 
 #: ../src/Core/Views/FinishView.cs:143
 #: ../src/Core/Views/PlayerHistoryView.cs:275
@@ -3783,7 +3783,7 @@ msgstr ""
 
 #: ../src/Core/Views/WelcomeView.cs:104
 msgid "Memory trainers. To prove your short term memory."
-msgstr "Entrenadors de memòria. Per posar a prova la memòria a curt termini."
+msgstr "Entrenadors de memòria. Per a posar a prova la memòria a curt termini."
 
 #: ../src/Core/Views/WelcomeView.cs:125
 msgid "Verbal analogies. Challenge your verbal aptitude."
@@ -3800,7 +3800,7 @@ msgid ""
 "gbrainy is a brain teaser game and trainer to have fun and to keep your "
 "brain trained. It includes:"
 msgstr ""
-"El gbrainy és un joc per divertir-se i mantenir el vostre cervell en forma. "
+"El gbrainy és un joc per a divertir-se i mantenir el vostre cervell en forma. "
 "Inclou:"
 
 #: ../src/Games/Calculation/CalculationArithmetical.cs:39
@@ -4912,7 +4912,7 @@ msgid ""
 "What is the minimum number of circles to be moved in order to convert the "
 "left figure into the right figure?"
 msgstr ""
-"Quin és el nombre mínim de cercles que heu de moure per convertir la figura "
+"Quin és el nombre mínim de cercles que heu de moure per a convertir la figura "
 "de l'esquerra en la figura de la dreta?"
 
 #: ../src/Games/Logic/PuzzleMoveFigure.cs:42
@@ -5170,7 +5170,7 @@ msgid ""
 "the amount of water increase to reach its original value?"
 msgstr ""
 "La quantitat d'aigua a un cubell decreix un {0}%. Quin percentatge ha "
-"d'augmentar la quantitat d'aigua per arribar al valor original?"
+"d'augmentar la quantitat d'aigua per a arribar al valor original?"
 
 #: ../src/Games/Logic/PuzzlePercentage.cs:115
 msgid "The objective is to obtain the same total amount."
@@ -5381,7 +5381,7 @@ msgstr ""
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:123
 msgid "To feel better, you must go out for a walk"
-msgstr "Per sentir-vos millor, heu d'anar a fer un tomb"
+msgstr "Per a sentir-vos millor, heu d'anar a fer un tomb"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:124
 msgid "If you go out for a walk, you will feel better"
@@ -5580,10 +5580,10 @@ msgid_plural ""
 "to convert it to the present time."
 msgstr[0] ""
 "Heu de calcular l'hora que està a mig camí entre les hores donades, i "
-"llavors afegir {0} hora per convertir-ho al temps present."
+"llavors afegir {0} hora per a convertir-ho al temps present."
 msgstr[1] ""
 "Heu de calcular l'hora que està a mig camí entre les hores donades, i "
-"llavors afegir {0} hores per convertir-ho al temps present."
+"llavors afegir {0} hores per a convertir-ho al temps present."
 
 #. TimeNow Puzzle. Translators: {0} is used to check the hour answered by the user.
 #. Use the right time format specification for your culture
@@ -5626,12 +5626,12 @@ msgid_plural ""
 msgstr[0] ""
 "Un tren marxa de l'estació viatjant a {0} km/h. {1} hora després un segon "
 "tren marxa de l'estació viatjant en la mateixa direcció a {2} km/h. Quantes "
-"hores necessita el segon tren, des que es comença a moure, per atrapar al "
+"hores necessita el segon tren, des que es comença a moure, per a atrapar al "
 "primer tren?"
 msgstr[1] ""
 "Un tren marxa de l'estació viatjant a {0} km/h. {1} hores després un segon "
 "tren marxa de l'estació viatjant en la mateixa direcció a {2} km/h. Quantes "
-"hores necessita el segon tren, des que es comença a moure, per atrapar al "
+"hores necessita el segon tren, des que es comença a moure, per a atrapar al "
 "primer tren?"
 
 #: ../src/Games/Logic/PuzzleTrains.cs:83
@@ -5639,7 +5639,7 @@ msgid ""
 "You can calculate the answer by multiplying the speed of the first train by "
 "the time and dividing it by the difference of speeds."
 msgstr ""
-"Per calcular la resposta, multipliqueu la velocitat del primer tren pel "
+"Per a calcular la resposta, multipliqueu la velocitat del primer tren pel "
 "temps i dividint-la per la diferència de les velocitats."
 
 #. Translators:
@@ -5669,7 +5669,7 @@ msgid ""
 "You can calculate the answer by dividing the distance by the sum of both "
 "speeds."
 msgstr ""
-"Per calcular la resposta, dividiu la distància per la suma d'ambdues "
+"Per a calcular la resposta, dividiu la distància per la suma d'ambdues "
 "velocitats."
 
 #. Translators:
@@ -6229,11 +6229,11 @@ msgid_plural ""
 "of a tennis tournament that starts with [players] players?"
 msgstr[0] ""
 "En un torneig de tennis, en cada partit un jugador és eliminat després de "
-"perdre contra un únic oponent. Quants partits calen per determinar el "
+"perdre contra un únic oponent. Quants partits calen per a determinar el "
 "guanyador a un torneig de tennis que comença amb [players] jugador?"
 msgstr[1] ""
 "En un torneig de tennis, en cada partit un jugador és eliminat després de "
-"perdre contra un únic oponent. Quants partits calen per determinar el "
+"perdre contra un únic oponent. Quants partits calen per a determinar el "
 "guanyador a un torneig de tennis que comença amb [players] jugadors?"
 
 #: ../tools/GameXmlGetString.cs:59
@@ -6275,11 +6275,11 @@ msgid_plural ""
 "worked together? [option_answers]"
 msgstr[0] ""
 "En Joan necessita [john_time] hora per a netejar un magatzem i el seu amic "
-"la meitat del temps. Quantes hores els hi calen per netejar el magatzem si "
+"la meitat del temps. Quantes hores els hi calen per a netejar el magatzem si "
 "treballen junts? [option_answers]"
 msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
-"la meitat del temps. Quantes hores els hi calen per netejar el magatzem si "
+"la meitat del temps. Quantes hores els hi calen per a netejar el magatzem si "
 "treballen junts? [option_answers]"
 
 #: ../tools/GameXmlGetString.cs:75
@@ -6293,9 +6293,9 @@ msgid_plural ""
 "worked together? [option_answers]"
 msgstr[0] ""
 "En Joan necessita [john_time] hora per a netejar un magatzem i el seu amic "
-"el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
+"el doble del temps. Quantes hores els hi calen per a netejar el magatzem si "
 "treballen junts? [option_answers]"
 msgstr[1] ""
 "En Joan necessita [john_time] hores per a netejar un magatzem i el seu amic "
-"el doble del temps. Quantes hores els hi calen per netejar el magatzem si "
+"el doble del temps. Quantes hores els hi calen per a netejar el magatzem si "
 "treballen junts? [option_answers]"
