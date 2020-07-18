@@ -1,0 +1,1104 @@
+# Ukrainian translation for gbrainy.
+# Copyright (C) 2020 gbrainy's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gbrainy package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: gbrainy master\n"
+"POT-Creation-Date: 2020-04-19 12:20+0000\n"
+"PO-Revision-Date: 2020-07-18 08:53+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.07.70\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Юрій Чорноіван <yurchor@ukr.net>, 2020"
+
+#. (itstool) path: info/desc
+#: C/customgame.page:9
+msgid "Start a custom games selection."
+msgstr "Початок із вибором нетипових ігор."
+
+#. (itstool) path: credit/name
+#: C/customgame.page:12 C/pause.page:12 C/tips.page:12 C/difficulty.page:12
+#: C/history.page:9 C/multiplayer.page:11 C/score.page:11 C/gameplay.page:12
+#: C/index.page:15 C/newgame.page:14 C/times.page:11 C/export.page:10
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#. (itstool) path: license/p
+#: C/customgame.page:16 C/gametypes.page:13 C/pause.page:16 C/tips.page:16
+#: C/difficulty.page:16 C/history.page:13 C/multiplayer.page:15 C/score.page:15
+#: C/gameplay.page:16 C/index.page:19 C/newgame.page:18 C/times.page:15
+#: C/export.page:14
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/customgame.page:20
+msgid "Custom games selection"
+msgstr "Вибір нетипових ігор"
+
+#. (itstool) path: page/p
+#: C/customgame.page:21
+msgid ""
+"It is possible to play a custom selection of all the games in <app>gbrainy</"
+"app>."
+msgstr "У <app>gbrainy</app> можна грати у нетиповий набір з усіх ігор."
+
+#. (itstool) path: page/p
+#: C/customgame.page:24
+msgid "To do so, proceed as follows:"
+msgstr "Для цього виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/customgame.page:29
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
+"Game</gui> <gui style=\"menuitem\">Custom Game Selection</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Гра</gui><gui"
+" style=\"menuitem\">Нова гра</gui> <gui style=\"menuitem\">Вибір конкретних"
+" ігор</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/customgame.page:35
+msgid ""
+"In the <gui>Custom Game</gui> dialog, select the games that you would like "
+"to play by clicking on the check box next to the name of the game."
+msgstr ""
+"У діалоговому вікні <gui>Нетипова гра</gui> виберіть ігри, у які ви хочете"
+" зіграти клацанням на полі для позначки поряд із пунктом назви гри."
+
+#. (itstool) path: item/p
+#: C/customgame.page:41
+msgid ""
+"Once you are done, click on <gui style=\"button\">Start</gui> to start "
+"playing your custom games selection."
+msgstr ""
+"Коли відповідні ігри буде вибрано, натисніть кнопку <gui style=\"button\""
+">Почати</gui>, щоб почати гру у нетиповий набір ігор."
+
+#. (itstool) path: info/title
+#: C/gametypes.page:6
+msgctxt "sort"
+msgid "3"
+msgstr "3"
+
+#. (itstool) path: info/desc
+#: C/gametypes.page:7
+msgid "What types of game you can play."
+msgstr "Типи ігор, у які ви можете грати."
+
+#. (itstool) path: page/title
+#: C/gametypes.page:16
+msgid "Game types"
+msgstr "Типи ігор"
+
+#. (itstool) path: page/p
+#: C/gametypes.page:18
+msgid "<app>gbrainy</app> provides the following types of games:"
+msgstr "У <app>gbrainy</app> передбачено такі типи ігор:"
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:27 C/score.page:39
+msgid "Logic puzzles"
+msgstr "Логічні головоломки"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:28
+msgid ""
+"Games designed to challenge your reasoning and thinking skills. These games "
+"are based on sequences of elements, visual and spatial reasoning or "
+"relationships between elements."
+msgstr ""
+"Ігри розроблено так, щоб кинути виклик вашим здібностям до логічного"
+" міркування. Ці ігри засновано на послідовностях елементів, візуальній і"
+" просторовій логіці або пошуку взаємозв'язку між елементами."
+
+#. (itstool) path: item/title
+#: C/gametypes.page:48
+msgid "Mental calculations"
+msgstr "Розрахунки без калькулятора"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:49
+msgid ""
+"Games based on arithmetical operations designed to improve your mental "
+"calculation skills. Games that require the player to use multiplication, "
+"division, addition and subtraction combined in different ways."
+msgstr ""
+"Ігри засновано на арифметичних операціях і призначено для удосконалення ваших"
+" здібностей до виконання обчислень без калькулятора. Ігри потребують від"
+" гравця вміння множити, ділити, додавати та віднімати і виконувати різні"
+" комбінації цих дій."
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:69 C/score.page:51
+msgid "Memory trainers"
+msgstr "Тренування пам'яті"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:70
+msgid ""
+"Games designed to challenge your short-term memory. These games show "
+"collections of objects and ask the player to recall them, sometimes "
+"establishing relationships between figures, words, numbers or colors."
+msgstr ""
+"Ігри розроблено так, щоб працювала ваша короткочасна пам'ять. У цих іграх вам"
+" показуватимуть збірки об'єктів і проситимуть пригадати їх, іноді проситимуть"
+" встановити взаємозв'язок між фігурами, словами, числами та кольорами."
+
+#. (itstool) path: item/title
+#. (itstool) path: td/p
+#: C/gametypes.page:90 C/score.page:57
+msgid "Verbal analogies"
+msgstr "Словесні аналогії"
+
+#. (itstool) path: item/p
+#: C/gametypes.page:91
+msgid ""
+"Games that challenge your verbal aptitude. These games ask the player to "
+"identify cause and effect, use synonyms or antonyms, and use their "
+"vocabulary."
+msgstr ""
+"Грати в ігри,які оцінюють ваше розуміння слів. У цих іграх гравець має"
+" визначити причину і наслідок, скористатися синонімами або антонімами, а"
+" також скористатися власним словниковим запасом."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Правові відомості."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Ліцензування"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Ця робота поширюється за умов ліцензування CreativeCommons Attribution-Share "
+"Alike 3.0 Unported."
+
+#. (itstool) path: page/p
+#: C/license.page:18
+msgid "You are free:"
+msgstr "Ви можете:"
+
+#. (itstool) path: item/title
+#: C/license.page:23
+msgid "To share"
+msgstr "Ділитися"
+
+#. (itstool) path: item/p
+#: C/license.page:24
+msgid "To copy, distribute and transmit the work."
+msgstr "Копіювати, поширювати і передавати цю роботу"
+
+#. (itstool) path: item/title
+#: C/license.page:27
+msgid "To remix"
+msgstr "Змінювати"
+
+#. (itstool) path: item/p
+#: C/license.page:28
+msgid "To adapt the work."
+msgstr "Адаптувати цю роботу."
+
+#. (itstool) path: page/p
+#: C/license.page:31
+msgid "Under the following conditions:"
+msgstr "За дотримання таких умов:"
+
+#. (itstool) path: item/title
+#: C/license.page:36
+msgid "Attribution"
+msgstr "Посилання на джерело"
+
+#. (itstool) path: item/p
+#: C/license.page:37
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Ви маєте вказати авторство так, як це визначено автором або ліцензіатом (але "
+"не у такий спосіб, наче вони підтримують вас або ваше використання роботи)."
+
+#. (itstool) path: item/title
+#: C/license.page:44
+msgid "Share Alike"
+msgstr "Поширення на тих самих умовах"
+
+#. (itstool) path: item/p
+#: C/license.page:45
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Якщо ви змінюєте, перетворюєте або створюєте роботу на основі цієї роботи, "
+"ви можете поширювати результати лише за тих самих, подібних або сумісних "
+"умов ліцензування."
+
+#. (itstool) path: page/p
+#: C/license.page:51
+msgid ""
+"For the full text of the license, see the <link href=\"https://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Щоб ознайомитися із повним текстом ліцензційних умов, скористайтеся <link"
+" href=\"https://creativecommons.org/licenses/by-sa/3.0/legalcode\">сайтом "
+"CreativeCommons</link> або прочитайте повністю <link"
+" href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
+
+#. (itstool) path: info/title
+#: C/pause.page:6
+msgctxt "sort"
+msgid "4"
+msgstr "4"
+
+#. (itstool) path: info/desc
+#: C/pause.page:9
+msgid "How to pause or end a game."
+msgstr "Як призупинити або завершити гру."
+
+#. (itstool) path: page/title
+#: C/pause.page:20
+msgid "Pause/End a game"
+msgstr "Призупинення та завершення гри"
+
+#. (itstool) path: section/title
+#: C/pause.page:23
+msgid "Pause and resume a game"
+msgstr "Призупинення та відновлення гри"
+
+#. (itstool) path: section/p
+#: C/pause.page:24
+msgid ""
+"To pause a game so that you can resume it at the same point at a later time, "
+"perform one of the following:"
+msgstr ""
+"Щоб призупинити груп і повернутися до неї згодом, виконайте одну з таких дій:"
+
+#. (itstool) path: item/p
+#: C/pause.page:30 C/pause.page:45
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Pause "
+"Game</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Гра</gui><gui"
+" style=\"menuitem\">Призупинити гру</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pause.page:35
+msgid "Click on the <gui style=\"button\">Pause</gui> button in the toolbar."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Пауза</gui> на панелі інструментів."
+
+#. (itstool) path: section/p
+#: C/pause.page:40
+msgid ""
+"In order to resume the game after you paused it, perform one of the "
+"following:"
+msgstr "Щоб відновити гру після призупинення, виконайте одну з таких дій:"
+
+#. (itstool) path: item/p
+#: C/pause.page:50
+msgid "Click on the <gui style=\"button\">Resume</gui> button in the toolbar."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Продовжити</gui> на панелі"
+" інструментів."
+
+#. (itstool) path: section/title
+#: C/pause.page:58
+msgid "End a game"
+msgstr "Завершення гри"
+
+#. (itstool) path: section/p
+#: C/pause.page:59
+msgid "To end a game, perform one of the following:"
+msgstr "Щоб завершити гру, виконайте одну з таких дій:"
+
+#. (itstool) path: item/p
+#: C/pause.page:64
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">End "
+"Game</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Гра</gui><gui"
+" style=\"menuitem\">Завершити гру</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/pause.page:69
+msgid "Click on the <gui style=\"button\">End</gui> button in the toolbar."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Кінець</gui> на панелі інструментів."
+
+#. (itstool) path: info/desc
+#: C/tips.page:8
+msgid "Use the tips to solve a puzzle."
+msgstr "Використання підказок для розв'язування."
+
+#. (itstool) path: page/title
+#: C/tips.page:20
+msgid "Tips"
+msgstr "Підказки"
+
+#. (itstool) path: page/p
+#: C/tips.page:21
+msgid ""
+"With some of the games you can play, it is possible to get simple tips that "
+"can help you to solve the problem."
+msgstr ""
+"У деяких іграх під час гри ви можете отримувати прості підказки, які"
+" допоможуть вам розв'язати головоломку."
+
+#. (itstool) path: page/p
+#: C/tips.page:25
+msgid ""
+"When playing a game, click on the <gui style=\"button\">Tip</gui> button at "
+"the bottom of the window (next to the <gui style=\"input\">Answer</gui> text "
+"entry)."
+msgstr ""
+"Під час гри натисніть кнопку <gui style=\"button\">Підказка</gui> у нижній"
+" частині вікна (поряд із текстовою міткою <gui style=\"input\">Відповідь</gui"
+">)."
+
+#. (itstool) path: note/p
+#: C/tips.page:29
+msgid "This feature is not available for some of the games."
+msgstr "Цим можна скористатися не в усіх іграх."
+
+#. (itstool) path: info/title
+#: C/difficulty.page:6
+msgctxt "sort"
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: info/desc
+#: C/difficulty.page:8
+msgid "Change the difficulty level of the games."
+msgstr "Зміна рівня складності гри."
+
+#. (itstool) path: page/title
+#: C/difficulty.page:20
+msgid "Difficulty levels"
+msgstr "Рівні складності"
+
+#. (itstool) path: page/p
+#: C/difficulty.page:21
+msgid "To change the difficulty level of the game, proceed as follows:"
+msgstr "Щоб змінити рівень складності гри, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/difficulty.page:26 C/times.page:26
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem"
+"\">Preferences</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Параметри</gui><gui"
+" style=\"menuitem"
+"\">Налаштування</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/difficulty.page:31
+msgid "In the <gui>Difficulty Level</gui> section, select the desired level."
+msgstr "У розділі <gui>Рівень складності</gui> виберіть бажаний рівень."
+
+#. (itstool) path: item/p
+#: C/difficulty.page:34
+msgid ""
+"You can choose from three different levels: <gui style=\"radiobutton\">Easy</"
+"gui>, <gui style=\"radiobutton\">Medium</gui>, and <gui style=\"radiobutton"
+"\">Master</gui>. The default level is <gui style=\"radiobutton\">Medium</"
+"gui>."
+msgstr ""
+"Ви можете вибрати один з трьох різних рівнів: <gui style=\"radiobutton\""
+">Простий</"
+"gui>, <gui style=\"radiobutton\">Середній</gui> і <gui style=\"radiobutton\""
+">Важкий</gui>. Типовим рівнем є <gui style=\"radiobutton\">Середній</gui>."
+
+#. (itstool) path: info/desc
+#: C/history.page:6
+msgid "Access your personal game history."
+msgstr "Доступ до особистого журналу гри."
+
+#. (itstool) path: page/title
+#: C/history.page:17
+msgid "Personal game history"
+msgstr "Особистий журнал гри"
+
+#. (itstool) path: page/p
+#: C/history.page:19
+msgid ""
+"The <gui>Player's Game History</gui> dialog shows your performance in every "
+"game type during the last few game sessions."
+msgstr ""
+"У діалоговому вікні <gui>Журнал ігор користувача</gui> буде показано ваші"
+" успіхи у кожному з типів ігор під час останніх декількох ігрових сеансів."
+
+#. (itstool) path: section/title
+#: C/history.page:25
+msgid "View the games history"
+msgstr "Перегляду журналу ігор"
+
+#. (itstool) path: section/p
+#: C/history.page:26
+msgid ""
+"To access your personal game history, choose <guiseq><gui style=\"menu"
+"\">View</gui> <gui style=\"menuitem\">Player's Game History</gui></guiseq>."
+msgstr ""
+"Щоб отримати доступу до особистого журналу гри, скористайтеся пунктом меню <"
+"guiseq><gui style=\"menu"
+"\">Перегляд</gui> <gui style=\"menuitem\">Журнал ігор користувача</gui><"
+"/guiseq>."
+
+#. (itstool) path: section/title
+#: C/history.page:33
+msgid "Select which results to show"
+msgstr "Вибір результатів, які слід показати"
+
+#. (itstool) path: section/p
+#: C/history.page:34
+msgid ""
+"To select the results that will be shown in the graphic, use the different "
+"check boxes located under the graph."
+msgstr ""
+"Щоб вибрати результати, які буде показано на графіку, скористайтеся пунктами"
+" для позначок, які розташовано під графіком."
+
+#. (itstool) path: section/title
+#: C/history.page:41
+msgid "Change the number of saved games"
+msgstr "Зміна кількості збережених ігор"
+
+#. (itstool) path: section/p
+#: C/history.page:42
+msgid ""
+"<app>gbrainy</app> saves the player's scores so it can track how they evolve."
+msgstr ""
+"У <app>gbrainy</app> результати користувача зберігаються для наступного"
+" стеження за удосконаленням навичок."
+
+#. (itstool) path: section/p
+#: C/history.page:45
+msgid ""
+"In order to change the number of sessions recorded or how many games will be "
+"stored in the history, proceed as follows:"
+msgstr ""
+"Щоб змінити кількість сеансів, які буде записано, або визначити кількість"
+" ігор, дані яких зберігаються у журналі, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/history.page:51
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Settings</gui><gui style=\"menuitem\"> "
+"Preferences</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Параметри</gui><gui"
+" style=\"menuitem\">Налаштування</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/history.page:57
+msgid "In the <gui>Player's Game History</gui> section:"
+msgstr "У розділі <gui>Журнал ігор користувача</gui>:"
+
+#. (itstool) path: item/p
+#: C/history.page:62
+msgid ""
+"Use the first spin box to change how many game sessions need to be recorded "
+"before you can start to see the results in the history graphic."
+msgstr ""
+"Скористайтеся першим полем лічильника для зміни кількості сеансів гри, які"
+" має бути записано, щоб можна було бачити результати на графіку історії"
+" результатів."
+
+#. (itstool) path: item/p
+#: C/history.page:68
+msgid ""
+"Use the second spin box to change how many game sessions will be shown in "
+"the history graphic."
+msgstr ""
+"За допомогою другого поля лічильника можна змінити кількість сеансів гри,"
+" дані яких буде показано на графіку історії результатів."
+
+#. (itstool) path: info/desc
+#: C/multiplayer.page:7
+msgid "How to play with other people."
+msgstr "Як грати з іншими людьми."
+
+#. (itstool) path: page/title
+#: C/multiplayer.page:19
+msgid "Play with other people"
+msgstr "Гра із іншими гравцями-людьми"
+
+#. (itstool) path: page/p
+#: C/multiplayer.page:21
+msgid ""
+"It is not possible to play against other people over the Internet or a local "
+"network with <app>gbrainy</app>."
+msgstr ""
+"У <app>gbrainy</app> не передбачено можливостей грати з іншими людьми за"
+" допомогою інтернету або локальної мережі."
+
+#. (itstool) path: info/desc
+#: C/score.page:8
+msgid "How the player scores are calculated."
+msgstr "Як обчислюється результат гри."
+
+#. (itstool) path: page/title
+#: C/score.page:19
+msgid "Game score and timings"
+msgstr "Результат гри та часові рекорди"
+
+#. (itstool) path: page/p
+#: C/score.page:20
+msgid "If you answer a puzzle incorrectly, you will not get any score for it."
+msgstr ""
+"Якщо ви розв'яжете головоломку неправильно, гра не нарахує вам за неї жодного"
+" очка."
+
+#. (itstool) path: page/p
+#: C/score.page:23
+msgid ""
+"If you answer a puzzle correctly, you will get a score which depends on the "
+"time taken to resolve the problem and whether you used the tip during the "
+"game."
+msgstr ""
+"Якщо ви дасте правильну відповідь, ваш результат залежатиме від того,"
+" наскільки багато часу ви витратили на розв'язання, та того, чи користувалися"
+" ви підказками під час гри."
+
+#. (itstool) path: page/p
+#: C/score.page:27
+msgid ""
+"The following table summarizes the different game durations (in seconds) "
+"based on the difficulty level."
+msgstr ""
+"У таблиці нижче наведено резюме щодо тривалості гри у різних іграх (у"
+" секундах) на основі рівня складності."
+
+#. (itstool) path: td/p
+#: C/score.page:34
+msgid "Easy"
+msgstr "Простий"
+
+#. (itstool) path: td/p
+#: C/score.page:35
+msgid "Medium"
+msgstr "Середній"
+
+#. (itstool) path: td/p
+#: C/score.page:36
+msgid "Master"
+msgstr "Важкий"
+
+#. (itstool) path: td/p
+#: C/score.page:40
+msgid "156"
+msgstr "156"
+
+#. (itstool) path: td/p
+#: C/score.page:41
+msgid "120"
+msgstr "120"
+
+#. (itstool) path: td/p
+#: C/score.page:42
+msgid "110"
+msgstr "110"
+
+#. (itstool) path: td/p
+#: C/score.page:45
+msgid "Mental calculation"
+msgstr "Обчислення без калькулятора"
+
+#. (itstool) path: td/p
+#: C/score.page:46
+msgid "78"
+msgstr "78"
+
+#. (itstool) path: td/p
+#: C/score.page:47
+msgid "60"
+msgstr "60"
+
+#. (itstool) path: td/p
+#: C/score.page:48
+msgid "55"
+msgstr "55"
+
+#. (itstool) path: td/p
+#: C/score.page:52 C/score.page:58
+msgid "39"
+msgstr "39"
+
+#. (itstool) path: td/p
+#: C/score.page:53 C/score.page:59
+msgid "30"
+msgstr "30"
+
+#. (itstool) path: td/p
+#: C/score.page:54 C/score.page:60
+msgid "27"
+msgstr "27"
+
+#. (itstool) path: page/p
+#: C/score.page:63
+msgid ""
+"With the expected time for the chosen difficulty level and the time you take "
+"to complete the game, the following logic is applied:"
+msgstr ""
+"За очікуваним часом для вибраного рівня складності та часом, протягом якого"
+" гравець розв'язував головоломку, визначення результату відбувається так:"
+
+#. (itstool) path: item/p
+#: C/score.page:69
+msgid ""
+"If you take less than the time expected to complete the game, you score 10 "
+"points."
+msgstr ""
+"Якщо ви витратите на розв'язання час, який виявиться меншим за очікуваний,"
+" вам буде нараховано 10 очок."
+
+#. (itstool) path: item/p
+#: C/score.page:74
+msgid ""
+"If you take more than the time expected to complete the game, you score 8 "
+"points."
+msgstr ""
+"Якщо ви витратите на розв'язання час, який виявиться більшим за очікуваний,"
+" вам буде нараховано 8 очок."
+
+#. (itstool) path: item/p
+#: C/score.page:79
+msgid ""
+"If you take more than 2x the time expected to complete the game, you score 7 "
+"points."
+msgstr ""
+"Якщо ви витратите на розв'язання час, який виявиться удвічі більшим за"
+" очікуваний, вам буде нараховано 7 очок."
+
+#. (itstool) path: item/p
+#: C/score.page:85
+msgid ""
+"If you take more than 3x the time expected to complete the game, you score 6 "
+"points."
+msgstr ""
+"Якщо ви витратите на розв'язання час, який виявиться утричі більшим за"
+" очікуваний, вам буде нараховано 6 очок."
+
+#. (itstool) path: item/p
+#: C/score.page:91
+msgid "If you use a tip, you score only the 80% of the original score."
+msgstr ""
+"Якщо ви скористаєтеся підказкою, вам буде нараховано лише 80% від початкового"
+" результату."
+
+#. (itstool) path: section/title
+#: C/score.page:98
+msgid "Computing the totals"
+msgstr "Обчислення загального результату"
+
+#. (itstool) path: section/p
+#: C/score.page:99
+msgid ""
+"<app>gbrainy</app> keeps track of the different games types played. To "
+"compute the final score of every set of game types it sums all the results "
+"of the same game types played and then applies a factor based on: the "
+"logarithm of 10 for the easy level; on the logarithm of 20 for the medium "
+"level; and on the logarithm of 30 for the master level."
+msgstr ""
+"<app>gbrainy</app> стежить за результатами у різних типах ігор. Для"
+" обчислення загального результату для кожного з наборів типів ігор програма"
+" додає усіх результати за типами, а потім застосовує такий коефіцієнт:"
+" логарифм з 10 для простого рівня, логарифм з 20 для середнього рівня і"
+" логарифм з 30 для важкого рівня."
+
+#. (itstool) path: section/p
+#: C/score.page:106
+msgid ""
+"This means that when playing at medium difficulty level, to get a score of "
+"100 points you need to score 10 points on at least 20 games of every game "
+"type played."
+msgstr ""
+"Це означає, що, граючи на середньому рівні складності, для отримання"
+" результату у 100 очок вам слід отримати 10 очок у принаймні 20 іграх для"
+" кожного з типів ігор."
+
+#. (itstool) path: section/p
+#: C/score.page:110
+msgid ""
+"This may sound challenging, but it allows players to compare game scores "
+"from different sessions (in the player's game history) and allows better "
+"tracking of the progression of the player through all of the games played."
+msgstr ""
+"Це може здаватися надто складним, але такий спосіб обчислення надає змогу"
+" гравцям порівнювати результати для різних сеансів (у журналі ігор гравця) і"
+" удосконалює стеження на поступом гравця у грі загалом."
+
+#. (itstool) path: info/desc
+#: C/gameplay.page:7
+msgid "Introduction to <app>gbrainy</app>."
+msgstr "Вступ до <app>gbrainy</app>."
+
+#. (itstool) path: page/title
+#: C/gameplay.page:20
+msgid "Gameplay"
+msgstr "Ігровий процес"
+
+#. (itstool) path: page/p
+#: C/gameplay.page:22
+msgid ""
+"<app>gbrainy</app> is a brain teaser game; the aim of the game is to have "
+"fun and keep your brain trained."
+msgstr ""
+"<app>gbrainy</app> — гра-головоломка; метою гри є розважити гравця та"
+" потренувати його чи її розумові здібності."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:26
+msgid ""
+"It features different game types like logic puzzles, mental calculation "
+"games, memory trainers and verbal analogies, designed to test different "
+"cognitive skills."
+msgstr ""
+"У програмі передбачено різні типи ігор, зокрема логічні головоломки, ігри на"
+" обчислення без калькулятора, ігри на тренування пам'яті та словесні"
+" аналогії. Гру розроблено для вправляння у різних когнітивних навичках."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:30
+msgid ""
+"You can choose different difficulty levels making <app>gbrainy</app> "
+"enjoyable for kids, adults or senior citizens. It also features a game "
+"history, personal records, tips and fullscreen mode support. <app>gbrainy</"
+"app> can also be <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
+"\">extended</link> easily with new games developed by third parties."
+msgstr ""
+"Ви можете вибирати рівень складності гри, що робить <app>gbrainy</app>"
+" цікавим для малих дітей, дорослих та людей у віці. Також у грі передбачено"
+" журнал ігор, особисті записи, підказки та підтримку повноекранного режиму."
+" Крім того, <app>gbrainy</app> може бути доволі просто <link"
+" href=\"https://wiki.gnome.org/Apps/gbrainy/Extending\">розширено</link>"
+" додаванням нових ігор, створених сторонніми розробниками."
+
+#. (itstool) path: page/p
+#: C/gameplay.page:37
+msgid ""
+"<app>gbrainy</app> relies heavily on the work of previous puzzle masters, "
+"ranging from classic puzzles from ancient times to more recent works like "
+"<link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\">Terry Stickels'</"
+"link> puzzles or the classic <link href=\"https://en.wikipedia.org/wiki/Dr."
+"_Brain\">Dr. Brain</link> game."
+msgstr ""
+"У <app>gbrainy</app> широко використано попередні розробки головоломок, від"
+" класичних, відомих ще з давніх часів, до доволі сучасних робіт, зокрема"
+" головоломок <link href=\"https://en.wikipedia.org/wiki/Terry_Stickels\""
+">Террі Стіклза (Terry Stickels)</"
+"link> та класичної гри <link href=\"https://en.wikipedia.org/wiki/Dr._Brain\""
+">Dr. Brain</link>."
+
+#. (itstool) path: note/p
+#: C/gameplay.page:45
+msgid ""
+"There have been recent discussions in the scientific community regarding "
+"whether brain training software improves cognitive performance. Most of the "
+"studies show that there is little or no improvement, but that doesn't mean "
+"you can't have a good time playing games like <app>gbrainy</app>!"
+msgstr ""
+"Науковці досі сперечаються щодо того, чи можуть програмні засоби «тренування»"
+" мозку поліпшити когнітивні навички. Переважна частина досліджень показує, що"
+" такі ігри мають незначний вплив на ці навички або не мають впливу взагалі."
+" Втім, це не означає, що ви не зможете отримати задоволення від цих ігор,"
+" зокрема від <app>gbrainy</app>!"
+
+#. (itstool) path: info/title
+#: C/index.page:8 C/index.page:12
+msgctxt "link"
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "gbrainy"
+msgstr "gbrainy"
+
+#. (itstool) path: info/desc
+#: C/index.page:13
+msgid "The <app>gbrainy</app> help."
+msgstr "Довідка з <app>gbrainy</app>."
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "<_:media-1/> gbrainy"
+msgstr "<_:media-1/> gbrainy"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Basic Gameplay &amp; Usage"
+msgstr "Базові прийоми гри та користування"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Multiplayer Game"
+msgstr "Гра з декількома гравцями"
+
+#. (itstool) path: section/title
+#: C/index.page:37
+msgid "Tips &amp; Tricks"
+msgstr "Підказки та поради"
+
+#. (itstool) path: info/title
+#: C/newgame.page:7
+msgctxt "sort"
+msgid "1"
+msgstr "1"
+
+#. (itstool) path: info/desc
+#: C/newgame.page:10
+msgid "Start and play a game."
+msgstr "Запуск програми і гра."
+
+#. (itstool) path: page/title
+#: C/newgame.page:22
+msgid "Game session"
+msgstr "Сеанс гри"
+
+#. (itstool) path: section/title
+#: C/newgame.page:25
+msgid "Start a new session"
+msgstr "Запуск нового сеансу"
+
+#. (itstool) path: section/p
+#: C/newgame.page:26
+msgid "To start a new game, do one of the following:"
+msgstr "Щоб розпочати груп, виконайте одну з таких дій:"
+
+#. (itstool) path: item/p
+#: C/newgame.page:31
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">New "
+"Game</gui></guiseq>, and select the type of game to play."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Гра</gui><gui"
+" style=\"menuitem\">Нова гра</gui></guiseq> і виберіть тип гри."
+
+#. (itstool) path: item/p
+#: C/newgame.page:37
+msgid "Click on one of the buttons in the toolbar."
+msgstr "Клацніть на одній з кнопок на панелі інструментів."
+
+#. (itstool) path: section/p
+#: C/newgame.page:42
+msgid "The toolbar buttons have the following meanings:"
+msgstr "Кнопки панелі інструментів призначено для виконання таких дій:"
+
+#. (itstool) path: item/title
+#: C/newgame.page:50
+msgid "All"
+msgstr "Усі"
+
+#. (itstool) path: item/p
+#: C/newgame.page:51
+msgid "Starts a new game playing all the available game types."
+msgstr "Запускає нову гру із використанням усіх доступних типів гри."
+
+#. (itstool) path: item/title
+#: C/newgame.page:69
+msgid "Logic"
+msgstr "Логіка"
+
+#. (itstool) path: item/p
+#: C/newgame.page:70
+msgid "Start a new game playing only logic games."
+msgstr "Запускає нову гру із використанням лише логічних ігор."
+
+#. (itstool) path: item/title
+#: C/newgame.page:88
+msgid "Calculation"
+msgstr "Обчислення"
+
+#. (itstool) path: item/p
+#: C/newgame.page:89
+msgid "Starts a new game playing only calculation games."
+msgstr "Запускає нову гру, у якій будуть лише ігри на обчислення."
+
+#. (itstool) path: item/title
+#: C/newgame.page:107
+msgid "Memory"
+msgstr "Пам'ять"
+
+#. (itstool) path: item/p
+#: C/newgame.page:108
+msgid "Starts a new game playing only memory games."
+msgstr "Запускає нову гру, у якій будуть лише ігри на запам'ятовування."
+
+#. (itstool) path: item/title
+#: C/newgame.page:126
+msgid "Verbal"
+msgstr "Слова"
+
+#. (itstool) path: item/p
+#: C/newgame.page:127
+msgid "Starts a new game playing only verbal analogy games."
+msgstr "Запускає нову гру, у якій будуть лише ігри у словесні аналогії."
+
+#. (itstool) path: note/p
+#: C/newgame.page:143
+msgid ""
+"These descriptions also apply to the game types that you can select from the "
+"<gui style=\"menu\">Game</gui> menu."
+msgstr ""
+"Ці описи також стосуються типів гри, які ви можете вибрати у меню <gui"
+" style=\"menu\">Гра</gui>."
+
+#. (itstool) path: section/title
+#: C/newgame.page:150
+msgid "Play a session"
+msgstr "Гра протягом сеансу"
+
+#. (itstool) path: note/p
+#: C/newgame.page:152
+msgid "When you play a game, always read the instructions carefully!"
+msgstr "Під час гри завжди уважно читайте настанови!"
+
+#. (itstool) path: section/p
+#: C/newgame.page:156
+msgid ""
+"The game session begins by showing you the problem and then asking for the "
+"answer. At the bottom of the window is the main set of controls that you can "
+"use to interact with the game."
+msgstr ""
+"Сеанс гри розпочинається з показу завдання. Після цього, програма попросить"
+" вас дати відповідь. У нижній частині вікна розташовано основний набір"
+" засобів керування, яким ви можете скористатися для взаємодії із грою."
+
+#. (itstool) path: section/p
+#: C/newgame.page:160
+msgid ""
+"Once you know the answer to the problem, type it in the <gui style=\"input"
+"\">Answer</gui> text entry and press <gui style=\"button\">OK</gui>."
+msgstr ""
+"Щойно ви матимете відповідь, введіть її до поля для введення тексту <gui"
+" style=\"input\">Відповідь</gui> і натисніть кнопку <gui style=\"button\""
+">Гаразд</gui>."
+
+#. (itstool) path: section/p
+#: C/newgame.page:164
+msgid "To proceed to the next game, click <gui style=\"button\">Next</gui>."
+msgstr ""
+"Щоб перейти до наступної гри, натисніть кнопку <gui style=\"button\""
+">Наступний</gui>."
+
+#. (itstool) path: note/p
+#: C/newgame.page:168
+msgid ""
+"If you click <gui style=\"button\">Next</gui> before completing the game, or "
+"without providing an answer, that game will be counted in your results."
+msgstr ""
+"Якщо ви натиснете кнопку <gui style=\"button\">Наступний</gui> до завершення"
+" раунду гри або не надавши ніякої відповіді, гру не буде враховано у ваших"
+" результатах."
+
+#. (itstool) path: info/desc
+#: C/times.page:7
+msgid "Change the challenge presentation time in memory games."
+msgstr "Зміна часу показу наборів елементів у іграх на запам'ятовування."
+
+#. (itstool) path: page/title
+#: C/times.page:19
+msgid "Change the challenge duration"
+msgstr "Зміна тривалості запам'ятовування"
+
+#. (itstool) path: page/p
+#: C/times.page:20
+msgid ""
+"To change the number of seconds you are given to memorize the challenge when "
+"playing memory games, proceed as follows:"
+msgstr ""
+"Щоб змінити кількість секунд, протягом якої ви маєте запам'ятати елементи гри"
+" під час ігор на пам'ять, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/times.page:31
+msgid ""
+"In the <gui>Memory Games</gui> section, use the spin box to increase or "
+"decrease the number of seconds that the challenge will be visible for."
+msgstr ""
+"У розділі <gui>Ігри на пам'ять</gui> скористайтеся полем лічильника для"
+" збільшення або зменшення кількості секунд, протягом яких буде показано"
+" початковий набір елементів."
+
+#. (itstool) path: item/p
+#: C/times.page:35
+msgid "The default value is 6 seconds."
+msgstr "Типовим значенням є 6 секунд."
+
+#. (itstool) path: info/desc
+#: C/export.page:7
+msgid "Export the games for playing off-line."
+msgstr "Експортування ігор для гри поза комп'ютером."
+
+#. (itstool) path: page/title
+#: C/export.page:20
+msgid "Export the games"
+msgstr "Експортування ігор"
+
+#. (itstool) path: page/p
+#: C/export.page:21
+msgid ""
+"It is possible to export and then print the games provided by the app for "
+"playing while not at the computer."
+msgstr ""
+"У програмі передбачено можливість експортування ігор для друку, щоб у них"
+" можна було зіграти поза комп'ютером."
+
+#. (itstool) path: page/p
+#: C/export.page:25
+msgid ""
+"The games will be saved in a <file>PDF</file> file in the selected folder."
+msgstr "Ігри буде збережено у файлі <file>PDF</file> у вказаній теці."
+
+#. (itstool) path: page/p
+#: C/export.page:28
+msgid "To export the games:"
+msgstr "Щоб експортувати ігри, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/export.page:33
+msgid ""
+"Choose <guiseq><gui style=\"menu\">Game</gui><gui style=\"menuitem\">Export "
+"Games to PDF for Off-Line Playing</gui></guiseq>."
+msgstr ""
+"Виберіть пункт меню <guiseq><gui style=\"menu\">Гра</gui><gui"
+" style=\"menuitem\">Експортувати ігри у файл PDF для гри офлайн</gui></guiseq"
+">."
+
+#. (itstool) path: item/p
+#: C/export.page:38
+msgid ""
+"Select the type of games, the difficulty level, and how many games to "
+"export. When done click <gui style=\"button\">Save</gui>."
+msgstr ""
+"Виберіть тип ігор, рівень складності та кількість ігор для експортування."
+" Після цього натисніть кнопку <gui style=\"button\">Зберегти</gui>."

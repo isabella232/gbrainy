@@ -27,4 +27,4 @@ HELP_FILES = \
 	times.page	\
 	export.page
 
-HELP_LINGUAS = af ca cs da de el es fr gl hi hu it nl pl pt_BR ro ru sl sr sr@latin sv
+HELP_LINGUAS = af ca cs da de el es fr gl hi hu it nl pl pt_BR ro ru sl sr sr@latin sv uk
