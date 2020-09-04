@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2019-02-08 15:15+0000\n"
+"POT-Creation-Date: 2020-07-18 16:33+0000\n"
 "PO-Revision-Date: 2019-02-14 14:49+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: es <gnome-es-list@gnome.org>\n"
@@ -334,7 +334,7 @@ msgstr ""
 #: ../src/Games/Calculation/CalculationSelectedNumbers.cs:242
 #: ../src/Games/Logic/PuzzleFigurePattern.cs:235
 #: ../src/Games/Logic/PuzzleFigures.cs:190
-#: ../src/Games/Logic/PuzzleGridDots.cs:338
+#: ../src/Games/Logic/PuzzleGridDots.cs:337
 #: ../src/Games/Logic/PuzzleLargerShape.cs:301
 #: ../src/Games/Logic/PuzzleMissingPiece.cs:171
 #: ../src/Games/Logic/PuzzleMissingSlice.cs:216
@@ -745,7 +745,6 @@ msgstr ""
 "memoria"
 
 #: ../data/gbrainy.desktop.in.h:4
-#| msgid "game;logic;memory;teaser;brain;"
 msgid "game;logic;memory;teaser;brain;verbal;calculation;"
 msgstr "juego;lógica;memoria;cerebro;rompecabezas;verbo;cálculo;"
 
@@ -2229,7 +2228,6 @@ msgid "Art"
 msgstr "Arte"
 
 #: ../data/verbal_analogies.xml.h:389
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:68
 msgid "Gallery"
 msgstr "Galería"
 
@@ -2741,12 +2739,12 @@ msgstr "{0} {1}"
 msgid "Total"
 msgstr "Total"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:118
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:113
 msgid "You are about to delete the player's game session history."
 msgstr ""
 "Estás a punto de eliminar el histórico de sesiones de partidas del jugador."
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:119
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:114
 msgid ""
 "If you proceed, you will lose the history of the previous game sessions. Do "
 "you want to continue?"
@@ -2754,7 +2752,7 @@ msgstr ""
 "Si continuas, perderás el histórico de las anteriores sesiones de partidas. "
 "¿Quieres continuar?"
 
-#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:120
+#: ../src/Clients/Classical/Dialogs/PreferencesDialog.cs:115
 msgid "_Delete"
 msgstr "_Eliminar"
 
@@ -2924,16 +2922,16 @@ msgstr ""
 msgid "Delete Player's Game Session History"
 msgstr "Eliminar el histórico de sesiones de partidas del jugador"
 
-#: ../src/Clients/Classical/gbrainy.cs:429
+#: ../src/Clients/Classical/gbrainy.cs:406
 msgid "Congratulations."
 msgstr "Enhorabuena."
 
-#: ../src/Clients/Classical/gbrainy.cs:433
+#: ../src/Clients/Classical/gbrainy.cs:410
 msgid "Incorrect answer."
 msgstr "Respuesta incorrecta."
 
 #
-#: ../src/Clients/Classical/gbrainy.cs:494
+#: ../src/Clients/Classical/gbrainy.cs:471
 msgid ""
 "Once you have an answer type it in the \"Answer:\" entry box and press the "
 "\"OK\" button."
@@ -2941,11 +2939,11 @@ msgstr ""
 "Una vez que tengas la respuesta escríbela en «Respuesta:» y pulsa el botón "
 "«Aceptar»."
 
-#: ../src/Clients/Classical/gbrainy.cs:524
+#: ../src/Clients/Classical/gbrainy.cs:501
 msgid "The level of translation of gbrainy for your language is low."
 msgstr "El nivel de traducción de gbrainy en su idioma es bajo."
 
-#: ../src/Clients/Classical/gbrainy.cs:525
+#: ../src/Clients/Classical/gbrainy.cs:502
 msgid ""
 "You may be exposed to partially translated games making it more difficult to "
 "play. If you prefer to play in English, there is an option for doing so in "
@@ -2955,16 +2953,16 @@ msgstr ""
 "difíciles de jugar. Si prefiere jugar en inglés, hay una opción para hacerlo "
 "en las preferencias de gbrainy."
 
-#: ../src/Clients/Classical/gbrainy.cs:621
+#: ../src/Clients/Classical/gbrainy.cs:598
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:141
 msgid "Pause"
 msgstr "Pausar"
 
-#: ../src/Clients/Classical/gbrainy.cs:626
+#: ../src/Clients/Classical/gbrainy.cs:603
 msgid "Resume"
 msgstr "Reanudar"
 
-#: ../src/Clients/Classical/gbrainy.cs:776
+#: ../src/Clients/Classical/gbrainy.cs:753
 #, csharp-format
 msgid "Startup time {0}"
 msgstr "Tiempo de inicio {0}"
@@ -3070,203 +3068,9 @@ msgstr "_Siguiente"
 msgid "_Tip"
 msgstr "_Pista"
 
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:29
-msgid "Add-in Manager"
-msgstr "Gestor de complementos"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:30
-msgid "Additional extensions are required to perform this operation."
-msgstr "Se necesitan extensiones adicionales para realizar esta operación."
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:31
-msgid "The following add-ins will be installed:"
-msgstr "Se instalarán los siguientes complementos:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:32
-msgid "<big><b>Add-in Manager</b></big>"
-msgstr "<big><b>Gestor de complementos</b></big>"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:33
-msgid "The following add-ins are currently installed:"
-msgstr "Los siguientes complementos están instalados actualmente:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:34
-msgid "_Install Add-ins..."
-msgstr "_Instalar complementos…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:35
-msgid "_Repositories..."
-msgstr "_Repositorios…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:36
-msgid "_Uninstall..."
-msgstr "_Desinstalar…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:37
-msgid "Enable"
-msgstr "Activar"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:38
-msgid "Disable"
-msgstr "Deshabilitar"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:39
-msgid "Add-in"
-msgstr "Complemento"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:40
-msgid "Version"
-msgstr "Versión"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:41
-msgid "Other"
-msgstr "Otro"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:42
-msgid "Version:"
-msgstr "Versión:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:43
-msgid "Author:"
-msgstr "Autor:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:44
-msgid "Copyright:"
-msgstr "Copyright:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:45
-msgid "Add-in Dependencies:"
-msgstr "Dependencias de los complementos:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:46
-msgid "<b>Select the add-ins to install and click on Next</b>"
-msgstr "<b>Seleccionar los complementos para instalar y pulsar Siguiente</b>"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:47
-msgid "Show all packages"
-msgstr "Mostrar todos los paquetes"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:48
-msgid "Show new versions only"
-msgstr "Mostrar sólo las nuevas versiones"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:49
-msgid "Show updates only"
-msgstr "Mostrar sólo las actualizaciones"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:50
-msgid "_Unselect All"
-msgstr "_Deseleccionar todo"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:51
-msgid "Select _All"
-msgstr "Seleccionar _todo"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:52
-msgid "Add-in Installation"
-msgstr "Instalación de complementos"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:53
-msgid "Name"
-msgstr "Nombre"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:54
-msgid "Url"
-msgstr "URL"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:55
-msgid "Install from:"
-msgstr "Instalar desde:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:56
-msgid "Repository"
-msgstr "Repositorio"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:57
-msgid "All registered repositories"
-msgstr "Todos los repositorios registrados"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:58
-msgid "Register an on-line repository"
-msgstr "Registrar un repositorio en línea"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:59
-msgid "Select the location of the repository you want to register:"
-msgstr "Seleccionar la ubicación del repositorio que quiere registrar:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:60
-msgid "Register a local repository"
-msgstr "Registrar un repositorio local"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:61
-msgid "Url:"
-msgstr "URL:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:62
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:41
 msgid "Browse..."
 msgstr "Examinar…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:63
-msgid "Path:"
-msgstr "Ruta:"
-
-#. Mono Addins 0.6
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:66
-msgid "Installed"
-msgstr "Instalado"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:67
-msgid "Updates"
-msgstr "Actualizaciones"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:69
-msgid "Repository:"
-msgstr "Repositorio:"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:70
-msgid "Install from file..."
-msgstr "Instalar desde archivo…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:71
-msgid "No selection"
-msgstr "No hay selección"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:72
-msgid "No add-ins found"
-msgstr "No se han encontrado complementos"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:73
-msgid "Refresh"
-msgstr "Actualizar"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:74
-msgid "Add-in packages"
-msgstr "Paquetedes de complementos"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:75
-msgid "Install Add-in Package"
-msgstr "Instalar paquete de complementos"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:76
-msgid "All repositories"
-msgstr "Todos los repositorios"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:77
-msgid "Manage Repositories..."
-msgstr "Gestionar repositorios…"
-
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:78
-msgid "Add-in Repository Management"
-msgstr "Gestión del repositorio de complementos"
-
-#. Translators: {0} is a number indicating the Addins available for update
-#: ../src/Clients/Classical/MonoAddinsStrings.cs:85
-#, csharp-format
-msgid "{0} update available"
-msgid_plural "{0} updates available"
-msgstr[0] "{0} actualización disponible"
-msgstr[1] "{0} actualizaciones disponibles"
 
 #: ../src/Clients/Classical/Widgets/BrowseFile.cs:82
 msgid "Open Location"
@@ -3427,39 +3231,39 @@ msgid_plural "The possible correct answers are {0}."
 msgstr[0] "La respuesta correcta es {0}."
 msgstr[1] "Las respuestas correctas posibles son {0}."
 
-#: ../src/Core/Main/GameManager.cs:254
+#: ../src/Core/Main/GameManager.cs:194
 msgid "Extensions database:"
 msgstr "Base de datos de extensiones:"
 
-#: ../src/Core/Main/GameManager.cs:261
+#: ../src/Core/Main/GameManager.cs:201
 #, csharp-format
 msgid "{0} game registered:"
 msgid_plural "{0} games registered:"
 msgstr[0] "{0} juego registrado:"
 msgstr[1] "{0} juegos registrados:"
 
-#: ../src/Core/Main/GameManager.cs:262
+#: ../src/Core/Main/GameManager.cs:202
 #, csharp-format
 msgid "{0} logic puzzle"
 msgid_plural "{0} logic puzzles"
 msgstr[0] "{0} puzle lógico"
 msgstr[1] "{0} puzles lógicos"
 
-#: ../src/Core/Main/GameManager.cs:263
+#: ../src/Core/Main/GameManager.cs:203
 #, csharp-format
 msgid "{0} calculation trainer"
 msgid_plural "{0} calculation trainers"
 msgstr[0] "{0} entrenador de cálculo mental"
 msgstr[1] "{0} entrenadores de cálculo mental"
 
-#: ../src/Core/Main/GameManager.cs:264
+#: ../src/Core/Main/GameManager.cs:204
 #, csharp-format
 msgid "{0} memory trainer"
 msgid_plural "{0} memory trainers"
 msgstr[0] "{0} entrenador de memoria"
 msgstr[1] "{0} entrenadores de memoria"
 
-#: ../src/Core/Main/GameManager.cs:265
+#: ../src/Core/Main/GameManager.cs:205
 #, csharp-format
 msgid "{0} verbal analogy"
 msgid_plural "{0} verbal analogies"
@@ -3815,7 +3619,7 @@ msgstr "Analogías verbales. Desafía tu aptitud verbal."
 #: ../src/Core/Views/WelcomeView.cs:141
 #, csharp-format
 msgid "Welcome to gbrainy {0}"
-msgstr "Bienvenido a gbrainy {0}"
+msgstr "Bienvenido/a a gbrainy {0}"
 
 #: ../src/Core/Views/WelcomeView.cs:145
 msgid ""
@@ -4177,12 +3981,12 @@ msgstr "8 unidades"
 msgid "1 unit"
 msgstr "1 unidad"
 
-#: ../src/Games/Logic/PuzzleClocks.cs:35
+#: ../src/Games/Logic/PuzzleClocks.cs:34
 msgid "Clocks"
 msgstr "Relojes"
 
 #. Translators: {0} is replaced by 'Figure X'
-#: ../src/Games/Logic/PuzzleClocks.cs:41
+#: ../src/Games/Logic/PuzzleClocks.cs:40
 #, csharp-format
 msgid ""
 "To what number should the large handle of the '{0}' clock point? Answer "
@@ -4191,12 +3995,8 @@ msgstr ""
 "¿A qué número debe apuntar la aguja grande del reloj «{0}»? Responde usando "
 "números."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:49
+#: ../src/Games/Logic/PuzzleClocks.cs:48
 #, csharp-format
-#| msgid ""
-#| "Starting from the first clock, add {1} to the number obtained by "
-#| "appending the values to which the hands point. For example, the values of "
-#| "the hands for '{0}' are {3} ({2} + {1})."
 msgid ""
 "Starting from the first clock, add {1} to the number obtained by appending "
 "the values to which the hands point. For example, the value of the hands for "
@@ -4206,7 +4006,7 @@ msgstr ""
 "a los que apunta la aguja. Por ejemplo, el valor de las agujas para '{0}' es "
 "{3} ({2} + {1})."
 
-#: ../src/Games/Logic/PuzzleClocks.cs:55
+#: ../src/Games/Logic/PuzzleClocks.cs:54
 msgid "The clocks do not follow the time logic."
 msgstr "Los relojes no siguen la lógica del tiempo."
 
@@ -4632,11 +4432,11 @@ msgstr "Todos los números rodeados comparten una propiedad aritmética."
 msgid "Every circled number can be divided by {0}."
 msgstr "Cada numerado rodeado se puede dividir por {0}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:203
+#: ../src/Games/Logic/PuzzleGridDots.cs:202
 msgid "Square with dots"
 msgstr "Cuadrado con puntos"
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:208
+#: ../src/Games/Logic/PuzzleGridDots.cs:207
 #: ../src/Games/Logic/PuzzleNextFigure.cs:56
 #, csharp-format
 msgid ""
@@ -4644,7 +4444,7 @@ msgid ""
 msgstr ""
 "¿Cuál es la siguiente figura lógica en la secuencia? Responde {0}, {1} o {2}."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:217
+#: ../src/Games/Logic/PuzzleGridDots.cs:216
 msgid ""
 "From the top-left figure, the top-left circle moves down, the bottom-left "
 "circle moves up, the bottom-right moves diagonally up-left and the top-right "
@@ -4655,7 +4455,7 @@ msgstr ""
 "abajo a la derecha se mueve en diagonal hacia arriba y a la derecha y el "
 "superior derecho se mueven en diagonal hacia abajo y a la derecha."
 
-#: ../src/Games/Logic/PuzzleGridDots.cs:220
+#: ../src/Games/Logic/PuzzleGridDots.cs:219
 msgid ""
 "From the top-left figure, the figure is rotated counterclockwise 90 degrees."
 msgstr ""
@@ -4774,11 +4574,11 @@ msgstr ""
 "¿Cuál es la forma más grande puedes hacer combinando las dos primeras "
 "figuras? Responde {0}, {1}, {2} o {3}."
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:239
+#: ../src/Games/Logic/PuzzleLargestArea.cs:237
 msgid "Largest area"
 msgstr "Área más grande"
 
-#: ../src/Games/Logic/PuzzleLargestArea.cs:244
+#: ../src/Games/Logic/PuzzleLargestArea.cs:242
 #, csharp-format
 msgid ""
 "Which of the following figures has the largest area? Answer {0}, {1}, {2} or "
@@ -5091,11 +4891,11 @@ msgstr ""
 "¿Cuál de las siguientes figuras no se puede dibujar sin cruzar alguna de las "
 "líneas anteriores o levantar el bolígrafo? Responde {0}, {1}, {2}, {3} o {4}."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:43
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:30
 msgid "People at a table"
 msgstr "Personas en una mesa"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:47
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:34
 #, csharp-format
 msgid ""
 "A group of people, spaced out evenly, are sitting at a round table. How many "
@@ -5105,7 +4905,7 @@ msgstr ""
 "misma distancia. ¿Cuántas personas hay si la {0} persona está en frente de "
 "{1}?"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:52
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:39
 msgid ""
 "Subtracting the two positions you find out how many people are seated half "
 "way around the table. Doubling this number leaves you with the total amount "
@@ -5114,31 +4914,31 @@ msgstr ""
 "Restando las dos posiciones obtendrás cuántas personas están sentadas en la "
 "mitad de la mesa, entonces el doble es la cantidad total de personas."
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:60
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:47
 msgid "5th"
 msgstr "5º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:61
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:48
 msgid "19th"
 msgstr "19º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:65
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:52
 msgid "4th"
 msgstr "4º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:66
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:53
 msgid "12th"
 msgstr "12º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:70
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:57
 msgid "9th"
 msgstr "9º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:71
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:58
 msgid "22nd"
 msgstr "22º"
 
-#: ../src/Games/Logic/PuzzlePeopleTable.cs:83
+#: ../src/Games/Logic/PuzzlePeopleTable.cs:70
 msgid "Two people in the table sitting across from each other"
 msgstr "Dos personas en la mesa sentadas una frente a la otra"
 
@@ -5765,12 +5565,12 @@ msgstr "Texto coloreado"
 msgid "What was the color of the text that said '{0}'?"
 msgstr "¿Cuál era el color del texto que decía «{0}»?"
 
-#: ../src/Games/Memory/MemoryCountDots.cs:39
+#: ../src/Games/Memory/MemoryCountDots.cs:38
 msgid "Counting dots"
 msgstr "Contar puntos"
 
 #. Translators: {0} is the name of the color. The color name is always singular
-#: ../src/Games/Memory/MemoryCountDots.cs:50
+#: ../src/Games/Memory/MemoryCountDots.cs:49
 #, csharp-format
 msgid ""
 "How many dots of {0} color were in the previous image? Answer using numbers."
@@ -6314,6 +6114,150 @@ msgstr[1] ""
 "Juan necesita [john_time] horas para limpiar un almacén y su amigo tarda el "
 "doble de tiempo. ¿Cuántas horas tardarán en limpiar el almacén si trabajan "
 "juntos? [option_answers]"
+
+#~ msgid "Add-in Manager"
+#~ msgstr "Gestor de complementos"
+
+#~ msgid "Additional extensions are required to perform this operation."
+#~ msgstr "Se necesitan extensiones adicionales para realizar esta operación."
+
+#~ msgid "The following add-ins will be installed:"
+#~ msgstr "Se instalarán los siguientes complementos:"
+
+#~ msgid "<big><b>Add-in Manager</b></big>"
+#~ msgstr "<big><b>Gestor de complementos</b></big>"
+
+#~ msgid "The following add-ins are currently installed:"
+#~ msgstr "Los siguientes complementos están instalados actualmente:"
+
+#~ msgid "_Install Add-ins..."
+#~ msgstr "_Instalar complementos…"
+
+#~ msgid "_Repositories..."
+#~ msgstr "_Repositorios…"
+
+#~ msgid "_Uninstall..."
+#~ msgstr "_Desinstalar…"
+
+#~ msgid "Enable"
+#~ msgstr "Activar"
+
+#~ msgid "Disable"
+#~ msgstr "Deshabilitar"
+
+#~ msgid "Add-in"
+#~ msgstr "Complemento"
+
+#~ msgid "Version"
+#~ msgstr "Versión"
+
+#~ msgid "Other"
+#~ msgstr "Otro"
+
+#~ msgid "Version:"
+#~ msgstr "Versión:"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Copyright:"
+
+#~ msgid "Add-in Dependencies:"
+#~ msgstr "Dependencias de los complementos:"
+
+#~ msgid "<b>Select the add-ins to install and click on Next</b>"
+#~ msgstr ""
+#~ "<b>Seleccionar los complementos para instalar y pulsar Siguiente</b>"
+
+#~ msgid "Show all packages"
+#~ msgstr "Mostrar todos los paquetes"
+
+#~ msgid "Show new versions only"
+#~ msgstr "Mostrar sólo las nuevas versiones"
+
+#~ msgid "Show updates only"
+#~ msgstr "Mostrar sólo las actualizaciones"
+
+#~ msgid "_Unselect All"
+#~ msgstr "_Deseleccionar todo"
+
+#~ msgid "Select _All"
+#~ msgstr "Seleccionar _todo"
+
+#~ msgid "Add-in Installation"
+#~ msgstr "Instalación de complementos"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Url"
+#~ msgstr "URL"
+
+#~ msgid "Install from:"
+#~ msgstr "Instalar desde:"
+
+#~ msgid "Repository"
+#~ msgstr "Repositorio"
+
+#~ msgid "All registered repositories"
+#~ msgstr "Todos los repositorios registrados"
+
+#~ msgid "Register an on-line repository"
+#~ msgstr "Registrar un repositorio en línea"
+
+#~ msgid "Select the location of the repository you want to register:"
+#~ msgstr "Seleccionar la ubicación del repositorio que quiere registrar:"
+
+#~ msgid "Register a local repository"
+#~ msgstr "Registrar un repositorio local"
+
+#~ msgid "Url:"
+#~ msgstr "URL:"
+
+#~ msgid "Path:"
+#~ msgstr "Ruta:"
+
+#~ msgid "Installed"
+#~ msgstr "Instalado"
+
+#~ msgid "Updates"
+#~ msgstr "Actualizaciones"
+
+#~ msgid "Repository:"
+#~ msgstr "Repositorio:"
+
+#~ msgid "Install from file..."
+#~ msgstr "Instalar desde archivo…"
+
+#~ msgid "No selection"
+#~ msgstr "No hay selección"
+
+#~ msgid "No add-ins found"
+#~ msgstr "No se han encontrado complementos"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualizar"
+
+#~ msgid "Add-in packages"
+#~ msgstr "Paquetedes de complementos"
+
+#~ msgid "Install Add-in Package"
+#~ msgstr "Instalar paquete de complementos"
+
+#~ msgid "All repositories"
+#~ msgstr "Todos los repositorios"
+
+#~ msgid "Manage Repositories..."
+#~ msgstr "Gestionar repositorios…"
+
+#~ msgid "Add-in Repository Management"
+#~ msgstr "Gestión del repositorio de complementos"
+
+#~ msgid "{0} update available"
+#~ msgid_plural "{0} updates available"
+#~ msgstr[0] "{0} actualización disponible"
+#~ msgstr[1] "{0} actualizaciones disponibles"
 
 #~ msgid "(built on {0})"
 #~ msgstr "(construido en {0})"
