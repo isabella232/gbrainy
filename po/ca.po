@@ -84,7 +84,7 @@ msgstr ""
 
 #: ../data/games.xml.h:11
 msgid "Tennis game"
-msgstr "Partida de tennis"
+msgstr "Partida de tenis"
 
 #: ../data/games.xml.h:12
 msgid ""
@@ -777,7 +777,7 @@ msgstr "Bàsquet"
 
 #: ../data/verbal_analogies.xml.h:8
 msgid "Tennis"
-msgstr "Tennis"
+msgstr "Tenis"
 
 #: ../data/verbal_analogies.xml.h:9
 msgid "Cycling"
@@ -2439,7 +2439,7 @@ msgstr "agre"
 
 #: ../data/verbal_analogies.xml.h:454
 msgid "tennis / sport | ballet"
-msgstr "tennis / esport | ballet"
+msgstr "tenis / esport | ballet"
 
 #. Translators: 'dance' is used as a noun
 #: ../data/verbal_analogies.xml.h:456
@@ -4495,7 +4495,7 @@ msgid ""
 "circles, 'D' that the figures are separated, 'E' that there are three "
 "figures and 'F' that there are two figures."
 msgstr ""
-"«A» indica que les figures se solapen, «B» que són quadrats, «C» que són "
+"«A» indica que les figures se superposen, «B» que són quadrats, «C» que són "
 "cercles, «D» que són figures separades, «E» que hi ha tres figures i «F» que "
 "hi ha dues figures."
 
@@ -5393,7 +5393,7 @@ msgstr "Alguns que van a fer un tomb se senten millor"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:126
 msgid "No one feels better who does not go out for a walk"
-msgstr "Ningú que no fa un tomb se sent millor"
+msgstr "Ningú se sent millor que qui no va a fer un tomb"
 
 #: ../src/Games/Logic/PuzzlePredicateLogic.cs:132
 msgid "Predicate logic"
@@ -6213,9 +6213,9 @@ msgid_plural ""
 "There are [games] tennis games played simultaneously. How many different "
 "forecasts are possible?"
 msgstr[0] ""
-"Es juga [games] partit de tennis. Quants resultats diferents són possibles?"
+"Es juga [games] partit de tenis. Quants resultats diferents són possibles?"
 msgstr[1] ""
-"Es juguen [games] partits de tennis simultàniament. Quants resultats "
+"Es juguen [games] partits de tenis simultàniament. Quants resultats "
 "diferents són possibles?"
 
 #: ../tools/GameXmlGetString.cs:55
@@ -6228,13 +6228,13 @@ msgid_plural ""
 "to a single opponent. How many matches does it take to determine the winner "
 "of a tennis tournament that starts with [players] players?"
 msgstr[0] ""
-"En un torneig de tennis, en cada partit un jugador és eliminat després de "
+"En un torneig de tenis, en cada partit un jugador és eliminat després de "
 "perdre contra un únic oponent. Quants partits calen per a determinar el "
-"guanyador a un torneig de tennis que comença amb [players] jugador?"
+"guanyador a un torneig de tenis que comença amb [players] jugador?"
 msgstr[1] ""
-"En un torneig de tennis, en cada partit un jugador és eliminat després de "
+"En un torneig de tenis, en cada partit un jugador és eliminat després de "
 "perdre contra un únic oponent. Quants partits calen per a determinar el "
-"guanyador a un torneig de tennis que comença amb [players] jugadors?"
+"guanyador a un torneig de tenis que comença amb [players] jugadors?"
 
 #: ../tools/GameXmlGetString.cs:59
 msgid ""
