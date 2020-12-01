@@ -3725,7 +3725,7 @@ msgstr "Consells per a les properes partides"
 
 #: ../src/Core/Views/FinishView.cs:215
 msgid "Congratulations! New personal record"
-msgstr "Enhorabona! Nou record personal"
+msgstr "Enhorabona! Nou rècord personal"
 
 #: ../src/Core/Views/FinishView.cs:225
 #, csharp-format
@@ -3733,8 +3733,8 @@ msgid ""
 "By scoring {0} in logic puzzle games you have established a new personal "
 "record. Your previous record was {1}."
 msgstr ""
-"En puntuar {0} als trencaclosques lògics heu assolit un nou record personal. "
-"El vostre record anterior era {1}."
+"En puntuar {0} als trencaclosques lògics heu assolit un nou rècord personal. "
+"El vostre rècord anterior era {1}."
 
 #: ../src/Core/Views/FinishView.cs:231
 #, csharp-format
@@ -3742,8 +3742,8 @@ msgid ""
 "By scoring {0} in calculation games you have established a new personal "
 "record. Your previous record was {1}."
 msgstr ""
-"En puntuar {0} als jocs de càlcul mental heu assolit un nou record personal. "
-"El vostre record anterior era {1}."
+"En puntuar {0} als jocs de càlcul mental heu assolit un nou rècord personal. "
+"El vostre rècord anterior era {1}."
 
 #: ../src/Core/Views/FinishView.cs:237
 #, csharp-format
@@ -3751,8 +3751,8 @@ msgid ""
 "By scoring {0} in memory games you have established a new personal record. "
 "Your previous record was {1}."
 msgstr ""
-"En puntuar {0} als jocs de memòria heu assolit un nou record personal. El "
-"vostre record anterior era {1}."
+"En puntuar {0} als jocs de memòria heu assolit un nou rècord personal. El "
+"vostre rècord anterior era {1}."
 
 #: ../src/Core/Views/FinishView.cs:243
 #, csharp-format
@@ -3760,8 +3760,8 @@ msgid ""
 "By scoring {0} in verbal analogies you have established a new personal "
 "record. Your previous record was {1}."
 msgstr ""
-"En puntuar {0} a les analogies verbals heu assolit un nou record personal. "
-"El vostre record anterior era {1}."
+"En puntuar {0} a les analogies verbals heu assolit un nou rècord personal. "
+"El vostre rècord anterior era {1}."
 
 #: ../src/Core/Views/PlayerHistoryView.cs:274
 msgid "Time"
