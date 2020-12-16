@@ -1,14 +1,14 @@
 # Indonesian translation for gbrainy.
 # Copyright (C) 2010 gbrainy's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gbrainy package.
-# Andika Triwidada <andika@gmail.com>, 2010.
+# Andika Triwidada <andika@gmail.com>, 2010, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gbrainy master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gbrainy/issues\n"
-"POT-Creation-Date: 2020-07-18 16:33+0000\n"
-"PO-Revision-Date: 2020-10-08 11:12+0700\n"
+"POT-Creation-Date: 2020-10-08 04:14+0000\n"
+"PO-Revision-Date: 2020-11-18 14:01+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.oeg>\n"
 "Language: id\n"
@@ -16,13 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #: ../data/games.xml.h:1
-#, fuzzy
-#| msgid "Clock Rotation"
 msgid "Clock rotation"
-msgstr "Putaran Jarum Jam"
+msgstr "Putaran jarum jam"
 
 #: ../data/games.xml.h:2
 msgid "Every hour rotates 360 degrees."
@@ -42,30 +40,27 @@ msgstr ""
 "saudara laki-laki maupun saudara perempuan?"
 
 #: ../data/games.xml.h:5
-#, fuzzy
-#| msgid ""
-#| "[brothers_only] people have brothers only, [sisters_only] sisters only "
-#| "and [both] have sisters and brothers."
 msgid ""
 "It is calculated by taking the total number of people minus [brothers_only] "
 "people that have brothers only, minus [sisters_only] that have sisters only "
 "and minus [both] that have sisters and brothers."
 msgstr ""
-"[brothers_only] orang hanya punya saudara laki-laki, [sisters_only] hanya "
-"perempuan, dan [both] punya keduanya."
+"Ini dihitung dengan mengambil jumlah total orang dikurangi [brothers_only] "
+"orang yang memiliki saudara laki-laki saja, dikurangi [sisters_only] yang "
+"memiliki saudara perempuan saja, dan dikurangi [both] yang memiliki saudara "
+"perempuan dan saudara laki-laki."
 
 #: ../data/games.xml.h:6
 msgid "Age"
 msgstr "Usia"
 
 #: ../data/games.xml.h:7
-#, fuzzy
 msgid ""
 "John's son age is nowadays half of John's age minus [difference], that is, "
 "([father] / 2) - [difference]."
 msgstr ""
-"Usia putra John saat ini setengah dari usia Yohanes dikurangi [perbedaan], "
-"yaitu, ([ayah] / 2) - [perbedaan]."
+"Usia putra John saat ini setengah dari usia John dikurangi [difference], "
+"yaitu, ([father] / 2) - [difference]."
 
 #: ../data/games.xml.h:8
 msgid "Password"
@@ -100,26 +95,18 @@ msgstr ""
 "Cacah kemungkinan total adalah 2 pangkat [games]."
 
 #: ../data/games.xml.h:13
-#, fuzzy
-#| msgid ""
-#| "In every match you eliminate one player, you need the total number of "
-#| "games minus 1 to find out the winner."
 msgid ""
 "In every match you eliminate one player. Therefore, the result is the total "
 "number of player minus one."
 msgstr ""
-"Dalam setiap pertandingan Anda mengeliminasi satu pemain, Anda perlu cacah "
-"total permainan minus 1 untuk memperoleh pemenang."
+"Dalam setiap pertandingan Anda menyingkirkan satu pemain. Oleh karena itu, "
+"hasilnya adalah jumlah total pemain dikurangi satu."
 
 #: ../data/games.xml.h:14
 msgid "Bank interest"
 msgstr "Bunga bank"
 
 #: ../data/games.xml.h:15
-#, fuzzy
-#| msgid ""
-#| "Compound interest is paid on the original amount and on the accumulated "
-#| "past interest."
 msgid ""
 "Compound interest is paid on the principal plus any past interest "
 "accumulated."
@@ -192,15 +179,11 @@ msgstr "Kotak"
 
 #. Translators: 0.5 should be formatted correctly to your locale, using "," for example instead of "." if this is the convention for your language.
 #: ../data/games.xml.h:33
-#, fuzzy
-#| msgid ""
-#| "How many boxes measuring 1 x 1 x 0.5 can be packed into a container "
-#| "measuring 6 x 5 x [z]?"
 msgid ""
 "How many boxes measuring 1 x 1 x 0.5 can be fit into a container measuring 6 "
 "x 5 x [z]?"
 msgstr ""
-"Berapa kotak berukuran 1 x 1 x 0,5 dapat ditata ke dalam suatu wadah "
+"Berapa kotak berukuran 1 x 1 x 0,5 dapat dimasukkan ke dalam suatu wadah "
 "berukuran 6 x 5 x [z]?"
 
 #: ../data/games.xml.h:34
@@ -212,11 +195,6 @@ msgid "Palindromic years"
 msgstr "Tahun-tahun palindrom"
 
 #: ../data/games.xml.h:36
-#, fuzzy
-#| msgid ""
-#| "[year_start] was a palindromic year as [year_end] was, a gap of 11 years. "
-#| "What are the next two consecutive palindromic years after [year_end] with "
-#| "the same gap?"
 msgid ""
 "[year_start] is a palindromic year as [year_end] is, a gap of 11 years. What "
 "are the next two consecutive palindromic years after [year_end] with the "
@@ -224,7 +202,7 @@ msgid ""
 msgstr ""
 "[year_start] adalah tahun palindrom seperti [year_end], dengan selisih 11 "
 "tahun. Apa dua tahun palindrom berturutan setelah [year_end] dengan selisih "
-"yang sama?"
+"yang sama? Jawab memakai dua angka: (mis.: [year_start] dan [year_end])."
 
 #: ../data/games.xml.h:37
 msgid ""
@@ -238,16 +216,12 @@ msgid "[rslt_a] and [rslt_b]"
 msgstr "[rslt_a] dan [rslt_b]"
 
 #: ../data/games.xml.h:39
-#, fuzzy
-#| msgid ""
-#| "Palindrome years occur usually at 110 year intervals except for the end "
-#| "of each millennium that occur at a 11 years interval."
 msgid ""
 "From year 1000 to year 10000, palindrome years occur at 110 year intervals "
 "except for the end of each millennium that occur at a 11 years interval."
 msgstr ""
-"Tahun palindrom biasanya terjadi pada selang 110 tahun, kecuali di akhir "
-"milenium,  terjadi pada selang 11 tahun."
+"Dari tahun 1000 ke tahun 10000, tahun-tahun palindrom biasanya terjadi pada "
+"selang 110 tahun kecuali di akhir milenium yang terjadi pada selang 11 tahun."
 
 #: ../data/games.xml.h:40
 #, fuzzy
@@ -271,7 +245,6 @@ msgstr ""
 "Hanya 3 dari 4 angka di dartboard yang digunakan untuk menambah 120 poin."
 
 #: ../data/games.xml.h:43
-#, fuzzy
 msgid "Horse race"
 msgstr "Pacuan kuda"
 
@@ -298,7 +271,6 @@ msgstr ""
 "[kuda])."
 
 #: ../data/games.xml.h:46
-#, fuzzy
 msgid "Lever"
 msgstr "Tuas"
 
@@ -379,31 +351,25 @@ msgid "Choose one of the following:"
 msgstr "Pilih salah satu opsi berikut:"
 
 #: ../data/games.xml.h:54
-#, fuzzy
 msgid "[option_prefix] [option_a] and [option_c]"
 msgstr "[option_prefix] [option_a] dan [option_c]"
 
 #: ../data/games.xml.h:55
-#, fuzzy
 msgid "[option_prefix] [option_a] and [option_b]"
 msgstr "[option_prefix] [option_a] dan [option_b]"
 
 #: ../data/games.xml.h:56
-#, fuzzy
 msgid "[option_prefix] [option_b] and [option_c]"
 msgstr "[option_prefix] [option_b] dan [option_c]"
 
 #: ../data/games.xml.h:57
-#, fuzzy
 msgid "[option_prefix] [option_c] and [option_d]"
 msgstr "[option_prefix] [option_c] dan [option_d]"
 
 #. Since this a multioption the answer string is set to option | this string, what makes answer_show is not useful here
 #: ../data/games.xml.h:59
-#, fuzzy
-#| msgid "[rslt_a] and [rslt_b]"
 msgid "[option_a] and [option_b]"
-msgstr "[option_prefix] [option_a] dan [option_b]"
+msgstr "[option_a] dan [option_b]"
 
 #: ../data/games.xml.h:60
 #, fuzzy
@@ -411,7 +377,6 @@ msgid "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
 msgstr "[option_a] and [option_b] are both multiples of [num_x] and [num_y]."
 
 #: ../data/games.xml.h:61
-#, fuzzy
 msgid "Cars in town"
 msgstr "Mobil di kota"
 
@@ -427,22 +392,22 @@ msgstr ""
 "mobil? Apa yang kau option_answers."
 
 #: ../data/games.xml.h:65
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "[option_prefix] [option_a]%"
-msgstr "[option_prefix] [option_c] dan [option_d]"
+msgstr "[option_prefix] [option_a]%"
 
 #: ../data/games.xml.h:67
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "[option_prefix] [option_b]%"
-msgstr "[option_prefix] [option_b] dan [option_c]"
+msgstr "[option_prefix] [option_b]%"
 
 #: ../data/games.xml.h:69
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "[option_prefix] [option_c]%"
-msgstr "[option_prefix] [option_c] dan [option_d]"
+msgstr "[option_prefix] [option_c]%"
 
 #: ../data/games.xml.h:71
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "[option_prefix] [option_d]%"
 msgstr "[option_prefix] [option_d]%"
 
@@ -470,22 +435,18 @@ msgstr ""
 "mana dari opsi berikut yang benar? Apa yang kau option_answers."
 
 #: ../data/games.xml.h:76
-#, fuzzy
 msgid "[option_prefix] s > p"
 msgstr "[option_prefix] s > p"
 
 #: ../data/games.xml.h:77
-#, fuzzy
 msgid "[option_prefix] p < r"
 msgstr "[option_prefix] p < r"
 
 #: ../data/games.xml.h:78
-#, fuzzy
 msgid "[option_prefix] p > r"
 msgstr "[option_prefix] p > r"
 
 #: ../data/games.xml.h:79
-#, fuzzy
 msgid "[option_prefix] q = s"
 msgstr "[option_prefix] q = s"
 
@@ -504,7 +465,6 @@ msgstr ""
 "which of the following options is correct? [option_answers]"
 
 #: ../data/games.xml.h:82
-#, fuzzy
 msgid "[option_prefix] r < q"
 msgstr "[option_prefix] r < q"
 
@@ -529,22 +489,18 @@ msgstr ""
 "option_answers."
 
 #: ../data/games.xml.h:86
-#, fuzzy
 msgid "[option_prefix] 2x + y"
 msgstr "[option_prefix] 2x + y"
 
 #: ../data/games.xml.h:87
-#, fuzzy
 msgid "[option_prefix] x * y"
 msgstr "[option_prefix] x * y"
 
 #: ../data/games.xml.h:88
-#, fuzzy
 msgid "[option_prefix] x * y * 2"
 msgstr "[option_prefix] x * y * 2"
 
 #: ../data/games.xml.h:89
-#, fuzzy
 msgid "[option_prefix] (x - y) * 2"
 msgstr "[option_prefix] (x - y) * 2"
 
@@ -1115,7 +1071,6 @@ msgid "Violin"
 msgstr "Biola"
 
 #: ../data/verbal_analogies.xml.h:58
-#, fuzzy
 msgid "Bassoon"
 msgstr "Bassoon"
 
@@ -1132,7 +1087,6 @@ msgid "It is the only one that is not a woodwind instrument."
 msgstr "Satu-satunya yang bukan instrumen tiup berbahan kayu."
 
 #: ../data/verbal_analogies.xml.h:62
-#, fuzzy
 msgid "What is a 'halberd'?"
 msgstr "Apa itu 'halberd'?"
 
@@ -1157,7 +1111,6 @@ msgid "Fossil"
 msgstr "Fosil"
 
 #: ../data/verbal_analogies.xml.h:68
-#, fuzzy
 msgid "Portico"
 msgstr "Portico"
 
@@ -1174,15 +1127,12 @@ msgid "It is the only one that is not related to architecture."
 msgstr "Satu-satunya yang tak berhubungan dengan arkitektur."
 
 #: ../data/verbal_analogies.xml.h:72
-#, fuzzy
-#| msgid "Centimeter"
 msgid "Kilometer"
 msgstr "Kilometer"
 
 #: ../data/verbal_analogies.xml.h:73
-#, fuzzy
 msgid "Hectogram"
-msgstr "Hectogram"
+msgstr "Hektogram"
 
 #: ../data/verbal_analogies.xml.h:74
 msgid "Liter"
@@ -1194,13 +1144,12 @@ msgstr "Galon"
 
 #: ../data/verbal_analogies.xml.h:76
 msgid "It is the only unit that does not belong to the metric system."
-msgstr "Satu-satunya yang tidak termasuk sistem metrik."
+msgstr "Satu-satunya satuan yang tidak termasuk sistem metrik."
 
 #. Translators: refers to the fruit
 #: ../data/verbal_analogies.xml.h:78
-#, fuzzy
 msgid "Orange"
-msgstr "Oranye"
+msgstr "Jeruk"
 
 #: ../data/verbal_analogies.xml.h:79
 msgid "Apple"
@@ -3216,7 +3165,6 @@ msgstr[0] "Ini dibangun menggunakan hasil dari {0} permainan yang direkam."
 #: ../src/Core/Main/Verbal/AnalogiesPairOfWordsCompare.cs:73
 #: ../src/Games/Logic/PuzzleCountSeries.cs:91
 #, csharp-format
-#| msgid "{0}) {1}"
 msgid "{0} {1}"
 msgstr "{0} {1}"
 
@@ -3844,14 +3792,12 @@ msgstr "Permainan: {0}"
 #. Translators: text in the status bar: games played - time - game name
 #: ../src/Core/Main/GameSession.cs:189
 #, csharp-format
-#| msgid "{0} and {1}"
 msgid "{0} - {1} - {2}"
 msgstr "{0} - {1} - {2}"
 
 #. Translators: text in the status bar: games played - time
 #: ../src/Core/Main/GameSession.cs:192
 #, csharp-format
-#| msgid "{0}) {1}"
 msgid "{0} - {1}"
 msgstr "{0} - {1}"
 
@@ -4776,7 +4722,6 @@ msgstr ""
 #. Translators: A sequence of numbers 1, 2, 3, etc.
 #: ../src/Games/Logic/PuzzleCountSeries.cs:84
 #, csharp-format
-#| msgid "{0}) {1}"
 msgid "{0}, {1}"
 msgstr "{0}, {1}"
 
