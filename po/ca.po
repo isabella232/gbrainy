@@ -1120,7 +1120,7 @@ msgstr "Abstinència"
 msgid ""
 "The ethical doctrine holding that only what is pleasant is an intrinsic good."
 msgstr ""
-"La doctrina ètica que considerà que només el que dóna plaer és un bé "
+"La doctrina ètica que considerà que només el que dona plaer és un bé "
 "intrínsec."
 
 #: ../data/verbal_analogies.xml.h:99
@@ -2062,7 +2062,7 @@ msgstr "Tancar"
 msgid ""
 "To make both objects work, a button needs to be pushed and a key needs to be "
 "turned."
-msgstr "Per fer funcionar els dos objectes, cal prémer el botó i girar la clau."
+msgstr "Per a fer funcionar els dos objectes, cal prémer el botó i girar la clau."
 
 #: ../data/verbal_analogies.xml.h:346
 msgid "concept / idea | obsession"
@@ -2155,7 +2155,7 @@ msgstr "pessimista / optimista | sospitós"
 #. Translator: Used as an adjective in English
 #: ../data/verbal_analogies.xml.h:372
 msgid "Trusting"
-msgstr "Dóna confiança"
+msgstr "Dona confiança"
 
 #: ../data/verbal_analogies.xml.h:373
 msgid "Dubious"
@@ -2885,7 +2885,7 @@ msgstr "<b>Historial de partides del jugador</b>"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:16
 msgid "Minimum number of played games to store the game session:"
-msgstr "Nombre mínim de jocs jugats per desar la partida:"
+msgstr "Nombre mínim de jocs jugats per a desar la partida:"
 
 #: ../src/Clients/Classical/Dialogs/ui/PreferencesDialog.ui.h:17
 msgid "Maximum number of records in the player's game session history:"
@@ -2923,7 +2923,7 @@ msgid ""
 msgstr ""
 "És possible que es mostrin jocs parcialment traduïts. Això fa que jugar al "
 "gbrainy pugui ser sigui més difícil. Si preferiu jugar en anglès, hi ha una "
-"opció a les Preferències del gbrainy per fer-ho."
+"opció a les Preferències del gbrainy per a fer-ho."
 
 #: ../src/Clients/Classical/gbrainy.cs:621
 #: ../src/Clients/Classical/Widgets/Toolbar.cs:141
@@ -3502,7 +3502,7 @@ msgid ""
 "To score the player gbrainy uses the time and tips needed to complete each "
 "game."
 msgstr ""
-"Per puntuar al jugador gbrainy utilitza el temps i les pistes utilitzades "
+"Per a puntuar al jugador gbrainy utilitza el temps i les pistes utilitzades "
 "per a resoldre cada joc."
 
 #: ../src/Core/Main/GameTips.cs:61
@@ -4084,7 +4084,7 @@ msgid ""
 "last figure to keep it balanced?"
 msgstr ""
 "Utilitzant només triangles, quants triangles són necessaris en la part dreta "
-"de l'última balança per mantenir-la en equilibri?"
+"de l'última balança per a mantenir-la en equilibri?"
 
 #: ../src/Games/Logic/PuzzleBalance.cs:56
 msgid ""

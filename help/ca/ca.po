@@ -1,4 +1,3 @@
-#
 # This file is distributed under the same license as the PACKAGE package.
 # (c) 2009-2018 Jordi Mas i Hernàndez
 #
@@ -58,7 +57,7 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/customgame.page:24
 msgid "To do so, proceed as follows:"
-msgstr "Per fer-ho, procediu de la manera següent:"
+msgstr "Per a fer-ho, procediu de la manera següent:"
 
 #. (itstool) path: item/p
 #: C/customgame.page:29
@@ -87,7 +86,7 @@ msgid ""
 "playing your custom games selection."
 msgstr ""
 "Una vegada heu acabat, feu clic al botó <gui style=\"button\">Inicia</gui> "
-"per començar a jugar la selecció de jocs per la partida personalitzada."
+"per a començar a jugar la selecció de jocs per la partida personalitzada."
 
 #. (itstool) path: info/title
 #: C/gametypes.page:6
@@ -123,7 +122,7 @@ msgid ""
 "are based on sequences of elements, visual and spatial reasoning or "
 "relationships between elements."
 msgstr ""
-"Jocs dissenyats per desafiar les vostres habilitats de raonament i "
+"Jocs dissenyats per a desafiar les vostres habilitats de raonament i "
 "pensament. Aquests jocs es basen en seqüències d'elements, el raonament "
 "visual i espacial o en relacions entre elements."
 
@@ -240,7 +239,7 @@ msgid ""
 "of the work)."
 msgstr ""
 "Heu de donar crèdit al treball en la manera que especificada per l'autor o "
-"el llicenciatari (però no en cap manera que suggereixi que us dóna suport a "
+"el llicenciatari (però no en cap manera que suggereixi que us dona suport a "
 "vosaltres o l'ús que en feu del treball)."
 
 #. (itstool) path: item/title
@@ -266,7 +265,7 @@ msgid ""
 "link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
-"Per accedir al text complet de la llicència, visiteu el lloc web de <link "
+"Per a accedir al text complet de la llicència, visiteu el lloc web de <link "
 "href=\"https://creativecommons.org/licenses/by-sa/3.0/legalcode"
 "\">CreativeCommons</link>, o llegiu el text <link href=\"https://"
 "creativecommons.org/licenses/by-sa/3.0/deed.ca\">Commons Deed</link>."
@@ -298,7 +297,7 @@ msgid ""
 "To pause a game so that you can resume it at the same point at a later time, "
 "perform one of the following:"
 msgstr ""
-"Per fer pausa a una partida i així poder continuar-la al mateix punt més "
+"Per a fer pausa a una partida i així poder continuar-la al mateix punt més "
 "endavant, feu una de les accions següents:"
 
 #. (itstool) path: item/p
@@ -499,7 +498,7 @@ msgstr "Canviar el nombre de jocs desats"
 msgid ""
 "<app>gbrainy</app> saves the player's scores so it can track how they evolve."
 msgstr ""
-"El <app>gbrainy</app> desa les puntuacions del jugador per poder fer un "
+"El <app>gbrainy</app> desa les puntuacions del jugador per a poder fer un "
 "seguiment de la seva progressió."
 
 #. (itstool) path: section/p
@@ -531,9 +530,9 @@ msgid ""
 "Use the first spin box to change how many game sessions need to be recorded "
 "before you can start to see the results in the history graphic."
 msgstr ""
-"Utilitzeu el botó de selecció de valor per canviar quantes partides cal que "
-"s'emmagatzemin abans que comencin a mostrar-se els resultats al gràfic de "
-"l'historial."
+"Utilitzeu el botó de selecció de valor per a canviar quantes partides cal "
+"que s'emmagatzemin abans que comencin a mostrar-se els resultats al gràfic "
+"de l'historial."
 
 #. (itstool) path: item/p
 #: C/history.page:68
@@ -724,7 +723,7 @@ msgid ""
 "level; and on the logarithm of 30 for the master level."
 msgstr ""
 "El <app>gbrainy</app> fa un seguiment dels diferents tipus de jocs jugats. "
-"Per calcular la puntuació final de cada conjunt de tipus de jocs suma tots "
+"Per a calcular la puntuació final de cada conjunt de tipus de jocs suma tots "
 "els resultats dels mateixos tipus de jocs i després aplica un factor basat "
 "en: el logaritme de 10 per al nivell de dificultat fàcil; 20 per al nivell "
 "mitjà; i 30 per al nivell de dificultat mestre."
@@ -736,7 +735,7 @@ msgid ""
 "100 points you need to score 10 points on at least 20 games of every game "
 "type played."
 msgstr ""
-"Això vol dir que quan es juga en el nivell de dificultat mitjà, per "
+"Això vol dir que quan es juga en el nivell de dificultat mitjà, per a "
 "aconseguir una puntuació de 100 punts necessiteu obtenir 10 punts en almenys "
 "20 de tots els tipus de jocs que heu jugat."
 
@@ -767,7 +766,7 @@ msgid ""
 "<app>gbrainy</app> is a brain teaser game; the aim of the game is to have "
 "fun and keep your brain trained."
 msgstr ""
-"El <app>gbrainy</app> és un joc per divertir-se i mantenir el vostre cervell "
+"El <app>gbrainy</app> és un joc per a divertir-se i mantenir el vostre cervell "
 "entrenat."
 
 #. (itstool) path: page/p
@@ -778,7 +777,7 @@ msgid ""
 "cognitive skills."
 msgstr ""
 "Inclou diferents tipus de jocs com trencaclosques lògics, jocs de càlcul "
-"mental, entrenadors de memòria i analogies verbals, dissenyats per posar a "
+"mental, entrenadors de memòria i analogies verbals, dissenyats per a posar a "
 "prova diferents habilitats cognitives."
 
 #. (itstool) path: page/p
@@ -794,9 +793,9 @@ msgstr ""
 "app> sigui entretingut per la canalla, els adults o les persones grans. "
 "Inclou també historial de partides del jugador, rècords personals del "
 "jugador, consells pel jugador i compatibilitat amb pantalla completa. El "
-"<app>gbrainy</app> també pot ser <link href=\"https://wiki.gnome.org/Apps/gbrainy/Extending"
-"\">estès</link> fàcilment amb nous jocs desenvolupats per terceres "
-"persones."
+"<app>gbrainy</app> també pot ser <link href=\"https://wiki.gnome.org/Apps/"
+"gbrainy/Extending\">estès</link> fàcilment amb nous jocs desenvolupats per "
+"terceres persones."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:37
@@ -1032,8 +1031,8 @@ msgid ""
 "To change the number of seconds you are given to memorize the challenge when "
 "playing memory games, proceed as follows:"
 msgstr ""
-"Per canviar el nombre de segons que disposeu per a memoritzar el desafiament "
-"en jocs de memòria, procediu de la manera següent:"
+"Per a canviar el nombre de segons que disposeu per a memoritzar el "
+"desafiament en jocs de memòria, procediu de la manera següent:"
 
 #. (itstool) path: item/p
 #: C/times.page:31
@@ -1067,7 +1066,7 @@ msgid ""
 "playing while not at the computer."
 msgstr ""
 "És possible exportar i llavors imprimir els jocs proveïts per l'aplicació "
-"per poder jugar-hi quan no sou davant de l'ordinador."
+"per a poder jugar-hi quan no sou davant de l'ordinador."
 
 #. (itstool) path: page/p
 #: C/export.page:25
