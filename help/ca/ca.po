@@ -138,7 +138,7 @@ msgid ""
 "calculation skills. Games that require the player to use multiplication, "
 "division, addition and subtraction combined in different ways."
 msgstr ""
-"Jocs basats en operacions aritmètiques dissenyats per provar les vostres "
+"Jocs basats en operacions aritmètiques dissenyats per a provar les vostres "
 "habilitats de càlcul mental. Aquests jocs requereixen que el jugador "
 "utilitzi la multiplicació, la divisió, la suma i la resta combinades de "
 "diferents maneres."
@@ -156,9 +156,9 @@ msgid ""
 "collections of objects and ask the player to recall them, sometimes "
 "establishing relationships between figures, words, numbers or colors."
 msgstr ""
-"Jocs dissenyats per desafiar la vostra memòria a curt termini. Aquests jocs "
-"mostren col·leccions d'objectes i demanen al jugador recordar-les, a vegades "
-"establint relacions entre figures, paraules, números o colors."
+"Jocs dissenyats per a desafiar la vostra memòria a curt termini. Aquests "
+"jocs mostren col·leccions d'objectes i demanen al jugador recordar-les, a "
+"vegades establint relacions entre figures, paraules, números o colors."
 
 #. (itstool) path: item/title
 #. (itstool) path: td/p
@@ -766,8 +766,8 @@ msgid ""
 "<app>gbrainy</app> is a brain teaser game; the aim of the game is to have "
 "fun and keep your brain trained."
 msgstr ""
-"El <app>gbrainy</app> és un joc per a divertir-se i mantenir el vostre cervell "
-"entrenat."
+"El <app>gbrainy</app> és un joc per a divertir-se i mantenir el vostre "
+"cervell entrenat."
 
 #. (itstool) path: page/p
 #: C/gameplay.page:26
