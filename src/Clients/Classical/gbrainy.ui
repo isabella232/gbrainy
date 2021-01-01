@@ -329,15 +329,6 @@
                       </object>
                     </child>
                     <child>
-                      <object class="GtkMenuItem" id="extend_menuitem">
-                        <property name="visible">True</property>
-                        <property name="can_focus">False</property>
-                        <property name="label" translatable="yes">How to Extend gbrainy's Functionality</property>
-                        <property name="use_underline">True</property>
-                        <signal name="activate" handler="OnExtending" swapped="no"/>
-                      </object>
-                    </child>
-                    <child>
                       <object class="GtkImageMenuItem" id="imagemenuitem10">
                         <property name="label">gtk-about</property>
                         <property name="visible">True</property>

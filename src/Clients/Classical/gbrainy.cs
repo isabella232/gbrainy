@@ -694,11 +694,6 @@ namespace gbrainy.Clients.Classical
 			full_screen = !full_screen;
 		}
 
-		void OnExtending (object sender, EventArgs args)
-		{
-			Process.Start ("https://wiki.gnome.org/Apps/gbrainy/Extending");
-		}
-
 		static void InitCoreLibraries ()
 		{
 			new DefaultServices ().RegisterServices ();
