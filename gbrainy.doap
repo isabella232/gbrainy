@@ -15,9 +15,9 @@
 
   <release>
     <Version>
-      <revision>2.4.2</revision>
-      <created>2020-3-12</created>
-      <file-release rdf:resource="https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.4.2.tar.gz"/>
+      <revision>2.4.3</revision>
+      <created>2021-1-1</created>
+      <file-release rdf:resource="https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.4.3.tar.gz"/>
     </Version>
   </release>
 
