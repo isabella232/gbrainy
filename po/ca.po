@@ -809,7 +809,7 @@ msgstr "Gos / Gat"
 
 #: ../data/verbal_analogies.xml.h:16
 msgid "Dog and horse are species and terrier and pony are breeds."
-msgstr "Gos i cavall són especies i terrier i poni són races."
+msgstr "Gos i cavall són espècies i terrier i poni són races."
 
 #: ../data/verbal_analogies.xml.h:17
 msgid "The word 'taxidermist' is used to define a person that?"
